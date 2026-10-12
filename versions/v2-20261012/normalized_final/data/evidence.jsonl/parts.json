@@ -1,0 +1,63 @@
+{
+  "path": "normalized_final/data/evidence.jsonl",
+  "bytes": 160513307,
+  "sha256": "ae6dde12e97dc2aa6cc68cd048e782f6c61eaaa71a0ff6cee88fb0302c17fc27",
+  "parts": [
+    {
+      "path": "normalized_final/data/evidence.jsonl/part-0001.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1205128,
+      "sha256": "14cff87223264be4b504b408397eed59729ca18e62ecb8c94b8f8d20fdbaed4b",
+      "uncompressed_bytes": 20971328
+    },
+    {
+      "path": "normalized_final/data/evidence.jsonl/part-0002.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1383504,
+      "sha256": "2e5f970f13c11b35ed7d23a39b96fd64ccd346c9530ac69c43f4fe41ac96724f",
+      "uncompressed_bytes": 20970563
+    },
+    {
+      "path": "normalized_final/data/evidence.jsonl/part-0003.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1435082,
+      "sha256": "266e6f96ae4b80eb430ccf5239a2c162c3265cc87b5c585efa6050e45c1f6ab7",
+      "uncompressed_bytes": 20970416
+    },
+    {
+      "path": "normalized_final/data/evidence.jsonl/part-0004.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1040953,
+      "sha256": "33e35655e9f30b816e3065f4b7c577b659ccccb1d345f3591d4275c42ed64cf8",
+      "uncompressed_bytes": 20970330
+    },
+    {
+      "path": "normalized_final/data/evidence.jsonl/part-0005.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1081184,
+      "sha256": "a0d701b9e5cc7b0b1e6cdb5089d00050f97f56798fe63c45c401992eba8889b7",
+      "uncompressed_bytes": 20970464
+    },
+    {
+      "path": "normalized_final/data/evidence.jsonl/part-0006.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1211803,
+      "sha256": "90a4e270f1e3bba2af025e17cd052cdc11f8ac64dd5cb578c7070be4ae34b9f2",
+      "uncompressed_bytes": 20970329
+    },
+    {
+      "path": "normalized_final/data/evidence.jsonl/part-0007.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1228960,
+      "sha256": "b27cdfb4a71bea8dfade9100ae120c2b541274f07a970f12346205591bd97c6a",
+      "uncompressed_bytes": 20971210
+    },
+    {
+      "path": "normalized_final/data/evidence.jsonl/part-0008.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 863424,
+      "sha256": "21c9f9f1b0442b713100ead013b6b9f68207cf3e87d18f5a84087c9b458d2984",
+      "uncompressed_bytes": 13718667
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "path": "retrieval/same8509_final_results.jsonl.token_audit.jsonl",
+  "bytes": 21659988,
+  "sha256": "06120994fa554002d6121b720d1640f93152fc8c9521137559ecdd7dd3af2594",
+  "parts": [
+    {
+      "path": "retrieval/same8509_final_results.jsonl.token_audit.jsonl/part-0001.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 2423114,
+      "sha256": "2718be6ef2a4492987c1d7e6f0e37b5ad3a72bd2fac0fdf78f86e9e96fcc4c17",
+      "uncompressed_bytes": 20971510
+    },
+    {
+      "path": "retrieval/same8509_final_results.jsonl.token_audit.jsonl/part-0002.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 125937,
+      "sha256": "6df9205994efd6800da178f15c358e0eec134456ef061dad8d4e2571be213976",
+      "uncompressed_bytes": 688478
+    }
+  ]
+}

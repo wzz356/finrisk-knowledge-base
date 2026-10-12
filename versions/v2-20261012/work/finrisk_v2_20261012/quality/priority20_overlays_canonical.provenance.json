@@ -1,0 +1,5 @@
+{
+  "input_sha256": "f837f3fcfbdc8760aba3b1abff7de5f395e302cfbfe81339ce7fd39e52519d68",
+  "output_sha256": "3481655e077a24fee635144f1ae26fc83e681b6ae5bcd89271868d154fa3f913",
+  "only_change": "explicit overlay_kind field mirrors original kind; drafts and findings unchanged"
+}

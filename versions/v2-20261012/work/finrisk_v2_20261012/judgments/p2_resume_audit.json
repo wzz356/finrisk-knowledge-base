@@ -1,0 +1,27 @@
+{
+  "input_pairs": 205,
+  "judged_pairs": 205,
+  "contexts": 228,
+  "file_judgments": 91,
+  "cached_file_pairs": 114,
+  "new_pairs": 55,
+  "human_acceptances": 0,
+  "evaluation": "model assisted blind review",
+  "input_sha256": "87a10021c74bbb502c5feb1973081ee80a14ed39680b4c33912cf95c1fc46893",
+  "output_sha256": "e1c6f299b6524c4b13a24c4d91465b43b3c709c35fb5ab9e4c50f87c28dc7f01",
+  "initial_150_sha256": "d1c7c4c68c5e0de9b065d5be7ab8fa47bb026931249a59493be174b9a5de819e",
+  "initial_150_preserved": true,
+  "context_grade_counts": {
+    "2": 88,
+    "3": 52,
+    "1": 71,
+    "0": 17
+  },
+  "file_grade_counts": {
+    "2": 29,
+    "1": 44,
+    "3": 6,
+    "0": 12
+  },
+  "errors": []
+}

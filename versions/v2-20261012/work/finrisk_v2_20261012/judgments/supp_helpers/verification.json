@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "input_sha256": "91ab23667ef755c951242425f44adc6a3aad87c9803312ba50ce37c8fa86bd42",
+  "output_sha256": "b8064f4fd11083e79e3687d74b19395d2ada7ff6484acefb12c426d3d573f32a",
+  "pair_count": 81,
+  "file_judgment_count": 79,
+  "context_judgment_count": 83,
+  "exact_quote_checked_count": 83,
+  "context_misleading_count": 1,
+  "model_review": {
+    "pairs": 81,
+    "files": 79,
+    "contexts": 83
+  },
+  "human_judgment_count": 0,
+  "paid_api_calls": 0,
+  "reason_length_range": [
+    28,
+    38
+  ],
+  "input_access": "specified supplemental_pending.jsonl and judging_instructions.md only; helper and own output used for recording and validation"
+}

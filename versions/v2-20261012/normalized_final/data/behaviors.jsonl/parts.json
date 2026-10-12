@@ -1,0 +1,56 @@
+{
+  "path": "normalized_final/data/behaviors.jsonl",
+  "bytes": 134328196,
+  "sha256": "22faec5f9a4c35c678d14a1edcf9a7ca20e0a8f132035caafb32cb01f8e6e0fc",
+  "parts": [
+    {
+      "path": "normalized_final/data/behaviors.jsonl/part-0001.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1569793,
+      "sha256": "35cf97d9b45431fb6c7501e0aeb7b8614d0293529c439807374144fee686a824",
+      "uncompressed_bytes": 20971476
+    },
+    {
+      "path": "normalized_final/data/behaviors.jsonl/part-0002.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1595476,
+      "sha256": "c074e68f86bd715c6e276e3b21d62d0964e49eb57b1f7eef7bbe03af9b09cc1b",
+      "uncompressed_bytes": 20966871
+    },
+    {
+      "path": "normalized_final/data/behaviors.jsonl/part-0003.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1592207,
+      "sha256": "36f045821e84686028e6276eaeaf46242a93205fb8d1baf6be214d8325e5b6d9",
+      "uncompressed_bytes": 20967301
+    },
+    {
+      "path": "normalized_final/data/behaviors.jsonl/part-0004.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1594022,
+      "sha256": "86f0d9f1890364e5b590429f475989dca5cb1d8894e266eec3c992eb337cae98",
+      "uncompressed_bytes": 20970836
+    },
+    {
+      "path": "normalized_final/data/behaviors.jsonl/part-0005.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1692376,
+      "sha256": "7db2a2c1c8b8b24fdd3654102f105296158d2b87519d3272e0551abc5013f476",
+      "uncompressed_bytes": 20970122
+    },
+    {
+      "path": "normalized_final/data/behaviors.jsonl/part-0006.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1697468,
+      "sha256": "7d420b7d4752d1d9fddf44bb96ca9eeb2c4879eeaa609b4b7339ce6d5c808196",
+      "uncompressed_bytes": 20967561
+    },
+    {
+      "path": "normalized_final/data/behaviors.jsonl/part-0007.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 724437,
+      "sha256": "ea6a08138a8e070e2fa5c24b4c86f0101b7858fe95d036d7534c5041485039d7",
+      "uncompressed_bytes": 8514029
+    }
+  ]
+}

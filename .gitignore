@@ -12,3 +12,5 @@ __pycache__/
 *.npy
 *.safetensors
 models/
+
+/restored-v2/

@@ -1,0 +1,89 @@
+{
+  "batch_id": "batch_002",
+  "completed_human_review_items": 3,
+  "accepted_fact_items": 2,
+  "unrelated_retrieval_excerpts": 1,
+  "full_documents_approved": 0,
+  "records": [
+    {
+      "reviewer_kind": "human",
+      "reviewer_origin": "direct_user_message_in_current_conversation",
+      "reviewer_name": null,
+      "user_response_text": "4、5正确。6无关",
+      "recorded_at_utc": "2026-10-12T13:17:14.703756+00:00",
+      "reviewed_at": null,
+      "frozen_v2_manifest_sha256": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+      "full_document_approved": false,
+      "item_id": "B002-04",
+      "file_id": "F003945",
+      "decision": "accept_displayed_scope",
+      "text_sha256": "d6417ce43985026c6fb1aac0d14f2a0db569f01f2f5313b9de219d2d54268707",
+      "effective_draft_json_sha256": "ad389dc677dc57b966183d5a1895d0f04a11269272156d35e17cd5451cbea73e",
+      "material_packet_sha256": "d134defc9ca8206a1e842a43915b724bee6f312a740dec59260432087b0f2017",
+      "approved_scope": [
+        "wu_zhenyu:direct_behavior_subject_mapping",
+        "wu_zhenyu:risk_tag_membership:合同外利益"
+      ],
+      "approved_values": {
+        "party_name": "吴臻宇",
+        "case_local_key": "wu_zhenyu",
+        "behavior_local_key": "wu_zhenyu_main",
+        "tag": "合同外利益",
+        "fact_boundary": "公司另列委托医护人员销售健康险，不直接认定为吴臻宇实施。"
+      },
+      "presentation": "原表中公司两项行为与吴臻宇个人一项行为的对照；仅核主体区分及标签名称，不包括全部标签元数据或全文。"
+    },
+    {
+      "reviewer_kind": "human",
+      "reviewer_origin": "direct_user_message_in_current_conversation",
+      "reviewer_name": null,
+      "user_response_text": "4、5正确。6无关",
+      "recorded_at_utc": "2026-10-12T13:17:14.703756+00:00",
+      "reviewed_at": null,
+      "frozen_v2_manifest_sha256": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+      "full_document_approved": false,
+      "item_id": "B002-05",
+      "file_id": "F001901",
+      "decision": "accept_displayed_scope",
+      "text_sha256": "837af20305f3f0ddde6c8ce2ca0b651dedb21f0e1808dc6e07d514c2f27ab3fc",
+      "effective_draft_json_sha256": "51d82a3f05523514abdad7e5d52017a87db7911ed0568047637ce7ac050e189f",
+      "material_packet_sha256": "d134defc9ca8206a1e842a43915b724bee6f312a740dec59260432087b0f2017",
+      "approved_scope": [
+        {
+          "case_local_key": "tianan_anhui_false_expenses",
+          "field": "case_summary",
+          "approved_value": "都邦财产保险股份有限公司安徽分公司在2011年期间，通过虚列保险中介业务绩效工资、虚构保险中介业务套取费用；被罚款20万元。"
+        }
+      ],
+      "presentation": "都邦财险安徽分公司、2011年、虚列保险中介业务绩效工资/虚构保险中介业务套取费用、罚款20万元的摘要。"
+    },
+    {
+      "reviewer_kind": "human",
+      "reviewer_origin": "direct_user_message_in_current_conversation",
+      "reviewer_name": null,
+      "user_response_text": "4、5正确。6无关",
+      "recorded_at_utc": "2026-10-12T13:17:14.703756+00:00",
+      "reviewed_at": null,
+      "frozen_v2_manifest_sha256": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+      "full_document_approved": false,
+      "item_id": "B002-06",
+      "file_id": "F001756",
+      "query_id": "Q009",
+      "arm": "rrf",
+      "decision": "unrelated",
+      "helpful": false,
+      "numeric_help_grade": null,
+      "pair_id": "Jabe56e8fd14b",
+      "context_id": "C88c5edfcee7f",
+      "query_text": "重疾险推广拟写成只要诊断疾病就能马上拿到保险金。审稿需要确认诊断事件与合同给付条件是否相同，避免把一句方便理解的话变成无条件支付承诺。",
+      "source_text_sha256": "b664a8532c27c208695efd5d9f5f0f1246b19c94687e41805d2501a11d1d8fca",
+      "context_sha256": "88c5edfcee7f2d4330f488f7e657924d2af0cfb64a48cd6ea6519179e35d02c2",
+      "material_packet_sha256": "4b3537c130c28c5358dc68011b1d9b23348e2b89be1072ae4bcfb7a3f385c80e",
+      "approved_scope": [
+        "displayed_excerpt_relevance_and_helpfulness_for_Q009"
+      ],
+      "presented_excerpt": "上述行为有现场检查事实确认书、相关人员谈话笔录、阳光财产保险股份有限公司关爱女性团体特定疾病保险条款、业务承保档案复制件、保费入账凭证复制件……",
+      "presentation": "实际返回证据清单节选。用户判“无关”；仅该输入/片段，不将整份文书判为全局无效。"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "batch_id": "batch_003",
+  "items": [
+    {
+      "item_id": "B003-07",
+      "file_id": "F005913",
+      "effective_draft_json_sha256": "2f4d74758248436d4c89259aff7864c907f954d86ce441c7806e5f4e1b202bb2",
+      "text_sha256": "881d693ebb6c31f5db2de3cf1b1eaf4fe69c60fa4d0b8cf27e438c4871b9fc7a",
+      "cases": [
+        {
+          "local_key": "yang_yanhong",
+          "party_name": "杨艳红",
+          "penalty": {
+            "amount_quote": "二、对杨艳红警告并处罚款4万元\n",
+            "amount_yuan": 40000,
+            "basis_quote": "二、对杨艳红警告并处罚款4万元\n",
+            "currency": null,
+            "currency_quote": null,
+            "type": "罚款"
+          }
+        },
+        {
+          "local_key": "zhu_qikui",
+          "party_name": "朱起魁",
+          "penalty": {
+            "amount_quote": "三、对朱起魁警告并处罚款4万元\n",
+            "amount_yuan": 40000,
+            "basis_quote": "三、对朱起魁警告并处罚款4万元\n",
+            "currency": null,
+            "currency_quote": null,
+            "type": "罚款"
+          }
+        }
+      ],
+      "proposed_review_scope": "两笔各4万元对应各自具名原文引文，不混用同额不同主体的证据。",
+      "human_review_status": "pending",
+      "human_decision": null,
+      "reviewer": null
+    },
+    {
+      "item_id": "B003-08",
+      "file_id": "F003989",
+      "effective_draft_json_sha256": "9977dd06777871f8e79da664c9a8caee2eb91a02468b18dd76b138e6978b25fe",
+      "text_sha256": "4d55eb4a9b9320387c8febfa3fd4a608056836143205520448fdb1dfc41a8830",
+      "cases": [
+        {
+          "local_key": "yang_person1",
+          "party_name": "张艳秋",
+          "penalty": {
+            "amount_quote": null,
+            "amount_yuan": null,
+            "basis_quote": "对张艳秋、张秀美警告并罚\n款共计18万元。\n",
+            "currency": null,
+            "currency_quote": null,
+            "type": "罚款（多人合计，个人金额未载）"
+          }
+        },
+        {
+          "local_key": "yang_person2",
+          "party_name": "张秀美",
+          "penalty": {
+            "amount_quote": null,
+            "amount_yuan": null,
+            "basis_quote": "对张艳秋、张秀美警告并罚\n款共计18万元。\n",
+            "currency": null,
+            "currency_quote": null,
+            "type": "罚款（多人合计，个人金额未载）"
+          }
+        }
+      ],
+      "proposed_review_scope": "张艳秋和张秀美合计18万元保留原文，个人金额未知，不平分或各记18万元。",
+      "human_review_status": "pending",
+      "human_decision": null,
+      "reviewer": null
+    },
+    {
+      "item_id": "B003-09",
+      "file_id": "F000904",
+      "query_id": "Q039",
+      "arm": "rrf_rerank",
+      "query_text": "代理机构上一份职业责任险到期后，下一份隔了一段时间才开始生效，两张保单之间有空档。需要审核职业责任保障有没有连续覆盖经营期间，不能只看每年都买过保险。",
+      "source_text_sha256": "1ec1b585c01c6ed73f846b6de117f9d129285a04c20299b3deb51e1588c46f1c",
+      "actual_context": {
+        "ambiguity_reason": "long_parent_or_combined_context; full returned display exceeds model input character cap",
+        "context_ambiguous": false,
+        "context_id": "C0f9db451064a",
+        "context_long": true,
+        "evidence_ambiguous": true,
+        "prefix": "",
+        "prefix_evidence_ambiguous": false,
+        "source_segments": [
+          {
+            "span": {
+              "end": 392,
+              "start": 0
+            },
+            "text": "渝保监罚〔2016〕32号(盛信保险代理)\n中国保监会重庆监管局行政处罚决定书\n渝保监罚〔2016〕32号\n当事人:重庆盛信汽车保险代理有限公司\n住  所:重庆市渝北区龙溪街道松牌路521号三楼\n主要负责人:袁平\n经查实,重庆盛信汽车保险代理有限公司(以下简称:“盛信代理公司”)投保的职业责任保险,保险期间分别为2013年10月18日至2014年10月17日、2015年1月22日至2016年1月21日、2016年5月25日至2017年5月24日,保险期间不连续;盛信代理\n公司2014年、2015年营业收入分别为1081.23万元、1410.63万元,而截至2016年6月27日,盛信代理公司投保的保险期间为2015年1月22日至2016年1月21日、2016年5月25日至2017年5月24日的职业责任保险累计赔偿限额分别为500万元、\n2000万元,均低于上年营业收入的2倍。"
+          }
+        ],
+        "source_spans": [
+          {
+            "end": 392,
+            "start": 0
+          }
+        ],
+        "source_text": "渝保监罚〔2016〕32号(盛信保险代理)\n中国保监会重庆监管局行政处罚决定书\n渝保监罚〔2016〕32号\n当事人:重庆盛信汽车保险代理有限公司\n住  所:重庆市渝北区龙溪街道松牌路521号三楼\n主要负责人:袁平\n经查实,重庆盛信汽车保险代理有限公司(以下简称:“盛信代理公司”)投保的职业责任保险,保险期间分别为2013年10月18日至2014年10月17日、2015年1月22日至2016年1月21日、2016年5月25日至2017年5月24日,保险期间不连续;盛信代理\n公司2014年、2015年营业收入分别为1081.23万元、1410.63万元,而截至2016年6月27日,盛信代理公司投保的保险期间为2015年1月22日至2016年1月21日、2016年5月25日至2017年5月24日的职业责任保险累计赔偿限额分别为500万元、\n2000万元,均低于上年营业收入的2倍。",
+        "text": "渝保监罚〔2016〕32号(盛信保险代理)\n中国保监会重庆监管局行政处罚决定书\n渝保监罚〔2016〕32号\n当事人:重庆盛信汽车保险代理有限公司\n住  所:重庆市渝北区龙溪街道松牌路521号三楼\n主要负责人:袁平\n经查实,重庆盛信汽车保险代理有限公司(以下简称:“盛信代理公司”)投保的职业责任保险,保险期间分别为2013年10月18日至2014年10月17日、2015年1月22日至2016年1月21日、2016年5月25日至2017年5月24日,保险期间不连续;盛信代理\n公司2014年、2015年营业收入分别为1081.23万元、1410.63万元,而截至2016年6月27日,盛信代理公司投保的保险期间为2015年1月22日至2016年1月21日、2016年5月25日至2017年5月24日的职业责任保险累计赔偿限额分别为500万元、\n2000万元,均低于上年营业收入的2倍。"
+      },
+      "proposed_review_scope": "列明保险期间空档的实际返回片段，对连续职业责任险保障输入是否有帮助。",
+      "human_review_status": "pending",
+      "human_decision": null,
+      "reviewer": null
+    }
+  ],
+  "documents_material_packet_sha256": "d134defc9ca8206a1e842a43915b724bee6f312a740dec59260432087b0f2017",
+  "retrieval_material_packet_sha256": "4b3537c130c28c5358dc68011b1d9b23348e2b89be1072ae4bcfb7a3f385c80e"
+}

@@ -1,0 +1,111 @@
+{
+  "package_version": "FinRisk-V2-20261012",
+  "reviewer": null,
+  "reviewed_at": null,
+  "records": [
+    {
+      "file_id": "F003945",
+      "effective_draft_json_sha256": "ad389dc677dc57b966183d5a1895d0f04a11269272156d35e17cd5451cbea73e",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F003958",
+      "effective_draft_json_sha256": "4d82ef4659fc0c2a6e96d511a7116958d9fbdcb54db3e7af629c2c451c733d02",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F003989",
+      "effective_draft_json_sha256": "9977dd06777871f8e79da664c9a8caee2eb91a02468b18dd76b138e6978b25fe",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F004695",
+      "effective_draft_json_sha256": "19df5281a1d81ed451d1b0833fc56953be9d6e3e1dbbcf4e091cdd8c72e9c888",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F003992",
+      "effective_draft_json_sha256": "1b66d5f29b6d2d7b580db9475c06cc5b408212b7b641801d4ce1523ca21f0d8e",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F003693",
+      "effective_draft_json_sha256": "7509d0229682e3c16b64b4ff8237e3976ed3ad6fb43d2ff2494aa9d948bb0810",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F007059",
+      "effective_draft_json_sha256": "ce0010b6cbe9069d36ef0c5ba76d32048bdf1e0716c95fdc7c416251cd99a172",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F007506",
+      "effective_draft_json_sha256": "d2d50199c3b682b6ac52c111ae1abcb4ddfa4efea04557aea40011f31e9ca311",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F007742",
+      "effective_draft_json_sha256": "5307feeb0c961e193a79d7a7dc55bdd935aac6052773d07a63a4b3d5c52f9c99",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F001901",
+      "effective_draft_json_sha256": "51d82a3f05523514abdad7e5d52017a87db7911ed0568047637ce7ac050e189f",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F005913",
+      "effective_draft_json_sha256": "2f4d74758248436d4c89259aff7864c907f954d86ce441c7806e5f4e1b202bb2",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F004182",
+      "effective_draft_json_sha256": "68d8d98691726dc0bd4088eaa5099189dff2d32835825cc91c7c27c8f2e047eb",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    },
+    {
+      "file_id": "F005090",
+      "effective_draft_json_sha256": "30dae4bb3fd70954d9d0bf6b94b1d173a4ddd1ca5fbb13e9a402f9f83f1d6966",
+      "human_review_status": "pending",
+      "approved_scope": [],
+      "decision": null,
+      "issues": []
+    }
+  ]
+}

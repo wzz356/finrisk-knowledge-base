@@ -1,0 +1,13 @@
+{
+  "input_sha256": {
+    "same8509_p1.jsonl": "9ae20af26841eafaf5c6af316fa75f98ddf23fc63b4973e8d2225474b91b45c9",
+    "same8509_p2.jsonl": "e1c6f299b6524c4b13a24c4d91465b43b3c709c35fb5ab9e4c50f87c28dc7f01",
+    "same8509_p3.jsonl": "c8dc322ee7f0f3eb29581c53eeeca57eecd1b857c4b74ccbfc6342202199965c",
+    "all9639_supplemental.jsonl": "b8064f4fd11083e79e3687d74b19395d2ada7ff6484acefb12c426d3d573f32a"
+  },
+  "pairs": 669,
+  "contexts": 725,
+  "output_sha256": "8007461d2d89f927bbb616bc006e658b5a6cec8f88c250aa42e7aff4e29d6195",
+  "code_sha256": "ddeaf0c641b04c06a6f33a052e4015df910051eabab17ed81b65da4893c45b18",
+  "grading": "Joined existing individual source-read model judgments; no score generation; human0"
+}

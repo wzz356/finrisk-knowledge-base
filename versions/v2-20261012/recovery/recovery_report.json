@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "source_files": 9639,
+  "normalized_payloads_compared": 19,
+  "all_normalized_payload_hashes_equal": true,
+  "projection_payload_hashes_equal": {
+    "raw": true,
+    "structured": true
+  },
+  "verification": {
+    "passed": true,
+    "errors": [],
+    "core_counts": {
+      "source_inventory": 9639,
+      "documents": 9639,
+      "cases": 15620,
+      "behaviors": 25186,
+      "evidence": 114960,
+      "annotations": 182356,
+      "materials": 12081,
+      "reviews": 9639
+    },
+    "extension_counts": {
+      "id_registry": 513459,
+      "document_evidence": 118719,
+      "responsibility_relations": 0,
+      "quote_bindings": 455219,
+      "issues": 0,
+      "candidate_snapshots": 9639
+    },
+    "unmatched_quote_count": 0,
+    "validation_scope": "mechanical_declared_fields_ids_hashes_spans; semantic_and_human_review_not_claimed"
+  },
+  "source_repo_data_read": false,
+  "raw_original_source_files_read": false,
+  "source_of_reconstruction": "saved normalized snapshots + full texts + saved final overlays + copied contract",
+  "code_sha256": "181e78382be3590409461bbcccb5c18cdacfec5229a12879a235e408341c8923",
+  "human_approved": 0,
+  "limitations": [
+    "重建使用本机既有代码/冻结分词器；未声称异机依赖安装或原PDF/OCR恢复。",
+    "原raw SHA沿用已核验绑定，本演练未重新读取raw文件。"
+  ]
+}

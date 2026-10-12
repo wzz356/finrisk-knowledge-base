@@ -1,0 +1,28 @@
+{
+  "path": "normalized_final/reading/behavior_reading.jsonl",
+  "bytes": 49498385,
+  "sha256": "6e6fc33cefceb7b8027d130d717e7fd3f0cf03147a7796c6e70c7400aad2d8e8",
+  "parts": [
+    {
+      "path": "normalized_final/reading/behavior_reading.jsonl/part-0001.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 2113147,
+      "sha256": "dc3c41ea0bf1d8bb0546381fde5b469bf520fe44fa983523fca067116d377344",
+      "uncompressed_bytes": 20971443
+    },
+    {
+      "path": "normalized_final/reading/behavior_reading.jsonl/part-0002.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1987702,
+      "sha256": "bbcb35d94301895b4c442615e5d18779d58e0a19b4d25f62201281ba8e6a6bfd",
+      "uncompressed_bytes": 20970604
+    },
+    {
+      "path": "normalized_final/reading/behavior_reading.jsonl/part-0003.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 801554,
+      "sha256": "c22c5647fe04542c980f01017d6eae50ee933f29f8baa4b981e13225d514598a",
+      "uncompressed_bytes": 7556338
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documents": 9639,
+  "cases": 15620,
+  "behaviors": 25186,
+  "batches": {
+    "remaining8509": 8509,
+    "prior1000": 1000,
+    "early30": 30,
+    "early100": 100
+  },
+  "official_risk_labels": 27,
+  "human_approved_documents": 0,
+  "blind_reserved_excluded": 360,
+  "evaluation_documents": 8509,
+  "evaluation_queries": 50
+}

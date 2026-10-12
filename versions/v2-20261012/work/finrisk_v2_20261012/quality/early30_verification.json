@@ -1,0 +1,12 @@
+{
+  "documents": 30,
+  "behaviors": 97,
+  "quotes": 150,
+  "tags": 113,
+  "unknown_actor_tags": 14,
+  "fact_preservation": "PASS: recursively equal after excluding only permitted label/status fields",
+  "sha_bindings": "PASS",
+  "quote_exact_contiguous": "PASS",
+  "human_approved": 0,
+  "model_review_only": true
+}

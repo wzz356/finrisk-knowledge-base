@@ -1,0 +1,642 @@
+{
+  "documents_examined": 40,
+  "passed": 17,
+  "records": [
+    {
+      "file_id": "F001076",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects",
+          "penalty_amount_ambiguous_or_unparsed",
+          "personal_responsibility_link"
+        ],
+        "cases": 3,
+        "behaviors": 3,
+        "quote_fields_checked": 87,
+        "quote_spans_checked": 87,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "picc_mengcheng",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "wang_guangbin",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "ren_haitao",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001337",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 2,
+        "quote_fields_checked": 36,
+        "quote_spans_checked": 41,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "kunming_fengze",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001818",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 56,
+        "quote_spans_checked": 56,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "picc_jiangbei",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001901",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F001927",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects",
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 57,
+        "quote_spans_checked": 57,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "cpic_maoming",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "peng_zhong",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002060",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 4,
+        "quote_fields_checked": 65,
+        "quote_spans_checked": 65,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "picc_guangdong",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002099",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 38,
+        "quote_spans_checked": 38,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "shml_luan",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002139",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed",
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 33,
+        "quote_spans_checked": 33,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "liang_feng",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002274",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 1,
+        "behaviors": 3,
+        "quote_fields_checked": 57,
+        "quote_spans_checked": 59,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "dubang_xinjiang",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002613",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 38,
+        "quote_spans_checked": 38,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "yang_li",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003146",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 35,
+        "quote_spans_checked": 35,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "china_life_jimei",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003241",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed",
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 4,
+        "quote_fields_checked": 61,
+        "quote_spans_checked": 61,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "xiao_lina",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003266",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F003317",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 1,
+        "behaviors": 2,
+        "quote_fields_checked": 51,
+        "quote_spans_checked": 51,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "yongcheng_xiangfan",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003657",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 31,
+        "quote_spans_checked": 31,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "baikelian_broker",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004182",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F004229",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F005090",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F005310",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 41,
+        "quote_spans_checked": 41,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "yongan_xishuangbanna",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005723",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F005773",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 44,
+        "quote_spans_checked": 44,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "ding_shaolin",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005777",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F005845",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F005913",
+      "status": "blocked",
+      "error": "ValueError: case yang_yanhong, penalty 1: basis_quote identifies different party '朱起魁', not '杨艳红'",
+      "validation": null
+    },
+    {
+      "file_id": "F006165",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F006204",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F006276",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F006302",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F006406",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F006501",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 1,
+        "behaviors": 2,
+        "quote_fields_checked": 46,
+        "quote_spans_checked": 48,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "agency",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F006627",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F006648",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F006813",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F008100",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F008655",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F008668",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F008770",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F008775",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F009101",
+      "status": "unresolved",
+      "reason": "no unique exact same complete date span; no date value changed"
+    },
+    {
+      "file_id": "F009770",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "non_fine_monetary_amount_requires_review",
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 45,
+        "quote_spans_checked": 47,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "feng_yinyin",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    }
+  ],
+  "date_values_unchanged": true,
+  "human_approved": 0
+}

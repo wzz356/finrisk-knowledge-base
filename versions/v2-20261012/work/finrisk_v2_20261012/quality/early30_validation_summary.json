@@ -1,0 +1,58 @@
+{
+  "batch": "early30",
+  "validated_at_local_date": "2026-10-12",
+  "documents": 30,
+  "behaviors": 97,
+  "tags": 113,
+  "quotes": 150,
+  "unknown_actor_tags": 14,
+  "official_dictionary_labels": 27,
+  "overlay_sha256": "e10de1d8e12468ffd328be51c53b5ec8d76bcefbe8cfea4b9847db81d25d6574",
+  "verification": {
+    "complete_file_index_batch_coverage": true,
+    "recall_policy_version": true,
+    "candidate_pending": true,
+    "one_to_three_tags_and_zero_reason_null": true,
+    "tag_fields_dictionary_roles_and_order": "PASS; existing verify_quality.py checks each tag field, official dictionary membership, ranks, match_basis/confidence/scope and unknown actors.",
+    "base_sha_bindings": "PASS; each row source draft/text SHA matched current shard; updated draft SHA matched overlay.",
+    "fact_preservation": "PASS: recursively equal after excluding only permitted label/status fields",
+    "exact_contiguous_quotes": "PASS",
+    "existing_verification_binds_overlay_sha256": false,
+    "this_summary_binds_overlay_sha256": true
+  },
+  "semantic_spot_check": {
+    "result": "PASS",
+    "scope": "Complete source text reviewed for F002153, F004548, F005784, F006565 and F007715; checked their full behavior-level proposals, exact quote spans and limitations. Remaining records validated mechanically against all overlay and source bindings; no replacement judgments made.",
+    "examples": [
+      {
+        "file_id": "F002153",
+        "assessment": "费率、费用、保单字段、文书陈述等分别按原文机制标记；未付手续费和未掌握备案费率的行为保留inferred及限制。"
+      },
+      {
+        "file_id": "F004548",
+        "assessment": "机构四项案由分别映射；钟平、彭琴未明确个人事项，保持actor_role=unknown并用inferred/document_related。"
+      },
+      {
+        "file_id": "F005784",
+        "assessment": "客户告知书制作缺失仅关联隐瞒重要信息候选且明确说明不证明实际隐瞒；账户、档案和信息化缺陷用其他。"
+      },
+      {
+        "file_id": "F006565",
+        "assessment": "回扣或其他利益仅在原文明示候选，客户信息不真实按诱导不如实告知作inferred并保留未最终不实的限制。"
+      },
+      {
+        "file_id": "F007715",
+        "assessment": "原文个人文书无明确actor_role，费率标签调整为inferred/document_related；未追加明确个人责任。"
+      }
+    ],
+    "findings": [
+      "直接案由使用explicit/high，直接明确的责任事项仅表述为责任关联，不推个人亲自动作。",
+      "推测标签包含理由与限制，且不以标签候选补写原文缺失事实。",
+      "所有actor_role=unknown标签均为inferred/document_related。",
+      "未发现需要覆盖或重写的既有合法判断。"
+    ]
+  },
+  "human_review_status": "pending",
+  "human_approved": 0,
+  "model_review_only": true
+}

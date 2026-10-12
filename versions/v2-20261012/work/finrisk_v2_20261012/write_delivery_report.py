@@ -1,0 +1,219 @@
+"""Write reviewable reports from saved, completed run evidence; never create grades."""
+import json
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT / 'outputs/FinRisk_知识库V2_20261012'
+
+
+def load(path):
+    return json.loads((OUT / path).read_text(encoding='utf-8'))
+
+
+def rows(path):
+    with (OUT / path).open(encoding='utf-8') as stream:
+        return [json.loads(line) for line in stream if line.strip()]
+
+
+def write(path, text):
+    (OUT / path).write_text(text, encoding='utf-8')
+
+
+def pct(value):
+    return f'{value * 100:.1f}%'
+
+
+def main():
+    freeze = load('quality/input_freeze.json')
+    normalized = load('normalized_final/verification.json')
+    registration = load('registration_final/registration_verification.json')
+    recovery = load('recovery/recovery_report.json')
+    metrics = load('metrics/metrics.json')
+    assert freeze['counts']['pass'] == 9639
+    assert normalized['passed'] and registration['passed'] and recovery['passed']
+    assert metrics['status'] == 'complete' and metrics['queries'] == 50
+    assert metrics['human_judgments'] == 0
+    manifests = {scope: load(f'indexes/{scope}/manifest.json') for scope in ('same8509_final', 'all9639_final')}
+    runs = {name: load(f'retrieval/{name}.run.json') for name in ('same8509_final_results.jsonl', 'all9639_results.jsonl')}
+    assert all(run['status'] == 'complete' and run['result_rows'] == 200 for run in runs.values())
+    labels = {'v1': 'V1 / 8509份', 'v2_same8509': 'V2 / 同8509份', 'v2_all9639': 'V2 / 全9639份'}
+    arm_labels = {'bm25': 'BM25', 'dense': 'BGE', 'rrf': 'BM25+BGE→RRF', 'rrf_rerank': 'BM25+BGE→RRF→rerank'}
+    table = ['| 范围 | 方法 | 有用文件@5 | 有用片段@5 | 至少一份有用文件 | 至少一段有用片段 | 片段误导标记 |',
+             '|---|---|---:|---:|---:|---:|---:|']
+    auxiliary = ['| 方法（V2全9639） | 条件nDCG文件@5 | 条件nDCG片段@5 | 已知来源Hit@5 | Hit@10 | Hit@20 | 已知来源平均倒数排名@20 |',
+                 '|---|---:|---:|---:|---:|---:|---:|']
+    for variant in ('v1', 'v2_same8509', 'v2_all9639'):
+        for arm in arm_labels:
+            m = next(x for x in metrics['metrics'] if x['variant'] == variant and x['corpus'] == 'structured' and x['arm'] == arm)
+            table.append(f"| {labels[variant]} | {arm_labels[arm]} | {pct(m['useful_at5'])} | {pct(m['context_useful_at5'])} | {pct(m['support_coverage_at5'])} | {pct(m['context_coverage_at5'])} | {pct(m['context_misleading_at5'])} |")
+            if variant == 'v2_all9639':
+                auxiliary.append(f"| {arm_labels[arm]} | {m['pool_conditional_ndcg_at5']:.3f} | {m['context_pool_conditional_ndcg_at5']:.3f} | {pct(m['known_source_hit_at5'])} | {pct(m['known_source_hit_at10'])} | {pct(m['known_source_hit_at20'])} | {m['known_source_rr_at20']:.3f} |")
+    judgments = rows('metrics/validated_judgments.jsonl')
+    threshold_disagreements = sum((c['help_grade'] >= 2) and (r['help_grade'] < 2) for r in judgments for c in r['contexts'])
+    write('V2重建与召回复测报告.md', f'''# FinRisk V2重建与召回复测报告
+
+日期：2026-10-12。本轮完成9639份离线候选的统一整理、确定性检查、检索投影、真实模型复测，以及8509份主批次的登记对账和独立目录恢复。**BM25帮助度改善，双路融合和rerank帮助度下降；V2尚不具备直接替换应用默认库的效果依据。** 人工批准仍为0，V2本轮尚未更新GitHub。
+
+## 1. 交付范围与质量处置
+
+总来源9999份，其中9639份候选进入本轮，360份预留正文没有读取。9639由8509主批次、1000此前批次、早期100及早期30组成。原稿、原文和V1基线保留；有效修订通过独立覆盖层绑定原稿和来源SHA。
+
+原机械检查9514通过、125阻断；修订后9639/9639通过。125分为81份finding覆盖指针、40份日期及4份其他行为/金额主体问题。81份只补自身finding绑定；日期中17份仅重绑原有完整日期的唯一同值引文，另外23份回看全文核定。只有文号年份的F004182、F005090保留日期unknown，未猜决定日期。F007742依具名原文修正贺兰27万、永宁15万、灵武8万；F005913修正同额不同个人的引文绑定。F001901除核定落款日期外，删除原文未载的会议费摘要内容。
+
+20份高风险材料全文核查后，5份修订角色/案由，15份未确认需改；5份修订另经独立全文复核。早期30份迁移到官方27类recall-v2口径，涉及97条行为、113个标签、150条标签引文，原事实不因标签迁移而变更。推断标签仍注明关联性质及限制。
+
+最终有效覆盖层涉及**157个不同文件**。125、30、5等集合存在交叠，不能相加充当不同修订文件数。旧4514份关注信号队列保留，未宣称全部完成全文语义审核或全部信号清零。
+
+## 2. 统一数据与阅读产物
+
+| 数据表 | 行数 |
+|---|---:|
+| 来源台账 source_inventory | 9639 |
+| 文书 documents | 9639 |
+| 主体案件 cases | 15620 |
+| 行为 behaviors | 25186 |
+| 证据 evidence | 114960 |
+| 注释与声明 annotations | 182356 |
+| 材料 materials | 12081 |
+| 质量/审核状态 reviews | 9639 |
+
+另有513459条ID登记、118719条文书证据、455219条原文引文绑定、9639份原稿与有效稿快照。机械复验issues=0、未匹配引文=0，声明字段、SHA、ID和回源区间通过检查。它们只证明指定机械完整性，不代表全文无遗漏或语义准确。
+
+旧合法字段形状（法条str/list、摘要list、未知值null、关联名称str/null）保留原值和unknown/未解释状态，未猜结构或将null改称“没有不确定性”。稳定派生ID保留原逻辑键与来源版本，阅读入口保留全文、案件和行为导航。
+
+独立responsibility_relations表目前0行：已有case/behavior/actor关联及候选角色，不应声称完整机构—个人关系图或跨文书知识图谱已经完成。
+
+入口：[统一阅读索引](normalized_final/INDEX.md)，[全量机械复验](normalized_final/verification.json)，[输入冻结](quality/input_freeze.json)。
+
+## 3. 检索投影做了什么
+
+同文件相同正文仅索引一次，保留多case/behavior/主体归属和原文位置。模型输入采用不超过300字符的原文，前缀为空；实际返回上下文独立保存，包含完整父段以及可定位的条件、否定、例外和监管回应。不连续摘录明确标记原文间隔，逐段回源，不伪装为连续原文。
+
+父段来源存在多个相同位置、元数据null或关联尚未核实的情况保留歧义标记。三个只有“/”等无BM25词元的单元保留在审计文件，未删对应文书/候选。表格序号、申辩回应和条件回链有回归覆盖。
+
+| 投影范围 | 来源文件 | 结构化唯一正文 | 原文单元 |
+|---|---:|---:|---:|
+| 同8509份 | 8509 | {manifests['same8509_final']['corpora']['structured']['count']} | {manifests['same8509_final']['corpora']['raw']['count']} |
+| 全9639份 | 9639 | {manifests['all9639_final']['corpora']['structured']['count']} | {manifests['all9639_final']['corpora']['raw']['count']} |
+
+结构化投影包含原文fallback，不能把单元数变化仅解释为重复去除。明确同一事件的机构/个人示例关系已保存，但未建立全库事件金标；本次主实验未开启事件多样性重排，不能宣称全局事件去重效果通过。
+
+## 4. 实验设计、结果和含义
+
+复用冻结50条开发查询，20条营销销售、20条其他保险业务、10条边界条件变化，来自原已审100份中的27份来源。查询和模型不改：BM25与真实bge-small-zh-v1.5分别Top100，等权RRF（k=60）融合，联合候选最多200，再对Top100用bge-reranker-base排序。BM25 k1=1.5、b=0.75；本机CUDA/float16实际运行，没有以模拟向量替代。
+
+V2两范围各50×4=200结果记录，共400；同8509运行{runs['same8509_final_results.jsonl']['elapsed_seconds']:.2f}秒，全9639运行{runs['all9639_results.jsonl']['elapsed_seconds']:.2f}秒。这是模型实验执行时间，不含源核查、开发、入库和帮助度评分。合并V1六组后为700个查询—方法结果。
+
+全文和实际返回片段分别按0–3分判断，≥2记为有用，判断重点是能否支持输入风险的机制、适用条件或边界。全文评分仅在query/来源SHA完全相同时复用；上下文仅在文本完全相同时复用。最终1000个query-file配对、1670个片段；复用671项文件、945项片段判断，新增盲池669配对/725片段由本会话模型辅助逐项阅读评分。算法、排名和已知正例在评分材料中隐藏。
+
+### 4.1 主指标：结构化库
+
+{chr(10).join(table)}
+
+各组50题、固定250个Top5评价位置；少于5份的缺席位置按无有用支撑计入分母。V1结构化BM25实际返回248个位置，其余组实际返回250个位置。有用率按每题固定5分母计算后取均值，等于有用位置/250。误导比例指模型标记的返回片段风险，不是真人确认错误率。
+
+同范围V2相对V1：BM25文件+3.2个百分点、片段+4.8；RRF文件−4.0、片段−6.8；rerank文件−4.8、片段−0.8。扩大到全9639后，相对V1 BM25文件+3.6、片段+6.4；RRF文件−4.4、片段−6.0；rerank文件−6.8、片段−3.2个百分点。**正文与返回上下文更可追溯，不能据此推出双路召回整体更好。**
+
+V1原文库辅助基线：BM25文件70.4%/片段65.2%；原文全链路80.0%/72.0%，完整14组指标见[metrics.json](metrics/metrics.json)。
+
+### 4.2 辅助指标：全9639
+
+{chr(10).join(auxiliary)}
+
+nDCG基于联合Top5已评池，是**池内条件指标**，没有全库完整相关性金标，不能称为真Recall@5。已知来源指标只用43条有既定来源的查询；其他同样有帮助的案例不必命中该来源，故只作辅助。
+
+### 4.3 已知失败与评估边界
+
+Q009（诊断即赔/合同给付条件）在V2 RRF有3/5有用文件，但rerank仍0/5；Q012在BM25已有可用支撑，RRF/rerank仍0/5。全9639 BGE在Q005、Q011、Q012无有用Top5；RRF在Q012失败；rerank在Q009、Q012失败。不能因平均误导标记降低而忽略这些机制召回缺口。
+
+50题属于开发评估，既非360份预留盲验，也非全部27类代表性测试。原有24配对独立模型复标属于V1评估，不能称本轮669新增配对均经独立复标。模型评分未达到真人金标；不同全文/片段独立判断存在一致性差异：联合评分中{threshold_disagreements}个片段达到有用阈值、对应文件评分却低于阈值，保留原评分并交人工复核，没有静默改分。全部模型标记均需结合原文确认，不报告统计显著提升。
+
+检索表示取消背景前缀、法条/处罚等单元噪音，可能与语义召回回退有关；这是待验证的解释，目前没有消融结果，不能判定单一原因。
+
+## 5. 登记、恢复与验证
+
+8509份主批次原账本补登记**3809份**、同步**35份**、保留4665份相同稿。35并非原33加全部5份角色稿：集合和SHA有交叠。86个SQLite只读复验通过，47个写前备份SHA通过；当前8471份r0、38份r1，无超限修订。4703条原proposal历史保留，总历史8547条，原审核历史0条，没有生成真人批准。更新稿清除当前审核绑定，原4703历史文件逐项SHA复验通过。
+
+完整9639已在统一规范化表中，不把另1130份强行插入8509专属旧批次账本。[实际登记对账](registration_final/registration_verification.json)记录6199份needs_review、2310份checked_waiting_sample，均为候选状态，不是验收通过。
+
+从保存的原稿/有效稿快照、全文、最终覆盖层和契约在独立目录重建9639份，未读取原仓库业务data或原raw。19项规范化载荷以及raw/structured投影的实际字节SHA均一致；独立复审再次读取38个规范化文件和4个投影文件核对。恢复依赖本机既有代码/冻结分词器，不声称异机安装或原PDF/OCR恢复。[恢复报告](recovery/recovery_report.json)。
+
+模块回归记录：规范化31项、投影25项、适配12项、评估13项、登记3项、恢复2项通过；重要模块规格审查后再做质量审查，问题已修。原失败尝试保留诊断，成功范围只采用normalized_final、两份final投影及两个complete检索结果，失败/partial未混进指标。机械检查不替代全文语义和人工验收。
+
+## 6. 对照任务清单与下一步
+
+| 基础任务 | 本轮完成 | 剩余事项 |
+|---|---|---|
+| B01 来源与冻结 | 全9639文本/版本绑定，360预留隔离 | PDF/TXT冲突疑点仍须原件核查 |
+| B02 最低契约 | 官方27类、早期30迁移、稳定ID、八表、旧null保真 | 全库语义准确性和完整关系图未取得验收 |
+| B03 批处理 | 8509登记与最新SHA同步、备份/历史保护 | 真实部署标识、逐份token/费用未知项仍unknown |
+| B04 候选全量 | 9639统一有效稿、原稿快照、0机械阻断 | 生成和硬检查通过不等于全案质量批准 |
+| B05 内容复核 | 125机械阻断修复、20高风险全读、157有效覆盖层 | 旧关注信号保留；更广随机/分层全文复核 |
+| B06 离线产物 | 全9639统一投影/阅读入口，真实双路/融合/重排复测 | RRF/rerank有用率回退；全局事件关系未验收 |
+| B07 人工验收 | 重点13份、重点召回样例、空白人工记录模板 | 真人核定0；独立更广测试集和条件/类别覆盖 |
+| B08 冻结恢复 | 单写登记对账、47备份、独立目录恢复、V1回退保留 | V2新发布未执行；异机依赖安装、应用切换未执行 |
+
+先人工核定[重点13份修订](quality/人工验收材料/重点13份原文与修订.md)和[召回样例](quality/人工验收材料/召回重点样例.md)，特别检查Q009/Q012及全文—片段判断差异。然后将新修订和评分争议记录为单独版本；优先做同一范围下的检索表示/排序小规模消融，保留用户要求的BM25+BGE→RRF→rerank链路，验证后再扩量。补独立真实风险短句、27类及相反条件覆盖，另留不用于调参的测试集，再决定正式切换。
+
+教材方法在本轮的对应是：来源/版本台账与增量登记、保真清洗与unknown、切分后父段/条件回链、原文证据绑定、文书/行为粒度元数据、混合检索与重排对照、评估驱动改进、独立恢复和人工验收。RAPTOR、GraphRAG、多向量和在线Agent仍后置，本轮离线范围没有将这些扩展当基础完成项。
+
+交付入口：[人工验收入口](人工验收入口.md)，[任务清单状态](任务清单状态_V2.md)。V2保存于本地独立目录；GitHub当前V1基线保留，应用默认库没有切换。
+''')
+
+    pool = {r['pair_id']: r for r in rows('evaluation/all_pool/blind_judgment_pool.jsonl')}
+    selected = [r for r in rows('metrics/per_query_metrics.jsonl') if r['variant'] == 'v2_all9639' and r['arm'] in ('rrf', 'rrf_rerank') and r['query_id'] in ('Q009', 'Q012', 'Q022', 'Q032', 'Q039')]
+    assert len(selected) == 10
+    packet = []
+    md = ['# V2全9639：重点召回人工验收样例', '', '10个查询—方法结果，50个Top5位置。模型分数仅供定位争议，人工decision未填。下文展示实际返回片段，不重新生成摘要；完整源文在同名JSONL及统一阅读入口。', '']
+    for record in sorted(selected, key=lambda r: (r['query_id'], r['arm'])):
+        md.extend([f"## {record['query_id']} / {arm_labels[record['arm']]}", '', record['query_text'], '', f"模型判断：有用文件{round(record['useful_at5'] * 5)}/5；有用片段{round(record['context_useful_at5'] * 5)}/5。", ''])
+        items = []
+        for hit in record['top5']:
+            material = pool[hit['pair_id']]
+            context = next(c for c in material['contexts'] if c['context_id'] == hit['context_id'])
+            items.append({'model_assessment': hit, 'full_source_text': material['full_source_text'], 'source_sha256': material['source_sha256'], 'actual_context': context,
+                          'human_review_status': 'pending', 'human_reviewer': None, 'human_decision': None})
+            md.extend([f"### Top{hit['rank']} {hit['file_id']}", '', f"模型文件/片段评分：{hit['help_grade']}/{hit['context_help_grade']}；{hit['reason']}", '', '**实际返回上下文**', ''])
+            md.extend('> ' + line for line in context['text'].splitlines())
+            md.extend(['', f"片段判断依据：{hit['context_reason']}", '', '人工核定：未填写。', ''])
+        packet.append({'query_id': record['query_id'], 'query_text': record['query_text'], 'variant': record['variant'], 'arm': record['arm'], 'top5': items})
+    write('quality/人工验收材料/召回重点样例.md', '\n'.join(md) + '\n')
+    write('quality/人工验收材料/召回重点样例.jsonl', ''.join(json.dumps(r, ensure_ascii=False, sort_keys=True) + '\n' for r in packet))
+    write('人工验收入口.md', '''# FinRisk V2人工验收入口
+
+全量机械检查、登记对账和保存输入恢复通过；BM25帮助度改善，RRF/rerank回退。当前都是candidate/pending，人工批准0，应用未切换。
+
+1. 阅读[总报告](V2重建与召回复测报告.md)，确认统计分母与剩余限制。
+2. 核定[重点13份修订](quality/人工验收材料/重点13份原文与修订.md)。逐份检查具名主体、罚款归属、落款日期、机构/个人案由、unknown日期及删去的未载事实。完整源文/有效稿在[13份JSONL](quality/人工验收材料/重点13份.jsonl)。
+3. 核定[10个重点召回结果](quality/人工验收材料/召回重点样例.md)。输入风险是否同机制、条件是否一致、反面边界是否有用、实际返回片段能否独立支撑判断；不能仅因同法条/同标签判有用。Q009/Q012优先，Q022看行为归属，Q032看申辩与监管回应，Q039看具体条件边界。完整源文和原文位置在[样例JSONL](quality/人工验收材料/召回重点样例.jsonl)。
+4. 在[空白人工记录模板](quality/人工验收材料/人工验收记录模板.json)另存实际记录。填写核定人、日期、file_id或query/结果ID、核对版本SHA、字段/用途范围、判断与原文依据；保留分歧，不能仅填“全库批准”。
+
+标签使用官方27类，允许召回优先的最可能/关联标签；核定时区分“检索线索可用”和“事实认定有证据”。标签推断不能把原文未知的事实变为已知。
+
+13份是定向重点材料，10结果是失败/边界诊断，均不代表全库随机准确率。更广随机/分层全文检查、真实风险短句和独立测试集尚待完成。当前模型评分存在全文/片段阈值分歧，人工核定前保留原评分。
+
+全库来源、案件和行为导航见[统一阅读索引](normalized_final/INDEX.md)。核定通过后只批准实际查看的对象和字段；效果仍需改善，暂不切换应用默认库。
+''')
+    write('任务清单状态_V2.md', '''# FinRisk任务清单状态：V2离线收尾
+
+日期：2026-10-12。对照原“基础必做/锦上添花”和已批准六步方案。本轮实际证据见[总报告](V2重建与召回复测报告.md)。
+
+| 六步方案 | 状态 | 实际证据与限制 |
+|---|---|---|
+| 1 高风险事实处置 | 阶段完成，全库内容复核未完 | 125机械阻断修复、20高风险全文核查、157有效覆盖层；未清空4514旧信号，不外推全库准确率 |
+| 2 V2检索单元修正 | 已实施并复验 | 同正文去重保留多归属；父段/条件/否定/监管回应回链；短原文无背景前缀；歧义保留；事件关系只限确认示例 |
+| 3 9639统一格式与投影 | 完成机械范围 | 官方27类策略统一、八表/稳定ID/阅读入口、455219引用绑定0未匹配；responsibility_relations0，全局关系图未完成 |
+| 4 固定50题复测 | 完成，效果未整体达标 | 两范围共400真实结果；新增669配对/725片段模型评审完成；BM25↑，RRF/rerank↓，不切默认库 |
+| 5 补登记与版本同步 | 完成8509专属账本 | 3809新、35更新、4665同稿；8509最新SHA相同；历史/47备份完整。其他1130在统一9639表中，未混入8509旧schedule |
+| 6 人工验收与恢复冻结 | 恢复和材料完成，真人验收未完 | 独立目录恢复9639；19载荷与双投影同SHA；13份重点文书+10个召回结果人工材料；真人批准0 |
+
+基础B01–B04的候选/机械整理与主批次登记已收尾，B05语义复核、B07真人验收仍部分或未完成；B06已统一但检索效果尚需改进；B08本地恢复通过，V2新发布/异机依赖/正式应用切换未执行。不能标为“全库已经人工验收通过”。
+
+增强事项：已做BM25+BGE/RRF/rerank离线对照；切分参数和前缀/背景消融、全局事件关系、多向量/ANN、RAPTOR、GraphRAG及在线Agent后置。下一步优先人工核定与机制召回/重排消融，另留独立测试集，验证改善后再冻结新发布与切换。
+''')
+    print(json.dumps({'reports_written': 5, 'manual_retrieval_result_groups': 10, 'manual_top5_slots': 50, 'context_useful_but_file_not_useful': threshold_disagreements, 'human_approved': 0}, ensure_ascii=False))
+
+
+if __name__ == '__main__':
+    main()

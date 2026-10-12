@@ -1,0 +1,123 @@
+{
+  "batch_id": "batch_003",
+  "completed_human_review_items": 3,
+  "full_documents_approved": 0,
+  "records": [
+    {
+      "reviewer_kind": "human",
+      "reviewer_origin": "direct_user_message_in_current_conversation",
+      "reviewer_name": null,
+      "user_response_text": "都正确。我觉得你的判断比较正确，可以全部交给你判断了。下一步做什么？",
+      "recorded_at_utc": "2026-10-12T13:26:08.814316+00:00",
+      "reviewed_at": null,
+      "frozen_v2_manifest_sha256": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+      "presented_materials_sha256": "76dd400c8ba543b53691bade1bf172a5cdebe03dc61f0416c2ce00094855fb54",
+      "full_document_approved": false,
+      "item_id": "B003-07",
+      "file_id": "F005913",
+      "effective_draft_json_sha256": "2f4d74758248436d4c89259aff7864c907f954d86ce441c7806e5f4e1b202bb2",
+      "text_sha256": "881d693ebb6c31f5db2de3cf1b1eaf4fe69c60fa4d0b8cf27e438c4871b9fc7a",
+      "cases": [
+        {
+          "local_key": "yang_yanhong",
+          "party_name": "杨艳红",
+          "penalty": {
+            "amount_quote": "二、对杨艳红警告并处罚款4万元\n",
+            "amount_yuan": 40000,
+            "basis_quote": "二、对杨艳红警告并处罚款4万元\n",
+            "currency": null,
+            "currency_quote": null,
+            "type": "罚款"
+          }
+        },
+        {
+          "local_key": "zhu_qikui",
+          "party_name": "朱起魁",
+          "penalty": {
+            "amount_quote": "三、对朱起魁警告并处罚款4万元\n",
+            "amount_yuan": 40000,
+            "basis_quote": "三、对朱起魁警告并处罚款4万元\n",
+            "currency": null,
+            "currency_quote": null,
+            "type": "罚款"
+          }
+        }
+      ],
+      "approved_scope": [
+        "两笔各4万元对应各自具名原文引文，不混用同额不同主体的证据。"
+      ],
+      "decision": "accept_displayed_scope"
+    },
+    {
+      "reviewer_kind": "human",
+      "reviewer_origin": "direct_user_message_in_current_conversation",
+      "reviewer_name": null,
+      "user_response_text": "都正确。我觉得你的判断比较正确，可以全部交给你判断了。下一步做什么？",
+      "recorded_at_utc": "2026-10-12T13:26:08.814316+00:00",
+      "reviewed_at": null,
+      "frozen_v2_manifest_sha256": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+      "presented_materials_sha256": "76dd400c8ba543b53691bade1bf172a5cdebe03dc61f0416c2ce00094855fb54",
+      "full_document_approved": false,
+      "item_id": "B003-08",
+      "file_id": "F003989",
+      "effective_draft_json_sha256": "9977dd06777871f8e79da664c9a8caee2eb91a02468b18dd76b138e6978b25fe",
+      "text_sha256": "4d55eb4a9b9320387c8febfa3fd4a608056836143205520448fdb1dfc41a8830",
+      "cases": [
+        {
+          "local_key": "yang_person1",
+          "party_name": "张艳秋",
+          "penalty": {
+            "amount_quote": null,
+            "amount_yuan": null,
+            "basis_quote": "对张艳秋、张秀美警告并罚\n款共计18万元。\n",
+            "currency": null,
+            "currency_quote": null,
+            "type": "罚款（多人合计，个人金额未载）"
+          }
+        },
+        {
+          "local_key": "yang_person2",
+          "party_name": "张秀美",
+          "penalty": {
+            "amount_quote": null,
+            "amount_yuan": null,
+            "basis_quote": "对张艳秋、张秀美警告并罚\n款共计18万元。\n",
+            "currency": null,
+            "currency_quote": null,
+            "type": "罚款（多人合计，个人金额未载）"
+          }
+        }
+      ],
+      "approved_scope": [
+        "张艳秋和张秀美合计18万元保留原文，个人金额未知，不平分或各记18万元。"
+      ],
+      "decision": "accept_displayed_scope"
+    },
+    {
+      "reviewer_kind": "human",
+      "reviewer_origin": "direct_user_message_in_current_conversation",
+      "reviewer_name": null,
+      "user_response_text": "都正确。我觉得你的判断比较正确，可以全部交给你判断了。下一步做什么？",
+      "recorded_at_utc": "2026-10-12T13:26:08.814316+00:00",
+      "reviewed_at": null,
+      "frozen_v2_manifest_sha256": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+      "presented_materials_sha256": "76dd400c8ba543b53691bade1bf172a5cdebe03dc61f0416c2ce00094855fb54",
+      "full_document_approved": false,
+      "item_id": "B003-09",
+      "file_id": "F000904",
+      "query_id": "Q039",
+      "arm": "rrf_rerank",
+      "query_text": "代理机构上一份职业责任险到期后，下一份隔了一段时间才开始生效，两张保单之间有空档。需要审核职业责任保障有没有连续覆盖经营期间，不能只看每年都买过保险。",
+      "source_text_sha256": "1ec1b585c01c6ed73f846b6de117f9d129285a04c20299b3deb51e1588c46f1c",
+      "approved_scope": [
+        "displayed_insurance_period_excerpt_helpfulness_for_Q039"
+      ],
+      "decision": "helpful",
+      "helpful": true,
+      "numeric_help_grade": null,
+      "pair_id": "J6d2871931aae",
+      "context_id": "C0f9db451064a",
+      "context_sha256": "0f9db451064afee5be673da3507171fb346d22f9ffb62848c375f3b6d86d8d60"
+    }
+  ]
+}

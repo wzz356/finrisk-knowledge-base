@@ -1,0 +1,14 @@
+{
+  "pairs": 178,
+  "contexts": 195,
+  "file_judgments": 74,
+  "sha256": "c8dc322ee7f0f3eb29581c53eeeca57eecd1b857c4b74ccbfc6342202199965c",
+  "input_sha256": "63730237feaea9c7abd4618d41c4eaa7e377e050edd6a2feda70a45ea4acb55e",
+  "model_review": true,
+  "human_review": false,
+  "human_judgment_count": 0,
+  "coverage_ids_types_grades_contiguous_quotes": "passed",
+  "read_encoding": "UTF-8",
+  "encoding_note": "Initial 0..9 CP936 output failed; reread UTF-8 0..9 and separately 5..6 before first judgments. Truncated 172 reread in full before judgment.",
+  "forbidden_sources_accessed": false
+}

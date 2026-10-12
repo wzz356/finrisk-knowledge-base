@@ -1,0 +1,21 @@
+{
+  "path": "retrieval/all9639_results.jsonl.token_audit.jsonl",
+  "bytes": 25244932,
+  "sha256": "9b7a1099458bb5a87c6bab936fe42318e21bd4831e80cc94fc0076e82840dd21",
+  "parts": [
+    {
+      "path": "retrieval/all9639_results.jsonl.token_audit.jsonl/part-0001.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 2377748,
+      "sha256": "6e4963415aeff584d8e6d53c530f9ad37013bb6b5a532e5ef438b137f4a30bc2",
+      "uncompressed_bytes": 20971386
+    },
+    {
+      "path": "retrieval/all9639_results.jsonl.token_audit.jsonl/part-0002.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 568373,
+      "sha256": "f9bf153b295d92ab6b09daa072acaa4781680c6f5e0cda9d41b0995e5acd94b6",
+      "uncompressed_bytes": 4273546
+    }
+  ]
+}

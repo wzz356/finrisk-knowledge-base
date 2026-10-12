@@ -1,0 +1,2759 @@
+{
+  "documents": 81,
+  "passed": 81,
+  "records": [
+    {
+      "file_id": "F000876",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects",
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 42,
+        "quote_spans_checked": 42,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "xin_zhina",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F000879",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects",
+          "penalty_amount_ambiguous_or_unparsed",
+          "personal_responsibility_link"
+        ],
+        "cases": 2,
+        "behaviors": 4,
+        "quote_fields_checked": 86,
+        "quote_spans_checked": 86,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "li_xiangqian",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F000908",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 48,
+        "quote_spans_checked": 48,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "pingan_kashi",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F000953",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "declared_source_issue",
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 3,
+        "behaviors": 3,
+        "quote_fields_checked": 63,
+        "quote_spans_checked": 63,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "xinhua_guizhou",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "tan_bangyong",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "ma_liang",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F000994",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions",
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 47,
+        "quote_spans_checked": 47,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "zhang_mu",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001018",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 3,
+        "behaviors": 3,
+        "quote_fields_checked": 56,
+        "quote_spans_checked": 56,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "zhou_fu",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "li_bingyan",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001172",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions",
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 45,
+        "quote_spans_checked": 45,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001246",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "aggregate_or_split_penalty",
+          "declared_source_issue",
+          "important_or_critical_unresolved",
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 63,
+        "quote_spans_checked": 63,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "jiang_ying",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001326",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions",
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 3,
+        "behaviors": 3,
+        "quote_fields_checked": 111,
+        "quote_spans_checked": 111,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "miao_zhanyi",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "pei_dayong",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001340",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 2,
+        "behaviors": 4,
+        "quote_fields_checked": 66,
+        "quote_spans_checked": 66,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "yibang",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "cao_jinping",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001348",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 47,
+        "quote_spans_checked": 47,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "zhang_yaozhong",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001691",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions",
+          "important_or_critical_unresolved"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 51,
+        "quote_spans_checked": 52,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "huang_lin",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F001842",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions",
+          "important_or_critical_unresolved",
+          "penalty_amount_ambiguous_or_unparsed",
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 53,
+        "quote_spans_checked": 54,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "chi_yonghui",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002203",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions"
+        ],
+        "cases": 1,
+        "behaviors": 3,
+        "quote_fields_checked": 73,
+        "quote_spans_checked": 73,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002297",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 62,
+        "quote_spans_checked": 62,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "du_haoguang",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002489",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed"
+        ],
+        "cases": 1,
+        "behaviors": 3,
+        "quote_fields_checked": 59,
+        "quote_spans_checked": 60,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "taikang_shangrao",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002586",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "aggregate_or_split_penalty",
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 61,
+        "quote_spans_checked": 61,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "liu_jinjun",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002597",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 36,
+        "quote_spans_checked": 36,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F002619",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 3,
+        "behaviors": 5,
+        "quote_fields_checked": 113,
+        "quote_spans_checked": 113,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "xia_boen",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "xiao_yan",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003070",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 59,
+        "quote_spans_checked": 60,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "yongcheng_qingyuan",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "wei_rongfu",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003103",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 37,
+        "quote_spans_checked": 37,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "xiao_xiangjun",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003263",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 2,
+        "quote_fields_checked": 47,
+        "quote_spans_checked": 47,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003534",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions"
+        ],
+        "cases": 1,
+        "behaviors": 2,
+        "quote_fields_checked": 65,
+        "quote_spans_checked": 65,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "youyi_agent",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003625",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions",
+          "multiple_penalized_subjects",
+          "penalty_amount_ambiguous_or_unparsed",
+          "personal_responsibility_link"
+        ],
+        "cases": 2,
+        "behaviors": 4,
+        "quote_fields_checked": 104,
+        "quote_spans_checked": 104,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "zhonghua_zhanjiang",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "shi_junmin",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003667",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 43,
+        "quote_spans_checked": 43,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "aia_beijing",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003719",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 43,
+        "quote_spans_checked": 43,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F003724",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 44,
+        "quote_spans_checked": 44,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "dongxijun",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004019",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 137,
+        "quote_spans_checked": 196,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "renmin_changzhi",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "zhao_haojie",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004139",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 71,
+        "quote_spans_checked": 79,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "hou_wei",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004197",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 4,
+        "behaviors": 6,
+        "quote_fields_checked": 168,
+        "quote_spans_checked": 322,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "zhang_limei",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "yin_huiru",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "yan_dehui",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "luo_rongrong",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004215",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 78,
+        "quote_spans_checked": 104,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "hengan_jiangsu",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "song_jing",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004226",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 4,
+        "behaviors": 4,
+        "quote_fields_checked": 149,
+        "quote_spans_checked": 307,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "shaanxi",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "xixian",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "liu_zhan",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "kang_kai",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004294",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 4,
+        "behaviors": 4,
+        "quote_fields_checked": 133,
+        "quote_spans_checked": 237,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "liaocheng",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "jiao_yangxu",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "yanggu",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "wang_qi",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004336",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 4,
+        "behaviors": 6,
+        "quote_fields_checked": 170,
+        "quote_spans_checked": 207,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "dinghe_sichuan",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "zhang_shiwei",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "tang_luhui",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "song_ning",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004438",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 58,
+        "quote_spans_checked": 58,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "quan_yuchao",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004446",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 5,
+        "quote_fields_checked": 107,
+        "quote_spans_checked": 122,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "jiang_longkun",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004559",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 3,
+        "quote_fields_checked": 149,
+        "quote_spans_checked": 195,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "xu_xiaofeng",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004577",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 3,
+        "quote_fields_checked": 79,
+        "quote_spans_checked": 82,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "ye_yongzhen",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004680",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 3,
+        "quote_fields_checked": 87,
+        "quote_spans_checked": 94,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "cheng_xin",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004711",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 117,
+        "quote_spans_checked": 163,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "kang_hao",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004742",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 3,
+        "behaviors": 3,
+        "quote_fields_checked": 89,
+        "quote_spans_checked": 109,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "li_junxi",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "chen_guanghua",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F004952",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 3,
+        "behaviors": 3,
+        "quote_fields_checked": 117,
+        "quote_spans_checked": 181,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "hexie_huaian",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "chen_ming",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "tan_xin",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005013",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "important_or_critical_unresolved",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 51,
+        "quote_spans_checked": 55,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "jin_jing",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005019",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 41,
+        "quote_spans_checked": 41,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "haina_agent",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005045",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_decisions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 10,
+        "behaviors": 10,
+        "quote_fields_checked": 301,
+        "quote_spans_checked": 624,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "zheng_anquan",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "liu_changsheng",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "gong_mingdao",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "yongan_shenfen",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "fengrong_shenfen",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "liu_lijuan",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "guoyin_jinzu",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "liu_yi",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "huaan_caixian",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "liao_feizhou",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005055",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 6,
+        "quote_fields_checked": 131,
+        "quote_spans_checked": 226,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "nianan_baoji",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "kong_huan",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005059",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 58,
+        "quote_spans_checked": 58,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "zhang_wei",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005202",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 39,
+        "quote_spans_checked": 41,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "yongan",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005376",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 63,
+        "quote_spans_checked": 64,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "huatai_hanzhong",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "wen_tao",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005448",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "aggregate_or_split_penalty",
+          "important_or_critical_unresolved",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 5,
+        "behaviors": 6,
+        "quote_fields_checked": 134,
+        "quote_spans_checked": 134,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "chen_qingcao",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "cai_guofeng",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "ye_zhiqing",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "chen_xiaohua",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F005920",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "conditions_negations_or_exceptions",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 64,
+        "quote_spans_checked": 64,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "dai_hongfeng",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F006091",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 44,
+        "quote_spans_checked": 47,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "zhou_yuhong",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F006164",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 44,
+        "quote_spans_checked": 47,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "liu_chengyang",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F006271",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "important_or_critical_unresolved",
+          "multiple_penalized_subjects"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 59,
+        "quote_spans_checked": 59,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "zhou_hao",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F006392",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 48,
+        "quote_spans_checked": 48,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "gu_hongcai",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F006575",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 42,
+        "quote_spans_checked": 43,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "chu_xiaohui",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F006589",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 43,
+        "quote_spans_checked": 43,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "zhao_hongtao",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F006666",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 4,
+        "behaviors": 7,
+        "quote_fields_checked": 124,
+        "quote_spans_checked": 127,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "song_zhenhua",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "zhang_yongbo",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "li_gaofeng",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F007102",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 2,
+        "quote_fields_checked": 60,
+        "quote_spans_checked": 63,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "xu_lei",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F007162",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 5,
+        "behaviors": 7,
+        "quote_fields_checked": 162,
+        "quote_spans_checked": 167,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "han_menghu",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "yang_sufang",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "li_minzhen",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "diao_ling",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F007341",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 4,
+        "behaviors": 4,
+        "quote_fields_checked": 102,
+        "quote_spans_checked": 104,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "zhan_keji",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "wu_yixian",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "luo_caishu",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F007421",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 41,
+        "quote_spans_checked": 41,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "chen_ping",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F007565",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 6,
+        "quote_fields_checked": 83,
+        "quote_spans_checked": 86,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F007588",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 7,
+        "quote_fields_checked": 115,
+        "quote_spans_checked": 118,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "yuwen_agent",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F007702",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 43,
+        "quote_spans_checked": 46,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "huang_ruiqiu",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F007795",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 43,
+        "quote_spans_checked": 43,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "shu_zhan",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F007861",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 40,
+        "quote_spans_checked": 43,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F007888",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 3,
+        "behaviors": 3,
+        "quote_fields_checked": 81,
+        "quote_spans_checked": 83,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "zhang_shiyuan",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "fan_aiwu",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F008378",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 44,
+        "quote_spans_checked": 44,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "sun_hao",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F008466",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "aggregate_or_split_penalty",
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 2,
+        "quote_fields_checked": 50,
+        "quote_spans_checked": 50,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "zhou_fujin",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F008639",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects"
+        ],
+        "cases": 3,
+        "behaviors": 4,
+        "quote_fields_checked": 95,
+        "quote_spans_checked": 95,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "yu_qirui",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "liu_yong",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F008891",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 47,
+        "quote_spans_checked": 53,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "qi_hao",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F008940",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "penalty_amount_ambiguous_or_unparsed",
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 3,
+        "quote_fields_checked": 81,
+        "quote_spans_checked": 81,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "li_rong",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F009114",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "aggregate_or_split_penalty"
+        ],
+        "cases": 1,
+        "behaviors": 2,
+        "quote_fields_checked": 65,
+        "quote_spans_checked": 65,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F009133",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "aggregate_or_split_penalty",
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 54,
+        "quote_spans_checked": 54,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "zhang_yong",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F009283",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 50,
+        "quote_spans_checked": 55,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "zhu_fengying",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F009322",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 49,
+        "quote_spans_checked": 49,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F009442",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": false,
+        "reasons": [],
+        "cases": 1,
+        "behaviors": 3,
+        "quote_fields_checked": 79,
+        "quote_spans_checked": 85,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "company",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F009479",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "aggregate_or_split_penalty"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 52,
+        "quote_spans_checked": 52,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "meng_jiao",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F009653",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "multiple_penalized_subjects",
+          "personal_responsibility_link"
+        ],
+        "cases": 2,
+        "behaviors": 2,
+        "quote_fields_checked": 75,
+        "quote_spans_checked": 83,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "taipingyang_acheng",
+            "rule_or_exception": "whitespace_only"
+          },
+          {
+            "case_key": "wang_mingyu",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    },
+    {
+      "file_id": "F009790",
+      "status": "pass",
+      "error": null,
+      "validation": {
+        "requires_review": true,
+        "reasons": [
+          "personal_responsibility_link"
+        ],
+        "cases": 1,
+        "behaviors": 1,
+        "quote_fields_checked": 48,
+        "quote_spans_checked": 48,
+        "all_quotes_exact": true,
+        "uncovered_tokens": [],
+        "compatibility_version": "finrisk-compat-v1",
+        "structural_replacements": {
+          "name": 1,
+          "currency": 1
+        },
+        "name_checks": [
+          {
+            "case_key": "wang_ting",
+            "rule_or_exception": "whitespace_only"
+          }
+        ],
+        "semantic_status": "candidate",
+        "human_review_status": "pending"
+      }
+    }
+  ],
+  "facts_unchanged": true,
+  "human_approved": 0
+}

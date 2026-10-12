@@ -1,0 +1,30 @@
+{
+  "reviewer": "model_assisted",
+  "human_judgments": 0,
+  "pairs": 206,
+  "file_judgments": 85,
+  "contexts": 219,
+  "coverage": "complete",
+  "ids": "passed",
+  "grade_ranges": "passed",
+  "quotes_exact_contiguous_in_full_and_context": "passed",
+  "context_flags": [
+    [
+      53,
+      "C3404e1ec3012"
+    ],
+    [
+      153,
+      "C3404e1ec3012"
+    ]
+  ],
+  "reason_length_outliers": [],
+  "input_sha256": "e5160b7856caf3d28f042f62a376afc0de588f6e84af7b582f4208bb88992d54",
+  "output_sha256": "9ae20af26841eafaf5c6af316fa75f98ddf23fc63b4973e8d2225474b91b45c9",
+  "score_distribution": {
+    "2": 85,
+    "3": 66,
+    "1": 51,
+    "0": 17
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "human_confirmation_items": 3,
+  "record_sha256": "bda2fafda7d6f1506da37f325a9a26733c4307085160d4fa797db90284e33823",
+  "frozen_manifest_unchanged": true,
+  "full_documents_approved": 0,
+  "model_metrics_unchanged": true,
+  "model_metrics_and_judgments_actual_sha_verified": true
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "files": 8509,
+  "databases": 86,
+  "counts": {
+    "already_current": 4665,
+    "update": 35,
+    "new": 3809
+  },
+  "current_revision_counts": {
+    "0": 8471,
+    "1": 38
+  },
+  "job_status_counts": {
+    "needs_review": 6199,
+    "checked_waiting_sample": 2310
+  },
+  "prior_proposals_preserved": 4703,
+  "prior_reviews_preserved": 0,
+  "proposal_history_rows": 8547,
+  "backup_files_verified": 47,
+  "source_input_and_proposal_byte_hashes_verified": true,
+  "unchanged_jobs_byte_values_preserved": 4665,
+  "new_and_changed_current_review_bindings_cleared": 3844,
+  "human_approved": 0,
+  "scope": "8509 schedule; other 1130 candidates included in normalized 9639 table, not inserted into this legacy schedule",
+  "registration_summary_sha256": "16eea1049b13fea10e69d446596eec4013eaacc41867c02b2e7d94d8200476da",
+  "code_sha256": "695b8be93832a821a30ad9839bdb2c08c776432c9d0c5d6e3b9f40643bc4c130"
+}

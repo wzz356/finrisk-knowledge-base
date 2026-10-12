@@ -1,0 +1,9 @@
+{
+  "source": "direct_user_message_in_current_conversation",
+  "user_response_text": "都正确。我觉得你的判断比较正确，可以全部交给你判断了。下一步做什么？",
+  "recorded_at_utc": "2026-10-12T13:26:08.814316+00:00",
+  "authorized_action": "后续知识库内容复核和召回帮助度判断交由助手执行，无需逐项再呈请用户核定。",
+  "future_judgment_origin": "model_review",
+  "limits": "只有已实际展示且用户确认的9项记录为人工判断；后续助手判断保留模型来源、证据、版本、范围与疑点，不扩展为真人逐份审阅，不切应用默认库。",
+  "external_publish_or_application_switch": "未由本条消息新增授权"
+}

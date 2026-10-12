@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "frozen_files": 8032,
+  "total_bytes": 3150183467,
+  "metric_dependency_files_checked": 107,
+  "metric_groups": 14,
+  "result_records": 700,
+  "judged_query_file_pairs": 1000,
+  "judged_contexts": 1670,
+  "v2_successful_result_records": 400,
+  "local_report_links_checked": 18,
+  "v1_clean_and_commit_unchanged": true,
+  "human_approved": 0,
+  "delivery_manifest_sha256": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+  "code_sha256": "6b4a61c9bb71e6ecad66c156bbce227b7d04e1ece70c8350669153859578b47f"
+}

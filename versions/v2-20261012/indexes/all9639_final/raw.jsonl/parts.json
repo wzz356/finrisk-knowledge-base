@@ -1,0 +1,63 @@
+{
+  "path": "indexes/all9639_final/raw.jsonl",
+  "bytes": 152534305,
+  "sha256": "44af78fe05afa272425a48a3666af0d50ebcfba97061137dbea9a2f51173c7a8",
+  "parts": [
+    {
+      "path": "indexes/all9639_final/raw.jsonl/part-0001.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1324932,
+      "sha256": "4b2f6fbd411cb70df23cc2ba7ce4e2e168d6f7c1d7182d35667f586c35f1834b",
+      "uncompressed_bytes": 20971482
+    },
+    {
+      "path": "indexes/all9639_final/raw.jsonl/part-0002.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1313404,
+      "sha256": "c93f65152fb5abe224ac7f17dce1b1afcc4407616d4c1b29de7255fd0c713771",
+      "uncompressed_bytes": 20969691
+    },
+    {
+      "path": "indexes/all9639_final/raw.jsonl/part-0003.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1270443,
+      "sha256": "01dce6cbfa6277d9518135896697d903704890a8a34b1948388b61608f09fb6c",
+      "uncompressed_bytes": 20969597
+    },
+    {
+      "path": "indexes/all9639_final/raw.jsonl/part-0004.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1280053,
+      "sha256": "2cb5eed0973e3c21f538ac6907a91691f6a36b47720ae3d49af2887e2e191cf7",
+      "uncompressed_bytes": 20971476
+    },
+    {
+      "path": "indexes/all9639_final/raw.jsonl/part-0005.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1157982,
+      "sha256": "c136da9e98104a506957f2d36de3eb86dfae25af08d27c900bc47b0d4c93f6bf",
+      "uncompressed_bytes": 20967748
+    },
+    {
+      "path": "indexes/all9639_final/raw.jsonl/part-0006.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1221502,
+      "sha256": "59bb41c8c02d304fc55ff2067ed71c7b5553e687c410ccaa4bd979cff2a18131",
+      "uncompressed_bytes": 20971045
+    },
+    {
+      "path": "indexes/all9639_final/raw.jsonl/part-0007.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1294576,
+      "sha256": "fd463b3ee689ae22be9e83a6a005ac4a076352fb45466a12db831696c63f1ff1",
+      "uncompressed_bytes": 20970551
+    },
+    {
+      "path": "indexes/all9639_final/raw.jsonl/part-0008.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 371048,
+      "sha256": "16909a6b8ef218daeef205374735feeb37250c8623d36789209a20e2628af58d",
+      "uncompressed_bytes": 5742715
+    }
+  ]
+}

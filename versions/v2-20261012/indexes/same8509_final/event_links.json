@@ -1,0 +1,9 @@
+{
+  "event_map": {
+    "F009408": "event-xinhua-changji-20220512-jinxiangshengshi",
+    "F009411": "event-xinhua-changji-20220512-jinxiangshengshi",
+    "F009412": "event-xinhua-changji-20220512-jinxiangshengshi"
+  },
+  "scope": "only explicitly checked three same-event documents",
+  "metadata_is_not_a_global_event_gold_standard": true
+}

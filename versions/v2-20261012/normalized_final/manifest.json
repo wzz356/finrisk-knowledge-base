@@ -1,0 +1,133 @@
+{
+  "batches": {
+    "early100": 100,
+    "early30": 30,
+    "prior1000": 1000,
+    "remaining8509": 8509
+  },
+  "candidate_count": 9639,
+  "contract_format": "typed_field_contract_v1",
+  "core_tables": [
+    "source_inventory",
+    "documents",
+    "cases",
+    "behaviors",
+    "evidence",
+    "annotations",
+    "materials",
+    "reviews"
+  ],
+  "counts": {
+    "annotations": 182356,
+    "behaviors": 25186,
+    "cases": 15620,
+    "documents": 9639,
+    "evidence": 114960,
+    "materials": 12081,
+    "reviews": 9639,
+    "source_inventory": 9639
+  },
+  "extension_counts": {
+    "candidate_snapshots": 9639,
+    "document_evidence": 118719,
+    "id_registry": 513459,
+    "issues": 0,
+    "quote_bindings": 455219,
+    "responsibility_relations": 0
+  },
+  "extension_tables": [
+    "id_registry",
+    "document_evidence",
+    "responsibility_relations",
+    "quote_bindings",
+    "issues",
+    "candidate_snapshots"
+  ],
+  "files": {
+    "INDEX.md": {
+      "bytes": 866,
+      "sha256": "1628047dda7bd5fd263efecf06edce77d80efeb2acfdc354ab7b97686f7634b8"
+    },
+    "contract/schema.json": {
+      "bytes": 18396,
+      "sha256": "a62707c481a9adead45721f7f640c8b319bbff6a5f8ff285e428d2a171eba401"
+    },
+    "data/annotations.jsonl": {
+      "bytes": 227225525,
+      "sha256": "10cc1d83ccb02645ff0bb24e6310e31a2a5ced5b91f2d6bc74fd1da3d1d35da1"
+    },
+    "data/behaviors.jsonl": {
+      "bytes": 134328196,
+      "sha256": "22faec5f9a4c35c678d14a1edcf9a7ca20e0a8f132035caafb32cb01f8e6e0fc"
+    },
+    "data/cases.jsonl": {
+      "bytes": 70380717,
+      "sha256": "cf8b3ac6250c9443afe10daf4158c6b61712bb7419f09031eaa7989a92259544"
+    },
+    "data/documents.jsonl": {
+      "bytes": 36715303,
+      "sha256": "1bd86772e4dfe479a87e9bc6ba7ef8d283da74b4a558ee5d4696146c728a584b"
+    },
+    "data/evidence.jsonl": {
+      "bytes": 160513307,
+      "sha256": "ae6dde12e97dc2aa6cc68cd048e782f6c61eaaa71a0ff6cee88fb0302c17fc27"
+    },
+    "data/materials.jsonl": {
+      "bytes": 20180781,
+      "sha256": "0360afe152af2a33bf179c993dd4f7779be894313657dd0c7dbfb1f0416067fc"
+    },
+    "data/reviews.jsonl": {
+      "bytes": 12886652,
+      "sha256": "01fceeffddd259cd9379a12b35035b4d43cd6d31e830cc14c8bbea63930f4255"
+    },
+    "data/source_inventory.jsonl": {
+      "bytes": 18301513,
+      "sha256": "728d47c273bd279e6bb4af64b52cfada3b9a90c2a6bbc0571e92eab9ea274c3a"
+    },
+    "extensions/candidate_snapshots.jsonl": {
+      "bytes": 200329623,
+      "sha256": "dfdbb8b1a6ac08a3d03da85b2c54e318bc3981352b5ce45d3e1041d1b2cc58b6"
+    },
+    "extensions/document_evidence.jsonl": {
+      "bytes": 151826838,
+      "sha256": "ade4c16504a868f5bcec3a79e9622efcf941870644098504c32798ead2420586"
+    },
+    "extensions/id_registry.jsonl": {
+      "bytes": 216125078,
+      "sha256": "a477b1578ca5d0fe67835eaf25a9aeac943581d2eed7f49fac594151a4300daf"
+    },
+    "extensions/issues.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "extensions/quote_bindings.jsonl": {
+      "bytes": 384953868,
+      "sha256": "2b548e8e41396e5294aef0d03a708fd15e186738e92387af8d80f23c5cade935"
+    },
+    "extensions/responsibility_relations.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reading/behavior_reading.jsonl": {
+      "bytes": 49498385,
+      "sha256": "6e6fc33cefceb7b8027d130d717e7fd3f0cf03147a7796c6e70c7400aad2d8e8"
+    },
+    "reading/case_reading.jsonl": {
+      "bytes": 61602039,
+      "sha256": "658240b0f485adcc65c980196067a4138d9045303659d58706bfe2f5e8da2481"
+    },
+    "reading/document_index.jsonl": {
+      "bytes": 17937019,
+      "sha256": "067f5dc37874fc4e373ecafa53c8023fc8b6de8c689db083f6a51e55acbe76ab"
+    }
+  },
+  "normalizer_version": "finrisk-candidate-normalization-v2.1",
+  "original_source_bytes_verified_by_normalizer": false,
+  "overlay_count": 157,
+  "reading_counts": {
+    "behavior_reading": 25186,
+    "case_reading": 15620,
+    "document_index": 9639
+  },
+  "validation_claim": "declared_field_types_enums_and_separate_ids_spans_hashes; not_complete_JSON_Schema_or_semantic_approval"
+}

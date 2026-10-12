@@ -1,0 +1,237 @@
+[
+  {
+    "batch_id": "b001",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b001\\workflow.sqlite3",
+    "backup_sha256": "04a69741f832770de720c65ef72abcd5140027f7ad84fef1b25b37b7d964a44a"
+  },
+  {
+    "batch_id": "b002",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b002\\workflow.sqlite3",
+    "backup_sha256": "ee49a39335bd5ef730f06c44d096c55f606c817408846f745ce3af986e8e3263"
+  },
+  {
+    "batch_id": "b003",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b003\\workflow.sqlite3",
+    "backup_sha256": "0dc1030929a96c9e9fa0debbb5670bea8e26f38ebd74f1e10da3306528ee8fe7"
+  },
+  {
+    "batch_id": "b004",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b004\\workflow.sqlite3",
+    "backup_sha256": "f6bab3b94845f78ef642fd936d2c83071aa9e0b6d3179008c982b42d1a11c16b"
+  },
+  {
+    "batch_id": "b005",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b005\\workflow.sqlite3",
+    "backup_sha256": "6ba85fe0c45b37a1c07f1445b2da186243540e22bb67c93f7a38f06820939dab"
+  },
+  {
+    "batch_id": "b006",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b006\\workflow.sqlite3",
+    "backup_sha256": "9ff7b1476a8274e982fd0af38e27c7b4ad50bb34959ab70f0ad66a2763231c13"
+  },
+  {
+    "batch_id": "b007",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b007\\workflow.sqlite3",
+    "backup_sha256": "c1effa0af487e40ffde02c1f6661eb671a3d9b106afa0a90b023631392cd927e"
+  },
+  {
+    "batch_id": "b008",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b008\\workflow.sqlite3",
+    "backup_sha256": "c730a0ebf10aea53356ee64749c4e38b7a1bada909b02b6ed23c9248862ec7d2"
+  },
+  {
+    "batch_id": "b009",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b009\\workflow.sqlite3",
+    "backup_sha256": "690e8b2989a5672199b3b2660d0394fb4656943ac51fbdd5ed696a5b2d828846"
+  },
+  {
+    "batch_id": "b010",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b010\\workflow.sqlite3",
+    "backup_sha256": "498d480ad11dc227de9266e50ee8a32b35d42fa9e71efd08405a93c0f8dcd8dc"
+  },
+  {
+    "batch_id": "b011",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b011\\workflow.sqlite3",
+    "backup_sha256": "85369a878888aa27cb1f470630958a5ceda02714e0fe6888881d4e722c2437a8"
+  },
+  {
+    "batch_id": "b012",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b012\\workflow.sqlite3",
+    "backup_sha256": "36af025dbcded46ecf4ffd922f7a5dcc1f56e90253412b963ffa97b5798a919b"
+  },
+  {
+    "batch_id": "b013",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b013\\workflow.sqlite3",
+    "backup_sha256": "32232b45de8fe18877883324ff44f1ea61bdf17ce76ff21600873b1657d57280"
+  },
+  {
+    "batch_id": "b014",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b014\\workflow.sqlite3",
+    "backup_sha256": "890ef94cb7509d08fe7c7e9c7dba067acd58dbb9ea707f844f09076a61c01cc9"
+  },
+  {
+    "batch_id": "b015",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b015\\workflow.sqlite3",
+    "backup_sha256": "bb6b6e923ff45b0498e7c46a9ebc7ce3eebb161f3ed1d6d77a0ae4c89628f9e0"
+  },
+  {
+    "batch_id": "b016",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b016\\workflow.sqlite3",
+    "backup_sha256": "b3313da42835addfbef8c9c0bf75b992ef329c291e3f5b8320b89327cf7b8908"
+  },
+  {
+    "batch_id": "b017",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b017\\workflow.sqlite3",
+    "backup_sha256": "2b3f48dea5b7d93f85aeb4fc05f09cc0986ac367500952bc0ebf3fb3d7441762"
+  },
+  {
+    "batch_id": "b018",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b018\\workflow.sqlite3",
+    "backup_sha256": "e3a5425238b9fd0ae7b6d2d15f28eb791e3bce4c6441816ab3c050d5a4eef0ae"
+  },
+  {
+    "batch_id": "b019",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b019\\workflow.sqlite3",
+    "backup_sha256": "ef04cfc3326371ab51390bf09badebc1b0fe3c5f921840584a86bf9a612f2302"
+  },
+  {
+    "batch_id": "b020",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b020\\workflow.sqlite3",
+    "backup_sha256": "efd5b72e631361e49c67aea3562a0d0500ea621834a74d094486c9adccfbbc95"
+  },
+  {
+    "batch_id": "b021",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b021\\workflow.sqlite3",
+    "backup_sha256": "4b460b3209ef7f9629d7bb33f03f607699b7781aca14e2150b01a1b84a9184b5"
+  },
+  {
+    "batch_id": "b022",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b022\\workflow.sqlite3",
+    "backup_sha256": "55b2856687d01c4ec0abfd84ece077653b67851b8fe2973022f740dd15c6f96c"
+  },
+  {
+    "batch_id": "b023",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b023\\workflow.sqlite3",
+    "backup_sha256": "44356229ef5e120c459b483f247467076e6689afca919dd933e61e5b89a3d52a"
+  },
+  {
+    "batch_id": "b024",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b024\\workflow.sqlite3",
+    "backup_sha256": "84b0723ab5628911f10d6bf0e7ff9559c4582be609f0d2f7516495e0ad6921ce"
+  },
+  {
+    "batch_id": "b025",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b025\\workflow.sqlite3",
+    "backup_sha256": "2ae585204489e7ecfe6dc9646ad76ce0abb9e2cc6aa5a284800ed8b1758717f8"
+  },
+  {
+    "batch_id": "b026",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b026\\workflow.sqlite3",
+    "backup_sha256": "b65f982311b0f56f4e5bcc53661dc4b0b21b6208af620bbd36b50281c0a0f623"
+  },
+  {
+    "batch_id": "b027",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b027\\workflow.sqlite3",
+    "backup_sha256": "da2d03ec30b2d1d39961ff082940534a782504bce6f15400120005ff759bb499"
+  },
+  {
+    "batch_id": "b028",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b028\\workflow.sqlite3",
+    "backup_sha256": "38e66f0875241057c0148df7fc858161bcc2e63bb7d81ef15f7eb9deb600ea88"
+  },
+  {
+    "batch_id": "b029",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b029\\workflow.sqlite3",
+    "backup_sha256": "5f3e6d7530fa05490d271ef11365aa32f9c466cc49360d8193825285a07d1feb"
+  },
+  {
+    "batch_id": "b030",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b030\\workflow.sqlite3",
+    "backup_sha256": "962925c2390f35f42b41a346d8ac48d2e02dad4ef9e915c7bf87e39b10036092"
+  },
+  {
+    "batch_id": "b031",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b031\\workflow.sqlite3",
+    "backup_sha256": "bdec59addd5f3f923768151fc2795b981ecaa8420ff32f3c72f12cbb14f399f3"
+  },
+  {
+    "batch_id": "b032",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b032\\workflow.sqlite3",
+    "backup_sha256": "aad9075d5c1c79acae95acced804a80a3f48be8d8da2be3d2cf97fc2eba3ae91"
+  },
+  {
+    "batch_id": "b033",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b033\\workflow.sqlite3",
+    "backup_sha256": "34e45f67da10775b6e1837538d566d3378ba61abcbe99a2d5e05665f20ee9642"
+  },
+  {
+    "batch_id": "b034",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b034\\workflow.sqlite3",
+    "backup_sha256": "b2ccc03cbba408310b28b7d502e49af8ed6c3914ef237dac8bca9ffc27629798"
+  },
+  {
+    "batch_id": "b035",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b035\\workflow.sqlite3",
+    "backup_sha256": "da195b12441f52689cd8cd41b1bd75deb52db29cb45efd4e21d246bd8321c129"
+  },
+  {
+    "batch_id": "b036",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b036\\workflow.sqlite3",
+    "backup_sha256": "b389c91506483aa1d3c618076afca7c9b0154fad1a2661f4d6cfe3f042db089c"
+  },
+  {
+    "batch_id": "b037",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b037\\workflow.sqlite3",
+    "backup_sha256": "7d9192dccb20f01b10f4e8c927a8d167565c6fd6d93d7df5a00effd524abeb8b"
+  },
+  {
+    "batch_id": "b038",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b038\\workflow.sqlite3",
+    "backup_sha256": "439acec48f4d2fe8cbbef39f2bdf616023a6b2cf6fb7c8a6afe4e2068342e034"
+  },
+  {
+    "batch_id": "b039",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b039\\workflow.sqlite3",
+    "backup_sha256": "1e762ad4ccf0c3c4418fc9c73183143937273a885a0f990eb560cf71bf912181"
+  },
+  {
+    "batch_id": "b040",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b040\\workflow.sqlite3",
+    "backup_sha256": "4921420c0e8c6d1cdb4476403a54a69f2c5a0869b22aa181dde076de1d3aecc5"
+  },
+  {
+    "batch_id": "b041",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b041\\workflow.sqlite3",
+    "backup_sha256": "f1c81ecde2d10fe68a3fb93cea892222d3fcf60c149d836f7eabb9668536178a"
+  },
+  {
+    "batch_id": "b042",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b042\\workflow.sqlite3",
+    "backup_sha256": "26b52eb9a88212cd15432221156a354911e9d4d919165d25edd92cb3b96df078"
+  },
+  {
+    "batch_id": "b043",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b043\\workflow.sqlite3",
+    "backup_sha256": "b7c75358038e3e4cd7c7ced5c2234e88e1fbd4316514be59f7d61af7c2126c20"
+  },
+  {
+    "batch_id": "b044",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b044\\workflow.sqlite3",
+    "backup_sha256": "0bf78a7862b2a6cf88ac5826eb9572a9818524017ed3d47809a27b4e73fd0de8"
+  },
+  {
+    "batch_id": "b045",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b045\\workflow.sqlite3",
+    "backup_sha256": "54e14bffb605ed9a6ff3ca76ee7e78de635c52674c4da4ec9fad99298394f467"
+  },
+  {
+    "batch_id": "b046",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b046\\workflow.sqlite3",
+    "backup_sha256": "d71b9dec078fb99423f32e86616ca91a45810a93cceea4d7e5c00eb3436a686d"
+  },
+  {
+    "batch_id": "b047",
+    "backup_path": "outputs\\FinRisk_知识库V2_20261012\\registration_final\\before_sqlite\\b047\\workflow.sqlite3",
+    "backup_sha256": "39f1327a867a8147998ba500e4698dfc7ecc4ad3841c448cb2507bc2aee26744"
+  }
+]

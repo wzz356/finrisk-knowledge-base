@@ -1,0 +1,506 @@
+{
+  "candidate_files": 9639,
+  "effective_overlays": 157,
+  "counts": {
+    "pass": 9639,
+    "remaining8509:pass": 8509,
+    "prior1000:pass": 1000,
+    "early30:pass": 30,
+    "early100:pass": 100
+  },
+  "overlay_file_sha256": "271f9f0ea3f8cd70ca3af5af2bffeeae2263b397e36246d3f6b9b25e9923a5f4",
+  "final_checks_sha256": "d9cf2badeb606b5c1a18a43bdfc1ddacb59f0ec70e120805d8b1fed9cd548c87",
+  "initial_checks_sha256": "6fd40f2fef1fe09e7acc56cd34ee847aa06e5c3cc2a346bc2d85e89577e56542",
+  "overlay_input_sha256": {
+    "early30_overlays.jsonl": "e10de1d8e12468ffd328be51c53b5ec8d76bcefbe8cfea4b9847db81d25d6574",
+    "priority20_overlays_canonical.jsonl": "3481655e077a24fee635144f1ae26fc83e681b6ae5bcd89271868d154fa3f913",
+    "coverage_binding_overlays.jsonl": "8f1eada129039f61d451f80b790212ef143f0a01a7155402a0b2963705188835",
+    "date_binding_overlays.jsonl": "2318b37badc8e6536ffe040ce8733afc7c107785df58dc60b0d7f9bdf25d1964",
+    "date_semantic_overlays.jsonl": "21ed1266b59620f9540f8f05713859230982b3fe91b06d119d2372069e088105",
+    "legacy_semantic_overlays.jsonl": "2e99c4eaa3041507882c77305d6a6b8b527c19c80fcdbb7d4a17de1e4bcca0e1",
+    "F001901_final_overlay.jsonl": "f5faef9ee8c7ceae03a845a20754394111ed5851b5ec842a27443d35a34e4ee6"
+  },
+  "origins_by_file": {
+    "F000798": [
+      "early30_overlays.jsonl"
+    ],
+    "F001442": [
+      "early30_overlays.jsonl"
+    ],
+    "F001474": [
+      "early30_overlays.jsonl"
+    ],
+    "F001691": [
+      "early30_overlays.jsonl",
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F001842": [
+      "early30_overlays.jsonl",
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F001911": [
+      "early30_overlays.jsonl"
+    ],
+    "F002016": [
+      "early30_overlays.jsonl"
+    ],
+    "F002077": [
+      "early30_overlays.jsonl"
+    ],
+    "F002153": [
+      "early30_overlays.jsonl"
+    ],
+    "F002397": [
+      "early30_overlays.jsonl"
+    ],
+    "F002809": [
+      "early30_overlays.jsonl"
+    ],
+    "F004193": [
+      "early30_overlays.jsonl"
+    ],
+    "F004548": [
+      "early30_overlays.jsonl"
+    ],
+    "F004828": [
+      "early30_overlays.jsonl"
+    ],
+    "F005013": [
+      "early30_overlays.jsonl",
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F005240": [
+      "early30_overlays.jsonl"
+    ],
+    "F005477": [
+      "early30_overlays.jsonl"
+    ],
+    "F005483": [
+      "early30_overlays.jsonl"
+    ],
+    "F005784": [
+      "early30_overlays.jsonl"
+    ],
+    "F005881": [
+      "early30_overlays.jsonl"
+    ],
+    "F006008": [
+      "early30_overlays.jsonl"
+    ],
+    "F006205": [
+      "early30_overlays.jsonl"
+    ],
+    "F006220": [
+      "early30_overlays.jsonl"
+    ],
+    "F006254": [
+      "early30_overlays.jsonl"
+    ],
+    "F006565": [
+      "early30_overlays.jsonl"
+    ],
+    "F006830": [
+      "early30_overlays.jsonl"
+    ],
+    "F007166": [
+      "early30_overlays.jsonl"
+    ],
+    "F007715": [
+      "early30_overlays.jsonl"
+    ],
+    "F008421": [
+      "early30_overlays.jsonl"
+    ],
+    "F008817": [
+      "early30_overlays.jsonl"
+    ],
+    "F003945": [
+      "priority20_overlays_canonical.jsonl"
+    ],
+    "F003958": [
+      "priority20_overlays_canonical.jsonl"
+    ],
+    "F003989": [
+      "priority20_overlays_canonical.jsonl"
+    ],
+    "F004695": [
+      "priority20_overlays_canonical.jsonl"
+    ],
+    "F003992": [
+      "priority20_overlays_canonical.jsonl"
+    ],
+    "F000876": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F000879": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F000908": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F000953": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F000994": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F001018": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F001172": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F001246": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F001326": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F001340": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F001348": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F002203": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F002297": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F002489": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F002586": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F002597": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F002619": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F003070": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F003103": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F003263": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F003534": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F003625": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F003667": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F003719": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F003724": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004019": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004139": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004197": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004215": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004226": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004294": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004336": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004438": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004446": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004559": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004577": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004680": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004711": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004742": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F004952": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F005019": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F005045": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F005055": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F005059": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F005202": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F005376": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F005448": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F005920": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F006091": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F006164": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F006271": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F006392": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F006575": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F006589": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F006666": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F007102": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F007162": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F007341": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F007421": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F007565": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F007588": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F007702": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F007795": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F007861": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F007888": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F008378": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F008466": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F008639": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F008891": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F008940": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F009114": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F009133": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F009283": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F009322": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F009442": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F009479": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F009653": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F009790": [
+      "coverage_binding_overlays.jsonl"
+    ],
+    "F001076": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F001337": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F001818": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F001927": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F002060": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F002099": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F002139": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F002274": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F002613": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F003146": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F003241": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F003317": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F003657": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F005310": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F005773": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F006501": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F009770": [
+      "date_binding_overlays.jsonl"
+    ],
+    "F001901": [
+      "date_semantic_overlays.jsonl",
+      "F001901_final_overlay.jsonl"
+    ],
+    "F003266": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F004182": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F004229": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F005090": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F005723": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F005777": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F005845": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F005913": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F006165": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F006204": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F006276": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F006302": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F006406": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F006627": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F006648": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F006813": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F008100": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F008655": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F008668": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F008770": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F008775": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F009101": [
+      "date_semantic_overlays.jsonl"
+    ],
+    "F003693": [
+      "legacy_semantic_overlays.jsonl"
+    ],
+    "F007059": [
+      "legacy_semantic_overlays.jsonl"
+    ],
+    "F007506": [
+      "legacy_semantic_overlays.jsonl"
+    ],
+    "F007742": [
+      "legacy_semantic_overlays.jsonl"
+    ]
+  },
+  "all_mechanical_checks_passed": true,
+  "human_approved": 0,
+  "limitations": [
+    "机械通过不等于全量语义核验；候选事实与标签仍需人工验收。",
+    "覆盖指针及17份唯一同值日期修补只做来源绑定，不能增加实施主体或日期角色认定。"
+  ]
+}

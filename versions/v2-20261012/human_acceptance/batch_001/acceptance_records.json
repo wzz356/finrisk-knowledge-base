@@ -1,0 +1,112 @@
+{
+  "batch_id": "batch_001",
+  "human_confirmation_items": 3,
+  "full_documents_approved": 0,
+  "records": [
+    {
+      "reviewer_kind": "human",
+      "reviewer_origin": "direct_user_message_in_current_conversation",
+      "reviewer_name": null,
+      "user_response_text": "我觉得都正确",
+      "interpretation": "用户确认上一轮展示的三个样例；核定范围限对应字段/处理方式及召回片段帮助度。",
+      "recorded_at_utc": "2026-10-12T13:04:22.221038+00:00",
+      "reviewed_at": null,
+      "frozen_v2_manifest_sha256": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+      "full_document_approved": false,
+      "item_id": "B001-01",
+      "file_id": "F007742",
+      "decision": "accept_displayed_scope",
+      "effective_draft_json_sha256": "5307feeb0c961e193a79d7a7dc55bdd935aac6052773d07a63a4b3d5c52f9c99",
+      "text_sha256": "2bd451b0609aa8a0a2d28fd29883b7d349cb68f39c71a99da05f6fb61f5164e8",
+      "material_packet_sha256": "d134defc9ca8206a1e842a43915b724bee6f312a740dec59260432087b0f2017",
+      "approved_scope": [
+        {
+          "case_local_key": "subject_3",
+          "party_name": "中国人寿财产保险股份有限公司贺兰支公\n司",
+          "field": "penalties[0].amount_yuan",
+          "approved_value": 270000
+        },
+        {
+          "case_local_key": "subject_4",
+          "party_name": "中国人寿财产保险股份有限公司永宁支公\n司",
+          "field": "penalties[0].amount_yuan",
+          "approved_value": 150000
+        },
+        {
+          "case_local_key": "subject_5",
+          "party_name": "中国人寿财产保险股份有限公司灵武支公\n司",
+          "field": "penalties[0].amount_yuan",
+          "approved_value": 80000
+        }
+      ],
+      "presentation": "原文罚款三项摘录合并排版换行；贺兰27万、永宁15万、灵武8万。"
+    },
+    {
+      "reviewer_kind": "human",
+      "reviewer_origin": "direct_user_message_in_current_conversation",
+      "reviewer_name": null,
+      "user_response_text": "我觉得都正确",
+      "interpretation": "用户确认上一轮展示的三个样例；核定范围限对应字段/处理方式及召回片段帮助度。",
+      "recorded_at_utc": "2026-10-12T13:04:22.221038+00:00",
+      "reviewed_at": null,
+      "frozen_v2_manifest_sha256": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+      "full_document_approved": false,
+      "item_id": "B001-02",
+      "file_id": "F004182",
+      "decision": "accept_displayed_scope",
+      "effective_draft_json_sha256": "68d8d98691726dc0bd4088eaa5099189dff2d32835825cc91c7c27c8f2e047eb",
+      "text_sha256": "e0dce12a169f6c0cd2357ef8ef45752d2a3d2d785fd12de178642a34765997a2",
+      "material_packet_sha256": "d134defc9ca8206a1e842a43915b724bee6f312a740dec59260432087b0f2017",
+      "approved_scope": [
+        {
+          "case_local_key": "china_life_liping",
+          "field": "penalty_date",
+          "approved_value": null,
+          "handling": "具体日期缺失时留空；不从文号年份补造年月日。"
+        },
+        {
+          "case_local_key": "yan_sanling",
+          "field": "penalty_date",
+          "approved_value": null,
+          "handling": "具体日期缺失时留空；不从文号年份补造年月日。"
+        },
+        {
+          "case_local_key": "wu_qingwen",
+          "field": "penalty_date",
+          "approved_value": null,
+          "handling": "具体日期缺失时留空；不从文号年份补造年月日。"
+        }
+      ],
+      "presentation": "文号2025年41/42/47号，说明公示表缺具体日期；仅核定日期缺失处理。"
+    },
+    {
+      "reviewer_kind": "human",
+      "reviewer_origin": "direct_user_message_in_current_conversation",
+      "reviewer_name": null,
+      "user_response_text": "我觉得都正确",
+      "interpretation": "用户确认上一轮展示的三个样例；核定范围限对应字段/处理方式及召回片段帮助度。",
+      "recorded_at_utc": "2026-10-12T13:04:22.221038+00:00",
+      "reviewed_at": null,
+      "frozen_v2_manifest_sha256": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+      "full_document_approved": false,
+      "item_id": "B001-03",
+      "file_id": "F009412",
+      "query_id": "Q009",
+      "arm": "rrf",
+      "decision": "helpful",
+      "context_id": "C98851372efcc",
+      "pair_id": "Jbd9317ef3bcf",
+      "query_text": "重疾险推广拟写成只要诊断疾病就能马上拿到保险金。审稿需要确认诊断事件与合同给付条件是否相同，避免把一句方便理解的话变成无条件支付承诺。",
+      "source_text_sha256": "7ce5c0f360f2511652f003bd0e6e855c9d9d9ed4be18e45e8c95bbbd31b6f126",
+      "context_sha256": "98851372efcc2b1922ee478bfdd203518536600a13d02be72ba9c47a119d1d81",
+      "material_packet_sha256": "4b3537c130c28c5358dc68011b1d9b23348e2b89be1072ae4bcfb7a3f385c80e",
+      "helpful": true,
+      "numeric_help_grade": null,
+      "approved_scope": [
+        "displayed_excerpt_helpfulness_for_Q009"
+      ],
+      "presented_excerpt": "讲师在产说会中讲解重疾理赔案例时说道：“只要承保买过重大疾病，超过两年，他都不需要生调的，只要凭病理报告他就可以给钱，确诊就给钱。”未给消费者强调条款约定免除责任的内容。",
+      "presentation": "实际返回片段的关键部分，合并排版换行并将逗号规范为中文逗号；不代表完整Top5或全文件验收。"
+    }
+  ]
+}

@@ -1,0 +1,690 @@
+{
+  "queue_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\定向复核工作队列_v2.json",
+  "queue_byte_sha256": "08c577a94252f85db2d44b90662a16d4ecd39ee5e07d8322c4bc44302869c193",
+  "queue_records": 4514,
+  "previous100_excluded": 100,
+  "rule": "固定配额：表格个人角色12份，个人候选归属8份。各层按个人主体数、unknown/direct_person角色数、行为数、信号数降序，file_id升序；第二层排除第一层。使用原队列记录和知识库当前稿，两个稿的canonical SHA必须一致。每份全文核金额、日期、否定、个人责任和漏行为。信号非错误。",
+  "model_review_only": true,
+  "selected": [
+    {
+      "file_id": "F000385",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p2\\F000385_r0_fix01.json",
+      "candidate_sha256": "a32ef8e8d557928f8f3bffe6471ac08c6badd906d7f3d78311489762b1a05f67",
+      "signals": [
+        {
+          "code": "LEGAL_REFS_EMPTY_WITH_QUOTED_LAW",
+          "case_keys": [
+            "company",
+            "li",
+            "zhang",
+            "xu",
+            "liang",
+            "liu",
+            "xiao",
+            "zhou",
+            "deng",
+            "wang",
+            "hu",
+            "hong",
+            "zhuo",
+            "jin"
+          ]
+        },
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        },
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b083",
+      "part_id": "p2",
+      "sort_metrics": [
+        13,
+        14,
+        17,
+        3
+      ],
+      "person_count": 13,
+      "risky_roles": 14,
+      "behavior_count": 17,
+      "base_draft_json_sha256": "478919b89586e7d40667949f2c2eba71895817ee47dc81a6221e23493bf6a767",
+      "base_text_sha256": "24395dc3ba2065f37331463962d3a21a21e7056669a7e27c01dec03ec404b2cb",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 1
+    },
+    {
+      "file_id": "F000743",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b086\\p2\\F000743_r0.json",
+      "candidate_sha256": "d39d19a6a708f9c5c3e967d54d8d9bc395ca9bb841da303d25a936b348129f34",
+      "signals": [
+        {
+          "code": "LEGAL_REFS_EMPTY_WITH_QUOTED_LAW",
+          "case_keys": [
+            "company",
+            "li_kun",
+            "zhang_liping",
+            "yu",
+            "zhan",
+            "zhu_ling",
+            "zhang_li",
+            "wang_zheng",
+            "ge",
+            "sun",
+            "zhu_hua",
+            "wang_yin"
+          ]
+        },
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        },
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b086",
+      "part_id": "p2",
+      "sort_metrics": [
+        11,
+        6,
+        16,
+        3
+      ],
+      "person_count": 11,
+      "risky_roles": 6,
+      "behavior_count": 16,
+      "base_draft_json_sha256": "eb8a895b854a7a64f10caf5350f0da00f0a54edfe4e6835d177c7a0c4b0b835d",
+      "base_text_sha256": "a480a713c4ecabdd6d45f3dab391ba40018d258a62e4c7b7271c0f9d77af3e3f",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 2
+    },
+    {
+      "file_id": "F001972",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b078\\p3\\F001972_r0.json",
+      "candidate_sha256": "3777299c607efb500aebb78224cf226d46290060c646766d34fcb67d92656cf2",
+      "signals": [
+        {
+          "code": "MARKETING_FLAG_CONTRADICTS_EXPLICIT_TAG",
+          "tags": [
+            "回访违规"
+          ],
+          "actual": null
+        },
+        {
+          "code": "LEGAL_REFS_EMPTY_WITH_QUOTED_LAW",
+          "case_keys": [
+            "company",
+            "pang",
+            "feng",
+            "zhou",
+            "huang",
+            "luo",
+            "tan",
+            "yang",
+            "deng",
+            "ou"
+          ]
+        },
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b078",
+      "part_id": "p3",
+      "sort_metrics": [
+        9,
+        6,
+        12,
+        3
+      ],
+      "person_count": 9,
+      "risky_roles": 6,
+      "behavior_count": 12,
+      "base_draft_json_sha256": "f546d0bf3bae60fe400e04e0698d66811c2d1adedec559258e1f774b99b13d05",
+      "base_text_sha256": "c308a7d73aedd72bbd494908790e4b01c1507817a3a263378417d8fee08c1552",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 3
+    },
+    {
+      "file_id": "F001965",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b078\\p1\\F001965_r0.json",
+      "candidate_sha256": "df196c09d254ef33003c8d77c9b535c5697efbef777b464b49d72e165769ae41",
+      "signals": [
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b078",
+      "part_id": "p1",
+      "sort_metrics": [
+        8,
+        14,
+        19,
+        1
+      ],
+      "person_count": 8,
+      "risky_roles": 14,
+      "behavior_count": 19,
+      "base_draft_json_sha256": "6bf1e925c5cb9a7e706851bdc6ceb93bb13f923e02524e8251a87ebe0a3d4800",
+      "base_text_sha256": "078c7d784650e41c5e720e9ca7a8db8ec31190199ce44f7c8cbeac33c0db1d44",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 4
+    },
+    {
+      "file_id": "F003945",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b068\\p3\\F003945_r0.json",
+      "candidate_sha256": "7f7c3bf6a9f2e821ea26e6930adb90126590e4a7c4e1d708d02c93977cac4011",
+      "signals": [
+        {
+          "code": "MARKETING_FLAG_CONTRADICTS_EXPLICIT_TAG",
+          "tags": [
+            "合同外利益"
+          ],
+          "actual": false
+        },
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        },
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b068",
+      "part_id": "p3",
+      "sort_metrics": [
+        7,
+        8,
+        11,
+        3
+      ],
+      "person_count": 7,
+      "risky_roles": 8,
+      "behavior_count": 11,
+      "base_draft_json_sha256": "919db872e003786084958365a2ffc8778e417bf4ed8b2b34b4803d40f61057e8",
+      "base_text_sha256": "d6417ce43985026c6fb1aac0d14f2a0db569f01f2f5313b9de219d2d54268707",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 5
+    },
+    {
+      "file_id": "F001976",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b004\\p1\\F001976_r0.json",
+      "candidate_sha256": "880efd4e9a1673a01dac483478011081028d276931545409b0f24e5e5700cf3f",
+      "signals": [
+        {
+          "code": "MARKETING_FLAG_CONTRADICTS_EXPLICIT_TAG",
+          "tags": [
+            "培训材料违规"
+          ],
+          "actual": null
+        },
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b004",
+      "part_id": "p1",
+      "sort_metrics": [
+        7,
+        5,
+        9,
+        2
+      ],
+      "person_count": 7,
+      "risky_roles": 5,
+      "behavior_count": 9,
+      "base_draft_json_sha256": "add9847144c0538f51401ec7fe2f27dc34f39a0752567b82f3c03c56d5c85fc1",
+      "base_text_sha256": "d54d70e73afcecc2a2da0d3730a47670dd210816f5e689ce3c68c6f9d63f7826",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 6
+    },
+    {
+      "file_id": "F005044",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b014\\p3\\F005044_r0.json",
+      "candidate_sha256": "e8c9aa5bcd30b050524ba3f4a39869c1b6412a72ece3e900f26b9190a3fe38b2",
+      "signals": [
+        {
+          "code": "MARKETING_FLAG_CONTRADICTS_EXPLICIT_TAG",
+          "tags": [
+            "合同外利益"
+          ],
+          "actual": null
+        },
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        },
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b014",
+      "part_id": "p3",
+      "sort_metrics": [
+        6,
+        16,
+        21,
+        3
+      ],
+      "person_count": 6,
+      "risky_roles": 16,
+      "behavior_count": 21,
+      "base_draft_json_sha256": "c68c87fa5d1d3c72985e8b78f86db1445cf8e5b265b47e9124364255954b5e28",
+      "base_text_sha256": "f7f71ecace7f85f4719670a2608cdb470fcb89b5cc7d52962a5f028b3f0d14c7",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 7
+    },
+    {
+      "file_id": "F004362",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b007\\p1\\F004362_r0.json",
+      "candidate_sha256": "70cef12dc151f66f3c0cfa6995dec246e03654ec57bb087d753ca15a46939071",
+      "signals": [
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b007",
+      "part_id": "p1",
+      "sort_metrics": [
+        6,
+        7,
+        13,
+        1
+      ],
+      "person_count": 6,
+      "risky_roles": 7,
+      "behavior_count": 13,
+      "base_draft_json_sha256": "3ef08665a1a1175472664f83b84a06c9992d83cc2ac7af542ed880818ccf8ced",
+      "base_text_sha256": "5b5b3520c1d18776baebbfce19037b8af565d3ef376e34db2c1c442d76d08df2",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 8
+    },
+    {
+      "file_id": "F009272",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b017\\p1\\F009272_r0.json",
+      "candidate_sha256": "0f32e2af005424ed2cfa6fe45481e17e6a340141d1e5aafd4b0b1a28da8ed3e5",
+      "signals": [
+        {
+          "code": "MARKETING_FLAG_CONTRADICTS_EXPLICIT_TAG",
+          "tags": [
+            "不当比较",
+            "合同外利益",
+            "培训材料违规",
+            "绝对化表述",
+            "虚假宣传",
+            "赠送利益"
+          ],
+          "actual": null
+        },
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b017",
+      "part_id": "p1",
+      "sort_metrics": [
+        6,
+        3,
+        9,
+        2
+      ],
+      "person_count": 6,
+      "risky_roles": 3,
+      "behavior_count": 9,
+      "base_draft_json_sha256": "63d1f8509c113264d9a1452a687f437b21f7ada492045c4d12b65246b6738932",
+      "base_text_sha256": "91c45f1296c7add23251802f3b7c1d46e292af6547b8ebb8de40f8dd2268deda",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 9
+    },
+    {
+      "file_id": "F004962",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b041\\p1\\F004962_r0.json",
+      "candidate_sha256": "ddb595d2cf23a3daf04da71c9ea7f3a7320e195d1dc641b84f4e699f491e96cd",
+      "signals": [
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b041",
+      "part_id": "p1",
+      "sort_metrics": [
+        5,
+        15,
+        15,
+        1
+      ],
+      "person_count": 5,
+      "risky_roles": 15,
+      "behavior_count": 15,
+      "base_draft_json_sha256": "3b6f0d0bf3ba553aa2a29f5a56843faf8085828ce17c756840553208bc43eea4",
+      "base_text_sha256": "5880441d29ac90d077070193edbc70c8a7a50254291be411cbcc7e7ca92f1b6d",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 10
+    },
+    {
+      "file_id": "F004309",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b033\\p1\\F004309_r0.json",
+      "candidate_sha256": "31be83e69ce9a7bf1b1b9280edcb497ccead7921da9a6ac78b1fddb667e51d9c",
+      "signals": [
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        },
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b033",
+      "part_id": "p1",
+      "sort_metrics": [
+        5,
+        11,
+        14,
+        2
+      ],
+      "person_count": 5,
+      "risky_roles": 11,
+      "behavior_count": 14,
+      "base_draft_json_sha256": "23d135568be577d871e6e2dfb613f2e68b116a69a1953b0cff94c708a76efe3a",
+      "base_text_sha256": "e30fe2e20b7dc6f0ef4eb2b50ee0934bc705ea4bc23850684ef5803672f57ff8",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 11
+    },
+    {
+      "file_id": "F004991",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b076\\p3\\F004991_r0.json",
+      "candidate_sha256": "00bf67103eae5d133db56d07f557adcffcaceb556ffdaf9683501075eda7faeb",
+      "signals": [
+        {
+          "code": "MARKETING_FLAG_CONTRADICTS_EXPLICIT_TAG",
+          "tags": [
+            "合同外利益"
+          ],
+          "actual": false
+        },
+        {
+          "code": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+          "note": "只是宽表个人角色定向信号，不自动改unknown"
+        },
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b076",
+      "part_id": "p3",
+      "sort_metrics": [
+        5,
+        9,
+        11,
+        3
+      ],
+      "person_count": 5,
+      "risky_roles": 9,
+      "behavior_count": 11,
+      "base_draft_json_sha256": "d887ecea6aa3194c86a6a6bdcee6dc3038e2eeda2d978f1481afc754a6a9cb60",
+      "base_text_sha256": "36fe2b1163bc137e2e49c64fca70d4fb1f53fba7b05443eeed5d78dd22c5f9f8",
+      "selection_lane": "TABLE_DIRECT_PERSON_ROLE_REVIEW",
+      "selection_rank_in_lane": 12
+    },
+    {
+      "file_id": "F003958",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b025\\p3\\F003958_r0.json",
+      "candidate_sha256": "cbbb7eef7962f61eb2e712231c9e6ee7bf13459575713c07c2cad8162decb62a",
+      "signals": [
+        {
+          "code": "MARKETING_FLAG_CONTRADICTS_EXPLICIT_TAG",
+          "tags": [
+            "合同外利益",
+            "欺骗投保人"
+          ],
+          "actual": null
+        },
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b025",
+      "part_id": "p3",
+      "sort_metrics": [
+        27,
+        3,
+        64,
+        2
+      ],
+      "person_count": 27,
+      "risky_roles": 3,
+      "behavior_count": 64,
+      "base_draft_json_sha256": "a7734cbb9c6fe5ed296254e7bacd6a7a942ef1689ca96e01bf83fc901bc98533",
+      "base_text_sha256": "b7d20807096892a6ccebf4a6aeaed19aca0f0fda3351cc8e0ee5ecd91cc4d263",
+      "selection_lane": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW",
+      "selection_rank_in_lane": 1
+    },
+    {
+      "file_id": "F006485",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b060\\p2\\F006485_r0.json",
+      "candidate_sha256": "8313081c6d567091cc24bc0034630a9e0523d5502f4e9908777a3c3f7924c909",
+      "signals": [
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b060",
+      "part_id": "p2",
+      "sort_metrics": [
+        25,
+        150,
+        156,
+        1
+      ],
+      "person_count": 25,
+      "risky_roles": 150,
+      "behavior_count": 156,
+      "base_draft_json_sha256": "3c10018ba9c353eb75dff7f49eb16952c707e35055998bb7fefd28d6a287d83b",
+      "base_text_sha256": "c2395e8339f3599a207292be785a2e7419520e92b0f83702c8b956d1526c7951",
+      "selection_lane": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW",
+      "selection_rank_in_lane": 2
+    },
+    {
+      "file_id": "F004864",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F004864_r0_fix03.json",
+      "candidate_sha256": "f69cfe50663765a97608394a5e5d9ec783bbfde8cd233439a384788f186d4092",
+      "signals": [
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b013",
+      "part_id": "p2",
+      "sort_metrics": [
+        19,
+        21,
+        29,
+        1
+      ],
+      "person_count": 19,
+      "risky_roles": 21,
+      "behavior_count": 29,
+      "base_draft_json_sha256": "79d146f05635c786d05bc97e07cb4863838095ab4b2cd34a85ffa4679867740a",
+      "base_text_sha256": "c7c7ce66eab63327dd0c51da9f7d61dcaf5cb14d7e422032129df7100cc85674",
+      "selection_lane": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW",
+      "selection_rank_in_lane": 3
+    },
+    {
+      "file_id": "F003989",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b037\\p1\\F003989_r0_fix01.json",
+      "candidate_sha256": "9ed2286ff11c219befa0ffe4733f980fd57ad86470fcca3e1b3a9c4ffd9ba020",
+      "signals": [
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b037",
+      "part_id": "p1",
+      "sort_metrics": [
+        18,
+        73,
+        82,
+        1
+      ],
+      "person_count": 18,
+      "risky_roles": 73,
+      "behavior_count": 82,
+      "base_draft_json_sha256": "6673b09f5970160119c3315d03e587ab5452126ddf659500b555cdcbb229203a",
+      "base_text_sha256": "4d55eb4a9b9320387c8febfa3fd4a608056836143205520448fdb1dfc41a8830",
+      "selection_lane": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW",
+      "selection_rank_in_lane": 4
+    },
+    {
+      "file_id": "F004461",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b080\\p3\\F004461_r0.json",
+      "candidate_sha256": "04919b5b165fad28e85be9a2e8b775fd24912b28519352296ef72381b9a0723b",
+      "signals": [
+        {
+          "code": "MARKETING_FLAG_CONTRADICTS_EXPLICIT_TAG",
+          "tags": [
+            "不当比较",
+            "合同外利益"
+          ],
+          "actual": null
+        },
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b080",
+      "part_id": "p3",
+      "sort_metrics": [
+        17,
+        17,
+        24,
+        2
+      ],
+      "person_count": 17,
+      "risky_roles": 17,
+      "behavior_count": 24,
+      "base_draft_json_sha256": "657352fd1c5ba7ecd53c97e277f6684a2e0d30f206d0bcc7cf0417a6ecc32ff0",
+      "base_text_sha256": "0ed15c55a00f8a0f098a9bf8151b2c022a4e3ef82252a94ba9bf155b6e048ea5",
+      "selection_lane": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW",
+      "selection_rank_in_lane": 5
+    },
+    {
+      "file_id": "F004695",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b056\\p1\\F004695_r0_fix03.json",
+      "candidate_sha256": "23b1483a7675145e53e87d7d5bbf8bd2ef7a0973e9c08aeb79b7b79119a337e9",
+      "signals": [
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b056",
+      "part_id": "p1",
+      "sort_metrics": [
+        15,
+        18,
+        29,
+        1
+      ],
+      "person_count": 15,
+      "risky_roles": 18,
+      "behavior_count": 29,
+      "base_draft_json_sha256": "070210ce1a7839838fcadc981d4e93ff390238e44a3171306a3de4a37ab6322c",
+      "base_text_sha256": "0c1ce84c101b305dba717ca6579eed164093340e9d1a8610001b746fd94ec73e",
+      "selection_lane": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW",
+      "selection_rank_in_lane": 6
+    },
+    {
+      "file_id": "F003992",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p3\\F003992_r0.json",
+      "candidate_sha256": "7ce97b0a7b76df713b018ec5be42fec320c874fcb386b63eb52972d7f30c4f58",
+      "signals": [
+        {
+          "code": "MARKETING_FLAG_CONTRADICTS_EXPLICIT_TAG",
+          "tags": [
+            "合同外利益",
+            "欺骗投保人"
+          ],
+          "actual": false
+        },
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b072",
+      "part_id": "p3",
+      "sort_metrics": [
+        14,
+        50,
+        56,
+        2
+      ],
+      "person_count": 14,
+      "risky_roles": 50,
+      "behavior_count": 56,
+      "base_draft_json_sha256": "4480ce3f7c2792f8e9d677ba45db92714b3ff82bbc7421b1bdcc0ad0110b051d",
+      "base_text_sha256": "a66fb22998df1f5f81d9e9e61f5f3b2f4dff9793ad495b997ca4cd531e487720",
+      "selection_lane": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW",
+      "selection_rank_in_lane": 7
+    },
+    {
+      "file_id": "F006484",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b035\\p2\\F006484_r0_fix01.json",
+      "candidate_sha256": "10f0a01741cc4679a83dd56655a7c76c69d6947a14a681ae5983098cfce030f1",
+      "signals": [
+        {
+          "code": "MARKETING_FLAG_CONTRADICTS_EXPLICIT_TAG",
+          "tags": [
+            "合同外利益",
+            "电销违规"
+          ],
+          "actual": null
+        },
+        {
+          "code": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW"
+        }
+      ],
+      "status": "needs_source_review",
+      "batch_id": "b035",
+      "part_id": "p2",
+      "sort_metrics": [
+        12,
+        168,
+        182,
+        2
+      ],
+      "person_count": 12,
+      "risky_roles": 168,
+      "behavior_count": 182,
+      "base_draft_json_sha256": "e5d94f64627522291883c6d5adf034ccad0fd2c202f595bef63db3042ddab50b",
+      "base_text_sha256": "d72883f8ff40f999e07d382c692fbfe7e88c7e3142ab8e47bcb65103e5d52060",
+      "selection_lane": "PERSON_SPECIFIC_RECALL_CANDIDATE_REVIEW",
+      "selection_rank_in_lane": 8
+    }
+  ]
+}

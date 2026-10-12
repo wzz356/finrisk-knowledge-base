@@ -1,0 +1,22 @@
+{
+  "phase": "registered_complete",
+  "files": 8509,
+  "counts": {
+    "already_current": 4665,
+    "update": 35,
+    "new": 3809
+  },
+  "executed": true,
+  "registration_plan_sha256": "d25a7611ea64852092fb5bb3195382b1f925dc600cec6482d96ddf342ec60cdb",
+  "script_sha256": "3a0f1ca26bc5219deb37bd12f7568024586c5dcbb1a2946dcfc8aa27dc256f6a",
+  "compatibility_checker_sha256": "5cd46c3cb4a419d8deacb5840279dc364620bf99b7039d0fbe335befc7c69bb2",
+  "active_validator_version": "finrisk-compat-v1",
+  "active_validator_sha256": "5cd46c3cb4a419d8deacb5840279dc364620bf99b7039d0fbe335befc7c69bb2",
+  "overlay_file_sha256": "271f9f0ea3f8cd70ca3af5af2bffeeae2263b397e36246d3f6b9b25e9923a5f4",
+  "frozen_source_package_manifest_sha256": "8bbe59e6c8d501a8a5311d1473a7d3ccccf338f0179b0853048078f9cbf2f2e0",
+  "note": "Controlled V2 registration explicitly uses frozen compatibility guards; prior config and formal history retained.",
+  "human_approved": 0,
+  "registered_current": 8509,
+  "receipt_sha256": "2f4c48d3d2e20bf7f0f8bebf60bddb95911c1260304bf056fada72f650dae739",
+  "prior_database_backups": 47
+}
