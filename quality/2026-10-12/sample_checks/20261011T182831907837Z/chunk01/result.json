@@ -1,0 +1,356 @@
+{
+  "status": "pass",
+  "compatibility_version": "finrisk-compat-v1",
+  "documents_requested": 5,
+  "documents_passed": 5,
+  "records": [
+    {
+      "file_id": "F002920",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002920_r0_fix02.json",
+      "proposal_sha256": "3188a777cd968a64a8c869f5aac73121928e285f28afd272f05ca2e31d4f763e",
+      "proposal_content_sha256": "86eb81b6aff7bfcb66fc31312d93b2371141425c249ac44086e13a78349adb5b",
+      "source_sha256": "afe694d043c76a0e0117e316c577a8847f95e8db96cd16ca9f95ab0b8a3d393d",
+      "text_sha256": "afe694d043c76a0e0117e316c577a8847f95e8db96cd16ca9f95ab0b8a3d393d",
+      "requires_review": true,
+      "reasons": [
+        "conditions_negations_or_exceptions"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "quote_fields_checked": 36,
+      "quote_spans_checked": 36,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "company",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F003940",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b054\\p2\\F003940_r0_fix04.json",
+      "proposal_sha256": "41dc9128b29723bc7136aa662367c4afc7ea97f961bc111b973ceb35831a6779",
+      "proposal_content_sha256": "547294bf4086338c47ead3a97e70fe97c46fa189c535f21cae1cd8ed8d74d6fa",
+      "source_sha256": "a87513d711b3a0cee1e6ab3054e2ee98295fce7d5e47421dfbdfd8383e2e226c",
+      "text_sha256": "a87513d711b3a0cee1e6ab3054e2ee98295fce7d5e47421dfbdfd8383e2e226c",
+      "requires_review": true,
+      "reasons": [
+        "aggregate_or_split_penalty",
+        "declared_source_issue",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "penalty_amount_unknown_requires_review"
+      ],
+      "cases": 29,
+      "behaviors": 37,
+      "quote_fields_checked": 430,
+      "quote_spans_checked": 577,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "paclife",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "paclife_person0",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "paclife_person1",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "paclife_person2",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "paclife_person3",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "paclife_person4",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "shenghua",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "shenghua_person0",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "sanxia",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "sanxia_person0",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "sanxia_person1",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "zhongyi",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "zhongyi_person0",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "zhongyi_person1",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty_person0",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty_person1",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty_person2",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty_person3",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty_person4",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty_person5",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty_person6",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty_person7",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty_person8",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pacproperty_person9",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "huaxia",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "huaxia_person0",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "baige",
+          "rule_or_exception": "F003940-baige-name-v1"
+        },
+        {
+          "case_key": "baige_person0",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004062",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b055\\p1\\F004062_r0.json",
+      "proposal_sha256": "9b22170e97b2469a1a8499ddbd5aacc593d72da147e36e4b25bd3a1aca7721ba",
+      "proposal_content_sha256": "3e0b2c51d8868f5308793a44f8dd7c113bc7e039762a91cd6e0c4cc293e6a045",
+      "source_sha256": "61ba5fe56a2292ea08d55d1e901683e2b83df19e92f621d89faab7d7154749ce",
+      "text_sha256": "61ba5fe56a2292ea08d55d1e901683e2b83df19e92f621d89faab7d7154749ce",
+      "requires_review": false,
+      "reasons": [],
+      "cases": 1,
+      "behaviors": 3,
+      "quote_fields_checked": 38,
+      "quote_spans_checked": 38,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "company",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004120",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p3\\F004120_r0_fix04.json",
+      "proposal_sha256": "a82221980171cb0448b587e4f465d03131644159e5a21d8be513f7aee6aaa81d",
+      "proposal_content_sha256": "52217b2c673e244fbe6f8895c3518ad77524989f8b00ddee899db62a50d131c6",
+      "source_sha256": "ba118c03398197c1958de0bb2ef59b8fe39cafb781fa9addacb26055324c8f6b",
+      "text_sha256": "ba118c03398197c1958de0bb2ef59b8fe39cafb781fa9addacb26055324c8f6b",
+      "requires_review": true,
+      "reasons": [
+        "declared_source_issue",
+        "important_or_critical_unresolved",
+        "multiple_decisions",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 15,
+      "behaviors": 15,
+      "quote_fields_checked": 309,
+      "quote_spans_checked": 879,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "cpic_donggang",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "wang_wencai",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "cpic_lanzhou",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "wu_yanqi",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "cpic_qingyang",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "fei_yonghong",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "cpic_yuzhong",
+          "rule_or_exception": "F004120-cpic_yuzhong-name-v1"
+        },
+        {
+          "case_key": "jin_hong",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "cpic_jiuquan",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "wu_jun",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "picc_life_gansu",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "meng_qingchun",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "liu_zhitang",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pingan_gansu",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "wang_anping",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004986",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b058\\p3\\F004986_r0.json",
+      "proposal_sha256": "531c9456faed05c3e1e22883f2c67d4179a0fd43f813c0ae5b440dbefca43990",
+      "proposal_content_sha256": "4af9c6cc85622a05d32e77c3625c9432200b013e387b850890c76019957448d6",
+      "source_sha256": "f3c04c3404c6762d4efbc9c70ec580de764fc2344ba7837f96763f0b6234912c",
+      "text_sha256": "f3c04c3404c6762d4efbc9c70ec580de764fc2344ba7837f96763f0b6234912c",
+      "requires_review": true,
+      "reasons": [
+        "multiple_decisions",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 3,
+      "behaviors": 3,
+      "quote_fields_checked": 71,
+      "quote_spans_checked": 75,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "picc_qionglai",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bao_huaping",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "zhang_chen",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    }
+  ],
+  "failures": [],
+  "source_read_batch_limit": 5,
+  "frozen_base_checker_sha256": {
+    "work/finrisk_confirm30/check_proposals.py": "43a7d56643279f0ee368d1f90a3097bd1c432a7a9df57fcf9356d83bfd108577",
+    "work/finrisk_remaining/quality_guard.py": "c3a8e9bf9de462383b08f6d8d3da6d3bff34554b3231ba35c3d0cd4e432e4ee3",
+    "work/finrisk_bulk/prepare_run.py": "48d6a799b67d01f8745a9b8973532a0b2814b24ba32a9cb1b95b437889539b4f"
+  },
+  "compat_checker_sha256": "5cd46c3cb4a419d8deacb5840279dc364620bf99b7039d0fbe335befc7c69bb2",
+  "external_api_calls": 0,
+  "semantic_status": "candidate",
+  "human_review_status": "pending"
+}

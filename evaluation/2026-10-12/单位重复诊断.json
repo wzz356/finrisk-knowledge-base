@@ -1,0 +1,19 @@
+{
+  "structured_units": 64109,
+  "unique_file_exact_source_texts": 39728,
+  "duplicate_exact_source_text_units": 24381,
+  "max_same_file_exact_text_repetitions": 182,
+  "note": "主体/前缀不同也计原文正文重复；这些重复可有保留归属的用途，不直接视为候选错误。",
+  "evidence_kind_counts": {
+    "source": 20148,
+    "finding": 24853,
+    "coverage": 15683,
+    "material": 202,
+    "support": 2368,
+    "negation": 74,
+    "exception": 73,
+    "condition": 291,
+    "product": 415,
+    "uncertainty": 2
+  }
+}

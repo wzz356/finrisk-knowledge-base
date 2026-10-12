@@ -1,0 +1,98 @@
+{
+  "status": "complete",
+  "comparisons": [
+    {
+      "left": [
+        "structured",
+        "rrf"
+      ],
+      "right": [
+        "structured",
+        "bm25"
+      ],
+      "queries": 50,
+      "useful_at5": {
+        "mean_difference": 0.07200000000000001,
+        "better_queries": 15,
+        "tied_queries": 30,
+        "worse_queries": 5
+      },
+      "context_useful_at5": {
+        "mean_difference": 0.07200000000000001,
+        "better_queries": 16,
+        "tied_queries": 28,
+        "worse_queries": 6
+      }
+    },
+    {
+      "left": [
+        "structured",
+        "rrf_rerank"
+      ],
+      "right": [
+        "structured",
+        "rrf"
+      ],
+      "queries": 50,
+      "useful_at5": {
+        "mean_difference": -0.004,
+        "better_queries": 9,
+        "tied_queries": 31,
+        "worse_queries": 10
+      },
+      "context_useful_at5": {
+        "mean_difference": -0.036000000000000004,
+        "better_queries": 8,
+        "tied_queries": 29,
+        "worse_queries": 13
+      }
+    },
+    {
+      "left": [
+        "structured",
+        "rrf_rerank"
+      ],
+      "right": [
+        "raw",
+        "rrf_rerank"
+      ],
+      "queries": 50,
+      "useful_at5": {
+        "mean_difference": 0.016,
+        "better_queries": 11,
+        "tied_queries": 32,
+        "worse_queries": 7
+      },
+      "context_useful_at5": {
+        "mean_difference": 0.04,
+        "better_queries": 14,
+        "tied_queries": 30,
+        "worse_queries": 6
+      }
+    },
+    {
+      "left": [
+        "raw",
+        "rrf_rerank"
+      ],
+      "right": [
+        "raw",
+        "bm25"
+      ],
+      "queries": 50,
+      "useful_at5": {
+        "mean_difference": 0.096,
+        "better_queries": 20,
+        "tied_queries": 19,
+        "worse_queries": 11
+      },
+      "context_useful_at5": {
+        "mean_difference": 0.068,
+        "better_queries": 19,
+        "tied_queries": 17,
+        "worse_queries": 14
+      }
+    }
+  ],
+  "note": "描述同一50条开发查询的改进/持平/退步；没有做显著性或总体外推。"
+}

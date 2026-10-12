@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "files": {
+    "F004440": {
+      "file": "人工验收原文/F004440.txt",
+      "text_sha256": "e287708181993cf2c6dee98e614304ef087c29c9db4c54b4d0d95acd5c06b585"
+    },
+    "F002283": {
+      "file": "人工验收原文/F002283.txt",
+      "text_sha256": "f04974cd2a35ae27d82ee1b39940e2d5bb12c34aea828eeb85e9a9bfaddb8c9d"
+    },
+    "F009411": {
+      "file": "人工验收原文/F009411.txt",
+      "text_sha256": "7747b76994bba14ca2eed6306ad13f2f6b69eaae5ba33dc4a4da3adc3c193afc"
+    },
+    "F007481": {
+      "file": "人工验收原文/F007481.txt",
+      "text_sha256": "affacfb42ef9570ef52b36b7acd6aab8487a9d141f4a7d25a7051ad7caab6257"
+    },
+    "F009408": {
+      "file": "人工验收原文/F009408.txt",
+      "text_sha256": "ae1d5c11c9da49064d7e5c3f83d2de805c47321f5dca47add8a81cb56338e900"
+    },
+    "F009412": {
+      "file": "人工验收原文/F009412.txt",
+      "text_sha256": "7ce5c0f360f2511652f003bd0e6e855c9d9d9ed4be18e45e8c95bbbd31b6f126"
+    },
+    "F000699": {
+      "file": "人工验收原文/F000699.txt",
+      "text_sha256": "a60298fe5b69055e8c93cf09dee3d5f687bfc1af44812edd00cc52ea31ce77e4"
+    },
+    "F000852": {
+      "file": "人工验收原文/F000852.txt",
+      "text_sha256": "19594838c58062e9bc523bae68e971cfce93c57fcd8dd9c6fd158b352a239006"
+    },
+    "F001197": {
+      "file": "人工验收原文/F001197.txt",
+      "text_sha256": "daed1a2369c7adf921364b94b906154648d80be519042c0476103b07892dfa0d"
+    },
+    "F002401": {
+      "file": "人工验收原文/F002401.txt",
+      "text_sha256": "7481277fc34a9d8283a3408624bebb807b807e9f160a3a396676d1b1235746e8"
+    },
+    "F001369": {
+      "file": "人工验收原文/F001369.txt",
+      "text_sha256": "68a329736eb9da97787ee0005bec74bd806af7ae38b542ce3d6266aea5fa6d2e"
+    },
+    "F002377": {
+      "file": "人工验收原文/F002377.txt",
+      "text_sha256": "253a2adea780283d0adf82d712675ad90cd08120b5914d96c02ab8051d6ba001"
+    },
+    "F003387": {
+      "file": "人工验收原文/F003387.txt",
+      "text_sha256": "c9337239d33fc0db5e4f6f0c51c36c0dc927d2fa9ae803e8971bcfd291ce0d66"
+    },
+    "F000398": {
+      "file": "人工验收原文/F000398.txt",
+      "text_sha256": "f113fed21aca01edf5923b0d443ec1bf6e5e56bfc8c8831cee49a4fbe76e5e7b"
+    },
+    "F005645": {
+      "file": "人工验收原文/F005645.txt",
+      "text_sha256": "dc246f9de75f042f8e9833d32e6192ef2df2da0aaeecaaa76acfa237c49af06d"
+    }
+  },
+  "human_approved": false,
+  "note": "原始full_text原样另存，UTF-8字节SHA与任务text_sha256完全一致。"
+}

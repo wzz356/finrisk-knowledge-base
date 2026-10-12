@@ -1,0 +1,19 @@
+{
+  "config_sha256": "0490fe44b4142efd1795792ace78027e07c50be4f9aebd13b0823b8882bb2d67",
+  "documents": 100,
+  "files": {
+    "current_session90\\first100_summary.json": "09fd103e26b26a2f4a1b941275bb58b33d4fb2375e9c64017daa93be8499e069",
+    "current_session90\\verification.json": "486d457ee7f4c2b9f59dcd031babd0eed129eca314e6b238d84001ebafcf3d14",
+    "human_acceptance\\current_session90_recall_v2\\tasks.jsonl": "a7980de0dadb0602ec8b774235b3edd57b42fe68a2fbe4b74ab1dfd810040d3e",
+    "human_preview\\first100_recall_v2.md": "8acd84d53b3ae37970e1cd62dbd63c1dd9f8436cb48a1a4ccac70a66ba26b780",
+    "recall_v2\\first100\\behavior_inputs.jsonl": "e151dfae9a4d179414b370a9e5781eb8cf55ef4a22ce8c6dc2940a2843a01e33",
+    "recall_v2\\first100\\cases.jsonl": "e14c14fc1fff8c8d144f6ea17cc0f4b4fae7ae77ff426d0ebca2ebcb69aa2609",
+    "recall_v2\\first100\\documents.jsonl": "fc0d0260d9bcbdce9f185f91b88c8f9fcedbbc36fc823bd5f2856976841d73b6"
+  },
+  "first10_preservation_handling_confirmed": 3,
+  "full_document_human_approved": false,
+  "label_policy_version": "recall-v2",
+  "quality_hold_active": true,
+  "raw_first100_inputs_sha256": "c2ab4cf052dcdce638373ce49b2bd119cfc9105a88caaa229e81e455de2e5f11",
+  "status": "candidate_pilot_export"
+}

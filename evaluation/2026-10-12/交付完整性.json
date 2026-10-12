@@ -1,0 +1,354 @@
+{
+  "status": "passed",
+  "experiment_complete": true,
+  "human_approved": false,
+  "queries": 50,
+  "result_rows": 300,
+  "groups": 6,
+  "judged_pairs": 671,
+  "contexts": 945,
+  "main_exact_quote_checks": 1087,
+  "independent_pairs": 24,
+  "independent_contexts": 38,
+  "exported_source_files": 15,
+  "diagnostic_queries": 11,
+  "local_markdown_links_checked": 48,
+  "frozen_inputs_unchanged": true,
+  "runner_sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+  "runner_rule_tests": {
+    "status": "passed",
+    "tests": 15,
+    "evidence": "本轮真实执行python -B -m unittest -v test_runner，exit_code=0，Ran 15 tests，OK；结果见会话工具记录。"
+  },
+  "files": {
+    "Q032拥挤诊断.json": {
+      "bytes": 1650,
+      "sha256": "8b4d8c8ddc6ab36c303564ecab548622572a68a8c6d8e69f8ca9a30d7317f8f3"
+    },
+    "queries.jsonl": {
+      "bytes": 52243,
+      "sha256": "ee98d68b4e743fc2b5aef5c09f91627d71d5c10912081f9edcc587904c4cda18"
+    },
+    "retrieval_results.jsonl": {
+      "bytes": 26672553,
+      "sha256": "edbba86d7a7c031f965095513aa803c196684a85b0937dc7221e14fac6d634c9"
+    },
+    "retrieval_results.jsonl.run.json": {
+      "bytes": 30409,
+      "sha256": "7658abe48806162a8b989452b8d4412954c0dbf211ad408b3b80532836e156a4"
+    },
+    "retrieval_results.jsonl.token_audit.jsonl": {
+      "bytes": 28618686,
+      "sha256": "e82b6ae7dcd27be6ef7012d267a74323009b02a2e1165048e888dea04568b332"
+    },
+    "人工验收原文/F000398.txt": {
+      "bytes": 2451,
+      "sha256": "f113fed21aca01edf5923b0d443ec1bf6e5e56bfc8c8831cee49a4fbe76e5e7b"
+    },
+    "人工验收原文/F000699.txt": {
+      "bytes": 3641,
+      "sha256": "a60298fe5b69055e8c93cf09dee3d5f687bfc1af44812edd00cc52ea31ce77e4"
+    },
+    "人工验收原文/F000852.txt": {
+      "bytes": 5101,
+      "sha256": "19594838c58062e9bc523bae68e971cfce93c57fcd8dd9c6fd158b352a239006"
+    },
+    "人工验收原文/F001197.txt": {
+      "bytes": 2235,
+      "sha256": "daed1a2369c7adf921364b94b906154648d80be519042c0476103b07892dfa0d"
+    },
+    "人工验收原文/F001369.txt": {
+      "bytes": 5075,
+      "sha256": "68a329736eb9da97787ee0005bec74bd806af7ae38b542ce3d6266aea5fa6d2e"
+    },
+    "人工验收原文/F002283.txt": {
+      "bytes": 4451,
+      "sha256": "f04974cd2a35ae27d82ee1b39940e2d5bb12c34aea828eeb85e9a9bfaddb8c9d"
+    },
+    "人工验收原文/F002377.txt": {
+      "bytes": 1993,
+      "sha256": "253a2adea780283d0adf82d712675ad90cd08120b5914d96c02ab8051d6ba001"
+    },
+    "人工验收原文/F002401.txt": {
+      "bytes": 4349,
+      "sha256": "7481277fc34a9d8283a3408624bebb807b807e9f160a3a396676d1b1235746e8"
+    },
+    "人工验收原文/F003387.txt": {
+      "bytes": 4326,
+      "sha256": "c9337239d33fc0db5e4f6f0c51c36c0dc927d2fa9ae803e8971bcfd291ce0d66"
+    },
+    "人工验收原文/F004440.txt": {
+      "bytes": 1127,
+      "sha256": "e287708181993cf2c6dee98e614304ef087c29c9db4c54b4d0d95acd5c06b585"
+    },
+    "人工验收原文/F005645.txt": {
+      "bytes": 793,
+      "sha256": "dc246f9de75f042f8e9833d32e6192ef2df2da0aaeecaaa76acfa237c49af06d"
+    },
+    "人工验收原文/F007481.txt": {
+      "bytes": 828,
+      "sha256": "affacfb42ef9570ef52b36b7acd6aab8487a9d141f4a7d25a7051ad7caab6257"
+    },
+    "人工验收原文/F009408.txt": {
+      "bytes": 2287,
+      "sha256": "ae1d5c11c9da49064d7e5c3f83d2de805c47321f5dca47add8a81cb56338e900"
+    },
+    "人工验收原文/F009411.txt": {
+      "bytes": 2386,
+      "sha256": "7747b76994bba14ca2eed6306ad13f2f6b69eaae5ba33dc4a4da3adc3c193afc"
+    },
+    "人工验收原文/F009412.txt": {
+      "bytes": 2416,
+      "sha256": "7ce5c0f360f2511652f003bd0e6e855c9d9d9ed4be18e45e8c95bbbd31b6f126"
+    },
+    "人工验收原文/manifest.json": {
+      "bytes": 2631,
+      "sha256": "cb7175873f3418d1a0580bc1fe355e1d20120f9b336b836c9ad7612070ef694e"
+    },
+    "人工验收样例.md": {
+      "bytes": 31469,
+      "sha256": "dd601bbb6cee6493bd70950fb853ed980432b443cb5abbc212c897d28e2814bb"
+    },
+    "单位重复诊断.json": {
+      "bytes": 564,
+      "sha256": "2ad5536346d1791be52af1d82af2edfc53cafce7326858966a873438e12ba610"
+    },
+    "复现工具/audit_actual_run.py": {
+      "bytes": 7304,
+      "sha256": "d5d79ee0f33b0ef07291a826580a79efbceb69ed02dafb34cd7228cb07a93a20"
+    },
+    "复现工具/build_final_report.py": {
+      "bytes": 36897,
+      "sha256": "fd289db5abdf769e7bac232f540bfd5703b5e80bb45d9a0995ab93b407cf1b44"
+    },
+    "复现工具/build_review.py": {
+      "bytes": 5387,
+      "sha256": "d10fd86327f738692023cb98afbee01a2367ddb86ef79e9ccf9403f42c6cf189"
+    },
+    "复现工具/evaluate_help.py": {
+      "bytes": 9677,
+      "sha256": "de1cb05f669ebd70b8bb9e0185e47629a4a5beb6c501bb5ab0fc2e0ed6a41816"
+    },
+    "复现工具/metric_review_notes.md": {
+      "bytes": 2245,
+      "sha256": "23d759a1ce77bd7bb3083fe094ad55b96efa95d482ed856379ac658cff78286f"
+    },
+    "复现工具/requirements.freeze.txt": {
+      "bytes": 714,
+      "sha256": "5f972fdb40f1b46b9a09a8da5d9997d2a47c227ceca4b0fc336bef1013c01048"
+    },
+    "复现工具/review_notes.md": {
+      "bytes": 4864,
+      "sha256": "b8d653c9f37f987e0bfddb9b90d5a15881e0ea9515733487cdab5f3ad4055246"
+    },
+    "复现工具/runner.py": {
+      "bytes": 38346,
+      "sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb"
+    },
+    "复现工具/runner_notes.md": {
+      "bytes": 8433,
+      "sha256": "54dbf5035520d651848346b1bc2b2d01836fa3b74b869cf75b0296ad47e0741f"
+    },
+    "复现工具/test_runner.py": {
+      "bytes": 10966,
+      "sha256": "95ad6fdd97458b4b50e60e7f30b727483eafb5b4b1caa826572ff81ae68ecb7e"
+    },
+    "复现工具/verify_delivery.py": {
+      "bytes": 7299,
+      "sha256": "174f2a94397296999f02b344894f414857063b17614584e7358c97820871bd85"
+    },
+    "实验报告.md": {
+      "bytes": 16568,
+      "sha256": "3416236fec2c03611817b5be8fdd22cbce4d1d4c5b10e80f925a1bf0eb8b6b67"
+    },
+    "实验设计.md": {
+      "bytes": 3808,
+      "sha256": "6df159aa925962d729d71059b0e7c3ea888d68874d6e8dab1e12c29677b46e8d"
+    },
+    "帮助度标注规范.md": {
+      "bytes": 2829,
+      "sha256": "cec66f768fcb6468fffc8ffdb8e0f582031d9329dfa1f79a69a09a29fb59910a"
+    },
+    "投影审计.jsonl": {
+      "bytes": 420583,
+      "sha256": "d9dc33fff11ee3eba2b204ea50e90dd9b550a3ed7ebd289ec8bdc0cb1cbd3128"
+    },
+    "指标/metrics.json": {
+      "bytes": 17314,
+      "sha256": "623b7da01968ecf1993312833270dbdb6e494b058c64dfcc98af351d799e1a30"
+    },
+    "指标/per_query_metrics.jsonl": {
+      "bytes": 1028842,
+      "sha256": "19f5fae48194c9d7e22d3f8229f6b1d669150f425ce8d1553f4a5559886ed899"
+    },
+    "指标/validated_judgments.jsonl": {
+      "bytes": 515434,
+      "sha256": "94ab40f32b10519a9097e5c2fc0f8b9eec2c53b26923c43ffd2eeda56c659263"
+    },
+    "指标/同查询成对差异.json": {
+      "bytes": 2164,
+      "sha256": "4c6106fb72ef63a640168f0d4aa0942c54ad21f786f51565475742cd4442fa6f"
+    },
+    "指标/独立复标一致性.json": {
+      "bytes": 8930,
+      "sha256": "7fcfd6cfec22f9eda6df6a6824b8f63cd2d7948680bcf24caf20a8e017d7e6f5"
+    },
+    "查询清单.md": {
+      "bytes": 33572,
+      "sha256": "0f27ba17c7bac7eec832e4c3d6d6df7c8754022ddb1cab565219a900ced51e1d"
+    },
+    "查询验证说明.md": {
+      "bytes": 5361,
+      "sha256": "6bc6633ae394551d78ab275e7da0db7ad7a846ad8cfa9dc5518efb96ff56c1d4"
+    },
+    "模型验证/cache/64cce719c48ad6e49088ecc53355f231510235ef291aa5351347d258307bd042.json": {
+      "bytes": 3426,
+      "sha256": "74cd04a0f7c3cee2a6401a346ea3b147da26e6e9be9b86a95f9c44ec9675eec5"
+    },
+    "模型验证/cache/64cce719c48ad6e49088ecc53355f231510235ef291aa5351347d258307bd042.npy": {
+      "bytes": 2176,
+      "sha256": "6cecf70ef1cc1d3e4654df42df2048aa74e78c3e6864b2e01f3cb5b0ed49944a"
+    },
+    "模型验证/cache/ae2cfc54dbf727b10def6f7ab9444d62fae5520a44767de61f2021966ed1698f.json": {
+      "bytes": 3637,
+      "sha256": "b765f09f186181c14b277e6ec42ca8dea6f478f70f7505506606c411b3007282"
+    },
+    "模型验证/cache/ae2cfc54dbf727b10def6f7ab9444d62fae5520a44767de61f2021966ed1698f.npy": {
+      "bytes": 4224,
+      "sha256": "a61784025b2dfce60ba2a67689d7cb6ae10b5100fe8e70f34f8f03f39360d9d9"
+    },
+    "模型验证/model_smoke.json": {
+      "bytes": 6156,
+      "sha256": "0802eed7b1b2c120d7953bc76e52e259cd8654a186069aa77662d2db85630961"
+    },
+    "模型验证/smoke_result.json.token_audit.jsonl": {
+      "bytes": 1162,
+      "sha256": "1778bb7ffe20c193e526d7ec0e8f71b98dadb1978bc7ecd833eacaad1b28be50"
+    },
+    "独立复标记录.md": {
+      "bytes": 6274,
+      "sha256": "64d28e0cf1b5a6b5c326defbd35bf64e5117977e2240869590b62c712059a354"
+    },
+    "评估标注/__pycache__/judgments_part_1_helper.cpython-312.pyc": {
+      "bytes": 4223,
+      "sha256": "391218f1836d801881216be10bf50e4b52077ede876aaafaea04e23d108375a1"
+    },
+    "评估标注/__pycache__/judgments_part_3_helper.cpython-312.pyc": {
+      "bytes": 5187,
+      "sha256": "c0471c1bfb896d80c61f5255836ca346a1197b9d04ed508092e7ab53713df5a4"
+    },
+    "评估标注/blind_judgment_pool.jsonl": {
+      "bytes": 4187333,
+      "sha256": "6a9e5b95e153324b90bd5c7c38fc33158af3868af43fe09c0ebd28856188ca51"
+    },
+    "评估标注/independent_audit_judgments.jsonl": {
+      "bytes": 25229,
+      "sha256": "ef3f45b6466f64d18c5528d68f02bee0d05390704499b26fba57846c81b25eda"
+    },
+    "评估标注/independent_audit_manifest.json": {
+      "bytes": 742,
+      "sha256": "932b594feeb5b65298a4873f18b63109d217758ff7dbfd950077b53757522fa0"
+    },
+    "评估标注/independent_audit_notes.md": {
+      "bytes": 6152,
+      "sha256": "4f40640afa932008b7027cdb52c9b248822b72576383487ec30cce6c5723659a"
+    },
+    "评估标注/independent_audit_pool.jsonl": {
+      "bytes": 142510,
+      "sha256": "ef4cc6c20ba8b91cdb67f01d7931fa5fc0994abf0f1b7f2845d8bfef08497f75"
+    },
+    "评估标注/independent_audit_writer.py": {
+      "bytes": 23045,
+      "sha256": "a2ae8a7b831be702bdd63f7600d99355afd1c12cbf05ddc222933589097ed88b"
+    },
+    "评估标注/judgment_part_1.jsonl": {
+      "bytes": 1476599,
+      "sha256": "cc86cc1ea53c9c7fc0f018791bd703567d57fc4bee47c5c1a000a73460df2d9c"
+    },
+    "评估标注/judgment_part_2.jsonl": {
+      "bytes": 1393718,
+      "sha256": "7a786d84521526db419d04a8b7f2b29a30ab1af612a7f906e9e4380c1ee8b677"
+    },
+    "评估标注/judgment_part_3.jsonl": {
+      "bytes": 1317016,
+      "sha256": "5b65e6be7c3b694ed959a103786aa3db9d45667d447d233749f109f3d620829e"
+    },
+    "评估标注/judgment_pool_manifest.json": {
+      "bytes": 711,
+      "sha256": "baf5b18779cc9d191d90696daf7861b68da0d8841317d82206b98db10f6f3ea5"
+    },
+    "评估标注/judgment_provenance.jsonl": {
+      "bytes": 303060,
+      "sha256": "e8b91d5bb0b42ae24e96df3d8e656f5cfbee403f414b95dda0b9e058b330830e"
+    },
+    "评估标注/judgments_part_1.jsonl": {
+      "bytes": 179306,
+      "sha256": "e5700bd7259011be35424e84efee4e3e2979a4df08cdb1ae620bad7ebfde7874"
+    },
+    "评估标注/judgments_part_1_helper.py": {
+      "bytes": 1656,
+      "sha256": "f2a72e12cbf66a68139b36e28d591b214da9b6c283ccd9faeac533b88bc0aa04"
+    },
+    "评估标注/judgments_part_1_validate.py": {
+      "bytes": 3727,
+      "sha256": "7e42412451ab959aa2ad99de79f25ce8fd756c4351ddad8d24b211f6a1a404da"
+    },
+    "评估标注/judgments_part_2.jsonl": {
+      "bytes": 167128,
+      "sha256": "678df6dc52623e3db0f942581a79308dd41688b3be53d919e0dacc90f548484c"
+    },
+    "评估标注/judgments_part_2_helper.py": {
+      "bytes": 4724,
+      "sha256": "5286a8254d26573c8f10fd30069d07b34abdb1cc182296c255515c09982a8162"
+    },
+    "评估标注/judgments_part_3.jsonl": {
+      "bytes": 168329,
+      "sha256": "ef51d1675159c9d0dcf487f0ea30cc53ff389d768d7334972c6e3d7aa7961c0a"
+    },
+    "评估标注/judgments_part_3_helper.py": {
+      "bytes": 2144,
+      "sha256": "974a923e284e2c00637de6579881fea0a74e7cf2d45a1f5b753be52b695146b6"
+    },
+    "评估标注/judgments_part_3_validate.py": {
+      "bytes": 3749,
+      "sha256": "a647471d847a11ca4a72481b2dac2f3d95aa9c7f1b40b47afcadaa0a21fa9506"
+    },
+    "评估标注/notes_part_1.md": {
+      "bytes": 840,
+      "sha256": "56680f2d676807e1ea0382a59f89e458f4c14cb3e3960ce9813dfaac0d514583"
+    },
+    "评估标注/notes_part_2.md": {
+      "bytes": 1949,
+      "sha256": "2aad7b99fc9f9111db83b7b3c38ed24556d46010077142377db2d5a29109423d"
+    },
+    "评估标注/notes_part_3.md": {
+      "bytes": 2006,
+      "sha256": "f8f87911846e219c4141f33990aeff5a1e356efccb4cf2003dd688dab877f774"
+    },
+    "语料投影清单.json": {
+      "bytes": 5825562,
+      "sha256": "7e931fd36278dbb6b4f201bcb027861dfc60f6f79e411edb89a1ae0393cdc8ed"
+    },
+    "运行与复现说明.md": {
+      "bytes": 5509,
+      "sha256": "bce440ca7bbd5ab029ab84b871fbf534e168dd6385f8b153846bef73d1c6c43a"
+    },
+    "运行完整性检查.json": {
+      "bytes": 68478,
+      "sha256": "a8255c6d7e07ea96baf937e97868b63226d5cfb328a7601cca2e4ad55a6ed774"
+    },
+    "运行日志.txt": {
+      "bytes": 16967,
+      "sha256": "7180ca1c4f0f70b7d402f6abb23e1c574291cb0b42885c11ec87609971149529"
+    },
+    "逐查询对照.md": {
+      "bytes": 17144,
+      "sha256": "444c364e4f00c1605e85abe5ab3865098864bb20d5befc7a97ed8900f1079de3"
+    }
+  },
+  "limitations": [
+    "模型辅助帮助度、同模型体系独立上下文复标，非人类验收",
+    "50条合成开发查询，不是盲测或全库完整相关集合",
+    "正式知识库及审批/账本未切换，后续改进收益尚未测量"
+  ]
+}

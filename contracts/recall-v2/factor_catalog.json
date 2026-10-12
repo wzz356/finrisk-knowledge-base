@@ -1,0 +1,3386 @@
+{
+  "version": "S07.factor_discovery.v1",
+  "status": "candidate",
+  "human_review_status": "pending",
+  "human_review_count": 0,
+  "semantic_approval_count": 0,
+  "provenance": "发现代理逐批阅读全文后的离线候选归纳；未调用外部API，未读取测试题/答案或旧模型草稿摘要",
+  "sample_count": 60,
+  "full_text_read_count": 60,
+  "total_text_chars": 79718,
+  "official_label_dictionary": {
+    "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_离线知识库10文书试点_20261010\\dictionary\\risk_type_dictionary.csv",
+    "sha256": "0588febf140ada823980fdbe0c5691d77bc02ed439cb8d44e6cfef1cda12d8bb",
+    "row_count": 27,
+    "frozen": true,
+    "changed": false,
+    "candidate_enums_are_not_risk_tags": true
+  },
+  "partition_policy": {
+    "discovery": "new60",
+    "prior_P10_role": "原10仅已知样板，未用于本轮因子证据，不属于新60",
+    "excluded_from_future_independent30": [
+      "F001353",
+      "F001685",
+      "F001529",
+      "F001785",
+      "F002143",
+      "F009323",
+      "F009826",
+      "F002202",
+      "F001795",
+      "F002283",
+      "F001354",
+      "F001782",
+      "F001361",
+      "F001535",
+      "F001824",
+      "F001965",
+      "F001972",
+      "F002594",
+      "F000751",
+      "F000732",
+      "F000292",
+      "F000577",
+      "F000743",
+      "F001156",
+      "F001322",
+      "F001611",
+      "F001786",
+      "F001918",
+      "F002429",
+      "F002859",
+      "F004802",
+      "F004895",
+      "F004176",
+      "F004255",
+      "F004951",
+      "F009540",
+      "F001974",
+      "F003927",
+      "F004728",
+      "F004200",
+      "F004201",
+      "F004889",
+      "F004194",
+      "F004715",
+      "F004720",
+      "F003980",
+      "F000453",
+      "F000562",
+      "F000563",
+      "F001506",
+      "F001656",
+      "F001124",
+      "F007627",
+      "F001039",
+      "F002029",
+      "F005216",
+      "F009189",
+      "F008207",
+      "F000574",
+      "F009209"
+    ],
+    "also_exclude_prior_P10": [
+      "F000002",
+      "F000070",
+      "F000246",
+      "F000294",
+      "F000326",
+      "F000380",
+      "F000624",
+      "F000635",
+      "F000852",
+      "F001357"
+    ],
+    "independent_generalization_verified": false,
+    "expert_endorsement": false
+  },
+  "evidence_policy": {
+    "offsets": "0-based Python Unicode codepoints, end-exclusive, exact frozen decoded text",
+    "sha": "source_sha256 is original bytes; decoded_text_sha256 is UTF-8 of decoded text",
+    "quotes": "no stitching; each quote equals text[start:end]",
+    "external_originals": "录音、课件、合同等仅文书引用，本輪未获得，不重构原件"
+  },
+  "synonym_merge_decisions": [
+    {
+      "candidate_merge": "假发票 / 虚假发票 → 票据真实性",
+      "factor_ids": [
+        "FD-F01"
+      ],
+      "status": "candidate",
+      "boundary": "不与未发生经济事项、科目错列或所有财务数据不实等同"
+    },
+    {
+      "candidate_merge": "利益演示系统 / 产品计划书 / 宣传彩页 / 培训课件 → 材料载体与用途",
+      "factor_ids": [
+        "FD-C18",
+        "FD-C19"
+      ],
+      "status": "candidate",
+      "boundary": "保留各载体原名和内部培训、客户展业、监管报送等用途，不能相互替代"
+    },
+    {
+      "candidate_merge": "虚列会议费 / 虚列营业费用 / 不实列支费用 → 账面与实质不一致的一般候选维度",
+      "factor_ids": [
+        "FD-F01",
+        "FD-F02",
+        "FD-F03"
+      ],
+      "status": "candidate",
+      "boundary": "宽泛财务数据不真实只入信息不足，不推虚构交易、套取资金或资金去向"
+    },
+    {
+      "candidate_merge": "代投保人签名 / 面访函代签 / 授意他人代签 → 回访签名替代",
+      "factor_ids": [
+        "FD-V06"
+      ],
+      "status": "candidate",
+      "boundary": "代签、授意者与实际代签者分开，投保资料代签不自动归回访"
+    },
+    {
+      "candidate_merge": "超犹豫期回访 / 犹豫期内未进行回访 → 截止关系",
+      "factor_ids": [
+        "FD-V02",
+        "FD-V03"
+      ],
+      "status": "candidate",
+      "boundary": "分别保留最终完成与仅截止前未完成，不能合并为从未回访"
+    },
+    {
+      "candidate_merge": "限时 / 限额 / 限量 / 限购 / 即将停售 → 稀缺宣传模块",
+      "factor_ids": [
+        "FD-S01",
+        "FD-S02",
+        "FD-S03"
+      ],
+      "status": "candidate",
+      "boundary": "子类型并存；监管金额上限、法定停售和真实配额不自动归销售稀缺误导"
+    },
+    {
+      "candidate_merge": "直接主管责任 / 直接负责的主管人员 → 主管责任候选形态",
+      "factor_ids": [
+        "FD-P01"
+      ],
+      "status": "candidate",
+      "boundary": "保留原词，直接管理、参与实施和仅负责任仍分别记录；不形成专家认可同义规则"
+    },
+    {
+      "candidate_merge": "分红 / 保单红利 → 红利收益语义",
+      "factor_ids": [
+        "FD-R01",
+        "FD-R07"
+      ],
+      "status": "candidate",
+      "boundary": "不与生存金、现金价值、身故金、实际理财所得合并"
+    },
+    {
+      "candidate_merge": "收益承诺 / 保证收益 / 基本收益宣称 → 宣称确定性",
+      "factor_ids": [
+        "FD-R02"
+      ],
+      "status": "candidate",
+      "boundary": "仍区分最低保证、确定金额、未来假设；不扩改官方风险标签"
+    },
+    {
+      "candidate_merge": "整改 / 纠正 / 全额退保 → 纠正裁量维度",
+      "factor_ids": [
+        "FD-C25"
+      ],
+      "status": "candidate",
+      "boundary": "不是语义全同，需保留动作、时序及机关是否采纳从轻"
+    }
+  ],
+  "module_counts": {
+    "core": 27,
+    "return": 11,
+    "scarcity": 5,
+    "callback_telesales": 10,
+    "fees_benefits": 9,
+    "responsibility": 8
+  },
+  "factor_count": 70,
+  "factors": [
+    {
+      "factor_id": "FD-C01",
+      "name": "主体称谓",
+      "meaning": "原文主体全名、简称、异名原样保留，统一身份须另审",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "entity_reference[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "不得凭同名、近名或历史更名自动合并身份"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001785",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001785.txt",
+          "source_sha256": "bd60bf696906df20f6c21e18be5ba3993e7ec3bb551a5030445fa2aa1b63bc56",
+          "decoded_text_sha256": "bd60bf696906df20f6c21e18be5ba3993e7ec3bb551a5030445fa2aa1b63bc56",
+          "start": 44,
+          "end": 72,
+          "quote": "当事人:国华人寿保险股份有限公司(以下简称“国华人寿”)",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C02",
+      "name": "主体性质",
+      "meaning": "机构、个人、渠道机构等主体性质与机构层级",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum+text",
+      "candidate_enum_values": [
+        "保险公司",
+        "分支机构",
+        "中介机构",
+        "个人",
+        "其他",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "当事人之外列举的银行、客户、合作方未必受罚"
+      ],
+      "evidence": [
+        {
+          "document_id": "F000453",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000453.txt",
+          "source_sha256": "090ed78e8eb083c8dd172df5e0985dd42f1899dd13bcdb998675322412c942d7",
+          "decoded_text_sha256": "090ed78e8eb083c8dd172df5e0985dd42f1899dd13bcdb998675322412c942d7",
+          "start": 281,
+          "end": 305,
+          "quote": "当事人:中国人民人寿保险股份有限公司东宁市支公司",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C03",
+      "name": "角色与组织关系",
+      "meaning": "个人职务、所属机构、兼任、主持工作等与行为角色分开",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "role_relation[]",
+      "candidate_enum_values": [
+        "法定代表人",
+        "管理者",
+        "经办者",
+        "代理人",
+        "讲师",
+        "客户",
+        "合作方",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "有岗位不意味着亲自实施每项行为"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001974",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001974.txt",
+          "source_sha256": "7941b0d08071d4772f41b76178a10667ea81c8eb463391eab14c008337eb35df",
+          "decoded_text_sha256": "7941b0d08071d4772f41b76178a10667ea81c8eb463391eab14c008337eb35df",
+          "start": 360,
+          "end": 371,
+          "quote": "任该公司多元行销部经理",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001786",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001786.txt",
+          "source_sha256": "60237fe9059f9d173448655ec096b979ae38d4a8e3ccd4ed37bc0424e343b5c0",
+          "decoded_text_sha256": "60237fe9059f9d173448655ec096b979ae38d4a8e3ccd4ed37bc0424e343b5c0",
+          "start": 134,
+          "end": 156,
+          "quote": "Stephane Louvrier(劳义威)",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-C04",
+      "name": "动作及否定",
+      "meaning": "行为原文及动作肯定、未做、未及时、超限等状态",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "action[]",
+      "candidate_enum_values": [
+        "实施",
+        "承诺",
+        "制作",
+        "审核",
+        "批准",
+        "未履行",
+        "未及时",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "未采用某补救方式不等于从未尝试电话"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001824",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001824.txt",
+          "source_sha256": "4b2e8bd2d8868c192eb5029741e386a0997887ad28a168853262abfbce0bcad7",
+          "decoded_text_sha256": "4b2e8bd2d8868c192eb5029741e386a0997887ad28a168853262abfbce0bcad7",
+          "start": 239,
+          "end": 258,
+          "quote": "未采取信函或者会见等有效的方式进行回访",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C05",
+      "name": "动作对象",
+      "meaning": "动作作用于投保人、保险人、业务、资料、资金等对象",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "entity_or_object_reference[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "不得把保险人自动改成投保人"
+      ],
+      "evidence": [
+        {
+          "document_id": "F004255",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F004255.txt",
+          "source_sha256": "4eee8e609ec525879735bcdb97e3a26c7d99c7ea1d7d403ba395323aea7bc89c",
+          "decoded_text_sha256": "4eee8e609ec525879735bcdb97e3a26c7d99c7ea1d7d403ba395323aea7bc89c",
+          "start": 138,
+          "end": 143,
+          "quote": "欺骗保险人",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C06",
+      "name": "相对方与受益方",
+      "meaning": "收款、接受承诺、实际被访者及合作方身份",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "relation[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "合作单位不必等于投保人"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001786",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001786.txt",
+          "source_sha256": "60237fe9059f9d173448655ec096b979ae38d4a8e3ccd4ed37bc0424e343b5c0",
+          "decoded_text_sha256": "60237fe9059f9d173448655ec096b979ae38d4a8e3ccd4ed37bc0424e343b5c0",
+          "start": 731,
+          "end": 743,
+          "quote": "用于购买礼品赠送合作单位",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C07",
+      "name": "行为时段",
+      "meaning": "行为发生区间、单日或相对时间；保留粒度与来源",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "time_expression[]",
+      "candidate_enum_values": [
+        "日",
+        "月",
+        "年",
+        "区间",
+        "相对时间",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "不将检查日期或处罚日期当行为日期"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001974",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001974.txt",
+          "source_sha256": "7941b0d08071d4772f41b76178a10667ea81c8eb463391eab14c008337eb35df",
+          "decoded_text_sha256": "7941b0d08071d4772f41b76178a10667ea81c8eb463391eab14c008337eb35df",
+          "start": 159,
+          "end": 180,
+          "quote": "2011年1月1日至2011年11月21日",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C08",
+      "name": "检查与发现时间",
+      "meaning": "监管检查、抽查发现的时点与行为时段分开",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "time_expression[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "检查覆盖期间不等于全部违规持续期间"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001353",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001353.txt",
+          "source_sha256": "971e22a23383121479585e529ae3accef97069f54d3e73152d2cd36d4a36b6bf",
+          "decoded_text_sha256": "971e22a23383121479585e529ae3accef97069f54d3e73152d2cd36d4a36b6bf",
+          "start": 121,
+          "end": 142,
+          "quote": "2013年3月21日至2013年4月26日",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C09",
+      "name": "决定与履行时间",
+      "meaning": "决定日期、送达相对履行期限及程序日期",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "time_expression[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "文号年份不是明确决定日期，履行期限不是行为期限"
+      ],
+      "evidence": [
+        {
+          "document_id": "F000574",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000574.txt",
+          "source_sha256": "987787c42be813d92d5d0ee94ba0ced156fdff5fe93675e9a0010c46e53bb2dd",
+          "decoded_text_sha256": "987787c42be813d92d5d0ee94ba0ced156fdff5fe93675e9a0010c46e53bb2dd",
+          "start": 983,
+          "end": 993,
+          "quote": "2018年2月26日",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C10",
+      "name": "陈述归属与证据层级",
+      "meaning": "宣传话术、当事人申辩、机关复核、合同内容等分别归属",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum+speaker_reference",
+      "candidate_enum_values": [
+        "宣传陈述",
+        "当事人申辩",
+        "机关认定",
+        "合同规则转述",
+        "证据名称",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "申辩中的用途和理由不得自动变成机关认定事实"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001656",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001656.txt",
+          "source_sha256": "5ef8ec437ac0aae22d3f29fc8e293d5048beb79c1b5169aa8f7df6aa1ba876d2",
+          "decoded_text_sha256": "5ef8ec437ac0aae22d3f29fc8e293d5048beb79c1b5169aa8f7df6aa1ba876d2",
+          "start": 1317,
+          "end": 1373,
+          "quote": "针对虚列营业费用的行为,正德人寿、张美玲、胡佳名申辩提出,虚列会议费及电子设备运转费项目主要是用于解决员工福利。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C11",
+      "name": "认定与规范依据",
+      "meaning": "明确认定案由、违反规范与处罚依据分别保留",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "finding+legal_reference[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "引用规范不等于全文规则已核对，也不映射所有官方风险标签"
+      ],
+      "evidence": [
+        {
+          "document_id": "F002429",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002429.txt",
+          "source_sha256": "637a3661bfc0cdb67cb07256dff9fdd1d338225aeffde6134523b2436edcd2bd",
+          "decoded_text_sha256": "637a3661bfc0cdb67cb07256dff9fdd1d338225aeffde6134523b2436edcd2bd",
+          "start": 1329,
+          "end": 1360,
+          "quote": "上述财务、业务数据不真实的行为违反了《保险法》第八十六条的规定",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C12",
+      "name": "信息充分性",
+      "meaning": "阅读全文后评估宽案由、部分机制、详实机制，缺字段按未知留存",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum",
+      "candidate_enum_values": [
+        "issue_only",
+        "mechanism_partial",
+        "detailed"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "文长或处罚金额不能作为机制充分性的替代"
+      ],
+      "evidence": [
+        {
+          "document_id": "F004715",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F004715.txt",
+          "source_sha256": "30899a7338eba7abb41df188af5474b60efa199474c3ba6024b30ca8fd636205",
+          "decoded_text_sha256": "30899a7338eba7abb41df188af5474b60efa199474c3ba6024b30ca8fd636205",
+          "start": 141,
+          "end": 151,
+          "quote": "内控制度执行不到\n位",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C13",
+      "name": "合同或备案参照",
+      "meaning": "条款、费率、可领取规则等真实参照及适用版本",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "reference+text",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "监管文书转述不能代替未提供的完整合同原件"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001529",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001529.txt",
+          "source_sha256": "0129c0e8963f1de435f6ca76f269488dae154fe9c75bfca7a9e1ff11201b0f90",
+          "decoded_text_sha256": "0129c0e8963f1de435f6ca76f269488dae154fe9c75bfca7a9e1ff11201b0f90",
+          "start": 472,
+          "end": 509,
+          "quote": "在每一自然年度(详见释义)内,被保险人可以申请部分领取累积生息账户金额一次",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C14",
+      "name": "宣称与核实事实对照",
+      "meaning": "宣传值/条件与机关核实值/条件平行保存",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "comparison[]",
+      "candidate_enum_values": [
+        "相符",
+        "不符",
+        "不确定",
+        "未给反证",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "仅有误导认定不自动证明具体宣称每一部分均假"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001354",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001354.txt",
+          "source_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "decoded_text_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "start": 285,
+          "end": 296,
+          "quote": "经查,该产品并未限售。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C15",
+      "name": "前提与触发条件",
+      "meaning": "利益、权利或动作成立需要的持有、选择、身份等条件",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "condition[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "选择性服务不得推出所有客户都有该利益"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001685",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001685.txt",
+          "source_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "decoded_text_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "start": 479,
+          "end": 501,
+          "quote": "前提是客户明确表示愿意将“生存金”留存在公司",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C16",
+      "name": "例外与边界",
+      "meaning": "明确例外、排除条件、权限限制与适用范围",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "restriction_or_exception[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "仅按文书当时叙述使用，不能推广当前所有法定年龄和例外"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001361",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001361.txt",
+          "source_sha256": "b08bc15d62e779dec937b340a1151806da20c23c7eb1e7b76b8390a4d3409af6",
+          "decoded_text_sha256": "b08bc15d62e779dec937b340a1151806da20c23c7eb1e7b76b8390a4d3409af6",
+          "start": 1204,
+          "end": 1214,
+          "quote": "投保人非被保险人父母",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C17",
+      "name": "渠道与场景",
+      "meaning": "电销、银保、产说会、微信群、内部培训等发生场景",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum+text",
+      "candidate_enum_values": [
+        "电话销售",
+        "银保",
+        "产品说明会",
+        "微信传播",
+        "内部培训",
+        "网络平台",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "微信群截图作为证据不证明所有机构都使用该渠道"
+      ],
+      "evidence": [
+        {
+          "document_id": "F000453",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000453.txt",
+          "source_sha256": "090ed78e8eb083c8dd172df5e0985dd42f1899dd13bcdb998675322412c942d7",
+          "decoded_text_sha256": "090ed78e8eb083c8dd172df5e0985dd42f1899dd13bcdb998675322412c942d7",
+          "start": 1565,
+          "end": 1581,
+          "quote": "通过微信群、朋友圈传播误导性内容",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C18",
+      "name": "材料与用途",
+      "meaning": "宣传、计划书、培训、核批、监管报送等载体与明确用途",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "material_use[]",
+      "candidate_enum_values": [
+        "内部培训",
+        "对客户展业",
+        "监管报送",
+        "审批",
+        "记账",
+        "回访",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "内部培训不能自动推出已用于客户销售"
+      ],
+      "evidence": [
+        {
+          "document_id": "F009826",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F009826.txt",
+          "source_sha256": "71eeb995d9541eab6190c9c1494573c59fda14436d401687a4d40d99dffdadb8",
+          "decoded_text_sha256": "71eeb995d9541eab6190c9c1494573c59fda14436d401687a4d40d99dffdadb8",
+          "start": 652,
+          "end": 668,
+          "quote": "主要用于对内部职工的现场培训讲解",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C19",
+      "name": "制作传播链",
+      "meaning": "制作、审核、下发、采用、宣讲的动作链与各主体",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "ordered_relation[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "有下发不代表每份均已向客户展示"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001685",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001685.txt",
+          "source_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "decoded_text_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "start": 222,
+          "end": 240,
+          "quote": "并发放给各下级分支机构供营销员使用。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C20",
+      "name": "数量金额与范围",
+      "meaning": "保单数、次数、金额、比例的单位、分母、阶段及近似状态",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "quantity[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "意向不等于成交；保费、利益、罚款、损失不混用"
+      ],
+      "evidence": [
+        {
+          "document_id": "F002202",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002202.txt",
+          "source_sha256": "09b41929881a7065fe8ef45595753c87722daa16a2a5206c30ca45d009f4dcbf",
+          "decoded_text_sha256": "09b41929881a7065fe8ef45595753c87722daa16a2a5206c30ca45d009f4dcbf",
+          "start": 583,
+          "end": 614,
+          "quote": "现场达成签单意向书7笔。会后,两名客户投保,保费35020元。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001795",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001795.txt",
+          "source_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "decoded_text_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "start": 340,
+          "end": 353,
+          "quote": "占抽听保单总数的73.3%",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-C21",
+      "name": "行为列项及主体绑定",
+      "meaning": "一文多事项的显式列项及机构、个人、证据、处罚链接",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "issue_link[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "不可把同文全部人物绑定全部行为"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001611",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001611.txt",
+          "source_sha256": "3b472341dafefe26864d8dfe848baa531dffbfc986dba6dff734a0efedefa6e6",
+          "decoded_text_sha256": "3b472341dafefe26864d8dfe848baa531dffbfc986dba6dff734a0efedefa6e6",
+          "start": 855,
+          "end": 875,
+          "quote": "对上述第一项、第二项违法行为负有直接责任",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C22",
+      "name": "证据载体与可得性",
+      "meaning": "文书列明证据类型与本轮是否真的获得原件",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "evidence_descriptor[]",
+      "candidate_enum_values": [
+        "本轮原文可得",
+        "文书引用未获得",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "录音名称不等于录音原件，也不等于回访行为事实"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001795",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001795.txt",
+          "source_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "decoded_text_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "start": 1173,
+          "end": 1185,
+          "quote": "22件保单的电话销售录音",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C23",
+      "name": "处罚对象与决定",
+      "meaning": "机构和个人的处罚种类、数额、禁入或任职处置",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "sanction_relation[]",
+      "candidate_enum_values": [
+        "罚款",
+        "警告",
+        "撤销任职资格",
+        "禁入",
+        "停止新业务",
+        "责令改正",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "行政处罚不等于刑事犯罪结论；不得用处罚强弱反推机制"
+      ],
+      "evidence": [
+        {
+          "document_id": "F004895",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F004895.txt",
+          "source_sha256": "965a7c3dc12f912f48a1436520d78fecd7fe4cda53e9112982cbcf9259bb103e",
+          "decoded_text_sha256": "965a7c3dc12f912f48a1436520d78fecd7fe4cda53e9112982cbcf9259bb103e",
+          "start": 174,
+          "end": 185,
+          "quote": "禁止终身\n进入保险\n业",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C24",
+      "name": "申辩与复核结论",
+      "meaning": "申请、争议事实、采信/不采信和局部调整分别记录",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "defense_review[]",
+      "candidate_enum_values": [
+        "采纳",
+        "不采纳",
+        "部分采纳",
+        "未载",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "旧抽查数未必是复核后的最终数，未载调整量不得补"
+      ],
+      "evidence": [
+        {
+          "document_id": "F000562",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000562.txt",
+          "source_sha256": "bb2efe04b02cc5493254fc9ef027a8ec8faa58643b98d92b67f775f941d38998",
+          "decoded_text_sha256": "bb2efe04b02cc5493254fc9ef027a8ec8faa58643b98d92b67f775f941d38998",
+          "start": 1405,
+          "end": 1423,
+          "quote": "相应减\n少我会抽查认定的问题档案数量",
+          "quote_location_method": "whitespace_tolerant_anchor_exact_contiguous_slice",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C25",
+      "name": "纠正与裁量时序",
+      "meaning": "整改、退保、纠正发生时间及机关是否据此从轻",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "remedy[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "有整改不自动满足从轻条件，历史个案不作现行法律建议"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001322",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001322.txt",
+          "source_sha256": "24ddac5e98f5ff9523c217c05e2050a4e811042c50cdc5c345cdf5808e842069",
+          "decoded_text_sha256": "24ddac5e98f5ff9523c217c05e2050a4e811042c50cdc5c345cdf5808e842069",
+          "start": 688,
+          "end": 708,
+          "quote": "整改行为发生于检查之后,不属于主动整改。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C26",
+      "name": "未知及不适用",
+      "meaning": "不存在于本轮文本、歧义、冲突、不适用等缺失原因显式留存",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "value+knowledge_status",
+      "candidate_enum_values": [
+        "not_stated",
+        "ambiguous",
+        "conflicting",
+        "not_applicable",
+        "reported_only"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "全文未载不是事实不存在；unknown不得默认为false"
+      ],
+      "evidence": [
+        {
+          "document_id": "F003980",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F003980.txt",
+          "source_sha256": "f2f90e76edbc5702718c36c4efafaae5619dc0ded8e4f6f53baa4bd688625728",
+          "decoded_text_sha256": "f2f90e76edbc5702718c36c4efafaae5619dc0ded8e4f6f53baa4bd688625728",
+          "start": 95,
+          "end": 102,
+          "quote": "财务数据不真实",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-C27",
+      "name": "承诺意向与实施阶段",
+      "meaning": "承诺、宣传、意向、已给付、实际行为的阶段区别",
+      "module": "core",
+      "module_layer": "核心",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum",
+      "candidate_enum_values": [
+        "宣传",
+        "承诺",
+        "意向",
+        "实施",
+        "给付",
+        "未实施",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "仅本60份保险行政处罚文本支持的候选概念；不得直接推广到全量案件或实时合规规则",
+      "not_to_infer": [
+        "承诺礼品不能推出已经赠送"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001918",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001918.txt",
+          "source_sha256": "d708d23c3efd340f762b22ae7f9893ed592f392d4cceb401932679859e1f2397",
+          "decoded_text_sha256": "d708d23c3efd340f762b22ae7f9893ed592f392d4cceb401932679859e1f2397",
+          "start": 254,
+          "end": 271,
+          "quote": "在产品说明会上向客户承诺赠送礼品。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F002202",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002202.txt",
+          "source_sha256": "09b41929881a7065fe8ef45595753c87722daa16a2a5206c30ca45d009f4dcbf",
+          "decoded_text_sha256": "09b41929881a7065fe8ef45595753c87722daa16a2a5206c30ca45d009f4dcbf",
+          "start": 583,
+          "end": 614,
+          "quote": "现场达成签单意向书7笔。会后,两名客户投保,保费35020元。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-R01",
+      "name": "收益或利益类别",
+      "meaning": "红利、生存金、现金价值、身故金、实际投资所得分别保存",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum+text",
+      "candidate_enum_values": [
+        "红利",
+        "生存保险金",
+        "现金价值",
+        "身故赔偿金",
+        "累积生息",
+        "退保收益",
+        "投资所得",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "身故给付不能直接当可领取投资回报"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001529",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001529.txt",
+          "source_sha256": "0129c0e8963f1de435f6ca76f269488dae154fe9c75bfca7a9e1ff11201b0f90",
+          "decoded_text_sha256": "0129c0e8963f1de435f6ca76f269488dae154fe9c75bfca7a9e1ff11201b0f90",
+          "start": 561,
+          "end": 574,
+          "quote": "身价账户(身故赔偿金)金额",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001124",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001124.txt",
+          "source_sha256": "1fdb78bd5c37ec1c574e55dbab210ed466305f46c678443328353c96504764d5",
+          "decoded_text_sha256": "1fdb78bd5c37ec1c574e55dbab210ed466305f46c678443328353c96504764d5",
+          "start": 606,
+          "end": 622,
+          "quote": "累计理财收益55630.52元。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-R02",
+      "name": "确定性与保证语气",
+      "meaning": "宣称确定或最低保证与文本实际不确定状态",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "certainty_pair",
+      "candidate_enum_values": [
+        "确定宣称",
+        "最低保证宣称",
+        "不确定",
+        "条件性",
+        "未载"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "话术中的保证不等于真实产品保证"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001354",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001354.txt",
+          "source_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "decoded_text_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "start": 334,
+          "end": 344,
+          "quote": "就是6%是基本的收益",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001354",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001354.txt",
+          "source_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "decoded_text_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "start": 357,
+          "end": 372,
+          "quote": "经查,该款产品红利分配不确定。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-R03",
+      "name": "利率语义与口径",
+      "meaning": "定价、客户收益、累计生息、银行比较等口径",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum+text",
+      "candidate_enum_values": [
+        "定价利率",
+        "客户收益率",
+        "累积生息利率",
+        "银行利率",
+        "演示率",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "任何百分数都不能归为投保人收益率"
+      ],
+      "evidence": [
+        {
+          "document_id": "F009323",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F009323.txt",
+          "source_sha256": "119722c12dccac4dd4ab96f170bfcaec639a883534835ab42ff718285f02de30",
+          "decoded_text_sha256": "119722c12dccac4dd4ab96f170bfcaec639a883534835ab42ff718285f02de30",
+          "start": 649,
+          "end": 666,
+          "quote": "混淆说明产品定价利率与投保人收益率",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-R04",
+      "name": "金额年龄与测算对照",
+      "meaning": "收益金额、年龄界限、测算时间及合同对照",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "quantity_comparison[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "未载缴费等完整条件不能用于另行收益计算"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001529",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001529.txt",
+          "source_sha256": "0129c0e8963f1de435f6ca76f269488dae154fe9c75bfca7a9e1ff11201b0f90",
+          "decoded_text_sha256": "0129c0e8963f1de435f6ca76f269488dae154fe9c75bfca7a9e1ff11201b0f90",
+          "start": 355,
+          "end": 379,
+          "quote": "客户何某60周岁前可领取生存保险金288000元",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001529",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001529.txt",
+          "source_sha256": "0129c0e8963f1de435f6ca76f269488dae154fe9c75bfca7a9e1ff11201b0f90",
+          "decoded_text_sha256": "0129c0e8963f1de435f6ca76f269488dae154fe9c75bfca7a9e1ff11201b0f90",
+          "start": 397,
+          "end": 420,
+          "quote": "但该计划书直接列出60周岁可领取324069元",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-R05",
+      "name": "演示假设与期限外推",
+      "meaning": "固定假设利率投射未来区间与实际变动机制",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "rate+horizon",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "演示率不能作为未来保证收益或真实历史回报"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001685",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001685.txt",
+          "source_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "decoded_text_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "start": 568,
+          "end": 609,
+          "quote": "而利益演示系统依据3.5%的年利率计算并以此宣传以后几十年的累积生息属于虚假陈述。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-R06",
+      "name": "红利演示档位",
+      "meaning": "高、中、低档同时性、所选档及是否披露差异",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum+text",
+      "candidate_enum_values": [
+        "高",
+        "中",
+        "低",
+        "多档",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "高档宣传不是每份保单实际高收益"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001685",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001685.txt",
+          "source_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "decoded_text_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "start": 322,
+          "end": 346,
+          "quote": "不能同时显示高、中、低三档红利,只能显示其中一档",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001685",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001685.txt",
+          "source_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "decoded_text_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "start": 347,
+          "end": 371,
+          "quote": "而检查发现的宣传资料均是选\n择高档红利进行宣传。",
+          "quote_location_method": "whitespace_tolerant_anchor_exact_contiguous_slice",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-R07",
+      "name": "分红基数与滚存资格",
+      "meaning": "红利是否参与今后分红、累积生息和分红混淆",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "rule_comparison",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "累积生息不等于红利参加下一期分红"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001795",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001795.txt",
+          "source_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "decoded_text_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "start": 598,
+          "end": 613,
+          "quote": "但红利不参与今后年度的保单分红",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-R08",
+      "name": "领取退保条件",
+      "meaning": "领取频率、持有年限、退保或现金价值与随时支取说法",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "condition[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "不得推出账户全部余额任意时间无损支取"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001529",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001529.txt",
+          "source_sha256": "0129c0e8963f1de435f6ca76f269488dae154fe9c75bfca7a9e1ff11201b0f90",
+          "decoded_text_sha256": "0129c0e8963f1de435f6ca76f269488dae154fe9c75bfca7a9e1ff11201b0f90",
+          "start": 472,
+          "end": 509,
+          "quote": "在每一自然年度(详见释义)内,被保险人可以申请部分领取累积生息账户金额一次",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-R09",
+      "name": "非现金附加利益资格",
+      "meaning": "养老入住、礼品、服务等资格及合同是否承载",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "eligibility_comparison",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "养老服务在规划中不等于当前持保单即可入住"
+      ],
+      "evidence": [
+        {
+          "document_id": "F002202",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002202.txt",
+          "source_sha256": "09b41929881a7065fe8ef45595753c87722daa16a2a5206c30ca45d009f4dcbf",
+          "decoded_text_sha256": "09b41929881a7065fe8ef45595753c87722daa16a2a5206c30ca45d009f4dcbf",
+          "start": 296,
+          "end": 320,
+          "quote": "该产品条款中亦未载明入住养老社区资格的有关内容。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-R10",
+      "name": "比较对象与维度",
+      "meaning": "与银行、存款、国债、证券等比较的对象口径与片面性",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "comparison[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "比较数值不自动可按同期限风险条件横比"
+      ],
+      "evidence": [
+        {
+          "document_id": "F009826",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F009826.txt",
+          "source_sha256": "71eeb995d9541eab6190c9c1494573c59fda14436d401687a4d40d99dffdadb8",
+          "decoded_text_sha256": "71eeb995d9541eab6190c9c1494573c59fda14436d401687a4d40d99dffdadb8",
+          "start": 481,
+          "end": 498,
+          "quote": "将保险产品与存款、证券进行片面比较",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-R11",
+      "name": "风险权利提示内容",
+      "meaning": "不确定红利、犹豫期、退保损失等是否被告知或错误限制",
+      "module": "return",
+      "module_layer": "扩展/分红收益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "disclosure[]",
+      "candidate_enum_values": [
+        "说明",
+        "未说明",
+        "错误说明",
+        "未直接确认",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/分红收益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "未披露不等于损失必然已发生"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001353",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001353.txt",
+          "source_sha256": "971e22a23383121479585e529ae3accef97069f54d3e73152d2cd36d4a36b6bf",
+          "decoded_text_sha256": "971e22a23383121479585e529ae3accef97069f54d3e73152d2cd36d4a36b6bf",
+          "start": 256,
+          "end": 269,
+          "quote": "未揭示红利分配的不确定性。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-S01",
+      "name": "稀缺宣称类型",
+      "meaning": "停售、限时、限额、限量、限购等宣传形态",
+      "module": "scarcity",
+      "module_layer": "扩展/限时限量",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum[]",
+      "candidate_enum_values": [
+        "停售",
+        "限时",
+        "限额",
+        "限量",
+        "限购",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/限时限量场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "监管规定死亡限额或依法停售不自动是稀缺营销"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001354",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001354.txt",
+          "source_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "decoded_text_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "start": 277,
+          "end": 283,
+          "quote": "限时限额限购",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-S02",
+      "name": "额度单位与地域",
+      "meaning": "配额总量、地域分配、已售及剩余额度的宣称",
+      "module": "scarcity",
+      "module_layer": "扩展/限时限量",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "quantity+region[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/限时限量场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "宣称额度没有独立反证时不能作为真实配额"
+      ],
+      "evidence": [
+        {
+          "document_id": "F002283",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002283.txt",
+          "source_sha256": "f04974cd2a35ae27d82ee1b39940e2d5bb12c34aea828eeb85e9a9bfaddb8c9d",
+          "decoded_text_sha256": "f04974cd2a35ae27d82ee1b39940e2d5bb12c34aea828eeb85e9a9bfaddb8c9d",
+          "start": 681,
+          "end": 702,
+          "quote": "只限54个亿在全国,我们分给新疆8700万",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001354",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001354.txt",
+          "source_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "decoded_text_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "start": 254,
+          "end": 275,
+          "quote": "我\n们东城支公司仅仅拿到了1600万的额度",
+          "quote_location_method": "whitespace_tolerant_anchor_exact_contiguous_slice",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-S03",
+      "name": "截止与停售时点",
+      "meaning": "宣称截止日期与检查仍在售时间分别记录",
+      "module": "scarcity",
+      "module_layer": "扩展/限时限量",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "time_pair",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/限时限量场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "不根据广告截止推真实停售"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001795",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001795.txt",
+          "source_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "decoded_text_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "start": 692,
+          "end": 713,
+          "quote": "我们这个产品(2011年)11月底就要停了",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-S04",
+      "name": "耗尽触发与行动压力",
+      "meaning": "额度耗尽、关闭系统等宣称触发和购买压力",
+      "module": "scarcity",
+      "module_layer": "扩展/限时限量",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "trigger_condition",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/限时限量场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "不能把话术视为真实系统行为"
+      ],
+      "evidence": [
+        {
+          "document_id": "F002283",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002283.txt",
+          "source_sha256": "f04974cd2a35ae27d82ee1b39940e2d5bb12c34aea828eeb85e9a9bfaddb8c9d",
+          "decoded_text_sha256": "f04974cd2a35ae27d82ee1b39940e2d5bb12c34aea828eeb85e9a9bfaddb8c9d",
+          "start": 745,
+          "end": 770,
+          "quote": "到了8700万这样一个数字,公司自动会关闭电脑系统",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-S05",
+      "name": "稀缺核实反证",
+      "meaning": "实际仍在售、并未限售、仅集合认定等依据强度",
+      "module": "scarcity",
+      "module_layer": "扩展/限时限量",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum+evidence",
+      "candidate_enum_values": [
+        "明确仍在售",
+        "明确不限售",
+        "宽泛机关认定",
+        "仅宣称未独立核实",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/限时限量场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "宽泛限量误导认定不能补具体库存或停售日期"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001795",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001795.txt",
+          "source_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "decoded_text_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "start": 715,
+          "end": 731,
+          "quote": "但截至我局检查日,该产品依然在售",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001354",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001354.txt",
+          "source_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "decoded_text_sha256": "eb8a79d99e40d2eba739dd330014406aef172682c28dd8b6a1d19afb707842d4",
+          "start": 285,
+          "end": 296,
+          "quote": "经查,该产品并未限售。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-V01",
+      "name": "通话事件用途",
+      "meaning": "售前电销、保单回访、投诉咨询、监听审核分别区分",
+      "module": "callback_telesales",
+      "module_layer": "扩展/回访电销",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum",
+      "candidate_enum_values": [
+        "电销",
+        "保单回访",
+        "投诉咨询",
+        "监听审核",
+        "面访",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/回访电销场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "只有电话销售录音不能认定真实回访违规"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001795",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001795.txt",
+          "source_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "decoded_text_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "start": 357,
+          "end": 370,
+          "quote": "在电话销售过程中欺骗投保人",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-V02",
+      "name": "回访与签收犹豫期时序",
+      "meaning": "回访相对签收和犹豫期的先后、截止关系",
+      "module": "callback_telesales",
+      "module_layer": "扩展/回访电销",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "temporal_relation[]",
+      "candidate_enum_values": [
+        "超犹豫期",
+        "签收前",
+        "犹豫期内未完成",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/回访电销场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "犹豫期内未完成不等于永不回访"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001361",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001361.txt",
+          "source_sha256": "b08bc15d62e779dec937b340a1151806da20c23c7eb1e7b76b8390a4d3409af6",
+          "decoded_text_sha256": "b08bc15d62e779dec937b340a1151806da20c23c7eb1e7b76b8390a4d3409af6",
+          "start": 1385,
+          "end": 1416,
+          "quote": "存在大量超犹豫期回访以及客户尚未签收保单即完成电话回访的情况。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-V03",
+      "name": "回访实际完成状态",
+      "meaning": "接通成功、真实客户完成、失败、未完成等分别保存",
+      "module": "callback_telesales",
+      "module_layer": "扩展/回访电销",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum",
+      "candidate_enum_values": [
+        "电话失败",
+        "未真实完成",
+        "未在期限内完成",
+        "完成时间不合规",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/回访电销场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "系统完成记录不代表真实客户已被访问"
+      ],
+      "evidence": [
+        {
+          "document_id": "F002283",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002283.txt",
+          "source_sha256": "f04974cd2a35ae27d82ee1b39940e2d5bb12c34aea828eeb85e9a9bfaddb8c9d",
+          "decoded_text_sha256": "f04974cd2a35ae27d82ee1b39940e2d5bb12c34aea828eeb85e9a9bfaddb8c9d",
+          "start": 1205,
+          "end": 1226,
+          "quote": "公司实际未完成对述13名投保人的回访工作。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001535",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001535.txt",
+          "source_sha256": "482198aa1fedf9a75d205087b5d4d6b216109062056122b11dd23e65f7aa502b",
+          "decoded_text_sha256": "482198aa1fedf9a75d205087b5d4d6b216109062056122b11dd23e65f7aa502b",
+          "start": 1154,
+          "end": 1176,
+          "quote": "未在犹豫期内进行回访的保单共有11,418件",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-V04",
+      "name": "失败后替代方式",
+      "meaning": "电话失败是否采用信函、会见等替代方式",
+      "module": "callback_telesales",
+      "module_layer": "扩展/回访电销",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum+text",
+      "candidate_enum_values": [
+        "信函",
+        "会见",
+        "未采用有效替代",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/回访电销场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "不能因回访函存在认定投保人亲自完成回访"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001824",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001824.txt",
+          "source_sha256": "4b2e8bd2d8868c192eb5029741e386a0997887ad28a168853262abfbce0bcad7",
+          "decoded_text_sha256": "4b2e8bd2d8868c192eb5029741e386a0997887ad28a168853262abfbce0bcad7",
+          "start": 226,
+          "end": 259,
+          "quote": "在电话回访不成功的情况下,未采取信函或者会见等有效的方式进行回访。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-V05",
+      "name": "号码归属和受访身份",
+      "meaning": "投保人真实号码与营销员、内勤、机构号码及代接身份",
+      "module": "callback_telesales",
+      "module_layer": "扩展/回访电销",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "identity_comparison",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/回访电销场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "号码不真实的理由和人员意图未载不得补"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001972",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001972.txt",
+          "source_sha256": "c308a7d73aedd72bbd494908790e4b01c1507817a3a263378417d8fee08c1552",
+          "decoded_text_sha256": "c308a7d73aedd72bbd494908790e4b01c1507817a3a263378417d8fee08c1552",
+          "start": 801,
+          "end": 835,
+          "quote": "填写银行保险客户经理或内勤人员的联系电话,代投保人接听公司回访电话。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-V06",
+      "name": "代答代签及授意",
+      "meaning": "回访问答代填、签名代签、授意他人分别记录",
+      "module": "callback_telesales",
+      "module_layer": "扩展/回访电销",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum[]",
+      "candidate_enum_values": [
+        "代填选项",
+        "代签",
+        "代接",
+        "授意代签",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/回访电销场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "不能把投保资料代填自动归回訪代答"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001965",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001965.txt",
+          "source_sha256": "078c7d784650e41c5e720e9ca7a8db8ec31190199ce44f7c8cbeac33c0db1d44",
+          "decoded_text_sha256": "078c7d784650e41c5e720e9ca7a8db8ec31190199ce44f7c8cbeac33c0db1d44",
+          "start": 793,
+          "end": 810,
+          "quote": "填写回访问答选项,并代投保人签名。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001824",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001824.txt",
+          "source_sha256": "4b2e8bd2d8868c192eb5029741e386a0997887ad28a168853262abfbce0bcad7",
+          "decoded_text_sha256": "4b2e8bd2d8868c192eb5029741e386a0997887ad28a168853262abfbce0bcad7",
+          "start": 277,
+          "end": 302,
+          "quote": "名字分别由银保专管员张权忠、刘雪梅授意他人代签名。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-V07",
+      "name": "知悉确认的内容覆盖",
+      "meaning": "回访是否直接确认犹豫期权利、退保损失等",
+      "module": "callback_telesales",
+      "module_layer": "扩展/回访电销",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "topic_confirmation[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/回访电销场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "话术存在缺陷未载内容时不得补确认主题"
+      ],
+      "evidence": [
+        {
+          "document_id": "F002594",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002594.txt",
+          "source_sha256": "9802dfef77841b0a33c757f2d1be0a467e5ed8244b5cc9cac6f4971b5e0d213d",
+          "decoded_text_sha256": "9802dfef77841b0a33c757f2d1be0a467e5ed8244b5cc9cac6f4971b5e0d213d",
+          "start": 504,
+          "end": 540,
+          "quote": "回访内容未直接确认投保人是否知悉犹豫期享有的\n权利和退保可能产生的损失。",
+          "quote_location_method": "whitespace_tolerant_anchor_exact_contiguous_slice",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-V08",
+      "name": "诱导不实回访",
+      "meaning": "销售时诱导客户后续不实回访的明确行为",
+      "module": "callback_telesales",
+      "module_layer": "扩展/回访电销",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "action+quoted_instruction",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/回访电销场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "明确诱导认定无具体话术时不能编造指导回答"
+      ],
+      "evidence": [
+        {
+          "document_id": "F000732",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000732.txt",
+          "source_sha256": "17a110de6a631d69c7f05cadd7e3e2ffbae559496b0cc026ec367aba1eff5b51",
+          "decoded_text_sha256": "17a110de6a631d69c7f05cadd7e3e2ffbae559496b0cc026ec367aba1eff5b51",
+          "start": 441,
+          "end": 451,
+          "quote": "诱导投保人不如实回访",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-V09",
+      "name": "监听审查未纠正",
+      "meaning": "销售监听、问题发现/可见与纠正状态",
+      "module": "callback_telesales",
+      "module_layer": "扩展/回访电销",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "control_action[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/回访电销场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "监听销售通话不等于保单回访"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001795",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001795.txt",
+          "source_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "decoded_text_sha256": "6f62898e65dbd2d0dce07029fb0f31a3698511af2ec1ecf4c469b7c7b12fd5c0",
+          "start": 972,
+          "end": 1004,
+          "quote": "你公司对上述21\n件保单销售过程均进行了监听,但未纠正上述问题。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-V10",
+      "name": "外呼禁止和投诉处理",
+      "meaning": "禁呼条件下继续呼出、无投诉骚扰不处理等流程机制",
+      "module": "callback_telesales",
+      "module_layer": "扩展/回访电销",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "condition+management_action",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/回访电销场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "禁呼具体规则未载不能创设禁止条件"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001506",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001506.txt",
+          "source_sha256": "2177dad34dcf0f51d00c27452e29d1f4f4fae7f61aac1fefd4adf6c391a145c5",
+          "decoded_text_sha256": "2177dad34dcf0f51d00c27452e29d1f4f4fae7f61aac1fefd4adf6c391a145c5",
+          "start": 2150,
+          "end": 2176,
+          "quote": "存在电销座席在公司规定的禁呼情形下仍向客户呼出的情况",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001506",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001506.txt",
+          "source_sha256": "2177dad34dcf0f51d00c27452e29d1f4f4fae7f61aac1fefd4adf6c391a145c5",
+          "decoded_text_sha256": "2177dad34dcf0f51d00c27452e29d1f4f4fae7f61aac1fefd4adf6c391a145c5",
+          "start": 2177,
+          "end": 2198,
+          "quote": "公司对没有遭到客户投诉的骚扰行为不做处理。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-F01",
+      "name": "经济事项真实性",
+      "meaning": "真实服务发生、虚构交易、假发票与错误科目各自保留",
+      "module": "fees_benefits",
+      "module_layer": "扩展/费用利益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum[]",
+      "candidate_enum_values": [
+        "未发生交易",
+        "未提供服务",
+        "虚假票据",
+        "科目错列",
+        "信息不一致",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/费用利益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "虚假发票与经济事项虚构不是必然互推"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001156",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001156.txt",
+          "source_sha256": "97598f4138a356b2085965bc75185be93066307cb65982cc1245722a10deb3ec",
+          "decoded_text_sha256": "97598f4138a356b2085965bc75185be93066307cb65982cc1245722a10deb3ec",
+          "start": 717,
+          "end": 727,
+          "quote": "交易事项未真实发生。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F000743",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000743.txt",
+          "source_sha256": "a480a713c4ecabdd6d45f3dab391ba40018d258a62e4c7b7271c0f9d77af3e3f",
+          "decoded_text_sha256": "a480a713c4ecabdd6d45f3dab391ba40018d258a62e4c7b7271c0f9d77af3e3f",
+          "start": 1461,
+          "end": 1475,
+          "quote": "经验证,上述发票为虚假发票。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-F02",
+      "name": "账面费用类别",
+      "meaning": "会议、宣传、燃油、咨询、佣金、工资等账面记载",
+      "module": "fees_benefits",
+      "module_layer": "扩展/费用利益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "text[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/费用利益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "会议费三个字不等于真实会议或套取资金"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001656",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001656.txt",
+          "source_sha256": "5ef8ec437ac0aae22d3f29fc8e293d5048beb79c1b5169aa8f7df6aa1ba876d2",
+          "decoded_text_sha256": "5ef8ec437ac0aae22d3f29fc8e293d5048beb79c1b5169aa8f7df6aa1ba876d2",
+          "start": 759,
+          "end": 775,
+          "quote": "通过会议费科目列支38.51万元",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-F03",
+      "name": "真实资金用途",
+      "meaning": "资金实际用于补贴、维护渠道、礼品、奖金、投资等",
+      "module": "fees_benefits",
+      "module_layer": "扩展/费用利益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "purpose[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/费用利益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "不实列支但无去向信息时不得补客户返佣用途"
+      ],
+      "evidence": [
+        {
+          "document_id": "F000743",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000743.txt",
+          "source_sha256": "a480a713c4ecabdd6d45f3dab391ba40018d258a62e4c7b7271c0f9d77af3e3f",
+          "decoded_text_sha256": "a480a713c4ecabdd6d45f3dab391ba40018d258a62e4c7b7271c0f9d77af3e3f",
+          "start": 1291,
+          "end": 1302,
+          "quote": "用于发放高管人员补贴。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-F04",
+      "name": "实际支付收款路径",
+      "meaning": "预付、回款、现金、账户抵扣及账面与实际收款人",
+      "module": "fees_benefits",
+      "module_layer": "扩展/费用利益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "ordered_payment_relation[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/费用利益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "实际收款人不一致不代表最终用途已知"
+      ],
+      "evidence": [
+        {
+          "document_id": "F002859",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002859.txt",
+          "source_sha256": "b567b34fc45040c2568acda0d4a25449677fbc1263c0faddee2a18b4f94e0cab",
+          "decoded_text_sha256": "b567b34fc45040c2568acda0d4a25449677fbc1263c0faddee2a18b4f94e0cab",
+          "start": 767,
+          "end": 795,
+          "quote": "款项\n没有转入支票存根填写的收款人,而是转入了其他单位。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001786",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001786.txt",
+          "source_sha256": "60237fe9059f9d173448655ec096b979ae38d4a8e3ccd4ed37bc0424e343b5c0",
+          "decoded_text_sha256": "60237fe9059f9d173448655ec096b979ae38d4a8e3ccd4ed37bc0424e343b5c0",
+          "start": 707,
+          "end": 730,
+          "quote": "在扣除6%税金后将剩余现金返还至安盟保险员工处",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-F05",
+      "name": "资金权属来源",
+      "meaning": "客户专用账户保费、公司支出、经纪收入等来源",
+      "module": "fees_benefits",
+      "module_layer": "扩展/费用利益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "source_owner_relation",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/费用利益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "理财产生收益不消除挪用保费，收益也非销售收益承诺"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001124",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001124.txt",
+          "source_sha256": "1fdb78bd5c37ec1c574e55dbab210ed466305f46c678443328353c96504764d5",
+          "decoded_text_sha256": "1fdb78bd5c37ec1c574e55dbab210ed466305f46c678443328353c96504764d5",
+          "start": 558,
+          "end": 583,
+          "quote": "该账户向“乾元日日鑫高资产组合产品申购赎回户”划拨",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001124",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001124.txt",
+          "source_sha256": "1fdb78bd5c37ec1c574e55dbab210ed466305f46c678443328353c96504764d5",
+          "decoded_text_sha256": "1fdb78bd5c37ec1c574e55dbab210ed466305f46c678443328353c96504764d5",
+          "start": 505,
+          "end": 536,
+          "quote": "账户为公司的客户资金专用账户,主要用于代收代付客户保费和赔款。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-F06",
+      "name": "利益形式",
+      "meaning": "现金、积分、洗车券、购物卡、礼品、协议退保等",
+      "module": "fees_benefits",
+      "module_layer": "扩展/费用利益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum+text",
+      "candidate_enum_values": [
+        "现金",
+        "积分抵扣",
+        "洗车券",
+        "购物卡",
+        "实物礼品",
+        "退保多支付",
+        "服务资格",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/费用利益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "各种形式有益不自动构成每案合同外利益认定"
+      ],
+      "evidence": [
+        {
+          "document_id": "F000292",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000292.txt",
+          "source_sha256": "d0517dfead6b9077c3ae062a098ea7961a777743bd7e632dea61bf4f787662af",
+          "decoded_text_sha256": "d0517dfead6b9077c3ae062a098ea7961a777743bd7e632dea61bf4f787662af",
+          "start": 675,
+          "end": 688,
+          "quote": "向投保车险的客户赠送洗车券",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001656",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001656.txt",
+          "source_sha256": "5ef8ec437ac0aae22d3f29fc8e293d5048beb79c1b5169aa8f7df6aa1ba876d2",
+          "decoded_text_sha256": "5ef8ec437ac0aae22d3f29fc8e293d5048beb79c1b5169aa8f7df6aa1ba876d2",
+          "start": 776,
+          "end": 786,
+          "quote": "实际用途为购买购物卡",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-F07",
+      "name": "利益接受角色",
+      "meaning": "投保人、合作机构人员、员工、高管等对象",
+      "module": "fees_benefits",
+      "module_layer": "扩展/费用利益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "entity_role[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/费用利益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "合作银行工作人员不应泛化成投保人"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001918",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001918.txt",
+          "source_sha256": "d708d23c3efd340f762b22ae7f9893ed592f392d4cceb401932679859e1f2397",
+          "decoded_text_sha256": "d708d23c3efd340f762b22ae7f9893ed592f392d4cceb401932679859e1f2397",
+          "start": 417,
+          "end": 433,
+          "quote": "对合作银行工作人员进行旅游奖励。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-F08",
+      "name": "给予承诺及合同内外",
+      "meaning": "宣称赠送、已支付、合同是否约定与机关认定",
+      "module": "fees_benefits",
+      "module_layer": "扩展/费用利益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "stage+contract_status",
+      "candidate_enum_values": [
+        "承诺",
+        "已给付",
+        "合同外机关认定",
+        "合同内争议",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/费用利益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "合同外利益标签不能仅凭赠礼名称推出"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001535",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001535.txt",
+          "source_sha256": "482198aa1fedf9a75d205087b5d4d6b216109062056122b11dd23e65f7aa502b",
+          "decoded_text_sha256": "482198aa1fedf9a75d205087b5d4d6b216109062056122b11dd23e65f7aa502b",
+          "start": 1018,
+          "end": 1045,
+          "quote": "通过协议退保形式多支付退保金1,941,831.08元",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001918",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001918.txt",
+          "source_sha256": "d708d23c3efd340f762b22ae7f9893ed592f392d4cceb401932679859e1f2397",
+          "decoded_text_sha256": "d708d23c3efd340f762b22ae7f9893ed592f392d4cceb401932679859e1f2397",
+          "start": 254,
+          "end": 271,
+          "quote": "在产品说明会上向客户承诺赠送礼品。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-F09",
+      "name": "金额比例与结算规则",
+      "meaning": "经纪费比例、购买积分抵扣、税金扣除等机制参数",
+      "module": "fees_benefits",
+      "module_layer": "扩展/费用利益",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "formula_descriptor",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/费用利益场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "付款比例不是客户收益率，也不应由汇总额补单笔金额"
+      ],
+      "evidence": [
+        {
+          "document_id": "F002429",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002429.txt",
+          "source_sha256": "637a3661bfc0cdb67cb07256dff9fdd1d338225aeffde6134523b2436edcd2bd",
+          "decoded_text_sha256": "637a3661bfc0cdb67cb07256dff9fdd1d338225aeffde6134523b2436edcd2bd",
+          "start": 1979,
+          "end": 2001,
+          "quote": "按照经纪费收入总额的30%-90%不等的比例",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-P01",
+      "name": "责任类型",
+      "meaning": "直接、直接管理、直接主管、参与实施和仅负责任等原称谓",
+      "module": "responsibility",
+      "module_layer": "扩展/个人责任",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "enum+raw_text",
+      "candidate_enum_values": [
+        "直接责任",
+        "直接管理责任",
+        "直接主管责任",
+        "参与实施",
+        "仅负有责任",
+        "未知"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/个人责任场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "管理责任不自动等于亲自实施"
+      ],
+      "evidence": [
+        {
+          "document_id": "F002143",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F002143.txt",
+          "source_sha256": "735bcdd869494c92a7c49abd4a0cb3507d72e814e3e178bee9f8ec40c70875d4",
+          "decoded_text_sha256": "735bcdd869494c92a7c49abd4a0cb3507d72e814e3e178bee9f8ec40c70875d4",
+          "start": 935,
+          "end": 947,
+          "quote": "都应负一定的直接管理责任",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F004802",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F004802.txt",
+          "source_sha256": "db9c334b0b306c2b146ddca706b270fe31426d3fa0f872b30ba020b32b385ffa",
+          "decoded_text_sha256": "db9c334b0b306c2b146ddca706b270fe31426d3fa0f872b30ba020b32b385ffa",
+          "start": 85,
+          "end": 91,
+          "quote": "事项负有责任",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001965",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001965.txt",
+          "source_sha256": "078c7d784650e41c5e720e9ca7a8db8ec31190199ce44f7c8cbeac33c0db1d44",
+          "decoded_text_sha256": "078c7d784650e41c5e720e9ca7a8db8ec31190199ce44f7c8cbeac33c0db1d44",
+          "start": 971,
+          "end": 990,
+          "quote": "参与实施了上述第二、三项违法违规行为。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 3
+    },
+    {
+      "factor_id": "FD-P02",
+      "name": "个人具体参与动作",
+      "meaning": "制作、宣讲、经办、提议、批准、审核等动作证据",
+      "module": "responsibility",
+      "module_layer": "扩展/个人责任",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "action[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/个人责任场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "同文列名或职位不是具体参与动作证据"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001506",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001506.txt",
+          "source_sha256": "2177dad34dcf0f51d00c27452e29d1f4f4fae7f61aac1fefd4adf6c391a145c5",
+          "decoded_text_sha256": "2177dad34dcf0f51d00c27452e29d1f4f4fae7f61aac1fefd4adf6c391a145c5",
+          "start": 1139,
+          "end": 1168,
+          "quote": "提议、时任财务副总监兼财务部总经理徐鹏翔批准,共同组织实施",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-P03",
+      "name": "管理权限与分工",
+      "meaning": "部门负责、分管及权限范围，与列项对应",
+      "module": "responsibility",
+      "module_layer": "扩展/个人责任",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "authority_relation[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/个人责任场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "分管范围不能无证据扩张至机构全部行为"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001611",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001611.txt",
+          "source_sha256": "3b472341dafefe26864d8dfe848baa531dffbfc986dba6dff734a0efedefa6e6",
+          "decoded_text_sha256": "3b472341dafefe26864d8dfe848baa531dffbfc986dba6dff734a0efedefa6e6",
+          "start": 789,
+          "end": 799,
+          "quote": "分管新渠道和车行渠道",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-P04",
+      "name": "知情与未纠正",
+      "meaning": "明知、审核未制止、批准及不知情申辩分别归属",
+      "module": "responsibility",
+      "module_layer": "扩展/个人责任",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "knowledge+omission",
+      "candidate_enum_values": [
+        "明知实施",
+        "明知批准",
+        "审核未纠正",
+        "知情未制止",
+        "申辩不知情",
+        "未载"
+      ],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/个人责任场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "担任主管不能推定主观故意或知情"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001156",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001156.txt",
+          "source_sha256": "97598f4138a356b2085965bc75185be93066307cb65982cc1245722a10deb3ec",
+          "decoded_text_sha256": "97598f4138a356b2085965bc75185be93066307cb65982cc1245722a10deb3ec",
+          "start": 1504,
+          "end": 1528,
+          "quote": "郭自光在明知经济事项不真实的情况下,仍然批准了该",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001685",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001685.txt",
+          "source_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "decoded_text_sha256": "13f714609f673a3e2982e1c7d1cd5bf040613e5e89911ec1cb3bf9350e27a21d",
+          "start": 873,
+          "end": 892,
+          "quote": "审\n核过该利益演示系统,但未纠正、制止",
+          "quote_location_method": "whitespace_tolerant_anchor_exact_contiguous_slice",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-P05",
+      "name": "任职期间与行为覆盖",
+      "meaning": "任职起止、交接前后及在任行为责任边界",
+      "module": "responsibility",
+      "module_layer": "扩展/个人责任",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "time_overlap",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/个人责任场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "后续全部保单不自动归前任"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001974",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001974.txt",
+          "source_sha256": "7941b0d08071d4772f41b76178a10667ea81c8eb463391eab14c008337eb35df",
+          "decoded_text_sha256": "7941b0d08071d4772f41b76178a10667ea81c8eb463391eab14c008337eb35df",
+          "start": 335,
+          "end": 359,
+          "quote": "你于2009年4月24日至2011年11月21日",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F000562",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000562.txt",
+          "source_sha256": "bb2efe04b02cc5493254fc9ef027a8ec8faa58643b98d92b67f775f941d38998",
+          "decoded_text_sha256": "bb2efe04b02cc5493254fc9ef027a8ec8faa58643b98d92b67f775f941d38998",
+          "start": 1702,
+          "end": 1719,
+          "quote": "专项自查工作期间与二人履职期间相符",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 2
+    },
+    {
+      "factor_id": "FD-P06",
+      "name": "个人与具体事项映射",
+      "meaning": "多个主体分别对第几项、什么行为负责",
+      "module": "responsibility",
+      "module_layer": "扩展/个人责任",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "person_issue_link[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/个人责任场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "不得把参与第二三项补成第一项"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001965",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001965.txt",
+          "source_sha256": "078c7d784650e41c5e720e9ca7a8db8ec31190199ce44f7c8cbeac33c0db1d44",
+          "decoded_text_sha256": "078c7d784650e41c5e720e9ca7a8db8ec31190199ce44f7c8cbeac33c0db1d44",
+          "start": 971,
+          "end": 990,
+          "quote": "参与实施了上述第二、三项违法违规行为。",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-P07",
+      "name": "组织共同动作与链路",
+      "meaning": "总分公司沟通、核批、用印、下发形成的组织关系",
+      "module": "responsibility",
+      "module_layer": "扩展/个人责任",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "organization_action_link[]",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/个人责任场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "组织共同违法不意味着所有员工共同实施"
+      ],
+      "evidence": [
+        {
+          "document_id": "F001785",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001785.txt",
+          "source_sha256": "bd60bf696906df20f6c21e18be5ba3993e7ec3bb551a5030445fa2aa1b63bc56",
+          "decoded_text_sha256": "bd60bf696906df20f6c21e18be5ba3993e7ec3bb551a5030445fa2aa1b63bc56",
+          "start": 985,
+          "end": 1005,
+          "quote": "该违法行为是国华人寿总公司和广东分公司的",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F001785",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F001785.txt",
+          "source_sha256": "bd60bf696906df20f6c21e18be5ba3993e7ec3bb551a5030445fa2aa1b63bc56",
+          "decoded_text_sha256": "bd60bf696906df20f6c21e18be5ba3993e7ec3bb551a5030445fa2aa1b63bc56",
+          "start": 914,
+          "end": 961,
+          "quote": "我会对此进行了认真复核,认为:国华人寿广东分公司曾将含有退保收益承诺的品质管理函报呈总公司核批",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    },
+    {
+      "factor_id": "FD-P08",
+      "name": "机构个人分别及合计处罚",
+      "meaning": "个人项别罚款与个人合计、机构合计分别记录",
+      "module": "responsibility",
+      "module_layer": "扩展/个人责任",
+      "status": "candidate",
+      "human_review_status": "pending",
+      "human_review_count": 0,
+      "proposed_value_type": "sanction_scope",
+      "candidate_enum_values": [],
+      "synonym_merge_rule": "保留原始词形；按本因子含义合并同义概念，不合并不同主体、阶段、数值口径或认定层级",
+      "unknown_representation": {
+        "value": null,
+        "knowledge_status": "not_stated|ambiguous|conflicting|not_applicable|reported_only",
+        "reason": "必须引用全文局限说明；未载不等于不存在"
+      },
+      "scope": "扩展/个人责任场景；需显式机制证据，不能凭关键词赋值",
+      "not_to_infer": [
+        "个人合计罚款不能全部分配到任一行为"
+      ],
+      "evidence": [
+        {
+          "document_id": "F000751",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000751.txt",
+          "source_sha256": "da7bc22ac120d28ae525b2f1a8260bb61237b95a10d9dd2b5c1657064e4a2e76",
+          "decoded_text_sha256": "da7bc22ac120d28ae525b2f1a8260bb61237b95a10d9dd2b5c1657064e4a2e76",
+          "start": 1560,
+          "end": 1572,
+          "quote": "罚款1.5万元的行政处罚",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "支持候选概念的真实文书片段，不是人审案件标注",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F000751",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000751.txt",
+          "source_sha256": "da7bc22ac120d28ae525b2f1a8260bb61237b95a10d9dd2b5c1657064e4a2e76",
+          "decoded_text_sha256": "da7bc22ac120d28ae525b2f1a8260bb61237b95a10d9dd2b5c1657064e4a2e76",
+          "start": 1259,
+          "end": 1281,
+          "quote": "决定给予高瑞警告并处罚款0.5万元的行政处罚",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        },
+        {
+          "document_id": "F000751",
+          "source_path": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\outputs\\知识库全量脚本预处理_v1\\raw_text\\F000751.txt",
+          "source_sha256": "da7bc22ac120d28ae525b2f1a8260bb61237b95a10d9dd2b5c1657064e4a2e76",
+          "decoded_text_sha256": "da7bc22ac120d28ae525b2f1a8260bb61237b95a10d9dd2b5c1657064e4a2e76",
+          "start": 1443,
+          "end": 1463,
+          "quote": "决定给予高瑞警告并处罚款1万元的行政处罚",
+          "quote_location_method": "literal_anchor",
+          "support_purpose": "补充不同原文形态或对照项；每条仍为独立连续切片",
+          "semantic_status": "pending",
+          "human_review_count": 0
+        }
+      ],
+      "support_document_count": 1
+    }
+  ]
+}

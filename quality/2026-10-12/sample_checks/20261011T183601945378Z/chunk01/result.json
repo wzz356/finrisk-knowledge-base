@@ -1,0 +1,195 @@
+{
+  "status": "pass",
+  "compatibility_version": "finrisk-compat-v1",
+  "documents_requested": 5,
+  "documents_passed": 5,
+  "records": [
+    {
+      "file_id": "F003967",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003967_r0_fix03.json",
+      "proposal_sha256": "81e1c4899dd5dfd6f66bf832e5f773f2efde85819075452f3ba602c333466270",
+      "proposal_content_sha256": "d0f0cab48fe0b49cd115cd1ff24301cc8baa828a727b33021ce1565bc347d3fc",
+      "source_sha256": "c54f2f7025c45ed244058d3fdde6175ca5a8e9f0c28cf75ab95bf1508579e4a4",
+      "text_sha256": "c54f2f7025c45ed244058d3fdde6175ca5a8e9f0c28cf75ab95bf1508579e4a4",
+      "requires_review": true,
+      "reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "quote_fields_checked": 34,
+      "quote_spans_checked": 34,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "c1",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "c2",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F007196",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b024\\p1\\F007196_r0_fix01.json",
+      "proposal_sha256": "0efdd3ef299573a6794a611f07673d76e610c46133cd497a4215636060d2483a",
+      "proposal_content_sha256": "728e55dfd7a72b920de643ceea1a8109f7646745ff59a3155f28e955cee31ba1",
+      "source_sha256": "b2a4ae5ec095387846d90532c19be16c98748126e6bd26d0d2fbd8bbde040d93",
+      "text_sha256": "b2a4ae5ec095387846d90532c19be16c98748126e6bd26d0d2fbd8bbde040d93",
+      "requires_review": true,
+      "reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 2,
+      "quote_fields_checked": 35,
+      "quote_spans_checked": 35,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "yang",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001216",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b043\\p1\\F001216_r0_fix01.json",
+      "proposal_sha256": "95fee5d4d5e5628aac505e8b43d09db9949d004f1611e205b7c72928c932fb0e",
+      "proposal_content_sha256": "2e520755b664e9200fbf33c686f136be4b4748703e0c22b5fecc7e4bdbd4d825",
+      "source_sha256": "b8696aae71c9000af1a2fe19f6cae4040554c99d54a9bc54dbf5aba09d6b2498",
+      "text_sha256": "b8696aae71c9000af1a2fe19f6cae4040554c99d54a9bc54dbf5aba09d6b2498",
+      "requires_review": true,
+      "reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 8,
+      "quote_fields_checked": 112,
+      "quote_spans_checked": 112,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "company",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "liu",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002395",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b059\\p3\\F002395_r0_fix01.json",
+      "proposal_sha256": "6b526fa6afc6d2246a09d2c64a12c9123fa4b0d96a501156f2a1c3ccd0a3074a",
+      "proposal_content_sha256": "539f144bdd3682dfea7aefa6f74863c437e2e4920626ca890de89c407f631122",
+      "source_sha256": "d417fb6017d987226a88cc2ce581034870be4686aa04521c5b60d9eaf90d43a7",
+      "text_sha256": "d417fb6017d987226a88cc2ce581034870be4686aa04521c5b60d9eaf90d43a7",
+      "requires_review": true,
+      "reasons": [
+        "conditions_negations_or_exceptions",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 3,
+      "behaviors": 3,
+      "quote_fields_checked": 77,
+      "quote_spans_checked": 77,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "life_ningan",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bu_fanhai",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "zhu_bo",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002954",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p3\\F002954_r0_fix01.json",
+      "proposal_sha256": "dfe9c6c27a3c80d6d0e13fe3099d578a1ac24e6d03c70ef30afdbe64516a02e9",
+      "proposal_content_sha256": "57b3ca2400c9152671bc00931ca1268ad392ed13e8c82e8f60f7dd0f46ad6cb0",
+      "source_sha256": "9379602326942f820a327e4ac03fb67d4b28e387399ea2c45da84b92d341d969",
+      "text_sha256": "9379602326942f820a327e4ac03fb67d4b28e387399ea2c45da84b92d341d969",
+      "requires_review": true,
+      "reasons": [
+        "declared_source_issue",
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 1,
+      "behaviors": 2,
+      "quote_fields_checked": 30,
+      "quote_spans_checked": 30,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "picc_xiangfan_auto",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    }
+  ],
+  "failures": [],
+  "source_read_batch_limit": 5,
+  "frozen_base_checker_sha256": {
+    "work/finrisk_confirm30/check_proposals.py": "43a7d56643279f0ee368d1f90a3097bd1c432a7a9df57fcf9356d83bfd108577",
+    "work/finrisk_remaining/quality_guard.py": "c3a8e9bf9de462383b08f6d8d3da6d3bff34554b3231ba35c3d0cd4e432e4ee3",
+    "work/finrisk_bulk/prepare_run.py": "48d6a799b67d01f8745a9b8973532a0b2814b24ba32a9cb1b95b437889539b4f"
+  },
+  "compat_checker_sha256": "5cd46c3cb4a419d8deacb5840279dc364620bf99b7039d0fbe335befc7c69bb2",
+  "external_api_calls": 0,
+  "semantic_status": "candidate",
+  "human_review_status": "pending"
+}

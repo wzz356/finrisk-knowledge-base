@@ -1,0 +1,207 @@
+{
+  "status": "complete",
+  "evaluation": "fresh_context_model_assisted_algorithm_blind_rescoring",
+  "human_approved": false,
+  "pairs": 24,
+  "contexts": 38,
+  "file_exact_grade_agreements": 18,
+  "file_useful_threshold_agreements": 24,
+  "file_misleading_flag_agreements": 24,
+  "context_exact_grade_agreements": 32,
+  "context_useful_threshold_agreements": 38,
+  "context_misleading_flag_agreements": 35,
+  "exact_positive_quote_checks": 46,
+  "disagreements": [
+    {
+      "pair_id": "J1fe3ef17557a",
+      "query_id": "Q008",
+      "file_id": "F003425",
+      "first_grade": 3,
+      "second_grade": 2,
+      "first_reason": "忽略医保用药条件并承诺百分之百赔付被认定扩大保险责任。",
+      "second_reason": "原文认定忽略用药条件并承诺百分百赔付扩大责任，能帮助检查宣传条件。",
+      "contexts": [
+        {
+          "context_id": "C765470661cb0",
+          "first_grade": 3,
+          "second_grade": 2,
+          "first_misleading": false,
+          "second_misleading": false,
+          "first_reason": "完整具体呈现省略用药条件与百分之百赔付导致责任扩大。",
+          "second_reason": "可见百分百赔付和用药条件被忽略的具体事实，提示核实是否扩大保障。"
+        }
+      ]
+    },
+    {
+      "pair_id": "J4f50f53e175a",
+      "query_id": "Q011",
+      "file_id": "F000852",
+      "first_grade": 2,
+      "second_grade": 3,
+      "first_reason": "记载电销曲解法规政策并认定违规，具体错误内容仍不完整。",
+      "second_reason": "原文认定电销曲解政策法规并说明质检缺失及追责，有较完整的同类行为依据。",
+      "contexts": []
+    },
+    {
+      "pair_id": "J7aea68d58b47",
+      "query_id": "Q020",
+      "file_id": "F000840",
+      "first_grade": 3,
+      "second_grade": 2,
+      "first_reason": "电话话术混淆保险属性、责任和收益，具体误导类型帮助核对介绍内容。",
+      "second_reason": "原文明确列出电销产品误导类型并以录音证明，可帮助回听核查介绍内容。",
+      "contexts": [
+        {
+          "context_id": "C056dcc4a9fe8",
+          "first_grade": 3,
+          "second_grade": 2,
+          "first_misleading": false,
+          "second_misleading": false,
+          "first_reason": "具体混淆属性及其他电销误导内容齐全，支持回听核查话术。",
+          "second_reason": "列明收益、责任等多类产品介绍误导，可帮助检查录音内容但不证明身份冒用。"
+        },
+        {
+          "context_id": "C657aef1bdc6c",
+          "first_grade": 3,
+          "second_grade": 2,
+          "first_misleading": false,
+          "second_misleading": false,
+          "first_reason": "具体介绍遗漏及录音条款证据明确，直接帮助核查销售内容。",
+          "second_reason": "可见缴费期间误导及权益隐瞒，提供内容审查线索但未涉及来电主体身份。"
+        }
+      ]
+    },
+    {
+      "pair_id": "J836191ec02c9",
+      "query_id": "Q026",
+      "file_id": "F003901",
+      "first_grade": 3,
+      "second_grade": 2,
+      "first_reason": "明确发生保费手续费工资收支未入账无凭证及未建账档案。",
+      "second_reason": "代理机构收支未入账、缺凭证并无详细业务记录，明确帮助检查财务基础记录。",
+      "contexts": []
+    },
+    {
+      "pair_id": "Jb8cd1f5a5ffe",
+      "query_id": "Q031",
+      "file_id": "F006484",
+      "first_grade": 0,
+      "second_grade": 1,
+      "first_reason": "资金运用和偿付能力资本计算处罚，无单笔风险超限分保机制",
+      "second_reason": "仅有偿付能力最低资本计算错误这一附近主题，未涉及单一风险限额或分保。",
+      "contexts": [
+        {
+          "context_id": "C89b6167a35b4",
+          "first_grade": 0,
+          "second_grade": 1,
+          "first_misleading": false,
+          "second_misleading": false,
+          "first_reason": "未见保证险单一风险超过资本金公积金限额及分保要求",
+          "second_reason": "片段的资本计算违规仅属宽泛线索，不能核实十分之一限额和再保险安排。"
+        }
+      ]
+    },
+    {
+      "pair_id": "J09dac8cd60da",
+      "query_id": "Q038",
+      "file_id": "F000929",
+      "first_grade": 3,
+      "second_grade": 2,
+      "first_reason": "编造事故或扩大损失返还垫付保费，清楚说明赔款偏离赔偿用途。",
+      "second_reason": "种植险虚假赔款返还代垫保费的明确事实，可帮助追查赔款实际对象及用途。",
+      "contexts": [
+        {
+          "context_id": "Ceea6a63ea3d7",
+          "first_grade": 3,
+          "second_grade": 2,
+          "first_misleading": false,
+          "second_misleading": false,
+          "first_reason": "村组垫费、虚构损失及返款完整，直接支持核查赔款去向。",
+          "second_reason": "片段保留种植险、虚假理赔及代垫保费返还链条，提供资金用途的具体对照。"
+        }
+      ]
+    },
+    {
+      "pair_id": "J692dfe8ae46a",
+      "query_id": "Q039",
+      "file_id": "F002361",
+      "first_grade": 3,
+      "second_grade": 3,
+      "first_reason": "列明两张保单日期和未连续保障期间，说明年度购买仍需核对衔接。",
+      "second_reason": "两张保单起止与中间空档、连续性违规认定均完整，直接支持审核经营期间覆盖。",
+      "contexts": [
+        {
+          "context_id": "C94f56b8aa35c",
+          "first_grade": 2,
+          "second_grade": 2,
+          "first_misleading": false,
+          "second_misleading": true,
+          "first_reason": "可见未连续保障认定，但片段缺少两张保单起止日期。",
+          "second_reason": "仍明确载未保持连续性的认定，但保单起止及空档起日被截断，难核对期间。"
+        }
+      ]
+    },
+    {
+      "pair_id": "J559b6dd9ef03",
+      "query_id": "Q044",
+      "file_id": "F000742",
+      "first_grade": 0,
+      "second_grade": 0,
+      "first_reason": "电销欺骗、产品范围与虚假录音案件不涉及登记发证维护。",
+      "second_reason": "原案是电销欺骗、万能险渠道及伪造承保录音，未涉及销售执业证或档案电话维护。",
+      "contexts": [
+        {
+          "context_id": "C8245ad749c72",
+          "first_grade": 0,
+          "second_grade": 0,
+          "first_misleading": true,
+          "second_misleading": false,
+          "first_reason": "背景为条款费率、正文却为电销欺骗责任，亦无发证事实。",
+          "second_reason": "片段载条款费率和欺骗投保人的管理责任，无销售人员登记发证的依据。"
+        }
+      ]
+    },
+    {
+      "pair_id": "J1a1d39e3f5be",
+      "query_id": "Q049",
+      "file_id": "F000398",
+      "first_grade": 3,
+      "second_grade": 3,
+      "first_reason": "公估报告金额未列条款的事实和监管依据完整吻合",
+      "second_reason": "明确记录公估报告列赔款却无所据条款，且有专门公估规定与责任认定，直接帮助审核。",
+      "contexts": [
+        {
+          "context_id": "C92ed1f85c04a",
+          "first_grade": 2,
+          "second_grade": 3,
+          "first_misleading": false,
+          "second_misleading": false,
+          "first_reason": "明确公估金额依据缺失事实，未显示监管依据",
+          "second_reason": "正文完整列明公估报告、涉及赔款与条款依据缺失的事实，可直接帮助审核结论。"
+        }
+      ]
+    },
+    {
+      "pair_id": "J2af20580af08",
+      "query_id": "Q050",
+      "file_id": "F005645",
+      "first_grade": 2,
+      "second_grade": 2,
+      "first_reason": "案由明确受益人为投保人，提示来源企业身份未明时须核实适用条件。",
+      "second_reason": "简表分别载投保人返利与无代理资质机构销售费，可帮助审查企业角色和款项性质。",
+      "contexts": [
+        {
+          "context_id": "C98fed9b5f288",
+          "first_grade": 2,
+          "second_grade": 2,
+          "first_misleading": false,
+          "second_misleading": true,
+          "first_reason": "明确投保人是返利对象，可帮助核对来源企业是否满足该身份条件。",
+          "second_reason": "可见返利对象为投保人，能提示对象条件；机构销售费机制被截断，不能扩张套用。"
+        }
+      ]
+    }
+  ],
+  "initial_judgments_preserved": true,
+  "sampling_note": "每组8个不同查询、每查询随机1个合并池文件；固定种子2026101224。样本不是总体比例抽样。"
+}

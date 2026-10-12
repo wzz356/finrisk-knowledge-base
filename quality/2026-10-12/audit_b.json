@@ -1,0 +1,1259 @@
+{
+  "lane": "audit_b",
+  "method": "独立模型逐篇阅读全文对照候选；非人工验收；不估计全量准确率",
+  "planned_count": 39,
+  "read_count": 39,
+  "records": [
+    {
+      "file_id": "F009587",
+      "status": "pass",
+      "dimension": {
+        "subject_penalty": "pass：仅朱传营被处罚，责任明示；1万+4万未重复加入合计5万。",
+        "date_document_regulator": "pass：文号、2023-04-20及菏泽分局正确。",
+        "behavior_split": "pass：三产品夸大责任和虚构中介套费分别保留。",
+        "relevance": "pass：保险及营销为true。",
+        "facts_conditions": "pass：代理期、资金抽查期、58笔52万、管理责任及同姓限制保存。",
+        "labels": "pass：虚假宣传explicit、绝对化inferred有条件限制；套费主标签正确。",
+        "scenes": "pass：文书后端事实场景，不扩造渠道。",
+        "missing_source_values": "pass：未明示币种与个人亲自编写保持未知。"
+      },
+      "findings": [],
+      "source_sha": "703a7a2f0e8a02ba56ef5cf7bfec643449280cd98997781a679bd5ac735341dc",
+      "proposal_sha": "0a1ff0a68d7c16f6ed8216b866392a51a5cb4ab8b6b3ad488ad5dc556c9bdae3",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F003967",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "needs_fix：漏明示李振靖及警告4万元。",
+        "date_document_regulator": "needs_fix：监管机构错填文书标题。",
+        "behavior_split": "needs_fix：须补李振靖unknown文书关联行为。",
+        "relevance": "pass：保险true、营销false。",
+        "facts_conditions": "pass：财务数据事实摘要未改写。",
+        "labels": "needs_fix：客户信息标签explicit缺客户信息事实依据。",
+        "scenes": "pass：行政处罚后端事实。",
+        "missing_source_values": "pass：文号日期未载保持null。"
+      },
+      "findings": [
+        {
+          "code": "MISSING_PUNISHED_PERSON",
+          "severity": "major",
+          "field": "cases",
+          "actual": "仅中汇人寿吉林分公司一案",
+          "expected": "另保存李振靖个人案，警告及罚款40000元；个人行为责任未明示则unknown文书关联并限制",
+          "source_quote": "司长春营业本部总\n经理助理李振靖警\n告并罚款4万元",
+          "explanation": "原文处罚段明确第二被处罚主体及处罚，候选遗漏。",
+          "fix_suggestion": "补个人case及相应unknown关联行为；不得凭职务确定直接责任。"
+        },
+        {
+          "code": "WRONG_REGULATOR",
+          "severity": "major",
+          "field": "cases.c1.regulator",
+          "actual": "行政处罚信息公示表",
+          "expected": "吉林金融监管局",
+          "source_quote": "吉林金融\n监管局",
+          "explanation": "文书标题不是作出决定机关；原文有明确机关。",
+          "fix_suggestion": "按作出决定机关列修订regulator与证据。"
+        },
+        {
+          "code": "UNSUPPORTED_EXPLICIT_LABEL",
+          "severity": "major",
+          "field": "behaviors.b1.risk_tags",
+          "actual": "客户信息不真实/explicit/high，无限制",
+          "expected": "其他主标签，或客户信息不真实仅inferred关联并说明财务数据未说明客户资料",
+          "source_quote": "财务数据不真实",
+          "explanation": "财务数据对象不能直接认定客户信息不真实。召回可推测但必须保留条件缺口。",
+          "fix_suggestion": "优先其他；若保留客户信息标签改inferred、medium或low并补limitations。"
+        }
+      ],
+      "source_sha": "c54f2f7025c45ed244058d3fdde6175ca5a8e9f0c28cf75ab95bf1508579e4a4",
+      "proposal_sha": "c75d661201cb004331c4cc42282801d82e10b6fc6ed3d81f3a87a9bcc1a25d3a",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F004660",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：机构罚8.5万元绑定正确。",
+        "date_document_regulator": "pass：文号机关日期正确。",
+        "behavior_split": "pass：合同外利益一行为。",
+        "relevance": "needs_fix：营销false与合同外利益直接事实冲突。",
+        "facts_conditions": "pass：保留或关系及未载利益形式。",
+        "labels": "pass：合同外利益explicit主标签。",
+        "scenes": "pass：文书后端事实。",
+        "missing_source_values": "needs_fix：原文明示法条漏填。"
+      },
+      "findings": [
+        {
+          "code": "WRONG_MARKETING_RELEVANCE",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": false,
+          "expected": true,
+          "source_quote": "给予投保人或被保险人保险合同约\n定以外利益",
+          "explanation": "合同外利益是本词典明确的营销违规，保险销售利益事实足以判营销相关。",
+          "fix_suggestion": "改true并给出原文事实理由。"
+        },
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.company.legal_refs",
+          "actual": [],
+          "expected": [
+            "《中华人民共和国保险法(2015年修正)》第一百六十一条"
+          ],
+          "source_quote": "《中华人民共和国保险法(2015年修\n正)》第一百六十一条",
+          "explanation": "明确处罚依据不可省略。",
+          "fix_suggestion": "保存原文明示法律和条文，不猜其他条款。"
+        }
+      ],
+      "source_sha": "196b31f90441204bd21bca8810c11bec34d0db86bdb844f55df4ba9579eb1df7",
+      "proposal_sha": "1bfceb599d6e829d01fc586054df61a01020b2c152256416178b38de64a1bb02",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F008199",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：明示张小亚责任，警告9.2万元。",
+        "date_document_regulator": "pass：文号机关日期正确。",
+        "behavior_split": "pass：四项独立行为拆开。",
+        "relevance": "needs_fix：明示保险销售及合同外利益，营销不能null。",
+        "facts_conditions": "pass：不补个人亲自动作及套费机制。",
+        "labels": "pass：三explicit及虚列套费inferred有限制。",
+        "scenes": "pass：文书后端事实。",
+        "missing_source_values": "needs_fix：明示法条未具体保存。"
+      },
+      "findings": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": null,
+          "expected": true,
+          "source_quote": "得合法资格的机构从事保险销售活\n动、给予投保人保险合同约定以外的\n利益、虚列费用负有责任",
+          "explanation": "明确保险销售和营销违规事实，非未知。",
+          "fix_suggestion": "改true并以委托销售/合同外利益为理由。"
+        },
+        {
+          "code": "VAGUE_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.zhang_xiaoya.legal_refs",
+          "actual": [
+            "《中华人民共和国保险法》相关条款见原文"
+          ],
+          "expected": [
+            "《中华人民共和国保险法》第八十六条、第一百一十六条、第一百七十一条"
+          ],
+          "source_quote": "《中华人民共和国保险法》第八十六\n条、第一百一十六条、第一百七十一\n条",
+          "explanation": "泛称相关条款遗漏已明示条号。",
+          "fix_suggestion": "逐条保存原文第八十六、第一百一十六、第一百七十一条。"
+        }
+      ],
+      "source_sha": "51ffe6613d189b0bf5a883bcefcc225fe9cd22370dee5d33ee9e38acae39693d",
+      "proposal_sha": "01f9ae5d5d78a23640a26bce4ce076223845517dbee6cc2f6053f0fa56af30a1",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F001232",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：机构吊销许可证，无虚构罚款。",
+        "date_document_regulator": "pass：文号机关决定日正确。",
+        "behavior_split": "pass：套取佣金；裁量因素保留摘要。",
+        "relevance": "pass：保险true、营销false。",
+        "facts_conditions": "pass：2013年、不具正常营业及整顿未实报保存。",
+        "labels": "pass：套费inferred，科目流程未载限制。",
+        "scenes": "pass：文书后端事实。",
+        "missing_source_values": "needs_fix：明示法条未保存。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.company.legal_refs",
+          "actual": [],
+          "expected": [
+            "《中华人民共和国保险法》第一百三十一条第八项、第一百六十六条"
+          ],
+          "source_quote": "安和代理亳州分公司上述行为违反了《中华人民共和国保险法》第一百三十一条第八项规定。依据该法第一百六十六条的规定",
+          "explanation": "明确违法及处罚条文被遗漏。",
+          "fix_suggestion": "补原文明示两条法条。"
+        }
+      ],
+      "source_sha": "b236f57e431144fb7a6694e494e105a5d21727382082c3e4f24955dd9fcaedf3",
+      "proposal_sha": "32ef1e25695a4291cafd901282511e5385c72c87a4f279967bd70cf41aa3715f",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F000728",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：主体与处罚归属正确。",
+        "date_document_regulator": "pass：文号、机关与决定日正确。",
+        "behavior_split": "pass：独立行为完整。",
+        "relevance": "needs_fix：明确从事保险销售，营销相关不能以没有宣传原件为由null。",
+        "facts_conditions": "pass：事实对象、责任限定和已载金额范围保存。",
+        "labels": "pass：官方标签与explicit/inferred、排序及限制匹配。",
+        "scenes": "pass：有据标行政处罚后端场景，不补营销渠道。",
+        "missing_source_values": "pass：未载信息保持未知。"
+      },
+      "findings": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": null,
+          "expected": true,
+          "source_quote": "存在委托未持有本机构发放的执业证书的人员从事保险销售的问题",
+          "explanation": "销售事实与是否获得营销宣传原件是两件事；文书直接记载保险销售。",
+          "fix_suggestion": "改true并引用委托销售事实；具体话术未知照常保留。"
+        }
+      ],
+      "source_sha": "bc639efeb78c128246b136a5599cc580d7772bfc8e9d863f7d19536fd870a5cf",
+      "proposal_sha": "b4622ab8a570688f5e3656451ad20481d4efdba7d5d443f0e53030be4d4eb1be",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F001198",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：主体与处罚归属正确。",
+        "date_document_regulator": "pass：文号、机关与决定日正确。",
+        "behavior_split": "pass：独立行为完整。",
+        "relevance": "needs_fix：明确无资质机构销售保险却标false。",
+        "facts_conditions": "pass：事实对象、责任限定和已载金额范围保存。",
+        "labels": "pass：官方标签与explicit/inferred、排序及限制匹配。",
+        "scenes": "pass：有据标行政处罚后端场景，不补营销渠道。",
+        "missing_source_values": "needs_fix：明示法条漏填。"
+      },
+      "findings": [
+        {
+          "code": "WRONG_MARKETING_RELEVANCE",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": false,
+          "expected": true,
+          "source_quote": "经查,你公司存在委托未取得合法资格的机构从事保险销售活动的违法行为:",
+          "explanation": "文书明确违规保险销售渠道，营销相关事实充分。",
+          "fix_suggestion": "改true并以无资质保险销售为理由。"
+        },
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.company.legal_refs",
+          "actual": [],
+          "expected": [
+            "《中华人民共和国保险法》第一百一十六条第八项、第一百六十二条"
+          ],
+          "source_quote": "上述行为违反了《中华人民共和国保险法》第一百一十六条第八项的规定。依据《中华人民共和国保险法》第一百六十二条的规定",
+          "explanation": "明示违法依据和处罚条文未保存。",
+          "fix_suggestion": "补两个原文明示条文。"
+        }
+      ],
+      "source_sha": "b6f6571998da183c82992a061dc7fc527288a3cd8a95f79b674dc2986c4bb031",
+      "proposal_sha": "9e2a262c64909bbb8da3fd20f639dbaf9d5043253518b02999043f9c45f6e8b7",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F006148",
+      "status": "pass",
+      "dimension": {
+        "subject_penalty": "pass：公司25万元，苏云娟警告4万元分别绑定，个人责任明示。",
+        "date_document_regulator": "pass：文号、机关与决定日正确。",
+        "behavior_split": "pass：公司行为与个人责任分别保存，或关系未扩大为两项都发生。",
+        "relevance": "pass：保险相关明确；营销缺证据保留未知或false。",
+        "facts_conditions": "pass：虚假报告报表文件资料未改为客户资料，个人亲自动作未补。",
+        "labels": "pass：官方标签与explicit/inferred、排序及限制匹配。",
+        "scenes": "pass：有据标行政处罚后端场景，不补营销渠道。",
+        "missing_source_values": "pass：未载信息保持未知。"
+      },
+      "findings": [],
+      "source_sha": "a57f10e1f419c0545de2c3bfe7370d1467c5b3ba69f2bb7d13955679b1b17547",
+      "proposal_sha": "51d075e684f9d969316dbcb7f11b22c9edf6b49e5dbd281fc8e5a1cd3b244586",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F005844",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：殷仁超明示责任，警告1万元。",
+        "date_document_regulator": "pass：文号、机关与决定日正确。",
+        "behavior_split": "pass：承保与理赔资料分别保存，三个资料缺陷保留。",
+        "relevance": "pass：保险相关明确；营销缺证据保留未知或false。",
+        "facts_conditions": "pass：事实对象、责任限定和已载金额范围保存。",
+        "labels": "pass：官方标签与explicit/inferred、排序及限制匹配。",
+        "scenes": "pass：有据标行政处罚后端场景，不补营销渠道。",
+        "missing_source_values": "needs_fix：明示法条漏填。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.yin.legal_refs",
+          "actual": [],
+          "expected": [
+            "《中华人民共和国保险法》第八十六条、第一百七十一条"
+          ],
+          "source_quote": "《中华人民共和国保险法》第八十六条和\n第一百七十一条",
+          "explanation": "原文明示处罚依据被漏存。",
+          "fix_suggestion": "补第八十六条及第一百七十一条。"
+        }
+      ],
+      "source_sha": "0c973688ffb1eecd1fb69de5c8ed7cb5c431b9f8050c34e3b5ccd9865c17c114",
+      "proposal_sha": "f99160b07b14257587461639d130b5fae7e8afd05abe83928ecdf6612803a16e",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F007196",
+      "status": "uncertain",
+      "dimension": {
+        "subject_penalty": "pass：主体与处罚归属正确。",
+        "date_document_regulator": "pass：文号、机关与决定日正确。",
+        "behavior_split": "pass：独立行为完整。",
+        "relevance": "uncertain：内部培训误导已载，但课件销售用途未明示；marketing=null或true需统一业务定义。",
+        "facts_conditions": "pass：事实对象、责任限定和已载金额范围保存。",
+        "labels": "pass：官方标签与explicit/inferred、排序及限制匹配。",
+        "scenes": "pass：training具体写培训，不误写回访。",
+        "missing_source_values": "pass：全部明示法条保存。"
+      },
+      "findings": [
+        {
+          "code": "MARKETING_TRAINING_FLAG_REVIEW",
+          "severity": "minor",
+          "field": "marketing_relevance.value",
+          "actual": null,
+          "expected": "结合项目营销相关口径复核，若内部培训误导属营销事实则true；未载培训用途可保留null说明",
+          "source_quote": "对国华人寿保险股份有限公司山西分公司内\n部培训课件存在误导性内容、虚列费用事项\n负有责任",
+          "explanation": "培训材料违规是营销活动类，但文本仅载内部培训，未明示销售用途；这属于口径需统一的边界，不直接升级为确凿错误。",
+          "fix_suggestion": "补营销判断理由中内部培训用途未明的限制；由root按既定营销口径统一。"
+        }
+      ],
+      "source_sha": "b2a4ae5ec095387846d90532c19be16c98748126e6bd26d0d2fbd8bbde040d93",
+      "proposal_sha": "775e6d88894447395c135090c6cb83e2729363b2be162cc07996222bb44a30e5",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F004550",
+      "status": "pass",
+      "dimension": {
+        "subject_penalty": "pass：周晓耕4万、贾春妍1万、乔虹宇1万分别警告；个人宽案由全部unknown。",
+        "date_document_regulator": "pass：25/26/27号逐人正确，无日期保持null。",
+        "behavior_split": "pass：已载独立违规全部保存。",
+        "relevance": "pass：保险相关明确；非营销或缺乏营销线索保留false/null。",
+        "facts_conditions": "pass：事实对象和限定未扩张。",
+        "labels": "pass：unknown均inferred+document_related，费用列支套费候选有限制。",
+        "scenes": "pass：有据记录原始场景，不造原件。",
+        "missing_source_values": "pass：未载信息不猜。"
+      },
+      "findings": [],
+      "source_sha": "4aa9671522389f7e6115c4f6e69f2f34696cce866aac480b125bf7a526fe05d0",
+      "proposal_sha": "cbdbf6c500b7609fc776f21b1012e08da1b84f00a673fac84608df0beff77171",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F001216",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：公司前三21万第四7万、个人两组各1万无重复总额，直接主管责任明示。",
+        "date_document_regulator": "pass：文号、监管机关与完整决定日期正确；缺失处保持null。",
+        "behavior_split": "pass：已载独立违规全部保存。",
+        "relevance": "needs_fix：明确电话营销误导却marketing=null。",
+        "facts_conditions": "needs_fix：四机构action/object同文复制，不能区分动作对象。",
+        "labels": "needs_fix：明确电话介绍产品误导未召回电销违规。",
+        "scenes": "pass：有据记录原始场景，不造原件。",
+        "missing_source_values": "needs_fix：全部明示法条为空。"
+      },
+      "findings": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": null,
+          "expected": true,
+          "source_quote": "(三)业务人员在电话中向客户介绍产品时存在误导性话术。",
+          "explanation": "原文已明确电话产品介绍与误导性话术，未取得原件不能成为营销未知的理由。",
+          "fix_suggestion": "改true并保存电话介绍及培训误导证据。"
+        },
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.company/liu.legal_refs",
+          "actual": [],
+          "expected": "公司保险法第131条第(一)项、第166条、第122条、第169条；刘伟民第173条，并保留对应分组",
+          "source_quote": "综上,你公司上述第一至三项的行为违反了《保险法》第一百三十一条第(一)项规定,根据《保险法》第一百六十六条规定",
+          "explanation": "两组明确违法、处罚及个人责任条号全部漏填。",
+          "fix_suggestion": "按原文分组保存法条和对应个人依据，不把条文引用泛写。"
+        },
+        {
+          "code": "ACTION_OBJECT_DUPLICATED",
+          "severity": "major",
+          "field": "behaviors.company_*.action/object及FD-C04/FD-C05",
+          "actual": "四机构behavior的action与object均复制同一句动作事实",
+          "expected": "动作与对象分别描述，例action=以保险公司名义进行电话约访，object=客户/电话约访对象（未载可null）",
+          "source_quote": "(一)以保险公司的名义对外进行电话约访。",
+          "explanation": "动作句作为对象会损失字段含义，违反v2补充的动作对象分别保存要求。",
+          "fix_suggestion": "逐条拆动作和对象；对象未明确时null并写缺失理由，不造对象。"
+        },
+        {
+          "code": "MISSING_SPECIFIC_RECALL_LABEL",
+          "severity": "major",
+          "field": "behaviors.company_phone/liu_phone.risk_tags",
+          "actual": "仅销售误导",
+          "expected": "保留销售误导并增加电销违规explicit候选，按原文具体电话销售机制排序",
+          "source_quote": "(三)业务人员在电话中向客户介绍产品时存在误导性话术。",
+          "explanation": "明确电话销售中的违规行为符合官方电销违规，1至3标签限制内可完整召回。",
+          "fix_suggestion": "对公司电话行为及明示主管责任增加电销违规。"
+        }
+      ],
+      "source_sha": "b8696aae71c9000af1a2fe19f6cae4040554c99d54a9bc54dbf5aba09d6b2498",
+      "proposal_sha": "2d9bbacb8dd34870d4c41b06db3ad12fb6073dc8dffc8f9106176e8ee2676d7d",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F006045",
+      "status": "pass",
+      "dimension": {
+        "subject_penalty": "pass：单独个人代理人案明确给予利益行为，责令改正、警告、3000元准确。",
+        "date_document_regulator": "pass：文号、监管机关与完整决定日期正确；缺失处保持null。",
+        "behavior_split": "pass：已载独立违规全部保存。",
+        "relevance": "pass：保险及营销均true。",
+        "facts_conditions": "pass：事实对象和限定未扩张。",
+        "labels": "pass：合同外利益主标签明确。",
+        "scenes": "pass：有据记录原始场景，不造原件。",
+        "missing_source_values": "pass：明示保险法131/172条保存。"
+      },
+      "findings": [],
+      "source_sha": "f9c2b9b663b5ea247879ba7a62af5a2dde574997ded4e2faf24c8c948b6a53f3",
+      "proposal_sha": "64174ac8d625f5cdf3409034b366f7ce7274d3ad3183b6a73ed3ba5f422d648e",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F002973",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：阴阳单承保，停止含交强险所有车险新业务两个月；执行期与决定日分开。",
+        "date_document_regulator": "pass：文号、监管机关与完整决定日期正确；缺失处保持null。",
+        "behavior_split": "pass：已载独立违规全部保存。",
+        "relevance": "pass：保险相关明确；非营销或缺乏营销线索保留false/null。",
+        "facts_conditions": "pass：执行2010-04-19 0时至06-18 24时、业务范围保留unknowns/摘要。",
+        "labels": "pass：官方标签、排序、推测限制匹配。",
+        "scenes": "pass：有据记录原始场景，不造原件。",
+        "missing_source_values": "needs_fix：保险法明示两法条漏填。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.zhonghua.legal_refs",
+          "actual": [],
+          "expected": [
+            "《中华人民共和国保险法》第一百二十二条、第一百四十七条"
+          ],
+          "source_quote": "上述事实行为违反了《中华人民共和国保险法》第一百二十二条的规定。\n依据《中华人民共和国保险法》第一百四十七条的规定",
+          "explanation": "明确违法和处罚依据未保存。",
+          "fix_suggestion": "补原文两条法条。"
+        }
+      ],
+      "source_sha": "d84c02c62353c10e2553d83eb6f734709bafce60af5ddd41430a87f52ab8dd3b",
+      "proposal_sha": "fa1d01abe6331822e25e82cd7edab3f3ba08da7138b3c4e3b15f1963f90b1249",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F000306",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：公司每项0.5万、姜士军每项0.2万，直接责任明确，未重复合计。",
+        "date_document_regulator": "pass：决定日2019-03-25；未署具体机关保持null。",
+        "behavior_split": "pass：营业场所报告与负责人报告机构/个人分别保存，不改为未经批准或无任职资格。",
+        "relevance": "pass：保险相关明确；非营销或缺乏营销线索保留false/null。",
+        "facts_conditions": "pass：事实对象和限定未扩张。",
+        "labels": "pass：官方标签、排序、推测限制匹配。",
+        "scenes": "pass：有据记录原始场景，不造原件。",
+        "missing_source_values": "needs_fix：明示保险公估人规定法条漏填。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.company/jiang.legal_refs",
+          "actual": [],
+          "expected": "机构《保险公估人监管规定》第23条、第94条；个人第101条",
+          "source_quote": "未按照规定报告变更营业场所行为违反了《保险公估人监管规定》第二十三条规定,根据《保险公估人监管规定》第九十四条的规定",
+          "explanation": "两事项违法、处罚及个人依据均明示，候选两案漏填。",
+          "fix_suggestion": "分别补第23、第94、第101条及对应主体。"
+        }
+      ],
+      "source_sha": "81a4e4105cdf866b863876f826d3e8ad01d4f7bb49090ac6bc8029a667500656",
+      "proposal_sha": "109866f1518d47d03e7f8858729e8689335ba848ff8ad11e7af595092f82b3af",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F003758",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：林江生直接责任明示，仅警告未造罚款。",
+        "date_document_regulator": "pass：机关文号日期正确，无完整决定日保留null。",
+        "behavior_split": "pass：独立事项逐项保存。",
+        "relevance": "pass：保险相关明确，营销未明不扩张。",
+        "facts_conditions": "pass：2007年交强险条款费率及变相降费保存。",
+        "labels": "pass：官方标签排序和未知角色规则满足。",
+        "scenes": "pass：行政后端事实有据，不造实际业务原件。",
+        "missing_source_values": "needs_fix：明确法条漏存。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.person.legal_refs",
+          "actual": [],
+          "expected": "《机动车交通事故责任强制保险条例》第38条；《保险法》第107条、第150条",
+          "source_quote": "通事故责任强制保险条例》第三十八条和《保险法》第一百零七条有关规定。\n你作为人保财险武鸣支公司业务员,对于上述违法行为负有直接责任,依据《中华人民共和国保险法》第一百五十条规定",
+          "explanation": "违法及个人处罚依据均明确，未保存具体法条。",
+          "fix_suggestion": "补原文三条依据。"
+        }
+      ],
+      "source_sha": "550ce8edcd8ad18d63bebe03c17f2f6be9615ee6c9042bcdf0a498f5e82a406f",
+      "proposal_sha": "bdaa7a135efb3980f4bae674eed688d31697fcc343f73eefa907dba1b6842473",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F006352",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：机构人民币50万、李云华人民币8万、刘飞魏强终身禁业；个人unknown不由职位推责任。",
+        "date_document_regulator": "pass：机关文号日期正确，无完整决定日保留null。",
+        "behavior_split": "pass：独立事项逐项保存。",
+        "relevance": "pass：保险相关明确，营销未明不扩张。",
+        "facts_conditions": "pass：原文范围、事实对象及个人责任限制保留。",
+        "labels": "pass：unknown均inferred+document_related且责任缺口明确。",
+        "scenes": "pass：行政后端事实有据，不造实际业务原件。",
+        "missing_source_values": "needs_fix：法条语义值“原历史条款见引用”不能代替具体条号。"
+      },
+      "findings": [
+        {
+          "code": "VAGUE_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases[*].legal_refs.value",
+          "actual": "原历史条款见引用",
+          "expected": "《中华人民共和国保险法》第八十六条第二款、第一百七十条第(一)项、第一百七十一条、第一百七十七条",
+          "source_quote": "《中华人民共和国保险法》第八十六条\n第二款、第一百七十条第(一)项、第一\n百七十一条、第一百七十七条",
+          "explanation": "引文虽保存，但法条字段语义值没有法律名称与具体条号，已明示内容应结构化保存。",
+          "fix_suggestion": "用明示法条替换泛写value，保留原文引用。"
+        }
+      ],
+      "source_sha": "8a28362365e3ee2f44c01ebad6af9891fb641bf6e0417e75df4f26c8d732f094",
+      "proposal_sha": "d47a3985fe79d1cd47e396fd6e044cc290427455457e032877eced4417714b66",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F000472",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：两机构八个人金额按姓名绑定；固原36万、张9万、孙4万未叠加分项重复。",
+        "date_document_regulator": "pass：机关文号日期正确，无完整决定日保留null。",
+        "behavior_split": "pass：两机构合同外利益、固原费用及相应个人直接责任13行为全部保存。",
+        "relevance": "needs_fix：合同外利益明确，营销false。",
+        "facts_conditions": "pass：原文范围、事实对象及个人责任限制保留。",
+        "labels": "pass：官方标签排序和未知角色规则满足。",
+        "scenes": "pass：行政后端事实有据，不造实际业务原件。",
+        "missing_source_values": "needs_fix：全部明示法条漏填。"
+      },
+      "findings": [
+        {
+          "code": "WRONG_MARKETING_RELEVANCE",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": false,
+          "expected": true,
+          "source_quote": "一、给予投保人保险合同约定以外利益。",
+          "explanation": "明确合同外利益属于营销违规相关事实。",
+          "fix_suggestion": "改true，以合同外利益作为文书营销相关依据。"
+        },
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases[*].legal_refs",
+          "actual": [],
+          "expected": "合同外利益：保险法第116/161条；费用：第86/170条；个人责任第171条",
+          "source_quote": "一、给予投保人保险合同约定以外利益。该行为违反了《中华人民共和国保险法》(以下简称《保险法》)第一百一十六条有关规定",
+          "explanation": "机构与个人的明确违法处罚法条均未填，不能仅由全文覆盖替代。",
+          "fix_suggestion": "按两事项和明确个人责任补第116、161、86、170、171条。"
+        }
+      ],
+      "source_sha": "458ef9f363103a3620de011cc6c1762dc146641abe47a00bba0eebc5817428d7",
+      "proposal_sha": "a88c5ac769e44d2d1cb13835bc753217b975674965fdba0753b47c242bbc8712",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F008707",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：公司警告33万、杨博警告2.5万、冯小妮警告0.5万；张浩仅负责人未造案。",
+        "date_document_regulator": "pass：机关文号日期正确，无完整决定日保留null。",
+        "behavior_split": "pass：独立事项逐项保存。",
+        "relevance": "needs_fix：欺骗投保人明确却marketing=null。",
+        "facts_conditions": "pass：原文范围、事实对象及个人责任限制保留。",
+        "labels": "needs_fix：个人虚列套费推测仅写角色缺口，未说明虚列费用/套取行为未明。",
+        "scenes": "pass：行政后端事实有据，不造实际业务原件。",
+        "missing_source_values": "pass：明示法条保存。"
+      },
+      "findings": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DECEPTION_FACT",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": null,
+          "expected": true,
+          "source_quote": "欺骗投保人;编制虚假的报告、报表、\n文件、资料;未按照规定使用经批准或\n者备案的保险条款",
+          "explanation": "欺骗投保人是明确保险销售误导类事实，可判营销相关而具体话术仍未知。",
+          "fix_suggestion": "改true并引用欺骗投保人事实。"
+        },
+        {
+          "code": "INFERRED_TAG_MISSING_MECHANISM_LIMITATION",
+          "severity": "major",
+          "field": "behaviors.yang_false_material/feng_false_material.risk_tags",
+          "actual": "虚列费用套取资金/inferred/high，limitations仅个人对应责任未载",
+          "expected": "保留召回候选时同时说明虚列费用及套取资金均未明示，不据虚假报告认定财务套费",
+          "source_quote": "编制虚假的报告、报表、\n文件、资料",
+          "explanation": "推测标签允许召回，但个人角色缺口不能覆盖额外的套费机制缺口。",
+          "fix_suggestion": "添加“资料类别/费用科目/资金套取均未明”的机制限制；按关联强弱调整confidence。"
+        }
+      ],
+      "source_sha": "a082a43f7cf2b8ac3b62d1a5858505e792c4795bb984b00bb62f51c44001882d",
+      "proposal_sha": "a86f2bf16d7c683d0fed8cd4103dca089cbb65b324cdb311bb5d1c7a749c751b",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F003089",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：机构10万元，陈世金与马恒忻警告；任职期间和马恒忻/马恒昕异字保留。",
+        "date_document_regulator": "pass：末尾公布日期未明确决定日，null并待核。",
+        "behavior_split": "pass：独立事项逐项保存。",
+        "relevance": "pass：保险相关明确，营销未明不扩张。",
+        "facts_conditions": "needs_fix：各机制object统写“工资卡或费用发票”，营业费用对象失真。",
+        "labels": "pass：代开及不实费用套取仅inferred，未明套取限制保留。",
+        "scenes": "pass：行政后端事实有据，不造实际业务原件。",
+        "missing_source_values": "pass：历史保险法具体条号保存。"
+      },
+      "findings": [
+        {
+          "code": "GENERIC_OBJECT_MISMATCH",
+          "severity": "minor",
+          "field": "behaviors.*.object",
+          "actual": "所有行为object=工资卡或费用发票",
+          "expected": "工资卡行为对象工资卡；代开行为对象保险中介服务统一发票；不实列支行为对象营业费用",
+          "source_quote": "三、不实列支营业费用。",
+          "explanation": "营业费用不是工资卡或费用发票；摘要正确但对象字段被统一模板覆盖。",
+          "fix_suggestion": "按三个机制分别修正对象，个人责任记录指向相应机构事项。"
+        }
+      ],
+      "source_sha": "b2a9400895b543402a3be555a0edc2d1cd0eeccd4bb1ab5d3b5bf04e3b59d608",
+      "proposal_sha": "cabc1b15fd96367f7f0797587a971f878e9a78a8d1f467efee7f1c83109dd3ed",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F004694",
+      "status": "pass",
+      "dimension": {
+        "subject_penalty": "pass：机构75万；五个人7/2/5/1/1万及警告；均unknown不凭岗位推责任。",
+        "date_document_regulator": "pass：文号及机关准确；未载日期保持null。",
+        "behavior_split": "pass：机构服务费、印刷费、条款费率三项；个人按本行案由关联。",
+        "relevance": "pass：保险true，后台财务/承保事项非营销。",
+        "facts_conditions": "pass：事实范围和未知责任限定保存。",
+        "labels": "pass：费用套取inferred明确套取未载，个人角色缺口保存。",
+        "scenes": "pass：行政事实场景，不造营销材料。",
+        "missing_source_values": "pass：未载法条和币种不猜。"
+      },
+      "findings": [],
+      "source_sha": "a9135e3406a24d174a550d356624fd7f40f4b6eb6a0e81354dae2410f62463b0",
+      "proposal_sha": "21b26236d08e5b14cbeb246b246375371de862b9afdb9f54a7f53421bc13c329",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F004586",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：公司28.6万、齐4.3万、丁4万、张0.6万；12/13/14/15文号逐行对应。",
+        "date_document_regulator": "pass：文号及机关准确；未载日期保持null。",
+        "behavior_split": "pass：独立违规分别保存。",
+        "relevance": "needs_fix：公司违规销售明示却marketing=null。",
+        "facts_conditions": "pass：事实范围和未知责任限定保存。",
+        "labels": "pass：代理人培训管理不等培训材料内容违规；用管理标签正确。",
+        "scenes": "pass：行政事实场景，不造营销材料。",
+        "missing_source_values": "pass：未载法条和币种不猜。"
+      },
+      "findings": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": null,
+          "expected": true,
+          "source_quote": "代理人培训管理不\n规范、违规销售、\n业务数据不真实",
+          "explanation": "明示违规销售即可判营销相关，无需补具体误导机制。",
+          "fix_suggestion": "改true，以违规销售事实为理由，具体机制继续未知。"
+        }
+      ],
+      "source_sha": "b3aa2b6bee27210802b569f3e65fbf377a928341923d72ac0cb6fee97cb6aa1f",
+      "proposal_sha": "3ad6656707c55461aafc1676e85119518eb6c9cac886a63cf039804b2f61e511",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F005834",
+      "status": "pass",
+      "dimension": {
+        "subject_penalty": "pass：机构32.8万、施1.8万、林2.1万、魏1.7万、王3.8万、李1万；处罚排序与主体顺序不同但未错配。",
+        "date_document_regulator": "pass：日期2024-08-05无错变；文号主机构9号，个人独立文号未知有说明。",
+        "behavior_split": "pass：财务数据和虚构中介套费分别保存，各个人unknown关联，不因机构全行为强推个人责任。",
+        "relevance": "pass：保险true，后台财务/承保事项非营销。",
+        "facts_conditions": "pass：事实范围和未知责任限定保存。",
+        "labels": "pass：官方标签和unknown文书关联限制正确。",
+        "scenes": "pass：行政事实场景，不造营销材料。",
+        "missing_source_values": "pass：具体法条保存，币种未载null。"
+      },
+      "findings": [],
+      "source_sha": "f5c47819f279361adc871d4a3425a2668eba27bc01621708855a45074acc9271",
+      "proposal_sha": "498317291f44f6f46ed801ca20c4bd57f2a438c914003da65e90acd488f84af1",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F007796",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：机构警告5400元、崔警告3000元；个人unknown符合原文。",
+        "date_document_regulator": "pass：文号机关2023-12-25正确。",
+        "behavior_split": "pass：独立违规分别保存。",
+        "relevance": "pass：保险true，后台财务/承保事项非营销。",
+        "facts_conditions": "pass：事实范围和未知责任限定保存。",
+        "labels": "pass：官方标签和unknown文书关联限制正确。",
+        "scenes": "pass：行政事实场景，不造营销材料。",
+        "missing_source_values": "needs_fix：明示保险公司管理规定69条漏填。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases[*].legal_refs",
+          "actual": [],
+          "expected": [
+            "《保险公司管理规定》第六十九条"
+          ],
+          "source_quote": "《保险公司管理规定》第六十九条",
+          "explanation": "原文明示处罚法条未填。",
+          "fix_suggestion": "补明示第69条，各主体按文书共同依据保存但不推个人责任类型。"
+        }
+      ],
+      "source_sha": "5128544e6ca6fc84feecbb6b723d85574584714a9bad0628e8a3a9541cda8480",
+      "proposal_sha": "b996ae6a585d6024425528193f480078bcee32eef3f8fa59ab9517b1dbb9bda3",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F003314",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "needs_fix：机构三项罚12/5/1万全部漏为null。",
+        "date_document_regulator": "needs_fix：行为起日错作决定日，机关混入公司名。",
+        "behavior_split": "needs_fix：原文八大项及私印/不入账/两类假理赔/投资回报等独立机制几乎全部遗漏。",
+        "relevance": "needs_fix：130%约定投资回报、赔款给保费出资人等营销相关事实漏判。",
+        "facts_conditions": "needs_fix：多年金额、套票退回7%、承保笔数、未录入金额、私印回收、免赔、受益人及赔款回报对象、未审批例外等细节全部未保存。",
+        "labels": "needs_fix：仅一条虚列标签无法召回费率、收益承诺等独立机制。",
+        "scenes": "needs_fix：只有空洞事实标题，不能替代源中真实机制，文书场景本身可用。",
+        "missing_source_values": "needs_fix：明确处罚金额及法条未保存。"
+      },
+      "findings": [
+        {
+          "code": "MASSIVE_BEHAVIOR_OMISSION",
+          "severity": "critical",
+          "field": "behaviors",
+          "actual": "仅b1摘要“一、经查,你公司2007年1月至2008年11月期间存在下列违法行为:”",
+          "expected": "完整拆八大项及独立机制，包括虚列费用、洗中介手续费、套费率、承保不入系统、三类私印与保费未入账、扩大损失、虚构事故、赔款作为投资回报、擅自变更场所",
+          "source_quote": "1、不实列支营业费用\n你公司2007年和2008年存在虚列营业费用贴补手续费的情况。",
+          "explanation": "候选把事实总引导句当唯一行为，遗漏整份长文的实质事实、金额期间、否定限定及对应召回。",
+          "fix_suggestion": "按阅读全文结果逐机制重建behavior及coverage；所有数字范围条件保留对应原文连续证据。"
+        },
+        {
+          "code": "BEHAVIOR_DATE_AS_PENALTY_DATE",
+          "severity": "critical",
+          "field": "cases.c1.penalty_date/penalty_date_quote",
+          "actual": "2007-05-18 / 2007年5月18日",
+          "expected": "2009-05-13 / 二OO九年五月十三日",
+          "source_quote": "二OO九年五月十三日",
+          "explanation": "2007-05-18是私印保单行为起日；末尾完整署期2009-05-13。",
+          "fix_suggestion": "改决定日2009-05-13，原文署期逐字保留；行为起日归对应行为期间。"
+        },
+        {
+          "code": "MISSING_EXPLICIT_PENALTY_AMOUNTS",
+          "severity": "critical",
+          "field": "cases.c1.penalties",
+          "actual": "一项罚款amount_yuan=null",
+          "expected": "责令改正；分组罚120000、50000、10000元，不重复增加合计",
+          "source_quote": "我局决定责令你公司改正,并给予罚款十二万元的行政处罚。",
+          "explanation": "原文分组决定明确三项金额，无理由全置未知。",
+          "fix_suggestion": "分别保存三项罚款及对应事项范围、连续处罚引文。"
+        },
+        {
+          "code": "WRONG_REGULATOR",
+          "severity": "major",
+          "field": "cases.c1.regulator",
+          "actual": "中国保监会广东监管局(中华联合财产保险股份有限公司阳江中心支公司)",
+          "expected": "中国保监会广东监管局",
+          "source_quote": "中国保监会广东监管局行政处罚决定书(中华联合财产保险股份有限公司阳江中心支公司)",
+          "explanation": "受罚公司不是监管机关的一部分。",
+          "fix_suggestion": "使用原标题中的机关名称并独立绑定公司主体。"
+        },
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.c1.legal_refs",
+          "actual": [],
+          "expected": "保险法122条、147条第(一)项、107条第一款、145条第(八)项、82条第三款、144条",
+          "source_quote": "二、上述第1、2、4、5、6、7项行为违反了《中华人民共和国保险法》第一百二十二条的规定",
+          "explanation": "分组适用条文明示但全遗漏。",
+          "fix_suggestion": "按原文各组逐条保留，不补现行版本。"
+        },
+        {
+          "code": "WRONG_MARKETING_RELEVANCE",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": false,
+          "expected": true,
+          "source_quote": "在每份保单保险期限内你公司必须向保费出资人支付其所交保费金额130%的赔\n款。",
+          "explanation": "以投保形式约定保费出资人投资回报的行为已有营销关联，不能以简要案由排除。",
+          "fix_suggestion": "改true；承诺收益等可inferred召回，注明赔款投资机制不等正常产品收益率。"
+        }
+      ],
+      "source_sha": "7cfbf037824a72940513e654e3d135e7e0f42155e0b5950f526c2acb14d10bec",
+      "proposal_sha": "75fa6e3bdd8e9ff8f9bcc72b3767e4a7d3d5f16a3d5378d6590acdfde66316f5",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F002890",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "needs_fix：十二主体金额大体正确，但机构多造责令改正。",
+        "date_document_regulator": "pass：文号机关日期正确。",
+        "behavior_split": "needs_fix：理赔档案/气象证明/造假/截留与假批退机制合并；应按独立动作保存。",
+        "relevance": "pass：保险相关明确。",
+        "facts_conditions": "needs_fix：资本/投资/理赔退费金额日期、孙徐申辩及采纳、减轻情形等语义字段漏；个人object统一含任职等未映射事项。",
+        "labels": "pass：客户信息候选允许inferred及限制，不因标签未定罪删除。",
+        "scenes": "pass：后端文书事实场景，不造营销原件。",
+        "missing_source_values": "needs_fix：减轻《行政处罚法》第27条未保存。"
+      },
+      "findings": [
+        {
+          "code": "INVENTED_PENALTY_TYPE",
+          "severity": "major",
+          "field": "cases.company.penalties",
+          "actual": "含责令改正",
+          "expected": "警告；责令停止接受垦区外非农险新业务6个月；合并罚81万元",
+          "source_quote": "综上,我会决定对当事人阳光农险给予警告,责令停止接受公司垦区外非农险业务的新业务6个月,合并罚款81万元。",
+          "explanation": "“责令停止”不是另一个“责令改正”；原文无该处罚。",
+          "fix_suggestion": "删除无据责令改正，停止新业务项保完整范围。"
+        },
+        {
+          "code": "FINDING_QUOTE_ONLY_PENALTY",
+          "severity": "major",
+          "field": "behaviors.sun_responsibility/xu_responsibility.finding_quote",
+          "actual": "孙仅引法条撤换罚10万；徐仅引配合检查与警告段",
+          "expected": "连续引文包含孙对违规投资/假退费/农险责任、徐对生资投资决策责任及未制止认定",
+          "source_quote": "当事人孙振军,对公司违规投资、决策虚假批单退费和农业保险的弄虚作假等行为负有直接责任。",
+          "explanation": "处罚末尾本身不能证明摘要所称具体责任事项。",
+          "fix_suggestion": "扩到对应当事人事实责任段，保留申辩及采纳，FD-P01用具体责任原称谓。"
+        },
+        {
+          "code": "INDEPENDENT_MECHANISMS_MERGED",
+          "severity": "major",
+          "field": "behaviors.false_agriculture_claim_materials/false_premium_refund_and_financial_data",
+          "actual": "理赔资料造假虚增截留合并；伪造退费和假批退报表合并",
+          "expected": "逐动作保存档案不规范、气象证明欠缺、理赔造假、虚增截留资金、伪造农民退费清单、假批退冲应收补贴款等机制",
+          "source_quote": "此外,2008年,阳光农险以假批退冲销应收补贴款5817万元,导致公司财务报表信息严重失实。",
+          "explanation": "假批退财务冲销与假退费签名清单是独立动作，合并丢机制及对应事实。",
+          "fix_suggestion": "局部拆机构复合行为，保源主体链路及所载具体数额。"
+        },
+        {
+          "code": "OMITTED_LIMITS_ARGUMENTS_MITIGATION",
+          "severity": "major",
+          "field": "behaviors.*.conditions/negations/exceptions/factor_values",
+          "actual": "机构因子和限定空，孙徐申辩及处理和多个人减轻事实仅全文覆盖",
+          "expected": "保投资200万元、营运资金7000万/5000万/2000万与未发现往来/公司解释、4020万赔款去向、1212万循环退费、5817万假批退；孙徐申辩驳回与徐配合、王野田刘琦李桂琴第27条情形",
+          "source_quote": "孙振军在申辩材料中称,相互制保险体制和农业保险模式的试点工作不应适用《保险法》。",
+          "explanation": "逐字全文coverage不能代替关键数字、否定、申辩和采纳结果的语义保存。",
+          "fix_suggestion": "补对应conditions/factors/negations/exceptions；依法不推出减轻具体子项。"
+        },
+        {
+          "code": "PERSON_OBJECT_EXPANDS_UNRELATED_ITEMS",
+          "severity": "major",
+          "field": "behaviors.*_responsibility.object",
+          "actual": "全部为“公司违规投资、任职或农业保险资料行为”",
+          "expected": "按各个人明示责任事项分别保存，周谊秋仅农险赔款抵家财险等",
+          "source_quote": "当事人周谊秋,对齐齐哈尔中支以农业保险赔款抵家财险保费收入负有直接责任。",
+          "explanation": "统一对象把投资、任职等行为扩加到无此责任记载的个人。",
+          "fix_suggestion": "逐人修action、object、FD-P01及coverage绑定，禁止把所有个人挂每段。"
+        },
+        {
+          "code": "OMITTED_MITIGATION_LEGAL_REF",
+          "severity": "major",
+          "field": "cases.wangyetian/liuqi/liguiqin.legal_refs",
+          "actual": "仅保险法(2002)第150条",
+          "expected": "另保《行政处罚法》第27条（具体情形未载）",
+          "source_quote": "鉴于其存在《行政处罚法》第二十七条规定的情形",
+          "explanation": "明确用于处罚裁量的法条不能漏存。",
+          "fix_suggestion": "给王野田、刘琦、李桂琴补明确第27条与对应段证据。"
+        }
+      ],
+      "source_sha": "c1b9355868be835d071c66519709781425041f9b69ac814c2590603f0e5892fb",
+      "proposal_sha": "4878eeb012a4e5ff9a590206863bfc150dfeee707f2edaf363ed79ef56a124b2",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F001744",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：机构总5万不叠加；相关任职人未单独罚，不造个人案。",
+        "date_document_regulator": "pass：文号机关日期正确。",
+        "behavior_split": "pass：独立行为完整。",
+        "relevance": "pass：保险相关明确。",
+        "facts_conditions": "needs_fix：任命变更具体月日、责任险前后完整保单期仅证据，摘要“期限保留”未具体保存。",
+        "labels": "pass：官方标签及推测/未知责任限制合规。",
+        "scenes": "pass：后端文书事实场景，不造营销原件。",
+        "missing_source_values": "pass：未载数据不猜，明示法条保存。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_DETAILED_TIME_LIMITS",
+          "severity": "minor",
+          "field": "behaviors.appointment/liability_gap.conditions/factor_values",
+          "actual": "conditions空；摘要任命只有2011/2012年、前后保单期限保留却无值",
+          "expected": "2011-01-28股东决议/2011年2月变更；2012-09-20决议/2012年10月变更；两张责任险2010-09-09至2011-09-08及2012-11-12至2013-11-11",
+          "source_quote": "保险期限分别为2010年9月9日至2011年9月8日、2012年11月12日至2013年11月11日。",
+          "explanation": "完整日期是任职与职业责任险连续性判断的关键条件，不能只有原文引用或声称保留。",
+          "fix_suggestion": "补对应conditions或时间因子，用原连续证据保各任命/投保期，不作处罚日期。"
+        }
+      ],
+      "source_sha": "6fd15c869ba6c9cf2495bc1cce85fdbc6c06fe02b29da4d3c8eacd3946d40625",
+      "proposal_sha": "9d3bd7d53764467e3888e9ed1df9b3457fab8a3c4db182469cd96433e7c033ed",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F008914",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：管昊星直接责任明示、警告4万正确。",
+        "date_document_regulator": "pass：文号机关日期正确。",
+        "behavior_split": "pass：独立行为完整。",
+        "relevance": "pass：保险相关明确。",
+        "facts_conditions": "needs_fix：2021年11月行为期漏于语义字段。",
+        "labels": "pass：其他inferred文書相关保具体文件未载限制，召回不强改。",
+        "scenes": "pass：后端文书事实场景，不造营销原件。",
+        "missing_source_values": "pass：未载数据不猜，明示法条保存。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_BEHAVIOR_PERIOD",
+          "severity": "major",
+          "field": "cases.case_1.behavior_period及behaviors.conditions",
+          "actual": "period=null；摘要和因子无2021年11月",
+          "expected": "2021年11月为行为期并保存原文证据，处罚日仍2023-07-20",
+          "source_quote": "2021年11月，管昊星对美亚财产保险有限公司\n制作虚假文件的行为负直接责任。",
+          "explanation": "行为期间明确但漏掉，全文引文不能代替期间语义值。",
+          "fix_suggestion": "补case行为期及behavior条件或时期因子。"
+        }
+      ],
+      "source_sha": "26a36594b93663000a494046ebdb18f7dca49ee51e5db534df578f9ddc4b7452",
+      "proposal_sha": "df6d24d41b3c0d8792b14735b8378d51c1751b2f31f037c9fa53f4e99a513ce3",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F001294",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：机构每项30万，谢文光直接主管责任警告3万正确。",
+        "date_document_regulator": "pass：文号机关日期正确。",
+        "behavior_split": "pass：独立行为完整。",
+        "relevance": "needs_fix：合同外利益营销false。",
+        "facts_conditions": "pass：2014-01至04与广州牵头范围保存。",
+        "labels": "pass：官方标签及推测/未知责任限制合规。",
+        "scenes": "pass：后端文书事实场景，不造营销原件。",
+        "missing_source_values": "pass：未载数据不猜，明示法条保存。"
+      },
+      "findings": [
+        {
+          "code": "WRONG_MARKETING_RELEVANCE",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": false,
+          "expected": true,
+          "source_quote": "(一)给予投保人合同外利益",
+          "explanation": "明确合同外利益是营销相关事项。",
+          "fix_suggestion": "改true并引用合同外利益事实。"
+        }
+      ],
+      "source_sha": "51d191ac4fc1ad469cf34a7c0bad7f732b2880901c51576331d6c731624f0213",
+      "proposal_sha": "54e48903b1496874394e16cbd180c0110e3aad3364fc7d07ca7be728525e5d6f",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F005641",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：公司40万、徐波警告8万；徐未知不按职务推责任。",
+        "date_document_regulator": "pass：文号机关日期正确。",
+        "behavior_split": "pass：独立行为完整。",
+        "relevance": "pass：保险相关明确。",
+        "facts_conditions": "pass：原文限定与事实对象保存。",
+        "labels": "pass：官方标签及推测/未知责任限制合规。",
+        "scenes": "pass：后端文书事实场景，不造营销原件。",
+        "missing_source_values": "needs_fix：明示法条漏存。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases[*].legal_refs",
+          "actual": [],
+          "expected": [
+            "《中华人民共和国保险法》第八十六条、第一百七十条、第一百七十一条"
+          ],
+          "source_quote": "《中华人民共和国保险法》第八十六条、第一百\n七十条、第一百七十一条",
+          "explanation": "明确处罚依据未保存。",
+          "fix_suggestion": "补三条原文法条，不按个人职务猜具体适用子项。"
+        }
+      ],
+      "source_sha": "af9039860ea01541dc1d02cbce35ac6f195b39e3a8d76fac12ed6840f8474bf7",
+      "proposal_sha": "8a67399e164ddbaa5d8ce7fe5fbd4022ff260ad3ebd48f19dc75a62d95401c0b",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F000561",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：公司50万、王才华/李振平各警告10万；直接责任明示。",
+        "date_document_regulator": "pass：文号机关决定日正确，未署机关不据文号补。",
+        "behavior_split": "pass：独立事项完整。",
+        "relevance": "pass：保险相关明确。",
+        "facts_conditions": "needs_fix：重要主观故意否认/损害否认及对定性不影响的回应仅引用未语义保存；能繁母猪简化为母猪。",
+        "labels": "pass：官方标签、排序和推断限制准确。",
+        "scenes": "pass：文书后端事实，不由机构名称推实际渠道。",
+        "missing_source_values": "pass：明示法条保存，源缺失null。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_ARGUMENT_QUALIFICATION",
+          "severity": "minor",
+          "field": "behaviors.conditions/negations/exceptions及cases.unknowns",
+          "actual": "已保部分档案不认定、整改不足免罚，未保存主观无故意/未损害农户的申辩及机关定性回应",
+          "expected": "明确区分当事人否认主观故意/损害的申辩与机关认为不影响违法定性，及公司从轻、个人免罚请求均不采纳",
+          "source_quote": "当事人申辩的主观上不存在故意瞒报、撰写\n虚假报告的情况不影响本案违法行为的定性。",
+          "explanation": "否定和机关回应属于实质限定；不能只说从轻未获采纳而遗漏原主观否认。",
+          "fix_suggestion": "补申辩、采纳和不采纳结果的条件/否定项，避免将申辩当认定事实。"
+        },
+        {
+          "code": "TARGET_SCOPE_TRUNCATED",
+          "severity": "minor",
+          "field": "behaviors.repeated_photos_*.summary/object",
+          "actual": "水稻母猪赔案",
+          "expected": "水稻或能繁母猪赔案",
+          "source_quote": "公司2015年1月至2016年8月的水稻或能繁母猪赔案查勘定损照片核查",
+          "explanation": "能繁限定与或关系不应简化为一般母猪赔案。",
+          "fix_suggestion": "三个照片行为摘要和对象使用水稻或能繁母猪，保或关系。"
+        }
+      ],
+      "source_sha": "c5ffc0b7ac6088a9ba00268d3143429ae3382bf1df6b4c206d9985598ac5d76d",
+      "proposal_sha": "a887b313800ab9d6de2f25fb3e4f2eb6c32cb1fbf7e4f9e185769daf7432633e",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F000092",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：机构人民币20万，连培涛仅负责人不造案。",
+        "date_document_regulator": "pass：文号机关决定日正确，未署机关不据文号补。",
+        "behavior_split": "pass：独立事项完整。",
+        "relevance": "needs_fix：明确欺骗投保人却营销null。",
+        "facts_conditions": "pass：机构为电话销售中心不等实际通话，渠道限定正确。",
+        "labels": "pass：官方标签、排序和推断限制准确。",
+        "scenes": "pass：文书后端事实，不由机构名称推实际渠道。",
+        "missing_source_values": "pass：明示法条保存，源缺失null。"
+      },
+      "findings": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DECEPTION_FACT",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": null,
+          "expected": true,
+          "source_quote": "欺骗投保人。",
+          "explanation": "欺骗投保人明确属于销售误导类，具体渠道未知不阻断营销相关判断。",
+          "fix_suggestion": "改true并引用欺骗投保人，不把电话中心名称升级实际通话证据。"
+        }
+      ],
+      "source_sha": "0a4d2c2976d0227b2ca8fbc860203ebc13747d43af0169792e45c9a852ba2ac8",
+      "proposal_sha": "0ad7a1157f11a93e3e6c47acc3a6b679fab440da550342a0e3827c2b33791fd5",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F002373",
+      "status": "pass",
+      "dimension": {
+        "subject_penalty": "pass：机构2万责令改正，李向东直接责任警告1万。",
+        "date_document_regulator": "pass：文号机关决定日正确，未署机关不据文号补。",
+        "behavior_split": "pass：独立事项完整。",
+        "relevance": "pass：职业责任险连续性后台管理，营销false合理。",
+        "facts_conditions": "pass：断档2010-12-07至12-31与前后两完整保单期具体因子保存。",
+        "labels": "pass：官方标签、排序和推断限制准确。",
+        "scenes": "pass：文书后端事实，不由机构名称推实际渠道。",
+        "missing_source_values": "pass：明示法条保存，源缺失null。"
+      },
+      "findings": [],
+      "source_sha": "7ac689d01e937f6f3ecced53a17fe07c7021ad618cada18cf15da5cc01b7b273",
+      "proposal_sha": "5173b3220d1f098c265078a2909bed4cfcbbf97a14f5aef518d49ecdc7c47c8a",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F002918",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：仅机构吊销许可，徐冰负责人不造个人案。",
+        "date_document_regulator": "pass：决定日未明确与公布期有说明，null可接受。",
+        "behavior_split": "pass：账簿/凭证/报表/系统/制度五项未建立，两个检查节点保存。",
+        "relevance": "pass：保险相关明确。",
+        "facts_conditions": "pass：关键期间数额范围及责任限制保存。",
+        "labels": "pass：官方标签、排序和推断限制准确。",
+        "scenes": "pass：文书后端事实，不由机构名称推实际渠道。",
+        "missing_source_values": "needs_fix：保险法明确两条漏存。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "severity": "major",
+          "field": "cases.company.legal_refs",
+          "actual": [],
+          "expected": [
+            "《中华人民共和国保险法》第一百二十三条、第一百六十七条第(二)项"
+          ],
+          "source_quote": "二、上述行为违反了《中华人民共和国保险法》第一百二十三条的规定。依据《中华人民共和国保险法》第一百六十七条第(二)项的规定",
+          "explanation": "明确违法和吊销依据未保存。",
+          "fix_suggestion": "补原文两条依据，不从财务未建账推虚列套取。"
+        }
+      ],
+      "source_sha": "e5f6a32d4a38af03adb0bc9cba54a8f0f993e5a4dd1cdb568741cbf5860921c3",
+      "proposal_sha": "141de6831128d504a66df997e8989b47e5efabdd750b73f4ea3a4be3578f9b46",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F009099",
+      "status": "pass",
+      "dimension": {
+        "subject_penalty": "pass：张海峰直接责任警告4万；不为涉事机构另造处罚。",
+        "date_document_regulator": "pass：2023-06-30决定署期；未具体署机关null有限制。",
+        "behavior_split": "pass：独立事项完整。",
+        "relevance": "pass：保险相关明确。",
+        "facts_conditions": "pass：2019-10-24至2020-09-30、40笔、286.7万、协议改变备案条款完整保存。",
+        "labels": "pass：官方标签、排序和推断限制准确。",
+        "scenes": "pass：文书后端事实，不由机构名称推实际渠道。",
+        "missing_source_values": "pass：明示法条保存，源缺失null。"
+      },
+      "findings": [],
+      "source_sha": "cd8aa3f3dcb6a5e401bbcf5d74de4205759ef5b85bda2e0cdb27dd01d6e6b6ef",
+      "proposal_sha": "bc3b530bb39e29efbfccb48fadeb694aa0e263cd37f6cb941e1935dc75f8a5f3",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F001347",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：仅机构10万，卢建军仅负责人不造案。",
+        "date_document_regulator": "pass：文号机关决定日正确。",
+        "behavior_split": "pass：独立机制分别保存。",
+        "relevance": "pass：保险及营销关联按原文判断。",
+        "facts_conditions": "needs_fix：原文提出陈述申辩、理由不充分且不采信未语义保存。",
+        "labels": "pass：标的耳标不实用其他，不误标客户身份；2012/2013及8581/8660保存。",
+        "scenes": "pass：文书后端事实，不造渠道原件。",
+        "missing_source_values": "pass：明示法条保存、未知不猜。"
+      },
+      "findings": [
+        {
+          "code": "OMITTED_ARGUMENT_DISPOSITION",
+          "severity": "minor",
+          "field": "behaviors.ear.conditions/negations/exceptions及cases.unknowns",
+          "actual": "仅引文含申辩；语义字段未记结果",
+          "expected": "当事人提出申辩，机关逐项复核认为理由不充分不采信；申辩具体内容未载",
+          "source_quote": "人保财险忠县支公司提出了陈述申辩意见,我局逐项复核后认为,人保财险忠县支公司提出的陈述申辩理由不充分,我局不予采信。",
+          "explanation": "申辩及采纳结果属于需保留实质信息，不能仅在整段证据中出现。",
+          "fix_suggestion": "补condition或exception区分申辩事实与机关不采信结果；不猜具体申辩内容。"
+        }
+      ],
+      "source_sha": "3c27f7950d335ff7e877286c856af92d5fd933a4d676486f999950e40aa36edd",
+      "proposal_sha": "87b519da731e5db40a0f80accc4ed4c16c97807342f6847f0c47b264da467572",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F005669",
+      "status": "pass",
+      "dimension": {
+        "subject_penalty": "pass：龙家继利用便利为其他个人牟不当利益，警告人民币3000元；动作明确。",
+        "date_document_regulator": "pass：文号机关决定日正确。",
+        "behavior_split": "pass：独立机制分别保存。",
+        "relevance": "pass：利益对象未明为投保人，无具体营销事实，false可接受。",
+        "facts_conditions": "pass：对象、责任类型与未知限制准确。",
+        "labels": "pass：其他适当，不由利益泛推合同外利益/返佣。",
+        "scenes": "pass：文书后端事实，不造渠道原件。",
+        "missing_source_values": "pass：明示法条保存、未知不猜。"
+      },
+      "findings": [],
+      "source_sha": "1438d37c727d0691ae7af49c6f8633f84f40aa7505771c1442f6bdf3f972b516",
+      "proposal_sha": "4b168f0d3a1e7a99ddfd94b9a73feae02db3cc0303ea8b876119969807482ec1",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F009750",
+      "status": "needs_fix",
+      "dimension": {
+        "subject_penalty": "pass：公司责令改正人民币14万，以善威仅负责人未造案。",
+        "date_document_regulator": "pass：文号机关决定日正确。",
+        "behavior_split": "pass：合同外利益与隐瞒重要情况两项保存。",
+        "relevance": "needs_fix：明示两类营销违规却marketing=null。",
+        "facts_conditions": "pass：对象、责任类型与未知限制准确。",
+        "labels": "pass：官方27标签排序及inferred限制正确。",
+        "scenes": "pass：文书后端事实，不造渠道原件。",
+        "missing_source_values": "pass：明示法条保存、未知不猜。"
+      },
+      "findings": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+          "severity": "major",
+          "field": "marketing_relevance.value",
+          "actual": null,
+          "expected": true,
+          "source_quote": "给予投保人保险合同约定以外的\n利益、隐瞒与保险合同有关的重\n要情况",
+          "explanation": "明确销售误导/营销违规事实足以判营销相关。",
+          "fix_suggestion": "改true并给具体合同外利益、隐瞒重要信息事实理由。"
+        }
+      ],
+      "source_sha": "2312a4727756007d1077da47a57ce9ba707fe3594adb50d22830283cbab49d64",
+      "proposal_sha": "e2554b9163f8eb658a714b167227f85704a214222bee3b5f4d75c0f1603a8d13",
+      "read_full_text": true
+    },
+    {
+      "file_id": "F007794",
+      "status": "pass",
+      "dimension": {
+        "subject_penalty": "pass：夏广江明示两事项责任，警告3万，未改为亲自欺骗。",
+        "date_document_regulator": "pass：文号机关决定日正确。",
+        "behavior_split": "pass：独立机制分别保存。",
+        "relevance": "pass：保险及营销true。",
+        "facts_conditions": "pass：对象、责任类型与未知限制准确。",
+        "labels": "pass：代理人管理inferred保具体唆使非一般缺失限制；欺骗explicit正确。",
+        "scenes": "pass：文书后端事实，不造渠道原件。",
+        "missing_source_values": "pass：明示法条保存、未知不猜。"
+      },
+      "findings": [],
+      "source_sha": "682fa4636fa903b9fa0ce2c1e887004195ec4a47f0496bf44f2ad53655b1a20c",
+      "proposal_sha": "69b05d46ba62c6f7d79d9dc989d7cef8669ba56e66142becbe0f2c4877de67c2",
+      "read_full_text": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "project_scenes_v1",
+  "scenes": {
+    "ST1_poster_sms_social": "海报、短信与社交传播",
+    "ST2_live_short_video": "直播与短视频",
+    "ST3_product_intro_detail": "产品介绍与详情材料",
+    "ST4_meeting_material": "产品说明会与会议材料",
+    "ST5_training_telemarketing_callback": "销售培训、电话销售与客户回访",
+    "ST6_penalty_backend_fact": "行政处罚与后台事实"
+  },
+  "note": "项目业务分类，不是官方风险标签。ST6说明来源事实载体，不证明实际营销渠道。业务场景仅明确来源依据时填写；归入场景不表示拥有原始业务材料或可迁移使用。"
+}

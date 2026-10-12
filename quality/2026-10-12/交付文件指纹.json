@@ -1,0 +1,18 @@
+{
+  "files": {
+    "质量验收报告.md": "07a6ebef0fb21a307a082705368dea95aeb365a7740009d8d8e7df4c27a3c879",
+    "人工验收样本100.md": "c5c53d13ba79d849bb2fab743e43ee32465811934a637abcee304509cd0e10c1",
+    "质量验收结果.json": "e225e1f13781455e310c70611cda76b637efc175448c442f2c17934f7ce37da1",
+    "sample100_manifest.json": "ab1276fed82936df65114e137ed6c54e9f0c13656b5d29f81574b24e23624b2d",
+    "audit_root.json": "588eec237fc7792da31ab4c6b6c95ea0af4156a30fbde99b2726e7ec5a239792",
+    "audit_a.json": "8d115f761e9e95dbfc1a9878a103cb83ef57b7733566b9dbdfbd43057d5d2a30",
+    "audit_b.json": "9b204cb963c5011a28ecdac263f9c5ad3bf25c5bcf6c729ef142c677ec64e6cb",
+    "root_repairs.json": "318b2b57a705091e120d35b15151d3474f3a88b62b3613b18d106ad4b374a21a",
+    "audit_a_repairs.json": "844e9afd320d4694d6218ac201b93f83b945c2f3be1248e17bc341b3d3725ba9",
+    "audit_b_repairs.json": "4992340238a625078da5b33ed13392883a20a3fa2b80202b08564b58795a1549",
+    "定向复核工作队列_v2.json": "08c577a94252f85db2d44b90662a16d4ecd39ee5e07d8322c4bc44302869c193",
+    "最终登记与候选数量核对.json": "b63ec00cdb358c4791510820a3e2970b75a25d7df453a1ccf266bb1b00850fc4",
+    "compat/compat_acceptance22_v1.json": "f7450f2e205de0b0e20418627863a327c36590d672c598ab54646a7ed237ed16"
+  },
+  "scope": "本轮验收交付文件指纹，候选具体SHA见质量验收结果，不代表全量冻结或人审批准"
+}

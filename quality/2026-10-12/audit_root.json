@@ -1,0 +1,520 @@
+[
+  {
+    "file_id": "F003940",
+    "source_sha256": "a87513d711b3a0cee1e6ab3054e2ee98295fce7d5e47421dfbdfd8383e2e226c",
+    "proposal_sha256": "33b75eaf065f1803b9a5850c71cb3af6a366c4d269d5079a5f41746732b83344",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "七机构及个人的共享合计罚款没有均分；八项财险行为已拆，白鸽全称可由跨页重组确认。",
+    "findings": [
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": null,
+        "expected": true,
+        "source_quote": "对投保人隐瞒与\n保险合同有关的\n重要情况、利用\n开展团险共保业\n务为个人牟取不\n正当利益",
+        "explanation": "保险合同告知与共保业务及合同外利益已明确，应保留营销检索相关。",
+        "fix_suggestion": true
+      }
+    ]
+  },
+  {
+    "file_id": "F004062",
+    "source_sha256": "61ba5fe56a2292ea08d55d1e901683e2b83df19e92f621d89faab7d7154749ce",
+    "proposal_sha256": "9b22170e97b2469a1a8499ddbd5aacc593d72da147e36e4b25bd3a1aca7721ba",
+    "read_full_text": true,
+    "status": "pass",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "三许可证/登记机制、罚款0.5万及警告对应正确；人\n民币格式兼容。",
+    "findings": []
+  },
+  {
+    "file_id": "F004120",
+    "source_sha256": "ba118c03398197c1958de0bb2ef59b8fe39cafb781fa9addacb26055324c8f6b",
+    "proposal_sha256": "6a85e0f1dab8ff85cbf63588d635fd2fc2fe22ba75a86fc742afa4b603f5cbfe",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "15主体文号金额归属正确，个人角色unknown保限制；榆中单位名称仍被裁短。",
+    "findings": [
+      {
+        "code": "PARTY_NAME_TRUNCATED",
+        "severity": "major",
+        "field": "cases.cpic_yuzhong.party_name",
+        "actual": "洋财产保险股份有限公司榆中支公司",
+        "expected": "中国太平洋财产保险股份有限公司榆中支公司",
+        "source_quote": "中国太平\n\n7\n洋财产保\n险股份有\n限公司榆\n中支公司\n",
+        "explanation": "表格跨页行序号插入，原全称片段不能丢失。",
+        "fix_suggestion": "中国太平洋财产保险股份有限公司榆中支公司"
+      }
+    ]
+  },
+  {
+    "file_id": "F004986",
+    "source_sha256": "f3c04c3404c6762d4efbc9c70ec580de764fc2344ba7837f96763f0b6234912c",
+    "proposal_sha256": "531c9456faed05c3e1e22883f2c67d4179a0fd43f813c0ae5b440dbefca43990",
+    "read_full_text": true,
+    "status": "pass",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "邛崃公司23万、包5万张2万分别正确；个人unknown保限制，币种跨行。",
+    "findings": []
+  },
+  {
+    "file_id": "F004260",
+    "source_sha256": "a704c03583d4982f559b5fef7608c7e2b5c58e2d413606c711baf2504445dc98",
+    "proposal_sha256": "6b8ecaeb535e1cf9e2b8abce487a0b1541213dee31aee0682ce72299e2d9cb93",
+    "read_full_text": true,
+    "status": "pass",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "机构30/16万与五人5/4.5/1.5/4.5/4万对应正确，两个机构行为及未知个人关联保留；人民币跨行。",
+    "findings": []
+  },
+  {
+    "file_id": "F005014",
+    "source_sha256": "054939b0d646d5a5230332602837e83bc8cdf77faaff1a707754d16108fa09e8",
+    "proposal_sha256": "6a86c4233dd8429d681a94ec6f4a160480bc547b32ecaac90ea38aa5fe5d2d17",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "48万及5人4/2/2/2/2万未错配；培训渠道有原文，两处召回相关信息待修。",
+    "findings": [
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": false,
+        "expected": true,
+        "source_quote": "四、使用存在\n误导内容的培\n训课件\n",
+        "explanation": "明确培训课件误导，应标记营销相关。",
+        "fix_suggestion": true
+      },
+      {
+        "code": "UNKNOWN_RECALL_TAGS",
+        "severity": "major",
+        "field": "behaviors.*_unknown.risk_tags",
+        "actual": "仅其他",
+        "expected": "用未按规定使用费率条款/培训材料违规的inferred document_related候选，保未知限制",
+        "source_quote": "一、编制提供\n虚假财务资料\n二、未执行经\n备案的保险条\n款和费率\n三、向监管部\n门报送数据不\n真实\n四、使用存在\n误导内容的培\n训课件\n",
+        "explanation": "共同文书已知具体案由，个人未明不能只依其他而丢失更相关召回线索。",
+        "fix_suggestion": "用未按规定使用费率条款/培训材料违规的inferred document_related候选，保未知限制"
+      }
+    ]
+  },
+  {
+    "file_id": "F004065",
+    "source_sha256": "910a27f0309f7e34700e038bf4e5f15d967970632ab0f3fee55e6c79ce7c9605",
+    "proposal_sha256": "185a9a5739408de851dc8421aad2c5a0f5cefd57d3b2175446f0075e80ca08ae",
+    "read_full_text": true,
+    "status": "pass",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "三主体文号及公司15万/个人各5万对应正确，责令改正和未知责任保留。",
+    "findings": []
+  },
+  {
+    "file_id": "F001121",
+    "source_sha256": "83ebd0f7cc8e81b2368e078dfdfcb8f80ccad7a05dd17e75533b164f4d6cb622",
+    "proposal_sha256": "4ecf9bf70438854dfffeb44b837c61ee34e2b81ac0b27cdd4dea3a19adc71d54",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "公司30万冯伟8万、虚挂中介资金链和直接责任正确；全称需括号格式兼容。",
+    "findings": [
+      {
+        "code": "LEGAL_REF_OMISSION",
+        "severity": "major",
+        "field": "cases.*.legal_refs",
+        "actual": [],
+        "expected": "按公司116/162、冯伟173补充原文适用法律",
+        "source_quote": "人保财险郑州市分公司虚挂中介业务的行为,违反了《中华人民共和国保险法》(2014年修正)第一百一十六条,构成虚构中介业务套取费用的违法行为。根据该法第一百六十二条,我会决定对人保财险郑州市\n分公司罚款30万元;根据该法第一百七十三条,我会决定对冯伟给予警告并罚款8万元。\n",
+        "explanation": "原文明示法律依据而候选为空。",
+        "fix_suggestion": "按公司116/162、冯伟173补充原文适用法律"
+      },
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": null,
+        "expected": true,
+        "source_quote": "2013年1月至2014年6月,人保财险郑州市分公司李某某等7名工作人员以在河南泛华安联保险代理有限公司(以下简称泛华安联)注册登记的形式,销售人保财险保险产品,涉及保费共计469.35万元。人保财险郑\n",
+        "explanation": "销售业务及代理登记形式明示，不能营销不明。",
+        "fix_suggestion": true
+      }
+    ]
+  },
+  {
+    "file_id": "F003979",
+    "source_sha256": "04d734e879800ab5097e10eee53842ed15ee14dc769b66189eb7c66f9a295100",
+    "proposal_sha256": "a0879974c03f5def5535251aaf05891394db94656503e0623200140af620fb0c",
+    "read_full_text": true,
+    "status": "pass",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "公司25万王勤4万、编制提供虚假报表资料及个人未知关联正确，无日期文号不猜。",
+    "findings": []
+  },
+  {
+    "file_id": "F004080",
+    "source_sha256": "365f1716276f60e83f1228a3b5fbf338e983721e6d20891f27c810f66b6784f5",
+    "proposal_sha256": "49841c34e55555ac20ca4186d389da9cbdcb8da12bfdffb1c69a34918d1e02bf",
+    "read_full_text": true,
+    "status": "pass",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "两中华机构合25万、伍程合2.5万、王黄合1.8万保个人金额null未均分；百年14万准确，安居全称可由共享父名确认。",
+    "findings": []
+  },
+  {
+    "file_id": "F000636",
+    "source_sha256": "05653cdafa7d31f49c04eddb30e7c2acc4ce5e2b63465f1310055ed14e748869",
+    "proposal_sha256": "372611502b8aad001041035d2fdde530fc53a794cc8f4e38cc1b40fb6fa051b1",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "2机制公司22万钟锐4万、资金用途与个人主管责任保留正确；机构括号兼容。",
+    "findings": [
+      {
+        "code": "DOC_NO_OMISSION",
+        "severity": "major",
+        "field": "cases.zhong_rui.penalty_doc_no",
+        "actual": null,
+        "expected": "渝保监罚〔2017〕21号",
+        "source_quote": "渝保监罚〔2017〕21号\n",
+        "explanation": "同份共同决定文号已明确，个人未另有文号，不能漏共同文号。",
+        "fix_suggestion": "渝保监罚〔2017〕21号"
+      },
+      {
+        "code": "LEGAL_REF_CROSS_PARTY",
+        "severity": "major",
+        "field": "cases.*.legal_refs",
+        "actual": "双方复制86/170/171",
+        "expected": "公司86第二款及170第1项、钟锐86第二款及171，注明适用对象",
+        "source_quote": "上述行为,违反《保险法》第八十六条第二款的规定,根据《保险法》第一百七十条第(一)项,我局决定对太平财险重庆分公司罚款22万元;根据《保险法》第一百七十一条,我局决定对钟锐警告并罚款4万元。\n",
+        "explanation": "共享法律段需分适用对象，不宜所有处罚条款复制双方。",
+        "fix_suggestion": "公司86第二款及170第1项、钟锐86第二款及171，注明适用对象"
+      },
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": null,
+        "expected": true,
+        "source_quote": "2016年1月1日至2017年9月30日期间,太平财险重庆分公司通过虚构共同展业小组成员 18 名,发放虚假绩效套取资金1,118,004.31元,实际用于商业车险市场费用投放和业务拓展。\n",
+        "explanation": "商业车险市场费用投放/展业拓展及代理费用属于销售相关业务。",
+        "fix_suggestion": true
+      }
+    ]
+  },
+  {
+    "file_id": "F000575",
+    "source_sha256": "6e647d5c4632808a715dacef4da62eae5f5af3ce6048a0f54eb4503edd6ac876",
+    "proposal_sha256": "2dcd7112d485423a7cb89cf6508e6cdb1d88eb610f0441d204572fd967fcacc8",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "电销误导及两标签场景、2018-02-26警告5000元准确；全称括号格式兼容。",
+    "findings": [
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": null,
+        "expected": true,
+        "source_quote": "    泰康人寿重庆分公司工作人员分别于2015年12月23日、2016年5月31日、2016年4月11日电话销售保险过程中,对泰康祥云两全保险、泰康附加祥云如意C款重大疾病保险、泰康附加祥云如意C款豁免重大疾病保险、泰康享泰年金保\n险、泰康鑫泰年金保险的条款内容作引人误解的宣传。\n",
+        "explanation": "明确电话销售误导。",
+        "fix_suggestion": true
+      },
+      {
+        "code": "LEGAL_REF_OMISSION",
+        "severity": "major",
+        "field": "cases.company.legal_refs",
+        "actual": [],
+        "expected": "补保险公司管理规定45第二款、69",
+        "source_quote": "    上述行为,违反《保险公司管理规定》第四十五条第二款的规定,根据《保险公司管理规定》第六十九条,我局决定对泰康人寿重庆分公司警告并罚款5000元。\n",
+        "explanation": "适用法律明示。",
+        "fix_suggestion": "补保险公司管理规定45第二款、69"
+      }
+    ]
+  },
+  {
+    "file_id": "F000635",
+    "source_sha256": "efb61549bde804761b074cfb4dbc171434fda6ee4c089aeb9ed6594f49ebe67c",
+    "proposal_sha256": "6b9b00dcbbb73fb85284217db1522d111dee6c43fca681de378fb81aaa06415e",
+    "read_full_text": true,
+    "status": "pass",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "两机构行为15万+1万与个人仅欺骗性培训5万对应准确、销售人员电话不当客户字段，标签合理；括号全名兼容。",
+    "findings": []
+  },
+  {
+    "file_id": "F000576",
+    "source_sha256": "7695eda48ae0570a7f169c8e741bfd7e4a15727ab11d56876c554bce12ad1045",
+    "proposal_sha256": "ece4e538044e97b86a5ed7b81c1af12602afaec13856b64831c8b8b2f016c610",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "六分支迁址行为可同机制保留、公司6万陈敏4万正确，法律条款复制双方待分。",
+    "findings": [
+      {
+        "code": "LEGAL_REF_CROSS_PARTY",
+        "severity": "major",
+        "field": "cases.*.legal_refs",
+        "actual": "双方84/162/171",
+        "expected": "公司84第3项与162；陈敏84第3项与171",
+        "source_quote": "    上述行为,违反《保险法》第八十四条第(三)项的规定,根据《保险法》第一百六十二条,我局决定对中国人寿重庆市分公司罚款6万元。根据《保险法》第一百七十一条,我局决定对陈敏警告并罚款4万元。\n",
+        "explanation": "处罚条款原文分别适用公司和个人。",
+        "fix_suggestion": "公司84第3项与162；陈敏84第3项与171"
+      }
+    ]
+  },
+  {
+    "file_id": "F000639",
+    "source_sha256": "b1dea546839d7d400a8e4622b0d7b49d53f16ae8a926f79536342fc7189edfa5",
+    "proposal_sha256": "ee22c8befc926c11fba96f10090953676a42c1b76a8499fc809e434c983c0b67",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "公司培训及134人记录两机制、15万+1万与个人培训5万准确；全称兼容。",
+    "findings": [
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": null,
+        "expected": true,
+        "source_quote": "一、唆使、诱导保险代理人欺骗投保人的行为\n",
+        "explanation": "欺骗课件培训及代理转培训已明示。",
+        "fix_suggestion": true
+      },
+      {
+        "code": "LEGAL_REF_CROSS_PARTY",
+        "severity": "major",
+        "field": "cases.deng_liwei.legal_refs",
+        "actual": "包括销售人员记录办法20/32",
+        "expected": "邓立伟仅中介违法处罚办法11/20",
+        "source_quote": "人保寿险重庆市分公司邓立伟负责上述课件资料的合规性审核,应对上述唆使、诱导保险代理人欺骗投保人的违法行为承担直接主管责任。\n",
+        "explanation": "个人仅明确培训审核责任，不能把第二项销售人员记录的法律归到个人。",
+        "fix_suggestion": "邓立伟仅中介违法处罚办法11/20"
+      }
+    ]
+  },
+  {
+    "file_id": "F005750",
+    "source_sha256": "69e9aa57185547c5d590ea14a5c5de88b5ce8200e9cc8e2e9e8104860d78d908",
+    "proposal_sha256": "8a6ccc959cc1a2d290c10f53efacef94982ccb350c8391fc41b31587b38a2e83",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "机关日期公司个人各警告5000元准确，产品说明会银行收益比较标签场景正确。",
+    "findings": [
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": null,
+        "expected": true,
+        "source_quote": "产说会宣传保险收益与银行利率作简单\n对比\n",
+        "explanation": "明确产说会宣传。",
+        "fix_suggestion": true
+      }
+    ]
+  },
+  {
+    "file_id": "F000330",
+    "source_sha256": "ae98f7f7094ed36251cd937774055288f0144f4688a8c160a0080bbc8d2e0901",
+    "proposal_sha256": "d99192391bfb6a54175e1f7a6c7bf3dcd16f1d7d7756b3cdcaac7da8e7530543",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "32主体52行为覆盖总体正确；法律依据全漏和营销标记错误已修订。靖边原稿12万元正确，审计误读5万元已撤回。",
+    "findings": [
+      {
+        "code": "LEGAL_REF_OMISSION",
+        "severity": "major",
+        "field": "cases.*.legal_refs",
+        "actual": [],
+        "expected": "逐主体补原明示法律及各自处罚依据",
+        "source_quote": "违反了《保险法》第131条第1项,依据《保险法》第165条予以处罚。",
+        "explanation": "32主体均漏法律，按各段补。",
+        "fix_suggestion": "逐主体补原明示法律及各自处罚依据"
+      },
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": false,
+        "expected": true,
+        "source_quote": "在代理销售保险业务过程中存在欺骗投保人的行",
+        "explanation": "多项明示保险销售欺骗。",
+        "fix_suggestion": true
+      }
+    ],
+    "withdrawn_findings": [
+      {
+        "code": "PENALTY_AMOUNT_WRONG",
+        "severity": "critical",
+        "field": "cases.bank11.penalties.罚款.amount_yuan",
+        "actual": 120000,
+        "expected": 50000,
+        "source_quote": "限公司靖边县支行 \n在代理销售保险业务过程中存在欺骗投保人的行\n为。\n违反了《保险法》第131条第1项,依据《保险法》第165条予以处罚。\n给予罚款12万元的\n行政处罚\n2019.3.11\n",
+        "explanation": "靖边罚5万，邻近几行12万不能复制。",
+        "fix_suggestion": 50000
+      }
+    ],
+    "audit_correction": "复检发现首轮模型审计误读：靖边原文明示12万元，5万元对应前一行渭南市分行。撤回此金额问题；fix02恢复120000，与连续精确引文相符。fix01保留为失效历史。"
+  },
+  {
+    "file_id": "F000301",
+    "source_sha256": "09a9932d5c00a04886d231d0f7564efd185f24219d33d999390ee85bcbead4de",
+    "proposal_sha256": "fd7132e04e4c2f0785fa7fd8d40b85022196a1628e1a3c7da153f13123a74a8d",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "公司罚5万王丹罚1万，行为返现金1130元与决定日期正确。",
+    "findings": [
+      {
+        "code": "LEGAL_REF_OMISSION",
+        "severity": "major",
+        "field": "cases.*.legal_refs",
+        "actual": [],
+        "expected": "公司116第4项/161，王丹171",
+        "source_quote": "违反了《保险法》第116条第4项,依据《保\n险法》第161条予以处罚。",
+        "explanation": "明示法律漏填。",
+        "fix_suggestion": "公司116第4项/161，王丹171"
+      },
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": null,
+        "expected": true,
+        "source_quote": "业务时存在返还现金的情况,金额共计1130元。",
+        "explanation": "承保返现明示。",
+        "fix_suggestion": true
+      }
+    ]
+  },
+  {
+    "file_id": "F000342",
+    "source_sha256": "21cf100d7c93676b70cf697ac18ff8dfe15438fee5c1fa86dae2a460e4df15cd",
+    "proposal_sha256": "562d5f9500e1e22c7020454f517395decaf829224e68ac709864971ffe23eb00",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "20主体32行为及没收罚款区分正确；仅月日不猜日期；安邦跨列须绑定例外。",
+    "findings": [
+      {
+        "code": "LEGAL_REF_OMISSION",
+        "severity": "major",
+        "field": "cases.*.legal_refs",
+        "actual": [],
+        "expected": "各主体分别补适用法律",
+        "source_quote": "依据《保险公估人监管规\n定》第101条予以处罚。",
+        "explanation": "全20主体漏法律。",
+        "fix_suggestion": "各主体分别补适用法律"
+      },
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": null,
+        "expected": true,
+        "source_quote": "2015年,安邦产险陕西分公司员工张晨、刘伟给予提供业务来源的两家汽车销售企业现金返还,共计4.7万元",
+        "explanation": "代理销售渠道返现明示。",
+        "fix_suggestion": true
+      },
+      {
+        "code": "RESPONSIBILITY_RECALL_TAGS",
+        "severity": "major",
+        "field": "behaviors.gao_responsibility.risk_tags",
+        "actual": "其他",
+        "expected": "虚列费用套取资金",
+        "source_quote": "高慧鹏作为该公司负责人,对上述违法行为负有直接责任。",
+        "explanation": "主管具体虚财务套费已明确。",
+        "fix_suggestion": "虚列费用套取资金"
+      }
+    ]
+  },
+  {
+    "file_id": "F001782",
+    "source_sha256": "b8068802aad890798badb217af51a0885c45d8f975715cab15d4e0ba71603b09",
+    "proposal_sha256": "035e75a192695754716c996f58317de3f882ecd34bd0b6ff393413065bf6f73f",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "各机构6万和各个人1/2万准确，电销四机制和个人对应责任有界。",
+    "findings": [
+      {
+        "code": "MARKETING_RELEVANCE",
+        "severity": "major",
+        "field": "marketing_relevance",
+        "actual": null,
+        "expected": true,
+        "source_quote": "经查,平安人寿上述5家机构在电话销售过程中,存在以下欺骗、隐瞒投保人、被保险人或者受益人的违法行为:",
+        "explanation": "电话销售明示。",
+        "fix_suggestion": true
+      },
+      {
+        "code": "LEGAL_REF_CROSS_PARTY",
+        "severity": "major",
+        "field": "cases.*.legal_refs",
+        "actual": "双方116/162/173",
+        "expected": "机构116/162，个人116/173",
+        "source_quote": "依照《保险法》第一百六十二条的规定",
+        "explanation": "共享法条须分处罚适用主体。",
+        "fix_suggestion": "机构116/162，个人116/173"
+      },
+      {
+        "code": "MITIGATION_NOT_STRUCTURED",
+        "severity": "minor",
+        "field": "cases.chen_jiangying/wang_miaoying",
+        "actual": "案例未提从轻条件",
+        "expected": "补退保及检查前整改从轻，不改免罚",
+        "source_quote": "英从轻处罚。",
+        "explanation": "argument覆盖已有但案例迁移限定未保。",
+        "fix_suggestion": "补退保及检查前整改从轻，不改免罚"
+      }
+    ]
+  },
+  {
+    "file_id": "F002920",
+    "source_sha256": "afe694d043c76a0e0117e316c577a8847f95e8db96cd16ca9f95ab0b8a3d393d",
+    "proposal_sha256": "57501b61ff74fff123790cb18d3416d63846bff30889c1c93488cdcf21e095fc",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "决定日期、罚款2万与行为标签正确；付款户名不能单独证明发文机关，需保null。",
+    "findings": [
+      {
+        "code": "REGULATOR_PAYEE_INFERENCE",
+        "severity": "major",
+        "field": "cases.company.regulator",
+        "actual": "中国保险监督管理委员会云南监管局",
+        "expected": null,
+        "source_quote": "账户名称:中国保险监督管理委员会云南监管局",
+        "explanation": "文书无发文机关署名，只能确认收款账户户名，不能直接作处罚机关依据。",
+        "fix_suggestion": null
+      }
+    ]
+  },
+  {
+    "file_id": "F002919",
+    "source_sha256": "505e3a70bc9739c60b19ac3a7ffbd156505f2a1a01c9d77ecb20e40332bb99fd",
+    "proposal_sha256": "1cbfdbfb38c1e07ec48405810c93b442f0d245de87af33d81833efa2dbe6ab7f",
+    "read_full_text": true,
+    "status": "needs_fix",
+    "dimensions": "已核对完整源文与主体/金额/日期/行为拆分/标签/场景/条件；格式兼容另行校验",
+    "summary": "决定日期、罚款2万与行为标签正确；付款户名不能单独证明发文机关，需保null。",
+    "findings": [
+      {
+        "code": "REGULATOR_PAYEE_INFERENCE",
+        "severity": "major",
+        "field": "cases.company.regulator",
+        "actual": "中国保险监督管理委员会云南监管局",
+        "expected": null,
+        "source_quote": "帐户名称:中国保险监督管理委员会云南监管局",
+        "explanation": "文书无发文机关署名，只能确认收款账户户名，不能直接作处罚机关依据。",
+        "fix_suggestion": null
+      }
+    ]
+  }
+]

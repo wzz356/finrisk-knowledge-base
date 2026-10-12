@@ -1,0 +1,180 @@
+{
+  "alias_evidence_sha256": "b138f7e87b8fd6262fb797795d2615e1228a82473248aa87459c13f338a23ddd",
+  "compat_checker_sha256": "5cd46c3cb4a419d8deacb5840279dc364620bf99b7039d0fbe335befc7c69bb2",
+  "compatibility_version": "finrisk-compat-v1",
+  "documents_passed": 1,
+  "documents_requested": 1,
+  "external_api_calls": 0,
+  "failures": [],
+  "frozen_base_checker_sha256": {
+    "work/finrisk_bulk/prepare_run.py": "48d6a799b67d01f8745a9b8973532a0b2814b24ba32a9cb1b95b437889539b4f",
+    "work/finrisk_confirm30/check_proposals.py": "43a7d56643279f0ee368d1f90a3097bd1c432a7a9df57fcf9356d83bfd108577",
+    "work/finrisk_remaining/quality_guard.py": "c3a8e9bf9de462383b08f6d8d3da6d3bff34554b3231ba35c3d0cd4e432e4ee3"
+  },
+  "human_review_status": "pending",
+  "records": [
+    {
+      "all_quotes_exact": true,
+      "behaviors": 55,
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b084\\p1\\F000330_r0_fix02.json",
+      "cases": 32,
+      "compatibility_version": "finrisk-compat-v1",
+      "file_id": "F000330",
+      "human_review_status": "pending",
+      "name_checks": [
+        {
+          "case_key": "bank1",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank2",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank3",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank4",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank5",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank6",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank7",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank8",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank9",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank10",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank11",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank12",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "bank13",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "tianfu",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "chen",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "zheng",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "xinyu",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "ni",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "huakai",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "qin",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "meichen",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "yan",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "dongfang",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "he",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "gaode",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "liu",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "minsheng",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "zhang",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "guoshou",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "wang",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "pingan",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "han",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "proposal_content_sha256": "547f400bc8c1120e527e3a2e8f3ef6ebb2a1f819028343b6b97416152a061b21",
+      "proposal_sha256": "d6ecb98c27947223966396848bbae3ca1f2aa992dd1813f8f66b602ed1abee2d",
+      "quote_fields_checked": 923,
+      "quote_spans_checked": 3349,
+      "reasons": [
+        "aggregate_or_split_penalty",
+        "long_source_full_read_check",
+        "multiple_decisions",
+        "multiple_penalized_subjects",
+        "personal_responsibility_link"
+      ],
+      "requires_review": true,
+      "semantic_status": "candidate",
+      "source_sha256": "ae98f7f7094ed36251cd937774055288f0144f4688a8c160a0080bbc8d2e0901",
+      "structural_replacements": {
+        "currency": 1,
+        "name": 1
+      },
+      "text_sha256": "ae98f7f7094ed36251cd937774055288f0144f4688a8c160a0080bbc8d2e0901",
+      "uncovered_tokens": []
+    }
+  ],
+  "review_list_sha256": "443013149563338dbab21d10f1b7f13125eb79e296bea5af035caebbaa3a385b",
+  "semantic_status": "candidate",
+  "source_read_batch_limit": 5,
+  "status": "pass"
+}

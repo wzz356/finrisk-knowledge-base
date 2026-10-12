@@ -1,0 +1,1828 @@
+{
+  "seed": 20261012,
+  "scope": "主队列8509候选；22失败+官方标签+批次区间+复杂性+固定随机混合，不估计全量准确率",
+  "blind_full_text_read": false,
+  "records": [
+    {
+      "file_id": "F002920",
+      "lane": "root",
+      "batch_id": "b048",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002920_r0_fix01.json",
+      "proposal_sha256": "57501b61ff74fff123790cb18d3416d63846bff30889c1c93488cdcf21e095fc",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F002920.json",
+      "source_sha256": "afe694d043c76a0e0117e316c577a8847f95e8db96cd16ca9f95ab0b8a3d393d",
+      "characters": 909,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "未按规定使用费率条款"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F003940",
+      "lane": "root",
+      "batch_id": "b054",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b054\\p2\\F003940_r0_fix03.json",
+      "proposal_sha256": "33b75eaf065f1803b9a5850c71cb3af6a366c4d269d5079a5f41746732b83344",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F003940.json",
+      "source_sha256": "a87513d711b3a0cee1e6ab3054e2ee98295fce7d5e47421dfbdfd8383e2e226c",
+      "characters": 981,
+      "cases": 29,
+      "behaviors": 37,
+      "tags": [
+        "其他",
+        "合同外利益",
+        "未按规定使用费率条款",
+        "虚列费用套取资金",
+        "隐瞒重要信息"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F004062",
+      "lane": "root",
+      "batch_id": "b055",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b055\\p1\\F004062_r0.json",
+      "proposal_sha256": "9b22170e97b2469a1a8499ddbd5aacc593d72da147e36e4b25bd3a1aca7721ba",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004062.json",
+      "source_sha256": "61ba5fe56a2292ea08d55d1e901683e2b83df19e92f621d89faab7d7154749ce",
+      "characters": 244,
+      "cases": 1,
+      "behaviors": 3,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F004120",
+      "lane": "root",
+      "batch_id": "b057",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p3\\F004120_r0_fix03.json",
+      "proposal_sha256": "6a85e0f1dab8ff85cbf63588d635fd2fc2fe22ba75a86fc742afa4b603f5cbfe",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004120.json",
+      "source_sha256": "ba118c03398197c1958de0bb2ef59b8fe39cafb781fa9addacb26055324c8f6b",
+      "characters": 1724,
+      "cases": 15,
+      "behaviors": 15,
+      "tags": [
+        "其他",
+        "委托无资质机构销售",
+        "未按规定使用费率条款",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F004986",
+      "lane": "root",
+      "batch_id": "b058",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b058\\p3\\F004986_r0.json",
+      "proposal_sha256": "531c9456faed05c3e1e22883f2c67d4179a0fd43f813c0ae5b440dbefca43990",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004986.json",
+      "source_sha256": "f3c04c3404c6762d4efbc9c70ec580de764fc2344ba7837f96763f0b6234912c",
+      "characters": 312,
+      "cases": 3,
+      "behaviors": 3,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F004260",
+      "lane": "root",
+      "batch_id": "b066",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b066\\p3\\F004260_r0.json",
+      "proposal_sha256": "6b8ecaeb535e1cf9e2b8abce487a0b1541213dee31aee0682ce72299e2d9cb93",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004260.json",
+      "source_sha256": "a704c03583d4982f559b5fef7608c7e2b5c58e2d413606c711baf2504445dc98",
+      "characters": 362,
+      "cases": 7,
+      "behaviors": 11,
+      "tags": [
+        "其他",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F002919",
+      "lane": "root",
+      "batch_id": "b068",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b068\\p1\\F002919_r0.json",
+      "proposal_sha256": "1cbfdbfb38c1e07ec48405810c93b442f0d245de87af33d81833efa2dbe6ab7f",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F002919.json",
+      "source_sha256": "505e3a70bc9739c60b19ac3a7ffbd156505f2a1a01c9d77ecb20e40332bb99fd",
+      "characters": 523,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F005014",
+      "lane": "root",
+      "batch_id": "b071",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b071\\p1\\F005014_r0_fix01.json",
+      "proposal_sha256": "6a86c4233dd8429d681a94ec6f4a160480bc547b32ecaac90ea38aa5fe5d2d17",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F005014.json",
+      "source_sha256": "054939b0d646d5a5230332602837e83bc8cdf77faaff1a707754d16108fa09e8",
+      "characters": 599,
+      "cases": 6,
+      "behaviors": 10,
+      "tags": [
+        "其他",
+        "培训材料违规",
+        "未按规定使用费率条款",
+        "销售误导"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F004065",
+      "lane": "root",
+      "batch_id": "b072",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p1\\F004065_r0.json",
+      "proposal_sha256": "185a9a5739408de851dc8421aad2c5a0f5cefd57d3b2175446f0075e80ca08ae",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004065.json",
+      "source_sha256": "910a27f0309f7e34700e038bf4e5f15d967970632ab0f3fee55e6c79ce7c9605",
+      "characters": 216,
+      "cases": 3,
+      "behaviors": 3,
+      "tags": [
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F001121",
+      "lane": "root",
+      "batch_id": "b072",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p2\\F001121_r0_fix01.json",
+      "proposal_sha256": "4ecf9bf70438854dfffeb44b837c61ee34e2b81ac0b27cdd4dea3a19adc71d54",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001121.json",
+      "source_sha256": "83ebd0f7cc8e81b2368e078dfdfcb8f80ccad7a05dd17e75533b164f4d6cb622",
+      "characters": 1109,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F003979",
+      "lane": "root",
+      "batch_id": "b074",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b074\\p1\\F003979_r0.json",
+      "proposal_sha256": "a0879974c03f5def5535251aaf05891394db94656503e0623200140af620fb0c",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F003979.json",
+      "source_sha256": "04d734e879800ab5097e10eee53842ed15ee14dc769b66189eb7c66f9a295100",
+      "characters": 184,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F004080",
+      "lane": "root",
+      "batch_id": "b074",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b074\\p3\\F004080_r0.json",
+      "proposal_sha256": "49841c34e55555ac20ca4186d389da9cbdcb8da12bfdffb1c69a34918d1e02bf",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004080.json",
+      "source_sha256": "365f1716276f60e83f1228a3b5fbf338e983721e6d20891f27c810f66b6784f5",
+      "characters": 329,
+      "cases": 7,
+      "behaviors": 14,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F000636",
+      "lane": "root",
+      "batch_id": "b079",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b079\\p2\\F000636_r0.json",
+      "proposal_sha256": "372611502b8aad001041035d2fdde530fc53a794cc8f4e38cc1b40fb6fa051b1",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000636.json",
+      "source_sha256": "05653cdafa7d31f49c04eddb30e7c2acc4ce5e2b63465f1310055ed14e748869",
+      "characters": 1231,
+      "cases": 2,
+      "behaviors": 4,
+      "tags": [
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F000575",
+      "lane": "root",
+      "batch_id": "b080",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b080\\p2\\F000575_r0.json",
+      "proposal_sha256": "2dcd7112d485423a7cb89cf6508e6cdb1d88eb610f0441d204572fd967fcacc8",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000575.json",
+      "source_sha256": "6e647d5c4632808a715dacef4da62eae5f5af3ce6048a0f54eb4503edd6ac876",
+      "characters": 859,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "电销违规",
+        "销售误导"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F000635",
+      "lane": "root",
+      "batch_id": "b080",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b080\\p2\\F000635_r0.json",
+      "proposal_sha256": "6b9b00dcbbb73fb85284217db1522d111dee6c43fca681de378fb81aaa06415e",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000635.json",
+      "source_sha256": "efb61549bde804761b074cfb4dbc171434fda6ee4c089aeb9ed6594f49ebe67c",
+      "characters": 1244,
+      "cases": 2,
+      "behaviors": 3,
+      "tags": [
+        "代理人管理不到位",
+        "培训材料违规",
+        "欺骗投保人"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F000576",
+      "lane": "root",
+      "batch_id": "b083",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p2\\F000576_r0.json",
+      "proposal_sha256": "ece4e538044e97b86a5ed7b81c1af12602afaec13856b64831c8b8b2f016c610",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000576.json",
+      "source_sha256": "7695eda48ae0570a7f169c8e741bfd7e4a15727ab11d56876c554bce12ad1045",
+      "characters": 1028,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F000639",
+      "lane": "root",
+      "batch_id": "b083",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p3\\F000639_r0.json",
+      "proposal_sha256": "ee22c8befc926c11fba96f10090953676a42c1b76a8499fc809e434c983c0b67",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000639.json",
+      "source_sha256": "b1dea546839d7d400a8e4622b0d7b49d53f16ae8a926f79536342fc7189edfa5",
+      "characters": 1322,
+      "cases": 2,
+      "behaviors": 3,
+      "tags": [
+        "代理人管理不到位",
+        "培训材料违规",
+        "欺骗投保人"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F005750",
+      "lane": "root",
+      "batch_id": "b083",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p3\\F005750_r0.json",
+      "proposal_sha256": "8a6ccc959cc1a2d290c10f53efacef94982ccb350c8391fc41b31587b38a2e83",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F005750.json",
+      "source_sha256": "69e9aa57185547c5d590ea14a5c5de88b5ce8200e9cc8e2e9e8104860d78d908",
+      "characters": 325,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "不当比较"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F000330",
+      "lane": "root",
+      "batch_id": "b084",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b084\\p1\\F000330_r0.json",
+      "proposal_sha256": "d99192391bfb6a54175e1f7a6c7bf3dcd16f1d7d7756b3cdcaac7da8e7530543",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000330.json",
+      "source_sha256": "ae98f7f7094ed36251cd937774055288f0144f4688a8c160a0080bbc8d2e0901",
+      "characters": 5174,
+      "cases": 32,
+      "behaviors": 55,
+      "tags": [
+        "代理人管理不到位",
+        "其他",
+        "合同外利益",
+        "夸大收益",
+        "欺骗投保人"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F000301",
+      "lane": "root",
+      "batch_id": "b084",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b084\\p2\\F000301_r0.json",
+      "proposal_sha256": "fd7132e04e4c2f0785fa7fd8d40b85022196a1628e1a3c7da153f13123a74a8d",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000301.json",
+      "source_sha256": "09a9932d5c00a04886d231d0f7564efd185f24219d33d999390ee85bcbead4de",
+      "characters": 290,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "合同外利益",
+        "回扣返佣"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F000342",
+      "lane": "root",
+      "batch_id": "b085",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p2\\F000342_r0.json",
+      "proposal_sha256": "562d5f9500e1e22c7020454f517395decaf829224e68ac709864971ffe23eb00",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000342.json",
+      "source_sha256": "21cf100d7c93676b70cf697ac18ff8dfe15438fee5c1fa86dae2a460e4df15cd",
+      "characters": 3971,
+      "cases": 20,
+      "behaviors": 32,
+      "tags": [
+        "代理人管理不到位",
+        "其他",
+        "回扣返佣",
+        "委托无资质机构销售",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F001782",
+      "lane": "root",
+      "batch_id": "b086",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b086\\p3\\F001782_r0.json",
+      "proposal_sha256": "035e75a192695754716c996f58317de3f882ecd34bd0b6ff393413065bf6f73f",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001782.json",
+      "source_sha256": "b8068802aad890798badb217af51a0885c45d8f975715cab15d4e0ba71603b09",
+      "characters": 2301,
+      "cases": 11,
+      "behaviors": 44,
+      "tags": [
+        "欺骗投保人",
+        "电销违规",
+        "虚假宣传",
+        "隐瞒重要信息"
+      ],
+      "selection_reason": "22份旧硬检失败逐原文核对"
+    },
+    {
+      "file_id": "F000699",
+      "lane": "audit_a",
+      "batch_id": "b082",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b082\\p1\\F000699_r0.json",
+      "proposal_sha256": "76e5cb0ddd1faf7c43de9b3f4555127b689e99fe62df5f903c2c0ccf66bee42b",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000699.json",
+      "source_sha256": "a60298fe5b69055e8c93cf09dee3d5f687bfc1af44812edd00cc52ea31ce77e4",
+      "characters": 1379,
+      "cases": 5,
+      "behaviors": 31,
+      "tags": [
+        "欺骗投保人",
+        "电销违规",
+        "虚假宣传",
+        "诱导投保",
+        "贬低竞品",
+        "销售误导"
+      ],
+      "selection_reason": "官方标签分层：贬低竞品"
+    },
+    {
+      "file_id": "F009587",
+      "lane": "audit_b",
+      "batch_id": "b053",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b053\\p3\\F009587_r0.json",
+      "proposal_sha256": "0a1ff0a68d7c16f6ed8216b866392a51a5cb4ab8b6b3ad488ad5dc556c9bdae3",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F009587.json",
+      "source_sha256": "703a7a2f0e8a02ba56ef5cf7bfec643449280cd98997781a679bd5ac735341dc",
+      "characters": 1324,
+      "cases": 1,
+      "behaviors": 4,
+      "tags": [
+        "绝对化表述",
+        "虚假宣传",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "官方标签分层：绝对化表述"
+    },
+    {
+      "file_id": "F002165",
+      "lane": "audit_a",
+      "batch_id": "b030",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b030\\p2\\F002165_r0.json",
+      "proposal_sha256": "4a4bf3ba98f7de63a2bb7e6c30d46ab3dbe75ac67d03d5af51b96bdde30579fb",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F002165.json",
+      "source_sha256": "36cfc1fefa8d7b61f58f9183f442af8a0f1afbd33e71463725d238b09d319ec3",
+      "characters": 1167,
+      "cases": 1,
+      "behaviors": 9,
+      "tags": [
+        "不当比较",
+        "产品说明会违规",
+        "保证收益",
+        "培训材料违规",
+        "夸大收益",
+        "避债避税",
+        "销售误导"
+      ],
+      "selection_reason": "官方标签分层：避债避税"
+    },
+    {
+      "file_id": "F001128",
+      "lane": "audit_a",
+      "batch_id": "b085",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p1\\F001128_r0.json",
+      "proposal_sha256": "f66489d92065dbaacc2226e490864eb566800b4ecd631f3feb360450363efd9e",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001128.json",
+      "source_sha256": "68578b5a5d1f94beab2e661c56e6a7f14ddc74f9106fc4fae7abc19f8e043381",
+      "characters": 773,
+      "cases": 1,
+      "behaviors": 3,
+      "tags": [
+        "产品说明会违规",
+        "保证收益",
+        "弱化风险提示",
+        "承诺收益",
+        "虚构收益率",
+        "销售误导"
+      ],
+      "selection_reason": "官方标签分层：虚构收益率"
+    },
+    {
+      "file_id": "F000720",
+      "lane": "audit_a",
+      "batch_id": "b081",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b081\\p2\\F000720_r0.json",
+      "proposal_sha256": "2f7c067f74bd821404d8b57650be6cba325188a9a52feca6d8dcfa72653f744e",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000720.json",
+      "source_sha256": "7611bb5852456228e1c5e34fe3eae75fb6b96c8474da5751c4ca3afd22aca9c2",
+      "characters": 458,
+      "cases": 3,
+      "behaviors": 3,
+      "tags": [
+        "合同外利益",
+        "虚列费用套取资金",
+        "赠送利益"
+      ],
+      "selection_reason": "官方标签分层：赠送利益"
+    },
+    {
+      "file_id": "F001316",
+      "lane": "audit_a",
+      "batch_id": "b022",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b022\\p2\\F001316_r0.json",
+      "proposal_sha256": "4b04d87a0eda1d7bb1356bb8bd277cd8766a135260cc38d31fdb57541225e82b",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001316.json",
+      "source_sha256": "54c9f870da70d366e77d359b28e24f0e5723f8b13b9ccc59514762f87901a953",
+      "characters": 148,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "回访违规"
+      ],
+      "selection_reason": "官方标签分层：回访违规"
+    },
+    {
+      "file_id": "F003967",
+      "lane": "audit_b",
+      "batch_id": "b001",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003967_r0_fix01.json",
+      "proposal_sha256": "c75d661201cb004331c4cc42282801d82e10b6fc6ed3d81f3a87a9bcc1a25d3a",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F003967.json",
+      "source_sha256": "c54f2f7025c45ed244058d3fdde6175ca5a8e9f0c28cf75ab95bf1508579e4a4",
+      "characters": 174,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "客户信息不真实"
+      ],
+      "selection_reason": "官方标签分层：客户信息不真实"
+    },
+    {
+      "file_id": "F004660",
+      "lane": "audit_b",
+      "batch_id": "b019",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b019\\p2\\F004660_r0.json",
+      "proposal_sha256": "1bfceb599d6e829d01fc586054df61a01020b2c152256416178b38de64a1bb02",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004660.json",
+      "source_sha256": "196b31f90441204bd21bca8810c11bec34d0db86bdb844f55df4ba9579eb1df7",
+      "characters": 228,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "合同外利益"
+      ],
+      "selection_reason": "批次区间b001–b020固定种子随机"
+    },
+    {
+      "file_id": "F000817",
+      "lane": "audit_a",
+      "batch_id": "b001",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p3\\F000817_r0.json",
+      "proposal_sha256": "a63feb1f39be047c8d184cf853ab8c92dabadaefba9c3363c35296d3cde886fc",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000817.json",
+      "source_sha256": "e771a925a1b16be66d14818572a2c59d4244044ece5a46436fc523dd04bea9f0",
+      "characters": 728,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "回访违规"
+      ],
+      "selection_reason": "批次区间b001–b020固定种子随机"
+    },
+    {
+      "file_id": "F008199",
+      "lane": "audit_b",
+      "batch_id": "b013",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F008199_r0.json",
+      "proposal_sha256": "01f9ae5d5d78a23640a26bce4ce076223845517dbee6cc2f6053f0fa56af30a1",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F008199.json",
+      "source_sha256": "51ffe6613d189b0bf5a883bcefcc225fe9cd22370dee5d33ee9e38acae39693d",
+      "characters": 299,
+      "cases": 1,
+      "behaviors": 4,
+      "tags": [
+        "其他",
+        "合同外利益",
+        "委托无资质机构销售",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "批次区间b001–b020固定种子随机"
+    },
+    {
+      "file_id": "F001232",
+      "lane": "audit_b",
+      "batch_id": "b013",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F001232_r0.json",
+      "proposal_sha256": "32ef1e25695a4291cafd901282511e5385c72c87a4f279967bd70cf41aa3715f",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001232.json",
+      "source_sha256": "b236f57e431144fb7a6694e494e105a5d21727382082c3e4f24955dd9fcaedf3",
+      "characters": 665,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "批次区间b001–b020固定种子随机"
+    },
+    {
+      "file_id": "F000728",
+      "lane": "audit_b",
+      "batch_id": "b012",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b012\\p1\\F000728_r0.json",
+      "proposal_sha256": "b4622ab8a570688f5e3656451ad20481d4efdba7d5d443f0e53030be4d4eb1be",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000728.json",
+      "source_sha256": "bc639efeb78c128246b136a5599cc580d7772bfc8e9d863f7d19536fd870a5cf",
+      "characters": 213,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "代理人管理不到位"
+      ],
+      "selection_reason": "批次区间b001–b020固定种子随机"
+    },
+    {
+      "file_id": "F009942",
+      "lane": "audit_a",
+      "batch_id": "b006",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b006\\p2\\F009942_r0.json",
+      "proposal_sha256": "92e54315406987929cb2b8c12678d8972bef0a0e70c6522064833b1b669efc3d",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F009942.json",
+      "source_sha256": "b8cc506f3e49c5f8ebfea2c9dd70f87dcd3275d746fa079750555f8f87cb0896",
+      "characters": 833,
+      "cases": 1,
+      "behaviors": 3,
+      "tags": [
+        "虚假宣传",
+        "销售误导"
+      ],
+      "selection_reason": "批次区间b001–b020固定种子随机"
+    },
+    {
+      "file_id": "F001198",
+      "lane": "audit_b",
+      "batch_id": "b018",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p2\\F001198_r0.json",
+      "proposal_sha256": "9e2a262c64909bbb8da3fd20f639dbaf9d5043253518b02999043f9c45f6e8b7",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001198.json",
+      "source_sha256": "b6f6571998da183c82992a061dc7fc527288a3cd8a95f79b674dc2986c4bb031",
+      "characters": 742,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "委托无资质机构销售"
+      ],
+      "selection_reason": "批次区间b001–b020固定种子随机"
+    },
+    {
+      "file_id": "F006148",
+      "lane": "audit_b",
+      "batch_id": "b010",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b010\\p1\\F006148_r0.json",
+      "proposal_sha256": "51d075e684f9d969316dbcb7f11b22c9edf6b49e5dbd281fc8e5a1cd3b244586",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F006148.json",
+      "source_sha256": "a57f10e1f419c0545de2c3bfe7370d1467c5b3ba69f2bb7d13955679b1b17547",
+      "characters": 348,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "批次区间b001–b020固定种子随机"
+    },
+    {
+      "file_id": "F008651",
+      "lane": "audit_a",
+      "batch_id": "b035",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b035\\p3\\F008651_r0.json",
+      "proposal_sha256": "db06f480276029efeeec0e833c6c11193205d13ed740f124fe3cc75555a46811",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F008651.json",
+      "source_sha256": "c33c65c124d54c3b43d3c53dade33322c540480de5a4e31f8908c9fb43c4c00c",
+      "characters": 279,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "合同外利益"
+      ],
+      "selection_reason": "批次区间b021–b040固定种子随机"
+    },
+    {
+      "file_id": "F008038",
+      "lane": "audit_a",
+      "batch_id": "b025",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b025\\p2\\F008038_r0.json",
+      "proposal_sha256": "fba4fd4bf066974e43aa102c995e454c66bcee60ab3da00d5bea5b22811c62b7",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F008038.json",
+      "source_sha256": "d66dc0cb9caf837c509f80fffa4a10691168d406e425e889c791ad535fa4eff9",
+      "characters": 322,
+      "cases": 0,
+      "behaviors": 0,
+      "tags": [],
+      "selection_reason": "批次区间b021–b040固定种子随机"
+    },
+    {
+      "file_id": "F005844",
+      "lane": "audit_b",
+      "batch_id": "b025",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b025\\p2\\F005844_r0.json",
+      "proposal_sha256": "f99160b07b14257587461639d130b5fae7e8afd05abe83928ecdf6612803a16e",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F005844.json",
+      "source_sha256": "0c973688ffb1eecd1fb69de5c8ed7cb5c431b9f8050c34e3b5ccd9865c17c114",
+      "characters": 271,
+      "cases": 1,
+      "behaviors": 2,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "批次区间b021–b040固定种子随机"
+    },
+    {
+      "file_id": "F007196",
+      "lane": "audit_b",
+      "batch_id": "b024",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b024\\p1\\F007196_r0.json",
+      "proposal_sha256": "775e6d88894447395c135090c6cb83e2729363b2be162cc07996222bb44a30e5",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F007196.json",
+      "source_sha256": "b2a4ae5ec095387846d90532c19be16c98748126e6bd26d0d2fbd8bbde040d93",
+      "characters": 281,
+      "cases": 1,
+      "behaviors": 2,
+      "tags": [
+        "培训材料违规",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "批次区间b021–b040固定种子随机"
+    },
+    {
+      "file_id": "F001444",
+      "lane": "audit_a",
+      "batch_id": "b040",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b040\\p3\\F001444_r0.json",
+      "proposal_sha256": "b33731e9fdb461b445b2198cf72e3a259989820cc0924ba50ca45fd0aa77f968",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001444.json",
+      "source_sha256": "3bc9cafc03e9d6ff810379c3eb444697dc4ad4186985a4c08e4910d719951ab2",
+      "characters": 908,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "批次区间b021–b040固定种子随机"
+    },
+    {
+      "file_id": "F009709",
+      "lane": "audit_a",
+      "batch_id": "b040",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b040\\p3\\F009709_r0.json",
+      "proposal_sha256": "2b239d0edd525409ac0886ac3b5eed2516de24af3c337306c940d50aa4175f81",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F009709.json",
+      "source_sha256": "a4cbf9c3d1fa245d44a567d7f7fc9f890417b181f1a677b152263bade7e9eb13",
+      "characters": 306,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "批次区间b021–b040固定种子随机"
+    },
+    {
+      "file_id": "F002939",
+      "lane": "audit_a",
+      "batch_id": "b039",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b039\\p3\\F002939_r0.json",
+      "proposal_sha256": "575ea9448ef2d3c73d6280f3a1c60e4a3b65704acb23a1e4a52c18ba32884c60",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F002939.json",
+      "source_sha256": "3b4aa6c09cb1884e3ab89fa14d695f8d55e6d7e452bbb2a271d1364e59d88941",
+      "characters": 483,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "批次区间b021–b040固定种子随机"
+    },
+    {
+      "file_id": "F004550",
+      "lane": "audit_b",
+      "batch_id": "b023",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b023\\p2\\F004550_r0.json",
+      "proposal_sha256": "cbdbf6c500b7609fc776f21b1012e08da1b84f00a673fac84608df0beff77171",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004550.json",
+      "source_sha256": "4aa9671522389f7e6115c4f6e69f2f34696cce866aac480b125bf7a526fe05d0",
+      "characters": 314,
+      "cases": 3,
+      "behaviors": 3,
+      "tags": [
+        "其他",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "批次区间b021–b040固定种子随机"
+    },
+    {
+      "file_id": "F001216",
+      "lane": "audit_b",
+      "batch_id": "b043",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b043\\p1\\F001216_r0.json",
+      "proposal_sha256": "2d9bbacb8dd34870d4c41b06db3ad12fb6073dc8dffc8f9106176e8ee2676d7d",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001216.json",
+      "source_sha256": "b8696aae71c9000af1a2fe19f6cae4040554c99d54a9bc54dbf5aba09d6b2498",
+      "characters": 967,
+      "cases": 2,
+      "behaviors": 8,
+      "tags": [
+        "代理人管理不到位",
+        "培训材料违规",
+        "销售误导"
+      ],
+      "selection_reason": "批次区间b041–b060固定种子随机"
+    },
+    {
+      "file_id": "F002395",
+      "lane": "audit_a",
+      "batch_id": "b059",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b059\\p3\\F002395_r0.json",
+      "proposal_sha256": "dee6252c039bbb7fc26d288943cf54c14655390ec86b1a95142fc05630563296",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F002395.json",
+      "source_sha256": "d417fb6017d987226a88cc2ce581034870be4686aa04521c5b60d9eaf90d43a7",
+      "characters": 1581,
+      "cases": 3,
+      "behaviors": 3,
+      "tags": [
+        "代理人管理不到位"
+      ],
+      "selection_reason": "批次区间b041–b060固定种子随机"
+    },
+    {
+      "file_id": "F002954",
+      "lane": "audit_a",
+      "batch_id": "b057",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p3\\F002954_r0.json",
+      "proposal_sha256": "17f655fc1b2cde58b4fc604a0ccfe8b20bc20e1c33904f98cbdc054f624998b1",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F002954.json",
+      "source_sha256": "9379602326942f820a327e4ac03fb67d4b28e387399ea2c45da84b92d341d969",
+      "characters": 600,
+      "cases": 1,
+      "behaviors": 2,
+      "tags": [
+        "其他",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "批次区间b041–b060固定种子随机"
+    },
+    {
+      "file_id": "F006009",
+      "lane": "audit_a",
+      "batch_id": "b041",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b041\\p2\\F006009_r0.json",
+      "proposal_sha256": "ef331ad5826ef1abfac202625055ffa9a8fcd26fedb21b487d6d973023ca7363",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F006009.json",
+      "source_sha256": "1fc7d99b5000f06919b6089765f2a199dff08864a6d548075eda429fc71c04f6",
+      "characters": 260,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "欺骗投保人"
+      ],
+      "selection_reason": "批次区间b041–b060固定种子随机"
+    },
+    {
+      "file_id": "F009170",
+      "lane": "audit_a",
+      "batch_id": "b046",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b046\\p1\\F009170_r0.json",
+      "proposal_sha256": "67b7d7fba6578f0042957ac8d83d14fdb10e3134847bef0da3c506df3b319ef6",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F009170.json",
+      "source_sha256": "22aefdfcb16f1dbf1ebff85778c30af8934274f9730d016fc1342c29e33edde3",
+      "characters": 842,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "客户信息不真实"
+      ],
+      "selection_reason": "批次区间b041–b060固定种子随机"
+    },
+    {
+      "file_id": "F009098",
+      "lane": "audit_a",
+      "batch_id": "b057",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p1\\F009098_r0.json",
+      "proposal_sha256": "367e9f7dd1518b4e5a86180007e22c52ef7268d85c356d2cf9378a80bad2dd51",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F009098.json",
+      "source_sha256": "30cd764b7c209ea210941b0cf99f3f002f1b1d4cb24663551724baa7212d8f1d",
+      "characters": 330,
+      "cases": 1,
+      "behaviors": 2,
+      "tags": [
+        "合同外利益",
+        "销售误导"
+      ],
+      "selection_reason": "批次区间b041–b060固定种子随机"
+    },
+    {
+      "file_id": "F006045",
+      "lane": "audit_b",
+      "batch_id": "b060",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b060\\p3\\F006045_r0.json",
+      "proposal_sha256": "64174ac8d625f5cdf3409034b366f7ce7274d3ad3183b6a73ed3ba5f422d648e",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F006045.json",
+      "source_sha256": "f9c2b9b663b5ea247879ba7a62af5a2dde574997ded4e2faf24c8c948b6a53f3",
+      "characters": 253,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "合同外利益"
+      ],
+      "selection_reason": "批次区间b041–b060固定种子随机"
+    },
+    {
+      "file_id": "F002973",
+      "lane": "audit_b",
+      "batch_id": "b044",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b044\\p3\\F002973_r0.json",
+      "proposal_sha256": "fa1d01abe6331822e25e82cd7edab3f3ba08da7138b3c4e3b15f1963f90b1249",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F002973.json",
+      "source_sha256": "d84c02c62353c10e2553d83eb6f734709bafce60af5ddd41430a87f52ab8dd3b",
+      "characters": 378,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "批次区间b041–b060固定种子随机"
+    },
+    {
+      "file_id": "F000306",
+      "lane": "audit_b",
+      "batch_id": "b079",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b079\\p2\\F000306_r0.json",
+      "proposal_sha256": "109866f1518d47d03e7f8858729e8689335ba848ff8ad11e7af595092f82b3af",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000306.json",
+      "source_sha256": "81a4e4105cdf866b863876f826d3e8ad01d4f7bb49090ac6bc8029a667500656",
+      "characters": 939,
+      "cases": 2,
+      "behaviors": 4,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "批次区间b061–b086固定种子随机"
+    },
+    {
+      "file_id": "F009995",
+      "lane": "audit_a",
+      "batch_id": "b069",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b069\\p1\\F009995_r0.json",
+      "proposal_sha256": "899c70b8d1a54abf8fbdb5f9b6df8fb6a3db54dea0eb79adce1ac1e96cbc164b",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F009995.json",
+      "source_sha256": "87ecb2512fd90bd2e6cca9fa998c0007145e585bffd090b7532fdc8f0fc179ab",
+      "characters": 316,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "批次区间b061–b086固定种子随机"
+    },
+    {
+      "file_id": "F008828",
+      "lane": "audit_a",
+      "batch_id": "b066",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b066\\p1\\F008828_r0.json",
+      "proposal_sha256": "8ef2ebf412784fa6bea205a16309ae8cba156f3d782b24fdf2121f0a2b06aa1c",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F008828.json",
+      "source_sha256": "1e6c1b7fb7300b0dd6e0d8bf899f3e94c1de814703390e6904b291fe51ef5757",
+      "characters": 295,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "批次区间b061–b086固定种子随机"
+    },
+    {
+      "file_id": "F003758",
+      "lane": "audit_b",
+      "batch_id": "b073",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b073\\p3\\F003758_r0.json",
+      "proposal_sha256": "bdaa7a135efb3980f4bae674eed688d31697fcc343f73eefa907dba1b6842473",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F003758.json",
+      "source_sha256": "550ce8edcd8ad18d63bebe03c17f2f6be9615ee6c9042bcdf0a498f5e82a406f",
+      "characters": 393,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "未按规定使用费率条款"
+      ],
+      "selection_reason": "批次区间b061–b086固定种子随机"
+    },
+    {
+      "file_id": "F006352",
+      "lane": "audit_b",
+      "batch_id": "b064",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b064\\p1\\F006352_r0.json",
+      "proposal_sha256": "d47a3985fe79d1cd47e396fd6e044cc290427455457e032877eced4417714b66",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F006352.json",
+      "source_sha256": "8a28362365e3ee2f44c01ebad6af9891fb641bf6e0417e75df4f26c8d732f094",
+      "characters": 467,
+      "cases": 4,
+      "behaviors": 4,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "批次区间b061–b086固定种子随机"
+    },
+    {
+      "file_id": "F000472",
+      "lane": "audit_b",
+      "batch_id": "b085",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p1\\F000472_r0_fix01.json",
+      "proposal_sha256": "a88c5ac769e44d2d1cb13835bc753217b975674965fdba0753b47c242bbc8712",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000472.json",
+      "source_sha256": "458ef9f363103a3620de011cc6c1762dc146641abe47a00bba0eebc5817428d7",
+      "characters": 1216,
+      "cases": 10,
+      "behaviors": 13,
+      "tags": [
+        "合同外利益",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "批次区间b061–b086固定种子随机"
+    },
+    {
+      "file_id": "F008681",
+      "lane": "audit_a",
+      "batch_id": "b063",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b063\\p1\\F008681_r0.json",
+      "proposal_sha256": "e559320ca4d5957671608442f6bdb18f84c42417d1ba19b2781f00876ed82a3b",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F008681.json",
+      "source_sha256": "482ae5256993b9f47cc434d30439f9429a2b748c99dce5e21281849031c71895",
+      "characters": 566,
+      "cases": 6,
+      "behaviors": 12,
+      "tags": [
+        "其他",
+        "未按规定使用费率条款"
+      ],
+      "selection_reason": "批次区间b061–b086固定种子随机"
+    },
+    {
+      "file_id": "F000526",
+      "lane": "audit_a",
+      "batch_id": "b085",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p3\\F000526_r0.json",
+      "proposal_sha256": "f1b19ee6db3cc182060dad1291dd93dab25f3c7571268b59ca834290b2543258",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000526.json",
+      "source_sha256": "9d699ce96a9938f9eb3a94cb9ec63d4d6bc7f022cbd225aa676e4ffa1c742ece",
+      "characters": 1050,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "批次区间b061–b086固定种子随机"
+    },
+    {
+      "file_id": "F000618",
+      "lane": "audit_a",
+      "batch_id": "b081",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b081\\p2\\F000618_r0.json",
+      "proposal_sha256": "180199cb0bb46261a7022082bb063f847985013a7299ed3a1c295a6a9464c487",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000618.json",
+      "source_sha256": "64c10e5525815fa18849226058f4e3d7dc4ab5a44e9723cdff601ec2e6a01b67",
+      "characters": 3121,
+      "cases": 10,
+      "behaviors": 26,
+      "tags": [
+        "其他",
+        "未按规定使用费率条款"
+      ],
+      "selection_reason": "多主体定向"
+    },
+    {
+      "file_id": "F008707",
+      "lane": "audit_b",
+      "batch_id": "b020",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b020\\p2\\F008707_r0.json",
+      "proposal_sha256": "a86f2bf16d7c683d0fed8cd4103dca089cbb65b324cdb311bb5d1c7a749c751b",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F008707.json",
+      "source_sha256": "a082a43f7cf2b8ac3b62d1a5858505e792c4795bb984b00bb62f51c44001882d",
+      "characters": 420,
+      "cases": 3,
+      "behaviors": 9,
+      "tags": [
+        "未按规定使用费率条款",
+        "欺骗投保人",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "多主体定向"
+    },
+    {
+      "file_id": "F003988",
+      "lane": "audit_a",
+      "batch_id": "b062",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b062\\p3\\F003988_r0.json",
+      "proposal_sha256": "c55dbb3955ba689b62c6bb4a8fd67f21a58878e323b9cb61739fc233052bae9a",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F003988.json",
+      "source_sha256": "c6247fea7ff23854cb72d94ba8872b4ee83d49619b6acabdb39c6f4c62f8db15",
+      "characters": 210,
+      "cases": 4,
+      "behaviors": 4,
+      "tags": [
+        "客户信息不真实"
+      ],
+      "selection_reason": "多主体定向"
+    },
+    {
+      "file_id": "F008116",
+      "lane": "audit_a",
+      "batch_id": "b005",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b005\\p2\\F008116_r0.json",
+      "proposal_sha256": "1974021717fda7496f936f62cd6ff82e1b22900596f70ec8ff014d4b91acecda",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F008116.json",
+      "source_sha256": "1ed72d0958a75b3a24a334e8607cc0b9345b55809b2e480c5b19fbf284caba4a",
+      "characters": 599,
+      "cases": 5,
+      "behaviors": 13,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "多主体定向"
+    },
+    {
+      "file_id": "F003089",
+      "lane": "audit_b",
+      "batch_id": "b059",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b059\\p3\\F003089_r0.json",
+      "proposal_sha256": "cabc1b15fd96367f7f0797587a971f878e9a78a8d1f467efee7f1c83109dd3ed",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F003089.json",
+      "source_sha256": "b2a9400895b543402a3be555a0edc2d1cd0eeccd4bb1ab5d3b5bf04e3b59d608",
+      "characters": 792,
+      "cases": 3,
+      "behaviors": 9,
+      "tags": [
+        "其他",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "多主体定向"
+    },
+    {
+      "file_id": "F004694",
+      "lane": "audit_b",
+      "batch_id": "b031",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b031\\p2\\F004694_r0.json",
+      "proposal_sha256": "21b26236d08e5b14cbeb246b246375371de862b9afdb9f54a7f53421bc13c329",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004694.json",
+      "source_sha256": "a9135e3406a24d174a550d356624fd7f40f4b6eb6a0e81354dae2410f62463b0",
+      "characters": 563,
+      "cases": 6,
+      "behaviors": 8,
+      "tags": [
+        "未按规定使用费率条款",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "多行为定向"
+    },
+    {
+      "file_id": "F004586",
+      "lane": "audit_b",
+      "batch_id": "b060",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b060\\p2\\F004586_r0.json",
+      "proposal_sha256": "3ad6656707c55461aafc1676e85119518eb6c9cac886a63cf039804b2f61e511",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004586.json",
+      "source_sha256": "b3aa2b6bee27210802b569f3e65fbf377a928341923d72ac0cb6fee97cb6aa1f",
+      "characters": 535,
+      "cases": 4,
+      "behaviors": 7,
+      "tags": [
+        "代理人管理不到位",
+        "其他"
+      ],
+      "selection_reason": "多行为定向"
+    },
+    {
+      "file_id": "F005834",
+      "lane": "audit_b",
+      "batch_id": "b050",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b050\\p1\\F005834_r0.json",
+      "proposal_sha256": "498317291f44f6f46ed801ca20c4bd57f2a438c914003da65e90acd488f84af1",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F005834.json",
+      "source_sha256": "f5c47819f279361adc871d4a3425a2668eba27bc01621708855a45074acc9271",
+      "characters": 592,
+      "cases": 6,
+      "behaviors": 12,
+      "tags": [
+        "其他",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "多行为定向"
+    },
+    {
+      "file_id": "F004969",
+      "lane": "audit_a",
+      "batch_id": "b026",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b026\\p1\\F004969_r0.json",
+      "proposal_sha256": "cf6b7a52714a1bb92800c3fba0abd80f48289fbd1fe88fb33ebaef19302c75c9",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004969.json",
+      "source_sha256": "6b36155b7a837d3b1b9f2c8ef9e02768156d7b9561b907db857b69da73668f5e",
+      "characters": 1352,
+      "cases": 11,
+      "behaviors": 12,
+      "tags": [
+        "其他",
+        "未按规定使用费率条款"
+      ],
+      "selection_reason": "多行为定向"
+    },
+    {
+      "file_id": "F004041",
+      "lane": "audit_a",
+      "batch_id": "b012",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b012\\p1\\F004041_r0.json",
+      "proposal_sha256": "bce198c23c566f22c572c3f49dad5876967f13343b83d1a258062f2c1aecfe4e",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004041.json",
+      "source_sha256": "0bd88b39fc09a51923454d340f981285e6174aa89b9565698da79087e61cf638",
+      "characters": 665,
+      "cases": 12,
+      "behaviors": 22,
+      "tags": [
+        "代理人管理不到位",
+        "其他",
+        "合同外利益",
+        "虚列费用套取资金",
+        "销售误导"
+      ],
+      "selection_reason": "多行为定向"
+    },
+    {
+      "file_id": "F007796",
+      "lane": "audit_b",
+      "batch_id": "b015",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b015\\p3\\F007796_r0.json",
+      "proposal_sha256": "b996ae6a585d6024425528193f480078bcee32eef3f8fa59ab9517b1dbb9bda3",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F007796.json",
+      "source_sha256": "5128544e6ca6fc84feecbb6b723d85574584714a9bad0628e8a3a9541cda8480",
+      "characters": 296,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "未知责任或非保险相关定向"
+    },
+    {
+      "file_id": "F003876",
+      "lane": "audit_a",
+      "batch_id": "b001",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p3\\F003876_r0_fix08.json",
+      "proposal_sha256": "4ab02700b04b5498d24e33c709eb2fa338a301153c5b5afa25e5aaedf2f82072",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F003876.json",
+      "source_sha256": "fc5e11ee146c454807c3a791488ba8a40e3d52e70b53775a22db0e1e735267d8",
+      "characters": 936,
+      "cases": 2,
+      "behaviors": 4,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "未知责任或非保险相关定向"
+    },
+    {
+      "file_id": "F004654",
+      "lane": "audit_a",
+      "batch_id": "b053",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b053\\p1\\F004654_r0.json",
+      "proposal_sha256": "de6d61391a5d0308aa1f9eba8c05da1a91d4fcd0e536b59eca0e1e5b52c30f7b",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F004654.json",
+      "source_sha256": "b4ad9ee45a8ac3141fbcfbc09da062b0e33017e9088f1c406f8efb3537e962e6",
+      "characters": 254,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "未知责任或非保险相关定向"
+    },
+    {
+      "file_id": "F008905",
+      "lane": "audit_a",
+      "batch_id": "b074",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b074\\p3\\F008905_r0.json",
+      "proposal_sha256": "27abc7ed1800364aed23f01e4e26ea426127b8ed221a9bf78821fd30ed963bd0",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F008905.json",
+      "source_sha256": "d6a3cf75c46a8de8eb54bdb938d51efe8f3cf4f2459887cc2662607c8caacc74",
+      "characters": 351,
+      "cases": 3,
+      "behaviors": 3,
+      "tags": [
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "未知责任或非保险相关定向"
+    },
+    {
+      "file_id": "F009555",
+      "lane": "audit_a",
+      "batch_id": "b018",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p1\\F009555_r0.json",
+      "proposal_sha256": "c1cd9003e15c04b4121433bb11c99ce56734020efa8a32d89aeffe78c51e79e2",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F009555.json",
+      "source_sha256": "90f5d75c750d6a935fffa9efff6b7bd9cca2be1516ddc9116343eb1b8aa501e4",
+      "characters": 393,
+      "cases": 1,
+      "behaviors": 3,
+      "tags": [
+        "代理人管理不到位",
+        "合同外利益",
+        "虚列费用套取资金",
+        "销售误导"
+      ],
+      "selection_reason": "未知责任或非保险相关定向"
+    },
+    {
+      "file_id": "F009223",
+      "lane": "audit_a",
+      "batch_id": "b085",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p1\\F009223_r0.json",
+      "proposal_sha256": "e85d29d69330a734614071bf969f6991abf69df4ed5c77b33b8be8182e0f2911",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F009223.json",
+      "source_sha256": "a212fc815b7f95f65fef5b9a77d4e81e507c9cc06b9bc1bbcea4be93e99efa2c",
+      "characters": 6665,
+      "cases": 13,
+      "behaviors": 26,
+      "tags": [
+        "不当比较",
+        "保证收益",
+        "其他",
+        "合同外利益",
+        "回扣返佣",
+        "欺骗投保人",
+        "绝对化表述",
+        "虚假宣传",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "长文定向"
+    },
+    {
+      "file_id": "F003314",
+      "lane": "audit_b",
+      "batch_id": "b001",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003314_r0.json",
+      "proposal_sha256": "75fa6e3bdd8e9ff8f9bcc72b3767e4a7d3d5f16a3d5378d6590acdfde66316f5",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F003314.json",
+      "source_sha256": "7cfbf037824a72940513e654e3d135e7e0f42155e0b5950f526c2acb14d10bec",
+      "characters": 5162,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "长文定向"
+    },
+    {
+      "file_id": "F002890",
+      "lane": "audit_b",
+      "batch_id": "b048",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002890_r0_fix01.json",
+      "proposal_sha256": "4878eeb012a4e5ff9a590206863bfc150dfeee707f2edaf363ed79ef56a124b2",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F002890.json",
+      "source_sha256": "c1b9355868be835d071c66519709781425041f9b69ac814c2590603f0e5892fb",
+      "characters": 4275,
+      "cases": 12,
+      "behaviors": 16,
+      "tags": [
+        "其他",
+        "客户信息不真实"
+      ],
+      "selection_reason": "长文定向"
+    },
+    {
+      "file_id": "F001744",
+      "lane": "audit_b",
+      "batch_id": "b062",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b062\\p1\\F001744_r0.json",
+      "proposal_sha256": "9d3bd7d53764467e3888e9ed1df9b3457fab8a3c4db182469cd96433e7c033ed",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001744.json",
+      "source_sha256": "6fd15c869ba6c9cf2495bc1cce85fdbc6c06fe02b29da4d3c8eacd3946d40625",
+      "characters": 1519,
+      "cases": 1,
+      "behaviors": 3,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F001607",
+      "lane": "audit_a",
+      "batch_id": "b048",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p3\\F001607_r0.json",
+      "proposal_sha256": "66cdcf7f0e312ffc068f0786da3dadcd772b2b50e403419ae3bf3eec166582a0",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001607.json",
+      "source_sha256": "d84e7d333d36f05803b7fc488c52c1c039540034ac2258f6f5f42fe718c82021",
+      "characters": 544,
+      "cases": 1,
+      "behaviors": 2,
+      "tags": [
+        "回扣返佣",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F007600",
+      "lane": "audit_a",
+      "batch_id": "b060",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b060\\p1\\F007600_r0.json",
+      "proposal_sha256": "e4fb136f27df623fb3796f116d6662444ab45e3d428318139ad41d8e8ea444d3",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F007600.json",
+      "source_sha256": "32291d9bc49181cc4ab53acde3b962d23c22869077857bf758a0aab7e4851e07",
+      "characters": 311,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "代理人管理不到位"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F008914",
+      "lane": "audit_b",
+      "batch_id": "b072",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p2\\F008914_r0_fix01.json",
+      "proposal_sha256": "df6d24d41b3c0d8792b14735b8378d51c1751b2f31f037c9fa53f4e99a513ce3",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F008914.json",
+      "source_sha256": "26a36594b93663000a494046ebdb18f7dca49ee51e5db534df578f9ddc4b7452",
+      "characters": 229,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F006548",
+      "lane": "audit_a",
+      "batch_id": "b066",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b066\\p3\\F006548_r0.json",
+      "proposal_sha256": "41195054ae90fbbe9325704dc8d151ccd3534f467811c47b85437cbc20565982",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F006548.json",
+      "source_sha256": "ba1d7466e45eeead0046a3de06108ab3f0ee210df82b2a4e9700b81fedc57401",
+      "characters": 262,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F001294",
+      "lane": "audit_b",
+      "batch_id": "b065",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b065\\p1\\F001294_r0.json",
+      "proposal_sha256": "54e48903b1496874394e16cbd180c0110e3aad3364fc7d07ca7be728525e5d6f",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001294.json",
+      "source_sha256": "51d191ac4fc1ad469cf34a7c0bad7f732b2880901c51576331d6c731624f0213",
+      "characters": 1031,
+      "cases": 2,
+      "behaviors": 4,
+      "tags": [
+        "合同外利益",
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F005641",
+      "lane": "audit_b",
+      "batch_id": "b017",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b017\\p3\\F005641_r0.json",
+      "proposal_sha256": "8a67399e164ddbaa5d8ce7fe5fbd4022ff260ad3ebd48f19dc75a62d95401c0b",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F005641.json",
+      "source_sha256": "af9039860ea01541dc1d02cbce35ac6f195b39e3a8d76fac12ed6840f8474bf7",
+      "characters": 322,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F000561",
+      "lane": "audit_b",
+      "batch_id": "b082",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b082\\p2\\F000561_r0.json",
+      "proposal_sha256": "a887b313800ab9d6de2f25fb3e4f2eb6c32cb1fbf7e4f9e185769daf7432633e",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000561.json",
+      "source_sha256": "c5ffc0b7ac6088a9ba00268d3143429ae3382bf1df6b4c206d9985598ac5d76d",
+      "characters": 1802,
+      "cases": 3,
+      "behaviors": 6,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F000092",
+      "lane": "audit_b",
+      "batch_id": "b086",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b086\\p3\\F000092_r0.json",
+      "proposal_sha256": "0ad7a1157f11a93e3e6c47acc3a6b679fab440da550342a0e3827c2b33791fd5",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000092.json",
+      "source_sha256": "0a4d2c2976d0227b2ca8fbc860203ebc13747d43af0169792e45c9a852ba2ac8",
+      "characters": 282,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "欺骗投保人"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F005640",
+      "lane": "audit_a",
+      "batch_id": "b067",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b067\\p1\\F005640_r0.json",
+      "proposal_sha256": "a018436611bb5cba9e3a40e1cee970ed226240b1b5e32b253eeb658f25100c6e",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F005640.json",
+      "source_sha256": "5b159987ce90178faf1ae503313623a4632126ab793b4706e336a2441b56d545",
+      "characters": 282,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "合同外利益"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F002373",
+      "lane": "audit_b",
+      "batch_id": "b005",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b005\\p2\\F002373_r0.json",
+      "proposal_sha256": "5173b3220d1f098c265078a2909bed4cfcbbf97a14f5aef518d49ecdc7c47c8a",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F002373.json",
+      "source_sha256": "7ac689d01e937f6f3ecced53a17fe07c7021ad618cada18cf15da5cc01b7b273",
+      "characters": 775,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F007883",
+      "lane": "audit_a",
+      "batch_id": "b006",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b006\\p3\\F007883_r0.json",
+      "proposal_sha256": "f349305132e5adc84f62a5ad0e78d058cb1976f73b35f2b49dd6ab8bc3c943fe",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F007883.json",
+      "source_sha256": "b1d47107d992b85e0b41af1a45391ad41c07128dcf0eb4575a571fc981983cd4",
+      "characters": 325,
+      "cases": 2,
+      "behaviors": 2,
+      "tags": [
+        "合同外利益"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F006228",
+      "lane": "audit_a",
+      "batch_id": "b009",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b009\\p1\\F006228_r0.json",
+      "proposal_sha256": "1776ade0552c712599eaa84289ea733d52fad29e355d56c4eaea4c2072a2b6a5",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F006228.json",
+      "source_sha256": "37f6235c0d4160e77c3cef98b03e76fabe6ffdb6c63726975906ed4bd587ea8e",
+      "characters": 245,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F002918",
+      "lane": "audit_b",
+      "batch_id": "b018",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p2\\F002918_r0.json",
+      "proposal_sha256": "141de6831128d504a66df997e8989b47e5efabdd750b73f4ea3a4be3578f9b46",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F002918.json",
+      "source_sha256": "e5f6a32d4a38af03adb0bc9cba54a8f0f993e5a4dd1cdb568741cbf5860921c3",
+      "characters": 639,
+      "cases": 1,
+      "behaviors": 5,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F007982",
+      "lane": "audit_a",
+      "batch_id": "b040",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b040\\p2\\F007982_r0.json",
+      "proposal_sha256": "5f1ada9254c30978c7530d833f9f5bf3a38b89fc68e62a6dae564378839cc38c",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F007982.json",
+      "source_sha256": "e7f076ac15cb951815bfcfd787036fdce77effc1d19aadbbac2b4dc0d101b194",
+      "characters": 228,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "虚列费用套取资金"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F009099",
+      "lane": "audit_b",
+      "batch_id": "b031",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b031\\p2\\F009099_r0.json",
+      "proposal_sha256": "bc3b530bb39e29efbfccb48fadeb694aa0e263cd37f6cb941e1935dc75f8a5f3",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F009099.json",
+      "source_sha256": "cd8aa3f3dcb6a5e401bbcf5d74de4205759ef5b85bda2e0cdb27dd01d6e6b6ef",
+      "characters": 879,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "未按规定使用费率条款"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F001347",
+      "lane": "audit_b",
+      "batch_id": "b021",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b021\\p1\\F001347_r0.json",
+      "proposal_sha256": "87b519da731e5db40a0f80accc4ed4c16c97807342f6847f0c47b264da467572",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F001347.json",
+      "source_sha256": "3c27f7950d335ff7e877286c856af92d5fd933a4d676486f999950e40aa36edd",
+      "characters": 936,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F005669",
+      "lane": "audit_b",
+      "batch_id": "b057",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p3\\F005669_r0.json",
+      "proposal_sha256": "4b168f0d3a1e7a99ddfd94b9a73feae02db3cc0303ea8b876119969807482ec1",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F005669.json",
+      "source_sha256": "1438d37c727d0691ae7af49c6f8633f84f40aa7505771c1442f6bdf3f972b516",
+      "characters": 260,
+      "cases": 1,
+      "behaviors": 1,
+      "tags": [
+        "其他"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F009750",
+      "lane": "audit_b",
+      "batch_id": "b010",
+      "part_id": "p1",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b010\\p1\\F009750_r0.json",
+      "proposal_sha256": "e2554b9163f8eb658a714b167227f85704a214222bee3b5f4d75c0f1603a8d13",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F009750.json",
+      "source_sha256": "2312a4727756007d1077da47a57ce9ba707fe3594adb50d22830283cbab49d64",
+      "characters": 323,
+      "cases": 1,
+      "behaviors": 2,
+      "tags": [
+        "合同外利益",
+        "隐瞒重要信息"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F000673",
+      "lane": "audit_a",
+      "batch_id": "b082",
+      "part_id": "p2",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b082\\p2\\F000673_r0.json",
+      "proposal_sha256": "7a0b637644df4ecd6684f97cc323a1d8de40fea4da9fd343893a1585b90ab7f2",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F000673.json",
+      "source_sha256": "879b66c8161bad8c748df2098294dc9859e155a31a0e05a02ff9ca56aa2ba8f1",
+      "characters": 1027,
+      "cases": 3,
+      "behaviors": 3,
+      "tags": [
+        "欺骗投保人",
+        "电销违规"
+      ],
+      "selection_reason": "补足固定种子随机"
+    },
+    {
+      "file_id": "F007794",
+      "lane": "audit_b",
+      "batch_id": "b059",
+      "part_id": "p3",
+      "proposal_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b059\\p3\\F007794_r0.json",
+      "proposal_sha256": "69b05d46ba62c6f7d79d9dc989d7cef8669ba56e66142becbe0f2c4877de67c2",
+      "task_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量准备_20261011\\tasks\\F007794.json",
+      "source_sha256": "682fa4636fa903b9fa0ce2c1e887004195ec4a47f0496bf44f2ad53655b1a20c",
+      "characters": 309,
+      "cases": 1,
+      "behaviors": 2,
+      "tags": [
+        "代理人管理不到位",
+        "欺骗投保人"
+      ],
+      "selection_reason": "补足固定种子随机"
+    }
+  ],
+  "covered_tags": [
+    "不当比较",
+    "产品说明会违规",
+    "代理人管理不到位",
+    "保证收益",
+    "其他",
+    "合同外利益",
+    "回扣返佣",
+    "回访违规",
+    "培训材料违规",
+    "夸大收益",
+    "委托无资质机构销售",
+    "客户信息不真实",
+    "弱化风险提示",
+    "承诺收益",
+    "未按规定使用费率条款",
+    "欺骗投保人",
+    "电销违规",
+    "绝对化表述",
+    "虚假宣传",
+    "虚列费用套取资金",
+    "虚构收益率",
+    "诱导投保",
+    "贬低竞品",
+    "赠送利益",
+    "避债避税",
+    "销售误导",
+    "隐瞒重要信息"
+  ],
+  "not_covered_tags": [],
+  "lane_characters": {
+    "audit_a": 31394,
+    "audit_b": 31413
+  }
+}

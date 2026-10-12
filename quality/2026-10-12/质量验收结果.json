@@ -1,0 +1,2343 @@
+{
+  "completed_at_utc": "2026-10-11T18:44:43.190944+00:00",
+  "sample_documents": 100,
+  "sample_seed": 20261012,
+  "sample_is_purposive_mixed_not_accuracy_estimate": true,
+  "first_review_counts": {
+    "needs_fix": 78,
+    "pass": 21,
+    "uncertain": 1
+  },
+  "first_review_active_findings": 141,
+  "confirmed_findings_repaired": 140,
+  "uncertain_findings_remaining": 1,
+  "candidate_documents_changed": 79,
+  "latest_hardcheck_passed": 100,
+  "current_sample_official_tags_covered": 27,
+  "cases": 353,
+  "behaviors": 632,
+  "checker_sha256": "5cd46c3cb4a419d8deacb5840279dc364620bf99b7039d0fbe335befc7c69bb2",
+  "frozen_checker_sha256": {
+    "work/finrisk_confirm30/check_proposals.py": "43a7d56643279f0ee368d1f90a3097bd1c432a7a9df57fcf9356d83bfd108577",
+    "work/finrisk_remaining/quality_guard.py": "c3a8e9bf9de462383b08f6d8d3da6d3bff34554b3231ba35c3d0cd4e432e4ee3",
+    "work/finrisk_bulk/prepare_run.py": "48d6a799b67d01f8745a9b8973532a0b2814b24ba32a9cb1b95b437889539b4f"
+  },
+  "quote_fields_checked": 9741,
+  "quote_spans_checked": 14337,
+  "coverage_uncovered_tokens": 0,
+  "all_original_sample_candidates_unchanged": true,
+  "original_signal_snapshot_flagged_documents": 4564,
+  "unreviewed_signal_documents_outside_sample": 4514,
+  "full_population_semantic_acceptance": false,
+  "ledger_registration_performed": false,
+  "blind_reserve_full_text_read": false,
+  "external_api_calls": 0,
+  "human_approved": 0,
+  "sample_gate": "修稿后样本可供人工验收；全量内容验收未完成，补登记待质量门槛",
+  "records": [
+    {
+      "file_id": "F002920",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002920_r0_fix02.json",
+      "latest_candidate_sha256": "3188a777cd968a64a8c869f5aac73121928e285f28afd272f05ca2e31d4f763e",
+      "source_sha256": "afe694d043c76a0e0117e316c577a8847f95e8db96cd16ca9f95ab0b8a3d393d",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk01\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "REGULATOR_PAYEE_INFERENCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F003940",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b054\\p2\\F003940_r0_fix04.json",
+      "latest_candidate_sha256": "41dc9128b29723bc7136aa662367c4afc7ea97f961bc111b973ceb35831a6779",
+      "source_sha256": "a87513d711b3a0cee1e6ab3054e2ee98295fce7d5e47421dfbdfd8383e2e226c",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk01\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "declared_source_issue",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "penalty_amount_unknown_requires_review"
+      ],
+      "cases": 29,
+      "behaviors": 37,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004062",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b055\\p1\\F004062_r0.json",
+      "latest_candidate_sha256": "9b22170e97b2469a1a8499ddbd5aacc593d72da147e36e4b25bd3a1aca7721ba",
+      "source_sha256": "61ba5fe56a2292ea08d55d1e901683e2b83df19e92f621d89faab7d7154749ce",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk01\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004120",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p3\\F004120_r0_fix04.json",
+      "latest_candidate_sha256": "a82221980171cb0448b587e4f465d03131644159e5a21d8be513f7aee6aaa81d",
+      "source_sha256": "ba118c03398197c1958de0bb2ef59b8fe39cafb781fa9addacb26055324c8f6b",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk01\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "PARTY_NAME_TRUNCATED"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "declared_source_issue",
+        "important_or_critical_unresolved",
+        "multiple_decisions",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 15,
+      "behaviors": 15,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004986",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b058\\p3\\F004986_r0.json",
+      "latest_candidate_sha256": "531c9456faed05c3e1e22883f2c67d4179a0fd43f813c0ae5b440dbefca43990",
+      "source_sha256": "f3c04c3404c6762d4efbc9c70ec580de764fc2344ba7837f96763f0b6234912c",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk01\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_decisions",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 3,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004260",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b066\\p3\\F004260_r0.json",
+      "latest_candidate_sha256": "6b8ecaeb535e1cf9e2b8abce487a0b1541213dee31aee0682ce72299e2d9cb93",
+      "source_sha256": "a704c03583d4982f559b5fef7608c7e2b5c58e2d413606c711baf2504445dc98",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk02\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_decisions",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 7,
+      "behaviors": 11,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002919",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b068\\p1\\F002919_r0_fix01.json",
+      "latest_candidate_sha256": "c1781bce8ee6faa7099573c26e441640e78eb5071ee3cbfbc703ce40eb83a83b",
+      "source_sha256": "505e3a70bc9739c60b19ac3a7ffbd156505f2a1a01c9d77ecb20e40332bb99fd",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk02\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "REGULATOR_PAYEE_INFERENCE"
+      ],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F005014",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b071\\p1\\F005014_r0_fix02.json",
+      "latest_candidate_sha256": "2d8be2849267fb71f72f7f90f0503e340e2ce20540deec9500110d125ec182e7",
+      "source_sha256": "054939b0d646d5a5230332602837e83bc8cdf77faaff1a707754d16108fa09e8",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk02\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "MARKETING_RELEVANCE",
+        "UNKNOWN_RECALL_TAGS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 6,
+      "behaviors": 10,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004065",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p1\\F004065_r0.json",
+      "latest_candidate_sha256": "185a9a5739408de851dc8421aad2c5a0f5cefd57d3b2175446f0075e80ca08ae",
+      "source_sha256": "910a27f0309f7e34700e038bf4e5f15d967970632ab0f3fee55e6c79ce7c9605",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk02\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_decisions",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 3,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001121",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p2\\F001121_r0_fix02.json",
+      "latest_candidate_sha256": "c120251f66b9d53d864d4a4bb7bae05b7516725ad978bc4978e06340a916ca2c",
+      "source_sha256": "83ebd0f7cc8e81b2368e078dfdfcb8f80ccad7a05dd17e75533b164f4d6cb622",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk02\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "LEGAL_REF_OMISSION",
+        "MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "declared_source_issue",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F003979",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b074\\p1\\F003979_r0.json",
+      "latest_candidate_sha256": "a0879974c03f5def5535251aaf05891394db94656503e0623200140af620fb0c",
+      "source_sha256": "04d734e879800ab5097e10eee53842ed15ee14dc769b66189eb7c66f9a295100",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk03\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004080",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b074\\p3\\F004080_r0.json",
+      "latest_candidate_sha256": "49841c34e55555ac20ca4186d389da9cbdcb8da12bfdffb1c69a34918d1e02bf",
+      "source_sha256": "365f1716276f60e83f1228a3b5fbf338e983721e6d20891f27c810f66b6784f5",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk03\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "important_or_critical_unresolved",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "penalty_amount_unknown_requires_review"
+      ],
+      "cases": 7,
+      "behaviors": 14,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000636",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b079\\p2\\F000636_r0_fix01.json",
+      "latest_candidate_sha256": "0252683363adb53d1d0127e953e2dc4d557f9b593c9d4468109566fb59aa99ba",
+      "source_sha256": "05653cdafa7d31f49c04eddb30e7c2acc4ce5e2b63465f1310055ed14e748869",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk03\\result.json",
+      "original_findings": 3,
+      "resolved_codes": [
+        "DOC_NO_OMISSION",
+        "LEGAL_REF_CROSS_PARTY",
+        "MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 4,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000575",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b080\\p2\\F000575_r0_fix01.json",
+      "latest_candidate_sha256": "60bb5cc0e254244dcde553b06e78fabfa6846c352b8a6727cbffa93271a6a01a",
+      "source_sha256": "6e647d5c4632808a715dacef4da62eae5f5af3ce6048a0f54eb4503edd6ac876",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk03\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "LEGAL_REF_OMISSION",
+        "MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "declared_source_issue"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000635",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b080\\p2\\F000635_r0.json",
+      "latest_candidate_sha256": "6b9b00dcbbb73fb85284217db1522d111dee6c43fca681de378fb81aaa06415e",
+      "source_sha256": "efb61549bde804761b074cfb4dbc171434fda6ee4c089aeb9ed6594f49ebe67c",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk03\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000576",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p2\\F000576_r0_fix01.json",
+      "latest_candidate_sha256": "36b87ec1e5eeba6280033e3f4878acb60d9fd9d43692ed2d82ec246dd96d3e19",
+      "source_sha256": "7695eda48ae0570a7f169c8e741bfd7e4a15727ab11d56876c554bce12ad1045",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk04\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_REF_CROSS_PARTY"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000639",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p3\\F000639_r0_fix01.json",
+      "latest_candidate_sha256": "0a1e10326fb4de537551cc5297d252aafd8ab30831719f21d3d8ac5ca28d3401",
+      "source_sha256": "b1dea546839d7d400a8e4622b0d7b49d53f16ae8a926f79536342fc7189edfa5",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk04\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "LEGAL_REF_CROSS_PARTY",
+        "MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F005750",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p3\\F005750_r0_fix01.json",
+      "latest_candidate_sha256": "6ecc85b1ad19f48c9997155436c95201a4cbc23a26ff18e3d9dc0b4cb2f1a8ce",
+      "source_sha256": "69e9aa57185547c5d590ea14a5c5de88b5ce8200e9cc8e2e9e8104860d78d908",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk04\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000330",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b084\\p1\\F000330_r0_fix02.json",
+      "latest_candidate_sha256": "d6ecb98c27947223966396848bbae3ca1f2aa992dd1813f8f66b602ed1abee2d",
+      "source_sha256": "ae98f7f7094ed36251cd937774055288f0144f4688a8c160a0080bbc8d2e0901",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk04\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "LEGAL_REF_OMISSION",
+        "MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "long_source_full_read_check",
+        "multiple_decisions",
+        "multiple_penalized_subjects",
+        "personal_responsibility_link"
+      ],
+      "cases": 32,
+      "behaviors": 55,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000301",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b084\\p2\\F000301_r0_fix01.json",
+      "latest_candidate_sha256": "2592cd66107978abf77584c40cab361b38f4cbed9c9ffcef837a8e9aeb035a18",
+      "source_sha256": "09a9932d5c00a04886d231d0f7564efd185f24219d33d999390ee85bcbead4de",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk04\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "LEGAL_REF_OMISSION",
+        "MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "declared_source_issue",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000342",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p2\\F000342_r0_fix01.json",
+      "latest_candidate_sha256": "38cc8776a65c9b7deab4917e8a530d26da71813692d10ac48b4b4519c289830b",
+      "source_sha256": "21cf100d7c93676b70cf697ac18ff8dfe15438fee5c1fa86dae2a460e4df15cd",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk05\\result.json",
+      "original_findings": 3,
+      "resolved_codes": [
+        "LEGAL_REF_OMISSION",
+        "MARKETING_RELEVANCE",
+        "RESPONSIBILITY_RECALL_TAGS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "declared_source_issue",
+        "long_source_full_read_check",
+        "multiple_decisions",
+        "multiple_penalized_subjects",
+        "non_fine_monetary_amount_requires_review",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 20,
+      "behaviors": 32,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001782",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b086\\p3\\F001782_r0_fix01.json",
+      "latest_candidate_sha256": "f2527e12e4d578170dc36626561bd47ddf8d9d82169a0097997e3a2e9c88332a",
+      "source_sha256": "b8068802aad890798badb217af51a0885c45d8f975715cab15d4e0ba71603b09",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk05\\result.json",
+      "original_findings": 3,
+      "resolved_codes": [
+        "LEGAL_REF_CROSS_PARTY",
+        "MARKETING_RELEVANCE",
+        "MITIGATION_NOT_STRUCTURED"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "declared_source_issue",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 11,
+      "behaviors": 44,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000699",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b082\\p1\\F000699_r0_fix01.json",
+      "latest_candidate_sha256": "7591db347e7dc15f29d1b9d5094a66a3075c70beab7deba26557b3abe9da8948",
+      "source_sha256": "a60298fe5b69055e8c93cf09dee3d5f687bfc1af44812edd00cc52ea31ce77e4",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk05\\result.json",
+      "original_findings": 3,
+      "resolved_codes": [
+        "CONDITION_FIELD_MISSING",
+        "LEGAL_SCOPE_PERSON",
+        "SCENE_EXPLICIT_CHANNEL"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 5,
+      "behaviors": 31,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F009587",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b053\\p3\\F009587_r0.json",
+      "latest_candidate_sha256": "0a1ff0a68d7c16f6ed8216b866392a51a5cb4ab8b6b3ad488ad5dc556c9bdae3",
+      "source_sha256": "703a7a2f0e8a02ba56ef5cf7bfec643449280cd98997781a679bd5ac735341dc",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk05\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "conditions_negations_or_exceptions",
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 4,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002165",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b030\\p2\\F002165_r0_fix01.json",
+      "latest_candidate_sha256": "93e5714c6f9a17845e5d0133eee0b4292d7d20b866a83ee0e9cca2a310e8b64d",
+      "source_sha256": "36cfc1fefa8d7b61f58f9183f442af8a0f1afbd33e71463725d238b09d319ec3",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk05\\result.json",
+      "original_findings": 3,
+      "resolved_codes": [
+        "LEGAL_REFS_OMITTED",
+        "SPECIFIC_TAG_RECALL_MISSING",
+        "TAG_EXPLICIT_OVERCLAIM"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 1,
+      "behaviors": 9,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001128",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p1\\F001128_r0_fix01.json",
+      "latest_candidate_sha256": "bcd73701b633d833431f679333b1dde16d5b9c66ce9b587352d3ba58d5793611",
+      "source_sha256": "68578b5a5d1f94beab2e661c56e6a7f14ddc74f9106fc4fae7abc19f8e043381",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk06\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "SCENE_DESCRIPTION_CONTRADICTION"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 1,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000720",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b081\\p2\\F000720_r0_fix01.json",
+      "latest_candidate_sha256": "d676cc4b6131ca12260e4868851f8ce0be213cfc670c7648bda33e8d95beafae",
+      "source_sha256": "7611bb5852456228e1c5e34fe3eae75fb6b96c8474da5751c4ca3afd22aca9c2",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk06\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "SCENE_EXPLICIT_CHANNEL"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 3,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001316",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b022\\p2\\F001316_r0_fix01.json",
+      "latest_candidate_sha256": "580715ac52381028b3e57c0a0f1f9966f510a34befdb38ca42b4747c8d1fb681",
+      "source_sha256": "54c9f870da70d366e77d359b28e24f0e5723f8b13b9ccc59514762f87901a953",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk06\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_REFS_OMITTED"
+      ],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F003967",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003967_r0_fix03.json",
+      "latest_candidate_sha256": "81e1c4899dd5dfd6f66bf832e5f773f2efde85819075452f3ba602c333466270",
+      "source_sha256": "c54f2f7025c45ed244058d3fdde6175ca5a8e9f0c28cf75ab95bf1508579e4a4",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk01\\result.json",
+      "original_findings": 3,
+      "resolved_codes": [
+        "MISSING_PUNISHED_PERSON",
+        "UNSUPPORTED_EXPLICIT_LABEL",
+        "WRONG_REGULATOR"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004660",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b019\\p2\\F004660_r0_fix01.json",
+      "latest_candidate_sha256": "36ed49463edb265ad6585ab1a2f1770437cbeaf82a4da667f16089b8999aaf09",
+      "source_sha256": "196b31f90441204bd21bca8810c11bec34d0db86bdb844f55df4ba9579eb1df7",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk06\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS",
+        "WRONG_MARKETING_RELEVANCE"
+      ],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000817",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p3\\F000817_r0_fix01.json",
+      "latest_candidate_sha256": "1908325075a88cede392540097e05dfec44717360fa82d710bb0b6bea6c2110e",
+      "source_sha256": "e771a925a1b16be66d14818572a2c59d4244044ece5a46436fc523dd04bea9f0",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk07\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "BEHAVIOR_PERIOD_OMITTED",
+        "SCENE_PHONE_CALLBACK_MISSED"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions",
+        "important_or_critical_unresolved",
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F008199",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F008199_r0_fix01.json",
+      "latest_candidate_sha256": "91635dbc1d5829f26bfd530f11df6284d33c8558619e37f6cee516b799ebdc31",
+      "source_sha256": "51ffe6613d189b0bf5a883bcefcc225fe9cd22370dee5d33ee9e38acae39693d",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk07\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+        "VAGUE_LEGAL_REFS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 4,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001232",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F001232_r0_fix01.json",
+      "latest_candidate_sha256": "2cdc2a92db76b4eadb25303cd4b821395a7b293f5acc720759fbb9f9661a7f69",
+      "source_sha256": "b236f57e431144fb7a6694e494e105a5d21727382082c3e4f24955dd9fcaedf3",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk07\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000728",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b012\\p1\\F000728_r0_fix01.json",
+      "latest_candidate_sha256": "c70d677a0562f0d6afbd12d2db793a9606adae105e0b834d88c50fe932fec57f",
+      "source_sha256": "bc639efeb78c128246b136a5599cc580d7772bfc8e9d863f7d19536fd870a5cf",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk07\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F009942",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b006\\p2\\F009942_r0.json",
+      "latest_candidate_sha256": "92e54315406987929cb2b8c12678d8972bef0a0e70c6522064833b1b669efc3d",
+      "source_sha256": "b8cc506f3e49c5f8ebfea2c9dd70f87dcd3275d746fa079750555f8f87cb0896",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk07\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001198",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p2\\F001198_r0_fix01.json",
+      "latest_candidate_sha256": "b6016a4243e1878131bb6af286d29f31f997e74db6b665683d78c6397ac2f710",
+      "source_sha256": "b6f6571998da183c82992a061dc7fc527288a3cd8a95f79b674dc2986c4bb031",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk08\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS",
+        "WRONG_MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F006148",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b010\\p1\\F006148_r0.json",
+      "latest_candidate_sha256": "51d075e684f9d969316dbcb7f11b22c9edf6b49e5dbd281fc8e5a1cd3b244586",
+      "source_sha256": "a57f10e1f419c0545de2c3bfe7370d1467c5b3ba69f2bb7d13955679b1b17547",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk08\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F008651",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b035\\p3\\F008651_r0_fix01.json",
+      "latest_candidate_sha256": "419bbbada8b5a732cbef6120de96488e8a65c1d990b5850e32111598e02c242f",
+      "source_sha256": "c33c65c124d54c3b43d3c53dade33322c540480de5a4e31f8908c9fb43c4c00c",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk08\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "LEGAL_REFS_OMITTED",
+        "MARKETING_RELEVANCE_UNJUSTIFIED_NULL"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F008038",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b025\\p2\\F008038_r0.json",
+      "latest_candidate_sha256": "fba4fd4bf066974e43aa102c995e454c66bcee60ab3da00d5bea5b22811c62b7",
+      "source_sha256": "d66dc0cb9caf837c509f80fffa4a10691168d406e425e889c791ad535fa4eff9",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk08\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "declared_source_issue"
+      ],
+      "cases": 0,
+      "behaviors": 0,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F005844",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b025\\p2\\F005844_r0_fix01.json",
+      "latest_candidate_sha256": "26b75b14ad38faa168e6d07bc1aed1e0d84c9c384b4a4eae45dd9e2b811d200e",
+      "source_sha256": "0c973688ffb1eecd1fb69de5c8ed7cb5c431b9f8050c34e3b5ccd9865c17c114",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk08\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F007196",
+      "first_review_status": "uncertain",
+      "model_disposition": "保留1项口径待核",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b024\\p1\\F007196_r0_fix01.json",
+      "latest_candidate_sha256": "0efdd3ef299573a6794a611f07673d76e610c46133cd497a4215636060d2483a",
+      "source_sha256": "b2a4ae5ec095387846d90532c19be16c98748126e6bd26d0d2fbd8bbde040d93",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk01\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001444",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b040\\p3\\F001444_r0_fix01.json",
+      "latest_candidate_sha256": "210b93c915e101dd5461ed37bb024e87d35d75fe6ae452339645648781830134",
+      "source_sha256": "3bc9cafc03e9d6ff810379c3eb444697dc4ad4186985a4c08e4910d719951ab2",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk09\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_REFS_OMITTED"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F009709",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b040\\p3\\F009709_r0_fix01.json",
+      "latest_candidate_sha256": "82919fba0f40cfa40802bcd11c758584865daeacde0659979115ed62cd0f9f1b",
+      "source_sha256": "a4cbf9c3d1fa245d44a567d7f7fc9f890417b181f1a677b152263bade7e9eb13",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk09\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_REFS_OMITTED"
+      ],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002939",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b039\\p3\\F002939_r0_fix01.json",
+      "latest_candidate_sha256": "89af7df30ceff6d46a504e3869b0f3733c8e72f27aa63fc1916fc10dc37805ea",
+      "source_sha256": "3b4aa6c09cb1884e3ab89fa14d695f8d55e6d7e452bbb2a271d1364e59d88941",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk09\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_REFS_OMITTED"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004550",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b023\\p2\\F004550_r0.json",
+      "latest_candidate_sha256": "cbdbf6c500b7609fc776f21b1012e08da1b84f00a673fac84608df0beff77171",
+      "source_sha256": "4aa9671522389f7e6115c4f6e69f2f34696cce866aac480b125bf7a526fe05d0",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T182831907837Z\\chunk09\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_decisions",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 3,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001216",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b043\\p1\\F001216_r0_fix01.json",
+      "latest_candidate_sha256": "95fee5d4d5e5628aac505e8b43d09db9949d004f1611e205b7c72928c932fb0e",
+      "source_sha256": "b8696aae71c9000af1a2fe19f6cae4040554c99d54a9bc54dbf5aba09d6b2498",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk01\\result.json",
+      "original_findings": 4,
+      "resolved_codes": [
+        "ACTION_OBJECT_DUPLICATED",
+        "MISSING_SPECIFIC_RECALL_LABEL",
+        "OMITTED_LEGAL_REFS",
+        "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 8,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002395",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b059\\p3\\F002395_r0_fix01.json",
+      "latest_candidate_sha256": "6b526fa6afc6d2246a09d2c64a12c9123fa4b0d96a501156f2a1c3ccd0a3074a",
+      "source_sha256": "d417fb6017d987226a88cc2ce581034870be4686aa04521c5b60d9eaf90d43a7",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk01\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "DEFENSE_CONDITIONS_UNSTRUCTURED"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 3,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002954",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p3\\F002954_r0_fix01.json",
+      "latest_candidate_sha256": "dfe9c6c27a3c80d6d0e13fe3099d578a1ac24e6d03c70ef30afdbe64516a02e9",
+      "source_sha256": "9379602326942f820a327e4ac03fb67d4b28e387399ea2c45da84b92d341d969",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk01\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "REGULATOR_PAYEE_INFERENCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "declared_source_issue",
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 1,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F006009",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b041\\p2\\F006009_r0_fix01.json",
+      "latest_candidate_sha256": "8e481f9c603d348187262ee31fb06efebeb8f9799f02ba2709c6aac1d4d9e854",
+      "source_sha256": "1fc7d99b5000f06919b6089765f2a199dff08864a6d548075eda429fc71c04f6",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk02\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_REFS_OMITTED"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F009170",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b046\\p1\\F009170_r0.json",
+      "latest_candidate_sha256": "67b7d7fba6578f0042957ac8d83d14fdb10e3134847bef0da3c506df3b319ef6",
+      "source_sha256": "22aefdfcb16f1dbf1ebff85778c30af8934274f9730d016fc1342c29e33edde3",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk02\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F009098",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p1\\F009098_r0_fix01.json",
+      "latest_candidate_sha256": "6504f3ead73522e09ba06a9a91f49ad15b0bcfe3b45a1e361946172f7dc1c1b5",
+      "source_sha256": "30cd764b7c209ea210941b0cf99f3f002f1b1d4cb24663551724baa7212d8f1d",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk02\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "LEGAL_VALUE_PLACEHOLDER",
+        "MARKETING_RELEVANCE_UNJUSTIFIED_NULL"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F006045",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b060\\p3\\F006045_r0.json",
+      "latest_candidate_sha256": "64174ac8d625f5cdf3409034b366f7ce7274d3ad3183b6a73ed3ba5f422d648e",
+      "source_sha256": "f9c2b9b663b5ea247879ba7a62af5a2dde574997ded4e2faf24c8c948b6a53f3",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk02\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002973",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b044\\p3\\F002973_r0_fix01.json",
+      "latest_candidate_sha256": "6b18b8b12f7d7b3a7e55f3c838c2efcb5048813b808c1913173dd7df2b823e3b",
+      "source_sha256": "d84c02c62353c10e2553d83eb6f734709bafce60af5ddd41430a87f52ab8dd3b",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk02\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000306",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b079\\p2\\F000306_r0_fix01.json",
+      "latest_candidate_sha256": "06142a900c44b3eae76bc25ec946ad68d7428340fcd465fc5e963082d5cf5b81",
+      "source_sha256": "81a4e4105cdf866b863876f826d3e8ad01d4f7bb49090ac6bc8029a667500656",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk03\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "non_fine_monetary_amount_requires_review",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 4,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F009995",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b069\\p1\\F009995_r0_fix01.json",
+      "latest_candidate_sha256": "e98097b09f38926b199e8d4834723298089ab390eca40db0b1c5b4928968adf0",
+      "source_sha256": "87ecb2512fd90bd2e6cca9fa998c0007145e585bffd090b7532fdc8f0fc179ab",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk03\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_VALUE_PLACEHOLDER"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F008828",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b066\\p1\\F008828_r0_fix01.json",
+      "latest_candidate_sha256": "0ea0b42bf5be0ae54a1c36fecfb5195e835e0d2c923228c77ab9c7b6a23dd8ea",
+      "source_sha256": "1e6c1b7fb7300b0dd6e0d8bf899f3e94c1de814703390e6904b291fe51ef5757",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk03\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_VALUE_PLACEHOLDER"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F003758",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b073\\p3\\F003758_r0_fix01.json",
+      "latest_candidate_sha256": "face822e9b98e2bba13c52a261180d61365057b85a8a86b873fb67e656626d14",
+      "source_sha256": "550ce8edcd8ad18d63bebe03c17f2f6be9615ee6c9042bcdf0a498f5e82a406f",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk03\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F006352",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b064\\p1\\F006352_r0_fix01.json",
+      "latest_candidate_sha256": "b4bfc4504f19d2bf089f54e244c0afdd0b96a89cd387307768b2afb15a83c9b5",
+      "source_sha256": "8a28362365e3ee2f44c01ebad6af9891fb641bf6e0417e75df4f26c8d732f094",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk03\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "VAGUE_LEGAL_REFS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 4,
+      "behaviors": 4,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000472",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p1\\F000472_r0_fix02.json",
+      "latest_candidate_sha256": "683c6eb87eb8388d34a1d51679ac60f5c8707172211ec55b2a85b1376dfb782b",
+      "source_sha256": "458ef9f363103a3620de011cc6c1762dc146641abe47a00bba0eebc5817428d7",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk04\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS",
+        "WRONG_MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 10,
+      "behaviors": 13,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F008681",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b063\\p1\\F008681_r0_fix01.json",
+      "latest_candidate_sha256": "8c527b66580ccc561c7eb8f01f3d13c5b8d5ff966cd335b6f433524249352560",
+      "source_sha256": "482ae5256993b9f47cc434d30439f9429a2b748c99dce5e21281849031c71895",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk04\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_VALUE_PLACEHOLDER"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 6,
+      "behaviors": 12,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000526",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p3\\F000526_r0_fix01.json",
+      "latest_candidate_sha256": "bc59cb107c7b8ad8b63922ed629256772bc5d27b95362a5c9fd79445953c93d4",
+      "source_sha256": "9d699ce96a9938f9eb3a94cb9ec63d4d6bc7f022cbd225aa676e4ffa1c742ece",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk04\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "CONDITION_FIELD_MISSING"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000618",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b081\\p2\\F000618_r0_fix02.json",
+      "latest_candidate_sha256": "5a9a5ed63187a8c55ce21f038b71ec56c2b7a94f162b1e455121b0261e6213f2",
+      "source_sha256": "64c10e5525815fa18849226058f4e3d7dc4ab5a44e9723cdff601ec2e6a01b67",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T184236692622Z\\chunk01\\result.json",
+      "original_findings": 4,
+      "resolved_codes": [
+        "BEHAVIOR_DATES_UNSTRUCTURED",
+        "DEFENSE_AS_CONTEXT",
+        "LEGAL_SCOPE_ALL_PERSONS",
+        "OBJECT_INTERNAL_KEY"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "conditions_negations_or_exceptions",
+        "long_source_full_read_check",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 10,
+      "behaviors": 26,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F008707",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b020\\p2\\F008707_r0_fix01.json",
+      "latest_candidate_sha256": "842bd4cd3d732a9c19ab8df3197cb1c336f6dd4ba66cf7ba2e168cc14bc20e62",
+      "source_sha256": "a082a43f7cf2b8ac3b62d1a5858505e792c4795bb984b00bb62f51c44001882d",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk04\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "INFERRED_TAG_MISSING_MECHANISM_LIMITATION",
+        "UNKNOWN_MARKETING_WITH_DECEPTION_FACT"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 3,
+      "behaviors": 9,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F003988",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b062\\p3\\F003988_r0_fix01.json",
+      "latest_candidate_sha256": "e94a516258716cc1033c13a3066e82b894cf4ba222caba6eff79e7dce88dc53f",
+      "source_sha256": "c6247fea7ff23854cb72d94ba8872b4ee83d49619b6acabdb39c6f4c62f8db15",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk05\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "TAG_OBJECT_OVERCLAIM"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 4,
+      "behaviors": 4,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F008116",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b005\\p2\\F008116_r0_fix01.json",
+      "latest_candidate_sha256": "d4ddde90f9dabfd0813fc1ff854c2c1387d88265b108455cdc8e4a4178fd024d",
+      "source_sha256": "1ed72d0958a75b3a24a334e8607cc0b9345b55809b2e480c5b19fbf284caba4a",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk05\\result.json",
+      "original_findings": 4,
+      "resolved_codes": [
+        "DOCUMENT_NO_PERSON_OMITTED",
+        "LEGAL_VALUE_PLACEHOLDER",
+        "MARKETING_RELEVANCE_UNJUSTIFIED_NULL",
+        "SCENE_EXPLICIT_CHANNEL"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 5,
+      "behaviors": 13,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F003089",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b059\\p3\\F003089_r0_fix01.json",
+      "latest_candidate_sha256": "bcfc674428e6dac66b39f1762a0f66c243bc560087c1b2dbb489244ae946b22d",
+      "source_sha256": "b2a9400895b543402a3be555a0edc2d1cd0eeccd4bb1ab5d3b5bf04e3b59d608",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk05\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "GENERIC_OBJECT_MISMATCH"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "declared_source_issue",
+        "important_or_critical_unresolved",
+        "multiple_penalized_subjects",
+        "personal_responsibility_link"
+      ],
+      "cases": 3,
+      "behaviors": 9,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004694",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b031\\p2\\F004694_r0.json",
+      "latest_candidate_sha256": "21b26236d08e5b14cbeb246b246375371de862b9afdb9f54a7f53421bc13c329",
+      "source_sha256": "a9135e3406a24d174a550d356624fd7f40f4b6eb6a0e81354dae2410f62463b0",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk05\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 6,
+      "behaviors": 8,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004586",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b060\\p2\\F004586_r0_fix01.json",
+      "latest_candidate_sha256": "f45ae27cddfedefb04de644cb01f4e4b8fb8095bfb4b79d59b0887e3eb5ecd4d",
+      "source_sha256": "b3aa2b6bee27210802b569f3e65fbf377a928341923d72ac0cb6fee97cb6aa1f",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk05\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_decisions",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 4,
+      "behaviors": 7,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F005834",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b050\\p1\\F005834_r0.json",
+      "latest_candidate_sha256": "498317291f44f6f46ed801ca20c4bd57f2a438c914003da65e90acd488f84af1",
+      "source_sha256": "f5c47819f279361adc871d4a3425a2668eba27bc01621708855a45074acc9271",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk06\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 6,
+      "behaviors": 12,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004969",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b026\\p1\\F004969_r0_fix01.json",
+      "latest_candidate_sha256": "95682c9cab6a8f0e6fb468c0301e5c0d67746292d9b2d086250beb3f9e03fc6e",
+      "source_sha256": "6b36155b7a837d3b1b9f2c8ef9e02768156d7b9561b907db857b69da73668f5e",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk06\\result.json",
+      "original_findings": 3,
+      "resolved_codes": [
+        "CASE_SUMMARY_PLACEHOLDER",
+        "PENALTY_QUOTE_NO_PARTY",
+        "PERSON_BROAD_CAUSE_DIRECT_ROLE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_decisions",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 11,
+      "behaviors": 12,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004041",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b012\\p1\\F004041_r0_fix01.json",
+      "latest_candidate_sha256": "ba5df5ebc3a393124700011b2ecae0181d721cbead6441bc88a9cab0aea922da",
+      "source_sha256": "0bd88b39fc09a51923454d340f981285e6174aa89b9565698da79087e61cf638",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk06\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "GROUP_RESPONSIBILITY_SCOPE_OVERCLAIM",
+        "MARKETING_RELEVANCE_UNJUSTIFIED_NULL"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "penalty_amount_unknown_requires_review",
+        "personal_responsibility_link"
+      ],
+      "cases": 12,
+      "behaviors": 22,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F007796",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b015\\p3\\F007796_r0_fix01.json",
+      "latest_candidate_sha256": "6ec6b8ab2bfffd5c78a76f30b96faa835755b4d4b738b2430f276b385eb099b7",
+      "source_sha256": "5128544e6ca6fc84feecbb6b723d85574584714a9bad0628e8a3a9541cda8480",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk06\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F003876",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p3\\F003876_r0_fix09.json",
+      "latest_candidate_sha256": "06a15743b8a1df235608706a2ba0b3b6d4c6bcd70a8e4049907bac5d49561fae",
+      "source_sha256": "fc5e11ee146c454807c3a791488ba8a40e3d52e70b53775a22db0e1e735267d8",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk06\\result.json",
+      "original_findings": 3,
+      "resolved_codes": [
+        "COVERAGE_BROAD_BEHAVIOR_LINK",
+        "KNOWN_AMOUNT_WRONGLY_UNKNOWN",
+        "LEGAL_QUOTE_INCOMPLETE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions",
+        "important_or_critical_unresolved",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 2,
+      "behaviors": 4,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F004654",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b053\\p1\\F004654_r0_fix01.json",
+      "latest_candidate_sha256": "55022c647fa84bc7892639d55074276eae628a05bd49895afacc75e7007f1453",
+      "source_sha256": "b4ad9ee45a8ac3141fbcfbc09da062b0e33017e9088f1c406f8efb3537e962e6",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk07\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "INSTITUTION_AS_PERSON_TEXT",
+        "PENALTY_QUOTE_NO_PARTY"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_decisions",
+        "multiple_penalized_subjects"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F008905",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b074\\p3\\F008905_r0_fix01.json",
+      "latest_candidate_sha256": "b8a16d5f1ec9dbd3f34235b35ffa16234974d390bf0e6d5b6cb05b19ae72ede8",
+      "source_sha256": "d6a3cf75c46a8de8eb54bdb938d51efe8f3cf4f2459887cc2662607c8caacc74",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk07\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OBJECT_UNSUPPORTED_SPECIFICITY"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed"
+      ],
+      "cases": 3,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F009555",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p1\\F009555_r0_fix01.json",
+      "latest_candidate_sha256": "c366d4d2e51a4ebac03d779febe22ad1e0f52f8c9cedb87becd99427dcd8374a",
+      "source_sha256": "90f5d75c750d6a935fffa9efff6b7bd9cca2be1516ddc9116343eb1b8aa501e4",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk07\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "LEGAL_VALUE_PLACEHOLDER",
+        "MARKETING_RELEVANCE_UNJUSTIFIED_NULL"
+      ],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F009223",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p1\\F009223_r0_fix01.json",
+      "latest_candidate_sha256": "637d1d42bdaea317cfa9a24daa6c6f8195c83a26523ebe65ffe165da46133d5e",
+      "source_sha256": "a212fc815b7f95f65fef5b9a77d4e81e507c9cc06b9bc1bbcea4be93e99efa2c",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk07\\result.json",
+      "original_findings": 5,
+      "resolved_codes": [
+        "BEHAVIOR_CONTEXT_OMITTED",
+        "CONDITION_FIELD_MISSING",
+        "LEGAL_QUOTE_INCOMPLETE",
+        "MEETING_TAG_RECALL",
+        "OBJECT_INTERNAL_KEY"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "conditions_negations_or_exceptions",
+        "long_source_full_read_check",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 13,
+      "behaviors": 28,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F003314",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003314_r0_fix02.json",
+      "latest_candidate_sha256": "9a03d0197bba014165e94d6d44b0fa7611585470b5bb8f46040864b0d6a308a6",
+      "source_sha256": "7cfbf037824a72940513e654e3d135e7e0f42155e0b5950f526c2acb14d10bec",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T184236692622Z\\chunk01\\result.json",
+      "original_findings": 6,
+      "resolved_codes": [
+        "BEHAVIOR_DATE_AS_PENALTY_DATE",
+        "MASSIVE_BEHAVIOR_OMISSION",
+        "MISSING_EXPLICIT_PENALTY_AMOUNTS",
+        "OMITTED_LEGAL_REFS",
+        "WRONG_MARKETING_RELEVANCE",
+        "WRONG_REGULATOR"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "conditions_negations_or_exceptions",
+        "long_source_full_read_check",
+        "non_fine_monetary_amount_requires_review"
+      ],
+      "cases": 1,
+      "behaviors": 15,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002890",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002890_r0_fix03.json",
+      "latest_candidate_sha256": "c706eb131b4c584f6132d23f03ceadc44c5eb31a2800600021d4ad8333a1fc4d",
+      "source_sha256": "c1b9355868be835d071c66519709781425041f9b69ac814c2590603f0e5892fb",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T184418267167Z\\chunk01\\result.json",
+      "original_findings": 6,
+      "resolved_codes": [
+        "FINDING_QUOTE_ONLY_PENALTY",
+        "INDEPENDENT_MECHANISMS_MERGED",
+        "INVENTED_PENALTY_TYPE",
+        "OMITTED_LIMITS_ARGUMENTS_MITIGATION",
+        "OMITTED_MITIGATION_LEGAL_REF",
+        "PERSON_OBJECT_EXPANDS_UNRELATED_ITEMS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions",
+        "long_source_full_read_check",
+        "multiple_penalized_subjects",
+        "personal_responsibility_link"
+      ],
+      "cases": 12,
+      "behaviors": 21,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001744",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b062\\p1\\F001744_r0_fix01.json",
+      "latest_candidate_sha256": "83183380d5e69dc1f637899d661e1165945fbc6dc05031cddb692caac74855b5",
+      "source_sha256": "6fd15c869ba6c9cf2495bc1cce85fdbc6c06fe02b29da4d3c8eacd3946d40625",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk08\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_DETAILED_TIME_LIMITS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions"
+      ],
+      "cases": 1,
+      "behaviors": 3,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001607",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p3\\F001607_r0_fix01.json",
+      "latest_candidate_sha256": "9a8173eaf986880fbdf276203e102a14adbe5d10e32918f075754fd2ce31303a",
+      "source_sha256": "d84e7d333d36f05803b7fc488c52c1c039540034ac2258f6f5f42fe718c82021",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk08\\result.json",
+      "original_findings": 3,
+      "resolved_codes": [
+        "COVERAGE_BROAD_BEHAVIOR_LINK",
+        "LEGAL_REFS_OMITTED",
+        "MITIGATION_CONDITION_OMITTED"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions"
+      ],
+      "cases": 1,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F007600",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b060\\p1\\F007600_r0_fix01.json",
+      "latest_candidate_sha256": "e73bd59712bf7b02cfb8981bac777f2965da37cbb6d5ebd5000eae71b31dda74",
+      "source_sha256": "32291d9bc49181cc4ab53acde3b962d23c22869077857bf758a0aab7e4851e07",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk08\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_VALUE_PLACEHOLDER"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F008914",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p2\\F008914_r0_fix02.json",
+      "latest_candidate_sha256": "6ffbb3de5b288a1d99cfd9e87c9272d3a035015cf327063e0bdd78514960fc0e",
+      "source_sha256": "26a36594b93663000a494046ebdb18f7dca49ee51e5db534df578f9ddc4b7452",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk08\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_BEHAVIOR_PERIOD"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions",
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F006548",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b066\\p3\\F006548_r0.json",
+      "latest_candidate_sha256": "41195054ae90fbbe9325704dc8d151ccd3534f467811c47b85437cbc20565982",
+      "source_sha256": "ba1d7466e45eeead0046a3de06108ab3f0ee210df82b2a4e9700b81fedc57401",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk09\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001294",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b065\\p1\\F001294_r0_fix01.json",
+      "latest_candidate_sha256": "836cdc30a8cdda8c49cfc46a282d0a1b38e9be0203f31dc1795a875fb2430e55",
+      "source_sha256": "51d191ac4fc1ad469cf34a7c0bad7f732b2880901c51576331d6c731624f0213",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk09\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "WRONG_MARKETING_RELEVANCE"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 4,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F005641",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b017\\p3\\F005641_r0_fix01.json",
+      "latest_candidate_sha256": "6659aac24d326b1b01ac3f2256b1f2a83af8c573de0594e0f14ee37ab44e2875",
+      "source_sha256": "af9039860ea01541dc1d02cbce35ac6f195b39e3a8d76fac12ed6840f8474bf7",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk09\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000561",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b082\\p2\\F000561_r0_fix01.json",
+      "latest_candidate_sha256": "7f9333892500ee37cd91c9caf60809eab1ba5400fed7b01a97cd0ed04679610f",
+      "source_sha256": "c5ffc0b7ac6088a9ba00268d3143429ae3382bf1df6b4c206d9985598ac5d76d",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk09\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "OMITTED_ARGUMENT_QUALIFICATION",
+        "TARGET_SCOPE_TRUNCATED"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "aggregate_or_split_penalty",
+        "conditions_negations_or_exceptions",
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 3,
+      "behaviors": 6,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000092",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b086\\p3\\F000092_r0_fix01.json",
+      "latest_candidate_sha256": "977a24ff7f424b782d8f0b915e0dbf1d95e498377f00c3186d08964ea314f2b9",
+      "source_sha256": "0a4d2c2976d0227b2ca8fbc860203ebc13747d43af0169792e45c9a852ba2ac8",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk09\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DECEPTION_FACT"
+      ],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F005640",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b067\\p1\\F005640_r0_fix01.json",
+      "latest_candidate_sha256": "cca9496d41dc00b8dedc80c78720d35efb801b04ad32b081d84b38e5cbb6aea1",
+      "source_sha256": "5b159987ce90178faf1ae503313623a4632126ab793b4706e336a2441b56d545",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk10\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "MARKETING_FALSE_BENEFIT"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002373",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b005\\p2\\F002373_r0.json",
+      "latest_candidate_sha256": "5173b3220d1f098c265078a2909bed4cfcbbf97a14f5aef518d49ecdc7c47c8a",
+      "source_sha256": "7ac689d01e937f6f3ecced53a17fe07c7021ad618cada18cf15da5cc01b7b273",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk10\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "personal_responsibility_link"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F007883",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b006\\p3\\F007883_r0_fix01.json",
+      "latest_candidate_sha256": "0681f580f4624783c753b7bee1bcee0a638ce014852f9defc3a9a63da3e12250",
+      "source_sha256": "b1d47107d992b85e0b41af1a45391ad41c07128dcf0eb4575a571fc981983cd4",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk10\\result.json",
+      "original_findings": 2,
+      "resolved_codes": [
+        "LEGAL_SCOPE_PERSON",
+        "MARKETING_NULL_BENEFIT"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects"
+      ],
+      "cases": 2,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F006228",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b009\\p1\\F006228_r0_fix01.json",
+      "latest_candidate_sha256": "b10c808516d5e3c2a930132c55b75230f54d19369ea14f9c38d7d053498baf18",
+      "source_sha256": "37f6235c0d4160e77c3cef98b03e76fabe6ffdb6c63726975906ed4bd587ea8e",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk10\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_VALUE_PLACEHOLDER"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F002918",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p2\\F002918_r0_fix01.json",
+      "latest_candidate_sha256": "f610dd58a47c8b15266d167f6068c6b1d95caf5da2ae33ec6a88f54fbd4de629",
+      "source_sha256": "e5f6a32d4a38af03adb0bc9cba54a8f0f993e5a4dd1cdb568741cbf5860921c3",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk10\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 5,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F007982",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b040\\p2\\F007982_r0_fix01.json",
+      "latest_candidate_sha256": "78f5407f535b2c8cce6f03640d6c1e1b941c9fc6c8a0870d846b9da71f54afb7",
+      "source_sha256": "e7f076ac15cb951815bfcfd787036fdce77effc1d19aadbbac2b4dc0d101b194",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk11\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "LEGAL_VALUE_PLACEHOLDER"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F009099",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b031\\p2\\F009099_r0.json",
+      "latest_candidate_sha256": "bc3b530bb39e29efbfccb48fadeb694aa0e263cd37f6cb941e1935dc75f8a5f3",
+      "source_sha256": "cd8aa3f3dcb6a5e401bbcf5d74de4205759ef5b85bda2e0cdb27dd01d6e6b6ef",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk11\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001347",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b021\\p1\\F001347_r0_fix01.json",
+      "latest_candidate_sha256": "2c31ffebff2129cfe81ade356948ae8407ba66fcc18f1cc4efb58b9d996a9578",
+      "source_sha256": "3c27f7950d335ff7e877286c856af92d5fd933a4d676486f999950e40aa36edd",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk11\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "OMITTED_ARGUMENT_DISPOSITION"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "conditions_negations_or_exceptions"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F005669",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p3\\F005669_r0.json",
+      "latest_candidate_sha256": "4b168f0d3a1e7a99ddfd94b9a73feae02db3cc0303ea8b876119969807482ec1",
+      "source_sha256": "1438d37c727d0691ae7af49c6f8633f84f40aa7505771c1442f6bdf3f972b516",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk11\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 1,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F009750",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b010\\p1\\F009750_r0_fix01.json",
+      "latest_candidate_sha256": "7870cee57af8c3d485e17b20a6cf20c03afedd577033fc3ee6c636450fb031e9",
+      "source_sha256": "2312a4727756007d1077da47a57ce9ba707fe3594adb50d22830283cbab49d64",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk11\\result.json",
+      "original_findings": 1,
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT"
+      ],
+      "requires_review": false,
+      "review_reasons": [],
+      "cases": 1,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F000673",
+      "first_review_status": "needs_fix",
+      "model_disposition": "已修订原审问题，待人工验收",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b082\\p2\\F000673_r0_fix01.json",
+      "latest_candidate_sha256": "7a1aeadd968406db0b1a126294aa1a9b24ca338dc6a6f1488ec14e205e517395",
+      "source_sha256": "879b66c8161bad8c748df2098294dc9859e155a31a0e05a02ff9ca56aa2ba8f1",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk12\\result.json",
+      "original_findings": 3,
+      "resolved_codes": [
+        "DISTINCT_MECHANISMS_MERGED",
+        "LEGAL_SCOPE_PERSON",
+        "MATERIAL_FUNCTION_SOURCE_CARRIER"
+      ],
+      "requires_review": true,
+      "review_reasons": [
+        "multiple_penalized_subjects",
+        "penalty_amount_ambiguous_or_unparsed",
+        "personal_responsibility_link"
+      ],
+      "cases": 3,
+      "behaviors": 6,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F007794",
+      "first_review_status": "pass",
+      "model_disposition": "首轮未发现问题",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b059\\p3\\F007794_r0.json",
+      "latest_candidate_sha256": "69b05d46ba62c6f7d79d9dc989d7cef8669ba56e66142becbe0f2c4877de67c2",
+      "source_sha256": "682fa4636fa903b9fa0ce2c1e887004195ec4a47f0496bf44f2ad53655b1a20c",
+      "hardcheck_status": "pass",
+      "hardcheck_report": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\reports\\质量验收_20261012\\sample_checks\\20261011T183601945378Z\\chunk12\\result.json",
+      "original_findings": 0,
+      "resolved_codes": [],
+      "requires_review": true,
+      "review_reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 2,
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    }
+  ]
+}

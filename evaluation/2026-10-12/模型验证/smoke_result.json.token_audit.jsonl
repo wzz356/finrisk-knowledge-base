@@ -1,0 +1,5 @@
+{"stage": "embedding", "corpus": "smoke", "kind": "query", "id": "SMOKE", "input_tokens": 57, "used_tokens": 57, "truncated": false, "truncated_tokens": 0, "max_length": 512, "cache_hit": true, "cache_key": "64cce719c48ad6e49088ecc53355f231510235ef291aa5351347d258307bd042"}
+{"stage": "embedding", "corpus": "smoke", "kind": "document", "id": "useful", "input_tokens": 37, "used_tokens": 37, "truncated": false, "truncated_tokens": 0, "max_length": 512, "cache_hit": true, "cache_key": "ae2cfc54dbf727b10def6f7ab9444d62fae5520a44767de61f2021966ed1698f"}
+{"stage": "embedding", "corpus": "smoke", "kind": "document", "id": "unrelated", "input_tokens": 26, "used_tokens": 26, "truncated": false, "truncated_tokens": 0, "max_length": 512, "cache_hit": true, "cache_key": "ae2cfc54dbf727b10def6f7ab9444d62fae5520a44767de61f2021966ed1698f"}
+{"stage": "rerank", "corpus": "smoke", "query_id": "SMOKE", "unit_id": "useful", "input_tokens": 50, "used_tokens": 50, "truncated": false, "max_length": 512}
+{"stage": "rerank", "corpus": "smoke", "query_id": "SMOKE", "unit_id": "unrelated", "input_tokens": 42, "used_tokens": 42, "truncated": false, "max_length": 512}

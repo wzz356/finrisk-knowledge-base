@@ -1,0 +1,118 @@
+[
+  {
+    "arm": "bm25",
+    "units": 100,
+    "unique_exact_source_texts": 10,
+    "unique_files": 3,
+    "file_unit_counts": [
+      [
+        "F000618",
+        57
+      ],
+      [
+        "F001674",
+        42
+      ],
+      [
+        "F002312",
+        1
+      ]
+    ]
+  },
+  {
+    "arm": "dense",
+    "units": 100,
+    "unique_exact_source_texts": 22,
+    "unique_files": 11,
+    "file_unit_counts": [
+      [
+        "F000618",
+        57
+      ],
+      [
+        "F001674",
+        24
+      ],
+      [
+        "F000583",
+        7
+      ],
+      [
+        "F002312",
+        5
+      ],
+      [
+        "F000584",
+        1
+      ],
+      [
+        "F003552",
+        1
+      ]
+    ]
+  },
+  {
+    "arm": "rrf",
+    "units": 100,
+    "unique_exact_source_texts": 22,
+    "unique_files": 9,
+    "file_unit_counts": [
+      [
+        "F000618",
+        57
+      ],
+      [
+        "F001674",
+        27
+      ],
+      [
+        "F000583",
+        6
+      ],
+      [
+        "F002312",
+        5
+      ],
+      [
+        "F000584",
+        1
+      ],
+      [
+        "F003552",
+        1
+      ]
+    ]
+  },
+  {
+    "arm": "rrf_rerank",
+    "units": 100,
+    "unique_exact_source_texts": 22,
+    "unique_files": 9,
+    "file_unit_counts": [
+      [
+        "F000618",
+        57
+      ],
+      [
+        "F001674",
+        27
+      ],
+      [
+        "F000583",
+        6
+      ],
+      [
+        "F002312",
+        5
+      ],
+      [
+        "F001369",
+        1
+      ],
+      [
+        "F000584",
+        1
+      ]
+    ]
+  }
+]

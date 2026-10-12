@@ -1,0 +1,1627 @@
+{
+  "lane": "audit_b",
+  "method": "确证缺陷局部修订，candidate/pending；非人工验收",
+  "records": [
+    {
+      "file_id": "F003314",
+      "source_sha": "7cfbf037824a72940513e654e3d135e7e0f42155e0b5950f526c2acb14d10bec",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003314_r0.json",
+      "before_sha": "75fa6e3bdd8e9ff8f9bcc72b3767e4a7d3d5f16a3d5378d6590acdfde66316f5",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003314_r0_fix02.json",
+      "after_sha": "9a03d0197bba014165e94d6d44b0fa7611585470b5bb8f46040864b0d6a308a6",
+      "diff_fields": [
+        "behaviors",
+        "cases[0].behavior_period",
+        "cases[0].behavior_period_quote",
+        "cases[0].case_summary",
+        "cases[0].case_summary_quotes",
+        "cases[0].legal_refs",
+        "cases[0].party_quote",
+        "cases[0].penalties",
+        "cases[0].penalty_date",
+        "cases[0].penalty_date_quote",
+        "cases[0].regulator",
+        "cases[0].regulator_quote",
+        "cases[0].related_party_names",
+        "cases[0].unknowns",
+        "coverage",
+        "insurance_relevance.quotes",
+        "insurance_relevance.reason",
+        "marketing_relevance.quotes[0]",
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "MASSIVE_BEHAVIOR_OMISSION",
+        "BEHAVIOR_DATE_AS_PENALTY_DATE",
+        "MISSING_EXPLICIT_PENALTY_AMOUNTS",
+        "WRONG_REGULATOR",
+        "OMITTED_LEGAL_REFS",
+        "WRONG_MARKETING_RELEVANCE"
+      ],
+      "source_quotes": [
+        "1、不实列支营业费用\n你公司2007年和2008年存在虚列营业费用贴补手续费的情况。",
+        "二OO九年五月十三日",
+        "我局决定责令你公司改正,并给予罚款十二万元的行政处罚。",
+        "中国保监会广东监管局行政处罚决定书(中华联合财产保险股份有限公司阳江中心支公司)",
+        "二、上述第1、2、4、5、6、7项行为违反了《中华人民共和国保险法》第一百二十二条的规定",
+        "在每份保单保险期限内你公司必须向保费出资人支付其所交保费金额130%的赔\n款。"
+      ],
+      "notes": [
+        "八大类按独立动作拆为15行为；仅一受罚机构，不新增未受罚个人。",
+        "原文各数字、否定、侦查/追回和推算等限定完整保留；65岁整条件原文未知，不补。",
+        "统一硬检后补第5、6类行为标题coverage，11个主/子标题均覆盖；原15机制和事实不变。"
+      ],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "pending_root_recheck",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 211,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true,
+        "independent_full_source_reread_after_repair": true,
+        "reread_cases": 1,
+        "reread_behaviors": 15,
+        "all_11_behavior_titles_covered": true
+      },
+      "finding_resolution": [
+        {
+          "code": "MASSIVE_BEHAVIOR_OMISSION",
+          "field": "behaviors",
+          "status": "resolved_semantic_revision",
+          "source_quote": "1、不实列支营业费用\n你公司2007年和2008年存在虚列营业费用贴补手续费的情况。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "BEHAVIOR_DATE_AS_PENALTY_DATE",
+          "field": "cases.c1.penalty_date/penalty_date_quote",
+          "status": "resolved_semantic_revision",
+          "source_quote": "二OO九年五月十三日",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "MISSING_EXPLICIT_PENALTY_AMOUNTS",
+          "field": "cases.c1.penalties",
+          "status": "resolved_semantic_revision",
+          "source_quote": "我局决定责令你公司改正,并给予罚款十二万元的行政处罚。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "WRONG_REGULATOR",
+          "field": "cases.c1.regulator",
+          "status": "resolved_semantic_revision",
+          "source_quote": "中国保监会广东监管局行政处罚决定书(中华联合财产保险股份有限公司阳江中心支公司)",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases.c1.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "二、上述第1、2、4、5、6、7项行为违反了《中华人民共和国保险法》第一百二十二条的规定",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "WRONG_MARKETING_RELEVANCE",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "在每份保单保险期限内你公司必须向保费出资人支付其所交保费金额130%的赔\n款。",
+          "hardcheck": "pending_root_unified100"
+        }
+      ],
+      "revision_history": [
+        {
+          "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003314_r0_fix01.json",
+          "before_sha": "89432538716d6ac23e416ab10f8fc3ca88b5e5613cd4994e07c72c418563787c",
+          "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003314_r0_fix02.json",
+          "after_sha": "9a03d0197bba014165e94d6d44b0fa7611585470b5bb8f46040864b0d6a308a6",
+          "diff_fields": [
+            "coverage"
+          ],
+          "reason": "统一硬检发现原文行为标题5、私印保单及6、虚假赔案未覆盖",
+          "source_quotes": [
+            "5、私印保单\n",
+            "6、虚假赔案\n"
+          ],
+          "added_coverage": [
+            {
+              "quote": "5、私印保单\n",
+              "classification": "behavior",
+              "case_keys": [
+                "c1"
+              ],
+              "behavior_keys": [
+                "private_motorcycle_policies",
+                "private_motorcycle_unrecorded",
+                "private_student_policies",
+                "student_premium_offbooks",
+                "private_tourist_policies",
+                "tourist_premiums_off_system"
+              ],
+              "note": "原文违规类别标题，关联已经拆分的具体行为机制。"
+            },
+            {
+              "quote": "6、虚假赔案\n",
+              "classification": "behavior",
+              "case_keys": [
+                "c1"
+              ],
+              "behavior_keys": [
+                "inflated_accident_losses",
+                "fabricated_no_accident_claims"
+              ],
+              "note": "原文违规类别标题，关联已经拆分的具体行为机制。"
+            }
+          ],
+          "verification": {
+            "only_two_coverage_entries_added": true,
+            "all_11_behavior_titles_covered": true,
+            "all_15_behavior_mechanisms_unchanged": true,
+            "previous_revision_unchanged": true,
+            "candidate_pending_preserved": true
+          },
+          "schema_hardcheck": "pending_root_recheck"
+        }
+      ]
+    },
+    {
+      "file_id": "F002890",
+      "source_sha": "c1b9355868be835d071c66519709781425041f9b69ac814c2590603f0e5892fb",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002890_r0_fix01.json",
+      "before_sha": "4878eeb012a4e5ff9a590206863bfc150dfeee707f2edaf363ed79ef56a124b2",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002890_r0_fix03.json",
+      "after_sha": "c706eb131b4c584f6132d23f03ceadc44c5eb31a2800600021d4ad8333a1fc4d",
+      "diff_fields": [
+        "behaviors",
+        "cases[0].penalties",
+        "cases[0].unknowns",
+        "cases[1].case_summary_quotes[0]",
+        "cases[2].case_summary_quotes[0]",
+        "cases[3].legal_refs",
+        "cases[8].legal_refs",
+        "cases[10].legal_refs",
+        "coverage",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "INVENTED_PENALTY_TYPE",
+        "FINDING_QUOTE_ONLY_PENALTY",
+        "INDEPENDENT_MECHANISMS_MERGED",
+        "OMITTED_LIMITS_ARGUMENTS_MITIGATION",
+        "PERSON_OBJECT_EXPANDS_UNRELATED_ITEMS",
+        "OMITTED_MITIGATION_LEGAL_REF"
+      ],
+      "source_quotes": [
+        "综上,我会决定对当事人阳光农险给予警告,责令停止接受公司垦区外非农险业务的新业务6个月,合并罚款81万元。",
+        "当事人孙振军,对公司违规投资、决策虚假批单退费和农业保险的弄虚作假等行为负有直接责任。",
+        "此外,2008年,阳光农险以假批退冲销应收补贴款5817万元,导致公司财务报表信息严重失实。",
+        "孙振军在申辩材料中称,相互制保险体制和农业保险模式的试点工作不应适用《保险法》。",
+        "当事人周谊秋,对齐齐哈尔中支以农业保险赔款抵家财险保费收入负有直接责任。",
+        "鉴于其存在《行政处罚法》第二十七条规定的情形"
+      ],
+      "notes": [
+        "机构独立机制拆成10行为，个人11条限原文明示责任。",
+        "删除无原文责令改正；停止新业务范围限定垦区外非农险。",
+        "原文数字、时点、公司称、申辩驳回及减轻条件保存；未另加合计或未受罚个人。",
+        "统一硬检后仅补16条完整finding_quote自有coverage；21行为全部通过原next1000_quality覆盖校验，机制/主体/事实不变。"
+      ],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "pending_root_recheck",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 446,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true,
+        "all_21_behavior_finding_self_coverage": true,
+        "next1000_quality_validate_coverage_granularity": "pass"
+      },
+      "finding_resolution": [
+        {
+          "code": "INVENTED_PENALTY_TYPE",
+          "field": "cases.company.penalties",
+          "status": "resolved_semantic_revision",
+          "source_quote": "综上,我会决定对当事人阳光农险给予警告,责令停止接受公司垦区外非农险业务的新业务6个月,合并罚款81万元。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "FINDING_QUOTE_ONLY_PENALTY",
+          "field": "behaviors.sun_responsibility/xu_responsibility.finding_quote",
+          "status": "resolved_semantic_revision",
+          "source_quote": "当事人孙振军,对公司违规投资、决策虚假批单退费和农业保险的弄虚作假等行为负有直接责任。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "INDEPENDENT_MECHANISMS_MERGED",
+          "field": "behaviors.false_agriculture_claim_materials/false_premium_refund_and_financial_data",
+          "status": "resolved_semantic_revision",
+          "source_quote": "此外,2008年,阳光农险以假批退冲销应收补贴款5817万元,导致公司财务报表信息严重失实。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "OMITTED_LIMITS_ARGUMENTS_MITIGATION",
+          "field": "behaviors.*.conditions/negations/exceptions/factor_values",
+          "status": "resolved_semantic_revision",
+          "source_quote": "孙振军在申辩材料中称,相互制保险体制和农业保险模式的试点工作不应适用《保险法》。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "PERSON_OBJECT_EXPANDS_UNRELATED_ITEMS",
+          "field": "behaviors.*_responsibility.object",
+          "status": "resolved_semantic_revision",
+          "source_quote": "当事人周谊秋,对齐齐哈尔中支以农业保险赔款抵家财险保费收入负有直接责任。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "OMITTED_MITIGATION_LEGAL_REF",
+          "field": "cases.wangyetian/liuqi/liguiqin.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "鉴于其存在《行政处罚法》第二十七条规定的情形",
+          "hardcheck": "pending_root_unified100"
+        }
+      ],
+      "revision_history": [
+        {
+          "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002890_r0_fix02.json",
+          "before_sha": "b01a96e718be78f46f9063d96bba9a4cc4634d0a3d718a764872518728fb19a9",
+          "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002890_r0_fix03.json",
+          "after_sha": "c706eb131b4c584f6132d23f03ceadc44c5eb31a2800600021d4ad8333a1fc4d",
+          "diff_fields": [
+            "coverage"
+          ],
+          "reason": "统一硬检finding_quote not bound to own behavior coverage；原coverage按单行切分，缺完整finding连续覆盖",
+          "added_behavior_keys": [
+            "unapproved_guarantee_investment",
+            "unapproved_agriculture_materials_investment",
+            "unapproved_senior_appointments",
+            "false_operating_capital_materials",
+            "claim_archives_disordered",
+            "missing_county_weather_evidence",
+            "false_agriculture_claim_materials",
+            "inflated_and_retained_agriculture_claims",
+            "false_refund_lists_and_circular_funds",
+            "sun_responsibility",
+            "xu_responsibility",
+            "wu_responsibility",
+            "wangzhihui_responsibility",
+            "wanghouben_responsibility",
+            "liuqi_responsibility",
+            "liguiqin_responsibility"
+          ],
+          "source_quotes": [
+            "2008年8月21日,阳光农险第一届董事会第六次会议审议通过了“公司投资北大荒投资担保股份有限公司(以下简称‘担保公司’)”议案。董事长孙振军签字确认。担保公司于2009年2月5日取得黑龙江省农垦区工\n商行政管理局核发的《企业法人营业执照》。截至检查日,阳光农险未向我会申请审批此项投资。\n",
+            "2008年10月28日,阳光农险党委会议决定成立黑龙江农垦三农相互农业生产资料连锁有限公司(以下简称“生资公司”),党委委员徐丰年、孙振军等人签字。11月11日,公司工会主席刘奉先、公司员工马成学以及\n陈文光(非公司职工)用实际由阳光农险提供的200万作为注册资金,以个人名义在黑龙江农垦工商局注册“黑龙江农垦三农相互农业生产资料连锁有限公司”。同时,刘奉先等3人签署股权说明,声明生资公司注册\n资本全部是阳光农险资金,生资公司股权归阳光农险所有。截至检查日,公司未向我会申请审批此项投资。\n",
+            "2008年12月22日,黑龙江省农垦总局发文任命吴丰、王野田、于才、李子国等4人任公司副总经理,口头同意杨俊、洪大伟为总经理助理。确定分工之后,吴丰、于才、洪大伟即开始实际履行高管职责。2009\n年3月25日,公司召开第一届董事会第七次全体会议,通过该6人任职议案。至今,公司未向我会申报吴丰、于才、洪大伟等3人的任职资格核准。\n",
+            "阳光农险章程及我会的批复中都明确规定:公司营运资金7000万元,分别由会员有偿借入5000万元和农垦总局无偿划拨2000万元。公司开业时在我会存档的验资报告和公司检查时提供的验资报告均显\n示,2004年12月16日,黑龙江省农行直属支行营业部出具进账单,付款人为黑龙江农垦总局农业互助保险局,收款人为阳光农业相互保险公司。经检查,未发现该项资金往来。公司称实际情况是:为保证验资工作,\n农垦总局与农行沟通,以信誉担保并出具保函,银行设立了临时账户,并出具了进账单,10日后该账户自动作废。\n",
+            "检查发现,阳光农险齐齐哈尔中支的种植业保险理赔档案装订不规范,赔款计算书、测产单、赔款凭证等分别汇总装订。",
+            "农险赔案无县级或县级以上气象站出具的气象证明材料,仅有保险社或农经站出具的气\n象报告。",
+            "时任中支农险部负责人承认,理赔资料存在造假行为。\n",
+            "此外,齐齐哈尔中心支公司会议纪要和检查谈话记录表明,2008年,齐齐哈尔中心支公司支付种植业保险赔款4020万元,此笔款项除了实际支付农险赔款外,还被用于支付村集体垫付保费的本息、留作2009年预\n收保费、抵作企财险、家财险保费等。以上表明齐齐哈尔中心支公司存在虚增赔款及截留赔款资金的问题。\n",
+            "经查,2008年,齐齐哈尔中支将1212万元分别汇到各所属营销服务部,营销服务部提取现金支付到各县农经站,由农经站转汇至各县财政局,各县财政局再将此笔款项分别汇至齐齐哈尔中心支公司。齐齐哈尔中支\n同时伪造数十本各村农民签字的退还保费清单,以造成已将农险保费补贴资金发放至农户的假象,应付检查。\n",
+            "当事人孙振军,对公司违规投资、决策虚假批单退费和农业保险的弄虚作假等行为负有直接责任。\n孙振军在申辩材料中称,相互制保险体制和农业保险模式的试点工作不应适用《保险法》。我会认为,相互制和农业保险虽然具有一定的特殊性,但也必须遵守保险经营的基本规则,因此孙振军的申辩不成立。\n根据《保险法》(2002)第一百五十条的规定,我会决定对孙振军责令予以撤换,罚款10万元。\n",
+            "当事人徐丰年,对投资生资公司决策负有直接责任。徐丰年在申辩材料中称,(一)自己只是在党委会上做了党务学习报告,不应认定为对投资生资公司决策负有直接责任;(二)阳光农险投资生资公司并未造成重大\n经济损失和恶劣社会影响,属于“违法行为轻微并及时纠正,没有造成危害后果”,按照《行政处罚法》的相关规定应不予处罚。经查,我会认为,(一)徐丰年是监事长,对违规投资事项未及时制止,且负有不可推卸的\n责任。(二)阳光农险违规运用资金数额巨大,行为本身性质恶劣,可能酿成重大风险。因此,徐丰年的申辩不成立。\n鉴于徐丰年对检查较为配合,日常工作中也对公司部分不合理行为提出过意见和建议。根据《保险法》(2002)第一百五十条的规定,我会决定对其予以警告。\n",
+            "当事人吴丰,2009年决策齐齐哈尔中支农业保险赔款处理方式,给各县营销服务部开会,布置赔款发放工作,对齐齐哈尔中心支公司的农业保险弄虚作假负有直接责任。根据《保险法》(2002)第一百五十条的规\n定,我会决定对其给予警告,罚款10万元。\n",
+            "当事人王智辉,直接参与齐齐哈尔中支农业保险赔款处理的决策、实施,对齐齐哈尔中心支公司的农业保险弄虚作假负有直接责任。根据《保险法》(2002)第一百五十条的规定,我会决定对其责令予以撤换,罚\n款10万元。\n",
+            "当事人王厚本,2009年上任以后,对农业保险弄虚作假的情况知情,但未采取合理措施制止,对齐齐哈尔中心支公司的农业保险弄虚作假负有一定直接责任。根据《保险法》(2002)第一百五十条的规定,我会决定\n对其予以警告,罚款2万元。\n",
+            "当事人刘琦,直接参与齐齐哈尔中支农业保险赔款处理的决策、实施,对齐齐哈尔中心支公司的农业保险弄虚作假负有直接责任。鉴于其存在《行政处罚法》第二十七条规定的情形,根据《保险法》(2002)第\n一百五十条的规定,我会决定对其予以警告。\n",
+            "当事人李桂琴,直接参与齐齐哈尔中支农业保险赔款处理的决策、实施,对齐齐哈尔中心支公司农业保险弄虚作假负有直接责任。鉴于其存在《行政处罚法》第二十七条规定的情形,根据《保险法》(2002)第\n一百五十条的规定,我会决定对其予以警告。\n"
+          ],
+          "verification": {
+            "added_self_coverage_entries": 16,
+            "all_21_behavior_finding_self_coverage": true,
+            "next1000_quality_validate_coverage_granularity": "pass",
+            "all_21_behaviors_and_cases_unchanged": true,
+            "previous_revision_unchanged": true,
+            "candidate_pending_preserved": true
+          },
+          "schema_hardcheck": "pending_root_recheck"
+        }
+      ]
+    },
+    {
+      "file_id": "F004660",
+      "source_sha": "196b31f90441204bd21bca8810c11bec34d0db86bdb844f55df4ba9579eb1df7",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b019\\p2\\F004660_r0.json",
+      "before_sha": "1bfceb599d6e829d01fc586054df61a01020b2c152256416178b38de64a1bb02",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b019\\p2\\F004660_r0_fix01.json",
+      "after_sha": "36ed49463edb265ad6585ab1a2f1770437cbeaf82a4da667f16089b8999aaf09",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "WRONG_MARKETING_RELEVANCE",
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "给予投保人或被保险人保险合同约\n定以外利益",
+        "《中华人民共和国保险法(2015年修\n正)》第一百六十一条"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 22,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "WRONG_MARKETING_RELEVANCE",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "给予投保人或被保险人保险合同约\n定以外利益",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases.company.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "《中华人民共和国保险法(2015年修\n正)》第一百六十一条",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F008199",
+      "source_sha": "51ffe6613d189b0bf5a883bcefcc225fe9cd22370dee5d33ee9e38acae39693d",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F008199_r0.json",
+      "before_sha": "01f9ae5d5d78a23640a26bce4ce076223845517dbee6cc2f6053f0fa56af30a1",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F008199_r0_fix01.json",
+      "after_sha": "91635dbc1d5829f26bfd530f11df6284d33c8558619e37f6cee516b799ebdc31",
+      "diff_fields": [
+        "cases[0].legal_refs[0].value",
+        "marketing_relevance.quotes",
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+        "VAGUE_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "得合法资格的机构从事保险销售活\n动、给予投保人保险合同约定以外的\n利益、虚列费用负有责任",
+        "《中华人民共和国保险法》第八十六\n条、第一百一十六条、第一百七十一\n条"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 50,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "得合法资格的机构从事保险销售活\n动、给予投保人保险合同约定以外的\n利益、虚列费用负有责任",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "VAGUE_LEGAL_REFS",
+          "field": "cases.zhang_xiaoya.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "《中华人民共和国保险法》第八十六\n条、第一百一十六条、第一百七十一\n条",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F001232",
+      "source_sha": "b236f57e431144fb7a6694e494e105a5d21727382082c3e4f24955dd9fcaedf3",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F001232_r0.json",
+      "before_sha": "32ef1e25695a4291cafd901282511e5385c72c87a4f279967bd70cf41aa3715f",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F001232_r0_fix01.json",
+      "after_sha": "2cdc2a92db76b4eadb25303cd4b821395a7b293f5acc720759fbb9f9661a7f69",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "安和代理亳州分公司上述行为违反了《中华人民共和国保险法》第一百三十一条第八项规定。依据该法第一百六十六条的规定"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 24,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases.company.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "安和代理亳州分公司上述行为违反了《中华人民共和国保险法》第一百三十一条第八项规定。依据该法第一百六十六条的规定",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F000728",
+      "source_sha": "bc639efeb78c128246b136a5599cc580d7772bfc8e9d863f7d19536fd870a5cf",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b012\\p1\\F000728_r0.json",
+      "before_sha": "b4622ab8a570688f5e3656451ad20481d4efdba7d5d443f0e53030be4d4eb1be",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b012\\p1\\F000728_r0_fix01.json",
+      "after_sha": "c70d677a0562f0d6afbd12d2db793a9606adae105e0b834d88c50fe932fec57f",
+      "diff_fields": [
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT"
+      ],
+      "source_quotes": [
+        "存在委托未持有本机构发放的执业证书的人员从事保险销售的问题"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 24,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "存在委托未持有本机构发放的执业证书的人员从事保险销售的问题",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F001198",
+      "source_sha": "b6f6571998da183c82992a061dc7fc527288a3cd8a95f79b674dc2986c4bb031",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p2\\F001198_r0.json",
+      "before_sha": "9e2a262c64909bbb8da3fd20f639dbaf9d5043253518b02999043f9c45f6e8b7",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p2\\F001198_r0_fix01.json",
+      "after_sha": "b6016a4243e1878131bb6af286d29f31f997e74db6b665683d78c6397ac2f710",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "WRONG_MARKETING_RELEVANCE",
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "经查,你公司存在委托未取得合法资格的机构从事保险销售活动的违法行为:",
+        "上述行为违反了《中华人民共和国保险法》第一百一十六条第八项的规定。依据《中华人民共和国保险法》第一百六十二条的规定"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 26,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "WRONG_MARKETING_RELEVANCE",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "经查,你公司存在委托未取得合法资格的机构从事保险销售活动的违法行为:",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases.company.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "上述行为违反了《中华人民共和国保险法》第一百一十六条第八项的规定。依据《中华人民共和国保险法》第一百六十二条的规定",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F005844",
+      "source_sha": "0c973688ffb1eecd1fb69de5c8ed7cb5c431b9f8050c34e3b5ccd9865c17c114",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b025\\p2\\F005844_r0.json",
+      "before_sha": "f99160b07b14257587461639d130b5fae7e8afd05abe83928ecdf6612803a16e",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b025\\p2\\F005844_r0_fix01.json",
+      "after_sha": "26b75b14ad38faa168e6d07bc1aed1e0d84c9c384b4a4eae45dd9e2b811d200e",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "《中华人民共和国保险法》第八十六条和\n第一百七十一条"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 32,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases.yin.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "《中华人民共和国保险法》第八十六条和\n第一百七十一条",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F002973",
+      "source_sha": "d84c02c62353c10e2553d83eb6f734709bafce60af5ddd41430a87f52ab8dd3b",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b044\\p3\\F002973_r0.json",
+      "before_sha": "fa1d01abe6331822e25e82cd7edab3f3ba08da7138b3c4e3b15f1963f90b1249",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b044\\p3\\F002973_r0_fix01.json",
+      "after_sha": "6b18b8b12f7d7b3a7e55f3c838c2efcb5048813b808c1913173dd7df2b823e3b",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "上述事实行为违反了《中华人民共和国保险法》第一百二十二条的规定。\n依据《中华人民共和国保险法》第一百四十七条的规定"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 19,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases.zhonghua.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "上述事实行为违反了《中华人民共和国保险法》第一百二十二条的规定。\n依据《中华人民共和国保险法》第一百四十七条的规定",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F000306",
+      "source_sha": "81a4e4105cdf866b863876f826d3e8ad01d4f7bb49090ac6bc8029a667500656",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b079\\p2\\F000306_r0.json",
+      "before_sha": "109866f1518d47d03e7f8858729e8689335ba848ff8ad11e7af595092f82b3af",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b079\\p2\\F000306_r0_fix01.json",
+      "after_sha": "06142a900c44b3eae76bc25ec946ad68d7428340fcd465fc5e963082d5cf5b81",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "cases[1].legal_refs",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "未按照规定报告变更营业场所行为违反了《保险公估人监管规定》第二十三条规定,根据《保险公估人监管规定》第九十四条的规定"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 61,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases.company/jiang.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "未按照规定报告变更营业场所行为违反了《保险公估人监管规定》第二十三条规定,根据《保险公估人监管规定》第九十四条的规定",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F003758",
+      "source_sha": "550ce8edcd8ad18d63bebe03c17f2f6be9615ee6c9042bcdf0a498f5e82a406f",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b073\\p3\\F003758_r0.json",
+      "before_sha": "bdaa7a135efb3980f4bae674eed688d31697fcc343f73eefa907dba1b6842473",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b073\\p3\\F003758_r0_fix01.json",
+      "after_sha": "face822e9b98e2bba13c52a261180d61365057b85a8a86b873fb67e656626d14",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "通事故责任强制保险条例》第三十八条和《保险法》第一百零七条有关规定。\n你作为人保财险武鸣支公司业务员,对于上述违法行为负有直接责任,依据《中华人民共和国保险法》第一百五十条规定"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 22,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases.person.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "通事故责任强制保险条例》第三十八条和《保险法》第一百零七条有关规定。\n你作为人保财险武鸣支公司业务员,对于上述违法行为负有直接责任,依据《中华人民共和国保险法》第一百五十条规定",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F006352",
+      "source_sha": "8a28362365e3ee2f44c01ebad6af9891fb641bf6e0417e75df4f26c8d732f094",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b064\\p1\\F006352_r0.json",
+      "before_sha": "d47a3985fe79d1cd47e396fd6e044cc290427455457e032877eced4417714b66",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b064\\p1\\F006352_r0_fix01.json",
+      "after_sha": "b4bfc4504f19d2bf089f54e244c0afdd0b96a89cd387307768b2afb15a83c9b5",
+      "diff_fields": [
+        "cases[0].legal_refs[0].value",
+        "cases[1].legal_refs[0].value",
+        "cases[2].legal_refs[0].value",
+        "cases[3].legal_refs[0].value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "VAGUE_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "《中华人民共和国保险法》第八十六条\n第二款、第一百七十条第(一)项、第一\n百七十一条、第一百七十七条"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 70,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "VAGUE_LEGAL_REFS",
+          "field": "cases[*].legal_refs.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "《中华人民共和国保险法》第八十六条\n第二款、第一百七十条第(一)项、第一\n百七十一条、第一百七十七条",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F004586",
+      "source_sha": "b3aa2b6bee27210802b569f3e65fbf377a928341923d72ac0cb6fee97cb6aa1f",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b060\\p2\\F004586_r0.json",
+      "before_sha": "3ad6656707c55461aafc1676e85119518eb6c9cac886a63cf039804b2f61e511",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b060\\p2\\F004586_r0_fix01.json",
+      "after_sha": "f45ae27cddfedefb04de644cb01f4e4b8fb8095bfb4b79d59b0887e3eb5ecd4d",
+      "diff_fields": [
+        "marketing_relevance.quotes",
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT"
+      ],
+      "source_quotes": [
+        "代理人培训管理不\n规范、违规销售、\n业务数据不真实"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 95,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "代理人培训管理不\n规范、违规销售、\n业务数据不真实",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F007796",
+      "source_sha": "5128544e6ca6fc84feecbb6b723d85574584714a9bad0628e8a3a9541cda8480",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b015\\p3\\F007796_r0.json",
+      "before_sha": "b996ae6a585d6024425528193f480078bcee32eef3f8fa59ab9517b1dbb9bda3",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b015\\p3\\F007796_r0_fix01.json",
+      "after_sha": "6ec6b8ab2bfffd5c78a76f30b96faa835755b4d4b738b2430f276b385eb099b7",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "cases[1].legal_refs",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "《保险公司管理规定》第六十九条"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 48,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases[*].legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "《保险公司管理规定》第六十九条",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F001294",
+      "source_sha": "51d191ac4fc1ad469cf34a7c0bad7f732b2880901c51576331d6c731624f0213",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b065\\p1\\F001294_r0.json",
+      "before_sha": "54e48903b1496874394e16cbd180c0110e3aad3364fc7d07ca7be728525e5d6f",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b065\\p1\\F001294_r0_fix01.json",
+      "after_sha": "836cdc30a8cdda8c49cfc46a282d0a1b38e9be0203f31dc1795a875fb2430e55",
+      "diff_fields": [
+        "marketing_relevance.quotes",
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "WRONG_MARKETING_RELEVANCE"
+      ],
+      "source_quotes": [
+        "(一)给予投保人合同外利益"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 63,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "WRONG_MARKETING_RELEVANCE",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "(一)给予投保人合同外利益",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F005641",
+      "source_sha": "af9039860ea01541dc1d02cbce35ac6f195b39e3a8d76fac12ed6840f8474bf7",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b017\\p3\\F005641_r0.json",
+      "before_sha": "8a67399e164ddbaa5d8ce7fe5fbd4022ff260ad3ebd48f19dc75a62d95401c0b",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b017\\p3\\F005641_r0_fix01.json",
+      "after_sha": "6659aac24d326b1b01ac3f2256b1f2a83af8c573de0594e0f14ee37ab44e2875",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "cases[1].legal_refs",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "《中华人民共和国保险法》第八十六条、第一百\n七十条、第一百七十一条"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 46,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases[*].legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "《中华人民共和国保险法》第八十六条、第一百\n七十条、第一百七十一条",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F000092",
+      "source_sha": "0a4d2c2976d0227b2ca8fbc860203ebc13747d43af0169792e45c9a852ba2ac8",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b086\\p3\\F000092_r0.json",
+      "before_sha": "0ad7a1157f11a93e3e6c47acc3a6b679fab440da550342a0e3827c2b33791fd5",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b086\\p3\\F000092_r0_fix01.json",
+      "after_sha": "977a24ff7f424b782d8f0b915e0dbf1d95e498377f00c3186d08964ea314f2b9",
+      "diff_fields": [
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DECEPTION_FACT"
+      ],
+      "source_quotes": [
+        "欺骗投保人。"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 31,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DECEPTION_FACT",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "欺骗投保人。",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F002918",
+      "source_sha": "e5f6a32d4a38af03adb0bc9cba54a8f0f993e5a4dd1cdb568741cbf5860921c3",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p2\\F002918_r0.json",
+      "before_sha": "141de6831128d504a66df997e8989b47e5efabdd750b73f4ea3a4be3578f9b46",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p2\\F002918_r0_fix01.json",
+      "after_sha": "f610dd58a47c8b15266d167f6068c6b1d95caf5da2ae33ec6a88f54fbd4de629",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "二、上述行为违反了《中华人民共和国保险法》第一百二十三条的规定。依据《中华人民共和国保险法》第一百六十七条第(二)项的规定"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 52,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases.company.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "二、上述行为违反了《中华人民共和国保险法》第一百二十三条的规定。依据《中华人民共和国保险法》第一百六十七条第(二)项的规定",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F009750",
+      "source_sha": "2312a4727756007d1077da47a57ce9ba707fe3594adb50d22830283cbab49d64",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b010\\p1\\F009750_r0.json",
+      "before_sha": "e2554b9163f8eb658a714b167227f85704a214222bee3b5f4d75c0f1603a8d13",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b010\\p1\\F009750_r0_fix01.json",
+      "after_sha": "7870cee57af8c3d485e17b20a6cf20c03afedd577033fc3ee6c636450fb031e9",
+      "diff_fields": [
+        "marketing_relevance.quotes",
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT"
+      ],
+      "source_quotes": [
+        "给予投保人保险合同约定以外的\n利益、隐瞒与保险合同有关的重\n要情况"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 33,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "给予投保人保险合同约定以外的\n利益、隐瞒与保险合同有关的重\n要情况",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F008914",
+      "source_sha": "26a36594b93663000a494046ebdb18f7dca49ee51e5db534df578f9ddc4b7452",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p2\\F008914_r0_fix01.json",
+      "before_sha": "df6d24d41b3c0d8792b14735b8378d51c1751b2f31f037c9fa53f4e99a513ce3",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p2\\F008914_r0_fix02.json",
+      "after_sha": "6ffbb3de5b288a1d99cfd9e87c9272d3a035015cf327063e0bdd78514960fc0e",
+      "diff_fields": [
+        "behaviors[0].conditions",
+        "cases[0].behavior_period",
+        "cases[0].behavior_period_quote",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_BEHAVIOR_PERIOD"
+      ],
+      "source_quotes": [
+        "2021年11月，管昊星对美亚财产保险有限公司\n制作虚假文件的行为负直接责任。"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 29,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_BEHAVIOR_PERIOD",
+          "field": "cases.case_1.behavior_period及behaviors.conditions",
+          "status": "resolved_semantic_revision",
+          "source_quote": "2021年11月，管昊星对美亚财产保险有限公司\n制作虚假文件的行为负直接责任。",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F001744",
+      "source_sha": "6fd15c869ba6c9cf2495bc1cce85fdbc6c06fe02b29da4d3c8eacd3946d40625",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b062\\p1\\F001744_r0.json",
+      "before_sha": "9d3bd7d53764467e3888e9ed1df9b3457fab8a3c4db182469cd96433e7c033ed",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b062\\p1\\F001744_r0_fix01.json",
+      "after_sha": "83183380d5e69dc1f637899d661e1165945fbc6dc05031cddb692caac74855b5",
+      "diff_fields": [
+        "behaviors[0].conditions",
+        "behaviors[2].conditions",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_DETAILED_TIME_LIMITS"
+      ],
+      "source_quotes": [
+        "保险期限分别为2010年9月9日至2011年9月8日、2012年11月12日至2013年11月11日。"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 50,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_DETAILED_TIME_LIMITS",
+          "field": "behaviors.appointment/liability_gap.conditions/factor_values",
+          "status": "resolved_semantic_revision",
+          "source_quote": "保险期限分别为2010年9月9日至2011年9月8日、2012年11月12日至2013年11月11日。",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F001347",
+      "source_sha": "3c27f7950d335ff7e877286c856af92d5fd933a4d676486f999950e40aa36edd",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b021\\p1\\F001347_r0.json",
+      "before_sha": "87b519da731e5db40a0f80accc4ed4c16c97807342f6847f0c47b264da467572",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b021\\p1\\F001347_r0_fix01.json",
+      "after_sha": "2c31ffebff2129cfe81ade356948ae8407ba66fcc18f1cc4efb58b9d996a9578",
+      "diff_fields": [
+        "behaviors[0].exceptions",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_ARGUMENT_DISPOSITION"
+      ],
+      "source_quotes": [
+        "人保财险忠县支公司提出了陈述申辩意见,我局逐项复核后认为,人保财险忠县支公司提出的陈述申辩理由不充分,我局不予采信。"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 29,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_ARGUMENT_DISPOSITION",
+          "field": "behaviors.ear.conditions/negations/exceptions及cases.unknowns",
+          "status": "resolved_semantic_revision",
+          "source_quote": "人保财险忠县支公司提出了陈述申辩意见,我局逐项复核后认为,人保财险忠县支公司提出的陈述申辩理由不充分,我局不予采信。",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F003967",
+      "source_sha": "c54f2f7025c45ed244058d3fdde6175ca5a8e9f0c28cf75ab95bf1508579e4a4",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003967_r0_fix01.json",
+      "before_sha": "c75d661201cb004331c4cc42282801d82e10b6fc6ed3d81f3a87a9bcc1a25d3a",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003967_r0_fix03.json",
+      "after_sha": "81e1c4899dd5dfd6f66bf832e5f773f2efde85819075452f3ba602c333466270",
+      "diff_fields": [
+        "behaviors",
+        "cases",
+        "coverage",
+        "self_review_note",
+        "cases.c2.institution_hierarchy"
+      ],
+      "resolved_codes": [
+        "MISSING_PUNISHED_PERSON",
+        "WRONG_REGULATOR",
+        "UNSUPPORTED_EXPLICIT_LABEL"
+      ],
+      "source_quotes": [
+        "司长春营业本部总\n经理助理李振靖警\n告并罚款4万元",
+        "吉林金融\n监管局",
+        "财务数据不真实"
+      ],
+      "notes": [
+        "补李振靖独立个人案警告4万元，角色unknown并仅文书关联。",
+        "机构与个人罚款不均分或重复；源缺文号、日期、法条继续未知。",
+        "统一硬检后补个人institution_hierarchy对象；level=not_applicable，不改已审事实。"
+      ],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "pending_root_recheck",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 34,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true,
+        "hierarchy_object_contract": true
+      },
+      "finding_resolution": [
+        {
+          "code": "MISSING_PUNISHED_PERSON",
+          "field": "cases",
+          "status": "resolved_semantic_revision",
+          "source_quote": "司长春营业本部总\n经理助理李振靖警\n告并罚款4万元",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "WRONG_REGULATOR",
+          "field": "cases.c1.regulator",
+          "status": "resolved_semantic_revision",
+          "source_quote": "吉林金融\n监管局",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "UNSUPPORTED_EXPLICIT_LABEL",
+          "field": "behaviors.b1.risk_tags",
+          "status": "resolved_semantic_revision",
+          "source_quote": "财务数据不真实",
+          "hardcheck": "pending_root_unified100"
+        }
+      ],
+      "revision_history": [
+        {
+          "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003967_r0_fix02.json",
+          "before_sha": "7174f76507e9675d2251e644dfa2f7dcb5647280f3113df492d500a2cd00cd0f",
+          "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003967_r0_fix03.json",
+          "after_sha": "81e1c4899dd5dfd6f66bf832e5f773f2efde85819075452f3ba602c333466270",
+          "diff_fields": [
+            "cases.c2.institution_hierarchy"
+          ],
+          "reason": "统一硬检TypeError check_proposals.py:83：个人institution_hierarchy须为对象",
+          "before": null,
+          "after": {
+            "level": "not_applicable",
+            "basis_quote": null,
+            "geographic_level": null,
+            "missing_reason": "个人主体不适用机构层级；不由职务推断机构层级。"
+          },
+          "verification": {
+            "only_requested_field_changed": true,
+            "previous_revision_unchanged": true,
+            "candidate_pending_preserved": true
+          },
+          "schema_hardcheck": "pending_root_recheck"
+        }
+      ]
+    },
+    {
+      "file_id": "F001216",
+      "source_sha": "b8696aae71c9000af1a2fe19f6cae4040554c99d54a9bc54dbf5aba09d6b2498",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b043\\p1\\F001216_r0.json",
+      "before_sha": "2d9bbacb8dd34870d4c41b06db3ad12fb6073dc8dffc8f9106176e8ee2676d7d",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b043\\p1\\F001216_r0_fix01.json",
+      "after_sha": "95fee5d4d5e5628aac505e8b43d09db9949d004f1611e205b7c72928c932fb0e",
+      "diff_fields": [
+        "behaviors[0].action",
+        "behaviors[0].factor_values[0].value",
+        "behaviors[0].factor_values[1].value",
+        "behaviors[0].object",
+        "behaviors[1].action",
+        "behaviors[1].factor_values[0].value",
+        "behaviors[1].factor_values[1].value",
+        "behaviors[1].object",
+        "behaviors[2].action",
+        "behaviors[2].factor_values[0].value",
+        "behaviors[2].factor_values[1].value",
+        "behaviors[2].object",
+        "behaviors[2].risk_tags",
+        "behaviors[3].action",
+        "behaviors[3].factor_values[0].value",
+        "behaviors[3].factor_values[1].value",
+        "behaviors[3].object",
+        "behaviors[4].factor_values[1].value",
+        "behaviors[4].object",
+        "behaviors[5].factor_values[1].value",
+        "behaviors[5].object",
+        "behaviors[6].factor_values[1].value",
+        "behaviors[6].object",
+        "behaviors[6].risk_tags",
+        "behaviors[7].factor_values[1].value",
+        "behaviors[7].object",
+        "cases[0].legal_refs",
+        "cases[1].legal_refs",
+        "marketing_relevance.quotes",
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+        "OMITTED_LEGAL_REFS",
+        "ACTION_OBJECT_DUPLICATED",
+        "MISSING_SPECIFIC_RECALL_LABEL"
+      ],
+      "source_quotes": [
+        "(三)业务人员在电话中向客户介绍产品时存在误导性话术。",
+        "综上,你公司上述第一至三项的行为违反了《保险法》第一百三十一条第(一)项规定,根据《保险法》第一百六十六条规定",
+        "(一)以保险公司的名义对外进行电话约访。",
+        "(三)业务人员在电话中向客户介绍产品时存在误导性话术。"
+      ],
+      "notes": [
+        "四机制动作与对象分开，补电话产品介绍误导的电销违规候选；个人明确主管责任保持。"
+      ],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 112,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DIRECT_SALES_FACT",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "(三)业务人员在电话中向客户介绍产品时存在误导性话术。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases.company/liu.legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "综上,你公司上述第一至三项的行为违反了《保险法》第一百三十一条第(一)项规定,根据《保险法》第一百六十六条规定",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "ACTION_OBJECT_DUPLICATED",
+          "field": "behaviors.company_*.action/object及FD-C04/FD-C05",
+          "status": "resolved_semantic_revision",
+          "source_quote": "(一)以保险公司的名义对外进行电话约访。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "MISSING_SPECIFIC_RECALL_LABEL",
+          "field": "behaviors.company_phone/liu_phone.risk_tags",
+          "status": "resolved_semantic_revision",
+          "source_quote": "(三)业务人员在电话中向客户介绍产品时存在误导性话术。",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F008707",
+      "source_sha": "a082a43f7cf2b8ac3b62d1a5858505e792c4795bb984b00bb62f51c44001882d",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b020\\p2\\F008707_r0.json",
+      "before_sha": "a86f2bf16d7c683d0fed8cd4103dca089cbb65b324cdb311bb5d1c7a749c751b",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b020\\p2\\F008707_r0_fix01.json",
+      "after_sha": "842bd4cd3d732a9c19ab8df3197cb1c336f6dd4ba66cf7ba2e168cc14bc20e62",
+      "diff_fields": [
+        "behaviors[1].risk_tags[0].confidence",
+        "behaviors[1].risk_tags[0].limitations",
+        "behaviors[4].risk_tags[0].confidence",
+        "behaviors[4].risk_tags[0].limitations",
+        "behaviors[7].risk_tags[0].confidence",
+        "behaviors[7].risk_tags[0].limitations",
+        "marketing_relevance.quotes",
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "UNKNOWN_MARKETING_WITH_DECEPTION_FACT",
+        "INFERRED_TAG_MISSING_MECHANISM_LIMITATION"
+      ],
+      "source_quotes": [
+        "欺骗投保人;编制虚假的报告、报表、\n文件、资料;未按照规定使用经批准或\n者备案的保险条款",
+        "编制虚假的报告、报表、\n文件、资料"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 91,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "UNKNOWN_MARKETING_WITH_DECEPTION_FACT",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "欺骗投保人;编制虚假的报告、报表、\n文件、资料;未按照规定使用经批准或\n者备案的保险条款",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "INFERRED_TAG_MISSING_MECHANISM_LIMITATION",
+          "field": "behaviors.yang_false_material/feng_false_material.risk_tags",
+          "status": "resolved_semantic_revision",
+          "source_quote": "编制虚假的报告、报表、\n文件、资料",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F003089",
+      "source_sha": "b2a9400895b543402a3be555a0edc2d1cd0eeccd4bb1ab5d3b5bf04e3b59d608",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b059\\p3\\F003089_r0.json",
+      "before_sha": "cabc1b15fd96367f7f0797587a971f878e9a78a8d1f467efee7f1c83109dd3ed",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b059\\p3\\F003089_r0_fix01.json",
+      "after_sha": "bcfc674428e6dac66b39f1762a0f66c243bc560087c1b2dbb489244ae946b22d",
+      "diff_fields": [
+        "behaviors[0].object",
+        "behaviors[1].object",
+        "behaviors[2].object",
+        "behaviors[3].object",
+        "behaviors[4].object",
+        "behaviors[5].object",
+        "behaviors[6].object",
+        "behaviors[7].object",
+        "behaviors[8].object",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "GENERIC_OBJECT_MISMATCH"
+      ],
+      "source_quotes": [
+        "三、不实列支营业费用。"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 96,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "GENERIC_OBJECT_MISMATCH",
+          "field": "behaviors.*.object",
+          "status": "resolved_semantic_revision",
+          "source_quote": "三、不实列支营业费用。",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F000472",
+      "source_sha": "458ef9f363103a3620de011cc6c1762dc146641abe47a00bba0eebc5817428d7",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p1\\F000472_r0_fix01.json",
+      "before_sha": "a88c5ac769e44d2d1cb13835bc753217b975674965fdba0753b47c242bbc8712",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p1\\F000472_r0_fix02.json",
+      "after_sha": "683c6eb87eb8388d34a1d51679ac60f5c8707172211ec55b2a85b1376dfb782b",
+      "diff_fields": [
+        "cases[0].legal_refs",
+        "cases[1].legal_refs",
+        "cases[2].legal_refs",
+        "cases[3].legal_refs",
+        "cases[4].legal_refs",
+        "cases[5].legal_refs",
+        "cases[6].legal_refs",
+        "cases[7].legal_refs",
+        "cases[8].legal_refs",
+        "cases[9].legal_refs",
+        "marketing_relevance.quotes",
+        "marketing_relevance.reason",
+        "marketing_relevance.value",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "WRONG_MARKETING_RELEVANCE",
+        "OMITTED_LEGAL_REFS"
+      ],
+      "source_quotes": [
+        "一、给予投保人保险合同约定以外利益。",
+        "一、给予投保人保险合同约定以外利益。该行为违反了《中华人民共和国保险法》(以下简称《保险法》)第一百一十六条有关规定"
+      ],
+      "notes": [],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 192,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "WRONG_MARKETING_RELEVANCE",
+          "field": "marketing_relevance.value",
+          "status": "resolved_semantic_revision",
+          "source_quote": "一、给予投保人保险合同约定以外利益。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "OMITTED_LEGAL_REFS",
+          "field": "cases[*].legal_refs",
+          "status": "resolved_semantic_revision",
+          "source_quote": "一、给予投保人保险合同约定以外利益。该行为违反了《中华人民共和国保险法》(以下简称《保险法》)第一百一十六条有关规定",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    },
+    {
+      "file_id": "F000561",
+      "source_sha": "c5ffc0b7ac6088a9ba00268d3143429ae3382bf1df6b4c206d9985598ac5d76d",
+      "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b082\\p2\\F000561_r0.json",
+      "before_sha": "a887b313800ab9d6de2f25fb3e4f2eb6c32cb1fbf7e4f9e185769daf7432633e",
+      "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b082\\p2\\F000561_r0_fix01.json",
+      "after_sha": "7f9333892500ee37cd91c9caf60809eab1ba5400fed7b01a97cd0ed04679610f",
+      "diff_fields": [
+        "behaviors[0].exceptions",
+        "behaviors[0].negations",
+        "behaviors[1].conditions",
+        "behaviors[1].exceptions",
+        "behaviors[1].negations",
+        "behaviors[1].summary",
+        "behaviors[2].exceptions",
+        "behaviors[2].negations",
+        "behaviors[3].conditions",
+        "behaviors[3].exceptions",
+        "behaviors[3].negations",
+        "behaviors[3].summary",
+        "behaviors[4].exceptions",
+        "behaviors[4].negations",
+        "behaviors[5].conditions",
+        "behaviors[5].exceptions",
+        "behaviors[5].negations",
+        "behaviors[5].summary",
+        "self_review_note"
+      ],
+      "resolved_codes": [
+        "OMITTED_ARGUMENT_QUALIFICATION",
+        "TARGET_SCOPE_TRUNCATED"
+      ],
+      "source_quotes": [
+        "当事人申辩的主观上不存在故意瞒报、撰写\n虚假报告的情况不影响本案违法行为的定性。",
+        "公司2015年1月至2016年8月的水稻或能繁母猪赔案查勘定损照片核查"
+      ],
+      "notes": [
+        "申辩与监管处理分别保存；个别档案不予认定不扩为全案免责。",
+        "851组照片、374笔赔案、4.9%与1049份档案/430问题/40.99%不混同分母。"
+      ],
+      "verification": {
+        "all_quote_fields_continuous": true,
+        "labels_and_unknown_actor_rules": true,
+        "schema_hardcheck": "delegated_to_root_unified100",
+        "source_binding_matches_manifest": true,
+        "before_sha_unchanged": true,
+        "after_sha_matches": true,
+        "quote_fields_checked": 102,
+        "official_27_labels_and_ranks": true,
+        "case_behavior_links": true,
+        "candidate_pending_preserved": true
+      },
+      "finding_resolution": [
+        {
+          "code": "OMITTED_ARGUMENT_QUALIFICATION",
+          "field": "behaviors.conditions/negations/exceptions及cases.unknowns",
+          "status": "resolved_semantic_revision",
+          "source_quote": "当事人申辩的主观上不存在故意瞒报、撰写\n虚假报告的情况不影响本案违法行为的定性。",
+          "hardcheck": "pending_root_unified100"
+        },
+        {
+          "code": "TARGET_SCOPE_TRUNCATED",
+          "field": "behaviors.repeated_photos_*.summary/object",
+          "status": "resolved_semantic_revision",
+          "source_quote": "公司2015年1月至2016年8月的水稻或能繁母猪赔案查勘定损照片核查",
+          "hardcheck": "pending_root_unified100"
+        }
+      ]
+    }
+  ],
+  "repaired_count": 28,
+  "resolved_semantic_findings": 49,
+  "unresolved_findings": [
+    {
+      "file_id": "F007196",
+      "code": "MARKETING_TRAINING_FLAG_REVIEW",
+      "field": "marketing_relevance.value",
+      "status": "uncertain_unchanged",
+      "source_quote": "对国华人寿保险股份有限公司山西分公司内\n部培训课件存在误导性内容、虚列费用事项\n负有责任",
+      "reason": "培训材料违规是营销活动类，但文本仅载内部培训，未明示销售用途；这属于口径需统一的边界，不直接升级为确凿错误。"
+    }
+  ],
+  "verification_summary": {
+    "repaired_documents": 28,
+    "all_original_39_proposals_unchanged": true,
+    "new_revisions_candidate_pending": true,
+    "semantic_findings_resolved": 49,
+    "uncertain_findings": 1,
+    "full_schema_hardcheck": "root统一100待执行",
+    "not_human_acceptance": true,
+    "no_full_corpus_accuracy_estimate": true
+  }
+}

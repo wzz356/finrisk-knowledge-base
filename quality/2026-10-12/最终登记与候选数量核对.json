@@ -1,0 +1,297 @@
+{
+  "captured_at_utc": "2026-10-11T18:38:39.708908+00:00",
+  "generated_documents": 8509,
+  "cases": 13759,
+  "behaviors": 22777,
+  "official_tag_names_observed": 27,
+  "registered_unique_documents": 4700,
+  "unregistered_documents": 3809,
+  "latest_sha_matches_registered": 4667,
+  "registered_versions_need_sync": 33,
+  "formal_revision_cap_exhausted": 0,
+  "sqlite_writes_performed": false,
+  "source_full_text_read": false,
+  "ledger_counts": {
+    "b001": 100,
+    "b002": 100,
+    "b003": 100,
+    "b004": 100,
+    "b005": 100,
+    "b006": 100,
+    "b007": 100,
+    "b008": 100,
+    "b009": 100,
+    "b010": 100,
+    "b011": 100,
+    "b012": 100,
+    "b013": 100,
+    "b014": 100,
+    "b015": 100,
+    "b016": 100,
+    "b017": 100,
+    "b018": 100,
+    "b019": 100,
+    "b020": 100,
+    "b021": 100,
+    "b022": 100,
+    "b023": 100,
+    "b024": 100,
+    "b025": 100,
+    "b026": 100,
+    "b027": 100,
+    "b028": 100,
+    "b029": 100,
+    "b030": 100,
+    "b031": 100,
+    "b032": 100,
+    "b033": 100,
+    "b034": 100,
+    "b035": 100,
+    "b036": 100,
+    "b037": 100,
+    "b038": 100,
+    "b039": 100,
+    "b040": 100,
+    "b041": 100,
+    "b042": 100,
+    "b043": 100,
+    "b044": 100,
+    "b045": 100,
+    "b046": 100,
+    "b047": 100
+  },
+  "stale_records": [
+    {
+      "file_id": "F003967",
+      "formal_revision": 0,
+      "registered_sha256": "c75d661201cb004331c4cc42282801d82e10b6fc6ed3d81f3a87a9bcc1a25d3a",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003967_r0_fix03.json",
+      "latest_candidate_sha256": "81e1c4899dd5dfd6f66bf832e5f773f2efde85819075452f3ba602c333466270"
+    },
+    {
+      "file_id": "F003314",
+      "formal_revision": 0,
+      "registered_sha256": "75fa6e3bdd8e9ff8f9bcc72b3767e4a7d3d5f16a3d5378d6590acdfde66316f5",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p1\\F003314_r0_fix02.json",
+      "latest_candidate_sha256": "9a03d0197bba014165e94d6d44b0fa7611585470b5bb8f46040864b0d6a308a6"
+    },
+    {
+      "file_id": "F003876",
+      "formal_revision": 0,
+      "registered_sha256": "4ab02700b04b5498d24e33c709eb2fa338a301153c5b5afa25e5aaedf2f82072",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p3\\F003876_r0_fix09.json",
+      "latest_candidate_sha256": "06a15743b8a1df235608706a2ba0b3b6d4c6bcd70a8e4049907bac5d49561fae"
+    },
+    {
+      "file_id": "F000817",
+      "formal_revision": 0,
+      "registered_sha256": "a63feb1f39be047c8d184cf853ab8c92dabadaefba9c3363c35296d3cde886fc",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b001\\p3\\F000817_r0_fix01.json",
+      "latest_candidate_sha256": "1908325075a88cede392540097e05dfec44717360fa82d710bb0b6bea6c2110e"
+    },
+    {
+      "file_id": "F008116",
+      "formal_revision": 0,
+      "registered_sha256": "1974021717fda7496f936f62cd6ff82e1b22900596f70ec8ff014d4b91acecda",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b005\\p2\\F008116_r0_fix01.json",
+      "latest_candidate_sha256": "d4ddde90f9dabfd0813fc1ff854c2c1387d88265b108455cdc8e4a4178fd024d"
+    },
+    {
+      "file_id": "F007883",
+      "formal_revision": 0,
+      "registered_sha256": "f349305132e5adc84f62a5ad0e78d058cb1976f73b35f2b49dd6ab8bc3c943fe",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b006\\p3\\F007883_r0_fix01.json",
+      "latest_candidate_sha256": "0681f580f4624783c753b7bee1bcee0a638ce014852f9defc3a9a63da3e12250"
+    },
+    {
+      "file_id": "F006228",
+      "formal_revision": 0,
+      "registered_sha256": "1776ade0552c712599eaa84289ea733d52fad29e355d56c4eaea4c2072a2b6a5",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b009\\p1\\F006228_r0_fix01.json",
+      "latest_candidate_sha256": "b10c808516d5e3c2a930132c55b75230f54d19369ea14f9c38d7d053498baf18"
+    },
+    {
+      "file_id": "F009750",
+      "formal_revision": 0,
+      "registered_sha256": "e2554b9163f8eb658a714b167227f85704a214222bee3b5f4d75c0f1603a8d13",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b010\\p1\\F009750_r0_fix01.json",
+      "latest_candidate_sha256": "7870cee57af8c3d485e17b20a6cf20c03afedd577033fc3ee6c636450fb031e9"
+    },
+    {
+      "file_id": "F004041",
+      "formal_revision": 0,
+      "registered_sha256": "bce198c23c566f22c572c3f49dad5876967f13343b83d1a258062f2c1aecfe4e",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b012\\p1\\F004041_r0_fix01.json",
+      "latest_candidate_sha256": "ba5df5ebc3a393124700011b2ecae0181d721cbead6441bc88a9cab0aea922da"
+    },
+    {
+      "file_id": "F000728",
+      "formal_revision": 0,
+      "registered_sha256": "b4622ab8a570688f5e3656451ad20481d4efdba7d5d443f0e53030be4d4eb1be",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b012\\p1\\F000728_r0_fix01.json",
+      "latest_candidate_sha256": "c70d677a0562f0d6afbd12d2db793a9606adae105e0b834d88c50fe932fec57f"
+    },
+    {
+      "file_id": "F001232",
+      "formal_revision": 0,
+      "registered_sha256": "32ef1e25695a4291cafd901282511e5385c72c87a4f279967bd70cf41aa3715f",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F001232_r0_fix01.json",
+      "latest_candidate_sha256": "2cdc2a92db76b4eadb25303cd4b821395a7b293f5acc720759fbb9f9661a7f69"
+    },
+    {
+      "file_id": "F008199",
+      "formal_revision": 0,
+      "registered_sha256": "01f9ae5d5d78a23640a26bce4ce076223845517dbee6cc2f6053f0fa56af30a1",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b013\\p2\\F008199_r0_fix01.json",
+      "latest_candidate_sha256": "91635dbc1d5829f26bfd530f11df6284d33c8558619e37f6cee516b799ebdc31"
+    },
+    {
+      "file_id": "F007796",
+      "formal_revision": 0,
+      "registered_sha256": "b996ae6a585d6024425528193f480078bcee32eef3f8fa59ab9517b1dbb9bda3",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b015\\p3\\F007796_r0_fix01.json",
+      "latest_candidate_sha256": "6ec6b8ab2bfffd5c78a76f30b96faa835755b4d4b738b2430f276b385eb099b7"
+    },
+    {
+      "file_id": "F005641",
+      "formal_revision": 0,
+      "registered_sha256": "8a67399e164ddbaa5d8ce7fe5fbd4022ff260ad3ebd48f19dc75a62d95401c0b",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b017\\p3\\F005641_r0_fix01.json",
+      "latest_candidate_sha256": "6659aac24d326b1b01ac3f2256b1f2a83af8c573de0594e0f14ee37ab44e2875"
+    },
+    {
+      "file_id": "F001198",
+      "formal_revision": 0,
+      "registered_sha256": "9e2a262c64909bbb8da3fd20f639dbaf9d5043253518b02999043f9c45f6e8b7",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p2\\F001198_r0_fix01.json",
+      "latest_candidate_sha256": "b6016a4243e1878131bb6af286d29f31f997e74db6b665683d78c6397ac2f710"
+    },
+    {
+      "file_id": "F002918",
+      "formal_revision": 0,
+      "registered_sha256": "141de6831128d504a66df997e8989b47e5efabdd750b73f4ea3a4be3578f9b46",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p2\\F002918_r0_fix01.json",
+      "latest_candidate_sha256": "f610dd58a47c8b15266d167f6068c6b1d95caf5da2ae33ec6a88f54fbd4de629"
+    },
+    {
+      "file_id": "F009555",
+      "formal_revision": 0,
+      "registered_sha256": "c1cd9003e15c04b4121433bb11c99ce56734020efa8a32d89aeffe78c51e79e2",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b018\\p1\\F009555_r0_fix01.json",
+      "latest_candidate_sha256": "c366d4d2e51a4ebac03d779febe22ad1e0f52f8c9cedb87becd99427dcd8374a"
+    },
+    {
+      "file_id": "F004660",
+      "formal_revision": 0,
+      "registered_sha256": "1bfceb599d6e829d01fc586054df61a01020b2c152256416178b38de64a1bb02",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b019\\p2\\F004660_r0_fix01.json",
+      "latest_candidate_sha256": "36ed49463edb265ad6585ab1a2f1770437cbeaf82a4da667f16089b8999aaf09"
+    },
+    {
+      "file_id": "F008707",
+      "formal_revision": 0,
+      "registered_sha256": "a86f2bf16d7c683d0fed8cd4103dca089cbb65b324cdb311bb5d1c7a749c751b",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b020\\p2\\F008707_r0_fix01.json",
+      "latest_candidate_sha256": "842bd4cd3d732a9c19ab8df3197cb1c336f6dd4ba66cf7ba2e168cc14bc20e62"
+    },
+    {
+      "file_id": "F001347",
+      "formal_revision": 0,
+      "registered_sha256": "87b519da731e5db40a0f80accc4ed4c16c97807342f6847f0c47b264da467572",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b021\\p1\\F001347_r0_fix01.json",
+      "latest_candidate_sha256": "2c31ffebff2129cfe81ade356948ae8407ba66fcc18f1cc4efb58b9d996a9578"
+    },
+    {
+      "file_id": "F001316",
+      "formal_revision": 0,
+      "registered_sha256": "4b04d87a0eda1d7bb1356bb8bd277cd8766a135260cc38d31fdb57541225e82b",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b022\\p2\\F001316_r0_fix01.json",
+      "latest_candidate_sha256": "580715ac52381028b3e57c0a0f1f9966f510a34befdb38ca42b4747c8d1fb681"
+    },
+    {
+      "file_id": "F007196",
+      "formal_revision": 0,
+      "registered_sha256": "775e6d88894447395c135090c6cb83e2729363b2be162cc07996222bb44a30e5",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b024\\p1\\F007196_r0_fix01.json",
+      "latest_candidate_sha256": "0efdd3ef299573a6794a611f07673d76e610c46133cd497a4215636060d2483a"
+    },
+    {
+      "file_id": "F005844",
+      "formal_revision": 0,
+      "registered_sha256": "f99160b07b14257587461639d130b5fae7e8afd05abe83928ecdf6612803a16e",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b025\\p2\\F005844_r0_fix01.json",
+      "latest_candidate_sha256": "26b75b14ad38faa168e6d07bc1aed1e0d84c9c384b4a4eae45dd9e2b811d200e"
+    },
+    {
+      "file_id": "F004969",
+      "formal_revision": 0,
+      "registered_sha256": "cf6b7a52714a1bb92800c3fba0abd80f48289fbd1fe88fb33ebaef19302c75c9",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b026\\p1\\F004969_r0_fix01.json",
+      "latest_candidate_sha256": "95682c9cab6a8f0e6fb468c0301e5c0d67746292d9b2d086250beb3f9e03fc6e"
+    },
+    {
+      "file_id": "F002165",
+      "formal_revision": 0,
+      "registered_sha256": "4a4bf3ba98f7de63a2bb7e6c30d46ab3dbe75ac67d03d5af51b96bdde30579fb",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b030\\p2\\F002165_r0_fix01.json",
+      "latest_candidate_sha256": "93e5714c6f9a17845e5d0133eee0b4292d7d20b866a83ee0e9cca2a310e8b64d"
+    },
+    {
+      "file_id": "F008651",
+      "formal_revision": 0,
+      "registered_sha256": "db06f480276029efeeec0e833c6c11193205d13ed740f124fe3cc75555a46811",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b035\\p3\\F008651_r0_fix01.json",
+      "latest_candidate_sha256": "419bbbada8b5a732cbef6120de96488e8a65c1d990b5850e32111598e02c242f"
+    },
+    {
+      "file_id": "F002939",
+      "formal_revision": 0,
+      "registered_sha256": "575ea9448ef2d3c73d6280f3a1c60e4a3b65704acb23a1e4a52c18ba32884c60",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b039\\p3\\F002939_r0_fix01.json",
+      "latest_candidate_sha256": "89af7df30ceff6d46a504e3869b0f3733c8e72f27aa63fc1916fc10dc37805ea"
+    },
+    {
+      "file_id": "F001444",
+      "formal_revision": 0,
+      "registered_sha256": "b33731e9fdb461b445b2198cf72e3a259989820cc0924ba50ca45fd0aa77f968",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b040\\p3\\F001444_r0_fix01.json",
+      "latest_candidate_sha256": "210b93c915e101dd5461ed37bb024e87d35d75fe6ae452339645648781830134"
+    },
+    {
+      "file_id": "F009709",
+      "formal_revision": 0,
+      "registered_sha256": "2b239d0edd525409ac0886ac3b5eed2516de24af3c337306c940d50aa4175f81",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b040\\p3\\F009709_r0_fix01.json",
+      "latest_candidate_sha256": "82919fba0f40cfa40802bcd11c758584865daeacde0659979115ed62cd0f9f1b"
+    },
+    {
+      "file_id": "F007982",
+      "formal_revision": 0,
+      "registered_sha256": "5f1ada9254c30978c7530d833f9f5bf3a38b89fc68e62a6dae564378839cc38c",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b040\\p2\\F007982_r0_fix01.json",
+      "latest_candidate_sha256": "78f5407f535b2c8cce6f03640d6c1e1b941c9fc6c8a0870d846b9da71f54afb7"
+    },
+    {
+      "file_id": "F006009",
+      "formal_revision": 0,
+      "registered_sha256": "ef331ad5826ef1abfac202625055ffa9a8fcd26fedb21b487d6d973023ca7363",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b041\\p2\\F006009_r0_fix01.json",
+      "latest_candidate_sha256": "8e481f9c603d348187262ee31fb06efebeb8f9799f02ba2709c6aac1d4d9e854"
+    },
+    {
+      "file_id": "F001216",
+      "formal_revision": 0,
+      "registered_sha256": "2d9bbacb8dd34870d4c41b06db3ad12fb6073dc8dffc8f9106176e8ee2676d7d",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b043\\p1\\F001216_r0_fix01.json",
+      "latest_candidate_sha256": "95fee5d4d5e5628aac505e8b43d09db9949d004f1611e205b7c72928c932fb0e"
+    },
+    {
+      "file_id": "F002973",
+      "formal_revision": 0,
+      "registered_sha256": "fa1d01abe6331822e25e82cd7edab3f3ba08da7138b3c4e3b15f1963f90b1249",
+      "latest_candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b044\\p3\\F002973_r0_fix01.json",
+      "latest_candidate_sha256": "6b18b8b12f7d7b3a7e55f3c838c2efcb5048813b808c1913173dd7df2b823e3b"
+    }
+  ],
+  "authored_latest_refresh_at_utc": "2026-10-11T18:45:21.698008+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "status": "fail",
+  "compatibility_version": "finrisk-compat-v1",
+  "documents_requested": 5,
+  "documents_passed": 0,
+  "records": [],
+  "failures": [
+    {
+      "file_id": "F002920",
+      "reason": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\11051\\\\Documents\\\\Codex\\\\2026-10-09\\\\c-users-11051-desktop-agent-ai\\\\outputs\\\\FinRisk_剩余全量运行_v2_20261011\\\\reports\\\\质量验收_20261012\\\\sample_checks\\\\20261011T182656786194Z\\\\chunk01\\\\validation_inputs\\\\F002920_86eb81b6aff7bfcb66fc31312d93b2371141425c249ac44086e13a78349adb5b.json'",
+      "origin": "pathlib.py:1013 return io.open(self, mode, buffering, encoding, errors, newline)"
+    },
+    {
+      "file_id": "F003940",
+      "reason": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\11051\\\\Documents\\\\Codex\\\\2026-10-09\\\\c-users-11051-desktop-agent-ai\\\\outputs\\\\FinRisk_剩余全量运行_v2_20261011\\\\reports\\\\质量验收_20261012\\\\sample_checks\\\\20261011T182656786194Z\\\\chunk01\\\\validation_inputs\\\\F003940_547294bf4086338c47ead3a97e70fe97c46fa189c535f21cae1cd8ed8d74d6fa.json'",
+      "origin": "pathlib.py:1013 return io.open(self, mode, buffering, encoding, errors, newline)"
+    },
+    {
+      "file_id": "F004062",
+      "reason": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\11051\\\\Documents\\\\Codex\\\\2026-10-09\\\\c-users-11051-desktop-agent-ai\\\\outputs\\\\FinRisk_剩余全量运行_v2_20261011\\\\reports\\\\质量验收_20261012\\\\sample_checks\\\\20261011T182656786194Z\\\\chunk01\\\\validation_inputs\\\\F004062_3e0b2c51d8868f5308793a44f8dd7c113bc7e039762a91cd6e0c4cc293e6a045.json'",
+      "origin": "pathlib.py:1013 return io.open(self, mode, buffering, encoding, errors, newline)"
+    },
+    {
+      "file_id": "F004120",
+      "reason": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\11051\\\\Documents\\\\Codex\\\\2026-10-09\\\\c-users-11051-desktop-agent-ai\\\\outputs\\\\FinRisk_剩余全量运行_v2_20261011\\\\reports\\\\质量验收_20261012\\\\sample_checks\\\\20261011T182656786194Z\\\\chunk01\\\\validation_inputs\\\\F004120_52217b2c673e244fbe6f8895c3518ad77524989f8b00ddee899db62a50d131c6.json'",
+      "origin": "pathlib.py:1013 return io.open(self, mode, buffering, encoding, errors, newline)"
+    },
+    {
+      "file_id": "F004986",
+      "reason": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\11051\\\\Documents\\\\Codex\\\\2026-10-09\\\\c-users-11051-desktop-agent-ai\\\\outputs\\\\FinRisk_剩余全量运行_v2_20261011\\\\reports\\\\质量验收_20261012\\\\sample_checks\\\\20261011T182656786194Z\\\\chunk01\\\\validation_inputs\\\\F004986_4af9c6cc85622a05d32e77c3625c9432200b013e387b850890c76019957448d6.json'",
+      "origin": "pathlib.py:1013 return io.open(self, mode, buffering, encoding, errors, newline)"
+    }
+  ],
+  "source_read_batch_limit": 5,
+  "frozen_base_checker_sha256": {
+    "work/finrisk_confirm30/check_proposals.py": "43a7d56643279f0ee368d1f90a3097bd1c432a7a9df57fcf9356d83bfd108577",
+    "work/finrisk_remaining/quality_guard.py": "c3a8e9bf9de462383b08f6d8d3da6d3bff34554b3231ba35c3d0cd4e432e4ee3",
+    "work/finrisk_bulk/prepare_run.py": "48d6a799b67d01f8745a9b8973532a0b2814b24ba32a9cb1b95b437889539b4f"
+  },
+  "compat_checker_sha256": "5cd46c3cb4a419d8deacb5840279dc364620bf99b7039d0fbe335befc7c69bb2",
+  "external_api_calls": 0,
+  "semantic_status": "candidate",
+  "human_review_status": "pending"
+}

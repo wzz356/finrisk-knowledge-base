@@ -1,0 +1,24 @@
+{
+  "version": "fr-confirm30-model-pre-review-v1",
+  "status": "model_pre_review_completed_pending_human_acceptance",
+  "user_override": "model pre-review first; user human acceptance afterwards",
+  "steps_executed": [
+    "freeze 30 complete sources",
+    "proposer full-text candidate",
+    "mechanical exact evidence and structural checks",
+    "independent reviewer complete source and candidate",
+    "corrections at most two rounds",
+    "pending human acceptance"
+  ],
+  "max_revision_rounds": 2,
+  "schema_sha256": "82f8ff94505a5fb39315ba5fc212f2ffdc1ac65d0ee6ebec0c4d38e07bc5b629",
+  "factor_catalog_sha256": "78f6d99381d3b7f309e8fd5a8dabfd263fce53d8196d9485317ceb4ef523c31d",
+  "current_confirm30_extracted_count": 30,
+  "current_human_baseline_count": 0,
+  "human_approved": 0,
+  "independent_pre_model_human_baseline": false,
+  "external_model_calls": 0,
+  "acceptance_metrics": null,
+  "expansion_authorized": false,
+  "default_database_switched": false
+}

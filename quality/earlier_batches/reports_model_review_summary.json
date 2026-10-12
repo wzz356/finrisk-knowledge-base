@@ -1,0 +1,362 @@
+[
+  {
+    "file_id": "F004548",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pending",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 2,
+    "review_sha256": "dd5bffb600bf9149c84ad5c5dac519b8a6abd187bacc87d0149f5a77cb17cc10"
+  },
+  {
+    "file_id": "F005013",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "732007bc64c81e77da7b8bf5237e668408af685ec6590d365c7e6f38556ad583"
+  },
+  {
+    "file_id": "F001442",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pending",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "7b3057a00b57122dd94ca6c42e4f7de3367b8c894b4ce7b69d08cf2217d5d947"
+  },
+  {
+    "file_id": "F002016",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pending",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "34a35a35323ad0005d123d765a409b4aab6f13d796ea3847465cdfd8fd6e5706"
+  },
+  {
+    "file_id": "F006008",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pending",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "2880f81a769c6496868dc72ad78631e9d660f63ad9901bf6d91eafbd3e9c237e"
+  },
+  {
+    "file_id": "F001911",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "f24a0e2d005256889ff44899c713fc4347be0277f6594ac0edf77f24042cf101"
+  },
+  {
+    "file_id": "F001474",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pending",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "65ca7fa6161c00561be01edeba5c4b0da735c4f667065206e5058e75361c3d47"
+  },
+  {
+    "file_id": "F005881",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "4f31df96b8c2b8458b7748783bd82d49ea97323dd14158b3543d71db7ddc62df"
+  },
+  {
+    "file_id": "F006220",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 2,
+    "review_sha256": "7abfdda6ed5e124312c604d048f8c7d09407a42013dedb41545eba1b4f15828f"
+  },
+  {
+    "file_id": "F008817",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "bab9118156178a910f36714118c4081c07d9646b27b2a9325c01188bc7752546"
+  },
+  {
+    "file_id": "F005240",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "29cd5412a58ad1adb94fe7290ab258484e12b56690503aa4b58bffdfff08bf6d"
+  },
+  {
+    "file_id": "F002809",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "9bc20012b2404b5df11b74e305ab7a49223c95bb5a694e09c9065eab9cafbaaf"
+  },
+  {
+    "file_id": "F004193",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 2,
+    "review_sha256": "7358c5acdfa2436264d8ad2592ebbdea62ebaf6136b787f219e843381359fbad"
+  },
+  {
+    "file_id": "F005784",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "85e38e51a9334a7f635d6bd917a77812ae58fbdc5b56d253dfee0e62b2ec61c7"
+  },
+  {
+    "file_id": "F006565",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pending",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "60b5a0ded6d4e8d3078afa5e2c2bafd784063f3f3943270841b59352b8ea4ff4"
+  },
+  {
+    "file_id": "F005483",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "bce009699023a768f9362654290d1107258d816104b978c2119e1e79d80b8057"
+  },
+  {
+    "file_id": "F006254",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "5796968d3420a6fe3fcbcdadb2cae06a1638d034558893ffd22e80335b645b6c"
+  },
+  {
+    "file_id": "F001842",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "67f205b32f48cde0b0408f53a6d87b4ae4a3c1061cbc05f29dd4dd531b39e0ac"
+  },
+  {
+    "file_id": "F008421",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 2,
+    "review_sha256": "27ffba12da9285e329e7cdc4ca11b553d0740ddbb7a04e6ff1b8915b4059cac8"
+  },
+  {
+    "file_id": "F002077",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "2f31d5a0e5a30a7d9b517e55eec77d2ef90f91276f6147b837526622c10a7615"
+  },
+  {
+    "file_id": "F000798",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "f26ebbb30173d8dc3d3e4bc8ca53c2dd8f27522d7763241fb9158a628506ae98"
+  },
+  {
+    "file_id": "F001691",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "daf649d6976b065c746aa283c609cca8f9473075eec3a4d3d0de08f169b9433a"
+  },
+  {
+    "file_id": "F002153",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "4e63ac48732170f7332a5950ceb8611830944be25de67705c56058df1ce8a948"
+  },
+  {
+    "file_id": "F007166",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "1842355a5b0a32cee0823b1d1f7ff9c6c27758cd7a2a187b6be5e0dd8db06f6e"
+  },
+  {
+    "file_id": "F006830",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "d979be31baad0fb94e81a077c57b39cd4576f4c269d8dd441693d1fdc85eaa4b"
+  },
+  {
+    "file_id": "F005477",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "3aab2ac0d65ce3b20849fe44c8f2f8b59a04ea6ee98d80a9f4c3fce77493fa59"
+  },
+  {
+    "file_id": "F004828",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 2,
+    "review_sha256": "6b71b6e4cde97d196ae22e0c6bafb99c98f3558a0ad18b43a1bb1316073b8b8b"
+  },
+  {
+    "file_id": "F006205",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 2,
+    "review_sha256": "34510625ba121ff468040e34976b1f44bdb8f6e74d878075a2a41051f2b42c55"
+  },
+  {
+    "file_id": "F002397",
+    "decision": "accept_candidate",
+    "field_checks": {
+      "fact": "pass",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 0,
+    "review_sha256": "8c2a104ac09f7d18e2bdc406c1556a3bf69e693435168473439f321660e57b5c"
+  },
+  {
+    "file_id": "F007715",
+    "decision": "needs_human",
+    "field_checks": {
+      "fact": "pending",
+      "tag": "pass",
+      "scene": "pass",
+      "coverage": "pass"
+    },
+    "remaining_issues": 1,
+    "review_sha256": "cf45156cae0d557058ebfb1e7f9698cd8037d0af972db3c9f763d8f02bb9b983"
+  }
+]

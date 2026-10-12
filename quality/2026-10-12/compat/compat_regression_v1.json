@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "tests_run": 24,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "checker_sha256": "5cd46c3cb4a419d8deacb5840279dc364620bf99b7039d0fbe335befc7c69bb2",
+  "test_sha256": "0e05c96fb95e99ea5e863ba4377e3acd9f54ccc257df25f879af40fce6476bf2",
+  "frozen_base_checker_sha256": {
+    "work/finrisk_confirm30/check_proposals.py": "43a7d56643279f0ee368d1f90a3097bd1c432a7a9df57fcf9356d83bfd108577",
+    "work/finrisk_remaining/quality_guard.py": "c3a8e9bf9de462383b08f6d8d3da6d3bff34554b3231ba35c3d0cd4e432e4ee3",
+    "work/finrisk_bulk/prepare_run.py": "48d6a799b67d01f8745a9b8973532a0b2814b24ba32a9cb1b95b437889539b4f"
+  },
+  "verified_red_phase": [
+    "Greek Ο and dot dates: 2 expected failures on original guard",
+    "CNY original newline and explicit parenthetical abbreviation: 2 expected failures on frozen structural checker"
+  ],
+  "semantic_status": "candidate",
+  "human_review_status": "pending",
+  "external_api_calls": 0,
+  "test_output": "test_bound_semantic_name_evidence_accepts_only_specific_candidate (test_compat_v1.BoundNameEvidenceTests.test_bound_semantic_name_evidence_accepts_only_specific_candidate) ... ok\ntest_candidate_bytes_are_freshly_rechecked (test_compat_v1.BoundNameEvidenceTests.test_candidate_bytes_are_freshly_rechecked) ... ok\ntest_changed_exception_identity_or_quote_or_hash_is_rejected (test_compat_v1.BoundNameEvidenceTests.test_changed_exception_identity_or_quote_or_hash_is_rejected) ... ok\ntest_changed_proposal_content_is_rejected (test_compat_v1.BoundNameEvidenceTests.test_changed_proposal_content_is_rejected) ... ok\ntest_duplicate_semantic_exceptions_are_rejected (test_compat_v1.BoundNameEvidenceTests.test_duplicate_semantic_exceptions_are_rejected) ... ok\ntest_dot_date_with_unpadded_components (test_compat_v1.DateCompatibilityTests.test_dot_date_with_unpadded_components) ... ok\ntest_existing_chinese_and_iso_dates (test_compat_v1.DateCompatibilityTests.test_existing_chinese_and_iso_dates) ... ok\ntest_greek_omicron_chinese_date (test_compat_v1.DateCompatibilityTests.test_greek_omicron_chinese_date) ... ok\ntest_rejects_invalid_and_incomplete_dates (test_compat_v1.DateCompatibilityTests.test_rejects_invalid_and_incomplete_dates) ... ok\ntest_rejects_wrong_day_dot (test_compat_v1.DateCompatibilityTests.test_rejects_wrong_day_dot) ... ok\ntest_rejects_wrong_day_greek (test_compat_v1.DateCompatibilityTests.test_rejects_wrong_day_greek) ... ok\ntest_global_quality_module_is_unchanged (test_compat_v1.IsolationTests.test_global_quality_module_is_unchanged) ... ok\ntest_more_than_five_sources_are_rejected_before_read (test_compat_v1.IsolationTests.test_more_than_five_sources_are_rejected_before_read) ... ok\ntest_structural_patch_count_fails_closed (test_compat_v1.IsolationTests.test_structural_patch_count_fails_closed) ... ok\ntest_changed_source_or_text_binding_is_rejected (test_compat_v1.StructuralCompatibilityTests.test_changed_source_or_text_binding_is_rejected) ... ok\ntest_currency_split_by_original_newline (test_compat_v1.StructuralCompatibilityTests.test_currency_split_by_original_newline) ... ok\ntest_fine_quote_attributed_to_other_party_is_rejected (test_compat_v1.StructuralCompatibilityTests.test_fine_quote_attributed_to_other_party_is_rejected) ... ok\ntest_missing_coverage_is_rejected (test_compat_v1.StructuralCompatibilityTests.test_missing_coverage_is_rejected) ... ok\ntest_nonofficial_risk_tag_is_rejected (test_compat_v1.StructuralCompatibilityTests.test_nonofficial_risk_tag_is_rejected) ... ok\ntest_nonverbatim_currency_quote_is_rejected (test_compat_v1.StructuralCompatibilityTests.test_nonverbatim_currency_quote_is_rejected) ... ok\ntest_ordinary_parentheses_are_not_removed (test_compat_v1.StructuralCompatibilityTests.test_ordinary_parentheses_are_not_removed) ... ok\ntest_parenthetical_short_name_interrupting_full_company_name (test_compat_v1.StructuralCompatibilityTests.test_parenthetical_short_name_interrupting_full_company_name) ... ok\ntest_unrelated_name_and_general_subsequence_are_rejected (test_compat_v1.StructuralCompatibilityTests.test_unrelated_name_and_general_subsequence_are_rejected) ... ok\ntest_wrong_amount_is_rejected (test_compat_v1.StructuralCompatibilityTests.test_wrong_amount_is_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 1.398s\n\nOK\n"
+}

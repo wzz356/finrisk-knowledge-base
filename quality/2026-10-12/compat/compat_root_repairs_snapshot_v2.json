@@ -1,0 +1,207 @@
+[
+  {
+    "file_id": "F003940",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b054\\p2\\F003940_r0_fix03.json",
+    "before_sha256": "33b75eaf065f1803b9a5850c71cb3af6a366c4d269d5079a5f41746732b83344",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b054\\p2\\F003940_r0_fix04.json",
+    "after_sha256": "41dc9128b29723bc7136aa662367c4afc7ea97f961bc111b973ceb35831a6779",
+    "changed_top_fields": [
+      "marketing_relevance"
+    ],
+    "source_sha256": "a87513d711b3a0cee1e6ab3054e2ee98295fce7d5e47421dfbdfd8383e2e226c",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F004120",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p3\\F004120_r0_fix03.json",
+    "before_sha256": "6a85e0f1dab8ff85cbf63588d635fd2fc2fe22ba75a86fc742afa4b603f5cbfe",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b057\\p3\\F004120_r0_fix04.json",
+    "after_sha256": "a82221980171cb0448b587e4f465d03131644159e5a21d8be513f7aee6aaa81d",
+    "changed_top_fields": [
+      "cases"
+    ],
+    "source_sha256": "ba118c03398197c1958de0bb2ef59b8fe39cafb781fa9addacb26055324c8f6b",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F005014",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b071\\p1\\F005014_r0_fix01.json",
+    "before_sha256": "6a86c4233dd8429d681a94ec6f4a160480bc547b32ecaac90ea38aa5fe5d2d17",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b071\\p1\\F005014_r0_fix02.json",
+    "after_sha256": "2d8be2849267fb71f72f7f90f0503e340e2ce20540deec9500110d125ec182e7",
+    "changed_top_fields": [
+      "marketing_relevance",
+      "behaviors"
+    ],
+    "source_sha256": "054939b0d646d5a5230332602837e83bc8cdf77faaff1a707754d16108fa09e8",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F001121",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p2\\F001121_r0_fix01.json",
+    "before_sha256": "4ecf9bf70438854dfffeb44b837c61ee34e2b81ac0b27cdd4dea3a19adc71d54",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p2\\F001121_r0_fix02.json",
+    "after_sha256": "c120251f66b9d53d864d4a4bb7bae05b7516725ad978bc4978e06340a916ca2c",
+    "changed_top_fields": [
+      "marketing_relevance",
+      "cases"
+    ],
+    "source_sha256": "83ebd0f7cc8e81b2368e078dfdfcb8f80ccad7a05dd17e75533b164f4d6cb622",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F000636",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b079\\p2\\F000636_r0.json",
+    "before_sha256": "372611502b8aad001041035d2fdde530fc53a794cc8f4e38cc1b40fb6fa051b1",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b079\\p2\\F000636_r0_fix01.json",
+    "after_sha256": "0252683363adb53d1d0127e953e2dc4d557f9b593c9d4468109566fb59aa99ba",
+    "changed_top_fields": [
+      "marketing_relevance",
+      "cases"
+    ],
+    "source_sha256": "05653cdafa7d31f49c04eddb30e7c2acc4ce5e2b63465f1310055ed14e748869",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F000575",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b080\\p2\\F000575_r0.json",
+    "before_sha256": "2dcd7112d485423a7cb89cf6508e6cdb1d88eb610f0441d204572fd967fcacc8",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b080\\p2\\F000575_r0_fix01.json",
+    "after_sha256": "60bb5cc0e254244dcde553b06e78fabfa6846c352b8a6727cbffa93271a6a01a",
+    "changed_top_fields": [
+      "marketing_relevance",
+      "cases"
+    ],
+    "source_sha256": "6e647d5c4632808a715dacef4da62eae5f5af3ce6048a0f54eb4503edd6ac876",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F000576",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p2\\F000576_r0.json",
+    "before_sha256": "ece4e538044e97b86a5ed7b81c1af12602afaec13856b64831c8b8b2f016c610",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p2\\F000576_r0_fix01.json",
+    "after_sha256": "36b87ec1e5eeba6280033e3f4878acb60d9fd9d43692ed2d82ec246dd96d3e19",
+    "changed_top_fields": [
+      "cases"
+    ],
+    "source_sha256": "7695eda48ae0570a7f169c8e741bfd7e4a15727ab11d56876c554bce12ad1045",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F000639",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p3\\F000639_r0.json",
+    "before_sha256": "ee22c8befc926c11fba96f10090953676a42c1b76a8499fc809e434c983c0b67",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p3\\F000639_r0_fix01.json",
+    "after_sha256": "0a1e10326fb4de537551cc5297d252aafd8ab30831719f21d3d8ac5ca28d3401",
+    "changed_top_fields": [
+      "marketing_relevance",
+      "cases"
+    ],
+    "source_sha256": "b1dea546839d7d400a8e4622b0d7b49d53f16ae8a926f79536342fc7189edfa5",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F005750",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p3\\F005750_r0.json",
+    "before_sha256": "8a6ccc959cc1a2d290c10f53efacef94982ccb350c8391fc41b31587b38a2e83",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b083\\p3\\F005750_r0_fix01.json",
+    "after_sha256": "6ecc85b1ad19f48c9997155436c95201a4cbc23a26ff18e3d9dc0b4cb2f1a8ce",
+    "changed_top_fields": [
+      "marketing_relevance"
+    ],
+    "source_sha256": "69e9aa57185547c5d590ea14a5c5de88b5ce8200e9cc8e2e9e8104860d78d908",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F000330",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b084\\p1\\F000330_r0.json",
+    "before_sha256": "d99192391bfb6a54175e1f7a6c7bf3dcd16f1d7d7756b3cdcaac7da8e7530543",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b084\\p1\\F000330_r0_fix01.json",
+    "after_sha256": "3964438c86cfdd2fdc0e343c53df287c8831d046ce2f6408e9768f4dcfee100d",
+    "changed_top_fields": [
+      "marketing_relevance",
+      "cases"
+    ],
+    "source_sha256": "ae98f7f7094ed36251cd937774055288f0144f4688a8c160a0080bbc8d2e0901",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F000301",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b084\\p2\\F000301_r0.json",
+    "before_sha256": "fd7132e04e4c2f0785fa7fd8d40b85022196a1628e1a3c7da153f13123a74a8d",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b084\\p2\\F000301_r0_fix01.json",
+    "after_sha256": "2592cd66107978abf77584c40cab361b38f4cbed9c9ffcef837a8e9aeb035a18",
+    "changed_top_fields": [
+      "marketing_relevance",
+      "cases"
+    ],
+    "source_sha256": "09a9932d5c00a04886d231d0f7564efd185f24219d33d999390ee85bcbead4de",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F000342",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p2\\F000342_r0.json",
+    "before_sha256": "562d5f9500e1e22c7020454f517395decaf829224e68ac709864971ffe23eb00",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b085\\p2\\F000342_r0_fix01.json",
+    "after_sha256": "38cc8776a65c9b7deab4917e8a530d26da71813692d10ac48b4b4519c289830b",
+    "changed_top_fields": [
+      "marketing_relevance",
+      "cases",
+      "behaviors"
+    ],
+    "source_sha256": "21cf100d7c93676b70cf697ac18ff8dfe15438fee5c1fa86dae2a460e4df15cd",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F001782",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b086\\p3\\F001782_r0.json",
+    "before_sha256": "035e75a192695754716c996f58317de3f882ecd34bd0b6ff393413065bf6f73f",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b086\\p3\\F001782_r0_fix01.json",
+    "after_sha256": "f2527e12e4d578170dc36626561bd47ddf8d9d82169a0097997e3a2e9c88332a",
+    "changed_top_fields": [
+      "marketing_relevance",
+      "cases"
+    ],
+    "source_sha256": "b8068802aad890798badb217af51a0885c45d8f975715cab15d4e0ba71603b09",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F002920",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002920_r0_fix01.json",
+    "before_sha256": "57501b61ff74fff123790cb18d3416d63846bff30889c1c93488cdcf21e095fc",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002920_r0_fix02.json",
+    "after_sha256": "3188a777cd968a64a8c869f5aac73121928e285f28afd272f05ca2e31d4f763e",
+    "changed_top_fields": [
+      "cases"
+    ],
+    "source_sha256": "afe694d043c76a0e0117e316c577a8847f95e8db96cd16ca9f95ab0b8a3d393d",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  },
+  {
+    "file_id": "F002919",
+    "before_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b068\\p1\\F002919_r0.json",
+    "before_sha256": "1cbfdbfb38c1e07ec48405810c93b442f0d245de87af33d81833efa2dbe6ab7f",
+    "after_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b068\\p1\\F002919_r0_fix01.json",
+    "after_sha256": "c1781bce8ee6faa7099573c26e441640e78eb5071ee3cbfbc703ce40eb83a83b",
+    "changed_top_fields": [
+      "cases"
+    ],
+    "source_sha256": "505e3a70bc9739c60b19ac3a7ffbd156505f2a1a01c9d77ecb20e40332bb99fd",
+    "reason": "22份逐篇原文语义复核后的明确修订",
+    "status": "pending_recheck"
+  }
+]

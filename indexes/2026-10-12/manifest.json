@@ -1,0 +1,35 @@
+{
+  "scope": "remaining8509 only; matches the frozen retrieval experiment",
+  "source_files": 8509,
+  "semantic_status": "candidate",
+  "structured": {
+    "records": 64109,
+    "parts": [
+      "indexes/2026-10-12/structured/part-0001.jsonl",
+      "indexes/2026-10-12/structured/part-0002.jsonl",
+      "indexes/2026-10-12/structured/part-0003.jsonl",
+      "indexes/2026-10-12/structured/part-0004.jsonl",
+      "indexes/2026-10-12/structured/part-0005.jsonl",
+      "indexes/2026-10-12/structured/part-0006.jsonl",
+      "indexes/2026-10-12/structured/part-0007.jsonl",
+      "indexes/2026-10-12/structured/part-0008.jsonl",
+      "indexes/2026-10-12/structured/part-0009.jsonl",
+      "indexes/2026-10-12/structured/part-0010.jsonl",
+      "indexes/2026-10-12/structured/part-0011.jsonl",
+      "indexes/2026-10-12/structured/part-0012.jsonl",
+      "indexes/2026-10-12/structured/part-0013.jsonl"
+    ],
+    "concatenated_sha256": "1fd320a8d830b5fb16002d579c0937c4c5724b2fbfc7ce06cb9172f394fc22bf"
+  },
+  "raw": {
+    "records": 20148,
+    "parts": [
+      "indexes/2026-10-12/raw/part-0001.jsonl",
+      "indexes/2026-10-12/raw/part-0002.jsonl",
+      "indexes/2026-10-12/raw/part-0003.jsonl",
+      "indexes/2026-10-12/raw/part-0004.jsonl",
+      "indexes/2026-10-12/raw/part-0005.jsonl"
+    ],
+    "concatenated_sha256": "04db18b9ca07dc65e79cdc65e7f72b2a01e26d6e1095d549d670e33b301b0cf0"
+  }
+}

@@ -1,0 +1,127 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Token indices sequence length is longer than the specified maximum sequence length for this model (531 > 512). Running this sequence through the model will result in indexing errors
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 4000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 8000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 12000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 16000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 20000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 24000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 28000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 32000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 36000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 40000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 44000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 48000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 52000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 56000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 60000, "total": 64109}
+{"event": "encode_progress", "corpus": "structured", "kind": "document", "rows": 64000, "total": 64109}
+{"event": "index_ready", "corpus": "structured", "units": 64109, "bm25_index_seconds": 33.653602400001546}
+Token indices sequence length is longer than the specified maximum sequence length for this model (522 > 512). Running this sequence through the model will result in indexing errors
+{"event": "query_complete", "corpus": "structured", "query_id": "Q001", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.3522351999999955}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q002", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 1.6577404999989085}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q003", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 1.564715399996203}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q004", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 1.8096622000011848}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q005", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.621543399996881}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q006", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 1.7189035000046715}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q007", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.2361414000042714}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q008", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.1661126000035438}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q009", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 1.9338386000017636}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q010", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.5472692999974242}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q011", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.151460400003998}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q012", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 1.9647121999951196}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q013", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.643828400003258}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q014", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.0894401999976253}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q015", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.0083801000000676}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q016", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.469398599998385}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q017", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.2531987999973353}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q018", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.2671578000008594}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q019", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.664533000002848}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q020", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.930642200000875}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q021", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.9057757000045967}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q022", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.685332599998219}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q023", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.7731769000019995}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q024", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.607419200001459}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q025", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.161168500002532}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q026", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.4763412999964203}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q027", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.082319799999823}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q028", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.0421506999991834}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q029", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.6454822000014246}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q030", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.8211659000007785}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q031", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.2269922999985283}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q032", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.567596199995023}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q033", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.808820400001423}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q034", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.76678019999963}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q035", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.5259986000019126}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q036", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.6745366000031936}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q037", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.396771899999294}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q038", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.6621653999973205}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q039", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.153185700000904}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q040", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.1602585000000545}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q041", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.035620199996629}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q042", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.9936407999994117}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q043", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.364836099994136}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q044", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.0155200000008335}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q045", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.7728198999975575}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q046", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.433875100003206}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q047", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.6413649000023725}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q048", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 2.968710099994496}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q049", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.120436700002756}
+{"event": "query_complete", "corpus": "structured", "query_id": "Q050", "arms": ["bm25", "dense", "rrf", "rrf_rerank"], "seconds": 3.0338689999989583}
+{"event": "encode_progress", "corpus": "raw", "kind": "document", "rows": 4000, "total": 20148}
+{"event": "encode_progress", "corpus": "raw", "kind": "document", "rows": 8000, "total": 20148}
+{"event": "encode_progress", "corpus": "raw", "kind": "document", "rows": 12000, "total": 20148}
+{"event": "encode_progress", "corpus": "raw", "kind": "document", "rows": 16000, "total": 20148}
+{"event": "encode_progress", "corpus": "raw", "kind": "document", "rows": 20000, "total": 20148}
+{"event": "index_ready", "corpus": "raw", "units": 20148, "bm25_index_seconds": 27.87561789999745}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q001", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2561798000097042}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q002", "arms": ["bm25", "rrf_rerank"], "seconds": 0.7858742999960668}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q003", "arms": ["bm25", "rrf_rerank"], "seconds": 0.8471652000007452}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q004", "arms": ["bm25", "rrf_rerank"], "seconds": 0.8441768999909982}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q005", "arms": ["bm25", "rrf_rerank"], "seconds": 1.096352599997772}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q006", "arms": ["bm25", "rrf_rerank"], "seconds": 0.9479095999995479}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q007", "arms": ["bm25", "rrf_rerank"], "seconds": 0.9040783000091324}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q008", "arms": ["bm25", "rrf_rerank"], "seconds": 0.9873280000028899}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q009", "arms": ["bm25", "rrf_rerank"], "seconds": 0.8341672999958973}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q010", "arms": ["bm25", "rrf_rerank"], "seconds": 1.197591200005263}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q011", "arms": ["bm25", "rrf_rerank"], "seconds": 1.1660813000053167}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q012", "arms": ["bm25", "rrf_rerank"], "seconds": 0.864116999990074}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q013", "arms": ["bm25", "rrf_rerank"], "seconds": 0.9824589000054402}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q014", "arms": ["bm25", "rrf_rerank"], "seconds": 0.8869304999971064}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q015", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2684507999947527}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q016", "arms": ["bm25", "rrf_rerank"], "seconds": 1.0074669000023277}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q017", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2990390999912051}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q018", "arms": ["bm25", "rrf_rerank"], "seconds": 1.3750827000039862}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q019", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2357295000110753}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q020", "arms": ["bm25", "rrf_rerank"], "seconds": 1.1955061000044225}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q021", "arms": ["bm25", "rrf_rerank"], "seconds": 1.3589893000025768}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q022", "arms": ["bm25", "rrf_rerank"], "seconds": 1.1681572999950731}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q023", "arms": ["bm25", "rrf_rerank"], "seconds": 1.1605558000010205}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q024", "arms": ["bm25", "rrf_rerank"], "seconds": 1.1272597999923164}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q025", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2115976999921259}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q026", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2804737999977078}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q027", "arms": ["bm25", "rrf_rerank"], "seconds": 0.9448665999952937}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q028", "arms": ["bm25", "rrf_rerank"], "seconds": 1.190598900007899}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q029", "arms": ["bm25", "rrf_rerank"], "seconds": 1.1388290000031702}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q030", "arms": ["bm25", "rrf_rerank"], "seconds": 1.0990988999983529}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q031", "arms": ["bm25", "rrf_rerank"], "seconds": 1.4212406000006013}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q032", "arms": ["bm25", "rrf_rerank"], "seconds": 1.0874640999973053}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q033", "arms": ["bm25", "rrf_rerank"], "seconds": 1.256839099994977}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q034", "arms": ["bm25", "rrf_rerank"], "seconds": 1.0438428000052227}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q035", "arms": ["bm25", "rrf_rerank"], "seconds": 1.106395100010559}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q036", "arms": ["bm25", "rrf_rerank"], "seconds": 1.0993851000093855}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q037", "arms": ["bm25", "rrf_rerank"], "seconds": 1.154120100007276}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q038", "arms": ["bm25", "rrf_rerank"], "seconds": 1.143931300000986}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q039", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2446689999924274}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q040", "arms": ["bm25", "rrf_rerank"], "seconds": 1.3781556000030832}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q041", "arms": ["bm25", "rrf_rerank"], "seconds": 1.282827900009579}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q042", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2571101000066847}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q043", "arms": ["bm25", "rrf_rerank"], "seconds": 1.355731099989498}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q044", "arms": ["bm25", "rrf_rerank"], "seconds": 1.3322505999967689}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q045", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2882691999984672}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q046", "arms": ["bm25", "rrf_rerank"], "seconds": 1.3557508999947459}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q047", "arms": ["bm25", "rrf_rerank"], "seconds": 1.0442517000046792}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q048", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2223703999916324}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q049", "arms": ["bm25", "rrf_rerank"], "seconds": 1.4289252000016859}
+{"event": "query_complete", "corpus": "raw", "query_id": "Q050", "arms": ["bm25", "rrf_rerank"], "seconds": 1.2894818999920972}
+{"event": "run_complete", "rows": 300, "seconds": 452.658743699998, "output": "outputs\\FinRisk_\u53ec\u56de\u5b9e\u9a8c_20261012\\retrieval_results.jsonl"}

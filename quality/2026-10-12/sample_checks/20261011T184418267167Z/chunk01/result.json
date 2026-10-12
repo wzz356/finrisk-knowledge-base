@@ -1,0 +1,97 @@
+{
+  "status": "pass",
+  "compatibility_version": "finrisk-compat-v1",
+  "documents_requested": 1,
+  "documents_passed": 1,
+  "records": [
+    {
+      "file_id": "F002890",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p1\\F002890_r0_fix03.json",
+      "proposal_sha256": "c706eb131b4c584f6132d23f03ceadc44c5eb31a2800600021d4ad8333a1fc4d",
+      "proposal_content_sha256": "975d2ebece53f634f96e14acce665ccc523fdf75df00b8f77b1277ad9f4c1199",
+      "source_sha256": "c1b9355868be835d071c66519709781425041f9b69ac814c2590603f0e5892fb",
+      "text_sha256": "c1b9355868be835d071c66519709781425041f9b69ac814c2590603f0e5892fb",
+      "requires_review": true,
+      "reasons": [
+        "conditions_negations_or_exceptions",
+        "long_source_full_read_check",
+        "multiple_penalized_subjects",
+        "personal_responsibility_link"
+      ],
+      "cases": 12,
+      "behaviors": 21,
+      "quote_fields_checked": 446,
+      "quote_spans_checked": 454,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "company",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "sun",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "xu",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "wangyetian",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "jin",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "wu",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "wangzhihui",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "wanghouben",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "liuqi",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "zhou",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "liguiqin",
+          "rule_or_exception": "whitespace_only"
+        },
+        {
+          "case_key": "wanghaiqiang",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    }
+  ],
+  "failures": [],
+  "source_read_batch_limit": 5,
+  "frozen_base_checker_sha256": {
+    "work/finrisk_confirm30/check_proposals.py": "43a7d56643279f0ee368d1f90a3097bd1c432a7a9df57fcf9356d83bfd108577",
+    "work/finrisk_remaining/quality_guard.py": "c3a8e9bf9de462383b08f6d8d3da6d3bff34554b3231ba35c3d0cd4e432e4ee3",
+    "work/finrisk_bulk/prepare_run.py": "48d6a799b67d01f8745a9b8973532a0b2814b24ba32a9cb1b95b437889539b4f"
+  },
+  "compat_checker_sha256": "5cd46c3cb4a419d8deacb5840279dc364620bf99b7039d0fbe335befc7c69bb2",
+  "external_api_calls": 0,
+  "semantic_status": "candidate",
+  "human_review_status": "pending"
+}

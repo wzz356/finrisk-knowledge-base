@@ -1,0 +1,40 @@
+{
+  "version": "fr5-confirm30-protocol-v1",
+  "status": "prepared_not_executed",
+  "source_selection_sha256": "d680a0f363bb48dd73f62e63795ab1cc5de15eb8bfbb3e20a8c0feca88472bc7",
+  "schema_sha256": "82f8ff94505a5fb39315ba5fc212f2ffdc1ac65d0ee6ebec0c4d38e07bc5b629",
+  "factor_catalog_sha256": "78f6d99381d3b7f309e8fd5a8dabfd263fce53d8196d9485317ceb4ef523c31d",
+  "role_contracts": {
+    "proposer": "0b5ec231d332ff339dca14831524cb68b341f4fa7dd00128049efc9557825867",
+    "reviewer": "0a2cf093d2c9428ecebafc4f1fe97f3b5a5c5b825282ca94ae3baa8c2b2f338a"
+  },
+  "steps": [
+    "freeze human baseline independently",
+    "proposer reads complete source and writes candidate diff",
+    "mechanical hard checks",
+    "reviewer reads complete source and related evidence independently",
+    "at most two correction rounds; unresolved goes to human queue",
+    "compare per-field metrics against real baseline",
+    "approve exact source/value/scope or keep pending"
+  ],
+  "max_revision_rounds": 2,
+  "external_model_calls_authorized_in_this_stage": false,
+  "runtime_model": "not_selected",
+  "numeric_cost_budget": null,
+  "cost_measurement_status": "not_run",
+  "historical_holds": "preserved; no automatic resume",
+  "acceptance_targets_engineering_not_textbook_guarantees": {
+    "fact_precision": 0.98,
+    "behavior_coverage": 0.95,
+    "tag_support": 0.95,
+    "expected_tag_coverage": 0.95,
+    "scene_and_usage_support": 0.95,
+    "conditions_negations_unknowns": 0.98,
+    "derived_assertion_support": 0.98,
+    "observed_critical_errors": 0
+  },
+  "targets_note": "No metrics yet; requires explicit denominators and independent real review. Pass of program checks does not satisfy these targets.",
+  "expansion_gate": "30 confirmed -> 100 -> 500 -> remaining candidate sources; no default production switch",
+  "current_human_baseline_count": 0,
+  "current_confirm30_extracted_count": 0
+}

@@ -1,0 +1,150 @@
+{
+  "status": "fail",
+  "compatibility_version": "finrisk-compat-v1",
+  "documents_requested": 5,
+  "documents_passed": 4,
+  "records": [
+    {
+      "file_id": "F001744",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b062\\p1\\F001744_r0_fix01.json",
+      "proposal_sha256": "83183380d5e69dc1f637899d661e1165945fbc6dc05031cddb692caac74855b5",
+      "proposal_content_sha256": "297eb92563c3b06d5a45a1f5ef2a02a9014d72ab4e6ab588aa2e04bcd2bea4b7",
+      "source_sha256": "6fd15c869ba6c9cf2495bc1cce85fdbc6c06fe02b29da4d3c8eacd3946d40625",
+      "text_sha256": "6fd15c869ba6c9cf2495bc1cce85fdbc6c06fe02b29da4d3c8eacd3946d40625",
+      "requires_review": true,
+      "reasons": [
+        "conditions_negations_or_exceptions"
+      ],
+      "cases": 1,
+      "behaviors": 3,
+      "quote_fields_checked": 50,
+      "quote_spans_checked": 50,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "company",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F001607",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b048\\p3\\F001607_r0_fix01.json",
+      "proposal_sha256": "9a8173eaf986880fbdf276203e102a14adbe5d10e32918f075754fd2ce31303a",
+      "proposal_content_sha256": "12cdbaa2ef7ff3fdd4c4e27986d0ebd26f80bb933639f6d5a5a95516f5585ca4",
+      "source_sha256": "d84e7d333d36f05803b7fc488c52c1c039540034ac2258f6f5f42fe718c82021",
+      "text_sha256": "d84e7d333d36f05803b7fc488c52c1c039540034ac2258f6f5f42fe718c82021",
+      "requires_review": true,
+      "reasons": [
+        "conditions_negations_or_exceptions"
+      ],
+      "cases": 1,
+      "behaviors": 2,
+      "quote_fields_checked": 36,
+      "quote_spans_checked": 36,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "institution_ping_an_chuzhou",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F007600",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b060\\p1\\F007600_r0_fix01.json",
+      "proposal_sha256": "e73bd59712bf7b02cfb8981bac777f2965da37cbb6d5ebd5000eae71b31dda74",
+      "proposal_content_sha256": "e6c4f8c4cb3ee72a7d05f245789ffb9051490658bda61d1a36499d813c705585",
+      "source_sha256": "32291d9bc49181cc4ab53acde3b962d23c22869077857bf758a0aab7e4851e07",
+      "text_sha256": "32291d9bc49181cc4ab53acde3b962d23c22869077857bf758a0aab7e4851e07",
+      "requires_review": true,
+      "reasons": [
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "quote_fields_checked": 24,
+      "quote_spans_checked": 24,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "yu",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    },
+    {
+      "file_id": "F008914",
+      "candidate_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_剩余全量运行_v2_20261011\\authored\\b072\\p2\\F008914_r0_fix02.json",
+      "proposal_sha256": "6ffbb3de5b288a1d99cfd9e87c9272d3a035015cf327063e0bdd78514960fc0e",
+      "proposal_content_sha256": "a6700444fcd10a0f0d1040befb4c41ca7cc8e75eeeb1eb9301e12d96a86d5361",
+      "source_sha256": "26a36594b93663000a494046ebdb18f7dca49ee51e5db534df578f9ddc4b7452",
+      "text_sha256": "26a36594b93663000a494046ebdb18f7dca49ee51e5db534df578f9ddc4b7452",
+      "requires_review": true,
+      "reasons": [
+        "conditions_negations_or_exceptions",
+        "personal_responsibility_link"
+      ],
+      "cases": 1,
+      "behaviors": 1,
+      "quote_fields_checked": 29,
+      "quote_spans_checked": 29,
+      "all_quotes_exact": true,
+      "uncovered_tokens": [],
+      "compatibility_version": "finrisk-compat-v1",
+      "structural_replacements": {
+        "name": 1,
+        "currency": 1
+      },
+      "name_checks": [
+        {
+          "case_key": "case_1",
+          "rule_or_exception": "whitespace_only"
+        }
+      ],
+      "semantic_status": "candidate",
+      "human_review_status": "pending"
+    }
+  ],
+  "failures": [
+    {
+      "file_id": "F002890",
+      "reason": "ValueError: finding_quote not bound to its own behavior coverage: unapproved_guarantee_investment",
+      "origin": "next1000_quality.py:20 raise ValueError('finding_quote not bound to its own behavior coverage: ' + key)"
+    }
+  ],
+  "source_read_batch_limit": 5,
+  "frozen_base_checker_sha256": {
+    "work/finrisk_confirm30/check_proposals.py": "43a7d56643279f0ee368d1f90a3097bd1c432a7a9df57fcf9356d83bfd108577",
+    "work/finrisk_remaining/quality_guard.py": "c3a8e9bf9de462383b08f6d8d3da6d3bff34554b3231ba35c3d0cd4e432e4ee3",
+    "work/finrisk_bulk/prepare_run.py": "48d6a799b67d01f8745a9b8973532a0b2814b24ba32a9cb1b95b437889539b4f"
+  },
+  "compat_checker_sha256": "5cd46c3cb4a419d8deacb5840279dc364620bf99b7039d0fbe335befc7c69bb2",
+  "external_api_calls": 0,
+  "semantic_status": "candidate",
+  "human_review_status": "pending"
+}

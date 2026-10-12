@@ -1,0 +1,18 @@
+{
+  "queries": 50,
+  "retrieval_results": 300,
+  "unique_query_file_pairs": 671,
+  "context_variants": 945,
+  "top5_slots": 1498,
+  "parts": [
+    237,
+    223,
+    211
+  ],
+  "input_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_召回实验_20261012\\retrieval_results.jsonl": "edbba86d7a7c031f965095513aa803c196684a85b0937dc7221e14fac6d634c9",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_召回实验_20261012\\queries.jsonl": "ee98d68b4e743fc2b5aef5c09f91627d71d5c10912081f9edcc587904c4cda18"
+  },
+  "blind_to_algorithm_and_rank": true,
+  "human_approved": false
+}

@@ -1,0 +1,23 @@
+{
+  "version": "recall-v2",
+  "purpose": "offline_retrieval_candidate",
+  "authorization": "用户已确认：检索召回优先，可使用最可能相关的官方标签；事实仍按原文保存。",
+  "dictionary": "official_27_unchanged",
+  "top_level_field": "label_policy_version",
+  "behavior_field": "risk_tags",
+  "labels_per_behavior": {"minimum": 1, "maximum": 3},
+  "required_tag_fields": ["tag", "reason", "quotes", "necessary_conditions", "match_basis", "confidence", "retrieval_rank", "assignment_scope", "limitations"],
+  "match_basis": {"explicit": "原文明示对应行为或明确责任，不要求标签名称与原文逐字同名。", "inferred": "基于相近机制、未明确条件或同文书主体关联作候选检索判断。"},
+  "confidence": {"high": "检索相关性强", "medium": "有相关线索但缺少部分条件", "low": "仅有弱线索或存在多层关系缺口"},
+  "confidence_is_calibrated_probability": false,
+  "rank_rule": "retrieval_rank按列表次序为1至N；1为主标签。证据无法比较时以原文案由顺序排序，不代表实际违规概率。",
+  "assignment_scope": {"behavior_context": "对应明确机构行为、个人动作或明示责任事项；角色仍以原事实字段为准。", "document_related": "仅借同文书机构案由召回该主体，个人行为和责任对应未明确。"},
+  "unknown_actor_rule": "actor_role=unknown的标签必须match_basis=inferred、assignment_scope=document_related，并说明关系缺口。",
+  "inferred_rule": "推测标签必须说明关联理由和至少一项未明确或不可据此认定的事项；quotes是关联依据，不要求其证明所有标签条件。",
+  "necessary_conditions_semantics": "进一步确认该类机制所需的条件或适用限制，未满足也可作为候选标签，不表示条件已满足。",
+  "fallback": "无法合理对应具体类时用官方其他；不为填标签补造事实。无行为记录的非目标或纯导航材料无需制造behavior。",
+  "preserved_fields": "cases全部字段、行为事实/角色/归属/场景/条件/否定/因子/材料、coverage、源问题和待核原值保持不变。标签字段及自查说明可版本化修改。",
+  "semantic_status": "candidate",
+  "human_review_status": "pending",
+  "limits": ["候选标签不证明实际违规行为或个人责任。", "未经检索实测不得宣称召回率提高。", "旧审核只绑定旧提案SHA，不能直接当作新标签审核。"]
+}
