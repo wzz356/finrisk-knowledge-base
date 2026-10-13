@@ -1,0 +1,17 @@
+test_false_is_not_unknown_state (test_e07.E07Tests.test_false_is_not_unknown_state) ... ok
+test_invented_input_quote_rejected (test_e07.E07Tests.test_invented_input_quote_rejected) ... ok
+test_no_extra_benefit_suppresses_dependent_questions (test_e07.E07Tests.test_no_extra_benefit_suppresses_dependent_questions) ... ERROR
+test_unknown_retained_and_targeted (test_e07.E07Tests.test_unknown_retained_and_targeted) ... ok
+
+======================================================================
+ERROR: test_no_extra_benefit_suppresses_dependent_questions (test_e07.E07Tests.test_no_extra_benefit_suppresses_dependent_questions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e07.py", line 29, in test_no_extra_benefit_suppresses_dependent_questions
+    from e07 import followup_fields
+ImportError: cannot import name 'followup_fields' from 'e07' (C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\e07.py)
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+FAILED (errors=1)

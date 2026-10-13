@@ -1,0 +1,42 @@
+{"event": "prepare_start", "mode": "dev", "queries": 0, "expected_sources": 9639}
+{"event": "prepare_source_progress", "verified_sources": 2000, "expected": 9639}
+{"event": "prepare_source_progress", "verified_sources": 4000, "expected": 9639}
+{"event": "prepare_source_progress", "verified_sources": 6000, "expected": 9639}
+{"event": "prepare_source_progress", "verified_sources": 8000, "expected": 9639}
+{"event": "prepare_complete", "units": 65475, "verified_sources": 9639, "seconds": 84.96130000000267}
+{"event": "model_load_start", "command": "E05_retrieve"}
+`torch_dtype` is deprecated! Use `dtype` instead!
+{"event": "document_cache_seeded", "key": "5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07", "copied": [".json", ".npy"], "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\retrieval_cache"}
+{"event": "query_start", "query_id": "D001", "index": 1, "total": 16}
+{"event": "query_complete", "query_id": "D001", "actual_unique_rerank_units": 110, "seconds": 3.3144596999991336}
+{"event": "query_start", "query_id": "D002", "index": 2, "total": 16}
+{"event": "query_complete", "query_id": "D002", "actual_unique_rerank_units": 100, "seconds": 3.3739054999969085}
+{"event": "query_start", "query_id": "D003", "index": 3, "total": 16}
+{"event": "query_complete", "query_id": "D003", "actual_unique_rerank_units": 100, "seconds": 2.6394065999993472}
+{"event": "query_start", "query_id": "D004", "index": 4, "total": 16}
+{"event": "query_complete", "query_id": "D004", "actual_unique_rerank_units": 107, "seconds": 2.726006299999426}
+{"event": "query_start", "query_id": "D005", "index": 5, "total": 16}
+{"event": "query_complete", "query_id": "D005", "actual_unique_rerank_units": 100, "seconds": 2.734245600004215}
+{"event": "query_start", "query_id": "D006", "index": 6, "total": 16}
+{"event": "query_complete", "query_id": "D006", "actual_unique_rerank_units": 100, "seconds": 2.86232359999849}
+{"event": "query_start", "query_id": "D007", "index": 7, "total": 16}
+{"event": "query_complete", "query_id": "D007", "actual_unique_rerank_units": 100, "seconds": 2.5135592000006}
+{"event": "query_start", "query_id": "D008", "index": 8, "total": 16}
+{"event": "query_complete", "query_id": "D008", "actual_unique_rerank_units": 110, "seconds": 2.771792200001073}
+{"event": "query_start", "query_id": "D009", "index": 9, "total": 16}
+{"event": "query_complete", "query_id": "D009", "actual_unique_rerank_units": 100, "seconds": 2.545380000003206}
+{"event": "query_start", "query_id": "D010", "index": 10, "total": 16}
+{"event": "query_complete", "query_id": "D010", "actual_unique_rerank_units": 100, "seconds": 2.414572199995746}
+{"event": "query_start", "query_id": "D011", "index": 11, "total": 16}
+{"event": "query_complete", "query_id": "D011", "actual_unique_rerank_units": 100, "seconds": 2.7377161999975215}
+{"event": "query_start", "query_id": "D012", "index": 12, "total": 16}
+{"event": "query_complete", "query_id": "D012", "actual_unique_rerank_units": 100, "seconds": 2.4259554000018397}
+{"event": "query_start", "query_id": "D013", "index": 13, "total": 16}
+{"event": "query_complete", "query_id": "D013", "actual_unique_rerank_units": 111, "seconds": 2.475236499994935}
+{"event": "query_start", "query_id": "D014", "index": 14, "total": 16}
+{"event": "query_complete", "query_id": "D014", "actual_unique_rerank_units": 101, "seconds": 2.8668755999970017}
+{"event": "query_start", "query_id": "D015", "index": 15, "total": 16}
+{"event": "query_complete", "query_id": "D015", "actual_unique_rerank_units": 100, "seconds": 2.5611838000040734}
+{"event": "query_start", "query_id": "D016", "index": 16, "total": 16}
+{"event": "query_complete", "query_id": "D016", "actual_unique_rerank_units": 110, "seconds": 3.0713239000033354}
+{"event": "retrieve_complete", "rows": 48, "seconds": 202.42222809999657, "output": "outputs\\FinRisk_E07_E06_E05\u63a2\u7d22_20261013\\e05_results.jsonl"}

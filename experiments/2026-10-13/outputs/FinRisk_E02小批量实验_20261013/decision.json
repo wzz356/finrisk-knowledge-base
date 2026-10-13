@@ -1,0 +1,16 @@
+{
+  "status": "retain_current_A0_no_full_prefix_rollout",
+  "numeric_eligible": [
+    "P1"
+  ],
+  "model_graded_helpfulness_gain_slots": 1,
+  "denominator": 110,
+  "query_coverage_gain": 0,
+  "return_scope_holds": 2,
+  "semantic_adoption_gate_met": false,
+  "chosen_production_configuration": "unchanged_A0",
+  "application_modified": false,
+  "human_approved": false,
+  "reason": "Paired diagnostic improvement is only one slot; two expanded multi-subject contexts need prefix-scope fixes and no independent confirmation supports a full rollout.",
+  "next_step": "Fix scope of returned background, retest affected cases, then independent small cohort before expanding."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "controls_built_semantic_supplement_pending",
+  "queries": 16,
+  "same_event_duplicates_before": 3,
+  "same_event_duplicates_after": 0,
+  "changed_top5_queries": 2,
+  "reused_positions": 77,
+  "new_positions_to_read": 3,
+  "actual_new_model_calls": 0,
+  "graph_sha256": "ee0e6743f6195367cb2a37b7083e41820b73b61e8b5fe0571a1c1168aa9857c6",
+  "human_approved": false,
+  "graph_scope": "local source-supported facts/roles; no community/full GraphRAG"
+}

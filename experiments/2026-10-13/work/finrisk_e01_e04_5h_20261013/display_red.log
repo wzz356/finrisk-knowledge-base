@@ -1,0 +1,23 @@
+test_display_metadata_keeps_original_model_input (test_display.DisplayTests.test_display_metadata_keeps_original_model_input) ... FAIL
+test_guard_rejects_score_or_index_or_rank_change (test_display.DisplayTests.test_guard_rejects_score_or_index_or_rank_change) ... FAIL
+
+======================================================================
+FAIL: test_display_metadata_keeps_original_model_input (test_display.DisplayTests.test_display_metadata_keeps_original_model_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e01_e04_5h_20261013\test_display.py", line 15, in setUp
+    self.assertIsNotNone(E, "display control implementation missing")
+AssertionError: unexpectedly None : display control implementation missing
+
+======================================================================
+FAIL: test_guard_rejects_score_or_index_or_rank_change (test_display.DisplayTests.test_guard_rejects_score_or_index_or_rank_change)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e01_e04_5h_20261013\test_display.py", line 15, in setUp
+    self.assertIsNotNone(E, "display control implementation missing")
+AssertionError: unexpectedly None : display control implementation missing
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+FAILED (failures=2)

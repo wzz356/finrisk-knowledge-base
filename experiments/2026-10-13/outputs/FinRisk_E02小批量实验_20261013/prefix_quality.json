@@ -1,0 +1,23 @@
+{
+  "documents": 24,
+  "units": 24,
+  "approved_model_review": 24,
+  "rejected": 0,
+  "quotes_verified": 45,
+  "max_prefix_chars": 176,
+  "review_scope": "independent peer reader of source and original unit, no queries or prior relevance grades",
+  "human_approved": false,
+  "remaining_limits": [
+    "F004155 retains multiple occurrence/subject ambiguity; only document identity approved.",
+    "Document identity does not imply its party personally performed every fragment action.",
+    "Same model family authors and reviewers may share biases."
+  ],
+  "files_sha256": {
+    "prefixes.jsonl": "42b4cd521d4a6e554ec23afe2a59c110146d32d2f4ef525125d8e2c6e7761adc",
+    "prefix_review.jsonl": "586f6f1aad4d65794be2145562a087c20e4b9462950d70ce49f19195a8ed828a",
+    "prefixes_p1.jsonl": "23ab7846b9433ea1ac405f66f0804b86c0e74410553c8aac16400216f1a158fc",
+    "prefixes_p2.jsonl": "ff84fc597ec24e2e046e99896c350b569da83695e06dd56327a8241487243be4",
+    "prefix_reviews_p1.jsonl": "ae6df67ab2571ff6a376b14f3789398490aacec3c5284a18a89adf995f61e260",
+    "prefix_reviews_p2.jsonl": "cf52a8a69aa5aebcc093250c09449aec628d1830dcb229a03046cbf68414454a"
+  }
+}

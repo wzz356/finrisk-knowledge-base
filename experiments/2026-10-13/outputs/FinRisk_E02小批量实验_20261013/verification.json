@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-12T17:59:42.886510+00:00",
+  "source_documents": 9639,
+  "structured_units": 65475,
+  "protected_input_files_unchanged": 16,
+  "old_cache_files_unchanged": 12,
+  "e04_cache_files_unchanged": 4,
+  "e04_delivery_unchanged": true,
+  "queries": 22,
+  "result_records": 66,
+  "prefix_units": 24,
+  "new_real_rerank_scores": 2200,
+  "frozen_real_score_reuse": 2200,
+  "source_verified_pairs": 125,
+  "source_verified_contexts": 146,
+  "pending_judgments": 0,
+  "actual_truncated_inputs": 0,
+  "p0_exact_reproduction_queries": 22,
+  "p2_identical_ranking_queries": 22,
+  "human_approved": false,
+  "counts": [
+    {
+      "arm": "P0",
+      "denominator": 110,
+      "useful_contexts": 85,
+      "covered_queries": 21,
+      "context_warnings": 7,
+      "useful_files": 89,
+      "file_warnings": 1,
+      "background_slots": 0
+    },
+    {
+      "arm": "P1",
+      "denominator": 110,
+      "useful_contexts": 86,
+      "covered_queries": 21,
+      "context_warnings": 6,
+      "useful_files": 90,
+      "file_warnings": 1,
+      "background_slots": 6
+    },
+    {
+      "arm": "P2",
+      "denominator": 110,
+      "useful_contexts": 85,
+      "covered_queries": 21,
+      "context_warnings": 7,
+      "useful_files": 89,
+      "file_warnings": 1,
+      "background_slots": 21
+    }
+  ],
+  "scope": "mechanical/source/completeness verification; not a semantic acceptance or adoption decision",
+  "semantic_limits": [
+    "Two expanded multi-subject return contexts need scope fixes; see return_scope_review.jsonl.",
+    "The 22 queries are diagnostic replay, not independent holdout.",
+    "Model grades and warning flags are not human confirmed error rates."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "status": "frozen",
+  "frozen_at_utc": "2026-10-12T15:41:18.371213+00:00",
+  "selected_arm": "A0",
+  "chosen_arm": "A0",
+  "configuration": {
+    "weights": [
+      1,
+      1
+    ],
+    "depth": 100
+  },
+  "eligible_improvement_arms": [],
+  "eligibility_checks": {
+    "A1": {
+      "context_helpfulness_improved": true,
+      "coverage_not_lower": true,
+      "misleading_annotations_not_higher": false
+    },
+    "A2": {
+      "context_helpfulness_improved": false,
+      "coverage_not_lower": true,
+      "misleading_annotations_not_higher": false
+    },
+    "A3": {
+      "context_helpfulness_improved": false,
+      "coverage_not_lower": true,
+      "misleading_annotations_not_higher": false
+    }
+  },
+  "rule": "primary=context_useful_at5; strictly improve, coverage>=A0, context_misleading<=A0; ties prefer depth100 and weights nearer1:1; none retainA0",
+  "dev_metrics_sha256": "1a325134c169cd2d18000299fbb4cfcae750ebfef611ae62822df0d78fc03729",
+  "dev_queries_sha256": "74b28d1f9c0c941d7371f2c504ca2a89779d13b95cd726bb2c99f090abeb870b",
+  "dev_results_sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+  "confirmation_queries_sha256": "da31500db04fa1263c8809eab861e1ede14e431ffa6f670d029132b96c2dab6d",
+  "confirmation_content_used_for_selection": false,
+  "confirmation_arms": [
+    "A0",
+    "A3"
+  ],
+  "confirmation_comparison_status": "predefined exploratory A3; no successful dev winner",
+  "evaluation": "model_review_only",
+  "risk_annotation_limitation": "Subjective model warning flags, not confirmed human error rate; frozen legacy and new judgments can have calibration differences."
+}

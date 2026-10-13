@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "queries": 16,
+  "arms": 3,
+  "positions": 240,
+  "rerank_stage_positions": 4800,
+  "actual_new_pairs": 1649,
+  "exact_shared_pairs": 3151,
+  "all_stage_arithmetic_and_bindings": true,
+  "all_top20_display_segments_exact": true,
+  "all_frozen_dependencies_unchanged": true,
+  "summary_not_evidence": true,
+  "results_sha256": "7f0efdf0f6082418774abc2fac941aebeb2a616fdb99ba65d9c6188badffcee9",
+  "run_sha256": "d82a3f6402defb36c2ae6042fd402b2631b7ea54c5368b73ef3d59e90be77f03",
+  "token_audit_records": 67166
+}

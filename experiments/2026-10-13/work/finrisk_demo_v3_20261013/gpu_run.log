@@ -1,0 +1,19 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+{"event": "index_ready", "corpus": "structured", "units": 65475, "bm25_index_seconds": 14.635675400000764}
+{"event": "query_complete", "corpus": "structured", "query_id": "D001", "arms": ["rrf_rerank"], "seconds": 1.2552690999946208}
+{"event": "query_complete", "corpus": "structured", "query_id": "D002", "arms": ["rrf_rerank"], "seconds": 0.6852503000045544}
+{"event": "query_complete", "corpus": "structured", "query_id": "D003", "arms": ["rrf_rerank"], "seconds": 0.6988817999954335}
+{"event": "query_complete", "corpus": "structured", "query_id": "D004", "arms": ["rrf_rerank"], "seconds": 0.5463445999994292}
+{"event": "query_complete", "corpus": "structured", "query_id": "D005", "arms": ["rrf_rerank"], "seconds": 0.6573522000035155}
+{"event": "query_complete", "corpus": "structured", "query_id": "D006", "arms": ["rrf_rerank"], "seconds": 0.8036990999971749}
+{"event": "query_complete", "corpus": "structured", "query_id": "D007", "arms": ["rrf_rerank"], "seconds": 0.5601080999986152}
+{"event": "query_complete", "corpus": "structured", "query_id": "D008", "arms": ["rrf_rerank"], "seconds": 0.5385663999986718}
+{"event": "query_complete", "corpus": "structured", "query_id": "D009", "arms": ["rrf_rerank"], "seconds": 0.679035399996792}
+{"event": "query_complete", "corpus": "structured", "query_id": "D010", "arms": ["rrf_rerank"], "seconds": 0.5252115000039339}
+{"event": "query_complete", "corpus": "structured", "query_id": "D011", "arms": ["rrf_rerank"], "seconds": 0.564928100000543}
+{"event": "query_complete", "corpus": "structured", "query_id": "D012", "arms": ["rrf_rerank"], "seconds": 0.5304716999962693}
+{"event": "query_complete", "corpus": "structured", "query_id": "D013", "arms": ["rrf_rerank"], "seconds": 0.5056992000027094}
+{"event": "query_complete", "corpus": "structured", "query_id": "D014", "arms": ["rrf_rerank"], "seconds": 0.6165751000007731}
+{"event": "query_complete", "corpus": "structured", "query_id": "D015", "arms": ["rrf_rerank"], "seconds": 0.6806032000022242}
+{"event": "query_complete", "corpus": "structured", "query_id": "D016", "arms": ["rrf_rerank"], "seconds": 0.6768637999994098}
+{"event": "run_complete", "rows": 16, "seconds": 86.17107399999804, "output": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_\u79bb\u7ebf\u6f14\u793aV3_20261013\\retrieval_results.jsonl"}

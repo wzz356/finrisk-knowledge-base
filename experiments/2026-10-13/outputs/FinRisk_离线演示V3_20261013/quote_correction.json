@@ -1,0 +1,8 @@
+{
+  "query_id": "D004",
+  "file_id": "F004280",
+  "field": "quote",
+  "reason": "Only literal line wrapping corrected to actual returned source; no semantic fields changed",
+  "before_sha256": "f222a63d3d864c7f44c3499c486a700574f3268e196559371b3a2e3b5b35c220",
+  "after_sha256": "66d2103c6dc89712f115e954c787e2d3cb82a16363520b3c77702920528ce29a"
+}

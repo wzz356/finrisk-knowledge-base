@@ -1,0 +1,9 @@
+test_diversify_keeps_model_rank_and_scores (test_e06.E06Tests.test_diversify_keeps_model_rank_and_scores) ... ok
+test_known_event_requires_exact_source_scope (test_e06.E06Tests.test_known_event_requires_exact_source_scope) ... ok
+test_same_file_other_behavior_not_grouped (test_e06.E06Tests.test_same_file_other_behavior_not_grouped) ... ok
+test_uncertain_event_not_grouped (test_e06.E06Tests.test_uncertain_event_not_grouped) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

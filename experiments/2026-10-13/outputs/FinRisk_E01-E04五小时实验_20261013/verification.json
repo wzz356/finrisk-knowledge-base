@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-12T19:11:35.335143+00:00",
+  "source_documents": 9639,
+  "searchable_units": 65475,
+  "queries": 42,
+  "result_records": 210,
+  "protected_input_files": 21,
+  "old_delivered_files_unchanged": 175,
+  "old_cache_files_unchanged": 22,
+  "frozen_execution_files_unchanged": 61,
+  "model_graded_pairs": 268,
+  "model_graded_contexts": 274,
+  "pending_grades": 0,
+  "real_rerank_inputs": 5744,
+  "same_run_shared_scores": 15256,
+  "token_truncations": 0,
+  "human_approved": false,
+  "application_modified": false,
+  "scope": "Source/completeness/recomputation checks, not human semantic acceptance or full-corpus adoption."
+}

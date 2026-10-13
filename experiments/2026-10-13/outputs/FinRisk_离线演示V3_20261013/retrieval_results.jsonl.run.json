@@ -1,0 +1,357 @@
+{
+  "status": "complete",
+  "parameters": {
+    "prepare": false,
+    "run": true,
+    "repo": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\finrisk-knowledge-base",
+    "prepared": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\indexes\\all9639_final",
+    "scope": "all",
+    "overlays": [],
+    "queries": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_离线演示V3_20261013\\queries.jsonl",
+    "output": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_离线演示V3_20261013\\retrieval_results.jsonl",
+    "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_demo_v3_20261013\\vector_cache",
+    "expected_files": 9639,
+    "device": "cuda",
+    "precision": "float16",
+    "batch_size": 16,
+    "max_length": 512,
+    "arms": [
+      "rrf_rerank"
+    ],
+    "corpora": [
+      "structured"
+    ],
+    "project_src": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\src",
+    "embedding_model": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-small-zh-v1.5\\snapshots\\7999e1d3359715c523056ef9478215996d62a620",
+    "reranker_model": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-base\\snapshots\\2cfc18c9415c912f9d8155881c133215df768a70"
+  },
+  "queries_sha256": "c656e9e4d57b2c8b4b4f0c8731a228a84cf67573d77bc396122510030d4924e5",
+  "runner_sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+  "manifest_sha256": "9f7f2d8cdbc621cfa577d8c5ffac439be3aeeeccc2f0e487cd1210bd78487a8d",
+  "bm25_source_sha256": "9a2b7f33342818fc5d00a5aba93a4fbb6378e9f7fe5c88a1501b17b0d3fe45bb",
+  "tokenizer_source_sha256": "5c53e4fe5ebb47657bb6e191b56074889b571b6a85941da516a314d657518465",
+  "versions": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "weight": 1.0
+  },
+  "rrf": {
+    "k": 60,
+    "ranks_start": 1,
+    "equal_weights": true,
+    "route_top_k": 100,
+    "union_max": 200,
+    "rerank_top_k": 100
+  },
+  "result_rows": 16,
+  "elapsed_seconds": 86.17107399999804,
+  "output_sha256": "a2b69441800a3f6bb6c6daa5843645927c89f0cab763350afb1434678c61ff39",
+  "models": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "cpu_count": 32,
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.1",
+    "numpy": "1.26.4",
+    "torch_cpu_threads": 16,
+    "torch_interop_threads": 16,
+    "device": "cuda",
+    "precision": "float16",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "cuda_runtime": "12.4",
+    "embedding": {
+      "path": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-small-zh-v1.5\\snapshots\\7999e1d3359715c523056ef9478215996d62a620",
+      "revision": "7999e1d3359715c523056ef9478215996d62a620",
+      "files": [
+        {
+          "path": "1_Pooling/config.json",
+          "size": 190,
+          "sha256": "aaa8861589f80c961a03cc86c7eeaef7605c1676b9ab55329d33a304738769c6"
+        },
+        {
+          "path": "config.json",
+          "size": 776,
+          "sha256": "3853a7979202c348751b753e36f579c41d8da7d36af617d3d907e1fc9b441f2a"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "size": 124,
+          "sha256": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 95827648,
+          "sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026"
+        },
+        {
+          "path": "modules.json",
+          "size": 349,
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        {
+          "path": "README.md",
+          "size": 27670,
+          "sha256": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "size": 52,
+          "sha256": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 125,
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 439125,
+          "sha256": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 367,
+          "sha256": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a"
+        },
+        {
+          "path": "vocab.txt",
+          "size": 109540,
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+        }
+      ],
+      "cache_sha256": "1004a5109d12d22653fb7f8ed1c482172fbf37c9b7c59256d9172475b0cec4f3"
+    },
+    "reranker": {
+      "path": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-base\\snapshots\\2cfc18c9415c912f9d8155881c133215df768a70",
+      "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+      "files": [
+        {
+          "path": "config.json",
+          "size": 799,
+          "sha256": "289adf7ada1eb6b4afa7589a48a032d45a076cf2e46dcdb3b4cabc33be14f708"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1112206140,
+          "sha256": "ced967c45fd1902eb92716c9ceeca7c95a936770ea9db611f5a841b926e33fbd"
+        },
+        {
+          "path": "sentencepiece.bpe.model",
+          "size": 5069051,
+          "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 279,
+          "sha256": "d5469a60db23249c7f8945013d78df30b44b6bf686c6bb4740f4223f77b1b535"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 17098107,
+          "sha256": "9eb652ac4e40cc093272bbbe0f55d521cf67570060227109b5cdc20945a4489e"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 443,
+          "sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b"
+        }
+      ],
+      "cache_sha256": "7168dae8a54a02b336af80208d80489cd77929a92cfa133e5f3d6bfb8ea68368"
+    },
+    "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+    "truncation": [
+      {
+        "stage": "embedding",
+        "kind": "query",
+        "inputs": 16,
+        "truncated_inputs": 0,
+        "max_input_tokens": 81,
+        "max_length": 512,
+        "corpus": "shared",
+        "cache_hit": false
+      },
+      {
+        "stage": "embedding",
+        "kind": "document",
+        "inputs": 65475,
+        "truncated_inputs": 0,
+        "max_input_tokens": 299,
+        "max_length": 512,
+        "corpus": "structured",
+        "cache_hit": true
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D001",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 243,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D002",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 248,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D003",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 238,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D004",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 219,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D005",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 260,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D006",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 254,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D007",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 245,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D008",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 245,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D009",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 238,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D010",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 223,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D011",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 252,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D012",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 253,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D013",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 254,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D014",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 245,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D015",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 249,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "structured",
+        "query_id": "D016",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 257,
+        "max_length": 512
+      }
+    ],
+    "cache_events": [
+      {
+        "corpus": "shared",
+        "kind": "query",
+        "key": "232bb01347008d54d2f9069244dbb7d3685d457e33bae6c956ef634e77f59476",
+        "hit": false,
+        "seconds": 1.0779976000048919
+      },
+      {
+        "corpus": "structured",
+        "kind": "document",
+        "key": "5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07",
+        "hit": true,
+        "seconds": 1.7096156000043266
+      }
+    ],
+    "model_load_seconds": 47.59953349999705
+  },
+  "v2_adapter": {
+    "sha256": "c846cac66071c7f83028d99fb5968332655d51bb550abe4047cf0505c5ad44d4",
+    "projection_sha256": "7f8805bdfa99f9a1f07e7d92415f85b86eee534b5d76b032258cb123f1a315ca",
+    "scope": "all",
+    "full_parent_returned_separately": true,
+    "aggregation": "all preserved case IDs; file max; explicit source fallback"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "source_documents": 9639,
+  "indexed_units": 65475,
+  "inputs": 16,
+  "retrieval_records": 16,
+  "evidence_positions": 80,
+  "model_hit_fields_checked": 640,
+  "weights": [
+    1,
+    1
+  ],
+  "scoped_top5_positions": 3,
+  "frozen_dependencies_unchanged": 67,
+  "real_rerank_inputs": 1600,
+  "token_truncations": 0,
+  "run_elapsed_seconds": 86.17107399999804,
+  "document_cache_hits": [
+    true
+  ],
+  "query_cache_hits": [
+    false
+  ],
+  "model_decision_counts": {
+    "risk_detected": 6,
+    "no_obvious_risk": 6,
+    "insufficient_information": 4
+  },
+  "model_useful_positions": 53,
+  "model_useful_positions_by_query": {
+    "D001": 2,
+    "D002": 0,
+    "D003": 5,
+    "D004": 5,
+    "D005": 5,
+    "D006": 5,
+    "D007": 3,
+    "D008": 3,
+    "D009": 4,
+    "D010": 5,
+    "D011": 5,
+    "D012": 3,
+    "D013": 0,
+    "D014": 3,
+    "D015": 1,
+    "D016": 4
+  },
+  "inputs_with_model_helpful_evidence": 14,
+  "source_and_packet_reconstruction": "passed",
+  "judgment_quote_correction_only": "D004/F004280 literal line wrapping",
+  "human_approved": false,
+  "independent_quality_gold": false,
+  "author_is_judge": true,
+  "scope": "Stage/source/coverage mechanics and current-session evidence interpretation; not risk-label accuracy."
+}

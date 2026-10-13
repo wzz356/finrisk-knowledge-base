@@ -1,0 +1,1206 @@
+{
+  "events": [
+    {
+      "event_granularity": "日期明确的一场产说会及对应责任",
+      "event_id": "E06_LOCAL_CHANGJI_20220512_JINXIANG",
+      "file_ids": [
+        "F009408",
+        "F009411",
+        "F009412"
+      ],
+      "members": [
+        {
+          "actor_name": "新华人寿保险股份有限公司昌吉中心支公司",
+          "anchors": [
+            {
+              "quote": "2022年5月12日",
+              "span": {
+                "end": 315,
+                "start": 305
+              }
+            },
+            {
+              "quote": "金享盛世惠泽万家产品",
+              "span": {
+                "end": 334,
+                "start": 324
+              }
+            },
+            {
+              "quote": "超过两年,他都不需要生调的",
+              "span": {
+                "end": 383,
+                "start": 370
+              }
+            },
+            {
+              "quote": "与银行利率、银行理财、普通债券、信托产品进行片面对比,且夸大产品收益。",
+              "span": {
+                "end": 473,
+                "start": 438
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "被处罚单位名称:新华人寿保险股份有限公司昌吉中心支公司(简称:新华保险昌吉中心支公司)",
+              "span": {
+                "end": 81,
+                "start": 38
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 512,
+              "start": 261
+            }
+          ],
+          "file_id": "F009408",
+          "role": "institution_behavior",
+          "role_quote": "经查,新华保险昌吉中心支公司 存在着以下违法行为。",
+          "role_span": {
+            "end": 286,
+            "start": 261
+          },
+          "source_sha256": "ae1d5c11c9da49064d7e5c3f83d2de805c47321f5dca47add8a81cb56338e900"
+        },
+        {
+          "actor_name": "李颉",
+          "anchors": [
+            {
+              "quote": "2022年5月12日",
+              "span": {
+                "end": 272,
+                "start": 262
+              }
+            },
+            {
+              "quote": "金享盛世惠泽万家产品",
+              "span": {
+                "end": 299,
+                "start": 289
+              }
+            },
+            {
+              "quote": "超过两年,他都不需要生调的",
+              "span": {
+                "end": 356,
+                "start": 343
+              }
+            },
+            {
+              "quote": "与银行利率、银行理财、普通债券、信托产品进行片面对比,且夸大产品收益。",
+              "span": {
+                "end": 454,
+                "start": 419
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 545,
+              "start": 217
+            }
+          ],
+          "file_id": "F009411",
+          "role": "management_responsibility",
+          "role_quote": "李颉时任新华保险昌吉中心支公司副总经理,负责管理昌吉中心支公司营销部门,对该违法行为负管理责任。",
+          "role_span": {
+            "end": 503,
+            "start": 455
+          },
+          "source_sha256": "7747b76994bba14ca2eed6306ad13f2f6b69eaae5ba33dc4a4da3adc3c193afc"
+        },
+        {
+          "actor_name": "安迪",
+          "anchors": [
+            {
+              "quote": "2022年5月12日",
+              "span": {
+                "end": 277,
+                "start": 267
+              }
+            },
+            {
+              "quote": "金享盛世惠泽万家产品",
+              "span": {
+                "end": 304,
+                "start": 294
+              }
+            },
+            {
+              "quote": "超过两年,他都不需要生调的",
+              "span": {
+                "end": 361,
+                "start": 348
+              }
+            },
+            {
+              "quote": "与银行利率、银行理财、普通债券、信托产品进行片面对比,且夸大产品收益。",
+              "span": {
+                "end": 458,
+                "start": 423
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 553,
+              "start": 222
+            }
+          ],
+          "file_id": "F009412",
+          "role": "management_responsibility",
+          "role_quote": "安迪时任新华保险昌吉中心支公司营销服务部经理助理,负责对保险营销业务进行管理,对该违法行为负直接管理责任。",
+          "role_span": {
+            "end": 512,
+            "start": 459
+          },
+          "source_sha256": "7ce5c0f360f2511652f003bd0e6e855c9d9d9ed4be18e45e8c95bbbd31b6f126"
+        }
+      ],
+      "reason": "同一昌吉中心支公司、2022年5月12日产说会、金享盛世惠泽万家产品、讲师重疾理赔话术及同一组投资品片面对比/夸大收益事实共同匹配。两个人文书分别明确管理责任，不据此确认讲师姓名或个人亲自宣讲。",
+      "status": "source_supported"
+    },
+    {
+      "event_granularity": "金额和笔数明确的同一农险虚假赔款事实集合",
+      "event_id": "E06_LOCAL_BAOYING_2014_FALSE_CROP_CLAIMS",
+      "excluded_facts": [
+        "F000929第二项2013年虚开劳务费发票套取农险经费",
+        "F000922第二项育肥猪未严格执行条款费率"
+      ],
+      "file_ids": [
+        "F000929",
+        "F000922"
+      ],
+      "members": [
+        {
+          "actor_name": "中国人民财产保险股份有限公司宝应支公司",
+          "anchors": [
+            {
+              "quote": "2014年小麦种植险和水稻种植险业务",
+              "span": {
+                "end": 430,
+                "start": 412
+              }
+            },
+            {
+              "quote": "赔款金额83830.6元",
+              "span": {
+                "end": 520,
+                "start": 508
+              }
+            },
+            {
+              "quote": "保单保费28.48万元,代垫保费85450.37元",
+              "span": {
+                "end": 559,
+                "start": 534
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "当事人:中国人民财产保险股份有限公司宝应支公司(以下简称人保财险宝应支公司)",
+              "span": {
+                "end": 84,
+                "start": 46
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 596,
+              "start": 401
+            }
+          ],
+          "file_id": "F000929",
+          "role": "institution_behavior",
+          "role_quote": "一、人保财险宝应支公司2014年小麦种植险和水稻种植险业务中,存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+          "role_span": {
+            "end": 497,
+            "start": 401
+          },
+          "source_sha256": "9ff4ba9ffa2ed403e973ddb1a3208942496c2a45d7b1bde90122afe20374835d"
+        },
+        {
+          "actor_name": "中国人民财产保险股份有限公司扬州市分公司",
+          "anchors": [
+            {
+              "quote": "2014年小麦种植险和水稻种植险业务",
+              "span": {
+                "end": 368,
+                "start": 350
+              }
+            },
+            {
+              "quote": "赔款金额83830.6元",
+              "span": {
+                "end": 458,
+                "start": 446
+              }
+            },
+            {
+              "quote": "保单保费28.48万元,代垫保费85450.37元",
+              "span": {
+                "end": 497,
+                "start": 472
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "当事人:中国人民财产保险股份有限公司扬州市分公司(以下简称人保财险扬州市分公司)",
+              "span": {
+                "end": 86,
+                "start": 46
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 556,
+              "start": 340
+            }
+          ],
+          "file_id": "F000922",
+          "notes": "扬州机构动作是核保、核赔通过；不将其等同于宝应一线理赔动作。",
+          "role": "institution_behavior",
+          "role_quote": "上述业务均经由人保财险扬州市分公司核保、核赔通过。",
+          "role_span": {
+            "end": 523,
+            "start": 498
+          },
+          "source_sha256": "25c24e5d34d654523bc33f3a21e001086f8a15bd884f696f68a8345ca640a410"
+        }
+      ],
+      "reason": "2014年宝应小麦/水稻种植险、村组垫费后虚构事故或扩大损失、赔款返还垫费/村组经费，且6笔赔案83830.6元、6笔保单28.48万元、垫费85450.37元全部对应。宝应实施与扬州核保核赔是同一事实链中的不同机构动作；不合并机构身份或人员责任。",
+      "source_bound_edges": [
+        {
+          "actor_name": "闻怀强",
+          "file_id": "F000929",
+          "quote": "时任人保财险宝应支公司副经理兼农险部经理闻怀强对上述问题负有直接责任。",
+          "reason": "原文明确该项直接责任及职务，但未进一步描述其亲自编造/赔付动作或具体管控缺失；保守不将直接责任细化为亲自实施或管理责任。",
+          "relation": "explicit_direct_responsibility",
+          "role": "unknown",
+          "source_sha256": "9ff4ba9ffa2ed403e973ddb1a3208942496c2a45d7b1bde90122afe20374835d",
+          "span": {
+            "end": 595,
+            "start": 560
+          }
+        },
+        {
+          "actor_name": "孙健",
+          "file_id": "F000922",
+          "quote": "时任人保财险扬州市分公司\n相关负责人孙健对上述问题负有直接责任。",
+          "reason": "原文明确该项直接责任，但未说明孙健亲自操作核保核赔或责任具体方式；保守保留角色性质未知。",
+          "relation": "explicit_direct_responsibility",
+          "role": "unknown",
+          "source_sha256": "25c24e5d34d654523bc33f3a21e001086f8a15bd884f696f68a8345ca640a410",
+          "span": {
+            "end": 555,
+            "start": 523
+          }
+        }
+      ],
+      "status": "source_supported"
+    },
+    {
+      "event_granularity": "一个统一利益演示系统的设计、下发及内容认定",
+      "event_id": "E06_LOCAL_CHONGQING_2011_FUMANYISHENG_SYSTEM",
+      "file_ids": [
+        "F001686",
+        "F001687"
+      ],
+      "members": [
+        {
+          "actor_name": "王斌",
+          "anchors": [
+            {
+              "quote": "于2011年初组织人员设计制作",
+              "span": {
+                "end": 186,
+                "start": 171
+              }
+            },
+            {
+              "quote": "“福满一生两全保险(分红型)”利益演示系统",
+              "span": {
+                "end": 207,
+                "start": 186
+              }
+            },
+            {
+              "quote": "利益演示系统依据3.5%的年利率计算",
+              "span": {
+                "end": 583,
+                "start": 565
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 900,
+              "start": 117
+            }
+          ],
+          "file_id": "F001686",
+          "role": "direct_person_action",
+          "role_quote": "王斌作为中国人寿重庆市分公司个险销售部经理,直接组织了该利\n益演示系统的设计制作工作,对上述违法行为应承担直接责任。",
+          "role_span": {
+            "end": 899,
+            "start": 841
+          },
+          "source_sha256": "040c032a3f3e5ff2ff6d6583fbb6ee70ada664e79eacf5e8d8ca01575e086a34"
+        },
+        {
+          "actor_name": "中国人寿保险股份有限公司重庆市分公司",
+          "anchors": [
+            {
+              "quote": "于2011年初组织人员设计制作",
+              "span": {
+                "end": 202,
+                "start": 187
+              }
+            },
+            {
+              "quote": "“福满一生两全保险(分红型)”利益演示系统",
+              "span": {
+                "end": 223,
+                "start": 202
+              }
+            },
+            {
+              "quote": "利益演示系统依据3.5%的年利率计算",
+              "span": {
+                "end": 597,
+                "start": 579
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "当事人:中国人寿保险股份有限公司重庆市分公司",
+              "span": {
+                "end": 88,
+                "start": 66
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 866,
+              "start": 132
+            }
+          ],
+          "file_id": "F001687",
+          "role": "institution_behavior",
+          "role_quote": "经查实,中国人寿保险股份有限公司重庆市分公司(以下简称:“中国人寿重庆市分公司”)为了对保险产品进行包装销售,于2011年初组织人员设计制作“福满一生两全保险(分红型)”利益演示系统(产品计划书模板),并发放给各下级分支机构供营销员使用。依据该利益演示系统打印的宣传资料存在欺骗投\n保人的内容:\n",
+          "role_span": {
+            "end": 280,
+            "start": 132
+          },
+          "source_sha256": "f9e801c924008d0af764ca1fb27ef04ec0cde6533273b38925b81d01dfa87a89"
+        }
+      ],
+      "reason": "同一重庆市分公司2011年初统一设计下发福满一生利益演示系统；高档红利、非确定生存金留存/利率条件以及3.5%年利率宣传一致。王斌直接组织设计制作有明确动作原话，区别于一般管理责任。",
+      "status": "source_supported"
+    },
+    {
+      "event_granularity": "2014年3月就已列四份保单作答时打印/提供的组合产品宣传材料",
+      "event_id": "E06_LOCAL_BISHAN_SU_201403_COMBINATION_DEMO",
+      "file_ids": [
+        "F001319",
+        "F001320"
+      ],
+      "members": [
+        {
+          "actor_name": "叶德模",
+          "anchors": [
+            {
+              "quote": "2014年3月",
+              "span": {
+                "end": 332,
+                "start": 325
+              }
+            },
+            {
+              "quote": "2010-660520-442-01501499-5",
+              "span": {
+                "end": 242,
+                "start": 216
+              }
+            },
+            {
+              "quote": "2013-660520-263-00001216-8",
+              "span": {
+                "end": 269,
+                "start": 243
+              }
+            },
+            {
+              "quote": "2013-660520-442-\n01503309-6",
+              "span": {
+                "end": 297,
+                "start": 270
+              }
+            },
+            {
+              "quote": "2013-660520-263-00001001-8",
+              "span": {
+                "end": 324,
+                "start": 298
+              }
+            },
+            {
+              "quote": "“应急养老金”",
+              "span": {
+                "end": 664,
+                "start": 657
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 977,
+              "start": 113
+            }
+          ],
+          "file_id": "F001319",
+          "role": "direct_person_action",
+          "role_quote": "叶德模在答复过程中,使用自己电脑上预留的《中国人寿福禄双喜至尊版自动计划书附加险计算器》模板打印《福禄双喜至尊版(组合计划)》(以下称“组合计划”)及《福禄双喜至尊版(组合)利益演\n示表》(以下称“组合产品利益演示表”)。该宣传材料存在以下问题:",
+          "role_span": {
+            "end": 476,
+            "start": 353
+          },
+          "source_sha256": "d68a4fdb0b9efd435d63600844ede333485c26464fac9c5bdd2622d55b40895a"
+        },
+        {
+          "actor_name": "中国人寿璧山支公司",
+          "anchors": [
+            {
+              "quote": "2014年3月",
+              "span": {
+                "end": 341,
+                "start": 334
+              }
+            },
+            {
+              "quote": "2010-660520-442-01501499-5",
+              "span": {
+                "end": 251,
+                "start": 225
+              }
+            },
+            {
+              "quote": "2013-660520-263-00001216-8",
+              "span": {
+                "end": 278,
+                "start": 252
+              }
+            },
+            {
+              "quote": "2013-660520-442-\n01503309-6",
+              "span": {
+                "end": 306,
+                "start": 279
+              }
+            },
+            {
+              "quote": "2013-660520-263-00001001-8",
+              "span": {
+                "end": 333,
+                "start": 307
+              }
+            },
+            {
+              "quote": "“应急养老金”",
+              "span": {
+                "end": 687,
+                "start": 680
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "当事人:中国人寿保险股份有限公司璧山县支公司",
+              "span": {
+                "end": 88,
+                "start": 66
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 1010,
+              "start": 121
+            }
+          ],
+          "file_id": "F001320",
+          "notes": "正文机构简称及人员所属均以原文为准；不把璧山县/璧山区名称差异外推成全局机构实体合并。",
+          "role": "institution_behavior",
+          "role_quote": "我局认为,中国人寿璧山支公司叶德模向投保人提供与保险合同条款内容不符的虚假宣传材料,构成欺骗投保人的行为,违反《中华人民共和国保险法》第一百一十六条第(一)项的规定。依据《中华人民共和国保险法》第一百六十二条的规定,我局决定对中国人寿璧山支公司罚款6万元。",
+          "role_span": {
+            "end": 1009,
+            "start": 881
+          },
+          "source_sha256": "8c96fd1d2d7131b88057f45a626d999846456673b46795666ccb604085392a8c"
+        }
+      ],
+      "reason": "同一苏某、2010年至2013年投保背景及四个完整保单号、2014年3月咨询叶德模、同一电脑预留模板打印的组合计划/利益演示表，以及相同两项缺陷共同锚定本次答复材料。叶德模使用电脑模板打印为明确亲自动作；机构文书中的工作人员动作与机构被处罚认定保持区分。",
+      "source_bound_edges": [
+        {
+          "actor_name": "叶德模",
+          "file_id": "F001320",
+          "quote": "叶德模在答复过程中,使用自己电脑上预留的《中国人寿福禄双喜至尊版自动计划书附加险计算器》模板打印《福禄双喜至尊版(组合计划)》(以下称“组合计划”)\n及《福禄双喜至尊版(组合)利益演示表》(以下称“组合产品利益演示表”)。该宣传材料存在以下问题:",
+          "relation": "prints_combination_plan_and_benefit_demo",
+          "role": "direct_person_action",
+          "source_sha256": "8c96fd1d2d7131b88057f45a626d999846456673b46795666ccb604085392a8c",
+          "span": {
+            "end": 499,
+            "start": 376
+          }
+        }
+      ],
+      "status": "source_supported",
+      "text_quality_note": "两份原文均有“一旦组合一旦能享有在累积生存金及更没有”的异常表达；原样保存，不修复或推导产品规则。"
+    },
+    {
+      "event_date_status": "not_recorded",
+      "event_granularity": "本对机构/负责人文书共同描述的未注明日期培训事实集合",
+      "event_id": "E06_LOCAL_JINING_CHENGDA_JINRUI21_TRAINING",
+      "file_ids": [
+        "F009322",
+        "F009317"
+      ],
+      "members": [
+        {
+          "actor_name": "中国平安人寿保险股份有限公司济宁中心支公司成达营销服务部",
+          "anchors": [
+            {
+              "quote": "平安人寿济宁中支成达营销服务部对代理人进行培训时",
+              "span": {
+                "end": 356,
+                "start": 332
+              }
+            },
+            {
+              "quote": "产品“金瑞人生21”进行利益演示仅演示了4.5%的中档收益",
+              "span": {
+                "end": 393,
+                "start": 364
+              }
+            },
+            {
+              "quote": "培训行为使参会代理人对该保险产品的收益情况产生错误认\n知。",
+              "span": {
+                "end": 439,
+                "start": 410
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "当事人:中国平安人寿保险股份有限公司济宁中心支公司成达营销服务部",
+              "span": {
+                "end": 75,
+                "start": 43
+              }
+            },
+            {
+              "not_event_scope": true,
+              "quote": "中国银保监会济宁监管分局\n2023年5月29日\n",
+              "span": {
+                "end": 781,
+                "start": 757
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 463,
+              "start": 267
+            }
+          ],
+          "file_id": "F009322",
+          "role": "institution_behavior",
+          "role_quote": "平安人寿济宁中支成达营销服务部唆使、诱导代理人进行违背诚信义务的活动。平安人寿济宁中支成达营销服务部对代理人进行培训时,对万能型保险\n产品“金瑞人生21”进行利益演示仅演示了4.5%的中档收益,不能全面反映该保险产品收益情况,培训行为使参会代理人对该保险产品的收益情况产生错误认\n知。\n",
+          "role_span": {
+            "end": 440,
+            "start": 297
+          },
+          "source_sha256": "d26054e069e20311152dcd6a2930b35c26c023f8b6d9501ffe43e17f3109ecb2"
+        },
+        {
+          "actor_name": "褚伟",
+          "anchors": [
+            {
+              "quote": "平安人寿济宁中支成达营销服务部对代理人进行培训时",
+              "span": {
+                "end": 391,
+                "start": 367
+              }
+            },
+            {
+              "quote": "产品“金瑞人生21”进行利益演示仅演示了4.5%的中档收益",
+              "span": {
+                "end": 428,
+                "start": 399
+              }
+            },
+            {
+              "quote": "培训行为使参会代理人对该保险产品的收益情况产生错误认\n知。",
+              "span": {
+                "end": 474,
+                "start": 445
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "当事人:褚伟",
+              "span": {
+                "end": 49,
+                "start": 43
+              }
+            },
+            {
+              "not_event_scope": true,
+              "quote": "中国银保监会济宁监管分局\n2023年5月29日\n",
+              "span": {
+                "end": 803,
+                "start": 779
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 498,
+              "start": 276
+            }
+          ],
+          "file_id": "F009317",
+          "notes": "当事人在文首确定为褚伟；原文只认定负责人管理责任，不证明褚伟亲自讲课。",
+          "role": "management_responsibility",
+          "role_quote": "当事人时任平安人寿济宁中支成达营销服务部负责人,对平安人寿济宁中支成达营销服务部以下违法违规行为负有管理责任。",
+          "role_span": {
+            "end": 331,
+            "start": 276
+          },
+          "source_sha256": "8ed921fa8211d85490384eef74f61cc28ceec91f78278777e7eb2a98a3ac829e"
+        }
+      ],
+      "reason": "相同完整成达营销服务部、同一金瑞人生21万能型产品培训、仅演示4.5%中档收益及使参会代理人错误认知的独特事实原话完全对应；同一监管分局同日2023年5月29日决定为文书背景支持。原文未载培训日期，确认仅限该被调查培训事实集合，不确认某天或某一场培训。",
+      "status": "source_supported"
+    },
+    {
+      "event_granularity": "待确认的同次销售候选",
+      "event_id": "E06_LOCAL_XIAN_P0600_MASKED_CANDIDATE",
+      "file_ids": [
+        "F008940",
+        "F008944"
+      ],
+      "members": [
+        {
+          "actor_name": "李荣",
+          "anchors": [
+            {
+              "quote": "在销售P0600*号保险合同时",
+              "span": {
+                "end": 308,
+                "start": 293
+              }
+            },
+            {
+              "quote": "销售人员在销售录音中承诺向投保\n人赠送礼品。",
+              "span": {
+                "end": 370,
+                "start": 348
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "被处罚个人姓名:李荣",
+              "span": {
+                "end": 40,
+                "start": 30
+              }
+            },
+            {
+              "not_event_scope": true,
+              "quote": "2023年7月19日\n",
+              "span": {
+                "end": 782,
+                "start": 771
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 472,
+              "start": 277
+            }
+          ],
+          "file_id": "F008940",
+          "role": "management_responsibility",
+          "role_quote": "你作为中国平安人寿保险股份有限公司西安电话销售中心副总经理,是对违法行为直接负责的管理人员。",
+          "role_span": {
+            "end": 417,
+            "start": 371
+          },
+          "source_sha256": "b03a4b398211370eff5df87414fc89c5e2d7c86e2f9d8ab70fdf5e5b392b3afe"
+        },
+        {
+          "actor_name": "吕思挺",
+          "anchors": [
+            {
+              "quote": "在销售P0600*号保险合同时",
+              "span": {
+                "end": 308,
+                "start": 293
+              }
+            },
+            {
+              "quote": "销售人员在销售录音中承诺向投保\n人赠送礼品。",
+              "span": {
+                "end": 370,
+                "start": 348
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "被处罚个人姓名:吕思挺",
+              "span": {
+                "end": 41,
+                "start": 30
+              }
+            },
+            {
+              "not_event_scope": true,
+              "quote": "2023年7月19日\n",
+              "span": {
+                "end": 779,
+                "start": 768
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 471,
+              "start": 277
+            }
+          ],
+          "file_id": "F008944",
+          "role": "management_responsibility",
+          "role_quote": "你作为中国平安人寿保险股份有限公司西安电话销售中心总经理,是对违法行为直接负责的管理人员。",
+          "role_span": {
+            "end": 416,
+            "start": 371
+          },
+          "source_sha256": "dff34b5341f847a7c5c27a7d966a53c2107098780cfcf7faa15417c24af50100"
+        }
+      ],
+      "reason": "同一西安电话销售中心、遮蔽保单号P0600*及三类销售问题原话相同，且同日决定，提示可能关联；但遮蔽保单号不能唯一识别保险合同，原文无行为日期或双方共同案号/相互指涉，无法排除同类模板或不同销售。保留候选，不用于去重。双方有明确直接负责管理人员认定，均不视为本人销售。",
+      "status": "uncertain"
+    },
+    {
+      "event_granularity": "2022年5月同一微信群激励方案中的冰柜赠送承诺",
+      "event_id": "E06_LOCAL_HECHENG_202205_WECHAT_FREEZER",
+      "excluded_facts": [
+        "两份文书第一项2021年1月至5月19笔保单未进行执业登记业务"
+      ],
+      "file_ids": [
+        "F009488",
+        "F009491"
+      ],
+      "members": [
+        {
+          "actor_name": "和诚安心保险销售有限公司山东分公司",
+          "anchors": [
+            {
+              "quote": "某产品2022年5月激励方案",
+              "span": {
+                "end": 396,
+                "start": 382
+              }
+            },
+            {
+              "quote": "1万保费赠送客户海尔电冰柜210升一台",
+              "span": {
+                "end": 422,
+                "start": 403
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "当事人:和诚安心保险销售有限公司山东分公司",
+              "span": {
+                "end": 64,
+                "start": 43
+              }
+            },
+            {
+              "not_event_scope": true,
+              "quote": "2023年5月9日\n",
+              "span": {
+                "end": 981,
+                "start": 971
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 428,
+              "start": 329
+            }
+          ],
+          "file_id": "F009488",
+          "role": "institution_behavior",
+          "role_quote": "调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+          "role_span": {
+            "end": 427,
+            "start": 360
+          },
+          "source_sha256": "904f1cf886bce0c3ff8a53f758f352c4e180a62b344aa25d14399c9ac62e160b"
+        },
+        {
+          "actor_name": "焦勇",
+          "anchors": [
+            {
+              "quote": "某产品2022年5月激励方案",
+              "span": {
+                "end": 414,
+                "start": 400
+              }
+            },
+            {
+              "quote": "1万保费赠送客户海尔电冰柜210升一台",
+              "span": {
+                "end": 440,
+                "start": 421
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "当事人:焦勇",
+              "span": {
+                "end": 49,
+                "start": 43
+              }
+            },
+            {
+              "not_event_scope": true,
+              "quote": "职务:和诚安心保险销售有限公司山东分公司主要负责人",
+              "span": {
+                "end": 100,
+                "start": 75
+              }
+            },
+            {
+              "not_event_scope": true,
+              "quote": "2023年5月9日\n",
+              "span": {
+                "end": 947,
+                "start": 937
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 475,
+              "start": 347
+            }
+          ],
+          "file_id": "F009491",
+          "role": "management_responsibility",
+          "role_quote": "焦勇作为该公司主要负责人,对上述违规问题负直接领导责任。",
+          "role_span": {
+            "end": 474,
+            "start": 446
+          },
+          "source_sha256": "cb6601b0f5231ca274809e3ca44398eb7eeecb54ad4ee97c456d92a7978afa14"
+        }
+      ],
+      "reason": "同一山东分公司微信群、2022年5月激励方案及1万保费赠海尔210升电冰柜独特承诺逐字对应，同日决定。只确认二号行为；焦勇原文明确直接领导责任，但“该公司负责人”未指名发布者，不进一步确认焦勇亲自发布。",
+      "status": "source_supported"
+    },
+    {
+      "event_granularity": "完整保单号锚定的五份保单、两类宣传事实集合",
+      "event_id": "E06_LOCAL_TAIKANG_CQ_20120104_FIVE_POLICIES",
+      "file_ids": [
+        "F001987",
+        "F001988"
+      ],
+      "limits": "证据句“以上行为”只在本组完整保单集合背景下有明确指代；不能据此认定各保单同一次销售，也不把宣传内容当合同约定。",
+      "members": [
+        {
+          "actor_name": "刘峥",
+          "anchors": [
+            {
+              "quote": "2012年1至4月",
+              "span": {
+                "end": 143,
+                "start": 134
+              }
+            },
+            {
+              "quote": "07991843、07995911、07996331、08002282",
+              "span": {
+                "end": 221,
+                "start": 186
+              }
+            },
+            {
+              "quote": "08005192",
+              "span": {
+                "end": 280,
+                "start": 272
+              }
+            },
+            {
+              "quote": "贷款能贷本金的70%",
+              "span": {
+                "end": 304,
+                "start": 294
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "当  事  人:刘峥",
+              "span": {
+                "end": 79,
+                "start": 69
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 483,
+              "start": 131
+            },
+            {
+              "end": 594,
+              "start": 548
+            }
+          ],
+          "file_id": "F001987",
+          "role": "management_responsibility",
+          "role_quote": "泰康人寿重庆分公司电话行销部经理刘峥,忽视对业务品质方面的管控,对以上行为负有直接主管责任。",
+          "role_span": {
+            "end": 594,
+            "start": 548
+          },
+          "source_sha256": "d775c8470c9b25e940653760e85e3630f9d47dff65379cdaee6a8fe5d5e1cc35"
+        },
+        {
+          "actor_name": "泰康人寿保险股份有限公司重庆分公司",
+          "anchors": [
+            {
+              "quote": "2012年1至4月",
+              "span": {
+                "end": 144,
+                "start": 135
+              }
+            },
+            {
+              "quote": "07991843、07995911、07996331、08002282",
+              "span": {
+                "end": 191,
+                "start": 156
+              }
+            },
+            {
+              "quote": "08005192",
+              "span": {
+                "end": 250,
+                "start": 242
+              }
+            },
+            {
+              "quote": "贷款能贷本金的70%",
+              "span": {
+                "end": 273,
+                "start": 263
+              }
+            }
+          ],
+          "context_supports": [
+            {
+              "not_event_scope": true,
+              "quote": "当事人:泰康人寿保险股份有限公司重庆分公司",
+              "span": {
+                "end": 87,
+                "start": 66
+              }
+            }
+          ],
+          "event_spans": [
+            {
+              "end": 453,
+              "start": 132
+            }
+          ],
+          "file_id": "F001988",
+          "role": "institution_behavior",
+          "role_quote": "经查,2012年1至4月,你公司在销售投保单号为07991843、07995911、07996331、08002282的保险单时,销售人员使用“存钱”、“储蓄”等误导性语言,混淆保险产品与储蓄产品的区别;",
+          "role_span": {
+            "end": 234,
+            "start": 132
+          },
+          "source_sha256": "68b31661ac7c841a4bda7ed45d21e1c0ecc01377827305a76d48c11ef174b9f6"
+        }
+      ],
+      "reason": "同一重庆分公司2012年1至4月、四个产品性质误导保单号及另一个贷款宣传保单号全部完整对应；两类具体话术及真实贷款条款一致。确认的是同一监管事实集合，不将五份保单视为一次销售。刘峥仅负明确管控/直接主管责任。",
+      "status": "source_supported",
+      "subfacts": [
+        {
+          "kind": "product_nature_misrepresentation",
+          "policy_numbers": [
+            "07991843",
+            "07995911",
+            "07996331",
+            "08002282"
+          ]
+        },
+        {
+          "kind": "policy_loan_misrepresentation",
+          "policy_numbers": [
+            "08005192"
+          ]
+        }
+      ]
+    }
+  ],
+  "grouping_policy": {
+    "context_supports_authorize_grouping": false,
+    "description": "只在每个命中unit的全部原source_spans均完整落入同一已核event的该文件event_spans且唯一匹配时分组。未知、跨其他行为/表行、跨批准区间或多组匹配保持独立；角色与行为分别保留。",
+    "file_id_only_grouping_allowed": false,
+    "identity_or_role_equivalence_implies_same_event": false,
+    "only_status": "source_supported",
+    "require_every_original_source_span_fully_contained": true,
+    "require_unique_matching_event": true,
+    "uncertain_or_unknown_event_deduplication_allowed": false
+  },
+  "human_approved": false,
+  "negative_examples": [
+    {
+      "eligible_for_grouping": false,
+      "file_id": "F004155",
+      "forbidden_inferences": [
+        "第2行与第7行自动同事件",
+        "曹爱斌亲自承诺利益",
+        "用一行主语覆盖整表"
+      ],
+      "personal_role": "unknown",
+      "reason": "同表第2行机构和第7行负责人各有合同外利益案由，但无行为时间、保单、具体动作或明确责任关系；案由重复与机构/职务相似不证明同事件，负责人身份也不证明本人实施。两处原话与各自表行保持独立。",
+      "repeated_quote_spans": [
+        {
+          "end": 222,
+          "start": 202
+        },
+        {
+          "end": 494,
+          "start": 474
+        }
+      ],
+      "source_sha256": "f8effec9985ae16019a4df41148203abbfbf031fccbe6bfae398654094472d8a",
+      "supports": [
+        {
+          "meaning": "第2行机构自己的案由和处罚",
+          "quote": "2\n民生人\n寿保险\n股份有\n限公司\n延安中\n心支公\n司\n承诺给予保\n险合同约定\n以外的其他\n利益\n罚款5\n万元\n",
+          "span": {
+            "end": 230,
+            "start": 174
+          }
+        },
+        {
+          "meaning": "第7行个人自己的案由和处罚，责任性质未载",
+          "quote": "7\n曹爱斌\n(时任\n民生人\n寿延安\n中心支\n公司主\n要负责\n人)\n销售误导、\n承诺给予保\n险合同约定\n以外的其他\n利益\n给予警\n告并处\n2万元\n罚款\n",
+          "span": {
+            "end": 510,
+            "start": 435
+          }
+        }
+      ]
+    },
+    {
+      "eligible_for_grouping": false,
+      "file_id": "F004090",
+      "forbidden_inferences": [
+        "整表同一事件",
+        "济南主体覆盖滨州或济宁",
+        "孙宁本人实施未记载行为"
+      ],
+      "personal_role": "unknown",
+      "reason": "济南、滨州、济宁机构及各个人位于独立表行，文号各异；第一行委托医护人员销售健康险只能对应济南同行主体。第6行孙宁未显示独立行为，不能移植第5行济宁案由或第一行健康险行为。",
+      "source_sha256": "b56b10a0397781def8444eb3285d5c0c0486c237f4df168e06249440e004e30e",
+      "supports": [
+        {
+          "meaning": "第1行济南机构/160号/健康险行为",
+          "quote": "1\n新华人寿保\n险股份有限\n公司济南中\n心支公司\n鲁金罚决字\n〔2025〕160\n号\n委托医护人\n员销售健康\n险\n警告并罚款1\n万元\n国家金融监\n督管理总局\n山东监管局\n",
+          "span": {
+            "end": 178,
+            "start": 93
+          }
+        },
+        {
+          "meaning": "第2行滨州机构/161号/不同案由",
+          "quote": "2\n新华人寿保\n险股份有限\n公司滨州中\n心支公司\n鲁金罚决字\n〔2025〕161\n号\n编制虚假的\n业务财务资\n料、欺骗投\n保人\n罚款34万元\n国家金融监\n督管理总局\n山东监管局\n",
+          "span": {
+            "end": 267,
+            "start": 178
+          }
+        },
+        {
+          "meaning": "第5行济宁机构/164号/业务财务资料案由",
+          "quote": "5\n新华人寿保\n险股份有限\n公司济宁中\n心支公司\n鲁金罚决字\n〔2025〕164\n号\n编制虚假的\n业务财务资\n料\n罚款28万元\n国家金融监\n督管理总局\n山东监管局\n",
+          "span": {
+            "end": 545,
+            "start": 463
+          }
+        },
+        {
+          "meaning": "第6行孙宁/165号/处罚，未载独立案由",
+          "quote": "6\n孙宁(时任新\n华人寿保险\n股份有限公\n司济宁中心\n支公司副总\n经理兼银保\n部负责人)\n鲁金罚决字\n〔2025〕165\n号\n警告并罚款2\n万元\n国家金融监\n督管理总局\n山东监管局\n",
+          "span": {
+            "end": 636,
+            "start": 545
+          }
+        }
+      ]
+    }
+  ],
+  "review_author": "current_session_model_source_only",
+  "schema_version": 1,
+  "scope": "local_model_review_not_global_graph",
+  "scope_review_reference": "E01-E04 scope/review用于核对局部角色及原显示范围，未继承为事件合并批准；未读查询/召回成绩。",
+  "source_dataset": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\normalized_final\\data\\documents.jsonl",
+  "source_read_counts": {
+    "candidate_event_groups": 8,
+    "event_members": 17,
+    "negative_example_documents": 2,
+    "source_supported_groups": 7,
+    "uncertain_groups": 1,
+    "unicode_chars_including_newlines": 18281,
+    "unique_full_documents": 19
+  },
+  "span_convention": "Unicode code point offsets; zero-based [start,end) into full_text; preserved source newlines"
+}

@@ -1,0 +1,3259 @@
+{
+  "kind": "mechanical_aggregation_of_same_round_model_judgments",
+  "counts": {
+    "B0": {
+      "all": {
+        "queries": 42,
+        "denominator": 210,
+        "useful_contexts": 134,
+        "covered_queries": 39,
+        "context_warnings": 9,
+        "useful_files": 143,
+        "file_warnings": 7,
+        "mean_context_grade": 1.8714285714285714,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_business": {
+        "queries": 20,
+        "denominator": 100,
+        "useful_contexts": 59,
+        "covered_queries": 19,
+        "context_warnings": 6,
+        "useful_files": 67,
+        "file_warnings": 4,
+        "mean_context_grade": 1.79,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "replay": {
+        "queries": 22,
+        "denominator": 110,
+        "useful_contexts": 75,
+        "covered_queries": 20,
+        "context_warnings": 3,
+        "useful_files": 76,
+        "file_warnings": 3,
+        "mean_context_grade": 1.9454545454545455,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_risk": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 33,
+        "covered_queries": 10,
+        "context_warnings": 5,
+        "useful_files": 35,
+        "file_warnings": 4,
+        "mean_context_grade": 1.94,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_boundary": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 26,
+        "covered_queries": 9,
+        "context_warnings": 1,
+        "useful_files": 32,
+        "file_warnings": 0,
+        "mean_context_grade": 1.64,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      }
+    },
+    "S1": {
+      "all": {
+        "queries": 42,
+        "denominator": 210,
+        "useful_contexts": 133,
+        "covered_queries": 39,
+        "context_warnings": 8,
+        "useful_files": 140,
+        "file_warnings": 6,
+        "mean_context_grade": 1.8761904761904762,
+        "scope_slots": 5,
+        "prefix_slots": 0
+      },
+      "new_business": {
+        "queries": 20,
+        "denominator": 100,
+        "useful_contexts": 59,
+        "covered_queries": 19,
+        "context_warnings": 6,
+        "useful_files": 66,
+        "file_warnings": 4,
+        "mean_context_grade": 1.79,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "replay": {
+        "queries": 22,
+        "denominator": 110,
+        "useful_contexts": 74,
+        "covered_queries": 20,
+        "context_warnings": 2,
+        "useful_files": 74,
+        "file_warnings": 2,
+        "mean_context_grade": 1.9545454545454546,
+        "scope_slots": 5,
+        "prefix_slots": 0
+      },
+      "new_risk": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 33,
+        "covered_queries": 10,
+        "context_warnings": 5,
+        "useful_files": 35,
+        "file_warnings": 4,
+        "mean_context_grade": 1.94,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_boundary": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 26,
+        "covered_queries": 9,
+        "context_warnings": 1,
+        "useful_files": 31,
+        "file_warnings": 0,
+        "mean_context_grade": 1.64,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      }
+    },
+    "C2": {
+      "all": {
+        "queries": 42,
+        "denominator": 210,
+        "useful_contexts": 133,
+        "covered_queries": 39,
+        "context_warnings": 9,
+        "useful_files": 141,
+        "file_warnings": 6,
+        "mean_context_grade": 1.8761904761904762,
+        "scope_slots": 1,
+        "prefix_slots": 1
+      },
+      "new_business": {
+        "queries": 20,
+        "denominator": 100,
+        "useful_contexts": 59,
+        "covered_queries": 19,
+        "context_warnings": 6,
+        "useful_files": 66,
+        "file_warnings": 4,
+        "mean_context_grade": 1.79,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "replay": {
+        "queries": 22,
+        "denominator": 110,
+        "useful_contexts": 74,
+        "covered_queries": 20,
+        "context_warnings": 3,
+        "useful_files": 75,
+        "file_warnings": 2,
+        "mean_context_grade": 1.9545454545454546,
+        "scope_slots": 1,
+        "prefix_slots": 1
+      },
+      "new_risk": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 33,
+        "covered_queries": 10,
+        "context_warnings": 5,
+        "useful_files": 35,
+        "file_warnings": 4,
+        "mean_context_grade": 1.94,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_boundary": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 26,
+        "covered_queries": 9,
+        "context_warnings": 1,
+        "useful_files": 31,
+        "file_warnings": 0,
+        "mean_context_grade": 1.64,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      }
+    },
+    "W4": {
+      "all": {
+        "queries": 42,
+        "denominator": 210,
+        "useful_contexts": 144,
+        "covered_queries": 40,
+        "context_warnings": 8,
+        "useful_files": 153,
+        "file_warnings": 5,
+        "mean_context_grade": 1.9333333333333333,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_business": {
+        "queries": 20,
+        "denominator": 100,
+        "useful_contexts": 63,
+        "covered_queries": 19,
+        "context_warnings": 6,
+        "useful_files": 71,
+        "file_warnings": 4,
+        "mean_context_grade": 1.83,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "replay": {
+        "queries": 22,
+        "denominator": 110,
+        "useful_contexts": 81,
+        "covered_queries": 21,
+        "context_warnings": 2,
+        "useful_files": 82,
+        "file_warnings": 1,
+        "mean_context_grade": 2.0272727272727273,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_risk": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 36,
+        "covered_queries": 10,
+        "context_warnings": 5,
+        "useful_files": 38,
+        "file_warnings": 4,
+        "mean_context_grade": 2.02,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_boundary": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 27,
+        "covered_queries": 9,
+        "context_warnings": 1,
+        "useful_files": 33,
+        "file_warnings": 0,
+        "mean_context_grade": 1.64,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      }
+    },
+    "M3": {
+      "all": {
+        "queries": 42,
+        "denominator": 210,
+        "useful_contexts": 134,
+        "covered_queries": 39,
+        "context_warnings": 9,
+        "useful_files": 143,
+        "file_warnings": 7,
+        "mean_context_grade": 1.8714285714285714,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_business": {
+        "queries": 20,
+        "denominator": 100,
+        "useful_contexts": 59,
+        "covered_queries": 19,
+        "context_warnings": 6,
+        "useful_files": 67,
+        "file_warnings": 4,
+        "mean_context_grade": 1.79,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "replay": {
+        "queries": 22,
+        "denominator": 110,
+        "useful_contexts": 75,
+        "covered_queries": 20,
+        "context_warnings": 3,
+        "useful_files": 76,
+        "file_warnings": 3,
+        "mean_context_grade": 1.9454545454545455,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_risk": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 33,
+        "covered_queries": 10,
+        "context_warnings": 5,
+        "useful_files": 35,
+        "file_warnings": 4,
+        "mean_context_grade": 1.94,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      },
+      "new_boundary": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 26,
+        "covered_queries": 9,
+        "context_warnings": 1,
+        "useful_files": 32,
+        "file_warnings": 0,
+        "mean_context_grade": 1.64,
+        "scope_slots": 0,
+        "prefix_slots": 0
+      }
+    },
+    "D1": {
+      "all": {
+        "queries": 42,
+        "denominator": 210,
+        "useful_contexts": 137,
+        "covered_queries": 40,
+        "context_warnings": 9,
+        "useful_files": 143,
+        "file_warnings": 7,
+        "mean_context_grade": 1.8904761904761904,
+        "scope_slots": 22,
+        "prefix_slots": 0
+      },
+      "new_business": {
+        "queries": 20,
+        "denominator": 100,
+        "useful_contexts": 61,
+        "covered_queries": 20,
+        "context_warnings": 6,
+        "useful_files": 67,
+        "file_warnings": 4,
+        "mean_context_grade": 1.81,
+        "scope_slots": 4,
+        "prefix_slots": 0
+      },
+      "replay": {
+        "queries": 22,
+        "denominator": 110,
+        "useful_contexts": 76,
+        "covered_queries": 20,
+        "context_warnings": 3,
+        "useful_files": 76,
+        "file_warnings": 3,
+        "mean_context_grade": 1.9636363636363636,
+        "scope_slots": 18,
+        "prefix_slots": 0
+      },
+      "new_risk": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 33,
+        "covered_queries": 10,
+        "context_warnings": 5,
+        "useful_files": 35,
+        "file_warnings": 4,
+        "mean_context_grade": 1.94,
+        "scope_slots": 1,
+        "prefix_slots": 0
+      },
+      "new_boundary": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 28,
+        "covered_queries": 10,
+        "context_warnings": 1,
+        "useful_files": 32,
+        "file_warnings": 0,
+        "mean_context_grade": 1.68,
+        "scope_slots": 3,
+        "prefix_slots": 0
+      }
+    },
+    "D2": {
+      "all": {
+        "queries": 42,
+        "denominator": 210,
+        "useful_contexts": 137,
+        "covered_queries": 40,
+        "context_warnings": 9,
+        "useful_files": 143,
+        "file_warnings": 7,
+        "mean_context_grade": 1.8904761904761904,
+        "scope_slots": 22,
+        "prefix_slots": 22
+      },
+      "new_business": {
+        "queries": 20,
+        "denominator": 100,
+        "useful_contexts": 61,
+        "covered_queries": 20,
+        "context_warnings": 6,
+        "useful_files": 67,
+        "file_warnings": 4,
+        "mean_context_grade": 1.81,
+        "scope_slots": 4,
+        "prefix_slots": 4
+      },
+      "replay": {
+        "queries": 22,
+        "denominator": 110,
+        "useful_contexts": 76,
+        "covered_queries": 20,
+        "context_warnings": 3,
+        "useful_files": 76,
+        "file_warnings": 3,
+        "mean_context_grade": 1.9636363636363636,
+        "scope_slots": 18,
+        "prefix_slots": 18
+      },
+      "new_risk": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 33,
+        "covered_queries": 10,
+        "context_warnings": 5,
+        "useful_files": 35,
+        "file_warnings": 4,
+        "mean_context_grade": 1.94,
+        "scope_slots": 1,
+        "prefix_slots": 1
+      },
+      "new_boundary": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 28,
+        "covered_queries": 10,
+        "context_warnings": 1,
+        "useful_files": 32,
+        "file_warnings": 0,
+        "mean_context_grade": 1.68,
+        "scope_slots": 3,
+        "prefix_slots": 3
+      }
+    },
+    "WD": {
+      "all": {
+        "queries": 42,
+        "denominator": 210,
+        "useful_contexts": 147,
+        "covered_queries": 41,
+        "context_warnings": 8,
+        "useful_files": 153,
+        "file_warnings": 5,
+        "mean_context_grade": 1.9523809523809523,
+        "scope_slots": 19,
+        "prefix_slots": 0
+      },
+      "new_business": {
+        "queries": 20,
+        "denominator": 100,
+        "useful_contexts": 65,
+        "covered_queries": 20,
+        "context_warnings": 6,
+        "useful_files": 71,
+        "file_warnings": 4,
+        "mean_context_grade": 1.85,
+        "scope_slots": 4,
+        "prefix_slots": 0
+      },
+      "replay": {
+        "queries": 22,
+        "denominator": 110,
+        "useful_contexts": 82,
+        "covered_queries": 21,
+        "context_warnings": 2,
+        "useful_files": 82,
+        "file_warnings": 1,
+        "mean_context_grade": 2.0454545454545454,
+        "scope_slots": 15,
+        "prefix_slots": 0
+      },
+      "new_risk": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 36,
+        "covered_queries": 10,
+        "context_warnings": 5,
+        "useful_files": 38,
+        "file_warnings": 4,
+        "mean_context_grade": 2.02,
+        "scope_slots": 1,
+        "prefix_slots": 0
+      },
+      "new_boundary": {
+        "queries": 10,
+        "denominator": 50,
+        "useful_contexts": 29,
+        "covered_queries": 10,
+        "context_warnings": 1,
+        "useful_files": 33,
+        "file_warnings": 0,
+        "mean_context_grade": 1.68,
+        "scope_slots": 3,
+        "prefix_slots": 0
+      }
+    }
+  },
+  "per_query_deltas": {
+    "S1": [
+      {
+        "query_id": "Q021",
+        "query_text": "公司员工把自己做的保险业务登记在代理机构名下，公司把手续费先付给该机构，机构扣留一部分后将余款转给这些员工。需要审查业务实际来源、人员归属和这条资金路径是否一致。",
+        "useful_delta": 0,
+        "warning_delta": -1,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F003497",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003486",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003489",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003491",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003638",
+            "grade": 2,
+            "warning": true,
+            "quote": "你分公司下属机构把并非是鸿义代理公司代理的保险业务虚挂在本机构\n名下,并通过银行转账方式将手续费支付给鸿义代理公司,鸿义代理公司扣除一定比例的费用后,把保险机构支付的手续费以现金或转账方式套取出来,交给保险机构业务员并转支付给其他代理人或代理机构。",
+            "reason": "片段支持扣费返款路径，但本机构名下的文字与输入代理名下不同，误改挂名主体会错误移用机制。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F003486",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003489",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003491",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003495",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003493",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "片段完整呈现来源不实、手续费过账扣费返款给业务员链条，足以核查输入一致性。"
+          }
+        ]
+      },
+      {
+        "query_id": "Q037",
+        "query_text": "承办理赔的工作记录反映，合同要求的保险金给付没有得到落实。现在只确认涉及承办环节，具体险种、未给付原因和金额还未核实，需要先查清义务与处理经过。",
+        "useful_delta": -1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F002958",
+            "grade": 2,
+            "warning": false,
+            "quote": "在保单未到期的情况下,以超出保险期限为由,对投保人的理赔要求未进行查勘,拒不依法履行保险合同约定的赔偿保险金义务。",
+            "reason": "实际片段明确保单未到期、错误拒绝理由与未查勘，可支撑承办经过核查，但仅为候查方向。"
+          },
+          {
+            "file_id": "F002959",
+            "grade": 2,
+            "warning": false,
+            "quote": "在保单未到期的情况下,以超出保险期限为由,对投保人的理赔要求未进行查勘,拒不依法履行保\n险合同约定的赔偿保险金义务。",
+            "reason": "片段包含有效期限与拒查勘的具体关系，能支撑输入调查方向但不补成已证实原因。"
+          },
+          {
+            "file_id": "F000200",
+            "grade": 2,
+            "warning": false,
+            "quote": "保险理赔管理审核不严格,工作人\n员编制虚假业务资料,致使保险机\n构未正确履行保险金给付义务",
+            "reason": "实际片段揭示资料造假与审核缺口导致义务未正确履行，可支撑调查方向，但不证明输入工作人员造假。"
+          },
+          {
+            "file_id": "F009805",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅主体及拒付案由，无合同义务和拒付流程细节，主题相似而机制不足。"
+          },
+          {
+            "file_id": "F008852",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "补机构及处罚仍无拒付事实细节，不能替代义务与处理经过核查。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F002959",
+            "grade": 2,
+            "warning": false,
+            "quote": "在保单未到期的情况下,以超出保险期限为由,对投保人的理赔要求未进行查勘,拒不依法履行保\n险合同约定的赔偿保险金义务。",
+            "reason": "片段包含有效期限与拒查勘的具体关系，能支撑输入调查方向但不补成已证实原因。"
+          },
+          {
+            "file_id": "F000200",
+            "grade": 2,
+            "warning": false,
+            "quote": "保险理赔管理审核不严格,工作人\n员编制虚假业务资料,致使保险机\n构未正确履行保险金给付义务",
+            "reason": "实际片段揭示资料造假与审核缺口导致义务未正确履行，可支撑调查方向，但不证明输入工作人员造假。"
+          },
+          {
+            "file_id": "F009805",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅主体及拒付案由，无合同义务和拒付流程细节，主题相似而机制不足。"
+          },
+          {
+            "file_id": "F008852",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "重复摘录概括拒付义务，缺承办及处理机制，标签和重复不提高帮助程度。"
+          },
+          {
+            "file_id": "F007906",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "个人职位与概括拒付责任不能替代实际机制与义务条件，弱主题线索。"
+          }
+        ]
+      }
+    ],
+    "C2": [
+      {
+        "query_id": "C002",
+        "query_text": "手机端医疗险活动页把买保险写成领保障，并用名额快用完来催促下单，页面没有引导用户如实填写健康情况。上线前应关注哪些销售风险？",
+        "useful_delta": 0,
+        "warning_delta": 1,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F000248",
+            "grade": 3,
+            "warning": false,
+            "quote": "在手机网页“微医保住院医疗”投保\n页面以“领取”代替“投保”,以“仅剩\nXXXX份”进行营销,且未引导客户\n如实健康告知",
+            "reason": "片段虽为公开表，但具体页面、话术和告知机制均充分。"
+          },
+          {
+            "file_id": "F001943",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "两片段独立只显示误导课件及代抄提示；标签和重复摘录未增加机制证据。"
+          },
+          {
+            "file_id": "F004090",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "实际表列无具体误导话术或健康告知条件，停留于主题。"
+          },
+          {
+            "file_id": "F004494",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "全文式表行仍无领取、虚假名额或告知缺失。"
+          },
+          {
+            "file_id": "F001950",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段的提前领取及收益夸大不能用来解释手机医疗险页面机制。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F000248",
+            "grade": 3,
+            "warning": false,
+            "quote": "在手机网页“微医保住院医疗”投保\n页面以“领取”代替“投保”,以“仅剩\nXXXX份”进行营销,且未引导客户\n如实健康告知",
+            "reason": "片段虽为公开表，但具体页面、话术和告知机制均充分。"
+          },
+          {
+            "file_id": "F004494",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "全文式表行仍无领取、虚假名额或告知缺失。"
+          },
+          {
+            "file_id": "F001950",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段的提前领取及收益夸大不能用来解释手机医疗险页面机制。"
+          },
+          {
+            "file_id": "F004484",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段无具体误导文案和健康告知条件，仅主题近似。"
+          },
+          {
+            "file_id": "F004490",
+            "grade": 1,
+            "warning": true,
+            "quote": "",
+            "reason": "片段没展示炒停售，仅出现医护销售案由；前接陈旭东处罚后切入另一公司，不能把医护行为归给陈旭东。"
+          }
+        ]
+      },
+      {
+        "query_id": "Q021",
+        "query_text": "公司员工把自己做的保险业务登记在代理机构名下，公司把手续费先付给该机构，机构扣留一部分后将余款转给这些员工。需要审查业务实际来源、人员归属和这条资金路径是否一致。",
+        "useful_delta": 0,
+        "warning_delta": -1,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F003497",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003486",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003489",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003491",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003638",
+            "grade": 2,
+            "warning": true,
+            "quote": "你分公司下属机构把并非是鸿义代理公司代理的保险业务虚挂在本机构\n名下,并通过银行转账方式将手续费支付给鸿义代理公司,鸿义代理公司扣除一定比例的费用后,把保险机构支付的手续费以现金或转账方式套取出来,交给保险机构业务员并转支付给其他代理人或代理机构。",
+            "reason": "片段支持扣费返款路径，但本机构名下的文字与输入代理名下不同，误改挂名主体会错误移用机制。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F003486",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003489",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003491",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003495",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "实际片段完整呈现挂名、银行支付、代理扣费及余额返给业务员的链条，充分支持核查；返款不自动证明最终属于员工个人收入。"
+          },
+          {
+            "file_id": "F003493",
+            "grade": 3,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司,纵横代理公司按手续费金额8%的比例扣除开具发票费用后,把你公司支付的手续费余额以现金\n或转账方式套取出来,交给你公司业务员并转支付给其他代理人。",
+            "reason": "片段完整呈现来源不实、手续费过账扣费返款给业务员链条，足以核查输入一致性。"
+          }
+        ]
+      },
+      {
+        "query_id": "Q037",
+        "query_text": "承办理赔的工作记录反映，合同要求的保险金给付没有得到落实。现在只确认涉及承办环节，具体险种、未给付原因和金额还未核实，需要先查清义务与处理经过。",
+        "useful_delta": -1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F002958",
+            "grade": 2,
+            "warning": false,
+            "quote": "在保单未到期的情况下,以超出保险期限为由,对投保人的理赔要求未进行查勘,拒不依法履行保险合同约定的赔偿保险金义务。",
+            "reason": "实际片段明确保单未到期、错误拒绝理由与未查勘，可支撑承办经过核查，但仅为候查方向。"
+          },
+          {
+            "file_id": "F002959",
+            "grade": 2,
+            "warning": false,
+            "quote": "在保单未到期的情况下,以超出保险期限为由,对投保人的理赔要求未进行查勘,拒不依法履行保\n险合同约定的赔偿保险金义务。",
+            "reason": "片段包含有效期限与拒查勘的具体关系，能支撑输入调查方向但不补成已证实原因。"
+          },
+          {
+            "file_id": "F000200",
+            "grade": 2,
+            "warning": false,
+            "quote": "保险理赔管理审核不严格,工作人\n员编制虚假业务资料,致使保险机\n构未正确履行保险金给付义务",
+            "reason": "实际片段揭示资料造假与审核缺口导致义务未正确履行，可支撑调查方向，但不证明输入工作人员造假。"
+          },
+          {
+            "file_id": "F009805",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅主体及拒付案由，无合同义务和拒付流程细节，主题相似而机制不足。"
+          },
+          {
+            "file_id": "F008852",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "补机构及处罚仍无拒付事实细节，不能替代义务与处理经过核查。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F002959",
+            "grade": 2,
+            "warning": false,
+            "quote": "在保单未到期的情况下,以超出保险期限为由,对投保人的理赔要求未进行查勘,拒不依法履行保\n险合同约定的赔偿保险金义务。",
+            "reason": "片段包含有效期限与拒查勘的具体关系，能支撑输入调查方向但不补成已证实原因。"
+          },
+          {
+            "file_id": "F000200",
+            "grade": 2,
+            "warning": false,
+            "quote": "保险理赔管理审核不严格,工作人\n员编制虚假业务资料,致使保险机\n构未正确履行保险金给付义务",
+            "reason": "实际片段揭示资料造假与审核缺口导致义务未正确履行，可支撑调查方向，但不证明输入工作人员造假。"
+          },
+          {
+            "file_id": "F009805",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅主体及拒付案由，无合同义务和拒付流程细节，主题相似而机制不足。"
+          },
+          {
+            "file_id": "F007906",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "个人职位与概括拒付责任不能替代实际机制与义务条件，弱主题线索。"
+          },
+          {
+            "file_id": "F006425",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅未在规定时限给付案由与条文，未揭示具体期限条件和处理经过。"
+          }
+        ]
+      }
+    ],
+    "W4": [
+      {
+        "query_id": "C009",
+        "query_text": "这批保单实际由兼业代理渠道成交，业务台账也按真实渠道登记，费用付给实际提供服务的渠道机构，没有转挂到个人代理人名下。对这一步渠道登记和付费，应怎么区分正常记录与虚挂套费？",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F001008",
+            "grade": 2,
+            "warning": false,
+            "quote": "行为2:公司应如实记录业务来源渠道。公司是否提供业务来源渠道,不是虚挂保险中介业务套取费用的免责事由。",
+            "reason": "片段说明真实登记义务及系统渠道限制不能免责，但不含全文具体转挂保单和付款事实。"
+          },
+          {
+            "file_id": "F009869",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只列案由，不能具体区分兼业真实记录与个人虚挂套费。"
+          },
+          {
+            "file_id": "F007543",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有虚列人员套费等案由，无法核对真实兼业渠道与个人转挂。"
+          },
+          {
+            "file_id": "F000313",
+            "grade": 3,
+            "warning": false,
+            "quote": "英大财险哈尔滨中心支公司存在将兼业代理渠道业务虚挂在个人代理人名下套取费用的违法行为。",
+            "reason": "真实兼业与虚挂个人及套费链完整，条件与输入相反但有直接边界帮助。"
+          },
+          {
+            "file_id": "F008178",
+            "grade": 2,
+            "warning": false,
+            "quote": "直销业务\n虚挂中介套取费用",
+            "reason": "具体显示实际与登记渠道不一致并套费，帮助核查输入渠道记录是否真实。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F001008",
+            "grade": 2,
+            "warning": false,
+            "quote": "行为2:公司应如实记录业务来源渠道。公司是否提供业务来源渠道,不是虚挂保险中介业务套取费用的免责事由。",
+            "reason": "片段说明真实登记义务及系统渠道限制不能免责，但不含全文具体转挂保单和付款事实。"
+          },
+          {
+            "file_id": "F009869",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只列案由，不能具体区分兼业真实记录与个人虚挂套费。"
+          },
+          {
+            "file_id": "F000313",
+            "grade": 3,
+            "warning": false,
+            "quote": "英大财险哈尔滨中心支公司存在将兼业代理渠道业务虚挂在个人代理人名下套取费用的违法行为。",
+            "reason": "真实兼业与虚挂个人及套费链完整，条件与输入相反但有直接边界帮助。"
+          },
+          {
+            "file_id": "F000863",
+            "grade": 3,
+            "warning": false,
+            "quote": "人保财险阜阳市分公司通过将其他渠道业务虚挂在某汽车销售服务公司的名下套取佣金,用于支付其他合作机构手续费及发票税费。",
+            "reason": "原文完整展示其他渠道转挂公司套佣金并付其他合作机构，支撑正常登记与套费边界。"
+          },
+          {
+            "file_id": "F002022",
+            "grade": 2,
+            "warning": false,
+            "quote": "一、将直销业务虚挂为个人代理业务,套取手续费用于业务拓展及渠道维护。",
+            "reason": "直接揭示直销虚挂个人套费机制，可核查真实渠道和个人名义是否一致。"
+          }
+        ]
+      },
+      {
+        "query_id": "N004",
+        "query_text": "电话销售医疗保险时，业务员只讲保障项目和优惠价格，没有说明免责事项和等待期，便引导客户确认购买。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F000841",
+            "grade": 2,
+            "warning": false,
+            "quote": "未完整说明免责条款、保单贷款权益等内容,涉及保单12份;",
+            "reason": "直接列出电话销售未完整说明免责条款，可支撑输入免责遗漏部分。"
+          },
+          {
+            "file_id": "F000839",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段仅展示虚假宣传、责任解释及服务夸大，未显示全文中的免赔期遗漏。"
+          },
+          {
+            "file_id": "F004681",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格仅有利益输送和医护销售案由，不能支撑免责、等待期未告知判断。"
+          },
+          {
+            "file_id": "F000248",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "医疗保险主题相同，但展示的是网页营销和健康告知问题。"
+          },
+          {
+            "file_id": "F002509",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "提供主体及电话销售欺骗案由，没有足以核查告知机制的细节。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F000841",
+            "grade": 2,
+            "warning": false,
+            "quote": "未完整说明免责条款、保单贷款权益等内容,涉及保单12份;",
+            "reason": "直接列出电话销售未完整说明免责条款，可支撑输入免责遗漏部分。"
+          },
+          {
+            "file_id": "F000840",
+            "grade": 2,
+            "warning": false,
+            "quote": "未告知免赔期,涉及保单1份。",
+            "reason": "直接展示遗漏保障限制期限的机制，可辅助检查等待期告知，但不能等同两个概念。"
+          },
+          {
+            "file_id": "F001985",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段是电话销售资格违规，只有渠道主题相似。"
+          },
+          {
+            "file_id": "F001984",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只说明电话销售人员资格欠缺，与客户重要条款未告知不同。"
+          },
+          {
+            "file_id": "F000839",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段仅展示虚假宣传、责任解释及服务夸大，未显示全文中的免赔期遗漏。"
+          }
+        ]
+      },
+      {
+        "query_id": "N006",
+        "query_text": "农业保险实际没有发生灾害，工作人员编造损失照片和赔案，把保险赔款作为返还农户保费的资金。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F000929",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段直接展示编造农业事故、虚假赔付及返费去向，充分支持机制核查。"
+          },
+          {
+            "file_id": "F002890",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段展示循环转款并伪造退费清单，缺少编造事故及赔款返还保费的理赔机制，不能借全文加分。"
+          },
+          {
+            "file_id": "F001022",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "案由仅主题相似，不能确定编造无灾害赔案返费机制。"
+          },
+          {
+            "file_id": "F000922",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段实际呈现编造农业险事故与赔款返费目的，机制及资金去向充分，未展示照片细节。"
+          },
+          {
+            "file_id": "F000923",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在垫付保费以农户名义投保,并通过虚假理赔返还代垫农户自缴保费的问题",
+            "reason": "片段交代承保垫费至虚假理赔返费关系，足以支持本输入核心核查，但无照片细节。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F000929",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段直接展示编造农业事故、虚假赔付及返费去向，充分支持机制核查。"
+          },
+          {
+            "file_id": "F002890",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段展示循环转款并伪造退费清单，缺少编造事故及赔款返还保费的理赔机制，不能借全文加分。"
+          },
+          {
+            "file_id": "F005181",
+            "grade": 2,
+            "warning": false,
+            "quote": "员工故意编造未曾发生的保险事故进行虚假\n理赔、骗取保险金",
+            "reason": "具体无事故编造理赔机制相合，但险种和赔款返费环节缺失，仅部分支持。"
+          },
+          {
+            "file_id": "F000922",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段实际呈现编造农业险事故与赔款返费目的，机制及资金去向充分，未展示照片细节。"
+          },
+          {
+            "file_id": "F000923",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在垫付保费以农户名义投保,并通过虚假理赔返还代垫农户自缴保费的问题",
+            "reason": "片段交代承保垫费至虚假理赔返费关系，足以支持本输入核心核查，但无照片细节。"
+          }
+        ]
+      },
+      {
+        "query_id": "N009",
+        "query_text": "重疾险销售海报承诺只要医院确诊任何重大疾病就立刻赔付，不提合同约定的疾病范围、等待期和其他给付条件。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F004155",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "多主体案由与处罚没有展开确诊赔付或等待期问题。"
+          },
+          {
+            "file_id": "F008841",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段列个人身份、合同外利益及虚假资料，没有重疾销售话术。"
+          },
+          {
+            "file_id": "F001323",
+            "grade": 2,
+            "warning": true,
+            "quote": "自保险期间开始之日起经过保险合同所约定的等待期后,被保险人所在的指定区域的空气质量指标、持续时间等空气污染指标均达到保险合同\n约定的条件,对被保险人健康造成损害并需要治疗、护理的",
+            "reason": "实际条款显示等待期及多项损害给付条件，帮助核查应对照合同，但属于空气污染产品，不能套其具体条件至重疾险。"
+          },
+          {
+            "file_id": "F006786",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只见合同外利益案由，无海报或确诊赔付内容。"
+          },
+          {
+            "file_id": "F009679",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表内仅列虚假宣传等结论，无法核查海报无限疾病及立即给付条件。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F004155",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "多主体案由与处罚没有展开确诊赔付或等待期问题。"
+          },
+          {
+            "file_id": "F008841",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段列个人身份、合同外利益及虚假资料，没有重疾销售话术。"
+          },
+          {
+            "file_id": "F001323",
+            "grade": 2,
+            "warning": true,
+            "quote": "自保险期间开始之日起经过保险合同所约定的等待期后,被保险人所在的指定区域的空气质量指标、持续时间等空气污染指标均达到保险合同\n约定的条件,对被保险人健康造成损害并需要治疗、护理的",
+            "reason": "实际条款显示等待期及多项损害给付条件，帮助核查应对照合同，但属于空气污染产品，不能套其具体条件至重疾险。"
+          },
+          {
+            "file_id": "F009412",
+            "grade": 3,
+            "warning": false,
+            "quote": "“只要承保买过重大疾病,超过两年,他都不需要生调的,只要凭病理报告他就可以给钱,确诊就给钱。”未给消费者强调条款约\n定免除责任的内容。",
+            "reason": "重疾确诊给钱话术和遗漏免除责任明确，能核查海报绝对化承诺及条件缺失。"
+          },
+          {
+            "file_id": "F005773",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列个人承诺合同外利益及罚款，不支持重疾给付条件判断。"
+          }
+        ]
+      },
+      {
+        "query_id": "N012",
+        "query_text": "销售人员明确告诉客户这是寿险而非存款，展示现金价值和退保损失，客户阅读后确认了解提前退保可能损失本金。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F002241",
+            "grade": 2,
+            "warning": false,
+            "quote": "抽查30件分红型产品保单的电话回访录音,回访人员均未确认“投保\n人是否知悉退保可能受到的损失”事项。",
+            "reason": "片段直接呈现退保损失知悉未确认，能帮助核查输入理解边界；回访迟延不直接对应当前销售描述。"
+          },
+          {
+            "file_id": "F007769",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格只有概括案由，与已据实披露情形相反但缺具体机制，不能跨过有用阈值。"
+          },
+          {
+            "file_id": "F001950",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只概括夸大收益和提前领取，不清楚承诺为何失实，缺输入核心现金价值及退保损失机制。"
+          },
+          {
+            "file_id": "F001739",
+            "grade": 3,
+            "warning": false,
+            "quote": "出现“存起来”、“存一笔钱”等话术,将人身保险产品与银行存款进行片面比较,以及未告知客户\n退保会产生损失等行为。",
+            "reason": "片段充分显示把保险说成存钱和隐去退保损失的两项机制，帮助判断输入已说明情形边界。"
+          },
+          {
+            "file_id": "F001159",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有未告知损失案由及处罚，不能揭示披露有效性及具体机制，仍为弱边界线索。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F002241",
+            "grade": 2,
+            "warning": false,
+            "quote": "抽查30件分红型产品保单的电话回访录音,回访人员均未确认“投保\n人是否知悉退保可能受到的损失”事项。",
+            "reason": "片段直接呈现退保损失知悉未确认，能帮助核查输入理解边界；回访迟延不直接对应当前销售描述。"
+          },
+          {
+            "file_id": "F007769",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格只有概括案由，与已据实披露情形相反但缺具体机制，不能跨过有用阈值。"
+          },
+          {
+            "file_id": "F001739",
+            "grade": 3,
+            "warning": false,
+            "quote": "出现“存起来”、“存一笔钱”等话术,将人身保险产品与银行存款进行片面比较,以及未告知客户\n退保会产生损失等行为。",
+            "reason": "片段充分显示把保险说成存钱和隐去退保损失的两项机制，帮助判断输入已说明情形边界。"
+          },
+          {
+            "file_id": "F001159",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有未告知损失案由及处罚，不能揭示披露有效性及具体机制，仍为弱边界线索。"
+          },
+          {
+            "file_id": "F002337",
+            "grade": 2,
+            "warning": false,
+            "quote": "电话回访内容缺少“确认投保人是否知悉退保可能产生的损失”。",
+            "reason": "片段直接揭示未确认退保损失的缺口，支持核查已确认输入边界，但销售与回访环节不同。"
+          }
+        ]
+      },
+      {
+        "query_id": "N015",
+        "query_text": "投保人本人阅读投保申请和风险提示，通过身份核验后自行电子签名。代理人只帮助解释材料，没有代签或代做身份核验。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F002180",
+            "grade": 2,
+            "warning": false,
+            "quote": "有73份存在代客户抄录\n风险提示语句的现象。",
+            "reason": "实际片段也给代抄及解释件代签，支持是否由本人确认；具体文书不同。"
+          },
+          {
+            "file_id": "F002622",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司部分投保单资料显示,风险提示语句非本人抄录。",
+            "reason": "具体非本人抄录事实支持个人确认边界，适用文书和确认形式须另核。"
+          },
+          {
+            "file_id": "F007162",
+            "grade": 2,
+            "warning": true,
+            "quote": "投保单非投\n保人本人签字",
+            "reason": "片段保留非本人签字事实，可帮助边界核查；仅第五人员后接整体案由，不能将全部行为归于刁玲。"
+          },
+          {
+            "file_id": "F001504",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段仅列证据文件和代签字情况说明名称，没有直接展示签字文书、办理过程或实质事实，不能借全文加分。"
+          },
+          {
+            "file_id": "F002623",
+            "grade": 2,
+            "warning": false,
+            "quote": "保单号P110000004571408等13笔投保单的风险提示语句的抄录笔迹与投保人签名笔迹不一致。",
+            "reason": "片段给具体代抄识别线索，可辅助本人确认核查；不推导电子核验缺失。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F002180",
+            "grade": 2,
+            "warning": false,
+            "quote": "有73份存在代客户抄录\n风险提示语句的现象。",
+            "reason": "实际片段也给代抄及解释件代签，支持是否由本人确认；具体文书不同。"
+          },
+          {
+            "file_id": "F002622",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司部分投保单资料显示,风险提示语句非本人抄录。",
+            "reason": "具体非本人抄录事实支持个人确认边界，适用文书和确认形式须另核。"
+          },
+          {
+            "file_id": "F007162",
+            "grade": 2,
+            "warning": true,
+            "quote": "投保单非投\n保人本人签字",
+            "reason": "片段保留非本人签字事实，可帮助边界核查；仅第五人员后接整体案由，不能将全部行为归于刁玲。"
+          },
+          {
+            "file_id": "F002623",
+            "grade": 2,
+            "warning": false,
+            "quote": "保单号P110000004571408等13笔投保单的风险提示语句的抄录笔迹与投保人签名笔迹不一致。",
+            "reason": "片段给具体代抄识别线索，可辅助本人确认核查；不推导电子核验缺失。"
+          },
+          {
+            "file_id": "F002401",
+            "grade": 2,
+            "warning": false,
+            "quote": "在回访中发现42份保单存在代签名,表现为投保人代被保险人签名、投保人亲属代投保人签名、个险代理人代客户签名、银行网点人员代客户签名。",
+            "reason": "代理代客户签名及各签署角色具体，支持谁实际签名核查。"
+          }
+        ]
+      },
+      {
+        "query_id": "N016",
+        "query_text": "农业保险确实发生承保范围内灾害，查勘人员留存真实损失资料，赔款按实际损失和合同约定核算，没有用虚假赔案返还保费。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F001022",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "单句案由未给机制和判断条件。"
+          },
+          {
+            "file_id": "F006935",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格未展现虚假资料如何导致赔付，与真实损失的区别条件不足。"
+          },
+          {
+            "file_id": "F001419",
+            "grade": 2,
+            "warning": false,
+            "quote": "对于存在协议赔付被保险人的赔案不进行现场查勘,由代办人员提供查勘照片。在无法核实赔案真实性的情\n况下,你营销服务部自行编制《查勘报告》、《赔款计算书》等理赔材料,造成部分赔案存在耳号标识重复、查勘照片虚假的情况。",
+            "reason": "片段揭示查勘缺失到材料虚假机制，能核查实际损失证据而不能据案例判输入虚假。"
+          },
+          {
+            "file_id": "F005843",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表列资料问题只有概括定性，未给边界判断条件。"
+          },
+          {
+            "file_id": "F008882",
+            "grade": 2,
+            "warning": false,
+            "quote": "虚假承保、虚假理赔骗取农业保险的\n保险费补贴",
+            "reason": "短案由也给出虚假承保理赔与骗补目的，能辅助风险边界；不认定输入发生该行为。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F001022",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "单句案由未给机制和判断条件。"
+          },
+          {
+            "file_id": "F006935",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格未展现虚假资料如何导致赔付，与真实损失的区别条件不足。"
+          },
+          {
+            "file_id": "F001419",
+            "grade": 2,
+            "warning": false,
+            "quote": "对于存在协议赔付被保险人的赔案不进行现场查勘,由代办人员提供查勘照片。在无法核实赔案真实性的情\n况下,你营销服务部自行编制《查勘报告》、《赔款计算书》等理赔材料,造成部分赔案存在耳号标识重复、查勘照片虚假的情况。",
+            "reason": "片段揭示查勘缺失到材料虚假机制，能核查实际损失证据而不能据案例判输入虚假。"
+          },
+          {
+            "file_id": "F008882",
+            "grade": 2,
+            "warning": false,
+            "quote": "虚假承保、虚假理赔骗取农业保险的\n保险费补贴",
+            "reason": "短案由也给出虚假承保理赔与骗补目的，能辅助风险边界；不认定输入发生该行为。"
+          },
+          {
+            "file_id": "F001104",
+            "grade": 2,
+            "warning": false,
+            "quote": "存在故意夸大已经发生的农业保险事故损失程度进行虚假理赔和编制农业保险虚假承保、理赔资料的行为。",
+            "reason": "片段具体揭示已发生事故被夸大损失，能对照真实损失计算边界。"
+          }
+        ]
+      },
+      {
+        "query_id": "N018",
+        "query_text": "个人代理人实际参与客户沟通并完成销售，公司按真实渠道登记保单、按约支付手续费，没有把直销保单转挂给他人。",
+        "useful_delta": -2,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F003497",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司",
+            "reason": "保留未实际代理仍虚挂的关键相反条件，可帮助核查真实销售边界。"
+          },
+          {
+            "file_id": "F000152",
+            "grade": 2,
+            "warning": false,
+            "quote": "直销业务虚挂个人代理人业务套\n取手续费。",
+            "reason": "虽简短但精确揭示虚挂条件，能和实际代理销售对照。"
+          },
+          {
+            "file_id": "F002022",
+            "grade": 2,
+            "warning": false,
+            "quote": "将直销业务虚挂为个人代理业务,套取手续费用于业务拓展及渠道维护。",
+            "reason": "片段揭示直销虚挂个人代理这个关键条件，可对照真实代理销售。"
+          },
+          {
+            "file_id": "F003486",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司",
+            "reason": "片段的非真实代理条件明确，可核查真实登记边界；不能据处罚推导输入违法。"
+          },
+          {
+            "file_id": "F003489",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司",
+            "reason": "关键虚挂条件清楚，能核查输入渠道真实性，不沿用返款金额。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F003497",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司",
+            "reason": "保留未实际代理仍虚挂的关键相反条件，可帮助核查真实销售边界。"
+          },
+          {
+            "file_id": "F003435",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "分段片段列报销手续费和整改处罚，未解释渠道贡献；处罚本身不加有用分。"
+          },
+          {
+            "file_id": "F003434",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段仅列报销名目支付手续费，不能解释虚挂与真实销售的条件边界。"
+          },
+          {
+            "file_id": "F000152",
+            "grade": 2,
+            "warning": false,
+            "quote": "直销业务虚挂个人代理人业务套\n取手续费。",
+            "reason": "虽简短但精确揭示虚挂条件，能和实际代理销售对照。"
+          },
+          {
+            "file_id": "F002022",
+            "grade": 2,
+            "warning": false,
+            "quote": "将直销业务虚挂为个人代理业务,套取手续费用于业务拓展及渠道维护。",
+            "reason": "片段揭示直销虚挂个人代理这个关键条件，可对照真实代理销售。"
+          }
+        ]
+      },
+      {
+        "query_id": "Q009",
+        "query_text": "重疾险推广拟写成只要诊断疾病就能马上拿到保险金。审稿需要确认诊断事件与合同给付条件是否相同，避免把一句方便理解的话变成无条件支付承诺。",
+        "useful_delta": 2,
+        "warning_delta": 0,
+        "coverage_before": 0,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F008841",
+            "grade": 1,
+            "warning": true,
+            "quote": "",
+            "reason": "片段从第三名人员接入共同案由，既无重疾机制，也不能把共同事实全部归于该个人。"
+          },
+          {
+            "file_id": "F007481",
+            "grade": 0,
+            "warning": false,
+            "quote": "",
+            "reason": "死亡给付承保资格与费率责任不能帮助判断疾病诊断是否立即可领赔款。"
+          },
+          {
+            "file_id": "F004155",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表内未展示误导内容，不足核查诊断是否满足给付条件。"
+          },
+          {
+            "file_id": "F005952",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只见案由以及收益比较，不足核查重疾给付条件被省略的具体方式。"
+          },
+          {
+            "file_id": "F003966",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有合同外利益案由，不能判断诊断即赔宣传与实际给付门槛是否相同。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F008841",
+            "grade": 1,
+            "warning": true,
+            "quote": "",
+            "reason": "片段从第三名人员接入共同案由，既无重疾机制，也不能把共同事实全部归于该个人。"
+          },
+          {
+            "file_id": "F006296",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格概括合同外利益承诺，缺失重疾诊断与给付条件的机制证据。"
+          },
+          {
+            "file_id": "F008385",
+            "grade": 0,
+            "warning": false,
+            "quote": "",
+            "reason": "实际文本是死亡保险被保险人资格及资料问题，未涉及重疾宣传或诊断给付关系。"
+          },
+          {
+            "file_id": "F001323",
+            "grade": 2,
+            "warning": false,
+            "quote": "被保险人所在的指定区域的空气质量指标、持续时间等空气污染指标均达到保险合同\n约定的条件,对被保险人健康造成损害并需要治疗、护理的",
+            "reason": "片段显示客观事件加健康损害治疗护理等多项条件，支持事件发生不等于无条件给付的边界；片段未展示删除条件的行为。"
+          },
+          {
+            "file_id": "F009934",
+            "grade": 2,
+            "warning": false,
+            "quote": "郑玉兰称所有的癌症都是重疾,主动脉、心脏瓣膜搭桥,严重的类风湿、糖尿病,严重的昏迷不醒,双目失明都属于重疾",
+            "reason": "片段有具体扩张疾病范围的销售说法，并指出与合同不一致，支撑给付条件审稿，但未揭示立即支付门槛。"
+          }
+        ]
+      },
+      {
+        "query_id": "Q038",
+        "query_text": "种植保险赔款除了给实际受损对象，还被拿去还垫付保费的本息、作为次年预收保费，并抵作其他险种的保费。审核要核查赔款真正支付给谁、用于什么，不能把全部列支都看成农险赔偿。",
+        "useful_delta": 1,
+        "warning_delta": -1,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F002890",
+            "grade": 3,
+            "warning": false,
+            "quote": "此笔款项除了实际支付农险赔款外,还被用于支付村集体垫付保费的本息、留作2009年预\n收保费、抵作企财险、家财险保费等。以上表明齐齐哈尔中心支公司存在虚增赔款及截留赔款资金的问题。",
+            "reason": "片段完整展示输入各项赔款用途及虚增截留判断。"
+          },
+          {
+            "file_id": "F000929",
+            "grade": 2,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段揭示赔款回流垫付保费及工作经费，能支持支付对象和用途核查。"
+          },
+          {
+            "file_id": "F006220",
+            "grade": 1,
+            "warning": true,
+            "quote": "",
+            "reason": "片段为多案由摘要，不能补入赔款抵费机制；第五名人员后接整体案由，需避免把全部行为归于罗文仲。"
+          },
+          {
+            "file_id": "F002659",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段展示费用冲减，不提供赔款给谁及抵保费事实。"
+          },
+          {
+            "file_id": "F001741",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段的虚假报销代缴保费只能提示相邻费用风险，不能支撑赔款用途判断。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F002890",
+            "grade": 3,
+            "warning": false,
+            "quote": "此笔款项除了实际支付农险赔款外,还被用于支付村集体垫付保费的本息、留作2009年预\n收保费、抵作企财险、家财险保费等。以上表明齐齐哈尔中心支公司存在虚增赔款及截留赔款资金的问题。",
+            "reason": "片段完整展示输入各项赔款用途及虚增截留判断。"
+          },
+          {
+            "file_id": "F000929",
+            "grade": 2,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段揭示赔款回流垫付保费及工作经费，能支持支付对象和用途核查。"
+          },
+          {
+            "file_id": "F002659",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段展示费用冲减，不提供赔款给谁及抵保费事实。"
+          },
+          {
+            "file_id": "F001741",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段的虚假报销代缴保费只能提示相邻费用风险，不能支撑赔款用途判断。"
+          },
+          {
+            "file_id": "F000925",
+            "grade": 2,
+            "warning": false,
+            "quote": "存在垫付保费以农户名义投保,并通过虚假理赔返还代垫农户自缴保费的问题",
+            "reason": "片段给出垫费与虚假赔款返还链，能解释赔款为何不应全视作正常赔偿。"
+          }
+        ]
+      },
+      {
+        "query_id": "Q044",
+        "query_text": "受托销售人员已完成本公司登记，也已持有本公司发出的执业证书。此次复核只发现档案中的电话号码需要更正，不能把资料维护问题归成尚未给销售人员发证。",
+        "useful_delta": 2,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F006527",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有本机构发放的执业证书的人\n员从事保险销售行为;",
+            "reason": "证书发放机构和受托销售条件明确，支持与输入已持本公司证书对照。"
+          },
+          {
+            "file_id": "F001985",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列证据和管理办法名称，未显示未发执业证事实。"
+          },
+          {
+            "file_id": "F000159",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有资格证书及本机构发放\n的执业证书的人员从事保险销售",
+            "reason": "明确无本机构执业证而受托销售，可核对输入已持证条件。"
+          },
+          {
+            "file_id": "F001984",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段仅列录音、条款和人员管理办法证据，无未发证事实。"
+          },
+          {
+            "file_id": "F000269",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有本机构发放的执业证\n书的人员从事保险销售;",
+            "reason": "片段保留未持本机构执业证而销售的完整条件，能够对照已持证输入。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F006527",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有本机构发放的执业证书的人\n员从事保险销售行为;",
+            "reason": "证书发放机构和受托销售条件明确，支持与输入已持本公司证书对照。"
+          },
+          {
+            "file_id": "F000159",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有资格证书及本机构发放\n的执业证书的人员从事保险销售",
+            "reason": "明确无本机构执业证而受托销售，可核对输入已持证条件。"
+          },
+          {
+            "file_id": "F003743",
+            "grade": 3,
+            "warning": false,
+            "quote": "一、未履行执业证书管理职责。你公司自2005年3月成立至检查日未向本公司持证代理业务人员发放执业证书。",
+            "reason": "同时呈现持证人员与公司未发执业证的区别，有助确认输入已发证条件。"
+          },
+          {
+            "file_id": "F000269",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有本机构发放的执业证\n书的人员从事保险销售;",
+            "reason": "片段保留未持本机构执业证而销售的完整条件，能够对照已持证输入。"
+          },
+          {
+            "file_id": "F001383",
+            "grade": 2,
+            "warning": false,
+            "quote": "二是你公司存在委托未取得执业证书的非签约销售从业人员从事保险销售的情况。",
+            "reason": "片段具体呈现无执业证销售，支持与输入已持证对照，但未显示档案维护部分。"
+          }
+        ]
+      }
+    ],
+    "M3": [],
+    "D1": [
+      {
+        "query_id": "C007",
+        "query_text": "计划按保险合同已经写明的利益条款给客户兑现，没有另外承诺或赠送合同以外的好处。这笔利益的风险判断还需要核实哪些条件？",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F009488",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "具体展示合同外赠礼及保费门槛，可核查合同内利益边界。"
+          },
+          {
+            "file_id": "F009491",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "合同外赠礼及保费门槛原话完整，可用于核对合同内利益与额外激励边界。"
+          },
+          {
+            "file_id": "F003464",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅为合同外利益案由标题，没有具体承诺和合同差异。"
+          },
+          {
+            "file_id": "F008084",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "展示责任案由和个人罚款，未展示合同内外如何区分。"
+          },
+          {
+            "file_id": "F006593",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅有案由、依据及罚款，不能具体区分合同内兑现和合同外承诺。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F009488",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "两处重复原文均揭示相同合同外赠礼机制，标签本身不作为证据。"
+          },
+          {
+            "file_id": "F009491",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "监管原文展示合同外赠礼、缴费门槛及激励方案，可核查合同利益兑现与额外赠益的边界；当前输入否定额外承诺，不能据案例处罚认定违规。"
+          },
+          {
+            "file_id": "F003464",
+            "grade": 3,
+            "warning": false,
+            "quote": "经查,你公司营业一部通过套打批单、加盖“业务处理专用章”的方式,向部分客户书面承诺约定五年期分红险业务一年后“给付本金”,涉及保单8件,保费30多万元。",
+            "reason": "原文展示套打批单、盖章与五年期业务一年还本金的具体承诺，帮助核实所谓合同内利益是否为额外变造的书面承诺，条件与输入相反。"
+          },
+          {
+            "file_id": "F008084",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "展示责任案由和个人罚款，未展示合同内外如何区分。"
+          },
+          {
+            "file_id": "F006593",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅有案由、依据及罚款，不能具体区分合同内兑现和合同外承诺。"
+          }
+        ]
+      },
+      {
+        "query_id": "N014",
+        "query_text": "电话销售人员逐项说明医疗险免责事项、等待期和给付条件，客户确认理解并同意投保，录音完整保存。",
+        "useful_delta": 2,
+        "warning_delta": 0,
+        "coverage_before": 0,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F001987",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列电话录音等证据来源，缺少被证明的具体话术和条件，不能借全文判断。"
+          },
+          {
+            "file_id": "F001988",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "证据来源身份不能替代实际销售和合同条件内容，片段缺关键机制。"
+          },
+          {
+            "file_id": "F001989",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列原始证据来源，没有实际不实承诺或被省略条件，弱提示核查载体。"
+          },
+          {
+            "file_id": "F001997",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有证据清单而无收益话术与合同差异事实，至多提示用录音核验。"
+          },
+          {
+            "file_id": "F001984",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只列录音、询问笔录等证据来源，没有实际销售话术或披露条件，无法证明输入披露充分与否。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F001987",
+            "grade": 2,
+            "warning": false,
+            "quote": "“贷款能贷本金的70%,把本金贷出去以后,在180天内返还回来是没有任何费用产生的”与保险条款规定的“贷款金额不得超过您申请时本合同现金价值扣除各项欠款及应付利息后余额的70%,每次贷款期限最长不超过180日,贷款利率按您与我们签订的贷款协议中约定的利率执行”的事实不符。",
+            "reason": "实际片段已展示具体销售话术与合同贷款条件比较，超出单纯证据清单，能核查条件披露边界；未涉及医疗险免责、等待期，不能借其认定输入违法。"
+          },
+          {
+            "file_id": "F001988",
+            "grade": 2,
+            "warning": false,
+            "quote": "“贷款能贷本金的70%,把本金贷出去以后,在180天内返还回来是\n没有任何费用产生的”与保险条款规定的“贷款金额不得超过您申请时本合同现金价值扣除各项欠款及应付利息后余额的70%,每次贷款期限最长不超过180日,贷款利率按您与我们签订的贷款协议中约定的利率执行”的事实不符。",
+            "reason": "当前对应原文展示贷款本金、免费承诺与实际现金价值、扣款、利率条件不符，可支撑核查电话内容而不只看录音留存。案例不是医疗险，输入已逐项说明情形不能直接套用误导结论。"
+          },
+          {
+            "file_id": "F001989",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列原始证据来源，没有实际不实承诺或被省略条件，弱提示核查载体。"
+          },
+          {
+            "file_id": "F001997",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有证据清单而无收益话术与合同差异事实，至多提示用录音核验。"
+          },
+          {
+            "file_id": "F001984",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只列录音、询问笔录等证据来源，没有实际销售话术或披露条件，无法证明输入披露充分与否。"
+          }
+        ]
+      }
+    ],
+    "D2": [
+      {
+        "query_id": "C007",
+        "query_text": "计划按保险合同已经写明的利益条款给客户兑现，没有另外承诺或赠送合同以外的好处。这笔利益的风险判断还需要核实哪些条件？",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F009488",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "具体展示合同外赠礼及保费门槛，可核查合同内利益边界。"
+          },
+          {
+            "file_id": "F009491",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "合同外赠礼及保费门槛原话完整，可用于核对合同内利益与额外激励边界。"
+          },
+          {
+            "file_id": "F003464",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅为合同外利益案由标题，没有具体承诺和合同差异。"
+          },
+          {
+            "file_id": "F008084",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "展示责任案由和个人罚款，未展示合同内外如何区分。"
+          },
+          {
+            "file_id": "F006593",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅有案由、依据及罚款，不能具体区分合同内兑现和合同外承诺。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F009488",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "实际原文完整展示保费门槛和合同外赠冰柜激励，可核查合同内利益与额外促销的边界；补主体本身不自动证明当前责任。"
+          },
+          {
+            "file_id": "F009491",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "实际内容包含完整赠冰柜的合同外激励机制，足以对照合同内利益；背景身份与责任信息没有替代业务事实或自动证明当前责任。"
+          },
+          {
+            "file_id": "F003464",
+            "grade": 3,
+            "warning": false,
+            "quote": "经查,你公司营业一部通过套打批单、加盖“业务处理专用章”的方式,向部分客户书面承诺约定五年期分红险业务一年后“给付本金”,涉及保单8件,保费30多万元。",
+            "reason": "对应原文完整揭示盖章批单追加提前本金给付机制，可核查合同内容及承诺来源；不是仅凭背景标签判有用。"
+          },
+          {
+            "file_id": "F008084",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "展示责任案由和个人罚款，未展示合同内外如何区分。"
+          },
+          {
+            "file_id": "F006593",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅有案由、依据及罚款，不能具体区分合同内兑现和合同外承诺。"
+          }
+        ]
+      },
+      {
+        "query_id": "N014",
+        "query_text": "电话销售人员逐项说明医疗险免责事项、等待期和给付条件，客户确认理解并同意投保，录音完整保存。",
+        "useful_delta": 2,
+        "warning_delta": 0,
+        "coverage_before": 0,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F001987",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列电话录音等证据来源，缺少被证明的具体话术和条件，不能借全文判断。"
+          },
+          {
+            "file_id": "F001988",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "证据来源身份不能替代实际销售和合同条件内容，片段缺关键机制。"
+          },
+          {
+            "file_id": "F001989",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列原始证据来源，没有实际不实承诺或被省略条件，弱提示核查载体。"
+          },
+          {
+            "file_id": "F001997",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有证据清单而无收益话术与合同差异事实，至多提示用录音核验。"
+          },
+          {
+            "file_id": "F001984",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只列录音、询问笔录等证据来源，没有实际销售话术或披露条件，无法证明输入披露充分与否。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F001987",
+            "grade": 2,
+            "warning": false,
+            "quote": "“贷款能贷本金的70%,把本金贷出去以后,在180天内返还回来是没有任何费用产生的”与保险条款规定的“贷款金额不得超过您申请时本合同现金价值扣除各项欠款及应付利息后余额的70%,每次贷款期限最长不超过180日,贷款利率按您与我们签订的贷款协议中约定的利率执行”的事实不符。",
+            "reason": "当前对应原文补出了具体贷款话术与合同现金价值基数、扣款及利率条件差异，能支持核查电话说明内容是否准确及录音是否反映真实条件。与医疗险免责等待期不同，不能直接判已充分说明的输入违规；背景标签不作引文。"
+          },
+          {
+            "file_id": "F001988",
+            "grade": 2,
+            "warning": false,
+            "quote": "“贷款能贷本金的70%,把本金贷出去以后,在180天内返还回来是\n没有任何费用产生的”与保险条款规定的“贷款金额不得超过您申请时本合同现金价值扣除各项欠款及应付利息后余额的70%,每次贷款期限最长不超过180日,贷款利率按您与我们签订的贷款协议中约定的利率执行”的事实不符。",
+            "reason": "实际原文已有具体贷款宣传和合同条件差异，能核查准确披露与不实宣传的边界；机构和行为背景不额外加分，也不证明输入医疗险存在相同问题。"
+          },
+          {
+            "file_id": "F001989",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列原始证据来源，没有实际不实承诺或被省略条件，弱提示核查载体。"
+          },
+          {
+            "file_id": "F001997",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有证据清单而无收益话术与合同差异事实，至多提示用录音核验。"
+          },
+          {
+            "file_id": "F001984",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只列录音、询问笔录等证据来源，没有实际销售话术或披露条件，无法证明输入披露充分与否。"
+          }
+        ]
+      }
+    ],
+    "WD": [
+      {
+        "query_id": "C007",
+        "query_text": "计划按保险合同已经写明的利益条款给客户兑现，没有另外承诺或赠送合同以外的好处。这笔利益的风险判断还需要核实哪些条件？",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F009488",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "具体展示合同外赠礼及保费门槛，可核查合同内利益边界。"
+          },
+          {
+            "file_id": "F009491",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "合同外赠礼及保费门槛原话完整，可用于核对合同内利益与额外激励边界。"
+          },
+          {
+            "file_id": "F003464",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅为合同外利益案由标题，没有具体承诺和合同差异。"
+          },
+          {
+            "file_id": "F008084",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "展示责任案由和个人罚款，未展示合同内外如何区分。"
+          },
+          {
+            "file_id": "F006593",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅有案由、依据及罚款，不能具体区分合同内兑现和合同外承诺。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F009488",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "两处重复原文均揭示相同合同外赠礼机制，标签本身不作为证据。"
+          },
+          {
+            "file_id": "F009491",
+            "grade": 3,
+            "warning": false,
+            "quote": "二、承诺给予投保人、被保险人或者受益人保险合同约定以外的利益\n调阅该公司微信群,该公司负责人在微信群中发布某产品2022年5月激励方案,其中有“……1万保费赠送客户海尔电冰柜210升一台”的描述。",
+            "reason": "监管原文展示合同外赠礼、缴费门槛及激励方案，可核查合同利益兑现与额外赠益的边界；当前输入否定额外承诺，不能据案例处罚认定违规。"
+          },
+          {
+            "file_id": "F003464",
+            "grade": 3,
+            "warning": false,
+            "quote": "经查,你公司营业一部通过套打批单、加盖“业务处理专用章”的方式,向部分客户书面承诺约定五年期分红险业务一年后“给付本金”,涉及保单8件,保费30多万元。",
+            "reason": "原文展示套打批单、盖章与五年期业务一年还本金的具体承诺，帮助核实所谓合同内利益是否为额外变造的书面承诺，条件与输入相反。"
+          },
+          {
+            "file_id": "F008084",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "展示责任案由和个人罚款，未展示合同内外如何区分。"
+          },
+          {
+            "file_id": "F006593",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅有案由、依据及罚款，不能具体区分合同内兑现和合同外承诺。"
+          }
+        ]
+      },
+      {
+        "query_id": "C009",
+        "query_text": "这批保单实际由兼业代理渠道成交，业务台账也按真实渠道登记，费用付给实际提供服务的渠道机构，没有转挂到个人代理人名下。对这一步渠道登记和付费，应怎么区分正常记录与虚挂套费？",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F001008",
+            "grade": 2,
+            "warning": false,
+            "quote": "行为2:公司应如实记录业务来源渠道。公司是否提供业务来源渠道,不是虚挂保险中介业务套取费用的免责事由。",
+            "reason": "片段说明真实登记义务及系统渠道限制不能免责，但不含全文具体转挂保单和付款事实。"
+          },
+          {
+            "file_id": "F009869",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只列案由，不能具体区分兼业真实记录与个人虚挂套费。"
+          },
+          {
+            "file_id": "F007543",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有虚列人员套费等案由，无法核对真实兼业渠道与个人转挂。"
+          },
+          {
+            "file_id": "F000313",
+            "grade": 3,
+            "warning": false,
+            "quote": "英大财险哈尔滨中心支公司存在将兼业代理渠道业务虚挂在个人代理人名下套取费用的违法行为。",
+            "reason": "真实兼业与虚挂个人及套费链完整，条件与输入相反但有直接边界帮助。"
+          },
+          {
+            "file_id": "F008178",
+            "grade": 2,
+            "warning": false,
+            "quote": "直销业务\n虚挂中介套取费用",
+            "reason": "具体显示实际与登记渠道不一致并套费，帮助核查输入渠道记录是否真实。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F001008",
+            "grade": 2,
+            "warning": false,
+            "quote": "行为2:公司应如实记录业务来源渠道。公司是否提供业务来源渠道,不是虚挂保险中介业务套取费用的免责事由。",
+            "reason": "片段说明真实登记义务及系统渠道限制不能免责，但不含全文具体转挂保单和付款事实。"
+          },
+          {
+            "file_id": "F009869",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只列案由，不能具体区分兼业真实记录与个人虚挂套费。"
+          },
+          {
+            "file_id": "F000313",
+            "grade": 3,
+            "warning": false,
+            "quote": "英大财险哈尔滨中心支公司存在将兼业代理渠道业务虚挂在个人代理人名下套取费用的违法行为。",
+            "reason": "真实兼业与虚挂个人及套费链完整，条件与输入相反但有直接边界帮助。"
+          },
+          {
+            "file_id": "F000863",
+            "grade": 3,
+            "warning": false,
+            "quote": "人保财险阜阳市分公司通过将其他渠道业务虚挂在某汽车销售服务公司的名下套取佣金,用于支付其他合作机构手续费及发票税费。",
+            "reason": "原文完整展示其他渠道转挂公司套佣金并付其他合作机构，支撑正常登记与套费边界。"
+          },
+          {
+            "file_id": "F002022",
+            "grade": 2,
+            "warning": false,
+            "quote": "一、将直销业务虚挂为个人代理业务,套取手续费用于业务拓展及渠道维护。",
+            "reason": "直接揭示直销虚挂个人套费机制，可核查真实渠道和个人名义是否一致。"
+          }
+        ]
+      },
+      {
+        "query_id": "N004",
+        "query_text": "电话销售医疗保险时，业务员只讲保障项目和优惠价格，没有说明免责事项和等待期，便引导客户确认购买。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F000841",
+            "grade": 2,
+            "warning": false,
+            "quote": "未完整说明免责条款、保单贷款权益等内容,涉及保单12份;",
+            "reason": "直接列出电话销售未完整说明免责条款，可支撑输入免责遗漏部分。"
+          },
+          {
+            "file_id": "F000839",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段仅展示虚假宣传、责任解释及服务夸大，未显示全文中的免赔期遗漏。"
+          },
+          {
+            "file_id": "F004681",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格仅有利益输送和医护销售案由，不能支撑免责、等待期未告知判断。"
+          },
+          {
+            "file_id": "F000248",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "医疗保险主题相同，但展示的是网页营销和健康告知问题。"
+          },
+          {
+            "file_id": "F002509",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "提供主体及电话销售欺骗案由，没有足以核查告知机制的细节。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F000841",
+            "grade": 2,
+            "warning": false,
+            "quote": "未完整说明免责条款、保单贷款权益等内容,涉及保单12份;",
+            "reason": "直接列出电话销售未完整说明免责条款，可支撑输入免责遗漏部分。"
+          },
+          {
+            "file_id": "F000840",
+            "grade": 2,
+            "warning": false,
+            "quote": "未告知免赔期,涉及保单1份。",
+            "reason": "直接展示遗漏保障限制期限的机制，可辅助检查等待期告知，但不能等同两个概念。"
+          },
+          {
+            "file_id": "F001985",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段是电话销售资格违规，只有渠道主题相似。"
+          },
+          {
+            "file_id": "F001984",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只说明电话销售人员资格欠缺，与客户重要条款未告知不同。"
+          },
+          {
+            "file_id": "F000839",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段仅展示虚假宣传、责任解释及服务夸大，未显示全文中的免赔期遗漏。"
+          }
+        ]
+      },
+      {
+        "query_id": "N006",
+        "query_text": "农业保险实际没有发生灾害，工作人员编造损失照片和赔案，把保险赔款作为返还农户保费的资金。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F000929",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段直接展示编造农业事故、虚假赔付及返费去向，充分支持机制核查。"
+          },
+          {
+            "file_id": "F002890",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段展示循环转款并伪造退费清单，缺少编造事故及赔款返还保费的理赔机制，不能借全文加分。"
+          },
+          {
+            "file_id": "F001022",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "案由仅主题相似，不能确定编造无灾害赔案返费机制。"
+          },
+          {
+            "file_id": "F000922",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段实际呈现编造农业险事故与赔款返费目的，机制及资金去向充分，未展示照片细节。"
+          },
+          {
+            "file_id": "F000923",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在垫付保费以农户名义投保,并通过虚假理赔返还代垫农户自缴保费的问题",
+            "reason": "片段交代承保垫费至虚假理赔返费关系，足以支持本输入核心核查，但无照片细节。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F000929",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段直接展示编造农业事故、虚假赔付及返费去向，充分支持机制核查。"
+          },
+          {
+            "file_id": "F002890",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段展示循环转款并伪造退费清单，缺少编造事故及赔款返还保费的理赔机制，不能借全文加分。"
+          },
+          {
+            "file_id": "F005181",
+            "grade": 2,
+            "warning": false,
+            "quote": "员工故意编造未曾发生的保险事故进行虚假\n理赔、骗取保险金",
+            "reason": "具体无事故编造理赔机制相合，但险种和赔款返费环节缺失，仅部分支持。"
+          },
+          {
+            "file_id": "F000922",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段实际呈现编造农业险事故与赔款返费目的，机制及资金去向充分，未展示照片细节。"
+          },
+          {
+            "file_id": "F000923",
+            "grade": 3,
+            "warning": false,
+            "quote": "存在垫付保费以农户名义投保,并通过虚假理赔返还代垫农户自缴保费的问题",
+            "reason": "片段交代承保垫费至虚假理赔返费关系，足以支持本输入核心核查，但无照片细节。"
+          }
+        ]
+      },
+      {
+        "query_id": "N009",
+        "query_text": "重疾险销售海报承诺只要医院确诊任何重大疾病就立刻赔付，不提合同约定的疾病范围、等待期和其他给付条件。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F004155",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "多主体案由与处罚没有展开确诊赔付或等待期问题。"
+          },
+          {
+            "file_id": "F008841",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段列个人身份、合同外利益及虚假资料，没有重疾销售话术。"
+          },
+          {
+            "file_id": "F001323",
+            "grade": 2,
+            "warning": true,
+            "quote": "自保险期间开始之日起经过保险合同所约定的等待期后,被保险人所在的指定区域的空气质量指标、持续时间等空气污染指标均达到保险合同\n约定的条件,对被保险人健康造成损害并需要治疗、护理的",
+            "reason": "实际条款显示等待期及多项损害给付条件，帮助核查应对照合同，但属于空气污染产品，不能套其具体条件至重疾险。"
+          },
+          {
+            "file_id": "F006786",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只见合同外利益案由，无海报或确诊赔付内容。"
+          },
+          {
+            "file_id": "F009679",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表内仅列虚假宣传等结论，无法核查海报无限疾病及立即给付条件。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F004155",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "实际文本只有不同表行的合同外利益及销售误导结论，不含重疾海报绝对化给付事实；两行逐段看均不足支撑当前机制。"
+          },
+          {
+            "file_id": "F008841",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段列个人身份、合同外利益及虚假资料，没有重疾销售话术。"
+          },
+          {
+            "file_id": "F001323",
+            "grade": 2,
+            "warning": true,
+            "quote": "自保险期间开始之日起经过保险合同所约定的等待期后,被保险人所在的指定区域的空气质量指标、持续时间等空气污染指标均达到保险合同\n约定的条件,对被保险人健康造成损害并需要治疗、护理的",
+            "reason": "实际条款显示等待期及多项损害给付条件，帮助核查应对照合同，但属于空气污染产品，不能套其具体条件至重疾险。"
+          },
+          {
+            "file_id": "F009412",
+            "grade": 3,
+            "warning": false,
+            "quote": "“只要承保买过重大疾病,超过两年,他都不需要生调的,只要凭病理报告他就可以给钱,确诊就给钱。”未给消费者强调条款约\n定免除责任的内容。",
+            "reason": "重疾确诊给钱话术和遗漏免除责任明确，能核查海报绝对化承诺及条件缺失。"
+          },
+          {
+            "file_id": "F005773",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列个人承诺合同外利益及罚款，不支持重疾给付条件判断。"
+          }
+        ]
+      },
+      {
+        "query_id": "N012",
+        "query_text": "销售人员明确告诉客户这是寿险而非存款，展示现金价值和退保损失，客户阅读后确认了解提前退保可能损失本金。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F002241",
+            "grade": 2,
+            "warning": false,
+            "quote": "抽查30件分红型产品保单的电话回访录音,回访人员均未确认“投保\n人是否知悉退保可能受到的损失”事项。",
+            "reason": "片段直接呈现退保损失知悉未确认，能帮助核查输入理解边界；回访迟延不直接对应当前销售描述。"
+          },
+          {
+            "file_id": "F007769",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格只有概括案由，与已据实披露情形相反但缺具体机制，不能跨过有用阈值。"
+          },
+          {
+            "file_id": "F001950",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只概括夸大收益和提前领取，不清楚承诺为何失实，缺输入核心现金价值及退保损失机制。"
+          },
+          {
+            "file_id": "F001739",
+            "grade": 3,
+            "warning": false,
+            "quote": "出现“存起来”、“存一笔钱”等话术,将人身保险产品与银行存款进行片面比较,以及未告知客户\n退保会产生损失等行为。",
+            "reason": "片段充分显示把保险说成存钱和隐去退保损失的两项机制，帮助判断输入已说明情形边界。"
+          },
+          {
+            "file_id": "F001159",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有未告知损失案由及处罚，不能揭示披露有效性及具体机制，仍为弱边界线索。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F002241",
+            "grade": 2,
+            "warning": false,
+            "quote": "抽查30件分红型产品保单的电话回访录音,回访人员均未确认“投保\n人是否知悉退保可能受到的损失”事项。",
+            "reason": "片段直接呈现退保损失知悉未确认，能帮助核查输入理解边界；回访迟延不直接对应当前销售描述。"
+          },
+          {
+            "file_id": "F007769",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格只有概括案由，与已据实披露情形相反但缺具体机制，不能跨过有用阈值。"
+          },
+          {
+            "file_id": "F001739",
+            "grade": 3,
+            "warning": false,
+            "quote": "出现“存起来”、“存一笔钱”等话术,将人身保险产品与银行存款进行片面比较,以及未告知客户\n退保会产生损失等行为。",
+            "reason": "片段充分显示把保险说成存钱和隐去退保损失的两项机制，帮助判断输入已说明情形边界。"
+          },
+          {
+            "file_id": "F001159",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有未告知损失案由及处罚，不能揭示披露有效性及具体机制，仍为弱边界线索。"
+          },
+          {
+            "file_id": "F002337",
+            "grade": 2,
+            "warning": false,
+            "quote": "电话回访内容缺少“确认投保人是否知悉退保可能产生的损失”。",
+            "reason": "片段直接揭示未确认退保损失的缺口，支持核查已确认输入边界，但销售与回访环节不同。"
+          }
+        ]
+      },
+      {
+        "query_id": "N014",
+        "query_text": "电话销售人员逐项说明医疗险免责事项、等待期和给付条件，客户确认理解并同意投保，录音完整保存。",
+        "useful_delta": 2,
+        "warning_delta": 0,
+        "coverage_before": 0,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F001987",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列电话录音等证据来源，缺少被证明的具体话术和条件，不能借全文判断。"
+          },
+          {
+            "file_id": "F001988",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "证据来源身份不能替代实际销售和合同条件内容，片段缺关键机制。"
+          },
+          {
+            "file_id": "F001989",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列原始证据来源，没有实际不实承诺或被省略条件，弱提示核查载体。"
+          },
+          {
+            "file_id": "F001997",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有证据清单而无收益话术与合同差异事实，至多提示用录音核验。"
+          },
+          {
+            "file_id": "F001984",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只列录音、询问笔录等证据来源，没有实际销售话术或披露条件，无法证明输入披露充分与否。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F001987",
+            "grade": 2,
+            "warning": false,
+            "quote": "“贷款能贷本金的70%,把本金贷出去以后,在180天内返还回来是没有任何费用产生的”与保险条款规定的“贷款金额不得超过您申请时本合同现金价值扣除各项欠款及应付利息后余额的70%,每次贷款期限最长不超过180日,贷款利率按您与我们签订的贷款协议中约定的利率执行”的事实不符。",
+            "reason": "实际片段已展示具体销售话术与合同贷款条件比较，超出单纯证据清单，能核查条件披露边界；未涉及医疗险免责、等待期，不能借其认定输入违法。"
+          },
+          {
+            "file_id": "F001988",
+            "grade": 2,
+            "warning": false,
+            "quote": "“贷款能贷本金的70%,把本金贷出去以后,在180天内返还回来是\n没有任何费用产生的”与保险条款规定的“贷款金额不得超过您申请时本合同现金价值扣除各项欠款及应付利息后余额的70%,每次贷款期限最长不超过180日,贷款利率按您与我们签订的贷款协议中约定的利率执行”的事实不符。",
+            "reason": "当前对应原文展示贷款本金、免费承诺与实际现金价值、扣款、利率条件不符，可支撑核查电话内容而不只看录音留存。案例不是医疗险，输入已逐项说明情形不能直接套用误导结论。"
+          },
+          {
+            "file_id": "F001989",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列原始证据来源，没有实际不实承诺或被省略条件，弱提示核查载体。"
+          },
+          {
+            "file_id": "F001997",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有证据清单而无收益话术与合同差异事实，至多提示用录音核验。"
+          },
+          {
+            "file_id": "F001984",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只列录音、询问笔录等证据来源，没有实际销售话术或披露条件，无法证明输入披露充分与否。"
+          }
+        ]
+      },
+      {
+        "query_id": "N015",
+        "query_text": "投保人本人阅读投保申请和风险提示，通过身份核验后自行电子签名。代理人只帮助解释材料，没有代签或代做身份核验。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F002180",
+            "grade": 2,
+            "warning": false,
+            "quote": "有73份存在代客户抄录\n风险提示语句的现象。",
+            "reason": "实际片段也给代抄及解释件代签，支持是否由本人确认；具体文书不同。"
+          },
+          {
+            "file_id": "F002622",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司部分投保单资料显示,风险提示语句非本人抄录。",
+            "reason": "具体非本人抄录事实支持个人确认边界，适用文书和确认形式须另核。"
+          },
+          {
+            "file_id": "F007162",
+            "grade": 2,
+            "warning": true,
+            "quote": "投保单非投\n保人本人签字",
+            "reason": "片段保留非本人签字事实，可帮助边界核查；仅第五人员后接整体案由，不能将全部行为归于刁玲。"
+          },
+          {
+            "file_id": "F001504",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段仅列证据文件和代签字情况说明名称，没有直接展示签字文书、办理过程或实质事实，不能借全文加分。"
+          },
+          {
+            "file_id": "F002623",
+            "grade": 2,
+            "warning": false,
+            "quote": "保单号P110000004571408等13笔投保单的风险提示语句的抄录笔迹与投保人签名笔迹不一致。",
+            "reason": "片段给具体代抄识别线索，可辅助本人确认核查；不推导电子核验缺失。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F002180",
+            "grade": 2,
+            "warning": false,
+            "quote": "有73份存在代客户抄录\n风险提示语句的现象。",
+            "reason": "实际片段也给代抄及解释件代签，支持是否由本人确认；具体文书不同。"
+          },
+          {
+            "file_id": "F002622",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司部分投保单资料显示,风险提示语句非本人抄录。",
+            "reason": "具体非本人抄录事实支持个人确认边界，适用文书和确认形式须另核。"
+          },
+          {
+            "file_id": "F007162",
+            "grade": 2,
+            "warning": true,
+            "quote": "投保单非投\n保人本人签字",
+            "reason": "片段保留非本人签字事实，可帮助边界核查；仅第五人员后接整体案由，不能将全部行为归于刁玲。"
+          },
+          {
+            "file_id": "F002623",
+            "grade": 2,
+            "warning": false,
+            "quote": "保单号P110000004571408等13笔投保单的风险提示语句的抄录笔迹与投保人签名笔迹不一致。",
+            "reason": "片段给具体代抄识别线索，可辅助本人确认核查；不推导电子核验缺失。"
+          },
+          {
+            "file_id": "F002401",
+            "grade": 2,
+            "warning": false,
+            "quote": "在回访中发现42份保单存在代签名,表现为投保人代被保险人签名、投保人亲属代投保人签名、个险代理人代客户签名、银行网点人员代客户签名。",
+            "reason": "代理代客户签名及各签署角色具体，支持谁实际签名核查。"
+          }
+        ]
+      },
+      {
+        "query_id": "N016",
+        "query_text": "农业保险确实发生承保范围内灾害，查勘人员留存真实损失资料，赔款按实际损失和合同约定核算，没有用虚假赔案返还保费。",
+        "useful_delta": 1,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F001022",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "单句案由未给机制和判断条件。"
+          },
+          {
+            "file_id": "F006935",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格未展现虚假资料如何导致赔付，与真实损失的区别条件不足。"
+          },
+          {
+            "file_id": "F001419",
+            "grade": 2,
+            "warning": false,
+            "quote": "对于存在协议赔付被保险人的赔案不进行现场查勘,由代办人员提供查勘照片。在无法核实赔案真实性的情\n况下,你营销服务部自行编制《查勘报告》、《赔款计算书》等理赔材料,造成部分赔案存在耳号标识重复、查勘照片虚假的情况。",
+            "reason": "片段揭示查勘缺失到材料虚假机制，能核查实际损失证据而不能据案例判输入虚假。"
+          },
+          {
+            "file_id": "F005843",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表列资料问题只有概括定性，未给边界判断条件。"
+          },
+          {
+            "file_id": "F008882",
+            "grade": 2,
+            "warning": false,
+            "quote": "虚假承保、虚假理赔骗取农业保险的\n保险费补贴",
+            "reason": "短案由也给出虚假承保理赔与骗补目的，能辅助风险边界；不认定输入发生该行为。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F001022",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "单句案由未给机制和判断条件。"
+          },
+          {
+            "file_id": "F006935",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格未展现虚假资料如何导致赔付，与真实损失的区别条件不足。"
+          },
+          {
+            "file_id": "F001419",
+            "grade": 2,
+            "warning": false,
+            "quote": "对于存在协议赔付被保险人的赔案不进行现场查勘,由代办人员提供查勘照片。在无法核实赔案真实性的情\n况下,你营销服务部自行编制《查勘报告》、《赔款计算书》等理赔材料,造成部分赔案存在耳号标识重复、查勘照片虚假的情况。",
+            "reason": "片段揭示查勘缺失到材料虚假机制，能核查实际损失证据而不能据案例判输入虚假。"
+          },
+          {
+            "file_id": "F008882",
+            "grade": 2,
+            "warning": false,
+            "quote": "虚假承保、虚假理赔骗取农业保险的\n保险费补贴",
+            "reason": "短案由也给出虚假承保理赔与骗补目的，能辅助风险边界；不认定输入发生该行为。"
+          },
+          {
+            "file_id": "F001104",
+            "grade": 2,
+            "warning": false,
+            "quote": "存在故意夸大已经发生的农业保险事故损失程度进行虚假理赔和编制农业保险虚假承保、理赔资料的行为。",
+            "reason": "片段具体揭示已发生事故被夸大损失，能对照真实损失计算边界。"
+          }
+        ]
+      },
+      {
+        "query_id": "N018",
+        "query_text": "个人代理人实际参与客户沟通并完成销售，公司按真实渠道登记保单、按约支付手续费，没有把直销保单转挂给他人。",
+        "useful_delta": -2,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F003497",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司",
+            "reason": "保留未实际代理仍虚挂的关键相反条件，可帮助核查真实销售边界。"
+          },
+          {
+            "file_id": "F000152",
+            "grade": 2,
+            "warning": false,
+            "quote": "直销业务虚挂个人代理人业务套\n取手续费。",
+            "reason": "虽简短但精确揭示虚挂条件，能和实际代理销售对照。"
+          },
+          {
+            "file_id": "F002022",
+            "grade": 2,
+            "warning": false,
+            "quote": "将直销业务虚挂为个人代理业务,套取手续费用于业务拓展及渠道维护。",
+            "reason": "片段揭示直销虚挂个人代理这个关键条件，可对照真实代理销售。"
+          },
+          {
+            "file_id": "F003486",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司",
+            "reason": "片段的非真实代理条件明确，可核查真实登记边界；不能据处罚推导输入违法。"
+          },
+          {
+            "file_id": "F003489",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司",
+            "reason": "关键虚挂条件清楚，能核查输入渠道真实性，不沿用返款金额。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F003497",
+            "grade": 2,
+            "warning": false,
+            "quote": "你公司把并非是纵横代理公司代理的保险业务虚挂在该公司名下,并通过银行转账方式将手续费支付给代理公司",
+            "reason": "片段给出非实际代理却虚挂、手续费经代理扣费后回流转付的过程，可对照输入真实代理销售与真实渠道登记的边界；名义代理为机构，不能据此认定输入违规。"
+          },
+          {
+            "file_id": "F003435",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "分段片段列报销手续费和整改处罚，未解释渠道贡献；处罚本身不加有用分。"
+          },
+          {
+            "file_id": "F003434",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段仅列报销名目支付手续费，不能解释虚挂与真实销售的条件边界。"
+          },
+          {
+            "file_id": "F000152",
+            "grade": 2,
+            "warning": false,
+            "quote": "直销业务虚挂个人代理人业务套\n取手续费。",
+            "reason": "虽简短但精确揭示虚挂条件，能和实际代理销售对照。"
+          },
+          {
+            "file_id": "F002022",
+            "grade": 2,
+            "warning": false,
+            "quote": "将直销业务虚挂为个人代理业务,套取手续费用于业务拓展及渠道维护。",
+            "reason": "片段揭示直销虚挂个人代理这个关键条件，可对照真实代理销售。"
+          }
+        ]
+      },
+      {
+        "query_id": "Q009",
+        "query_text": "重疾险推广拟写成只要诊断疾病就能马上拿到保险金。审稿需要确认诊断事件与合同给付条件是否相同，避免把一句方便理解的话变成无条件支付承诺。",
+        "useful_delta": 2,
+        "warning_delta": 0,
+        "coverage_before": 0,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F008841",
+            "grade": 1,
+            "warning": true,
+            "quote": "",
+            "reason": "片段从第三名人员接入共同案由，既无重疾机制，也不能把共同事实全部归于该个人。"
+          },
+          {
+            "file_id": "F007481",
+            "grade": 0,
+            "warning": false,
+            "quote": "",
+            "reason": "死亡给付承保资格与费率责任不能帮助判断疾病诊断是否立即可领赔款。"
+          },
+          {
+            "file_id": "F004155",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表内未展示误导内容，不足核查诊断是否满足给付条件。"
+          },
+          {
+            "file_id": "F005952",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只见案由以及收益比较，不足核查重疾给付条件被省略的具体方式。"
+          },
+          {
+            "file_id": "F003966",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "只有合同外利益案由，不能判断诊断即赔宣传与实际给付门槛是否相同。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F008841",
+            "grade": 1,
+            "warning": true,
+            "quote": "",
+            "reason": "片段从第三名人员接入共同案由，既无重疾机制，也不能把共同事实全部归于该个人。"
+          },
+          {
+            "file_id": "F006296",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "表格概括合同外利益承诺，缺失重疾诊断与给付条件的机制证据。"
+          },
+          {
+            "file_id": "F008385",
+            "grade": 0,
+            "warning": false,
+            "quote": "",
+            "reason": "实际文本是死亡保险被保险人资格及资料问题，未涉及重疾宣传或诊断给付关系。"
+          },
+          {
+            "file_id": "F001323",
+            "grade": 2,
+            "warning": false,
+            "quote": "被保险人所在的指定区域的空气质量指标、持续时间等空气污染指标均达到保险合同\n约定的条件,对被保险人健康造成损害并需要治疗、护理的",
+            "reason": "片段显示客观事件加健康损害治疗护理等多项条件，支持事件发生不等于无条件给付的边界；片段未展示删除条件的行为。"
+          },
+          {
+            "file_id": "F009934",
+            "grade": 2,
+            "warning": false,
+            "quote": "郑玉兰称所有的癌症都是重疾,主动脉、心脏瓣膜搭桥,严重的类风湿、糖尿病,严重的昏迷不醒,双目失明都属于重疾",
+            "reason": "片段有具体扩张疾病范围的销售说法，并指出与合同不一致，支撑给付条件审稿，但未揭示立即支付门槛。"
+          }
+        ]
+      },
+      {
+        "query_id": "Q038",
+        "query_text": "种植保险赔款除了给实际受损对象，还被拿去还垫付保费的本息、作为次年预收保费，并抵作其他险种的保费。审核要核查赔款真正支付给谁、用于什么，不能把全部列支都看成农险赔偿。",
+        "useful_delta": 1,
+        "warning_delta": -1,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F002890",
+            "grade": 3,
+            "warning": false,
+            "quote": "此笔款项除了实际支付农险赔款外,还被用于支付村集体垫付保费的本息、留作2009年预\n收保费、抵作企财险、家财险保费等。以上表明齐齐哈尔中心支公司存在虚增赔款及截留赔款资金的问题。",
+            "reason": "片段完整展示输入各项赔款用途及虚增截留判断。"
+          },
+          {
+            "file_id": "F000929",
+            "grade": 2,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段揭示赔款回流垫付保费及工作经费，能支持支付对象和用途核查。"
+          },
+          {
+            "file_id": "F006220",
+            "grade": 1,
+            "warning": true,
+            "quote": "",
+            "reason": "片段为多案由摘要，不能补入赔款抵费机制；第五名人员后接整体案由，需避免把全部行为归于罗文仲。"
+          },
+          {
+            "file_id": "F002659",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段展示费用冲减，不提供赔款给谁及抵保费事实。"
+          },
+          {
+            "file_id": "F001741",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段的虚假报销代缴保费只能提示相邻费用风险，不能支撑赔款用途判断。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F002890",
+            "grade": 3,
+            "warning": false,
+            "quote": "此笔款项除了实际支付农险赔款外,还被用于支付村集体垫付保费的本息、留作2009年预\n收保费、抵作企财险、家财险保费等。",
+            "reason": "实际对应原文补全种植险赔款用于垫保费本息、次年预收保费及抵其他险种，且明确齐齐哈尔中支虚增截留赔款；资金用途机制与输入充分对应，截断的命中行不限制后续实际展示原段。"
+          },
+          {
+            "file_id": "F000929",
+            "grade": 2,
+            "warning": false,
+            "quote": "存在由村组为农户缴纳保费,之后通过在理赔时编造保险事故或扩大部分农户损失程度进行赔付,赔款用于返还代垫保费或村组工作经费的问\n题。",
+            "reason": "片段揭示赔款回流垫付保费及工作经费，能支持支付对象和用途核查。"
+          },
+          {
+            "file_id": "F002659",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段展示费用冲减，不提供赔款给谁及抵保费事实。"
+          },
+          {
+            "file_id": "F001741",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段的虚假报销代缴保费只能提示相邻费用风险，不能支撑赔款用途判断。"
+          },
+          {
+            "file_id": "F000925",
+            "grade": 2,
+            "warning": false,
+            "quote": "存在垫付保费以农户名义投保,并通过虚假理赔返还代垫农户自缴保费的问题",
+            "reason": "片段给出垫费与虚假赔款返还链，能解释赔款为何不应全视作正常赔偿。"
+          }
+        ]
+      },
+      {
+        "query_id": "Q044",
+        "query_text": "受托销售人员已完成本公司登记，也已持有本公司发出的执业证书。此次复核只发现档案中的电话号码需要更正，不能把资料维护问题归成尚未给销售人员发证。",
+        "useful_delta": 2,
+        "warning_delta": 0,
+        "coverage_before": 1,
+        "coverage_after": 1,
+        "before": [
+          {
+            "file_id": "F006527",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有本机构发放的执业证书的人\n员从事保险销售行为;",
+            "reason": "证书发放机构和受托销售条件明确，支持与输入已持本公司证书对照。"
+          },
+          {
+            "file_id": "F001985",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "仅列证据和管理办法名称，未显示未发执业证事实。"
+          },
+          {
+            "file_id": "F000159",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有资格证书及本机构发放\n的执业证书的人员从事保险销售",
+            "reason": "明确无本机构执业证而受托销售，可核对输入已持证条件。"
+          },
+          {
+            "file_id": "F001984",
+            "grade": 1,
+            "warning": false,
+            "quote": "",
+            "reason": "片段仅列录音、条款和人员管理办法证据，无未发证事实。"
+          },
+          {
+            "file_id": "F000269",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有本机构发放的执业证\n书的人员从事保险销售;",
+            "reason": "片段保留未持本机构执业证而销售的完整条件，能够对照已持证输入。"
+          }
+        ],
+        "after": [
+          {
+            "file_id": "F006527",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有本机构发放的执业证书的人\n员从事保险销售行为;",
+            "reason": "证书发放机构和受托销售条件明确，支持与输入已持本公司证书对照。"
+          },
+          {
+            "file_id": "F000159",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有资格证书及本机构发放\n的执业证书的人员从事保险销售",
+            "reason": "明确无本机构执业证而受托销售，可核对输入已持证条件。"
+          },
+          {
+            "file_id": "F003743",
+            "grade": 3,
+            "warning": false,
+            "quote": "一、未履行执业证书管理职责。你公司自2005年3月成立至检查日未向本公司持证代理业务人员发放执业证书。",
+            "reason": "同时呈现持证人员与公司未发执业证的区别，有助确认输入已发证条件。"
+          },
+          {
+            "file_id": "F000269",
+            "grade": 2,
+            "warning": false,
+            "quote": "委托未持有本机构发放的执业证\n书的人员从事保险销售;",
+            "reason": "片段保留未持本机构执业证而销售的完整条件，能够对照已持证输入。"
+          },
+          {
+            "file_id": "F001383",
+            "grade": 2,
+            "warning": false,
+            "quote": "二是你公司存在委托未取得执业证书的非签约销售从业人员从事保险销售的情况。",
+            "reason": "片段具体呈现无执业证销售，支持与输入已持证对照，但未显示档案维护部分。"
+          }
+        ]
+      }
+    ]
+  },
+  "uncovered_queries": {
+    "B0": [
+      "N014",
+      "Q009",
+      "Q012"
+    ],
+    "S1": [
+      "N014",
+      "Q009",
+      "Q012"
+    ],
+    "C2": [
+      "N014",
+      "Q009",
+      "Q012"
+    ],
+    "W4": [
+      "N014",
+      "Q012"
+    ],
+    "M3": [
+      "N014",
+      "Q009",
+      "Q012"
+    ],
+    "D1": [
+      "Q009",
+      "Q012"
+    ],
+    "D2": [
+      "Q009",
+      "Q012"
+    ],
+    "WD": [
+      "Q012"
+    ]
+  }
+}

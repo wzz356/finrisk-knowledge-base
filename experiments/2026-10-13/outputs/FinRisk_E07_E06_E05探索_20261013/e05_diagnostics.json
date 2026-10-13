@@ -1,0 +1,1775 @@
+{
+  "rows": [
+    {
+      "query_id": "D001",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 6,
+        "leaf_top5_units": [
+          "structured:F004090:V2:a34b5e0552063be5750f48acabfe4c0a1efe6daafb42a2b55c4cf25fbf7c66a7"
+        ],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F002619",
+        "F009412",
+        "F004090",
+        "F004571",
+        "F001950"
+      ],
+      "after": [
+        "F002619",
+        "F009412",
+        "F004090",
+        "F004571",
+        "F001950"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D001",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 2,
+        "leaf_rerank_candidates": 6,
+        "leaf_top5_units": [
+          "structured:F004090:V2:a34b5e0552063be5750f48acabfe4c0a1efe6daafb42a2b55c4cf25fbf7c66a7"
+        ],
+        "node_top100_hits": 1
+      },
+      "newly_scored": 1,
+      "reused": 99,
+      "nodes": [
+        {
+          "node_id": "DIR:channel",
+          "rank": 9,
+          "score": 0.6496822237968445
+        }
+      ],
+      "before": [
+        "F002619",
+        "F009412",
+        "F004090",
+        "F004571",
+        "F001950"
+      ],
+      "after": [
+        "F002619",
+        "F009412",
+        "F004090",
+        "F004571",
+        "F001950"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D001",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 15,
+        "leaf_rerank_candidates": 16,
+        "leaf_top5_units": [
+          "structured:F004090:V2:a34b5e0552063be5750f48acabfe4c0a1efe6daafb42a2b55c4cf25fbf7c66a7"
+        ],
+        "node_top100_hits": 2
+      },
+      "newly_scored": 9,
+      "reused": 91,
+      "nodes": [
+        {
+          "node_id": "TREE:L1:0",
+          "rank": 11,
+          "score": 0.6474524736404419
+        },
+        {
+          "node_id": "TREE:L1:1",
+          "rank": 34,
+          "score": 0.6340930461883545
+        }
+      ],
+      "before": [
+        "F002619",
+        "F009412",
+        "F004090",
+        "F004571",
+        "F001950"
+      ],
+      "after": [
+        "F002619",
+        "F009412",
+        "F004090",
+        "F001950",
+        "F007588"
+      ],
+      "new_contexts": [
+        {
+          "file_id": "F007588",
+          "unit_id": "structured:F007588:V2:89641625443a0c47f4e30c2d8e16f21b4b8b84acc382cb3769416e5e17cfcf97",
+          "text": "国家金融监督管理总局吉林监管局行政处罚信息公开表(吉金罚决字〔2023〕65号)\n国家金融监督管理总局吉林监管局\n行政处罚信息公开表\n行政处罚决定书文号\n吉金罚决字〔2023〕65号\n被处罚当事人\n吉林省誉闻保险代理有限责任公司\n主要违法违规事实\n虚假列支费用、委托未在本机构进行\n执业登记的个人开展保险代理业务、\n开展保险业务未按规定制作并出示客\n户告知书、未按规定投保职业责任保\n险或缴存保证金、未按规定建立完整\n规范的业务档案、未按规定对许可证\n换证事项进行公告、未按规定在营业\n场所公示许可证原件。"
+        }
+      ]
+    },
+    {
+      "query_id": "D002",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 4,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F005771",
+        "F004155",
+        "F008285",
+        "F000233",
+        "F004374"
+      ],
+      "after": [
+        "F005771",
+        "F004155",
+        "F008285",
+        "F000233",
+        "F004374"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D002",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 4,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F005771",
+        "F004155",
+        "F008285",
+        "F000233",
+        "F004374"
+      ],
+      "after": [
+        "F005771",
+        "F004155",
+        "F008285",
+        "F000233",
+        "F004374"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D002",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 4,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F005771",
+        "F004155",
+        "F008285",
+        "F000233",
+        "F004374"
+      ],
+      "after": [
+        "F005771",
+        "F004155",
+        "F008285",
+        "F000233",
+        "F004374"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D003",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 3,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F000886",
+        "F007359",
+        "F004307",
+        "F007872",
+        "F004696"
+      ],
+      "after": [
+        "F000886",
+        "F007359",
+        "F004307",
+        "F007872",
+        "F004696"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D003",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 3,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000886",
+        "F007359",
+        "F004307",
+        "F007872",
+        "F004696"
+      ],
+      "after": [
+        "F000886",
+        "F007359",
+        "F004307",
+        "F007872",
+        "F004696"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D003",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 3,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000886",
+        "F007359",
+        "F004307",
+        "F007872",
+        "F004696"
+      ],
+      "after": [
+        "F000886",
+        "F007359",
+        "F004307",
+        "F007872",
+        "F004696"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D004",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 4,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F009776",
+        "F002828",
+        "F004280",
+        "F004098",
+        "F004692"
+      ],
+      "after": [
+        "F009776",
+        "F002828",
+        "F004280",
+        "F004098",
+        "F004692"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D004",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 5,
+        "leaf_rerank_candidates": 9,
+        "leaf_top5_units": [],
+        "node_top100_hits": 1
+      },
+      "newly_scored": 5,
+      "reused": 95,
+      "nodes": [
+        {
+          "node_id": "DIR:promotions",
+          "rank": 29,
+          "score": 0.6843917369842529
+        }
+      ],
+      "before": [
+        "F009776",
+        "F002828",
+        "F004280",
+        "F004098",
+        "F004692"
+      ],
+      "after": [
+        "F009776",
+        "F002828",
+        "F004280",
+        "F004098",
+        "F004692"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D004",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 5,
+        "leaf_rerank_candidates": 9,
+        "leaf_top5_units": [],
+        "node_top100_hits": 1
+      },
+      "newly_scored": 2,
+      "reused": 98,
+      "nodes": [
+        {
+          "node_id": "TREE:L1:1",
+          "rank": 38,
+          "score": 0.6805896759033203
+        }
+      ],
+      "before": [
+        "F009776",
+        "F002828",
+        "F004280",
+        "F004098",
+        "F004692"
+      ],
+      "after": [
+        "F009776",
+        "F002828",
+        "F004280",
+        "F004098",
+        "F004692"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D005",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 1,
+        "leaf_top5_units": [
+          "structured:F003497:V2:1b296a1affaff3815a08690025cf339aa5e7b044d33edccbdd64c2c973559a29"
+        ],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F002221",
+        "F003486",
+        "F003489",
+        "F003491",
+        "F003497"
+      ],
+      "after": [
+        "F002221",
+        "F003486",
+        "F003489",
+        "F003491",
+        "F003497"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D005",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 1,
+        "leaf_top5_units": [
+          "structured:F003497:V2:1b296a1affaff3815a08690025cf339aa5e7b044d33edccbdd64c2c973559a29"
+        ],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F002221",
+        "F003486",
+        "F003489",
+        "F003491",
+        "F003497"
+      ],
+      "after": [
+        "F002221",
+        "F003486",
+        "F003489",
+        "F003491",
+        "F003497"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D005",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 2,
+        "leaf_rerank_candidates": 1,
+        "leaf_top5_units": [
+          "structured:F003497:V2:1b296a1affaff3815a08690025cf339aa5e7b044d33edccbdd64c2c973559a29"
+        ],
+        "node_top100_hits": 1
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [
+        {
+          "node_id": "TREE:L1:1",
+          "rank": 99,
+          "score": 0.6693755984306335
+        }
+      ],
+      "before": [
+        "F002221",
+        "F003486",
+        "F003489",
+        "F003491",
+        "F003497"
+      ],
+      "after": [
+        "F002221",
+        "F003486",
+        "F003489",
+        "F003491",
+        "F003497"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D006",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F001334",
+        "F003473",
+        "F001615",
+        "F002153",
+        "F007158"
+      ],
+      "after": [
+        "F001334",
+        "F003473",
+        "F001615",
+        "F002153",
+        "F007158"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D006",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F001334",
+        "F003473",
+        "F001615",
+        "F002153",
+        "F007158"
+      ],
+      "after": [
+        "F001334",
+        "F003473",
+        "F001615",
+        "F002153",
+        "F007158"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D006",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F001334",
+        "F003473",
+        "F001615",
+        "F002153",
+        "F007158"
+      ],
+      "after": [
+        "F001334",
+        "F003473",
+        "F001615",
+        "F002153",
+        "F007158"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D007",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F009794",
+        "F009787",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "after": [
+        "F009794",
+        "F009787",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D007",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F009794",
+        "F009787",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "after": [
+        "F009794",
+        "F009787",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D007",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F009794",
+        "F009787",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "after": [
+        "F009794",
+        "F009787",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D008",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 1,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F009787",
+        "F009794",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "after": [
+        "F009787",
+        "F009794",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D008",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 7,
+        "leaf_rerank_candidates": 8,
+        "leaf_top5_units": [],
+        "node_top100_hits": 1
+      },
+      "newly_scored": 7,
+      "reused": 93,
+      "nodes": [
+        {
+          "node_id": "DIR:promotions",
+          "rank": 42,
+          "score": 0.5902226567268372
+        }
+      ],
+      "before": [
+        "F009787",
+        "F009794",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "after": [
+        "F009787",
+        "F009794",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D008",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 20,
+        "leaf_rerank_candidates": 6,
+        "leaf_top5_units": [],
+        "node_top100_hits": 1
+      },
+      "newly_scored": 3,
+      "reused": 97,
+      "nodes": [
+        {
+          "node_id": "TREE:L3:0",
+          "rank": 50,
+          "score": 0.5892401933670044
+        }
+      ],
+      "before": [
+        "F009787",
+        "F009794",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "after": [
+        "F009787",
+        "F009794",
+        "F005337",
+        "F002623",
+        "F003466"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D009",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F000159",
+        "F002596",
+        "F000637",
+        "F001383",
+        "F006527"
+      ],
+      "after": [
+        "F000159",
+        "F002596",
+        "F000637",
+        "F001383",
+        "F006527"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D009",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000159",
+        "F002596",
+        "F000637",
+        "F001383",
+        "F006527"
+      ],
+      "after": [
+        "F000159",
+        "F002596",
+        "F000637",
+        "F001383",
+        "F006527"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D009",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000159",
+        "F002596",
+        "F000637",
+        "F001383",
+        "F006527"
+      ],
+      "after": [
+        "F000159",
+        "F002596",
+        "F000637",
+        "F001383",
+        "F006527"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D010",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F000159",
+        "F006527",
+        "F001215",
+        "F000728",
+        "F001383"
+      ],
+      "after": [
+        "F000159",
+        "F006527",
+        "F001215",
+        "F000728",
+        "F001383"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D010",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000159",
+        "F006527",
+        "F001215",
+        "F000728",
+        "F001383"
+      ],
+      "after": [
+        "F000159",
+        "F006527",
+        "F001215",
+        "F000728",
+        "F001383"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D010",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000159",
+        "F006527",
+        "F001215",
+        "F000728",
+        "F001383"
+      ],
+      "after": [
+        "F000159",
+        "F006527",
+        "F001215",
+        "F000728",
+        "F001383"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D011",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 1,
+        "leaf_top5_units": [
+          "structured:F002890:V2:d1c31f1ba6a8045cb54698b7141659205468ff25693e81602133bae1f54abafe"
+        ],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F000929",
+        "F000922",
+        "F009620",
+        "F000923",
+        "F002890"
+      ],
+      "after": [
+        "F000929",
+        "F000922",
+        "F009620",
+        "F000923",
+        "F002890"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D011",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 1,
+        "leaf_top5_units": [
+          "structured:F002890:V2:d1c31f1ba6a8045cb54698b7141659205468ff25693e81602133bae1f54abafe"
+        ],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000929",
+        "F000922",
+        "F009620",
+        "F000923",
+        "F002890"
+      ],
+      "after": [
+        "F000929",
+        "F000922",
+        "F009620",
+        "F000923",
+        "F002890"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D011",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 1,
+        "leaf_top5_units": [
+          "structured:F002890:V2:d1c31f1ba6a8045cb54698b7141659205468ff25693e81602133bae1f54abafe"
+        ],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000929",
+        "F000922",
+        "F009620",
+        "F000923",
+        "F002890"
+      ],
+      "after": [
+        "F000929",
+        "F000922",
+        "F009620",
+        "F000923",
+        "F002890"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D012",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 1,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F000925",
+        "F002942",
+        "F001183",
+        "F001419",
+        "F004882"
+      ],
+      "after": [
+        "F000925",
+        "F002942",
+        "F001183",
+        "F001419",
+        "F004882"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D012",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 1,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000925",
+        "F002942",
+        "F001183",
+        "F001419",
+        "F004882"
+      ],
+      "after": [
+        "F000925",
+        "F002942",
+        "F001183",
+        "F001419",
+        "F004882"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D012",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 1,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000925",
+        "F002942",
+        "F001183",
+        "F001419",
+        "F004882"
+      ],
+      "after": [
+        "F000925",
+        "F002942",
+        "F001183",
+        "F001419",
+        "F004882"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D013",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 3,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F005034",
+        "F000742",
+        "F009532",
+        "F009537",
+        "F001794"
+      ],
+      "after": [
+        "F005034",
+        "F000742",
+        "F009532",
+        "F009537",
+        "F001794"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D013",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 4,
+        "leaf_rerank_candidates": 7,
+        "leaf_top5_units": [],
+        "node_top100_hits": 1
+      },
+      "newly_scored": 4,
+      "reused": 96,
+      "nodes": [
+        {
+          "node_id": "DIR:finance",
+          "rank": 13,
+          "score": 0.6464893221855164
+        }
+      ],
+      "before": [
+        "F005034",
+        "F000742",
+        "F009532",
+        "F009537",
+        "F001794"
+      ],
+      "after": [
+        "F005034",
+        "F000742",
+        "F009532",
+        "F009537",
+        "F001794"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D013",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 8,
+        "leaf_rerank_candidates": 10,
+        "leaf_top5_units": [],
+        "node_top100_hits": 1
+      },
+      "newly_scored": 7,
+      "reused": 93,
+      "nodes": [
+        {
+          "node_id": "TREE:L1:1",
+          "rank": 14,
+          "score": 0.6380089521408081
+        }
+      ],
+      "before": [
+        "F005034",
+        "F000742",
+        "F009532",
+        "F009537",
+        "F001794"
+      ],
+      "after": [
+        "F005034",
+        "F000742",
+        "F009532",
+        "F009537",
+        "F001794"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D014",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 2,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F000821",
+        "F001128",
+        "F009322",
+        "F002777",
+        "F009317"
+      ],
+      "after": [
+        "F000821",
+        "F001128",
+        "F009322",
+        "F002777",
+        "F009317"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D014",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 8,
+        "leaf_rerank_candidates": 3,
+        "leaf_top5_units": [],
+        "node_top100_hits": 2
+      },
+      "newly_scored": 1,
+      "reused": 99,
+      "nodes": [
+        {
+          "node_id": "DIR:illustrations",
+          "rank": 22,
+          "score": 0.6137349605560303
+        },
+        {
+          "node_id": "DIR:promotions",
+          "rank": 80,
+          "score": 0.5913809537887573
+        }
+      ],
+      "before": [
+        "F000821",
+        "F001128",
+        "F009322",
+        "F002777",
+        "F009317"
+      ],
+      "after": [
+        "F000821",
+        "F001128",
+        "F009322",
+        "F002777",
+        "F009317"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D014",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 2,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F000821",
+        "F001128",
+        "F009322",
+        "F002777",
+        "F009317"
+      ],
+      "after": [
+        "F000821",
+        "F001128",
+        "F009322",
+        "F002777",
+        "F009317"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D015",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F001431",
+        "F002414",
+        "F001442",
+        "F001475",
+        "F001476"
+      ],
+      "after": [
+        "F001431",
+        "F002414",
+        "F001442",
+        "F001475",
+        "F001476"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D015",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F001431",
+        "F002414",
+        "F001442",
+        "F001475",
+        "F001476"
+      ],
+      "after": [
+        "F001431",
+        "F002414",
+        "F001442",
+        "F001475",
+        "F001476"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D015",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 0,
+      "reused": 100,
+      "nodes": [],
+      "before": [
+        "F001431",
+        "F002414",
+        "F001442",
+        "F001475",
+        "F001476"
+      ],
+      "after": [
+        "F001431",
+        "F002414",
+        "F001442",
+        "F001475",
+        "F001476"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D016",
+      "arm": "B0",
+      "dose": {
+        "accepted_expansions": 0,
+        "leaf_rerank_candidates": 0,
+        "leaf_top5_units": [],
+        "node_top100_hits": 0
+      },
+      "newly_scored": 100,
+      "reused": 0,
+      "nodes": [],
+      "before": [
+        "F001686",
+        "F001687",
+        "F008443",
+        "F001319",
+        "F001320"
+      ],
+      "after": [
+        "F001686",
+        "F001687",
+        "F008443",
+        "F001319",
+        "F001320"
+      ],
+      "new_contexts": []
+    },
+    {
+      "query_id": "D016",
+      "arm": "DIR",
+      "dose": {
+        "accepted_expansions": 7,
+        "leaf_rerank_candidates": 7,
+        "leaf_top5_units": [
+          "structured:F008940:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+          "structured:F008944:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93"
+        ],
+        "node_top100_hits": 1
+      },
+      "newly_scored": 7,
+      "reused": 93,
+      "nodes": [
+        {
+          "node_id": "DIR:promotions",
+          "rank": 4,
+          "score": 0.6932952404022217
+        }
+      ],
+      "before": [
+        "F001686",
+        "F001687",
+        "F008443",
+        "F001319",
+        "F001320"
+      ],
+      "after": [
+        "F001686",
+        "F001687",
+        "F008940",
+        "F008944",
+        "F008443"
+      ],
+      "new_contexts": [
+        {
+          "file_id": "F008940",
+          "unit_id": "structured:F008940:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+          "text": "【命中原话】\n在销售P0600*号保险合同时,销售人员存在宣传内容与保险条款等不一致问题、未向投保人告知附加险保险费等内容;销售人员在销售录音中承诺向投保\n\n【命中原话的对应原文（逐段独立，不合并主体）】\n被处罚个人姓名:李荣\n\n[原文间隔，分段摘录]\n\n经查,该中心存在以下违法行为:\n在销售P0600*号保险合同时,销售人员存在宣传内容与保险条款等不一致问题、未向投保人告知附加险保险费等内容;销售人员在销售录音中承诺向投保\n人赠送礼品。\n你作为中国平安人寿保险股份有限公司西安电话销售中心副总经理,是对违法行为直接负责的管理人员。"
+        },
+        {
+          "file_id": "F008944",
+          "unit_id": "structured:F008944:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+          "text": "【命中原话】\n在销售P0600*号保险合同时,销售人员存在宣传内容与保险条款等不一致问题、未向投保人告知附加险保险费等内容;销售人员在销售录音中承诺向投保\n\n【命中原话的对应原文（逐段独立，不合并主体）】\n被处罚个人姓名:吕思挺\n\n[原文间隔，分段摘录]\n\n经查,该中心存在以下违法行为:\n在销售P0600*号保险合同时,销售人员存在宣传内容与保险条款等不一致问题、未向投保人告知附加险保险费等内容;销售人员在销售录音中承诺向投保\n人赠送礼品。\n你作为中国平安人寿保险股份有限公司西安电话销售中心总经理,是对违法行为直接负责的管理人员。"
+        }
+      ]
+    },
+    {
+      "query_id": "D016",
+      "arm": "TREE",
+      "dose": {
+        "accepted_expansions": 16,
+        "leaf_rerank_candidates": 8,
+        "leaf_top5_units": [
+          "structured:F008940:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+          "structured:F008944:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93"
+        ],
+        "node_top100_hits": 2
+      },
+      "newly_scored": 3,
+      "reused": 97,
+      "nodes": [
+        {
+          "node_id": "TREE:L1:1",
+          "rank": 27,
+          "score": 0.6681888103485107
+        },
+        {
+          "node_id": "TREE:L1:0",
+          "rank": 43,
+          "score": 0.6597244739532471
+        }
+      ],
+      "before": [
+        "F001686",
+        "F001687",
+        "F008443",
+        "F001319",
+        "F001320"
+      ],
+      "after": [
+        "F001686",
+        "F001687",
+        "F008940",
+        "F008944",
+        "F008443"
+      ],
+      "new_contexts": [
+        {
+          "file_id": "F008940",
+          "unit_id": "structured:F008940:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+          "text": "【命中原话】\n在销售P0600*号保险合同时,销售人员存在宣传内容与保险条款等不一致问题、未向投保人告知附加险保险费等内容;销售人员在销售录音中承诺向投保\n\n【命中原话的对应原文（逐段独立，不合并主体）】\n被处罚个人姓名:李荣\n\n[原文间隔，分段摘录]\n\n经查,该中心存在以下违法行为:\n在销售P0600*号保险合同时,销售人员存在宣传内容与保险条款等不一致问题、未向投保人告知附加险保险费等内容;销售人员在销售录音中承诺向投保\n人赠送礼品。\n你作为中国平安人寿保险股份有限公司西安电话销售中心副总经理,是对违法行为直接负责的管理人员。"
+        },
+        {
+          "file_id": "F008944",
+          "unit_id": "structured:F008944:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+          "text": "【命中原话】\n在销售P0600*号保险合同时,销售人员存在宣传内容与保险条款等不一致问题、未向投保人告知附加险保险费等内容;销售人员在销售录音中承诺向投保\n\n【命中原话的对应原文（逐段独立，不合并主体）】\n被处罚个人姓名:吕思挺\n\n[原文间隔，分段摘录]\n\n经查,该中心存在以下违法行为:\n在销售P0600*号保险合同时,销售人员存在宣传内容与保险条款等不一致问题、未向投保人告知附加险保险费等内容;销售人员在销售录音中承诺向投保\n人赠送礼品。\n你作为中国平安人寿保险股份有限公司西安电话销售中心总经理,是对违法行为直接负责的管理人员。"
+        }
+      ]
+    }
+  ],
+  "token_summary": [
+    {
+      "stage": "embedding",
+      "kind": "document",
+      "inputs": 65475,
+      "truncated_inputs": 0,
+      "max_input_tokens": 299,
+      "max_length": 512,
+      "corpus": "structured",
+      "cache_hit": true
+    },
+    {
+      "stage": "embedding",
+      "kind": "query",
+      "inputs": 16,
+      "truncated_inputs": 0,
+      "max_input_tokens": 81,
+      "max_length": 512,
+      "corpus": "E05_shared_16_replay_queries",
+      "cache_hit": false
+    },
+    {
+      "stage": "embedding",
+      "kind": "document",
+      "inputs": 13,
+      "truncated_inputs": 0,
+      "max_input_tokens": 197,
+      "max_length": 512,
+      "corpus": "E05_navigation_nodes",
+      "cache_hit": false
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D001",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 243,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_DIR",
+      "query_id": "D001",
+      "inputs": 1,
+      "truncated_inputs": 0,
+      "max_input_tokens": 96,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_TREE",
+      "query_id": "D001",
+      "inputs": 9,
+      "truncated_inputs": 0,
+      "max_input_tokens": 138,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D002",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 248,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D003",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 238,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D004",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 219,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_DIR",
+      "query_id": "D004",
+      "inputs": 5,
+      "truncated_inputs": 0,
+      "max_input_tokens": 139,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_TREE",
+      "query_id": "D004",
+      "inputs": 2,
+      "truncated_inputs": 0,
+      "max_input_tokens": 105,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D005",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 260,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D006",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 254,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D007",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 245,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D008",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 245,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_DIR",
+      "query_id": "D008",
+      "inputs": 7,
+      "truncated_inputs": 0,
+      "max_input_tokens": 135,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_TREE",
+      "query_id": "D008",
+      "inputs": 3,
+      "truncated_inputs": 0,
+      "max_input_tokens": 118,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D009",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 238,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D010",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 223,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D011",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 252,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D012",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 253,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D013",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 254,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_DIR",
+      "query_id": "D013",
+      "inputs": 4,
+      "truncated_inputs": 0,
+      "max_input_tokens": 114,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_TREE",
+      "query_id": "D013",
+      "inputs": 7,
+      "truncated_inputs": 0,
+      "max_input_tokens": 113,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D014",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 245,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_DIR",
+      "query_id": "D014",
+      "inputs": 1,
+      "truncated_inputs": 0,
+      "max_input_tokens": 82,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D015",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 249,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_B0",
+      "query_id": "D016",
+      "inputs": 100,
+      "truncated_inputs": 0,
+      "max_input_tokens": 257,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_DIR",
+      "query_id": "D016",
+      "inputs": 7,
+      "truncated_inputs": 0,
+      "max_input_tokens": 139,
+      "max_length": 512
+    },
+    {
+      "stage": "rerank",
+      "corpus": "E05_TREE",
+      "query_id": "D016",
+      "inputs": 3,
+      "truncated_inputs": 0,
+      "max_input_tokens": 105,
+      "max_length": 512
+    }
+  ],
+  "model_load_seconds": 48.40989180000179,
+  "bm25_index_seconds": 14.786491099999694,
+  "actual_gpu_seconds": 202.42222809999657,
+  "node_token_preflight": {
+    "inputs": 13,
+    "max_input_tokens": 197,
+    "max_length": 512,
+    "truncated_inputs": 0,
+    "truncation_allowed": false
+  },
+  "actual_retrieve_total_rerank_positions": 4800,
+  "actual_new_rerank_pairs": 1649,
+  "actual_shared_rerank_pairs": 3151
+}

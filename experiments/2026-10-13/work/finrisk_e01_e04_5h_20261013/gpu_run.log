@@ -1,0 +1,100 @@
+{"event": "prepare_start", "mode": "dev", "queries": 0, "expected_sources": 9639}
+{"event": "prepare_source_progress", "verified_sources": 2000, "expected": 9639}
+{"event": "prepare_source_progress", "verified_sources": 4000, "expected": 9639}
+{"event": "prepare_source_progress", "verified_sources": 6000, "expected": 9639}
+{"event": "prepare_source_progress", "verified_sources": 8000, "expected": 9639}
+{"event": "prepare_complete", "units": 65475, "verified_sources": 9639, "seconds": 80.52577559999918}
+{"event": "model_load_start", "queries": 42, "approved_scope_units": 21, "cards": 4}
+`torch_dtype` is deprecated! Use `dtype` instead!
+{"event": "document_cache_seeded", "key": "5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07", "copied": [".json", ".npy"], "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\vector_cache"}
+{"event": "bm25_build_start", "view": "B0", "units": 65475}
+{"event": "bm25_build_complete", "view": "B0", "seconds": 14.464842299999873}
+{"event": "bm25_build_start", "view": "S1", "units": 65475}
+{"event": "bm25_build_complete", "view": "S1", "seconds": 13.604124599998613}
+{"event": "bm25_build_start", "view": "C2", "units": 65475}
+{"event": "bm25_build_complete", "view": "C2", "seconds": 13.568931100002374}
+{"event": "query_start", "query_id": "Q001", "index": 1, "total": 42}
+{"event": "query_complete", "query_id": "Q001", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 143, "mechanism_units": 5, "seconds": 5.122181900002033}
+{"event": "query_start", "query_id": "Q002", "index": 2, "total": 42}
+{"event": "query_complete", "query_id": "Q002", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 134, "mechanism_units": 5, "seconds": 4.877806000000419}
+{"event": "query_start", "query_id": "Q009", "index": 3, "total": 42}
+{"event": "query_complete", "query_id": "Q009", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 142, "mechanism_units": 5, "seconds": 6.719917300000816}
+{"event": "query_start", "query_id": "Q012", "index": 4, "total": 42}
+{"event": "query_complete", "query_id": "Q012", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 139, "mechanism_units": 5, "seconds": 4.805368000001181}
+{"event": "query_start", "query_id": "Q016", "index": 5, "total": 42}
+{"event": "query_complete", "query_id": "Q016", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 137, "mechanism_units": 5, "seconds": 4.959748600002058}
+{"event": "query_start", "query_id": "Q021", "index": 6, "total": 42}
+{"event": "query_complete", "query_id": "Q021", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 134, "mechanism_units": 5, "seconds": 5.5443320000013046}
+{"event": "query_start", "query_id": "Q022", "index": 7, "total": 42}
+{"event": "query_complete", "query_id": "Q022", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 140, "mechanism_units": 4, "seconds": 5.052913299998181}
+{"event": "query_start", "query_id": "Q037", "index": 8, "total": 42}
+{"event": "query_complete", "query_id": "Q037", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 141, "mechanism_units": 4, "seconds": 5.245220700002392}
+{"event": "query_start", "query_id": "Q038", "index": 9, "total": 42}
+{"event": "query_complete", "query_id": "Q038", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 133, "mechanism_units": 5, "seconds": 4.896005099999456}
+{"event": "query_start", "query_id": "Q042", "index": 10, "total": 42}
+{"event": "query_complete", "query_id": "Q042", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 120, "mechanism_units": 5, "seconds": 4.91942950000157}
+{"event": "query_start", "query_id": "Q044", "index": 11, "total": 42}
+{"event": "query_complete", "query_id": "Q044", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 142, "mechanism_units": 5, "seconds": 4.992278699999588}
+{"event": "query_start", "query_id": "Q047", "index": 12, "total": 42}
+{"event": "query_complete", "query_id": "Q047", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 142, "mechanism_units": 5, "seconds": 4.665748999999778}
+{"event": "query_start", "query_id": "C001", "index": 13, "total": 42}
+{"event": "query_complete", "query_id": "C001", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 140, "mechanism_units": 5, "seconds": 4.567326299998967}
+{"event": "query_start", "query_id": "C002", "index": 14, "total": 42}
+{"event": "query_complete", "query_id": "C002", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 134, "mechanism_units": 5, "seconds": 4.824197699999786}
+{"event": "query_start", "query_id": "C003", "index": 15, "total": 42}
+{"event": "query_complete", "query_id": "C003", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 129, "mechanism_units": 5, "seconds": 4.795147800003178}
+{"event": "query_start", "query_id": "C004", "index": 16, "total": 42}
+{"event": "query_complete", "query_id": "C004", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 139, "mechanism_units": 5, "seconds": 4.493906399999105}
+{"event": "query_start", "query_id": "C005", "index": 17, "total": 42}
+{"event": "query_complete", "query_id": "C005", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 136, "mechanism_units": 5, "seconds": 4.8162459999985}
+{"event": "query_start", "query_id": "C006", "index": 18, "total": 42}
+{"event": "query_complete", "query_id": "C006", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 135, "mechanism_units": 5, "seconds": 5.56048219999866}
+{"event": "query_start", "query_id": "C007", "index": 19, "total": 42}
+{"event": "query_complete", "query_id": "C007", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 138, "mechanism_units": 5, "seconds": 4.707316700001684}
+{"event": "query_start", "query_id": "C008", "index": 20, "total": 42}
+{"event": "query_complete", "query_id": "C008", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 123, "mechanism_units": 5, "seconds": 4.69317349999983}
+{"event": "query_start", "query_id": "C009", "index": 21, "total": 42}
+{"event": "query_complete", "query_id": "C009", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 140, "mechanism_units": 5, "seconds": 5.162656200001948}
+{"event": "query_start", "query_id": "C010", "index": 22, "total": 42}
+{"event": "query_complete", "query_id": "C010", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 134, "mechanism_units": 5, "seconds": 4.907729499998823}
+{"event": "query_start", "query_id": "N001", "index": 23, "total": 42}
+{"event": "query_complete", "query_id": "N001", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 141, "mechanism_units": 5, "seconds": 4.948367699998926}
+{"event": "query_start", "query_id": "N002", "index": 24, "total": 42}
+{"event": "query_complete", "query_id": "N002", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 145, "mechanism_units": 5, "seconds": 5.0546627000003355}
+{"event": "query_start", "query_id": "N003", "index": 25, "total": 42}
+{"event": "query_complete", "query_id": "N003", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 123, "mechanism_units": 5, "seconds": 4.631123399998614}
+{"event": "query_start", "query_id": "N004", "index": 26, "total": 42}
+{"event": "query_complete", "query_id": "N004", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 143, "mechanism_units": 5, "seconds": 4.747683499997947}
+{"event": "query_start", "query_id": "N005", "index": 27, "total": 42}
+{"event": "query_complete", "query_id": "N005", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 137, "mechanism_units": 5, "seconds": 4.691302600000199}
+{"event": "query_start", "query_id": "N006", "index": 28, "total": 42}
+{"event": "query_complete", "query_id": "N006", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 141, "mechanism_units": 5, "seconds": 4.836540100001002}
+{"event": "query_start", "query_id": "N007", "index": 29, "total": 42}
+{"event": "query_complete", "query_id": "N007", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 138, "mechanism_units": 5, "seconds": 4.578534100000979}
+{"event": "query_start", "query_id": "N008", "index": 30, "total": 42}
+{"event": "query_complete", "query_id": "N008", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 140, "mechanism_units": 5, "seconds": 5.060244000000239}
+{"event": "query_start", "query_id": "N009", "index": 31, "total": 42}
+{"event": "query_complete", "query_id": "N009", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 137, "mechanism_units": 6, "seconds": 4.461541700002272}
+{"event": "query_start", "query_id": "N010", "index": 32, "total": 42}
+{"event": "query_complete", "query_id": "N010", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 135, "mechanism_units": 4, "seconds": 5.219378300000244}
+{"event": "query_start", "query_id": "N011", "index": 33, "total": 42}
+{"event": "query_complete", "query_id": "N011", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 139, "mechanism_units": 5, "seconds": 4.622803700000077}
+{"event": "query_start", "query_id": "N012", "index": 34, "total": 42}
+{"event": "query_complete", "query_id": "N012", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 139, "mechanism_units": 5, "seconds": 4.567215600000054}
+{"event": "query_start", "query_id": "N013", "index": 35, "total": 42}
+{"event": "query_complete", "query_id": "N013", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 133, "mechanism_units": 5, "seconds": 4.674204599999939}
+{"event": "query_start", "query_id": "N014", "index": 36, "total": 42}
+{"event": "query_complete", "query_id": "N014", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 143, "mechanism_units": 6, "seconds": 4.74089129999993}
+{"event": "query_start", "query_id": "N015", "index": 37, "total": 42}
+{"event": "query_complete", "query_id": "N015", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 140, "mechanism_units": 5, "seconds": 4.688417099998333}
+{"event": "query_start", "query_id": "N016", "index": 38, "total": 42}
+{"event": "query_complete", "query_id": "N016", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 136, "mechanism_units": 5, "seconds": 4.959140999999363}
+{"event": "query_start", "query_id": "N017", "index": 39, "total": 42}
+{"event": "query_complete", "query_id": "N017", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 133, "mechanism_units": 4, "seconds": 4.84567590000006}
+{"event": "query_start", "query_id": "N018", "index": 40, "total": 42}
+{"event": "query_complete", "query_id": "N018", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 138, "mechanism_units": 5, "seconds": 4.888710200000787}
+{"event": "query_start", "query_id": "N019", "index": 41, "total": 42}
+{"event": "query_complete", "query_id": "N019", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 133, "mechanism_units": 6, "seconds": 4.645950499998435}
+{"event": "query_start", "query_id": "N020", "index": 42, "total": 42}
+{"event": "query_complete", "query_id": "N020", "arms": ["B0", "S1", "C2", "W4", "M3"], "shared_actual_score_inputs": 135, "mechanism_units": 4, "seconds": 4.961100699998497}
+{"event": "run_complete", "rows": 210, "seconds": 379.127385900003, "output": "outputs\\FinRisk_E01-E04\u4e94\u5c0f\u65f6\u5b9e\u9a8c_20261013\\results.jsonl"}

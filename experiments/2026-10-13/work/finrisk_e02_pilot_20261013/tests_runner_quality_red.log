@@ -1,0 +1,14 @@
+test_quality_binds_whole_candidate_files_including_spans_and_link_reason (__main__.E02Tests.test_quality_binds_whole_candidate_files_including_spans_and_link_reason) ... FAIL
+
+======================================================================
+FAIL: test_quality_binds_whole_candidate_files_including_spans_and_link_reason (__main__.E02Tests.test_quality_binds_whole_candidate_files_including_spans_and_link_reason)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 117, in test_quality_binds_whole_candidate_files_including_spans_and_link_reason
+    self.assertTrue(callable(getattr(experiment,"validate_quality",None)),"full prefix/review artifact binding is missing")
+AssertionError: False is not true : full prefix/review artifact binding is missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)

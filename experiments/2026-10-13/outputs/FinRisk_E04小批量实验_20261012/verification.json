@@ -1,0 +1,301 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-12T16:16:22.692728+00:00",
+  "protected_files_unchanged": 13,
+  "old_cache_files_unchanged": 12,
+  "frozen_implementation_files_unchanged": 4,
+  "confirmation_selection_sha256": "71daddb3d3a75373dd76c6a09d6dc6abf33f98ef38c68d8e7bf5c55ae2b06bff",
+  "source_documents": 9639,
+  "confirmation_reference_sources": 10,
+  "old_anchor_sources": 27,
+  "source_id_and_exact_text_overlap": 0,
+  "confirmation_anchor_quotes_checked": 11,
+  "phase_audits": {
+    "dev": {
+      "queries": 12,
+      "result_records": 48,
+      "query_file_pairs": 77,
+      "contexts": 77,
+      "pending_pairs": 0,
+      "score_provenance_counts": {
+        "frozen_same_input_rerank": 1200,
+        "actual_local_gpu_rerank": 938
+      },
+      "truncated_inputs": 0,
+      "elapsed_seconds": 126.8610635999994,
+      "metric_counts": [
+        {
+          "arm": "A0",
+          "role": "all",
+          "queries": 12,
+          "denominator": 60,
+          "context_useful": 40,
+          "context_covered_queries": 10,
+          "context_warnings": 0,
+          "file_useful": 40,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A0",
+          "role": "boundary_condition_change",
+          "queries": 3,
+          "denominator": 15,
+          "context_useful": 10,
+          "context_covered_queries": 3,
+          "context_warnings": 0,
+          "file_useful": 10,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A0",
+          "role": "marketing_sales",
+          "queries": 5,
+          "denominator": 25,
+          "context_useful": 13,
+          "context_covered_queries": 3,
+          "context_warnings": 0,
+          "file_useful": 13,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A0",
+          "role": "other_insurance_operations",
+          "queries": 4,
+          "denominator": 20,
+          "context_useful": 17,
+          "context_covered_queries": 4,
+          "context_warnings": 0,
+          "file_useful": 17,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A1",
+          "role": "all",
+          "queries": 12,
+          "denominator": 60,
+          "context_useful": 45,
+          "context_covered_queries": 11,
+          "context_warnings": 4,
+          "file_useful": 45,
+          "file_warnings": 3
+        },
+        {
+          "arm": "A1",
+          "role": "boundary_condition_change",
+          "queries": 3,
+          "denominator": 15,
+          "context_useful": 12,
+          "context_covered_queries": 3,
+          "context_warnings": 2,
+          "file_useful": 12,
+          "file_warnings": 1
+        },
+        {
+          "arm": "A1",
+          "role": "marketing_sales",
+          "queries": 5,
+          "denominator": 25,
+          "context_useful": 15,
+          "context_covered_queries": 4,
+          "context_warnings": 2,
+          "file_useful": 15,
+          "file_warnings": 2
+        },
+        {
+          "arm": "A1",
+          "role": "other_insurance_operations",
+          "queries": 4,
+          "denominator": 20,
+          "context_useful": 18,
+          "context_covered_queries": 4,
+          "context_warnings": 0,
+          "file_useful": 18,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A2",
+          "role": "all",
+          "queries": 12,
+          "denominator": 60,
+          "context_useful": 40,
+          "context_covered_queries": 10,
+          "context_warnings": 6,
+          "file_useful": 40,
+          "file_warnings": 5
+        },
+        {
+          "arm": "A2",
+          "role": "boundary_condition_change",
+          "queries": 3,
+          "denominator": 15,
+          "context_useful": 10,
+          "context_covered_queries": 3,
+          "context_warnings": 1,
+          "file_useful": 10,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A2",
+          "role": "marketing_sales",
+          "queries": 5,
+          "denominator": 25,
+          "context_useful": 13,
+          "context_covered_queries": 3,
+          "context_warnings": 4,
+          "file_useful": 13,
+          "file_warnings": 4
+        },
+        {
+          "arm": "A2",
+          "role": "other_insurance_operations",
+          "queries": 4,
+          "denominator": 20,
+          "context_useful": 17,
+          "context_covered_queries": 4,
+          "context_warnings": 1,
+          "file_useful": 17,
+          "file_warnings": 1
+        },
+        {
+          "arm": "A3",
+          "role": "all",
+          "queries": 12,
+          "denominator": 60,
+          "context_useful": 40,
+          "context_covered_queries": 10,
+          "context_warnings": 6,
+          "file_useful": 40,
+          "file_warnings": 5
+        },
+        {
+          "arm": "A3",
+          "role": "boundary_condition_change",
+          "queries": 3,
+          "denominator": 15,
+          "context_useful": 10,
+          "context_covered_queries": 3,
+          "context_warnings": 1,
+          "file_useful": 10,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A3",
+          "role": "marketing_sales",
+          "queries": 5,
+          "denominator": 25,
+          "context_useful": 13,
+          "context_covered_queries": 3,
+          "context_warnings": 4,
+          "file_useful": 13,
+          "file_warnings": 4
+        },
+        {
+          "arm": "A3",
+          "role": "other_insurance_operations",
+          "queries": 4,
+          "denominator": 20,
+          "context_useful": 17,
+          "context_covered_queries": 4,
+          "context_warnings": 1,
+          "file_useful": 17,
+          "file_warnings": 1
+        }
+      ],
+      "a0_exact_reproduction_queries": 12,
+      "a2_a3_identical_outputs_queries": 12
+    },
+    "confirmation": {
+      "queries": 10,
+      "result_records": 20,
+      "query_file_pairs": 55,
+      "contexts": 55,
+      "pending_pairs": 0,
+      "score_provenance_counts": {
+        "actual_local_gpu_rerank": 1735
+      },
+      "truncated_inputs": 0,
+      "elapsed_seconds": 147.18986829999994,
+      "metric_counts": [
+        {
+          "arm": "A0",
+          "role": "all",
+          "queries": 10,
+          "denominator": 50,
+          "context_useful": 36,
+          "context_covered_queries": 10,
+          "context_warnings": 1,
+          "file_useful": 37,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A0",
+          "role": "boundary",
+          "queries": 4,
+          "denominator": 20,
+          "context_useful": 14,
+          "context_covered_queries": 4,
+          "context_warnings": 0,
+          "file_useful": 15,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A0",
+          "role": "risk",
+          "queries": 6,
+          "denominator": 30,
+          "context_useful": 22,
+          "context_covered_queries": 6,
+          "context_warnings": 1,
+          "file_useful": 22,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A3",
+          "role": "all",
+          "queries": 10,
+          "denominator": 50,
+          "context_useful": 36,
+          "context_covered_queries": 10,
+          "context_warnings": 1,
+          "file_useful": 37,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A3",
+          "role": "boundary",
+          "queries": 4,
+          "denominator": 20,
+          "context_useful": 14,
+          "context_covered_queries": 4,
+          "context_warnings": 0,
+          "file_useful": 15,
+          "file_warnings": 0
+        },
+        {
+          "arm": "A3",
+          "role": "risk",
+          "queries": 6,
+          "denominator": 30,
+          "context_useful": 22,
+          "context_covered_queries": 6,
+          "context_warnings": 1,
+          "file_useful": 22,
+          "file_warnings": 0
+        }
+      ],
+      "changed_top5_queries": [
+        "C002",
+        "C005",
+        "C007",
+        "C008",
+        "C009"
+      ]
+    }
+  },
+  "human_approved": false,
+  "limits": [
+    "Semantic grades are model opinions; not official gold or human approval.",
+    "Method/rank blind; some graders saw query-author task metadata, recorded in notes.",
+    "Source ID/text exclusion does not prove globally independent events."
+  ]
+}

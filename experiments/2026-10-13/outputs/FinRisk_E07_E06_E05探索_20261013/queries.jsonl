@@ -1,0 +1,16 @@
+{"query_id":"D001","text":"直播介绍重疾险时，主播说医院出具确诊书后当天就能拿到保险金，还要求销售员不用讲免责事项，免得客户犹豫。","demo_role":"risk_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D002","text":"介绍重疾险时，销售员说明确诊后仍要核对合同约定的疾病定义、等待期和免责事项，并逐项提醒客户阅读，未承诺当天到账。","demo_role":"boundary_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D003","text":"销售人员私下说，投保后会把部分保费作为现金补贴返给客户，这笔补贴没有写入保险合同，由销售员另行转账。","demo_role":"risk_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D004","text":"客户支付的保费、保险期间和给付金额均写在本次保险合同内，销售员只解释合同内容，没有另外承诺返现、礼品或其他利益。","demo_role":"boundary_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D005","text":"这批保单由公司直销团队完成，没有代理人参与。财务仍把业务挂到代理人名下支付手续费，再让代理人转回，用于业务招待。","demo_role":"risk_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D006","text":"代理人实际参与客户沟通和投保服务，业务归属和服务记录与本人一致，公司按真实代理业务支付合同约定的手续费，未要求资金转回。","demo_role":"boundary_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D007","text":"推销万能险时，销售员把去年的结算利率说成今后每年都保证达到的收益率，并表示客户不用考虑结算变化和费用扣除。","demo_role":"risk_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D008","text":"万能险介绍材料分别列明合同保证利率和历史结算利率，说明历史结算不代表未来，未来可能变化，并提示相关费用和风险。","demo_role":"boundary_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D009","text":"公司安排尚未取得本机构发放执业证书的销售人员独立向客户推荐保险、办理投保，公司打算先开展销售再补办证书。","demo_role":"risk_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D010","text":"受托销售人员已完成本机构登记并持有本机构发放的执业证书，当前发现的只是档案联系电话过期，需要更新联系信息。","demo_role":"boundary_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D011","text":"农险业务人员提议在没有实际灾害损失的村庄编造受灾面积，领取赔款后用来返还此前由村组垫付的保费。","demo_role":"risk_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D012","text":"农户发生合同约定的灾害损失，查勘核实后按实际损失支付赔款到农户账户，没有虚增损失，也没有扣留赔款抵缴保费。","demo_role":"boundary_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D013","text":"电话推广材料写理赔手续很方便、办理速度很快，但没有保存完整录音，也未核清实际服务流程和具体承诺时长，需要判断是否夸大。","demo_role":"incomplete_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D014","text":"收到一张保险产品利益演示截图，列有多个收益数字。产品类型、数字是否保证、对应期限和销售员解释均未提供，目前需要审查风险。","demo_role":"incomplete_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D015","text":"财务记录有一笔手续费支付给个人，业务说明写渠道服务。尚不清楚个人是否实际参与销售、是否有授权以及资金是否转回公司。","demo_role":"incomplete_prompt","origin":"current_session_constructed_not_human_gold"}
+{"query_id":"D016","text":"短视频称买保险后期满能领取一笔钱，现有材料没有合同、给付条件、金额是否保证和完整视频，尚不能确定宣传与条款是否一致。","demo_role":"incomplete_prompt","origin":"current_session_constructed_not_human_gold"}

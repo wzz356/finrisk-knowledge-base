@@ -1,0 +1,33 @@
+test_approved_exact_extract_is_allowed (__main__.E02Tests.test_approved_exact_extract_is_allowed) ... ok
+test_boolean_and_outside_span_rejected (__main__.E02Tests.test_boolean_and_outside_span_rejected) ... ok
+test_cache_must_stay_under_e02_work (__main__.E02Tests.test_cache_must_stay_under_e02_work) ... ok
+test_duplicate_prefix_or_review_rejected (__main__.E02Tests.test_duplicate_prefix_or_review_rejected) ... ok
+test_missing_semantic_review_is_rejected (__main__.E02Tests.test_missing_semantic_review_is_rejected) ... ok
+test_output_and_every_sidecar_refuse_overwrite (__main__.E02Tests.test_output_and_every_sidecar_refuse_overwrite) ... ok
+test_overlay_changes_only_selected_text_and_preserves_originals (__main__.E02Tests.test_overlay_changes_only_selected_text_and_preserves_originals) ... ok
+test_overlay_vectors_replace_only_selected_positions (__main__.E02Tests.test_overlay_vectors_replace_only_selected_positions) ... ok
+test_p0_full_stage_reproduction_is_strict (__main__.E02Tests.test_p0_full_stage_reproduction_is_strict) ... ok
+test_p1_return_preserves_body_and_has_actual_index_payload (__main__.E02Tests.test_p1_return_preserves_body_and_has_actual_index_payload) ... FAIL
+test_p2_preserves_index_and_no_prefix_bleeds_to_other_winner_unit (__main__.E02Tests.test_p2_preserves_index_and_no_prefix_bleeds_to_other_winner_unit) ... ok
+test_prefix_over_180_chars_rejected (__main__.E02Tests.test_prefix_over_180_chars_rejected) ... ok
+test_quote_must_match_precise_interval (__main__.E02Tests.test_quote_must_match_precise_interval) ... ok
+test_real_tokenizer_preflight_rejects_overlimit_before_inference (__main__.E02Tests.test_real_tokenizer_preflight_rejects_overlimit_before_inference) ... ok
+test_rejected_prefix_does_not_change_dose (__main__.E02Tests.test_rejected_prefix_does_not_change_dose) ... ok
+test_replay_query_text_group_or_role_drift_rejected (__main__.E02Tests.test_replay_query_text_group_or_role_drift_rejected) ... ok
+test_rerank_scores_require_exact_candidate_ids_and_finite_values (__main__.E02Tests.test_rerank_scores_require_exact_candidate_ids_and_finite_values) ... ok
+test_review_prefix_bytes_are_bound (__main__.E02Tests.test_review_prefix_bytes_are_bound) ... ok
+test_source_sha_and_base_text_sha_are_bound (__main__.E02Tests.test_source_sha_and_base_text_sha_are_bound) ... ok
+test_unknown_label_or_unquoted_prefix_rejected (__main__.E02Tests.test_unknown_label_or_unquoted_prefix_rejected) ... ok
+
+======================================================================
+FAIL: test_p1_return_preserves_body_and_has_actual_index_payload (__main__.E02Tests.test_p1_return_preserves_body_and_has_actual_index_payload)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 154, in test_p1_return_preserves_body_and_has_actual_index_payload
+    self.assertEqual(returned.get("prefix_review_status"), "approved_model_review")
+AssertionError: None != 'approved_model_review'
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.695s
+
+FAILED (failures=1)

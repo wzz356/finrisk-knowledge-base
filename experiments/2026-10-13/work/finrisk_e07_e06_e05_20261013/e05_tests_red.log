@@ -1,0 +1,161 @@
+test_base_dense_keeps_original_row_ties_and_array (test_e05_runner.E05Tests.test_base_dense_keeps_original_row_ties_and_array) ... FAIL
+test_empty_cluster_repair_covers_identical_vectors (test_e05_runner.E05Tests.test_empty_cluster_repair_covers_identical_vectors) ... FAIL
+test_freeze_rejects_drift_and_missing_dependency (test_e05_runner.E05Tests.test_freeze_rejects_drift_and_missing_dependency) ... FAIL
+test_kmeans_rejects_invalid_vectors (test_e05_runner.E05Tests.test_kmeans_rejects_invalid_vectors) ... FAIL
+test_leaf_source_binding_and_ambiguity_guard (test_e05_runner.E05Tests.test_leaf_source_binding_and_ambiguity_guard) ... FAIL
+test_navigation_descendants_must_exist_in_full_population (test_e05_runner.E05Tests.test_navigation_descendants_must_exist_in_full_population) ... FAIL
+test_navigation_top_k_competes_then_expands_and_deduplicates (test_e05_runner.E05Tests.test_navigation_top_k_competes_then_expands_and_deduplicates) ... FAIL
+test_new_cache_and_output_refuse_overwrite_and_escape (test_e05_runner.E05Tests.test_new_cache_and_output_refuse_overwrite_and_escape) ... FAIL
+test_node_whitelist_rejects_empty_unknown_duplicate (test_e05_runner.E05Tests.test_node_whitelist_rejects_empty_unknown_duplicate) ... FAIL
+test_same_round_pool_reuses_only_exact_inputs (test_e05_runner.E05Tests.test_same_round_pool_reuses_only_exact_inputs) ... FAIL
+test_score_binding_forbids_wrong_text_source_runtime_and_run (test_e05_runner.E05Tests.test_score_binding_forbids_wrong_text_source_runtime_and_run) ... FAIL
+test_spherical_seed_coverage_and_centroid_norm (test_e05_runner.E05Tests.test_spherical_seed_coverage_and_centroid_norm) ... FAIL
+
+======================================================================
+FAIL: test_base_dense_keeps_original_row_ties_and_array (test_e05_runner.E05Tests.test_base_dense_keeps_original_row_ties_and_array)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 75, in test_base_dense_keeps_original_row_ties_and_array
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_empty_cluster_repair_covers_identical_vectors (test_e05_runner.E05Tests.test_empty_cluster_repair_covers_identical_vectors)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 42, in test_empty_cluster_repair_covers_identical_vectors
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_freeze_rejects_drift_and_missing_dependency (test_e05_runner.E05Tests.test_freeze_rejects_drift_and_missing_dependency)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 152, in test_freeze_rejects_drift_and_missing_dependency
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_kmeans_rejects_invalid_vectors (test_e05_runner.E05Tests.test_kmeans_rejects_invalid_vectors)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 48, in test_kmeans_rejects_invalid_vectors
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_leaf_source_binding_and_ambiguity_guard (test_e05_runner.E05Tests.test_leaf_source_binding_and_ambiguity_guard)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 62, in test_leaf_source_binding_and_ambiguity_guard
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_navigation_descendants_must_exist_in_full_population (test_e05_runner.E05Tests.test_navigation_descendants_must_exist_in_full_population)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 99, in test_navigation_descendants_must_exist_in_full_population
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_navigation_top_k_competes_then_expands_and_deduplicates (test_e05_runner.E05Tests.test_navigation_top_k_competes_then_expands_and_deduplicates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 86, in test_navigation_top_k_competes_then_expands_and_deduplicates
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_new_cache_and_output_refuse_overwrite_and_escape (test_e05_runner.E05Tests.test_new_cache_and_output_refuse_overwrite_and_escape)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 136, in test_new_cache_and_output_refuse_overwrite_and_escape
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_node_whitelist_rejects_empty_unknown_duplicate (test_e05_runner.E05Tests.test_node_whitelist_rejects_empty_unknown_duplicate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 55, in test_node_whitelist_rejects_empty_unknown_duplicate
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_same_round_pool_reuses_only_exact_inputs (test_e05_runner.E05Tests.test_same_round_pool_reuses_only_exact_inputs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 117, in test_same_round_pool_reuses_only_exact_inputs
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_score_binding_forbids_wrong_text_source_runtime_and_run (test_e05_runner.E05Tests.test_score_binding_forbids_wrong_text_source_runtime_and_run)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 104, in test_score_binding_forbids_wrong_text_source_runtime_and_run
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+======================================================================
+FAIL: test_spherical_seed_coverage_and_centroid_norm (test_e05_runner.E05Tests.test_spherical_seed_coverage_and_centroid_norm)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 31, in test_spherical_seed_coverage_and_centroid_norm
+    e = runner()
+        ^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e05_runner.py", line 17, in runner
+    assert path.exists(), "E05 runner has not been implemented"
+           ^^^^^^^^^^^^^
+AssertionError: E05 runner has not been implemented
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.010s
+
+FAILED (failures=12)

@@ -1,0 +1,713 @@
+{
+  "status": "complete",
+  "arms": [
+    "P0",
+    "P1",
+    "P2"
+  ],
+  "query_count": 22,
+  "completed_queries": 22,
+  "result_rows": 66,
+  "source_population": 9639,
+  "searchable_units": 65475,
+  "configuration": {
+    "weights": [
+      1,
+      1
+    ],
+    "depth": 100,
+    "rrf_k": 60,
+    "route_top_k": 100
+  },
+  "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache",
+  "network": "local_files_only; no paid API",
+  "actual_p1_inference": true,
+  "evaluation": "diagnostic_replay; old 22 E04 inputs; not independent confirmation",
+  "input_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\experiment.py": "6f671bd3234d56645022cf35e99d40417c48def1b3df2b3eb5e59800c243e353",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\queries.jsonl": "21847ec5f83067859669d33baf8afaf84e047fefd26d9ae228c097bfcd572da4",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefixes.jsonl": "42b4cd521d4a6e554ec23afe2a59c110146d32d2f4ef525125d8e2c6e7761adc",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_review.jsonl": "586f6f1aad4d65794be2145562a087c20e4b9462950d70ce49f19195a8ed828a",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\cohort.json": "d27c55a2d979630407c29e236225f64d9c2d892edff8ebcd6a73f33f11b3fad8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\input_freeze.json": "80d9e74137157a824370014831b0fff81361d2c19ce81652e74dbab2356bab70",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_quality.json": "0a2915efd487d41fa1a490c70f1f91b5833fac690e5163e9a399ec92e7abb2ac",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_inputs_p1.jsonl": "c23ddcccff71732074d35263b9906007cd9de17ca88736ecaf6c57577305838b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_inputs_p2.jsonl": "f22827d0d6992750d386fb906ad041dff7aaaf2a6867c7d03cd8289808cc14e1"
+  },
+  "candidate_units": 24,
+  "approved_units": 24,
+  "rejected_units": 0,
+  "changed_units": 24,
+  "overlay_unit_ids": [
+    "structured:F000269:V2:df502c53757f21531902f4e3638665b7760bf0564700ac1034d049426171aab1",
+    "structured:F000699:V2:fe1c1d14543bacd11b4f3a415540dfd127a6a1f5876fc3f2d32692f1de349997",
+    "structured:F000742:V2:094203814f22893f35736b56e0ec99e28377285c44a8b85ec8b8a97620c90af4",
+    "structured:F001128:V2:7d9cd46698449199ac1e3fcb84f88109aa920fe1eb781b78e60d27c669992a78",
+    "structured:F001345:V2:e6f1fd0956552cc893bf0e880a54e4ca7c16e509a22aa7d11f8e8b8bbae4a58b",
+    "structured:F001943:V2:c70af3fadd814e3894a15fbcdf7e2cfff070d6fda6f3a9e1f16b6444aecd1dfd",
+    "structured:F001978:V2:4a325539b41aee0d42196701b7e192b77989b9e8a962c61ce0b8ff965ddfa62f",
+    "structured:F001987:V2:0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+    "structured:F001988:V2:0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+    "structured:F002890:V2:d1c31f1ba6a8045cb54698b7141659205468ff25693e81602133bae1f54abafe",
+    "structured:F002958:V2:1fadbbdd65a4ec609a6d75c7c4b79742a102e7eeb21c0bfe9c9538e2540b5a00",
+    "structured:F003464:V2:b27630540b15289ceb77fabb4e55566a09a31215b3ea58eaa348f81dab8c3a42",
+    "structured:F003497:V2:1b296a1affaff3815a08690025cf339aa5e7b044d33edccbdd64c2c973559a29",
+    "structured:F003638:V2:1879f91a74fc1e30bd9ec77016ad53d98a6db2a7782b7a1c2c1c86b39520a763",
+    "structured:F004090:V2:a34b5e0552063be5750f48acabfe4c0a1efe6daafb42a2b55c4cf25fbf7c66a7",
+    "structured:F004155:V2:ac01ca08bb73abe4c814bdab18e2974e50ec6ca5afe847019a23200ecf3f4be7",
+    "structured:F006220:V2:76bdfc196770d2bcf9c7165af20fb094c3e12b916b4037054e552d2b78eced69",
+    "structured:F006493:V2:8f2f061b3ab53b07451acc3444423b1fa40462d162c9bb2f3598a7529a3e783e",
+    "structured:F008852:V2:3902643c058b2b98f8bd437f7a42ebe45eb35c798012f6ba96dcaf2c89973ad7",
+    "structured:F008940:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+    "structured:F008944:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+    "structured:F009488:V2:a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b",
+    "structured:F009491:V2:a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b",
+    "structured:F009587:V2:6f1e0d63edd3d43cbe10168563d7023cf8c276267bd6a15ad5626b80dabe00bc"
+  ],
+  "source_audit": {
+    "source_files": 9639,
+    "source_shards": 97,
+    "repo_manifest_sha256": "b9de12fe3c72a904cac85cb3313a5427ec8e161212440f3c71c05bbda4a65dd4",
+    "preparation_code": {
+      "projection_sha256": "7f8805bdfa99f9a1f07e7d92415f85b86eee534b5d76b032258cb123f1a315ca",
+      "historical_normalization_sha256": "814006b00629aa40759ad46199659708cdd993bb80dab7db77b837aebdc523fb",
+      "normalization_executed_in_retrieval": false
+    }
+  },
+  "baseline_origins": {
+    "Q001": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q002": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q009": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q012": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q016": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q021": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q022": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q037": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q038": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q042": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q044": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "Q047": {
+      "phase": "dev",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl",
+      "sha256": "2c322ecd5815656a8b5b5c6e7ec91d64b90ba577cc19c81aa94ad49602e876f0",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\dev_results.jsonl.run.json",
+      "run_sha256": "702853a0cf79f0159dc1b39b4fb7d4b7103062c51d4e27eae2b6306d653c3056"
+    },
+    "C001": {
+      "phase": "confirmation",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl",
+      "sha256": "349cf833ff72c7f71150df319b698d68100a25c2ba78a804d9cf68c28188dd8d",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl.run.json",
+      "run_sha256": "e2dbe39afbdca605ddf3bdecf1dbc2f93f16f3c870b824c4be736688bddedab1"
+    },
+    "C002": {
+      "phase": "confirmation",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl",
+      "sha256": "349cf833ff72c7f71150df319b698d68100a25c2ba78a804d9cf68c28188dd8d",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl.run.json",
+      "run_sha256": "e2dbe39afbdca605ddf3bdecf1dbc2f93f16f3c870b824c4be736688bddedab1"
+    },
+    "C003": {
+      "phase": "confirmation",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl",
+      "sha256": "349cf833ff72c7f71150df319b698d68100a25c2ba78a804d9cf68c28188dd8d",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl.run.json",
+      "run_sha256": "e2dbe39afbdca605ddf3bdecf1dbc2f93f16f3c870b824c4be736688bddedab1"
+    },
+    "C004": {
+      "phase": "confirmation",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl",
+      "sha256": "349cf833ff72c7f71150df319b698d68100a25c2ba78a804d9cf68c28188dd8d",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl.run.json",
+      "run_sha256": "e2dbe39afbdca605ddf3bdecf1dbc2f93f16f3c870b824c4be736688bddedab1"
+    },
+    "C005": {
+      "phase": "confirmation",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl",
+      "sha256": "349cf833ff72c7f71150df319b698d68100a25c2ba78a804d9cf68c28188dd8d",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl.run.json",
+      "run_sha256": "e2dbe39afbdca605ddf3bdecf1dbc2f93f16f3c870b824c4be736688bddedab1"
+    },
+    "C006": {
+      "phase": "confirmation",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl",
+      "sha256": "349cf833ff72c7f71150df319b698d68100a25c2ba78a804d9cf68c28188dd8d",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl.run.json",
+      "run_sha256": "e2dbe39afbdca605ddf3bdecf1dbc2f93f16f3c870b824c4be736688bddedab1"
+    },
+    "C007": {
+      "phase": "confirmation",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl",
+      "sha256": "349cf833ff72c7f71150df319b698d68100a25c2ba78a804d9cf68c28188dd8d",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl.run.json",
+      "run_sha256": "e2dbe39afbdca605ddf3bdecf1dbc2f93f16f3c870b824c4be736688bddedab1"
+    },
+    "C008": {
+      "phase": "confirmation",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl",
+      "sha256": "349cf833ff72c7f71150df319b698d68100a25c2ba78a804d9cf68c28188dd8d",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl.run.json",
+      "run_sha256": "e2dbe39afbdca605ddf3bdecf1dbc2f93f16f3c870b824c4be736688bddedab1"
+    },
+    "C009": {
+      "phase": "confirmation",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl",
+      "sha256": "349cf833ff72c7f71150df319b698d68100a25c2ba78a804d9cf68c28188dd8d",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl.run.json",
+      "run_sha256": "e2dbe39afbdca605ddf3bdecf1dbc2f93f16f3c870b824c4be736688bddedab1"
+    },
+    "C010": {
+      "phase": "confirmation",
+      "path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl",
+      "sha256": "349cf833ff72c7f71150df319b698d68100a25c2ba78a804d9cf68c28188dd8d",
+      "run_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\confirmation_results.jsonl.run.json",
+      "run_sha256": "e2dbe39afbdca605ddf3bdecf1dbc2f93f16f3c870b824c4be736688bddedab1"
+    }
+  },
+  "runner_sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+  "adapter_sha256": "c846cac66071c7f83028d99fb5968332655d51bb550abe4047cf0505c5ad44d4",
+  "e04_experiment_sha256": "dc2269e588af38966be1e2675fb7c86f1caab60f0e11e88e535574cd3a07c46e",
+  "manifest_sha256": "9f7f2d8cdbc621cfa577d8c5ffac439be3aeeeccc2f0e487cd1210bd78487a8d",
+  "base_ordered_text_sha256": "4b13375e3a3facecb24f86c0d2ed44a93d25eb1cdac39bdf706721cc2ff13255",
+  "overlay_ordered_text_sha256": "bc8cc9f70de441ea2941b4254f5084a28ef152c7cecac000600e5cec1a65f07a",
+  "baseline_reproduction_count": 22,
+  "runtime_binding": {
+    "runner_sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+    "adapter_sha256": "c846cac66071c7f83028d99fb5968332655d51bb550abe4047cf0505c5ad44d4",
+    "device": "cuda",
+    "precision": "float16",
+    "batch_size": 16,
+    "max_length": 512,
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.1",
+    "numpy": "1.26.4",
+    "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+    "embedding_cache_sha256": "1004a5109d12d22653fb7f8ed1c482172fbf37c9b7c59256d9172475b0cec4f3",
+    "reranker_cache_sha256": "7168dae8a54a02b336af80208d80489cd77929a92cfa133e5f3d6bfb8ea68368"
+  },
+  "parameters": {
+    "output": "outputs\\FinRisk_E02小批量实验_20261013\\results.jsonl",
+    "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache",
+    "embedding_model": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-small-zh-v1.5\\snapshots\\7999e1d3359715c523056ef9478215996d62a620",
+    "reranker_model": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-base\\snapshots\\2cfc18c9415c912f9d8155881c133215df768a70",
+    "project_src": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\src",
+    "device": "cuda",
+    "precision": "float16",
+    "batch_size": 16,
+    "max_length": 512
+  },
+  "document_cache_seed": {
+    "key": "5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07",
+    "source_cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache",
+    "target_cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache",
+    "metadata_sha256": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "npy_sha256": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "copied_suffixes": [
+      ".json",
+      ".npy"
+    ],
+    "ordered_unit_text_sha256": "4b13375e3a3facecb24f86c0d2ed44a93d25eb1cdac39bdf706721cc2ff13255",
+    "legacy_cache_access": "read_only",
+    "source_key_from": "frozen legacy run models.cache_events document/structured"
+  },
+  "query_token_preflight": {
+    "inputs": 22,
+    "max_input_tokens": 106,
+    "rejected": 0,
+    "max_length": 512
+  },
+  "overlay_token_preflight": {
+    "inputs": 24,
+    "max_input_tokens": 272,
+    "rejected": 0,
+    "max_length": 512
+  },
+  "overlay_vector_rows": [
+    836,
+    5448,
+    5963,
+    9888,
+    11955,
+    18319,
+    18713,
+    18804,
+    18815,
+    27273,
+    27831,
+    31909,
+    32284,
+    33728,
+    37619,
+    38068,
+    47504,
+    48663,
+    57733,
+    58191,
+    58223,
+    61876,
+    61905,
+    62589
+  ],
+  "vector_operation": {
+    "base_origin": "hash_verified_frozen_document_cache",
+    "base_inference_performed": false,
+    "new_document_encoding_rows": 24,
+    "unchanged_document_reencoding_rows": 0,
+    "actual_query_encoding_rows": 22,
+    "overlay_array_sha256": "dd53493a0415ead655b4ec9decc15f9efcc3479f21aac0f88d27bbfa2c2211e0",
+    "base_array_sha256": "d45b81a4e076804abf837795762fcbef670140887228adcc1f6a8c03ff32850c",
+    "shape": [
+      65475,
+      512
+    ],
+    "dtype": "float32"
+  },
+  "bm25": {
+    "units": 65475,
+    "k1": 1.5,
+    "b": 0.75,
+    "weight": 1.0,
+    "rebuilt": true,
+    "seconds": 13.460528999999951
+  },
+  "elapsed_seconds": 161.02010520000113,
+  "models": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "cpu_count": 32,
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.1",
+    "numpy": "1.26.4",
+    "torch_cpu_threads": 16,
+    "torch_interop_threads": 16,
+    "device": "cuda",
+    "precision": "float16",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "cuda_runtime": "12.4",
+    "embedding": {
+      "path": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-small-zh-v1.5\\snapshots\\7999e1d3359715c523056ef9478215996d62a620",
+      "revision": "7999e1d3359715c523056ef9478215996d62a620",
+      "files": [
+        {
+          "path": "1_Pooling/config.json",
+          "size": 190,
+          "sha256": "aaa8861589f80c961a03cc86c7eeaef7605c1676b9ab55329d33a304738769c6"
+        },
+        {
+          "path": "config.json",
+          "size": 776,
+          "sha256": "3853a7979202c348751b753e36f579c41d8da7d36af617d3d907e1fc9b441f2a"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "size": 124,
+          "sha256": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 95827648,
+          "sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026"
+        },
+        {
+          "path": "modules.json",
+          "size": 349,
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        {
+          "path": "README.md",
+          "size": 27670,
+          "sha256": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "size": 52,
+          "sha256": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 125,
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 439125,
+          "sha256": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 367,
+          "sha256": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a"
+        },
+        {
+          "path": "vocab.txt",
+          "size": 109540,
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+        }
+      ],
+      "cache_sha256": "1004a5109d12d22653fb7f8ed1c482172fbf37c9b7c59256d9172475b0cec4f3"
+    },
+    "reranker": {
+      "path": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-base\\snapshots\\2cfc18c9415c912f9d8155881c133215df768a70",
+      "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+      "files": [
+        {
+          "path": "config.json",
+          "size": 799,
+          "sha256": "289adf7ada1eb6b4afa7589a48a032d45a076cf2e46dcdb3b4cabc33be14f708"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1112206140,
+          "sha256": "ced967c45fd1902eb92716c9ceeca7c95a936770ea9db611f5a841b926e33fbd"
+        },
+        {
+          "path": "sentencepiece.bpe.model",
+          "size": 5069051,
+          "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 279,
+          "sha256": "d5469a60db23249c7f8945013d78df30b44b6bf686c6bb4740f4223f77b1b535"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 17098107,
+          "sha256": "9eb652ac4e40cc093272bbbe0f55d521cf67570060227109b5cdc20945a4489e"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 443,
+          "sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b"
+        }
+      ],
+      "cache_sha256": "7168dae8a54a02b336af80208d80489cd77929a92cfa133e5f3d6bfb8ea68368"
+    },
+    "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+    "truncation": [
+      {
+        "stage": "embedding",
+        "kind": "document",
+        "inputs": 65475,
+        "truncated_inputs": 0,
+        "max_input_tokens": 299,
+        "max_length": 512,
+        "corpus": "structured",
+        "cache_hit": true
+      },
+      {
+        "stage": "embedding",
+        "kind": "query",
+        "inputs": 22,
+        "truncated_inputs": 0,
+        "max_input_tokens": 106,
+        "max_length": 512,
+        "corpus": "E02_shared_queries",
+        "cache_hit": false
+      },
+      {
+        "stage": "embedding",
+        "kind": "document",
+        "inputs": 24,
+        "truncated_inputs": 0,
+        "max_input_tokens": 272,
+        "max_length": 512,
+        "corpus": "E02_overlay",
+        "cache_hit": false
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q001",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 264,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q002",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 285,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q009",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 276,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q012",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 270,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q016",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 267,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q021",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 265,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q022",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 262,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q037",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 275,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q038",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 283,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q042",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 276,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q044",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 242,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "Q047",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 283,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "C001",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 243,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "C002",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 261,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "C003",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 265,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "C004",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 257,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "C005",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 263,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "C006",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 268,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "C007",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 188,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "C008",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 192,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "C009",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 273,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E02_P1",
+        "query_id": "C010",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 268,
+        "max_length": 512
+      }
+    ],
+    "cache_events": [
+      {
+        "corpus": "structured",
+        "kind": "document",
+        "key": "5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07",
+        "hit": true,
+        "seconds": 1.7601375000012922
+      },
+      {
+        "corpus": "E02_shared_queries",
+        "kind": "query",
+        "key": "46ac9ccaf0df812af0a7c85c670e957c2f7913c0f4ea5a65e3cb43a006d33a1b",
+        "hit": false,
+        "seconds": 0.6489223999997193
+      },
+      {
+        "corpus": "E02_overlay",
+        "kind": "document",
+        "key": "a0c8281b422f28dc576d10c9abb25de94dd2126ab079daefe7cff117aab631d0",
+        "hit": false,
+        "seconds": 0.03780120000010356
+      }
+    ],
+    "model_load_seconds": 41.63125430000218
+  },
+  "output_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\results.jsonl",
+  "output_sha256": "193dd9371213d1cad645f58810d4c5097cec84c02304fa1941664f72619c13f9",
+  "score_pool_sha256": "406bc2be0cc95cea3eb7949af7b7648b065fd63832ea7e2df6338554fd383479",
+  "token_audit_sha256": "642be8c6f9f66e10d367dd9ea2713dc044d1a992fa9a12a1777e0572967f7904"
+}

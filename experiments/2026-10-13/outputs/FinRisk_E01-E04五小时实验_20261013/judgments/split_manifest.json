@@ -1,0 +1,81 @@
+{
+  "pool_sha256": "2a40a03d93c1f0fac25935981f5ebf21f417dae35b2ed7c27a3cdf26e7424172",
+  "parts": [
+    {
+      "part": 1,
+      "pairs": 90,
+      "contexts": 91,
+      "query_ids": [
+        "C001",
+        "C007",
+        "C009",
+        "N002",
+        "N004",
+        "N005",
+        "N009",
+        "N010",
+        "N017",
+        "N020",
+        "Q012",
+        "Q016",
+        "Q044",
+        "Q047"
+      ],
+      "source_chars": 81683,
+      "reading_chars": 105846,
+      "input_sha256": "3e526e9c7d8a2c46a71a770194dfd22a3cd65c74fe387383b28fd8074672abb7"
+    },
+    {
+      "part": 2,
+      "pairs": 87,
+      "contexts": 91,
+      "query_ids": [
+        "C004",
+        "C005",
+        "C006",
+        "C008",
+        "N003",
+        "N006",
+        "N007",
+        "N012",
+        "N013",
+        "N014",
+        "Q009",
+        "Q021",
+        "Q037",
+        "Q042"
+      ],
+      "source_chars": 80021,
+      "reading_chars": 105942,
+      "input_sha256": "32b5c668fd2689be91d453d205ba2b51656efb465375a1bceec447cb178c4bf8"
+    },
+    {
+      "part": 3,
+      "pairs": 91,
+      "contexts": 92,
+      "query_ids": [
+        "C002",
+        "C003",
+        "C010",
+        "N001",
+        "N008",
+        "N011",
+        "N015",
+        "N016",
+        "N018",
+        "N019",
+        "Q001",
+        "Q002",
+        "Q022",
+        "Q038"
+      ],
+      "source_chars": 80381,
+      "reading_chars": 105981,
+      "input_sha256": "7035451c1813fbb047dd86222baacab83c3677b8997a44959fa93af13dd0b5e5"
+    }
+  ],
+  "methods_ranks_author_targets_hidden": true,
+  "visible_intervention_format": true,
+  "same_query_all_methods_same_reviewer": true,
+  "human_approved": false
+}

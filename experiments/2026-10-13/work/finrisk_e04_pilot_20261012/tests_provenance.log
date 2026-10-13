@@ -1,0 +1,7 @@
+{"event": "prepare_start", "mode": "dev", "queries": 12, "expected_sources": 9639}
+{"event": "prepare_source_progress", "verified_sources": 2000, "expected": 9639}
+{"event": "prepare_source_progress", "verified_sources": 4000, "expected": 9639}
+{"event": "prepare_source_progress", "verified_sources": 6000, "expected": 9639}
+{"event": "prepare_source_progress", "verified_sources": 8000, "expected": 9639}
+{"event": "prepare_complete", "units": 65475, "verified_sources": 9639, "seconds": 83.53153989999919}
+{"event": "readonly_verification_complete", "queries": 12, "baseline_a0_exact": 12, "verified_sources": 9639, "units": 65475, "gpu_model_loaded": false}

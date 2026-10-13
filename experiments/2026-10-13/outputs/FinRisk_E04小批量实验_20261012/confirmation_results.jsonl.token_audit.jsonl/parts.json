@@ -1,0 +1,21 @@
+{
+  "path": "outputs/FinRisk_E04小批量实验_20261012/confirmation_results.jsonl.token_audit.jsonl",
+  "bytes": 24366471,
+  "sha256": "73b476943be56765937baa214fbad1206215b7ba017f63cc206bf8e6fdf96b8f",
+  "parts": [
+    {
+      "path": "outputs/FinRisk_E04小批量实验_20261012/confirmation_results.jsonl.token_audit.jsonl/part-0001.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 2392848,
+      "sha256": "82d07d7513273edc309d253956b8f7a704ad705ef11bed908d1ab5e360583d04",
+      "uncompressed_bytes": 20971157
+    },
+    {
+      "path": "outputs/FinRisk_E04小批量实验_20261012/confirmation_results.jsonl.token_audit.jsonl/part-0002.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 416508,
+      "sha256": "42b894f753d60f60ec3f2646a56bca85145a2229c608cd3f9ef57fffdc6b1b8a",
+      "uncompressed_bytes": 3395314
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "query_id": "D013",
+  "leaf_unit_id": "structured:F000699:V2:fe1c1d14543bacd11b4f3a415540dfd127a6a1f5876fc3f2d32692f1de349997",
+  "indexed_original_text": "一、电话销售欺骗投保人\n2015年安盛天平在开展电话销售业务经营中,公司销售人员存在电话销售欺骗投保人的违法行为,主要表现为对与保险业务相关的法律、法规、政策作虚假宣传,对本公司销售政策作虚假宣传,对理赔手\n续、时效等服务夸大宣传,擅自扩大保险责任,对本公司进行夸大宣传并诋毁同业公司等。",
+  "reviewed_leaf_text": "一、电话销售欺骗投保人\n2015年安盛天平在开展电话销售业务经营中,公司销售人员存在电话销售欺骗投保人的违法行为,主要表现为对与保险业务相关的法律、法规、政策作虚假宣传,对本公司销售政策作虚假宣传,对理赔手\n续、时效等服务夸大宣传,擅自扩大保险责任,对本公司进行夸大宣传并诋毁同业公司等。",
+  "original_text_sha256": "fe1c1d14543bacd11b4f3a415540dfd127a6a1f5876fc3f2d32692f1de349997",
+  "source_sha256": "a60298fe5b69055e8c93cf09dee3d5f687bfc1af44812edd00cc52ea31ce77e4",
+  "arms": [
+    {
+      "arm": "B0",
+      "trace": {
+        "bm25": [
+          {
+            "rank": 8,
+            "score": 62.664724493358776
+          }
+        ],
+        "dense": [],
+        "rrf_union": [
+          {
+            "rank": 21,
+            "score": 0.014705882352941176
+          }
+        ],
+        "rrf_top100": [
+          {
+            "rank": 21,
+            "score": 0.014705882352941176
+          }
+        ],
+        "rerank": [
+          {
+            "rank": 31,
+            "score": -0.409912109375
+          }
+        ]
+      },
+      "expansions": [],
+      "file_top20": []
+    },
+    {
+      "arm": "DIR",
+      "trace": {
+        "bm25": [
+          {
+            "rank": 8,
+            "score": 62.664724493358776
+          }
+        ],
+        "dense": [],
+        "rrf_union": [
+          {
+            "rank": 21,
+            "score": 0.014705882352941176
+          }
+        ],
+        "rrf_top100": [
+          {
+            "rank": 21,
+            "score": 0.014705882352941176
+          }
+        ],
+        "rerank": [
+          {
+            "rank": 31,
+            "score": -0.409912109375
+          }
+        ]
+      },
+      "expansions": [],
+      "file_top20": []
+    },
+    {
+      "arm": "TREE",
+      "trace": {
+        "bm25": [
+          {
+            "rank": 8,
+            "score": 62.664724493358776
+          }
+        ],
+        "dense": [
+          {
+            "rank": 14,
+            "score": 0.6380089521408081
+          }
+        ],
+        "rrf_union": [
+          {
+            "rank": 1,
+            "score": 0.02821939586645469
+          }
+        ],
+        "rrf_top100": [
+          {
+            "rank": 1,
+            "score": 0.02821939586645469
+          }
+        ],
+        "rerank": [
+          {
+            "rank": 31,
+            "score": -0.409912109375
+          }
+        ]
+      },
+      "expansions": [
+        {
+          "node_id": "TREE:L1:1",
+          "unit_id": "structured:F000699:V2:fe1c1d14543bacd11b4f3a415540dfd127a6a1f5876fc3f2d32692f1de349997",
+          "accepted": true,
+          "reason": "accepted"
+        }
+      ],
+      "file_top20": []
+    }
+  ],
+  "diagnostic_only": true,
+  "no_inputs_or_scores_changed": true
+}

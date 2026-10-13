@@ -1,0 +1,21 @@
+[
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\e05_runner.py",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\experiment.py",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_demo_v3_20261013\\demo.py",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\experiment.py",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\display_experiment.py",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\runner.py",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_v2_20261012\\run_v2.py",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_\u77e5\u8bc6\u5e93V2_20261012\\indexes\\all9639_final\\manifest.json",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_\u77e5\u8bc6\u5e93V2_20261012\\indexes\\all9639_final\\structured.jsonl",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_\u77e5\u8bc6\u5e93V2_20261012\\retrieval\\all9639_results.jsonl.run.json",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_\u77e5\u8bc6\u5e93V2_20261012\\retrieval\\all9639_results.jsonl",
+  "C:\\Users\\11051\\Desktop\\\u91d1\u878d\u6bd4\u8d5b\\\u590d\u8d5b\\FinRisk_\u590d\u8d5b\u6539\u8fdb\\src\\retrieval\\sparse.py",
+  "C:\\Users\\11051\\Desktop\\\u91d1\u878d\u6bd4\u8d5b\\\u590d\u8d5b\\FinRisk_\u590d\u8d5b\u6539\u8fdb\\src\\retrieval\\tokenization.py",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_\u77e5\u8bc6\u5e93V2_20261012\\normalized_final\\data\\documents.jsonl",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04\u4e94\u5c0f\u65f6\u5b9e\u9a8c_20261013\\scope_units.jsonl",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04\u4e94\u5c0f\u65f6\u5b9e\u9a8c_20261013\\scope_review.jsonl",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02\u5c0f\u6279\u91cf\u5b9e\u9a8c_20261013\\cohort.json",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.json",
+  "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.npy"
+]

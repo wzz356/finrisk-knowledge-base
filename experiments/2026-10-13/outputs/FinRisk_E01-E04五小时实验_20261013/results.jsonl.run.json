@@ -1,0 +1,2122 @@
+{
+  "status": "complete",
+  "arms": [
+    "B0",
+    "S1",
+    "C2",
+    "W4",
+    "M3"
+  ],
+  "query_count": 42,
+  "completed_queries": 42,
+  "result_rows": 210,
+  "input_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_召回实验_20261012\\queries.jsonl": "ee98d68b4e743fc2b5aef5c09f91627d71d5c10912081f9edcc587904c4cda18",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\quality\\effective_overlays.jsonl": "271f9f0ea3f8cd70ca3af5af2bffeeae2263b397e36246d3f6b9b25e9923a5f4",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\normalized_final\\data\\documents.jsonl": "1bd86772e4dfe479a87e9bc6ba7ef8d283da74b4a558ee5d4696146c728a584b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\indexes\\all9639_final\\manifest.json": "9f7f2d8cdbc621cfa577d8c5ffac439be3aeeeccc2f0e487cd1210bd78487a8d",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\indexes\\all9639_final\\structured.jsonl": "a653fd381c881e1d0659c1154da99c90ab0ac378f65e60f0bda347e2b2c2a2d8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\retrieval\\all9639_results.jsonl": "c76f196843d94b0e026baf8cd69f54f720d9fec278fb9518b5857a88ce3c04c1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\retrieval\\all9639_results.jsonl.run.json": "3e1fadd47983d9710ece824c0c050b7d304d0b2e34a69a599d1401a408fcd8f0",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\metrics\\validated_judgments.jsonl": "fc5c0bffe16d72748594a6516aebb1e9cea5a5d7eef0848093ac0bc17c46881c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\delivery_manifest.json": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\runner.py": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_v2_20261012\\run_v2.py": "c846cac66071c7f83028d99fb5968332655d51bb550abe4047cf0505c5ad44d4",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_v2_20261012\\projection_v2.py": "7f8805bdfa99f9a1f07e7d92415f85b86eee534b5d76b032258cb123f1a315ca",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\finrisk-knowledge-base\\dictionary\\risk_type_dictionary.csv": "0588febf140ada823980fdbe0c5691d77bc02ed439cb8d44e6cfef1cda12d8bb",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\delivery_manifest.json": "6626ef4872f3b70e2a5c110601ae612db24dfb50336c287656448f879547e30a",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\experiment.py": "dc2269e588af38966be1e2675fb7c86f1caab60f0e11e88e535574cd3a07c46e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\evaluate.py": "4f76a7f0655c0db95f9033aa0b74c11ef467cddf707275a40059da4c525a3e0c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\delivery_manifest.json": "c3e100ebb1124eb19c7e2ad43115f5a863d4615589bf88e0161fa7b177f11565",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_inputs_p1.jsonl": "c23ddcccff71732074d35263b9906007cd9de17ca88736ecaf6c57577305838b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_inputs_p2.jsonl": "f22827d0d6992750d386fb906ad041dff7aaaf2a6867c7d03cd8289808cc14e1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefixes.jsonl": "42b4cd521d4a6e554ec23afe2a59c110146d32d2f4ef525125d8e2c6e7761adc",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\cohort.json": "d27c55a2d979630407c29e236225f64d9c2d892edff8ebcd6a73f33f11b3fad8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\3a044ed373c805c7ce9ecee17dce008de17ffa3da7b2d1f7e09ee4a435be431b.json": "b8a4d0d16730762d4144d40d7aef3a317bd7189120d1ddc4e89a2eb2551d9125",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\3a044ed373c805c7ce9ecee17dce008de17ffa3da7b2d1f7e09ee4a435be431b.npy": "3227b5094db50030ed32c91c385199d43d95f9845fd4e340db7c46606d843204",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.json": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.npy": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\9dcb1c10e20bfe458fd9876d81e1127a82569fc57965e86ccf2f9350e299649b.json": "d3114cce2d603a007eab793e1d5aca77a49cbbcdaba41ee2f488230bad463918",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\9dcb1c10e20bfe458fd9876d81e1127a82569fc57965e86ccf2f9350e299649b.npy": "29a8e7366f15c34cd7bc65f849e3f95403e7cbbd98042d942fbdd906c7ff8857",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\b58f8551ded6fb6964e53ae7435f768a8d31db2867ad34f6641eab4d31586111.json": "c328e56a354a10ffddcbf8b53de55b02896be9e7433447dd43963e4a7572aa2c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\b58f8551ded6fb6964e53ae7435f768a8d31db2867ad34f6641eab4d31586111.npy": "dc71bdeea033ac92acfc3943a340b038ee1d2cd9e3e15caa37b732bef69da10c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\bbe691f8d98c3121db1f1e8c500b5175bce103830535d01348ac4c41d56cef3e.json": "4ea877880f7750e6137e9c439e83edfd4187bbd968786399a3c5ebae5c3adf35",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\bbe691f8d98c3121db1f1e8c500b5175bce103830535d01348ac4c41d56cef3e.npy": "eeb554f4bdb56220a3c49ad14f9e2ef4398eced6dcdfbc79506d4a250b93f718",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\d986727678c87d0ce31f14b1943c202c39b4f3a58a5ed32ed99ec18e82db2579.json": "8e1aa98b65e3bebe4e5a99c551cbf5b06f17d4a2d9942b7873dbdc10058a9fda",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\d986727678c87d0ce31f14b1943c202c39b4f3a58a5ed32ed99ec18e82db2579.npy": "db8526a4c670b980841188e201c88b71ded1f14a3b925cd9471fdcc277174eb7",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.json": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.npy": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\vector_cache\\cada06b4517b1bfe646da0d2c52ab18a9d018c405f0acb732d84f5bbadacd48d.json": "1556d3da9324a0e72564a81543e46911baecd7932644e1f9adcf3cadbf127202",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\vector_cache\\cada06b4517b1bfe646da0d2c52ab18a9d018c405f0acb732d84f5bbadacd48d.npy": "3acc4dc19ef52da3e35e518da5290ad81cd7f10e12e2faf06e8a55cc54fac5d0",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\46ac9ccaf0df812af0a7c85c670e957c2f7913c0f4ea5a65e3cb43a006d33a1b.json": "e274db17a1b8697bb50c5e54eb46292e2b8ca14a7e75b146d0d1044ac22d9cdc",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\46ac9ccaf0df812af0a7c85c670e957c2f7913c0f4ea5a65e3cb43a006d33a1b.npy": "a6020953d944b534c9a25609a8595e20a9a4d31a4552676759875c3d36c9c65f",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.json": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.npy": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\a0c8281b422f28dc576d10c9abb25de94dd2126ab079daefe7cff117aab631d0.json": "e8ed6639393fd2bdc1627d4a4b562e3bee2ade378ddc79b03562f1a13267c5dd",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\a0c8281b422f28dc576d10c9abb25de94dd2126ab079daefe7cff117aab631d0.npy": "b91246a0b4ed1551d388189ab565c259a20a96a3e8644d378f8f030c63428477",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\queries.jsonl": "3f436e2a7dcecd4dc85527b8d81a898cb0735806de971f1e56d9b0658f11f610",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\new_queries.jsonl": "a385aa18dc7567223a639099b8b6289725c6ad5856f492a9d9899d04b3ad7074",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\scope_units.jsonl": "66891b3af1c86b0bb584871561d90b3e6f7cb4abca635e3f1ea17b61c5f420b8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\scope_review.jsonl": "fd72f3637e5556559f5167680e66927ce92b4038b8fff604ecf99f2e036b4c53",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\mechanism_cards.jsonl": "d56faebfffe3713f3f7cb3dc3ee9f11868d2ca9ce6d1822176c41cea1bad20a1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\mechanism_review.jsonl": "46110d812d380b7e20498d4bd160e22921a9d4a3f4f4adef3ab864ef5a0eb835",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\design.md": "d4cd699743d1a8ddc4c70ed01a1dd76b6920632a8b6bbf7c71a7e1c7ef3a2624",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\input_freeze.json": "3099e43952e1fb36a0ff7feb8a2ca6af52bc6b32df02257feaad713eeecdf58c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\token_preflight.json": "3e263d717cc288a0865d71a37421a614460c8413b7c87a79a98178c6c20f1214",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\评分规则.md": "3f8a4e7b67eeb713971d79497f83055bd22b8c0e90f84c85064e8bc0f41d645b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\source_review_notes.md": "2611f30e11176005c176215d52b0447bab9aad05b3d00fc8b3d575ef2e0baa05",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\experiment.py": "e34f0f978ed731e29e9e1bf47df4ef2c67d3553d999c788c8a20b401234914e9",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\test_experiment.py": "e35e3ad1906c77d3c048fc4da165731794f80d85978f94a4b5ff2996d2166561",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\evaluate.py": "9226d3785cbbb1271fee40eaced5f6dff723b1a26463cd396f82b76df7ff44a1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\test_evaluate.py": "a2e708a419beae7e5829f2581bc27f9794039f2bb302779365d05d529eb371a8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\code_review.md": "fec462877bbb393bbb2c669fe7941bd90474cf0c137dfa469cdeed7da507530b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\tests_root_runtime.log": "6f437d360957484172e4ff814dd14ef7155d01af8dccfcaa4f1d2c6b39da5c54",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_v2_20261012\\eval_v2.py": "973e55c9d87a1cf912a98d10387b5cf6e8357d2456ccbd3aa5bf546061a1f073",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\execution_freeze.json": "347315da714f97b66ccc767f615c72be85a4afaeadb3e75e9e4fe2925b1504b6"
+  },
+  "searchable_units": 65475,
+  "source_population": 9639,
+  "configuration": {
+    "B0": {
+      "weights": [
+        1,
+        1
+      ],
+      "depth": 100,
+      "view": "B0"
+    },
+    "S1": {
+      "weights": [
+        1,
+        1
+      ],
+      "depth": 100,
+      "view": "S1"
+    },
+    "C2": {
+      "weights": [
+        1,
+        1
+      ],
+      "depth": 100,
+      "view": "C2"
+    },
+    "W4": {
+      "weights": [
+        2,
+        1
+      ],
+      "depth": 100,
+      "view": "B0"
+    },
+    "M3": {
+      "weights": [
+        1,
+        1,
+        1
+      ],
+      "depth": 100,
+      "view": "B0"
+    }
+  },
+  "card_top_k": 2,
+  "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\vector_cache",
+  "actual_local_inference": true,
+  "network": "local_files_only; no paid API",
+  "mechanism_limitations": "Only 3-5 candidate cards; Top2 can still expose many/all supports and is not a full mechanism graph",
+  "query_split": {
+    "new": 20,
+    "replay": 22,
+    "new_risk": 10,
+    "new_boundary": 10
+  },
+  "source_audit": {
+    "source_files": 9639,
+    "source_shards": 97,
+    "repo_manifest_sha256": "b9de12fe3c72a904cac85cb3313a5427ec8e161212440f3c71c05bbda4a65dd4",
+    "preparation_code": {
+      "projection_sha256": "7f8805bdfa99f9a1f07e7d92415f85b86eee534b5d76b032258cb123f1a315ca",
+      "historical_normalization_sha256": "814006b00629aa40759ad46199659708cdd993bb80dab7db77b837aebdc523fb",
+      "normalization_executed_in_retrieval": false
+    }
+  },
+  "approved_scope_units": 21,
+  "rejected_or_unchanged_scope_units": 3,
+  "approved_mechanism_cards": 4,
+  "approved_scope_unit_ids": [
+    "structured:F003464:V2:b27630540b15289ceb77fabb4e55566a09a31215b3ea58eaa348f81dab8c3a42",
+    "structured:F008940:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+    "structured:F008944:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+    "structured:F009488:V2:a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b",
+    "structured:F009491:V2:a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b",
+    "structured:F009587:V2:6f1e0d63edd3d43cbe10168563d7023cf8c276267bd6a15ad5626b80dabe00bc",
+    "structured:F000699:V2:fe1c1d14543bacd11b4f3a415540dfd127a6a1f5876fc3f2d32692f1de349997",
+    "structured:F004155:V2:ac01ca08bb73abe4c814bdab18e2974e50ec6ca5afe847019a23200ecf3f4be7",
+    "structured:F001987:V2:0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+    "structured:F001345:V2:e6f1fd0956552cc893bf0e880a54e4ca7c16e509a22aa7d11f8e8b8bbae4a58b",
+    "structured:F004090:V2:a34b5e0552063be5750f48acabfe4c0a1efe6daafb42a2b55c4cf25fbf7c66a7",
+    "structured:F001943:V2:c70af3fadd814e3894a15fbcdf7e2cfff070d6fda6f3a9e1f16b6444aecd1dfd",
+    "structured:F001988:V2:0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+    "structured:F000742:V2:094203814f22893f35736b56e0ec99e28377285c44a8b85ec8b8a97620c90af4",
+    "structured:F001978:V2:4a325539b41aee0d42196701b7e192b77989b9e8a962c61ce0b8ff965ddfa62f",
+    "structured:F002958:V2:1fadbbdd65a4ec609a6d75c7c4b79742a102e7eeb21c0bfe9c9538e2540b5a00",
+    "structured:F008852:V2:3902643c058b2b98f8bd437f7a42ebe45eb35c798012f6ba96dcaf2c89973ad7",
+    "structured:F003497:V2:1b296a1affaff3815a08690025cf339aa5e7b044d33edccbdd64c2c973559a29",
+    "structured:F002890:V2:d1c31f1ba6a8045cb54698b7141659205468ff25693e81602133bae1f54abafe",
+    "structured:F003638:V2:1879f91a74fc1e30bd9ec77016ad53d98a6db2a7782b7a1c2c1c86b39520a763",
+    "structured:F001128:V2:7d9cd46698449199ac1e3fcb84f88109aa920fe1eb781b78e60d27c669992a78"
+  ],
+  "base_ordered_text_sha256": "4b13375e3a3facecb24f86c0d2ed44a93d25eb1cdac39bdf706721cc2ff13255",
+  "manifest_sha256": "9f7f2d8cdbc621cfa577d8c5ffac439be3aeeeccc2f0e487cd1210bd78487a8d",
+  "runner_sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+  "adapter_sha256": "c846cac66071c7f83028d99fb5968332655d51bb550abe4047cf0505c5ad44d4",
+  "parameters": {
+    "output": "outputs\\FinRisk_E01-E04五小时实验_20261013\\results.jsonl",
+    "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\vector_cache",
+    "embedding_model": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-small-zh-v1.5\\snapshots\\7999e1d3359715c523056ef9478215996d62a620",
+    "reranker_model": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-base\\snapshots\\2cfc18c9415c912f9d8155881c133215df768a70",
+    "project_src": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\src",
+    "device": "cuda",
+    "precision": "float16",
+    "batch_size": 16,
+    "max_length": 512
+  },
+  "runtime_binding": {
+    "runner_sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+    "adapter_sha256": "c846cac66071c7f83028d99fb5968332655d51bb550abe4047cf0505c5ad44d4",
+    "device": "cuda",
+    "precision": "float16",
+    "batch_size": 16,
+    "max_length": 512,
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.1",
+    "numpy": "1.26.4",
+    "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+    "embedding_cache_sha256": "1004a5109d12d22653fb7f8ed1c482172fbf37c9b7c59256d9172475b0cec4f3",
+    "reranker_cache_sha256": "7168dae8a54a02b336af80208d80489cd77929a92cfa133e5f3d6bfb8ea68368"
+  },
+  "document_cache_seed": {
+    "key": "5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07",
+    "source_cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache",
+    "target_cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\vector_cache",
+    "metadata_sha256": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "npy_sha256": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "copied_suffixes": [
+      ".json",
+      ".npy"
+    ],
+    "ordered_unit_text_sha256": "4b13375e3a3facecb24f86c0d2ed44a93d25eb1cdac39bdf706721cc2ff13255",
+    "legacy_cache_access": "read_only",
+    "source_key_from": "frozen legacy run models.cache_events document/structured"
+  },
+  "query_token_preflight": {
+    "inputs": 42,
+    "max_input_tokens": 106,
+    "rejected": 0,
+    "max_length": 512
+  },
+  "overlay_token_preflight": {
+    "inputs": 36,
+    "max_input_tokens": 510,
+    "rejected": 0,
+    "max_length": 512
+  },
+  "card_token_preflight": {
+    "inputs": 4,
+    "max_input_tokens": 126,
+    "rejected": 0,
+    "max_length": 512
+  },
+  "vector_operation": {
+    "actual_query_encoding_rows": 42,
+    "query_encoding_calls": 1,
+    "unique_modified_document_encoding_rows": 36,
+    "mechanism_card_encoding_rows": 4,
+    "unchanged_document_reencoding_rows": 0,
+    "base_document_encoding_origin": "verified_frozen_cache_copy",
+    "old_query_vectors_used": false,
+    "old_reranker_scores_used": false,
+    "shape": [
+      65475,
+      512
+    ],
+    "dtype": "float32",
+    "base_array_sha256": "d45b81a4e076804abf837795762fcbef670140887228adcc1f6a8c03ff32850c",
+    "views": {
+      "S1": {
+        "representation_rows": 21,
+        "changed_text_rows": 15,
+        "changed_unit_rows": 15,
+        "changed_positions": [
+          5963,
+          11955,
+          18804,
+          18815,
+          27273,
+          27831,
+          31909,
+          32284,
+          33728,
+          37619,
+          38068,
+          58191,
+          58223,
+          61905,
+          62589
+        ],
+        "ordered_text_sha256": "f46c0dba5bb910d5b79fcfb68f1c2de4864235cb9d7bd651ef3ae027dbec836a",
+        "array_sha256": "29ec911288bd002ef5cbd0e535b8fc4ae48166efd8be9c05a6e9313a68134167"
+      },
+      "C2": {
+        "representation_rows": 21,
+        "changed_text_rows": 21,
+        "changed_unit_rows": 21,
+        "changed_positions": [
+          5448,
+          5963,
+          9888,
+          11955,
+          18319,
+          18713,
+          18804,
+          18815,
+          27273,
+          27831,
+          31909,
+          32284,
+          33728,
+          37619,
+          38068,
+          57733,
+          58191,
+          58223,
+          61876,
+          61905,
+          62589
+        ],
+        "ordered_text_sha256": "1c79309f27242132e4a3cd3c17989e63deb265c06718e7e6765262be31189c75",
+        "array_sha256": "f55c7712000a868c3f3fff0f9ee770e04262031d53a238d09ef775b6f5e97b2a"
+      }
+    },
+    "seconds": 7.047487699997873
+  },
+  "bm25_index_seconds": {
+    "B0": 14.464842299999873,
+    "S1": 13.604124599998613,
+    "C2": 13.568931100002374
+  },
+  "elapsed_seconds": 379.127385900003,
+  "models": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "cpu_count": 32,
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.1",
+    "numpy": "1.26.4",
+    "torch_cpu_threads": 16,
+    "torch_interop_threads": 16,
+    "device": "cuda",
+    "precision": "float16",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "cuda_runtime": "12.4",
+    "embedding": {
+      "path": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-small-zh-v1.5\\snapshots\\7999e1d3359715c523056ef9478215996d62a620",
+      "revision": "7999e1d3359715c523056ef9478215996d62a620",
+      "files": [
+        {
+          "path": "1_Pooling/config.json",
+          "size": 190,
+          "sha256": "aaa8861589f80c961a03cc86c7eeaef7605c1676b9ab55329d33a304738769c6"
+        },
+        {
+          "path": "config.json",
+          "size": 776,
+          "sha256": "3853a7979202c348751b753e36f579c41d8da7d36af617d3d907e1fc9b441f2a"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "size": 124,
+          "sha256": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 95827648,
+          "sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026"
+        },
+        {
+          "path": "modules.json",
+          "size": 349,
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        {
+          "path": "README.md",
+          "size": 27670,
+          "sha256": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "size": 52,
+          "sha256": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 125,
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 439125,
+          "sha256": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 367,
+          "sha256": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a"
+        },
+        {
+          "path": "vocab.txt",
+          "size": 109540,
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+        }
+      ],
+      "cache_sha256": "1004a5109d12d22653fb7f8ed1c482172fbf37c9b7c59256d9172475b0cec4f3"
+    },
+    "reranker": {
+      "path": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-base\\snapshots\\2cfc18c9415c912f9d8155881c133215df768a70",
+      "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+      "files": [
+        {
+          "path": "config.json",
+          "size": 799,
+          "sha256": "289adf7ada1eb6b4afa7589a48a032d45a076cf2e46dcdb3b4cabc33be14f708"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1112206140,
+          "sha256": "ced967c45fd1902eb92716c9ceeca7c95a936770ea9db611f5a841b926e33fbd"
+        },
+        {
+          "path": "sentencepiece.bpe.model",
+          "size": 5069051,
+          "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 279,
+          "sha256": "d5469a60db23249c7f8945013d78df30b44b6bf686c6bb4740f4223f77b1b535"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 17098107,
+          "sha256": "9eb652ac4e40cc093272bbbe0f55d521cf67570060227109b5cdc20945a4489e"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 443,
+          "sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b"
+        }
+      ],
+      "cache_sha256": "7168dae8a54a02b336af80208d80489cd77929a92cfa133e5f3d6bfb8ea68368"
+    },
+    "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+    "truncation": [
+      {
+        "stage": "embedding",
+        "kind": "document",
+        "inputs": 65475,
+        "truncated_inputs": 0,
+        "max_input_tokens": 299,
+        "max_length": 512,
+        "corpus": "structured",
+        "cache_hit": true
+      },
+      {
+        "stage": "embedding",
+        "kind": "query",
+        "inputs": 42,
+        "truncated_inputs": 0,
+        "max_input_tokens": 106,
+        "max_length": 512,
+        "corpus": "5h_shared_42_queries",
+        "cache_hit": false
+      },
+      {
+        "stage": "embedding",
+        "kind": "document",
+        "inputs": 36,
+        "truncated_inputs": 0,
+        "max_input_tokens": 510,
+        "max_length": 512,
+        "corpus": "5h_unique_modified_views",
+        "cache_hit": false
+      },
+      {
+        "stage": "embedding",
+        "kind": "document",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 126,
+        "max_length": 512,
+        "corpus": "5h_mechanism_cards",
+        "cache_hit": false
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q001",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 264,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "Q001",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 316,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "Q001",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 395,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q001",
+        "inputs": 32,
+        "truncated_inputs": 0,
+        "max_input_tokens": 278,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q001",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 149,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q002",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 285,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "Q002",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 128,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "Q002",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 155,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q002",
+        "inputs": 28,
+        "truncated_inputs": 0,
+        "max_input_tokens": 282,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q002",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 134,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q009",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 276,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "Q009",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 278,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "Q009",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 404,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q009",
+        "inputs": 33,
+        "truncated_inputs": 0,
+        "max_input_tokens": 250,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q009",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 143,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q012",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 270,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "Q012",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 280,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "Q012",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 312,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q012",
+        "inputs": 30,
+        "truncated_inputs": 0,
+        "max_input_tokens": 257,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q012",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 125,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q016",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 267,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q016",
+        "inputs": 32,
+        "truncated_inputs": 0,
+        "max_input_tokens": 262,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q016",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 155,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q021",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 265,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "Q021",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 191,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "Q021",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 272,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q021",
+        "inputs": 26,
+        "truncated_inputs": 0,
+        "max_input_tokens": 264,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q021",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 130,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q022",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 262,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q022",
+        "inputs": 36,
+        "truncated_inputs": 0,
+        "max_input_tokens": 251,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q022",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 130,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q037",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 275,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "Q037",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 63,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "Q037",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 240,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q037",
+        "inputs": 34,
+        "truncated_inputs": 0,
+        "max_input_tokens": 263,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q037",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 133,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q038",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 283,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "Q038",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 294,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "Q038",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 361,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q038",
+        "inputs": 27,
+        "truncated_inputs": 0,
+        "max_input_tokens": 271,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q038",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 138,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q042",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 276,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "Q042",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 130,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "Q042",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 198,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q042",
+        "inputs": 13,
+        "truncated_inputs": 0,
+        "max_input_tokens": 258,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q042",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 136,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q044",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 242,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "Q044",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 121,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q044",
+        "inputs": 35,
+        "truncated_inputs": 0,
+        "max_input_tokens": 237,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q044",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 147,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "Q047",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 283,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "Q047",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 429,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "Q047",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 436,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "Q047",
+        "inputs": 35,
+        "truncated_inputs": 0,
+        "max_input_tokens": 276,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "Q047",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 154,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "C001",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 243,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "C001",
+        "inputs": 35,
+        "truncated_inputs": 0,
+        "max_input_tokens": 260,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "C001",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 138,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "C002",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 261,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "C002",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 105,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "C002",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 85,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "C002",
+        "inputs": 27,
+        "truncated_inputs": 0,
+        "max_input_tokens": 245,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "C002",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 146,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "C003",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 265,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "C003",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 114,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "C003",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 141,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "C003",
+        "inputs": 22,
+        "truncated_inputs": 0,
+        "max_input_tokens": 262,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "C003",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 120,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "C004",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 257,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "C004",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 149,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "C004",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 214,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "C004",
+        "inputs": 32,
+        "truncated_inputs": 0,
+        "max_input_tokens": 260,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "C004",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 137,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "C005",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 263,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "C005",
+        "inputs": 31,
+        "truncated_inputs": 0,
+        "max_input_tokens": 242,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "C005",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 140,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "C006",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 268,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "C006",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 172,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "C006",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 224,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "C006",
+        "inputs": 30,
+        "truncated_inputs": 0,
+        "max_input_tokens": 252,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "C006",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 127,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "C007",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 188,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "C007",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 139,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "C007",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 122,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "C007",
+        "inputs": 29,
+        "truncated_inputs": 0,
+        "max_input_tokens": 216,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "C007",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 119,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "C008",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 192,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "C008",
+        "inputs": 18,
+        "truncated_inputs": 0,
+        "max_input_tokens": 239,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "C008",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 136,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "C009",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 273,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "C009",
+        "inputs": 36,
+        "truncated_inputs": 0,
+        "max_input_tokens": 277,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "C009",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 162,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "C010",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 268,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "C010",
+        "inputs": 30,
+        "truncated_inputs": 0,
+        "max_input_tokens": 275,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "C010",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 122,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N001",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 242,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N001",
+        "inputs": 36,
+        "truncated_inputs": 0,
+        "max_input_tokens": 246,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N001",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 137,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N002",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 262,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N002",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 303,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N002",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 296,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N002",
+        "inputs": 36,
+        "truncated_inputs": 0,
+        "max_input_tokens": 251,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N002",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 136,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N003",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 254,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N003",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 108,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N003",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 135,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N003",
+        "inputs": 17,
+        "truncated_inputs": 0,
+        "max_input_tokens": 252,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N003",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 114,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N004",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 256,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N004",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 143,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N004",
+        "inputs": 34,
+        "truncated_inputs": 0,
+        "max_input_tokens": 236,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N004",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 131,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N005",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 231,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N005",
+        "inputs": 32,
+        "truncated_inputs": 0,
+        "max_input_tokens": 252,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N005",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 134,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N006",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 244,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N006",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 256,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N006",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 323,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N006",
+        "inputs": 34,
+        "truncated_inputs": 0,
+        "max_input_tokens": 242,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N006",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 131,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N007",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 226,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N007",
+        "inputs": 33,
+        "truncated_inputs": 0,
+        "max_input_tokens": 230,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N007",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 112,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N008",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 254,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N008",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 193,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N008",
+        "inputs": 35,
+        "truncated_inputs": 0,
+        "max_input_tokens": 234,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N008",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 135,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N009",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 233,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N009",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 270,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N009",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 396,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N009",
+        "inputs": 26,
+        "truncated_inputs": 0,
+        "max_input_tokens": 195,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N009",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 135,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N010",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 252,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N010",
+        "inputs": 31,
+        "truncated_inputs": 0,
+        "max_input_tokens": 254,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N010",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 123,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N011",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 241,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N011",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 46,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N011",
+        "inputs": 33,
+        "truncated_inputs": 0,
+        "max_input_tokens": 241,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N011",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 114,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N012",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 248,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N012",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 300,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N012",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 293,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N012",
+        "inputs": 31,
+        "truncated_inputs": 0,
+        "max_input_tokens": 236,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N012",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 133,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N013",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 250,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N013",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 104,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N013",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 131,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N013",
+        "inputs": 26,
+        "truncated_inputs": 0,
+        "max_input_tokens": 241,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N013",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 110,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N014",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 228,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N014",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 251,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N014",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 192,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N014",
+        "inputs": 31,
+        "truncated_inputs": 0,
+        "max_input_tokens": 223,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N014",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 133,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N015",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 258,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N015",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 63,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N015",
+        "inputs": 34,
+        "truncated_inputs": 0,
+        "max_input_tokens": 239,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N015",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 140,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N016",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 247,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N016",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 265,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N016",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 332,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N016",
+        "inputs": 29,
+        "truncated_inputs": 0,
+        "max_input_tokens": 253,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N016",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 140,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N017",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 249,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N017",
+        "inputs": 29,
+        "truncated_inputs": 0,
+        "max_input_tokens": 226,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N017",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 120,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N018",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 248,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N018",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 160,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N018",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 212,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N018",
+        "inputs": 33,
+        "truncated_inputs": 0,
+        "max_input_tokens": 256,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N018",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 137,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N019",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 234,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_S1",
+        "query_id": "N019",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 276,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_C2",
+        "query_id": "N019",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 402,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N019",
+        "inputs": 23,
+        "truncated_inputs": 0,
+        "max_input_tokens": 239,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N019",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 141,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_B0",
+        "query_id": "N020",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 243,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_W4",
+        "query_id": "N020",
+        "inputs": 31,
+        "truncated_inputs": 0,
+        "max_input_tokens": 251,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "5h_M3",
+        "query_id": "N020",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 122,
+        "max_length": 512
+      }
+    ],
+    "cache_events": [
+      {
+        "corpus": "structured",
+        "kind": "document",
+        "key": "5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07",
+        "hit": true,
+        "seconds": 1.782202900001721
+      },
+      {
+        "corpus": "5h_shared_42_queries",
+        "kind": "query",
+        "key": "1ec11c4be8c781666096e8736013b10c9bea3ba5522e322fc55f80679f2efaa4",
+        "hit": false,
+        "seconds": 0.6990736000007018
+      },
+      {
+        "corpus": "5h_unique_modified_views",
+        "kind": "document",
+        "key": "c556e7ef8aac899c9efd31f3e540ba264919da0838abd67500895f2733477200",
+        "hit": false,
+        "seconds": 0.08920629999920493
+      },
+      {
+        "corpus": "5h_mechanism_cards",
+        "kind": "document",
+        "key": "d94e11946dc8edd7c9f3f386679641015c5e56c1bcab7063ebf466ae49b5654a",
+        "hit": false,
+        "seconds": 0.018009300001722295
+      }
+    ],
+    "model_load_seconds": 39.847331699998904
+  },
+  "mechanism_card_selection_patterns": {
+    "E03-MC01,E03-MC04": 4,
+    "E03-MC02,E03-MC03": 3,
+    "E03-MC01,E03-MC03": 10,
+    "E03-MC04,E03-MC02": 5,
+    "E03-MC03,E03-MC04": 5,
+    "E03-MC03,E03-MC02": 4,
+    "E03-MC04,E03-MC01": 8,
+    "E03-MC01,E03-MC02": 3
+  },
+  "output_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\results.jsonl",
+  "output_sha256": "f30bb3f28c9d869398c8d4ca751dc1faa5040997db1f4ceaa412db73ef712a2c",
+  "score_pool_sha256": "316c6481e0c63c3e2331e1cd054326ffca91c58b4e41d6e28885de6e1f96920f",
+  "token_audit_sha256": "e182a473e72960582f633d918ce0bda5efbd704af606a940baba79ba81eedcda"
+}

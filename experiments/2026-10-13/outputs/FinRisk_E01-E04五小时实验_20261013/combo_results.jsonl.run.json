@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "rows": 126,
+  "queries": 42,
+  "arms": [
+    "B0",
+    "W4",
+    "WD"
+  ],
+  "scope_top5_slots": 19,
+  "new_model_calls": 0,
+  "output_sha256": "c09bc6f7afbe96dc60376071dddc89227cec2ee06fdfcdbe9ac4b34355523d9d",
+  "parent_results_sha256": "f30bb3f28c9d869398c8d4ca751dc1faa5040997db1f4ceaa412db73ef712a2c",
+  "code_sha256": "092aaf671a624597828ab4f6139d5bc9ff2554e3565406690dfcf0ecb22c8f18",
+  "display_helper_sha256": "a0b5f50410938beb886d3188004cbb7b7320f764d5941fe42ef640db1a4e196d",
+  "design_sha256": "a9953ab27eb02bf8004df102b7a1f26a0cfe5e4fd5fff08155c0e46d69578bff",
+  "scope_units_sha256": "66891b3af1c86b0bb584871561d90b3e6f7cb4abca635e3f1ea17b61c5f420b8",
+  "scope_review_sha256": "fd72f3637e5556559f5167680e66927ce92b4038b8fff604ecf99f2e036b4c53",
+  "human_approved": false,
+  "independent_confirmation": false
+}

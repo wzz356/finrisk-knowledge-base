@@ -1,0 +1,7 @@
+{
+  "judgments": 16,
+  "evidence_positions": 80,
+  "model_useful_positions": 53,
+  "human_approved": false,
+  "semantic_gold": false
+}

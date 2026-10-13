@@ -1,0 +1,23 @@
+[
+  {
+    "part": 1,
+    "pairs": 8,
+    "contexts": 15,
+    "source_chars": 8945,
+    "input_sha256": "9241fde653445562f2e2163b757ef9fcce148f22eedb0c8aca2b11d8802ef883"
+  },
+  {
+    "part": 2,
+    "pairs": 9,
+    "contexts": 16,
+    "source_chars": 6430,
+    "input_sha256": "cd8d9d29c59a7a8ca0879dcb64ecf32a70b9486228cf246057fafe5139d519ba"
+  },
+  {
+    "part": 3,
+    "pairs": 4,
+    "contexts": 7,
+    "source_chars": 7834,
+    "input_sha256": "db1352284c0209a1affee71b8ff6043c71cf47811221ba0103a7cd8bc3a92eb5"
+  }
+]

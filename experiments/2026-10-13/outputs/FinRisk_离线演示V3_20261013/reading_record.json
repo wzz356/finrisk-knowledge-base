@@ -1,0 +1,53 @@
+{
+  "reader": "current_session_model",
+  "queries_read": [
+    "D001",
+    "D002",
+    "D003",
+    "D004",
+    "D005",
+    "D006",
+    "D007",
+    "D008",
+    "D009",
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014",
+    "D015",
+    "D016"
+  ],
+  "evidence_positions_read": 80,
+  "read_batch_order": [
+    [
+      "D001",
+      "D002",
+      "D003",
+      "D004"
+    ],
+    [
+      "D005",
+      "D006",
+      "D007",
+      "D008"
+    ],
+    [
+      "D009",
+      "D010",
+      "D011",
+      "D012"
+    ],
+    [
+      "D013",
+      "D014",
+      "D015",
+      "D016"
+    ]
+  ],
+  "input_author_is_same_session_judge": true,
+  "method_blind": false,
+  "human_approved": false,
+  "semantic_decisions": "All SPEC relations, helpfulness, quotes, reasons and labels were explicitly authored after reading actual displayed texts; code only binds and serializes.",
+  "packets_sha256": "611bb6856d2adcd8a39859052a718dfc2895645bdb0b8241c27c3c653b5ff630"
+}

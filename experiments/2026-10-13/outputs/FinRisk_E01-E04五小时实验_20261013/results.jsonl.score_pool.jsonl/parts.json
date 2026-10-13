@@ -1,0 +1,119 @@
+{
+  "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl",
+  "bytes": 334529463,
+  "sha256": "316c6481e0c63c3e2331e1cd054326ffca91c58b4e41d6e28885de6e1f96920f",
+  "parts": [
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0001.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 388316,
+      "sha256": "caf0f23b0b5ad0bf4c27b518853af9bb125cc7773417aca6ba2b4ff3f7f49ab0",
+      "uncompressed_bytes": 20964046
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0002.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 388352,
+      "sha256": "66ceeec729a7cf394cc422261ac5ef773e559fb0760c17ca7d03abeb9f5fa617",
+      "uncompressed_bytes": 20963485
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0003.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 390553,
+      "sha256": "1330ffb193ce7dc5c70477f1e12a8e6bac7e55e97196169add9ca1b7f7e7be91",
+      "uncompressed_bytes": 20963977
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0004.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 388625,
+      "sha256": "cb44ae0a0fc3d97e2d723a1b68ef5bab6733b7fda984edb08bf20b4413c64a6d",
+      "uncompressed_bytes": 20964409
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0005.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 388811,
+      "sha256": "314c34191bb5ebf34034c676f65bf65aa5c6a7e52b19a077373fae01d84434d9",
+      "uncompressed_bytes": 20963844
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0006.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 389393,
+      "sha256": "df32411e4ed816e1cbf45ed1ac268bdd48ed59aabb433830dbf5eaf49472d0ae",
+      "uncompressed_bytes": 20964062
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0007.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 387513,
+      "sha256": "b6bbfdf45af372c8c6d389dc586dc0020669b09a25b68a2fdb82984256e3f509",
+      "uncompressed_bytes": 20963197
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0008.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 386544,
+      "sha256": "f6f009a6150d7537ec065a06ef1219e3fd8827da31b6d0e0c72fd557a8866dee",
+      "uncompressed_bytes": 20962228
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0009.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 388173,
+      "sha256": "3b2d03e1d3c85ca4517b61eaf62362a54bab3ef6b7c3852fc168be623dba0fd1",
+      "uncompressed_bytes": 20963962
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0010.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 390674,
+      "sha256": "d0707c79bef1e12aa92ed877bb708118953fcec310588e23a4fbc008dafd5b88",
+      "uncompressed_bytes": 20963280
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0011.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 392847,
+      "sha256": "df39c0db931ea60e8e1565faae4963e6de6ce05531bf94d6979c50fdebf0e5f9",
+      "uncompressed_bytes": 20964532
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0012.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 391291,
+      "sha256": "86265737c5625ab31916966ca56747bb00125b39d3f9422630ec6de667208142",
+      "uncompressed_bytes": 20962853
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0013.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 390696,
+      "sha256": "d2466b8b3322cfce1fa4a79f041ba29e2b1c0ae6773adc480eb0a525d30473ed",
+      "uncompressed_bytes": 20964022
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0014.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 388697,
+      "sha256": "80c6f535904535f230b339b4402711ece9ea2237408498f445d4a0d40d9e6b24",
+      "uncompressed_bytes": 20964968
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0015.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 389078,
+      "sha256": "bbfbe7b230298260005756ae3fdacf41aa2717e9b36c979d7bf148351bccb9f8",
+      "uncompressed_bytes": 20963742
+    },
+    {
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/results.jsonl.score_pool.jsonl/part-0016.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 373495,
+      "sha256": "8ee373f2407a11f1efe4020dc3af8a54ddcb6b57c3095b6292008bd299cd03d0",
+      "uncompressed_bytes": 20072856
+    }
+  ]
+}

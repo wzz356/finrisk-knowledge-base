@@ -1,0 +1,21 @@
+test_blind_pool_removes_author_instructions_anchors_and_ranks (__main__.ContextTests.test_blind_pool_removes_author_instructions_anchors_and_ranks) ... ok
+test_extra_unquoted_prefix_assertion_rejected (__main__.ContextTests.test_extra_unquoted_prefix_assertion_rejected) ... ok
+test_extract_accepted_and_original_segments_unchanged (__main__.ContextTests.test_extract_accepted_and_original_segments_unchanged) ... ok
+test_fixed5_denominator_and_missing_grade_not_zero (__main__.ContextTests.test_fixed5_denominator_and_missing_grade_not_zero) ... ok
+test_invalid_label_rejected (__main__.ContextTests.test_invalid_label_rejected) ... ok
+test_new_output_guard_rejects_e04_and_root_itself (__main__.ContextTests.test_new_output_guard_rejects_e04_and_root_itself) ... ok
+test_original_context_cannot_be_fabricated (__main__.ContextTests.test_original_context_cannot_be_fabricated) ... ok
+test_pending_review_not_accepted (__main__.ContextTests.test_pending_review_not_accepted) ... ok
+test_plain_v2_still_accepted (__main__.ContextTests.test_plain_v2_still_accepted) ... ok
+test_prefix_of_another_winner_unit_rejected (__main__.ContextTests.test_prefix_of_another_winner_unit_rejected) ... ok
+test_prefix_quote_is_visible_and_source_exact (__main__.ContextTests.test_prefix_quote_is_visible_and_source_exact) ... ok
+test_real_prepare_summarize_roundtrip_keeps_fresh_bindings (__main__.ContextTests.test_real_prepare_summarize_roundtrip_keeps_fresh_bindings) ... ok
+test_rendered_text_must_exactly_match_prefix_and_base (__main__.ContextTests.test_rendered_text_must_exactly_match_prefix_and_base) ... ok
+test_reused_old_semantic_judgments_are_not_allowed (__main__.ContextTests.test_reused_old_semantic_judgments_are_not_allowed) ... ok
+test_roundtrip_pool_does_not_need_unblinded_winner_id (__main__.ContextTests.test_roundtrip_pool_does_not_need_unblinded_winner_id) ... ok
+test_wrong_prefix_span_is_rejected (__main__.ContextTests.test_wrong_prefix_span_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.822s
+
+OK

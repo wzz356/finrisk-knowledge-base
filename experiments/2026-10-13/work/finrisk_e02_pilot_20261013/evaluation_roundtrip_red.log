@@ -1,0 +1,40 @@
+test_blind_pool_removes_author_instructions_anchors_and_ranks (__main__.ContextTests.test_blind_pool_removes_author_instructions_anchors_and_ranks) ... ok
+test_extra_unquoted_prefix_assertion_rejected (__main__.ContextTests.test_extra_unquoted_prefix_assertion_rejected) ... ok
+test_extract_accepted_and_original_segments_unchanged (__main__.ContextTests.test_extract_accepted_and_original_segments_unchanged) ... ok
+test_fixed5_denominator_and_missing_grade_not_zero (__main__.ContextTests.test_fixed5_denominator_and_missing_grade_not_zero) ... ok
+test_invalid_label_rejected (__main__.ContextTests.test_invalid_label_rejected) ... ok
+test_new_output_guard_rejects_e04_and_root_itself (__main__.ContextTests.test_new_output_guard_rejects_e04_and_root_itself) ... ok
+test_original_context_cannot_be_fabricated (__main__.ContextTests.test_original_context_cannot_be_fabricated) ... ok
+test_pending_review_not_accepted (__main__.ContextTests.test_pending_review_not_accepted) ... ok
+test_plain_v2_still_accepted (__main__.ContextTests.test_plain_v2_still_accepted) ... ok
+test_prefix_of_another_winner_unit_rejected (__main__.ContextTests.test_prefix_of_another_winner_unit_rejected) ... ok
+test_prefix_quote_is_visible_and_source_exact (__main__.ContextTests.test_prefix_quote_is_visible_and_source_exact) ... ok
+test_real_prepare_summarize_roundtrip_keeps_fresh_bindings (__main__.ContextTests.test_real_prepare_summarize_roundtrip_keeps_fresh_bindings) ... ERROR
+test_rendered_text_must_exactly_match_prefix_and_base (__main__.ContextTests.test_rendered_text_must_exactly_match_prefix_and_base) ... ok
+test_reused_old_semantic_judgments_are_not_allowed (__main__.ContextTests.test_reused_old_semantic_judgments_are_not_allowed) ... ok
+test_roundtrip_pool_does_not_need_unblinded_winner_id (__main__.ContextTests.test_roundtrip_pool_does_not_need_unblinded_winner_id) ... ok
+test_wrong_prefix_span_is_rejected (__main__.ContextTests.test_wrong_prefix_span_is_rejected) ... ok
+
+======================================================================
+ERROR: test_real_prepare_summarize_roundtrip_keeps_fresh_bindings (__main__.ContextTests.test_real_prepare_summarize_roundtrip_keeps_fresh_bindings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_evaluate.py", line 152, in test_real_prepare_summarize_roundtrip_keeps_fresh_bindings
+    prepared=E.prepare(qp,[rp],phase,sources_path=sp)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\evaluate.py", line 109, in prepare
+    return _backend.prepare(queries_path, results_paths, output_dir, sources_path=sources_path or _backend.SOURCES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\evaluate.py", line 492, in prepare
+    pool, provenance = build_pool(queries, results, load_sources(sources_path))
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\evaluate.py", line 169, in load_sources
+    require(row.get(key) == digest, f"source SHA mismatch: {fid}:{key}")
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\evaluate.py", line 49, in require
+    raise ValueError(message)
+ValueError: source SHA mismatch: F1:source_sha256
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.226s
+
+FAILED (errors=1)

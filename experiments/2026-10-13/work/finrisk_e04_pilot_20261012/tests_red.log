@@ -1,0 +1,167 @@
+test_a0_uses_frozen_v2_aggregate_and_full_context (__main__.E04Tests.test_a0_uses_frozen_v2_aggregate_and_full_context) ... FAIL
+test_arm_100_200_candidate_difference_is_real_union (__main__.E04Tests.test_arm_100_200_candidate_difference_is_real_union) ... FAIL
+test_arm_truncates_routes_to_top100 (__main__.E04Tests.test_arm_truncates_routes_to_top100) ... FAIL
+test_baseline_reproduction_checks_stages_and_aggregate (__main__.E04Tests.test_baseline_reproduction_checks_stages_and_aggregate) ... FAIL
+test_build_record_refuses_missing_or_nonfinite_rerank_score (__main__.E04Tests.test_build_record_refuses_missing_or_nonfinite_rerank_score) ... FAIL
+test_confirmation_arms_must_match_frozen_selection_sha (__main__.E04Tests.test_confirmation_arms_must_match_frozen_selection_sha) ... FAIL
+test_dev_query_requires_exact_original_text (__main__.E04Tests.test_dev_query_requires_exact_original_text) ... FAIL
+test_empty_routes_return_no_candidates (__main__.E04Tests.test_empty_routes_return_no_candidates) ... FAIL
+test_missing_route_keeps_available_route (__main__.E04Tests.test_missing_route_keeps_available_route) ... FAIL
+test_output_guard_refuses_any_existing_sidecar (__main__.E04Tests.test_output_guard_refuses_any_existing_sidecar) ... FAIL
+test_route_duplicate_does_not_add_score_or_consume_rank (__main__.E04Tests.test_route_duplicate_does_not_add_score_or_consume_rank) ... FAIL
+test_rrf_rejects_invalid_k_weights_depth (__main__.E04Tests.test_rrf_rejects_invalid_k_weights_depth) ... FAIL
+test_rrf_stable_ties_and_depth (__main__.E04Tests.test_rrf_stable_ties_and_depth) ... FAIL
+test_score_binding_refuses_changed_source_query_or_indexed_text (__main__.E04Tests.test_score_binding_refuses_changed_source_query_or_indexed_text) ... FAIL
+test_score_pool_calls_real_interface_once_for_only_missing_candidates (__main__.E04Tests.test_score_pool_calls_real_interface_once_for_only_missing_candidates) ... FAIL
+test_score_pool_refuses_incomplete_model_scores (__main__.E04Tests.test_score_pool_refuses_incomplete_model_scores) ... FAIL
+test_unit_source_binding_refuses_stale_or_unknown_source (__main__.E04Tests.test_unit_source_binding_refuses_stale_or_unknown_source) ... FAIL
+test_weighted_rrf_changes_priority_without_using_raw_scores (__main__.E04Tests.test_weighted_rrf_changes_priority_without_using_raw_scores) ... FAIL
+
+======================================================================
+FAIL: test_a0_uses_frozen_v2_aggregate_and_full_context (__main__.E04Tests.test_a0_uses_frozen_v2_aggregate_and_full_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_arm_100_200_candidate_difference_is_real_union (__main__.E04Tests.test_arm_100_200_candidate_difference_is_real_union)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_arm_truncates_routes_to_top100 (__main__.E04Tests.test_arm_truncates_routes_to_top100)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_baseline_reproduction_checks_stages_and_aggregate (__main__.E04Tests.test_baseline_reproduction_checks_stages_and_aggregate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_build_record_refuses_missing_or_nonfinite_rerank_score (__main__.E04Tests.test_build_record_refuses_missing_or_nonfinite_rerank_score)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_confirmation_arms_must_match_frozen_selection_sha (__main__.E04Tests.test_confirmation_arms_must_match_frozen_selection_sha)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_dev_query_requires_exact_original_text (__main__.E04Tests.test_dev_query_requires_exact_original_text)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_empty_routes_return_no_candidates (__main__.E04Tests.test_empty_routes_return_no_candidates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_missing_route_keeps_available_route (__main__.E04Tests.test_missing_route_keeps_available_route)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_output_guard_refuses_any_existing_sidecar (__main__.E04Tests.test_output_guard_refuses_any_existing_sidecar)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_route_duplicate_does_not_add_score_or_consume_rank (__main__.E04Tests.test_route_duplicate_does_not_add_score_or_consume_rank)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_rrf_rejects_invalid_k_weights_depth (__main__.E04Tests.test_rrf_rejects_invalid_k_weights_depth)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_rrf_stable_ties_and_depth (__main__.E04Tests.test_rrf_stable_ties_and_depth)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_score_binding_refuses_changed_source_query_or_indexed_text (__main__.E04Tests.test_score_binding_refuses_changed_source_query_or_indexed_text)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_score_pool_calls_real_interface_once_for_only_missing_candidates (__main__.E04Tests.test_score_pool_calls_real_interface_once_for_only_missing_candidates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_score_pool_refuses_incomplete_model_scores (__main__.E04Tests.test_score_pool_refuses_incomplete_model_scores)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_unit_source_binding_refuses_stale_or_unknown_source (__main__.E04Tests.test_unit_source_binding_refuses_stale_or_unknown_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+======================================================================
+FAIL: test_weighted_rrf_changes_priority_without_using_raw_scores (__main__.E04Tests.test_weighted_rrf_changes_priority_without_using_raw_scores)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e04_pilot_20261012\test_experiment.py", line 35, in setUp
+    self.assertIsNotNone(experiment, "E04 implementation does not exist yet")
+AssertionError: unexpectedly None : E04 implementation does not exist yet
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.012s
+
+FAILED (failures=18)

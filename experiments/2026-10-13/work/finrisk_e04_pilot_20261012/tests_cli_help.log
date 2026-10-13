@@ -1,0 +1,18 @@
+usage: experiment.py [-h] --mode {dev,confirmation} --queries QUERIES --output
+                     OUTPUT [--arms {A0,A1,A2,A3} [{A0,A1,A2,A3} ...]]
+                     [--selection SELECTION]
+                     [--selection-sha256 SELECTION_SHA256]
+
+E04 local pilot: frozen V2 inputs, weighted RRF and shared real rerank pools.
+This module never alters the frozen runners, production application or
+knowledge repository. Model calls are made only through the original
+LocalModels interface.
+
+options:
+  -h, --help            show this help message and exit
+  --mode {dev,confirmation}
+  --queries QUERIES
+  --output OUTPUT
+  --arms {A0,A1,A2,A3} [{A0,A1,A2,A3} ...]
+  --selection SELECTION
+  --selection-sha256 SELECTION_SHA256

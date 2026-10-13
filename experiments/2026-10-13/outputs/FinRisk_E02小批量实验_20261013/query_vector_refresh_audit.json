@@ -1,0 +1,166 @@
+{
+  "status": "complete_read_only_diagnostic",
+  "queries": 22,
+  "same_encoder_binding": true,
+  "identical_query_vectors": 5,
+  "base_dense_top100_order_equal_queries": 7,
+  "base_dense_top100_set_equal_queries": 20,
+  "max_query_vector_abs_difference": 0.0004439353942871094,
+  "rows": [
+    {
+      "query_id": "Q001",
+      "vector_bitwise_equal": true,
+      "vector_max_abs_difference": 0.0,
+      "unchanged_base_dense_top100_order_equal": true,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q002",
+      "vector_bitwise_equal": true,
+      "vector_max_abs_difference": 0.0,
+      "unchanged_base_dense_top100_order_equal": true,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q009",
+      "vector_bitwise_equal": true,
+      "vector_max_abs_difference": 0.0,
+      "unchanged_base_dense_top100_order_equal": true,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q012",
+      "vector_bitwise_equal": true,
+      "vector_max_abs_difference": 0.0,
+      "unchanged_base_dense_top100_order_equal": true,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q016",
+      "vector_bitwise_equal": true,
+      "vector_max_abs_difference": 0.0,
+      "unchanged_base_dense_top100_order_equal": true,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q021",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00016172975301742554,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q022",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.0001634359359741211,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q037",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00019095838069915771,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q038",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.0001874193549156189,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q042",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00015538930892944336,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q044",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00015524029731750488,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "Q047",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00014620274305343628,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "C001",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.0001665949821472168,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "C002",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00015921145677566528,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": false
+    },
+    {
+      "query_id": "C003",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00016374140977859497,
+      "unchanged_base_dense_top100_order_equal": true,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "C004",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00016345083713531494,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "C005",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00013292953372001648,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "C006",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00014983117580413818,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": false
+    },
+    {
+      "query_id": "C007",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00022798776626586914,
+      "unchanged_base_dense_top100_order_equal": true,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "C008",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.0004439353942871094,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "C009",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.0001671910285949707,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    },
+    {
+      "query_id": "C010",
+      "vector_bitwise_equal": false,
+      "vector_max_abs_difference": 0.00018396228551864624,
+      "unchanged_base_dense_top100_order_equal": false,
+      "unchanged_base_dense_top100_set_equal": true
+    }
+  ],
+  "limitation": "P0/P2 use frozen real inference; P1 refreshes query encoding with a different query batch composition. Numeric differences are audited, not equated to semantic improvement. P2 vs P0 keeps retrieval unchanged."
+}

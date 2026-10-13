@@ -1,0 +1,19 @@
+{
+  "version": "offline-demo-v3-20261013",
+  "decision_origin": "用户明确选择当前1:1，批准离线证据返回及演示联调",
+  "bm25_bge_rrf_weights": [1, 1],
+  "rrf_k": 60,
+  "route_top_k": 100,
+  "rerank_top_k": 100,
+  "returned_document_top_k": 5,
+  "scoped_return": "仅21个此前已审核单元；按unit匹配而非整份文件批准",
+  "background_prefix_enabled": false,
+  "mechanism_card_route_enabled": false,
+  "judgment_channel": "current_session_model_reading_actual_packets",
+  "official_risk_tags": 27,
+  "production_default_changed": false,
+  "application_modified": false,
+  "github_pushed": false,
+  "human_approved": false,
+  "prior_2_to_1_experiment": "保留为后续调参依据，本轮不采用"
+}

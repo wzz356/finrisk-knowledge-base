@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "controls_records": 252,
+  "model_fields_checked_hits": 10080,
+  "new_gpu_calls": 0,
+  "control_phases": [
+    {
+      "phase": "display_evaluation",
+      "pairs": 210,
+      "contexts": 254,
+      "pending": 0
+    },
+    {
+      "phase": "combo_evaluation",
+      "pairs": 248,
+      "contexts": 267,
+      "pending": 0
+    }
+  ],
+  "whole_file_grades_unchanged": true,
+  "same_round_model_graded_pairs": 268,
+  "same_round_distinct_graded_contexts": 312,
+  "human_approved": false,
+  "independent_confirmation": false,
+  "scope": "Mechanical checks and exact semantic reuse; model interpretations remain non-human judgments."
+}

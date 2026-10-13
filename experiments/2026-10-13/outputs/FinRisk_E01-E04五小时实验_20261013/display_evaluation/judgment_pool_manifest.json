@@ -1,0 +1,45 @@
+{
+  "actual_top5_slots": 630,
+  "arms": [
+    "B0",
+    "D1",
+    "D2"
+  ],
+  "artifact_sha256": {
+    "blind_judgment_pool.jsonl": "d837bb0dd98ea7c799e87f8c8bf3a616113e6bab396867b1135e49f7fe4b61bd",
+    "cached_judgments.jsonl": "fbb8704093f3e432ee4dfe6e907d7e2d3a1cd0c92742e3b2c0fecbf0ca301927",
+    "judgment_provenance.jsonl": "d53d6c587c69480a21cb770323ee237e93ff4b9c8cb78124b97203da401a06fd"
+  },
+  "blind_to_algorithm_rank_known_positives": true,
+  "context_variants": 254,
+  "evaluation": "model_review_only",
+  "human_approved": false,
+  "human_judgments": 0,
+  "input_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\display_results.jsonl": "2f5ba119ea5d11cdffa4faa7a6390b313651dc268add19614c8dad7f4da6dead",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\queries.jsonl": "3f436e2a7dcecd4dc85527b8d81a898cb0735806de971f1e56d9b0658f11f610",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\normalized_final\\data\\documents.jsonl": "1bd86772e4dfe479a87e9bc6ba7ef8d283da74b4a558ee5d4696146c728a584b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\display_evaluate.py": "f9089a627232881a1b5814c28e6d9e2fa430eb04f79c6fa30178c6057a8843af",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\evaluate.py": "9226d3785cbbb1271fee40eaced5f6dff723b1a26463cd396f82b76df7ff44a1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\evaluate.py": "4f76a7f0655c0db95f9033aa0b74c11ef467cddf707275a40059da4c525a3e0c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_v2_20261012\\eval_v2.py": "973e55c9d87a1cf912a98d10387b5cf6e8357d2456ccbd3aa5bf546061a1f073"
+  },
+  "pending_contexts": 38,
+  "pending_files": 0,
+  "pending_pairs": 21,
+  "queries": 42,
+  "queries_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\queries.jsonl",
+  "results_paths": [
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\display_results.jsonl"
+  ],
+  "reuse_input_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\evaluation\\blind_judgment_pool.jsonl": "2a40a03d93c1f0fac25935981f5ebf21f417dae35b2ed7c27a3cdf26e7424172",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\evaluation\\validated_judgments.jsonl": "054a500d60fcdeb67b044ed33568cd58d40fb9f628bd0b10295b0d90ac572df9"
+  },
+  "reused_contexts": 216,
+  "reused_files": 210,
+  "sources_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\normalized_final\\data\\documents.jsonl",
+  "status": "awaiting_judgments",
+  "top5_denominator_per_arm": 210,
+  "unique_query_file_pairs": 210
+}

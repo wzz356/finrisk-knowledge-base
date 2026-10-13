@@ -1,0 +1,86 @@
+test_bad_source_span_rejected (test_demo.DemoTests.test_bad_source_span_rejected) ... FAIL
+test_duplicate_evidence_rejected (test_demo.DemoTests.test_duplicate_evidence_rejected) ... FAIL
+test_fake_human_approval_rejected (test_demo.DemoTests.test_fake_human_approval_rejected) ... FAIL
+test_missing_judgment_rejected (test_demo.DemoTests.test_missing_judgment_rejected) ... FAIL
+test_scope_preserves_model_rank_fields (test_demo.DemoTests.test_scope_preserves_model_rank_fields) ... FAIL
+test_unknown_label_rejected (test_demo.DemoTests.test_unknown_label_rejected) ... FAIL
+test_unreviewed_hit_unchanged (test_demo.DemoTests.test_unreviewed_hit_unchanged) ... FAIL
+test_unshown_quote_rejected (test_demo.DemoTests.test_unshown_quote_rejected) ... FAIL
+test_valid_judgment_passes (test_demo.DemoTests.test_valid_judgment_passes) ... FAIL
+
+======================================================================
+FAIL: test_bad_source_span_rejected (test_demo.DemoTests.test_bad_source_span_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_demo.py", line 12, in setUp
+    self.assertIsNotNone(demo, "Demo implementation not available yet")
+AssertionError: unexpectedly None : Demo implementation not available yet
+
+======================================================================
+FAIL: test_duplicate_evidence_rejected (test_demo.DemoTests.test_duplicate_evidence_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_demo.py", line 12, in setUp
+    self.assertIsNotNone(demo, "Demo implementation not available yet")
+AssertionError: unexpectedly None : Demo implementation not available yet
+
+======================================================================
+FAIL: test_fake_human_approval_rejected (test_demo.DemoTests.test_fake_human_approval_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_demo.py", line 12, in setUp
+    self.assertIsNotNone(demo, "Demo implementation not available yet")
+AssertionError: unexpectedly None : Demo implementation not available yet
+
+======================================================================
+FAIL: test_missing_judgment_rejected (test_demo.DemoTests.test_missing_judgment_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_demo.py", line 12, in setUp
+    self.assertIsNotNone(demo, "Demo implementation not available yet")
+AssertionError: unexpectedly None : Demo implementation not available yet
+
+======================================================================
+FAIL: test_scope_preserves_model_rank_fields (test_demo.DemoTests.test_scope_preserves_model_rank_fields)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_demo.py", line 12, in setUp
+    self.assertIsNotNone(demo, "Demo implementation not available yet")
+AssertionError: unexpectedly None : Demo implementation not available yet
+
+======================================================================
+FAIL: test_unknown_label_rejected (test_demo.DemoTests.test_unknown_label_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_demo.py", line 12, in setUp
+    self.assertIsNotNone(demo, "Demo implementation not available yet")
+AssertionError: unexpectedly None : Demo implementation not available yet
+
+======================================================================
+FAIL: test_unreviewed_hit_unchanged (test_demo.DemoTests.test_unreviewed_hit_unchanged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_demo.py", line 12, in setUp
+    self.assertIsNotNone(demo, "Demo implementation not available yet")
+AssertionError: unexpectedly None : Demo implementation not available yet
+
+======================================================================
+FAIL: test_unshown_quote_rejected (test_demo.DemoTests.test_unshown_quote_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_demo.py", line 12, in setUp
+    self.assertIsNotNone(demo, "Demo implementation not available yet")
+AssertionError: unexpectedly None : Demo implementation not available yet
+
+======================================================================
+FAIL: test_valid_judgment_passes (test_demo.DemoTests.test_valid_judgment_passes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_demo.py", line 12, in setUp
+    self.assertIsNotNone(demo, "Demo implementation not available yet")
+AssertionError: unexpectedly None : Demo implementation not available yet
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.008s
+
+FAILED (failures=9)

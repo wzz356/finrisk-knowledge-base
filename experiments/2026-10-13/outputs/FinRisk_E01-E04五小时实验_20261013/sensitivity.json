@@ -1,0 +1,47 @@
+{
+  "kind": "targeted_exclusion_sensitivity_not_replacement_grades",
+  "original_judgments_changed": false,
+  "reason": "N014医疗险完整披露输入新增两处有用是贷款话术与条款对比的泛化核查帮助，不是医疗险免责/等待期的直接案例；同事件多主体来源不等于两份独立证据。",
+  "scope": "Only these two debated general analogies excluded; not a consistent all-items strict-mechanism benchmark.",
+  "checks": {
+    "D1": {
+      "excluded_positions": 2,
+      "files": [
+        "F001987",
+        "F001988"
+      ],
+      "all_useful_after_exclusion": 135,
+      "all_denominator": 210,
+      "all_covered_after_exclusion": 39,
+      "new_useful_after_exclusion": 59,
+      "new_denominator": 100,
+      "new_covered_after_exclusion": 19
+    },
+    "D2": {
+      "excluded_positions": 2,
+      "files": [
+        "F001987",
+        "F001988"
+      ],
+      "all_useful_after_exclusion": 135,
+      "all_denominator": 210,
+      "all_covered_after_exclusion": 39,
+      "new_useful_after_exclusion": 59,
+      "new_denominator": 100,
+      "new_covered_after_exclusion": 19
+    },
+    "WD": {
+      "excluded_positions": 2,
+      "files": [
+        "F001987",
+        "F001988"
+      ],
+      "all_useful_after_exclusion": 145,
+      "all_denominator": 210,
+      "all_covered_after_exclusion": 40,
+      "new_useful_after_exclusion": 63,
+      "new_denominator": 100,
+      "new_covered_after_exclusion": 19
+    }
+  }
+}

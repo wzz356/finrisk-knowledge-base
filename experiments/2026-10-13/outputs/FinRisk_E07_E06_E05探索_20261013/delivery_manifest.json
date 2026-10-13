@@ -1,0 +1,630 @@
+{
+  "schema": "finrisk_e07_local_e06_small_e05_delivery_v1",
+  "status": "complete_local_exploratory_trials",
+  "sealed_at_utc": "2026-10-13T03:09:13.145672+00:00",
+  "primary_weights": [
+    1,
+    1
+  ],
+  "E08_executed": false,
+  "tests_passed": 25,
+  "human_approved": false,
+  "independent_quality_gold": false,
+  "automatic_judgment_api": false,
+  "source_model_review": "passed",
+  "root_code_model_review": "passed",
+  "current_application_modified": false,
+  "current_retrieval_default_modified": false,
+  "github_pushed": false,
+  "official_dictionary_classes": 27,
+  "E07": "partial_light_condition_questions",
+  "E06": "local_fact_role_event_prototype",
+  "E05": "21_leaf_7_summary_6_directory_actual_16x3_trial",
+  "external_cache_files_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\cluster_cache1\\0443209d56c36d09893fa8b97e47e09a60fd2a9f8520d99b71637251b0a7710c.npy": "26bec12a573228d7e94b5ce608b492d16c31bef1b0a8ef249450f0dae4c51eba",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\cluster_cache1\\0443209d56c36d09893fa8b97e47e09a60fd2a9f8520d99b71637251b0a7710c.json": "38770ab4a4db6168a04d593b0412d97304f94aabc735092ec4040dba32364206",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\cluster_cache2\\4c8d00f7ada10f73409d0bcf09ceb17f66d22ab67848e37e3db451782a8987e5.npy": "817a5a03579d997dd882d6a471faacad5119a1039fa42d1c2806792e16fc1e8c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\cluster_cache2\\4c8d00f7ada10f73409d0bcf09ceb17f66d22ab67848e37e3db451782a8987e5.json": "2acf60df1ccf2d6b9a8159cfc4c790b4be71042a280042ce140ae86a81c2822b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\cluster_cache3\\7b24fd04df8ab857de7393bdd6f04df02105880ae5849beca3e060a47d4c932f.npy": "efcd69632a84def314af85112eed5b0c9078a703c0fb20816cbc86de94bbf133",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\cluster_cache3\\7b24fd04df8ab857de7393bdd6f04df02105880ae5849beca3e060a47d4c932f.json": "8d0d6a904bb24ad50b5d378c571d7b83a4bcf64c950b0a15d563a1009bbd551c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\retrieval_cache\\232bb01347008d54d2f9069244dbb7d3685d457e33bae6c956ef634e77f59476.json": "88092a142725fcac9174f19be01b5b08aaf7c6d6d6992e16523fed41df09ea1e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\retrieval_cache\\232bb01347008d54d2f9069244dbb7d3685d457e33bae6c956ef634e77f59476.npy": "184bd047b5454d1e9952a06e561717b3c226eeced136148007de441706a81c45",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\retrieval_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.json": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\retrieval_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.npy": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\retrieval_cache\\e9d3095f2ad07ff857b9d227e1c8a7cfc01b56047139494e1293245fa7c45eda.json": "1a46ed443eb4b962f0dc9a27750349719d1b046373dc5868a60c1aac20faa095",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\retrieval_cache\\e9d3095f2ad07ff857b9d227e1c8a7cfc01b56047139494e1293245fa7c45eda.npy": "476f79963b0ebc68e8af83bade0263bf71242e4e7e3d92c202cc125ee7a66eae"
+  },
+  "excluded": [
+    "model weights",
+    "virtual environments",
+    "vector cache copies",
+    "unchanged full source corpus dependencies"
+  ],
+  "files": [
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/E05实验报告.md",
+      "size_bytes": 6102,
+      "sha256": "1bc1829a68aa8d0729aa4ecdf67581b559feb8c28ef842dc8c6d3cba7cd99b00"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/E06实验报告.md",
+      "size_bytes": 3859,
+      "sha256": "b0362c3ce6462c5e7f0945cf00c9478e37afbde014cf0eb624e323fc62eb467f"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/E07实验报告.md",
+      "size_bytes": 3716,
+      "sha256": "679c68aaf3001cf6383096385daa8f2df289153423f5f501e6561be127891fee"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/README.md",
+      "size_bytes": 1194,
+      "sha256": "70d976da99de40793a4489ba885028bd76ce0588bc8c354e148baa5e9dc9cc1c"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/adoption.json",
+      "size_bytes": 3528,
+      "sha256": "c5874c3989bb9a1ba6f1d61ac3167c429764f5b8cb057b25b6d9870f5e3a2964"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/clusters_level1.json",
+      "size_bytes": 126957,
+      "sha256": "1533f6c6c84bcdb6407f5d1a350cd019af722ee6bb2e9be2feb0460ebe62014c"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/clusters_level1.json.run.json",
+      "size_bytes": 24910,
+      "sha256": "d724ed2168471f03f4606136829dd27ff7c0434f0ee3228050f074941dee19fd"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/clusters_level1.json.token_audit.jsonl",
+      "size_bytes": 10965,
+      "sha256": "c9e7d90e91ea18fe7be941fca2432f12652afd061cf69409a72c21f0ceb7f243"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/clusters_level2.json",
+      "size_bytes": 78134,
+      "sha256": "b1e198014916815180c15fa69292eb4f588781c0c0560c6e2a7a0f10f895ca3d"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/clusters_level2.json.run.json",
+      "size_bytes": 26235,
+      "sha256": "79094a6d90e02f771d897248526a0726ff107f3cffc7f2e7df274c811669fdb4"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/clusters_level2.json.token_audit.jsonl",
+      "size_bytes": 2089,
+      "sha256": "1a536d359e48a446a4e52136df31ddd533790480dca5e72742ea8d84b4daeab9"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/clusters_level3.json",
+      "size_bytes": 60975,
+      "sha256": "66f2e9f67980ba9b10bc2b6ee74df38e41fbf589d5caa416535d775e030a709b"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/clusters_level3.json.run.json",
+      "size_bytes": 27344,
+      "sha256": "6daac67f682c14fcbdc863b986ef0c33f63e7377bb2204bd567daa29db6cc768"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/clusters_level3.json.token_audit.jsonl",
+      "size_bytes": 1043,
+      "sha256": "6c17ecd90082255f70b19846894fcccc9d28444b8b406a913088adf254b0851e"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/directory_nodes.jsonl",
+      "size_bytes": 27378,
+      "sha256": "703059ae33f1ce632456b7152a4b5f4c72319a3ded3ba52d6bf57563be920f00"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_all_judgments.jsonl",
+      "size_bytes": 58239,
+      "sha256": "4fae8fbb79f26973d33b51a31bf8a4570e67afc265350fe726d930b2ec19b321"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_diagnostics.json",
+      "size_bytes": 40544,
+      "sha256": "c2d646199d2b1afc267df4770d01ed42272e4ca542d9d4426e70277ad016fdfd"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_judgments_part1.jsonl",
+      "size_bytes": 28124,
+      "sha256": "82af5c9ecd7d904a4c4ff67c089e64faba0666eacad27f25a4ced188210a71f1"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_judgments_part2.jsonl",
+      "size_bytes": 29389,
+      "sha256": "403f2b5f3d675f6622f3ad3db0952de79298c8b3ce0627fd397a2c34e3f8f825"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_metrics.json",
+      "size_bytes": 3125,
+      "sha256": "bbf0800cd101ec8e65c957f22be632e85e0f92e98e45a86ba4055cc4da1e43eb"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_reading_assignments.jsonl",
+      "size_bytes": 60960,
+      "sha256": "9055ec2b642595b288d4689858f620282d6a5032d003fe03a23867bb57bec95c"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_reading_contract.md",
+      "size_bytes": 733,
+      "sha256": "6c658cdba87d6580b93e28b4a63a4e486eb6234c8128eb9cf2a134cd05b48aa2"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_reading_part1.jsonl",
+      "size_bytes": 78508,
+      "sha256": "c9c57e7d27417e77c53a1fd21d10cf17d4a1d06fe3b0f833606f085d6d2e75f5"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_reading_part2.jsonl",
+      "size_bytes": 91442,
+      "sha256": "f78ac2658a9c8df77a0ac17ef5319ad8826680ff5004990baafc201f5ce2111c"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_reading_pool.jsonl",
+      "size_bytes": 169950,
+      "sha256": "979d968c81ea07685ff3daad2126233baf3efbae4ee0ab7184ea3de1dabc58ee"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_results.jsonl",
+      "size_bytes": 719216666,
+      "sha256": "7f0efdf0f6082418774abc2fac941aebeb2a616fdb99ba65d9c6188badffcee9"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_results.jsonl.run.json",
+      "size_bytes": 53726,
+      "sha256": "d82a3f6402defb36c2ae6042fd402b2631b7ea54c5368b73ef3d59e90be77f03"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_results.jsonl.score_pool.jsonl",
+      "size_bytes": 120351043,
+      "sha256": "d68ebc8ae0b1516c9e57ccef0434032b762448a304eebc41a853665bcc67ab14"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_results.jsonl.token_audit.jsonl",
+      "size_bytes": 24347663,
+      "sha256": "667606a4a52e7e85bcc4f9315c9d7da6f5290d17a396d12aaad6855b8d5bc831"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_sensitivity.json",
+      "size_bytes": 1671,
+      "sha256": "16f56ca34964f33014c61cade757d0c57384379b9fb449649e9c1f18d7804241"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_sensitivity_bindings.jsonl",
+      "size_bytes": 54219,
+      "sha256": "d31a3c770d3f166158e63c98f0865907e6a53644064618a01a92de06c2ab9d25"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e05_verification.json",
+      "size_bytes": 537,
+      "sha256": "eee97870a0b5109f35c5f1a6a56524c29fb605f0a40c8a71921a226ddd902427"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e06_all_judgments.jsonl",
+      "size_bytes": 614294,
+      "sha256": "e8ba58a446fcdba51b5e9dac68dda2500e8c9b59f735a599d5edb78a3c0528b4"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e06_execution.json",
+      "size_bytes": 463,
+      "sha256": "70ad6ca4a28844b8c7d5deea2f9184d76174df5f884e1f4ed39f81b55fec22ed"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e06_metrics.json",
+      "size_bytes": 1391,
+      "sha256": "045010fca9bff863509b7c71794dfd8eac6af94f2799736611556448d8c3359c"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e06_new_judgments.jsonl",
+      "size_bytes": 21711,
+      "sha256": "ce8d480a0cdc9bb80dffc60808e4a6f519d3d395139ac5d4f31c310bfe06a28f"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e06_pending_judgments.jsonl",
+      "size_bytes": 20304,
+      "sha256": "e0ea0be3ecbad735e3036de127d4b28477b1c872a5eabcfbcea8204ffa9b2c99"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e06_results.jsonl",
+      "size_bytes": 2736575,
+      "sha256": "e128411c683df29f7dae12987ec0f3bd710aa5c6829b8df2020007d35e84850e"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e06_reused_judgments.jsonl",
+      "size_bytes": 592583,
+      "sha256": "ad24687ca6513bd8357dc501eb69556f7713e498fd801481f229c159d80ae39e"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e07_execution.json",
+      "size_bytes": 683,
+      "sha256": "28a262a219cda7945680753d8818ecd0d3bca570c2030bb79dd517dd46829bba"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e07_final/e07_execution.json",
+      "size_bytes": 730,
+      "sha256": "1ddba273c92d6765dcd02b80c9265fe87ad06354572d3d8eb4cfd5de06924cb4"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e07_final/e07_information_branches.jsonl",
+      "size_bytes": 4725,
+      "sha256": "32fb18dfc1483c167b2111689552b94d4d016320ef42b91217c85f60ac5a2f5f"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e07_final/e07_input_checks.jsonl",
+      "size_bytes": 25060,
+      "sha256": "52c35e7ec9043bf5cfcef2f3b0642c95630d400ac094013ea40e44063c7fc91f"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e07_final/e07_profiles.jsonl",
+      "size_bytes": 7053,
+      "sha256": "d250fbd0b3f6313a6a52b742c9e3914f64df302302c644e2b8c7b084271d434d"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e07_information_branches.jsonl",
+      "size_bytes": 4725,
+      "sha256": "32fb18dfc1483c167b2111689552b94d4d016320ef42b91217c85f60ac5a2f5f"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e07_input_checks.jsonl",
+      "size_bytes": 24324,
+      "sha256": "ee6e3373441b0be3ca511dc24650b3ec655c911caa09eb7c20aebed8a6c4ee77"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/e07_profiles.jsonl",
+      "size_bytes": 7053,
+      "sha256": "d250fbd0b3f6313a6a52b742c9e3914f64df302302c644e2b8c7b084271d434d"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/freeze_cluster1.json",
+      "size_bytes": 19325,
+      "sha256": "777e4278dc5f02f088a4d111f5b02c266687bdad433fe22d54f2a3ada05c96aa"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/freeze_cluster2.json",
+      "size_bytes": 20616,
+      "sha256": "7cf0e34d374bc8b936a422a952a9c906d0222c85ca740070648627134f4428f2"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/freeze_cluster3.json",
+      "size_bytes": 21723,
+      "sha256": "bd142d020c315b0c68f573536a07099a710b4a316fc6f7eb685c43552c3764c2"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/freeze_retrieve.json",
+      "size_bytes": 24216,
+      "sha256": "9f86cd468e187f7418d524fc1db00dde91994e22016c3f0b1f8540bfdcd7f461"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/leaves.jsonl",
+      "size_bytes": 36607,
+      "sha256": "0288d8b63e9c944282b4e49bfbf4a2eab178b06767eeff1e883b16595c8cd9f0"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/local_graph.json",
+      "size_bytes": 43211,
+      "sha256": "ee0e6743f6195367cb2a37b7083e41820b73b61e8b5fe0571a1c1168aa9857c6"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/queries.jsonl",
+      "size_bytes": 4436,
+      "sha256": "c656e9e4d57b2c8b4b4f0c8731a228a84cf67573d77bc396122510030d4924e5"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/service_gap_diagnostic.json",
+      "size_bytes": 3420,
+      "sha256": "20a95d9807a06fb6a7b69b8b03f4493af088c0753cbc6088253c2e5e950bffe5"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/summaries_level1.jsonl",
+      "size_bytes": 29112,
+      "sha256": "864ca4f0c7833bb4837da81e7fd1dcec447390b404919954011b85f280dfcd74"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/summaries_level2.jsonl",
+      "size_bytes": 25732,
+      "sha256": "6e6c1eef62bf43f49a309f280423af435850b10456a76f371d439fab3dc26b44"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/summaries_level3.jsonl",
+      "size_bytes": 24966,
+      "sha256": "8990b2de8e2c5a9d71fda0b84da2b5236e4f293b71fca2364d83e039269874d5"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/tree_nodes.jsonl",
+      "size_bytes": 79810,
+      "sha256": "35a99079700a7ec64e02144d47289c38cbfcf87460cfdd9fe557b91b3f4bca01"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/verification_final.json",
+      "size_bytes": 1636,
+      "sha256": "741edaa88e8c856f3665e5d9d93df4ce3b142f6b9b013052794a771eb99a2358"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/复跑说明.md",
+      "size_bytes": 2433,
+      "sha256": "e3af912ae610adacbdb06fb88b4d7b93ecc9d0a77f2e772dee3de5f7f7eee703"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/完整方案.md",
+      "size_bytes": 8487,
+      "sha256": "4c3d26dd13ae303150a15ca3f0dde565fda5327205db0c20d1b5d9344e9c3094"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/实验总报告.md",
+      "size_bytes": 2423,
+      "sha256": "a179369990297b3c2b06c59fe814361015cc3979bb4418f3eace8a8836617c75"
+    },
+    {
+      "path": "outputs/FinRisk_E07_E06_E05探索_20261013/实验设计.md",
+      "size_bytes": 2005,
+      "sha256": "17ec1334d39cc533c9e22b991bc7ad22161c8e5562a60c654f9032306e7109d6"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/author_nodes.py",
+      "size_bytes": 5547,
+      "sha256": "461523bf243f1e5a35bac22f01fe253295059967874b2258b65053888eec5430"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/author_upper.py",
+      "size_bytes": 3293,
+      "sha256": "304e4f4c1c6fa4a8019c0ea33cc78132a2f95b50bcc30c8c8434d7d2f1551cdb"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/cluster1_gpu.log",
+      "size_bytes": 340,
+      "sha256": "92735cd45e529a9e911f26adc80f40063ac4391a57b009b30cd4b18ecd4cd84a"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/cluster2_gpu.log",
+      "size_bytes": 339,
+      "sha256": "c3ce32c548357ec85e6b4432828a8672ec9ba68f48093f7733c46d9f819f03e8"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/cluster3_gpu.log",
+      "size_bytes": 339,
+      "sha256": "6550eb94d13b0ece0297e683b87a7820347962ca36966f8f56e192ed7ee32cde"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/code_review.md",
+      "size_bytes": 8405,
+      "sha256": "df3ab64233fd27d5d9881055ac9dccd9db8cc0cb3cce04e3bbc34c8b94279583"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/diagnose_e05.py",
+      "size_bytes": 2166,
+      "sha256": "fd7d97726d6e8519da06acc1ca3e08654221584f70b30baa22f3287f6070a997"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_cluster_help.log",
+      "size_bytes": 377,
+      "sha256": "da4ba4d4d6f641de5687ce9b1aad161cc27f06dc82bf492a2cc9495242b613f3"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_layer_red.log",
+      "size_bytes": 2711,
+      "sha256": "1a7b372382c820fe4033328b557e438f74a5e74cdc7a3e69840a51452418f517"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_required_dependencies.log",
+      "size_bytes": 2971,
+      "sha256": "58e405ac122340558c7286e2e3e7bba0a86e9a69b6aa91051de585b0a87fecf2"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_retrieve_help.log",
+      "size_bytes": 495,
+      "sha256": "75168cb01952045d9883e3ee9e67129310df7fc8e421db97b826c2c5a3f40b3b"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_runner.py",
+      "size_bytes": 36924,
+      "sha256": "731dbaa0b201d24cce62dce6c2d64106c4454326af7869a951b3e427a7dc1c96"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_runner_notes.md",
+      "size_bytes": 7707,
+      "sha256": "88258046a60bdf70c1722f2b7868577283e65cda8094e2f7840033e42ca550eb"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_scope_preflight.log",
+      "size_bytes": 3401,
+      "sha256": "c01ec3248b80d0015611a1ddf30cd7c535bea96a1c902b373ecf618df08c750c"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_scope_red.log",
+      "size_bytes": 3155,
+      "sha256": "730b32822fcc0a86e6606bf5d345e32424182e3418be3d134fbeda932e891445"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_summary_review.md",
+      "size_bytes": 11240,
+      "sha256": "221ece088819273374616231c49069f9f83ee57b6f7738406fc54fb00abed55e"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_tests_green.log",
+      "size_bytes": 2153,
+      "sha256": "b271cf2f3749f9561b3f14c4bafae7a706ae244ca3674598d3f2d80dd0e90a67"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e05_tests_red.log",
+      "size_bytes": 12032,
+      "sha256": "fe6d040ba5a051db149ad83f728e43987715306c2c63595aabce255fb65984df"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e06.py",
+      "size_bytes": 7147,
+      "sha256": "44f2a7748662c521347f3c9a221e55aed6646a82fcd1ad1aa0d344be84b86f3c"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e06_binding_green.log",
+      "size_bytes": 801,
+      "sha256": "15913bba9db7300378bb75a0267b3efdef25a81f933faf69e83c95bd20ef7dad"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e06_binding_red.log",
+      "size_bytes": 1510,
+      "sha256": "85af86f45dd8deb7daaebaab0cdb2cad5f2eb1334d0b9efb15786f817ee55c30"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e06_final_green.log",
+      "size_bytes": 665,
+      "sha256": "4fac863481a7c854890c435c7566011fb2aca550abf9e1c3e416ff0d813d8277"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e06_green.log",
+      "size_bytes": 541,
+      "sha256": "f7e21b9d603683661781048869024a1d651dffac952d866cb4b71dee7569b019"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e06_initial_binding.py",
+      "size_bytes": 5924,
+      "sha256": "cf6734f50506048e4811cc23dce8d2ed52d8575a8bf7c04ededfd3b587de8c29"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e06_red.log",
+      "size_bytes": 2812,
+      "sha256": "e74f935fdcbd6f802ab65439de1a24cdad51220c71c030e8a270dea23b9b773c"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e06_review.md",
+      "size_bytes": 5580,
+      "sha256": "3234b017208caf0dbe53b8994bfc876d6502e225372cd093572dce5486bf6710"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e06_source_notes.md",
+      "size_bytes": 8225,
+      "sha256": "2f93d86a83979be706e02733c3160f600f89d0a45f007f08a5f00dc339104729"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e06_unknown_red.log",
+      "size_bytes": 1446,
+      "sha256": "000a9379717331377614c5c83e8273c551fe4d9a9fc9f089832d01c8fdeccf47"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e07.py",
+      "size_bytes": 14968,
+      "sha256": "34026cc455961b2e40f4c8548553ba173c91e564340211ac03df32b95f4e5fd7"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e07_final_green.log",
+      "size_bytes": 525,
+      "sha256": "8b167eba6042074433a661ac865ebaef836210f6e77575ca00b5ba388241f458"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e07_gate_red.log",
+      "size_bytes": 1269,
+      "sha256": "20844036761c7aacffc619fef8abcbd0908f3319db5df7adaa201ea577f64b39"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e07_green.log",
+      "size_bytes": 391,
+      "sha256": "bfde7e3f54628e7026268b5e39d8fb3ad9b9c762f00860daea6019d63a015e23"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/e07_red.log",
+      "size_bytes": 2142,
+      "sha256": "5092a2fd9d1afb1ea5b4ce5de375c1719c9d70057f7485fedfc9cffb5963721c"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/evaluate_e05.py",
+      "size_bytes": 7187,
+      "sha256": "82e700623acc68a26de071ec73bc0a280ae55c4009914501b21190a0c00ead8c"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/finalize_e06.py",
+      "size_bytes": 3259,
+      "sha256": "6021b7e90efa6e6548ab5eb57db8eb60d9001d5854b88c4daa7c49f4e8ec75e5"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/findings.md",
+      "size_bytes": 2446,
+      "sha256": "8f88bf24298b9fc34a557cba81ad9b41ea147384f6751e0316070a9a0a559b0d"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/judge_p1_write_20261013.py",
+      "size_bytes": 23307,
+      "sha256": "3c30d7ed0bc5a16d4d98b6ab42f9e9241dcd407b275f0ad74397f6ea5804d8c3"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/judge_p2_write.py",
+      "size_bytes": 20499,
+      "sha256": "ae4b5f0bbe355b8efde6d6680ed5c4cb54608e5640c70264c85e7089d412bb93"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/package_delivery.py",
+      "size_bytes": 4806,
+      "sha256": "7d64195270489a8fc2bef3195c861a6a383f64e9cf4e21e307ee3e2a01f298c6"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/prepare_retrieve.py",
+      "size_bytes": 1550,
+      "sha256": "ac72a3e2df201128c71db760db5ca4f6472abd42301daa75cb2abdbf9fde5293"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/progress.md",
+      "size_bytes": 3111,
+      "sha256": "d8629186127d7d5bb5974c0a1bfcfe590e80788607bf7e48ebd53e5dfa584245"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/render_reports.py",
+      "size_bytes": 22589,
+      "sha256": "37b97c91cf2efc030f827cfa3cda3e28981f513af9b3d0e8c5003112abba2c4e"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/retrieve_gpu.log",
+      "size_bytes": 4036,
+      "sha256": "0269c9f2819248036f73f912a6ec422583905ded81a0d301b5e4b6a762d010c6"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/sensitivity_e05.py",
+      "size_bytes": 3573,
+      "sha256": "19afb4f00f584e1ad244afc7373018bfd494585f71bbc5efd73cf088a2b0549b"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/service_diagnostic.py",
+      "size_bytes": 1446,
+      "sha256": "c58e953940bacb410f4044f99ec3178ffbbeb4bb341fe0cdd90373733d4a10c6"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/task_plan.md",
+      "size_bytes": 5409,
+      "sha256": "6576e871cbc8065af6deb94763880f303bf6b79db72c73b021b34330eee40e43"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/test_e05_runner.py",
+      "size_bytes": 10000,
+      "sha256": "c2a7c1e8e5318656b0faf662dec254a97cfd1b2d04c2385cdf4db13163d78980"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/test_e06.py",
+      "size_bytes": 3709,
+      "sha256": "ac6ac1fcbf8a744c97f811edf5ec90af5a46b8c2de5b18c6d7dd3c3fcf051d16"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/test_e07.py",
+      "size_bytes": 1642,
+      "sha256": "c9fed16144cb29cd447da2e717920aa048f24689b06be3832b4f4f2af1007a13"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/tests_final_green.log",
+      "size_bytes": 3273,
+      "sha256": "0b1e9339a004fadac81ecc45a16ee9808ef7be58ecd34334fbc4a623f08cae74"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/tests_root_green.log",
+      "size_bytes": 3137,
+      "sha256": "763b8900c1885c0e9f3f2bb5752ce7d718087f9397498935c32815e6134065fc"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/verify_e05.py",
+      "size_bytes": 5300,
+      "sha256": "694882445b1a62ea127d02d161db2b19d94050bffe4aa9d4b16e88b361ead508"
+    },
+    {
+      "path": "work/finrisk_e07_e06_e05_20261013/verify_suite.py",
+      "size_bytes": 4723,
+      "sha256": "b05e527dc0407089be4447d762704b30208efe3ae8e5b700403eaacfbbe993d0"
+    }
+  ]
+}

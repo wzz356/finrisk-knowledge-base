@@ -1,0 +1,488 @@
+{
+  "manifest_version": 1,
+  "prepared_date": "2026-10-12",
+  "purpose": "Independently check whether actual Top5 contexts from BM25+BGE -> RRF -> rerank help risk judgment; not source extraction accuracy.",
+  "authorship": {
+    "method": "language_model_synthetic_business_paraphrase",
+    "model_identity": "Current Codex session model; exact model identifier not recorded",
+    "human_user_inputs": false,
+    "official_test_gold": false,
+    "model_generation_and_scoring_common_bias": true
+  },
+  "permitted_inputs": {
+    "full_text_source": "outputs/FinRisk_知识库V2_20261012/normalized_final/data/documents.jsonl",
+    "allowed_full_text_count": 9639,
+    "documents_jsonl_file_sha256": "1bd86772e4dfe479a87e9bc6ba7ef8d283da74b4a558ee5d4696146c728a584b",
+    "old_queries_file": "outputs/FinRisk_召回实验_20261012/queries.jsonl",
+    "old_query_count": 50,
+    "old_query_fields_accessed": [
+      "anchor_evidence[].file_id",
+      "known_positive_file_ids"
+    ]
+  },
+  "old_anchor_source_exclusion": {
+    "excluded_source_count": 27,
+    "excluded_file_ids": [
+      "F000301",
+      "F000342",
+      "F000526",
+      "F000561",
+      "F000618",
+      "F000635",
+      "F000636",
+      "F000699",
+      "F000720",
+      "F000728",
+      "F001121",
+      "F001128",
+      "F001198",
+      "F001216",
+      "F001347",
+      "F001782",
+      "F002373",
+      "F002890",
+      "F002918",
+      "F002920",
+      "F003314",
+      "F003876",
+      "F005750",
+      "F006548",
+      "F009099",
+      "F009587",
+      "F009942"
+    ],
+    "canonicalization": "Sorted unique file-ID list; UTF-8 JSON; ensure_ascii=false; separators=(comma,colon)",
+    "excluded_source_set_sha256": "6597c7a70880b44de63adc1d810e13b0655e235470382777cfcf2172342fa4c0",
+    "selected_source_file_id_overlap_count": 0,
+    "selected_source_exact_full_text_hash_overlap_count": 0
+  },
+  "source_interval": {
+    "permitted_corpus_document_lines_one_based_inclusive": [
+      1,
+      9639
+    ],
+    "permitted_corpus_file_id_min_max": [
+      "F000000",
+      "F009999"
+    ],
+    "selected_document_lines_one_based_min_max": [
+      76,
+      1248
+    ],
+    "selected_file_id_min_max": [
+      "F000075",
+      "F001265"
+    ],
+    "interpretation": "Min/max ranges describe provenance only; exact selected IDs and individual line numbers are below, with gaps allowed."
+  },
+  "selection_method": {
+    "basis": "Directed qualitative selection from full_text facts after excluding all prior anchor/known-positive sources; final source texts read in full.",
+    "full_text_search_terms_used": [
+      "保险合同.*以外|合同外",
+      "利益",
+      "说明|告知",
+      "销售|投保",
+      "虚构",
+      "中介|手续费",
+      "承诺",
+      "收益",
+      "免责",
+      "说明",
+      "虚假理赔|虚构.*事故",
+      "农业",
+      "虚假|不真实",
+      "中介",
+      "洗车券"
+    ],
+    "sampling": "Non-random, mechanism-coverage-directed small sample",
+    "candidate_tag_values_used": false,
+    "experiment_selection_or_ranking_or_metrics_used": false,
+    "reserved_360_sources_read": false,
+    "original_teaching_material_or_competition_test_or_answers_read": false,
+    "environment_secret_files_read": false,
+    "gpu_called": false
+  },
+  "query_counts": {
+    "total": 10,
+    "risk": 6,
+    "boundary": 4,
+    "marketing_sales_risk": 4,
+    "other_insurance_operations_risk": 2,
+    "unique_reference_sources": 10
+  },
+  "reference_file_ids_in_query_order": [
+    "F000292",
+    "F000248",
+    "F001265",
+    "F000841",
+    "F001103",
+    "F001008",
+    "F000075",
+    "F000324",
+    "F000313",
+    "F000930"
+  ],
+  "reference_source_ids_in_query_order": [
+    "FRV2-SOURCE-F000292-83197f6ae35cf26083e13dfc",
+    "FRV2-SOURCE-F000248-9762ad201341be3c7fe8729b",
+    "FRV2-SOURCE-F001265-b458ab1ac9714d596a05e68b",
+    "FRV2-SOURCE-F000841-ff18d67416463096d7050539",
+    "FRV2-SOURCE-F001103-69dc3dda2075d68de2e5de65",
+    "FRV2-SOURCE-F001008-cb44a6418f49c1cab00cefa5",
+    "FRV2-SOURCE-F000075-c2d06f3a6bc99d38fc660991",
+    "FRV2-SOURCE-F000324-ee3259ad9dd69f7543856030",
+    "FRV2-SOURCE-F000313-5822783db091da829916f11b",
+    "FRV2-SOURCE-F000930-333f207876cdb3443e6a106f"
+  ],
+  "query_records": [
+    {
+      "query_id": "C001",
+      "query_text_sha256_utf8": "6dc266cdd2c4495a56f59ca97f7cc5470166b7f42f7f0d50e7bdc036354d883f",
+      "group": "marketing_sales",
+      "query_role": "risk",
+      "reference_source_file_ids": [
+        "F000292"
+      ],
+      "reference_role": "helpful_risk_case_reference_not_exhaustive_gold",
+      "source_id": "FRV2-SOURCE-F000292-83197f6ae35cf26083e13dfc",
+      "documents_jsonl_line_one_based": 293,
+      "original_full_text_sha256_utf8": "d0517dfead6b9077c3ae062a098ea7961a777743bd7e632dea61bf4f787662af",
+      "original_full_text_character_length": 1768,
+      "full_text_read_before_synthesis": true,
+      "selection_basis": "将保险合同未约定的洗车服务作为投保促销利益。",
+      "condition_comparison": [
+        "不能仅以赠品是服务券而排除合同外利益风险",
+        "需要区分合同内约定权益与合同外促销赠送"
+      ],
+      "quote_verification": [
+        {
+          "quote_sha256_utf8": "8590adf4ee60c4b712be6dd78bb51ac9630f64f702659d81f0600839c8db776e",
+          "quote_character_span_zero_based_half_open": [
+            612,
+            688
+          ],
+          "quote_character_length": 76,
+          "exact_contiguous_match": true
+        }
+      ]
+    },
+    {
+      "query_id": "C002",
+      "query_text_sha256_utf8": "349e65493959ab6e565457a778a2403c3b8d53a67315a2a1bcc245e67e9fbc4e",
+      "group": "marketing_sales",
+      "query_role": "risk",
+      "reference_source_file_ids": [
+        "F000248"
+      ],
+      "reference_role": "helpful_risk_case_reference_not_exhaustive_gold",
+      "source_id": "FRV2-SOURCE-F000248-9762ad201341be3c7fe8729b",
+      "documents_jsonl_line_one_based": 249,
+      "original_full_text_sha256_utf8": "bdf03a41d87ac5600536bc2e03376c13643b3769b922806000a74d9cca8af9be",
+      "original_full_text_character_length": 352,
+      "full_text_read_before_synthesis": true,
+      "selection_basis": "投保入口使用领取式表述和稀缺名额营销，同时缺少如实健康告知引导。",
+      "condition_comparison": [
+        "不能只看营销文案，还需关注页面是否引导真实健康告知",
+        "保留领取式表述与投保行为的区别，不添加免费或无需缴费等源文书未记载事实"
+      ],
+      "quote_verification": [
+        {
+          "quote_sha256_utf8": "b612e90fae3768c237b4b0376112cf2324a189ded64a06020994321e279fe352",
+          "quote_character_span_zero_based_half_open": [
+            143,
+            203
+          ],
+          "quote_character_length": 60,
+          "exact_contiguous_match": true
+        }
+      ]
+    },
+    {
+      "query_id": "C003",
+      "query_text_sha256_utf8": "37bcb011d54848a59f3bd726003f9c5690a6d2973641ce2b804a3b6f3c401ba8",
+      "group": "marketing_sales",
+      "query_role": "risk",
+      "reference_source_file_ids": [
+        "F001265"
+      ],
+      "reference_role": "helpful_risk_case_reference_not_exhaustive_gold",
+      "source_id": "FRV2-SOURCE-F001265-b458ab1ac9714d596a05e68b",
+      "documents_jsonl_line_one_based": 1248,
+      "original_full_text_sha256_utf8": "df9c301f785c7b1a75968786fe8b7091fbd7022d051fec4133d7076be1d68f38",
+      "original_full_text_character_length": 1011,
+      "full_text_read_before_synthesis": true,
+      "selection_basis": "以单一红利演示和银行利息对比呈现分红保险收益，并作保证收益式承诺。",
+      "condition_comparison": [
+        "预期或演示收益与保证收益不能混同",
+        "原案包含具体演示档位及保证收益承诺，本题不照搬其产品名称、比例或期限"
+      ],
+      "quote_verification": [
+        {
+          "quote_sha256_utf8": "3fffe5b1cda87f7b2ca7054ed551f5db186729d7d9fcb66186c4ee038912df74",
+          "quote_character_span_zero_based_half_open": [
+            361,
+            458
+          ],
+          "quote_character_length": 97,
+          "exact_contiguous_match": true
+        }
+      ]
+    },
+    {
+      "query_id": "C004",
+      "query_text_sha256_utf8": "e3b37c5ee633114ada38210427aabe4f6fcb42f874645aa3bce3e51de8ee27e1",
+      "group": "marketing_sales",
+      "query_role": "risk",
+      "reference_source_file_ids": [
+        "F000841"
+      ],
+      "reference_role": "helpful_risk_case_reference_not_exhaustive_gold",
+      "source_id": "FRV2-SOURCE-F000841-ff18d67416463096d7050539",
+      "documents_jsonl_line_one_based": 837,
+      "original_full_text_sha256_utf8": "82d7d52c6a02c23aed9d7a878a4076496ce5601e4d2c1df9aa8de3b9397c9c97",
+      "original_full_text_character_length": 1035,
+      "full_text_read_before_synthesis": true,
+      "selection_basis": "电话销售中未完整说明免责范围及犹豫期后的退保损失。",
+      "condition_comparison": [
+        "宣传保障收益不能替代对合同重要情况的说明",
+        "需要核查实际说明内容和电话沟通记录，不能因发生销售便推定全部隐瞒事项"
+      ],
+      "quote_verification": [
+        {
+          "quote_sha256_utf8": "416a764d22a69350e82c816063fcebe4b7c8d4869853edeb234b577c9079461e",
+          "quote_character_span_zero_based_half_open": [
+            333,
+            384
+          ],
+          "quote_character_length": 51,
+          "exact_contiguous_match": true
+        }
+      ]
+    },
+    {
+      "query_id": "C005",
+      "query_text_sha256_utf8": "908e1f6a34c53246ddeeee0de866a538e402f12f77db63bbf9fd1297a31b4394",
+      "group": "other_insurance_operations",
+      "query_role": "risk",
+      "reference_source_file_ids": [
+        "F001103"
+      ],
+      "reference_role": "helpful_risk_case_reference_not_exhaustive_gold",
+      "source_id": "FRV2-SOURCE-F001103-69dc3dda2075d68de2e5de65",
+      "documents_jsonl_line_one_based": 1090,
+      "original_full_text_sha256_utf8": "d20a4fb9da83a8928a618baefb86047cbab83cc17b7629f84fdabb854171ad15",
+      "original_full_text_character_length": 774,
+      "full_text_read_before_synthesis": true,
+      "selection_basis": "利用虚假理赔资料扩大真实事故损失，取得超过实际损失的赔款。",
+      "condition_comparison": [
+        "事故真实不等于损失材料与赔款金额真实",
+        "判断重点是损失程度和资料真实性，而不是要求事故完全虚构"
+      ],
+      "quote_verification": [
+        {
+          "quote_sha256_utf8": "7e0156df6f3e06713a81f32236ebad3627b454d3ea914f92b59639f3844eb64b",
+          "quote_character_span_zero_based_half_open": [
+            163,
+            226
+          ],
+          "quote_character_length": 63,
+          "exact_contiguous_match": true
+        }
+      ]
+    },
+    {
+      "query_id": "C006",
+      "query_text_sha256_utf8": "e3812044ff297b9a3562e0f20a7275a9a9317f126c1f620bb2c5db0a791260e4",
+      "group": "other_insurance_operations",
+      "query_role": "risk",
+      "reference_source_file_ids": [
+        "F001008"
+      ],
+      "reference_role": "helpful_risk_case_reference_not_exhaustive_gold",
+      "source_id": "FRV2-SOURCE-F001008-cb44a6418f49c1cab00cefa5",
+      "documents_jsonl_line_one_based": 1000,
+      "original_full_text_sha256_utf8": "ef31dd6193c93f506220ae9f27e45b4b2d77a1ae02499bafbb31575cccefdc98",
+      "original_full_text_character_length": 1400,
+      "full_text_read_before_synthesis": true,
+      "selection_basis": "将真实直销保单登记为个人代理业务以支出代理手续费。",
+      "condition_comparison": [
+        "保单本身真实不能替代业务来源渠道真实",
+        "支付或系统流程上的便利理由不自动排除虚挂中介业务套费风险"
+      ],
+      "quote_verification": [
+        {
+          "quote_sha256_utf8": "b8d1d7a2d4a5a7aa1aa727a03ffb309d6275fda0dcf21d946e8070636c26527c",
+          "quote_character_span_zero_based_half_open": [
+            349,
+            423
+          ],
+          "quote_character_length": 74,
+          "exact_contiguous_match": true
+        },
+        {
+          "quote_sha256_utf8": "839c4ef78efc1dd5394272839ae684d9577f41eb85397e4230c8c848b8340a59",
+          "quote_character_span_zero_based_half_open": [
+            826,
+            877
+          ],
+          "quote_character_length": 51,
+          "exact_contiguous_match": true
+        }
+      ]
+    },
+    {
+      "query_id": "C007",
+      "query_text_sha256_utf8": "ac8eb531744e78e630f0afe6ae56979972c6d0f20ad2525a459a513399ad1b1a",
+      "group": "boundary_condition_change",
+      "query_role": "boundary",
+      "reference_source_file_ids": [
+        "F000075"
+      ],
+      "reference_role": "boundary_condition_reference_not_hard_positive",
+      "source_id": "FRV2-SOURCE-F000075-c2d06f3a6bc99d38fc660991",
+      "documents_jsonl_line_one_based": 76,
+      "original_full_text_sha256_utf8": "8d13894e1d9dae8bd3db87a738cdf4675aa181125060fc0f70e9e1e0901571d9",
+      "original_full_text_character_length": 282,
+      "full_text_read_before_synthesis": true,
+      "selection_basis": "将原案的合同外利益条件改为合同内明确约定并按约兑现。",
+      "condition_comparison": [
+        "原案为给予合同约定以外的利益；本题改变了利益是否在合同约定内的关键条件",
+        "参考案只支撑条件对照，不证明本题整项安排合规，仍需核验约定内容与实际给付"
+      ],
+      "quote_verification": [
+        {
+          "quote_sha256_utf8": "4fe40e55851ed50d2417b447cf53740508ac3810f5ae2f9ccf532bf06b860845",
+          "quote_character_span_zero_based_half_open": [
+            164,
+            182
+          ],
+          "quote_character_length": 18,
+          "exact_contiguous_match": true
+        }
+      ]
+    },
+    {
+      "query_id": "C008",
+      "query_text_sha256_utf8": "dfb1d9ed98df95abc624ebf62f9b2fd265d4772083a3a5bfdc9527675ec5f59b",
+      "group": "boundary_condition_change",
+      "query_role": "boundary",
+      "reference_source_file_ids": [
+        "F000324"
+      ],
+      "reference_role": "boundary_condition_reference_not_hard_positive",
+      "source_id": "FRV2-SOURCE-F000324-ee3259ad9dd69f7543856030",
+      "documents_jsonl_line_one_based": 325,
+      "original_full_text_sha256_utf8": "eaea7e75f02945c834bb03909263ed1f53b1202103769eb24611bf920379ea20",
+      "original_full_text_character_length": 989,
+      "full_text_read_before_synthesis": true,
+      "selection_basis": "将原案委托无合法资格机构销售的条件改为合作机构具有相关资格。",
+      "condition_comparison": [
+        "原案明确为机构未取得合法资格；本题否定这一关键条件",
+        "资格证明的适用范围和实际活动仍需核实，不能凭该条件变更宣称整个合作必合规"
+      ],
+      "quote_verification": [
+        {
+          "quote_sha256_utf8": "2adeb09977e6a3e7dc6f68bcc8ecd56d933a12a19e965eabdac53db73f87fb87",
+          "quote_character_span_zero_based_half_open": [
+            393,
+            421
+          ],
+          "quote_character_length": 28,
+          "exact_contiguous_match": true
+        }
+      ]
+    },
+    {
+      "query_id": "C009",
+      "query_text_sha256_utf8": "6426611b28a1c9844bd6c68c887d772bea229ef77ce79f1a05da8fbd2efe78f0",
+      "group": "boundary_condition_change",
+      "query_role": "boundary",
+      "reference_source_file_ids": [
+        "F000313"
+      ],
+      "reference_role": "boundary_condition_reference_not_hard_positive",
+      "source_id": "FRV2-SOURCE-F000313-5822783db091da829916f11b",
+      "documents_jsonl_line_one_based": 314,
+      "original_full_text_sha256_utf8": "c43af6a512feb9484f421c1d130af0f5f93a31111f633888a064b4fa883824f0",
+      "original_full_text_character_length": 909,
+      "full_text_read_before_synthesis": true,
+      "selection_basis": "将原案兼业代理业务转挂个人代理人套费的条件改为按实际服务渠道记录和支付。",
+      "condition_comparison": [
+        "原案为兼业代理业务虚挂个人代理人名下；本题改变了记载渠道与真实渠道不一致的条件",
+        "原案不能直接证明本题付费合规，仍需核验服务、台账和费用依据真实性"
+      ],
+      "quote_verification": [
+        {
+          "quote_sha256_utf8": "5a2ac92a37db4bf06336069182ad4fb6359c3ed14731db9c60b6a8230ec31ddf",
+          "quote_character_span_zero_based_half_open": [
+            424,
+            455
+          ],
+          "quote_character_length": 31,
+          "exact_contiguous_match": true
+        }
+      ]
+    },
+    {
+      "query_id": "C010",
+      "query_text_sha256_utf8": "fab68072b8f2e10bb7ee4b4e7ecd261dfc89c2d1937ee4f2a9540bb4c80f0620",
+      "group": "boundary_condition_change",
+      "query_role": "boundary",
+      "reference_source_file_ids": [
+        "F000930"
+      ],
+      "reference_role": "boundary_condition_reference_not_hard_positive",
+      "source_id": "FRV2-SOURCE-F000930-333f207876cdb3443e6a106f",
+      "documents_jsonl_line_one_based": 924,
+      "original_full_text_sha256_utf8": "eefd382967556ee8837423a07efe390c40aeadc82a1e951672409a12227de5fe",
+      "original_full_text_character_length": 1131,
+      "full_text_read_before_synthesis": true,
+      "selection_basis": "否定原案冒用农户名义虚假承保以及利用虚假理赔返还代垫保费、利息的条件。",
+      "condition_comparison": [
+        "原案为冒用农户名义、虚假承保并利用虚假理赔返还代垫保费及利息；本题否定这组决定性事实",
+        "真实性设定仍需业务资料核验，参考原案不支持对整笔种植险业务作必然合规判断"
+      ],
+      "quote_verification": [
+        {
+          "quote_sha256_utf8": "219afffdd487486ff40eadbb1036ba670766b690a515cd110f9ab468b6789730",
+          "quote_character_span_zero_based_half_open": [
+            486,
+            533
+          ],
+          "quote_character_length": 47,
+          "exact_contiguous_match": true
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "all_quotes_exact_contiguous_original_full_text": true,
+    "quote_count": 11,
+    "query_ids": [
+      "C001",
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010"
+    ],
+    "all_boundary_known_positive_file_ids_empty": true,
+    "no_query_title_case_number_party_product_proper_name_clues": "Manual wording review completed",
+    "no_paid_or_secret_material_in_final_outputs": "Necessary public case excerpts only; no full-text attachments or identity/address/payment-account fields"
+  },
+  "artifacts": {
+    "confirmation_queries_jsonl_sha256": "da31500db04fa1263c8809eab861e1ede14e431ffa6f670d029132b96c2dab6d",
+    "confirmation_design_notes_md_sha256": "f24af4b36e32670266bae7a17ce27f5fc3825a5bc65c62392d53a2f59c37b7ed"
+  },
+  "limitations": [
+    "10 synthetic inputs are a small directed sample, not human-user or official test gold.",
+    "Source file disjointness does not guarantee semantic mechanism independence.",
+    "Risk references are non-exhaustive; a source hit alone does not prove helpful actual Top5 context.",
+    "Boundary references support condition comparisons only, never whole-input automatic compliance or violation.",
+    "Shared model generation and later model scoring can introduce correlated bias; no statistical significance or generalization claim is supported."
+  ]
+}

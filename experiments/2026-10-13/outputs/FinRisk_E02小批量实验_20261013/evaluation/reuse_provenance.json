@@ -1,0 +1,14 @@
+{
+  "input_sha256": {},
+  "judgment_inputs_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\judgments\\judgments_p1.jsonl": "12c9558b427d99bbe956fcba6663cb52807935a42b86fbea972f248a0029a1e6",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\judgments\\judgments_p2.jsonl": "573bd1b6bd5d841f9163c80f237365b4cf8fd32906ea748767d5086e3fc4976c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\judgments\\judgments_p3.jsonl": "1f636aaeb580a919fe02283c653c5fefa6899ecfca8a4932e2f91194ca12ddaf"
+  },
+  "remaining_pairs": 0,
+  "reuse_rule": "exact query id/text, source SHA/full text and independent exact context text",
+  "reused_contexts": 0,
+  "reused_files": 0,
+  "sources": [],
+  "validated_judgments_sha256": "2901c84f7dcb69724ad690cef572e9abd1d0249ee274428f02a6a288d5b245f7"
+}

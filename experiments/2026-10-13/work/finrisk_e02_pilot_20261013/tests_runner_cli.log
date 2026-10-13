@@ -1,0 +1,12 @@
+usage: experiment.py [-h] --queries QUERIES --prefixes PREFIXES --reviews
+                     REVIEWS --output OUTPUT [--cache CACHE]
+
+E02 extractive-prefix replay; frozen P0/P2 and real local P1 retrieval.
+
+options:
+  -h, --help           show this help message and exit
+  --queries QUERIES
+  --prefixes PREFIXES
+  --reviews REVIEWS
+  --output OUTPUT
+  --cache CACHE

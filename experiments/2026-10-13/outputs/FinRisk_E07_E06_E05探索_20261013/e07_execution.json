@@ -1,0 +1,22 @@
+{
+  "status": "complete_exploratory_condition_replay",
+  "profiles": 7,
+  "inputs": 16,
+  "state_counts": {
+    "present": 20,
+    "absent": 14,
+    "unknown": 30
+  },
+  "followup_questions": 30,
+  "constructed_branches": 8,
+  "branch_model_decisions": {
+    "risk_detected": 4,
+    "no_obvious_risk": 4
+  },
+  "automatic_dialogue_deployed": false,
+  "new_retrieval_performed_for_branches": false,
+  "independent_gold": false,
+  "author_is_judge": true,
+  "human_approved": false,
+  "conclusion": "Structured unknowns and source-backed questions are usable; branch outcomes demonstrate condition sensitivity, not an accuracy improvement over V3 which already lists the main gaps."
+}

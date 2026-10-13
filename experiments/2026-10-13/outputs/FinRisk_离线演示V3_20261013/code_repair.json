@@ -1,0 +1,8 @@
+{
+  "reason": "prepare now binds parent output SHA, exact complete RRF parameters and enabled arm; existing actual run/packets/judgments unchanged",
+  "initial_code_sha256": "1cfe2e9eb310c043573f0aa4e7e2774d428d1da8177deef9b117f2a4b4b28baa",
+  "current_code_sha256": "90da39ef2e9e32ea4614d8ae193dc15b268b8a6dd90951d137cb935fdea6dc32",
+  "initial_freeze_sha256": "fc839a0093fdda89a5229a5618eda248a993ab1fc256cb22a4b87840f68a7018",
+  "initial_dependencies_unchanged_except_versioned_entry_code": 66,
+  "real_gpu_rerun": false
+}

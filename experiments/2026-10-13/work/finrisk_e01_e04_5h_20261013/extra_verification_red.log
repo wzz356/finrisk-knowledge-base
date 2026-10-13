@@ -1,0 +1,23 @@
+test_only_verified_reuse_bookkeeping_can_differ (test_extra_verification.ExtraVerificationTests.test_only_verified_reuse_bookkeeping_can_differ) ... FAIL
+test_source_or_display_mutation_still_fails (test_extra_verification.ExtraVerificationTests.test_source_or_display_mutation_still_fails) ... FAIL
+
+======================================================================
+FAIL: test_only_verified_reuse_bookkeeping_can_differ (test_extra_verification.ExtraVerificationTests.test_only_verified_reuse_bookkeeping_can_differ)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e01_e04_5h_20261013\test_extra_verification.py", line 22, in test_only_verified_reuse_bookkeeping_can_differ
+    self.assertTrue(callable(fn), "verified reuse comparison not implemented")
+AssertionError: False is not true : verified reuse comparison not implemented
+
+======================================================================
+FAIL: test_source_or_display_mutation_still_fails (test_extra_verification.ExtraVerificationTests.test_source_or_display_mutation_still_fails)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e01_e04_5h_20261013\test_extra_verification.py", line 29, in test_source_or_display_mutation_still_fails
+    self.assertTrue(callable(fn), "verified reuse comparison not implemented")
+AssertionError: False is not true : verified reuse comparison not implemented
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+FAILED (failures=2)

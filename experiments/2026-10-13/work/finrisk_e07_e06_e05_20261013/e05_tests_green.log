@@ -1,0 +1,20 @@
+test_base_dense_keeps_original_row_ties_and_array (test_e05_runner.E05Tests.test_base_dense_keeps_original_row_ties_and_array) ... ok
+test_cluster_input_layer_must_partition_all_leaves (test_e05_runner.E05Tests.test_cluster_input_layer_must_partition_all_leaves) ... ok
+test_empty_cluster_repair_covers_identical_vectors (test_e05_runner.E05Tests.test_empty_cluster_repair_covers_identical_vectors) ... ok
+test_freeze_rejects_drift_and_missing_dependency (test_e05_runner.E05Tests.test_freeze_rejects_drift_and_missing_dependency) ... ok
+test_kmeans_rejects_invalid_vectors (test_e05_runner.E05Tests.test_kmeans_rejects_invalid_vectors) ... ok
+test_leaf_source_binding_and_ambiguity_guard (test_e05_runner.E05Tests.test_leaf_source_binding_and_ambiguity_guard) ... ok
+test_navigation_descendants_must_exist_in_full_population (test_e05_runner.E05Tests.test_navigation_descendants_must_exist_in_full_population) ... ok
+test_navigation_top_k_competes_then_expands_and_deduplicates (test_e05_runner.E05Tests.test_navigation_top_k_competes_then_expands_and_deduplicates) ... ok
+test_new_cache_and_output_refuse_overwrite_and_escape (test_e05_runner.E05Tests.test_new_cache_and_output_refuse_overwrite_and_escape) ... ok
+test_node_whitelist_rejects_empty_unknown_duplicate (test_e05_runner.E05Tests.test_node_whitelist_rejects_empty_unknown_duplicate) ... ok
+test_reviewed_scope_preserves_old_short_index_ambiguity (test_e05_runner.E05Tests.test_reviewed_scope_preserves_old_short_index_ambiguity) ... ok
+test_same_round_pool_reuses_only_exact_inputs (test_e05_runner.E05Tests.test_same_round_pool_reuses_only_exact_inputs) ... ok
+test_score_binding_forbids_wrong_text_source_runtime_and_run (test_e05_runner.E05Tests.test_score_binding_forbids_wrong_text_source_runtime_and_run) ... ok
+test_spherical_seed_coverage_and_centroid_norm (test_e05_runner.E05Tests.test_spherical_seed_coverage_and_centroid_norm) ... ok
+test_tree_requires_hierarchy_and_child_union (test_e05_runner.E05Tests.test_tree_requires_hierarchy_and_child_union) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.668s
+
+OK

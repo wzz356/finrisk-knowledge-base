@@ -1,0 +1,16 @@
+test_blind_pool_removes_author_and_methods (test_evaluate.EvaluationTests.test_blind_pool_removes_author_and_methods) ... ok
+test_fabricated_span_or_display_rejected (test_evaluate.EvaluationTests.test_fabricated_span_or_display_rejected) ... ok
+test_fixed_denominator_and_fresh_strata (test_evaluate.EvaluationTests.test_fixed_denominator_and_fresh_strata) ... ok
+test_missing_arm_is_rejected (test_evaluate.EvaluationTests.test_missing_arm_is_rejected) ... ok
+test_missing_scope_approval_rejected (test_evaluate.EvaluationTests.test_missing_scope_approval_rejected) ... ok
+test_old_plain_context_still_valid (test_evaluate.EvaluationTests.test_old_plain_context_still_valid) ... ok
+test_other_subject_segment_does_not_contain_original (test_evaluate.EvaluationTests.test_other_subject_segment_does_not_contain_original) ... ok
+test_prefix_quote_and_unit_binding_rejected (test_evaluate.EvaluationTests.test_prefix_quote_and_unit_binding_rejected) ... ok
+test_prepare_missing_then_summarize_complete (test_evaluate.EvaluationTests.test_prepare_missing_then_summarize_complete) ... ok
+test_scoped_and_prefixed_roundtrip_keep_source (test_evaluate.EvaluationTests.test_scoped_and_prefixed_roundtrip_keep_source) ... ok
+test_visible_field_label_cannot_be_regulatory_quote (test_evaluate.EvaluationTests.test_visible_field_label_cannot_be_regulatory_quote) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.820s
+
+OK

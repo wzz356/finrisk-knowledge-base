@@ -1,0 +1,450 @@
+{
+  "status": "complete_offline_pilot",
+  "created_at_utc": "2026-10-12T18:00:11.639333+00:00",
+  "source_documents": 9639,
+  "structured_units": 65475,
+  "prefix_units": 24,
+  "queries": 22,
+  "result_records": 66,
+  "new_real_rerank_scores": 2200,
+  "frozen_real_score_reuse": 2200,
+  "model_graded_pairs": 125,
+  "model_graded_contexts": 146,
+  "regression_tests": {
+    "passed": 39,
+    "failed": 0,
+    "skipped": 0,
+    "evidence": {
+      "path": "work/finrisk_e02_pilot_20261013/tests_root_runtime.log",
+      "bytes": 11238,
+      "sha256": "67f4ab7a0f94787b539f3ba7a7901d90bc33e603fbe4a69b39c0df7ad62ff87b"
+    }
+  },
+  "adoption_decision": {
+    "status": "retain_current_A0_no_full_prefix_rollout",
+    "numeric_eligible": [
+      "P1"
+    ],
+    "model_graded_helpfulness_gain_slots": 1,
+    "denominator": 110,
+    "query_coverage_gain": 0,
+    "return_scope_holds": 2,
+    "semantic_adoption_gate_met": false,
+    "chosen_production_configuration": "unchanged_A0",
+    "application_modified": false,
+    "human_approved": false,
+    "reason": "Paired diagnostic improvement is only one slot; two expanded multi-subject contexts need prefix-scope fixes and no independent confirmation supports a full rollout.",
+    "next_step": "Fix scope of returned background, retest affected cases, then independent small cohort before expanding."
+  },
+  "human_approved": false,
+  "application_modified": false,
+  "github_pushed_this_pilot": false,
+  "independent_holdout": false,
+  "scope": "Completed diagnostic pilot; semantic scope fixes remain before full adoption.",
+  "output_files": [
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/cohort.json",
+      "bytes": 11229,
+      "sha256": "d27c55a2d979630407c29e236225f64d9c2d892edff8ebcd6a73f33f11b3fad8"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/decision.json",
+      "bytes": 689,
+      "sha256": "17ca2b484d71cd64ab6386a2bc4426c57cecffcc868524002f3cb2c0917a0e8e"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/design.md",
+      "bytes": 2659,
+      "sha256": "d2163928d34e704736cd943d2346c6322de85f468b3ccdfa165d6d67b202f003"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/blind_judgment_pool.jsonl",
+      "bytes": 971925,
+      "sha256": "ae7c957ff17bd6ad8821d9954684be706c253c3308ce1e9b91618b6fbe4f3901"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/cached_judgments.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/file_context_disagreements.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/judgment_pool_manifest.json",
+      "bytes": 2675,
+      "sha256": "bb872bb41e5d974a5357feccbd0a9716b4e733cf56fb0e013118019383dec128"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/judgment_provenance.jsonl",
+      "bytes": 3250420,
+      "sha256": "e599a81f0cf606d441e4495cd9d683afcac72786402009075392e88b2e05a12d"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/metrics.json",
+      "bytes": 17368,
+      "sha256": "f2751a61ab48406d696cef135aed56ee52a59790143d117defb3be80324728e7"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/metrics.md",
+      "bytes": 837,
+      "sha256": "deb530d8b74f5cba298fa24769f32b6351350ebebd53882b334f98d5812c2781"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/per_query_metrics.jsonl",
+      "bytes": 3225429,
+      "sha256": "1c30184850cb90bc284529ef7c326169e53d45794bf56607c0f96d934bf76ea2"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/remaining_pool.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/reuse_provenance.json",
+      "bytes": 1048,
+      "sha256": "77c4f29f60bc1ed68b201dcee5f4f844963829e721778ef4158ac5eada0e32f4"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/evaluation/validated_judgments.jsonl",
+      "bytes": 209518,
+      "sha256": "2901c84f7dcb69724ad690cef572e9abd1d0249ee274428f02a6a288d5b245f7"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/execution_freeze.json",
+      "bytes": 4366,
+      "sha256": "b2f6c3d7753943f26e71bbe8cbbbc2b0123322415862c3bd54439ea3b986e083"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/input_freeze.json",
+      "bytes": 4634,
+      "sha256": "80d9e74137157a824370014831b0fff81361d2c19ce81652e74dbab2356bab70"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/judgments/input_p1.jsonl",
+      "bytes": 144576,
+      "sha256": "b3ad1ecceed14af0c6d857cf41f0f86d9971113ed95e2e34784753706dff96f0"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/judgments/input_p2.jsonl",
+      "bytes": 143540,
+      "sha256": "5372fe52624fb1bd333b24e408d978a8a0d6633b7f4f1e44b1d9c05ae61141a9"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/judgments/input_p3.jsonl",
+      "bytes": 153774,
+      "sha256": "a28712ba851a1a2c02e1f2267d549785c147651661b325f888079d8f2f3442a2"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/judgments/judgments_p1.jsonl",
+      "bytes": 49103,
+      "sha256": "12c9558b427d99bbe956fcba6663cb52807935a42b86fbea972f248a0029a1e6"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/judgments/judgments_p2.jsonl",
+      "bytes": 52734,
+      "sha256": "573bd1b6bd5d841f9163c80f237365b4cf8fd32906ea748767d5086e3fc4976c"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/judgments/judgments_p3.jsonl",
+      "bytes": 45484,
+      "sha256": "1f636aaeb580a919fe02283c653c5fefa6899ecfca8a4932e2f91194ca12ddaf"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/judgments/notes_p1.md",
+      "bytes": 2771,
+      "sha256": "a8fd7607e52ea5c1d6481eaa734e795b1502ab05ae0a9ad8e0f3eefee2049a13"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/judgments/notes_p2.md",
+      "bytes": 3221,
+      "sha256": "1a13468f459e50ea9ae66dcbf884d1d64dd7c72bf53c8928487a3a08612bdaa2"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/judgments/notes_p3.md",
+      "bytes": 3229,
+      "sha256": "d0e24833674d74f281abc68c73a4996c04d06c43e6c0a6bc45a01be3845cd83c"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefix_inputs_p1.jsonl",
+      "bytes": 129912,
+      "sha256": "c23ddcccff71732074d35263b9906007cd9de17ca88736ecaf6c57577305838b"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefix_inputs_p2.jsonl",
+      "bytes": 139509,
+      "sha256": "f22827d0d6992750d386fb906ad041dff7aaaf2a6867c7d03cd8289808cc14e1"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefix_notes_p1.md",
+      "bytes": 7572,
+      "sha256": "55949a9e2959c4807e7fde94a265794e82561472f388cdcd41e1c043d3c336a3"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefix_notes_p2.md",
+      "bytes": 4883,
+      "sha256": "4c9eede6444faa9df6118d3613f4a0bb1253ab9d23c056a875e9175e4303ce13"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefix_quality.json",
+      "bytes": 1173,
+      "sha256": "0a2915efd487d41fa1a490c70f1f91b5833fac690e5163e9a399ec92e7abb2ac"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefix_review.jsonl",
+      "bytes": 16422,
+      "sha256": "586f6f1aad4d65794be2145562a087c20e4b9462950d70ce49f19195a8ed828a"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefix_review_notes_p1.md",
+      "bytes": 7195,
+      "sha256": "8e318900fe1f14c170cea49d77eed457ac9ede7a033318b4e041fc4ebe362706"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefix_review_notes_p2.md",
+      "bytes": 6713,
+      "sha256": "2936987b77310cbb06ebfbd47ae7876b5b9acc43e64cc086b5e2d4931149128e"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefix_reviews_p1.jsonl",
+      "bytes": 8161,
+      "sha256": "ae6df67ab2571ff6a376b14f3789398490aacec3c5284a18a89adf995f61e260"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefix_reviews_p2.jsonl",
+      "bytes": 8117,
+      "sha256": "cf52a8a69aa5aebcc093250c09449aec628d1830dcb229a03046cbf68414454a"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefixes.jsonl",
+      "bytes": 37759,
+      "sha256": "42b4cd521d4a6e554ec23afe2a59c110146d32d2f4ef525125d8e2c6e7761adc"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefixes_p1.jsonl",
+      "bytes": 19833,
+      "sha256": "23ab7846b9433ea1ac405f66f0804b86c0e74410553c8aac16400216f1a158fc"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/prefixes_p2.jsonl",
+      "bytes": 15825,
+      "sha256": "ff84fc597ec24e2e046e99896c350b569da83695e06dd56327a8241487243be4"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/queries.jsonl",
+      "bytes": 7948,
+      "sha256": "21847ec5f83067859669d33baf8afaf84e047fefd26d9ae228c097bfcd572da4"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/query_vector_candidate_control.json",
+      "bytes": 8877,
+      "sha256": "dc43e8f182f079c222d417e372ff7e218cdbd7d7796a25044484e86470e12c0e"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/query_vector_refresh_audit.json",
+      "bytes": 5926,
+      "sha256": "cf0de5cbe5ad11fe54f90c5b304de83cc78751091815fa377d669efbb9452917"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/README.md",
+      "bytes": 1603,
+      "sha256": "a194767c23fe6f1a1152eb0ae02384f1cbdf79f91cddbab075276a19ebebda45"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/results.jsonl",
+      "bytes": 28909375,
+      "sha256": "193dd9371213d1cad645f58810d4c5097cec84c02304fa1941664f72619c13f9"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/results.jsonl.run.json",
+      "bytes": 32762,
+      "sha256": "0da0a4f160a745d369ecd89f81e3baca149961cac95d92089f47b571de6a0437"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/results.jsonl.score_pool.jsonl",
+      "bytes": 17035032,
+      "sha256": "406bc2be0cc95cea3eb7949af7b7648b065fd63832ea7e2df6338554fd383479"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/results.jsonl.token_audit.jsonl",
+      "bytes": 32908897,
+      "sha256": "642be8c6f9f66e10d367dd9ea2713dc044d1a992fa9a12a1777e0572967f7904"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/return_scope_review.jsonl",
+      "bytes": 1918,
+      "sha256": "d1b7180bd0d87b4171c155727cbb54d3a4d5445408baf34da6463a27eaba173f"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/verification.json",
+      "bytes": 1775,
+      "sha256": "44ce8861802a13e5634ccfd435b2f3883e76b7449f0f78729b2c4a9de27df971"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/复跑说明.md",
+      "bytes": 4151,
+      "sha256": "00e5f3b249946ffd14d1e1f8027041fb1f8545431823f1ccb72b1fb01d322c48"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/实验报告.md",
+      "bytes": 11209,
+      "sha256": "54e5edd76596c76774a57d5478eb24192932d411564438b37e6f522f5f787486"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/样例对比.md",
+      "bytes": 16695,
+      "sha256": "0fa855e91721a1b738b91b63edb1bef0c314852ac234e2fd9af586eb0a163c72"
+    },
+    {
+      "path": "outputs/FinRisk_E02小批量实验_20261013/评分规则.md",
+      "bytes": 2925,
+      "sha256": "de5f379683b7bd4ec686cf7738366b39f4ea83f17e71cffe1176ea5bbd4f9788"
+    }
+  ],
+  "work_code_notes_and_logs": [
+    {
+      "path": "work/finrisk_e02_pilot_20261013/assemble_prefixes.py",
+      "bytes": 4082,
+      "sha256": "473452f65d251e8806df2eec21f2b8e5984b4e757bcaf5654d6d13857ff6c7c9"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/code_review.md",
+      "bytes": 6069,
+      "sha256": "9e1f6c3b7feb2fb5f4174ebd4a41aa6e30c9631a49b7157c793ff430bf1be81c"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/evaluate.py",
+      "bytes": 7246,
+      "sha256": "e6f7d1b3b9646b45384fd50b9605b076b73dcc1cc7f22c9b68519aeb40ed5e4d"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/evaluation_notes.md",
+      "bytes": 1677,
+      "sha256": "336e49b42f85bf69fffbbe1f3e06a81d7f16aef62cddf2c7d441957186a2d825"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/evaluation_roundtrip_red.log",
+      "bytes": 3910,
+      "sha256": "13fc26fdf368d90c77837c4e7930258ff48b83d62bb9281bda6b04a4e23e7718"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/evaluation_tests_green.log",
+      "bytes": 2094,
+      "sha256": "adde127150678381e1db08042ada964ca8b14d145fe8c83a458bea3e6ce1ba99"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/experiment.py",
+      "bytes": 30902,
+      "sha256": "6f671bd3234d56645022cf35e99d40417c48def1b3df2b3eb5e59800c243e353"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/findings.md",
+      "bytes": 2406,
+      "sha256": "34ff8d6ee6309b4b2687e32b702d9b023a58752fa47b435aaaeca6f30f2dab7e"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/implementation_notes.md",
+      "bytes": 5729,
+      "sha256": "e8b35ea7ec6d435932409ac347fb25747528793eb9b5d09aefa625bc72d2a0c2"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/package_delivery.py",
+      "bytes": 3629,
+      "sha256": "141fa7dffaa7fbb92cf2ab1e5c40ab24a8970143a5fdc944415f9e05432a0e9d"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/prepare_cohort.py",
+      "bytes": 6504,
+      "sha256": "ce2604ed2214f09947ee4f090532ed8cf3d30c776d60eb540bb2b0a73a6fd208"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/progress.md",
+      "bytes": 5142,
+      "sha256": "5010e68daf255dd0424c93a7c27c3080f064b1e5838bd0beac5a80be20272188"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/report_review.md",
+      "bytes": 6382,
+      "sha256": "6bcb7b71a426ca7bb5630b574e2e01e47e3bb75c36e80405fc1165d75b4e8021"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/task_plan.md",
+      "bytes": 6453,
+      "sha256": "b961c3d638d2dc8e00ab69a01d478aa691abd212d7b5e5acb0d17888e1dc2912"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/test_evaluate.py",
+      "bytes": 8788,
+      "sha256": "7a2ceb971bdd0b78f17fa64142fef0be1e114cad72927786e47feaf406c94cad"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/test_experiment.py",
+      "bytes": 21762,
+      "sha256": "30469606d04ff6a3ea29e02967f1a4e0f30aea629dc34ffe664789b2c2c44941"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/tests_root_runtime.log",
+      "bytes": 11238,
+      "sha256": "67f4ab7a0f94787b539f3ba7a7901d90bc33e603fbe4a69b39c0df7ad62ff87b"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/tests_runner_cli.log",
+      "bytes": 381,
+      "sha256": "65c86ea2336f180f28a335214f1f92e15c0602c76f132d620da97644108bed57"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/tests_runner_frozen_inputs.log",
+      "bytes": 373,
+      "sha256": "2447bfa10a9a104a3b405a32c54b021a41edd224b27eac075f7b59be38395241"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/tests_runner_green.log",
+      "bytes": 9007,
+      "sha256": "8b1c340ae368444abf3fa61a394f4b4269909edf5785e8eb0a98674e47a3eff2"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/tests_runner_integration.log",
+      "bytes": 8838,
+      "sha256": "0d2899fd1dfd0892ecf37943d2855ab972a69bc991bb55f66d5c6b00ef593660"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/tests_runner_quality_frozen.log",
+      "bytes": 398,
+      "sha256": "c08716c22c07b0e810feb6be9efd5c4e057be64a9324a1c36fdd5604c7b84ef2"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/tests_runner_quality_red.log",
+      "bytes": 1080,
+      "sha256": "ee7ef25e7e2c7a928131d65a4e0a8d98b459e9587f28819557994ffc7c27f983"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/tests_runner_red.log",
+      "bytes": 15347,
+      "sha256": "f8b3a81d2015783b08deb88f6359e62c612c81bdd2d711cacf8937d0af388f19"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/tests_runner_review_red.log",
+      "bytes": 3255,
+      "sha256": "dc791b822b3e6d817eefe5c64c1d8c5b792215b1d4a9d55f1fc143c03abfc408"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/verify_delivery.py",
+      "bytes": 8463,
+      "sha256": "f0ebbc2c2b41a6452185f685a2e0871dd869a00cec0668fc451023a17cf2f46e"
+    },
+    {
+      "path": "work/finrisk_e02_pilot_20261013/write_examples.py",
+      "bytes": 3574,
+      "sha256": "8c93b60a112942a2ece246dfacac4033c44949f1e482afe56a4dfee052ced10c"
+    }
+  ],
+  "excluded": [
+    "manifest itself",
+    "vector/model caches",
+    "virtual environments",
+    "temporary test directories"
+  ],
+  "dependency_note": "Original V2/E04 dependencies remain at their frozen paths; see input_freeze.json and execution_freeze.json."
+}

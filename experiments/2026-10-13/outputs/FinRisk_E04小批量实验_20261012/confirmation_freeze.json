@@ -1,0 +1,12 @@
+{
+  "status": "frozen",
+  "frozen_at_utc": "2026-10-12T15:15:14.184495+00:00",
+  "files_sha256": {
+    "confirmation_queries.jsonl": "da31500db04fa1263c8809eab861e1ede14e431ffa6f670d029132b96c2dab6d",
+    "confirmation_source_manifest.json": "c5ec577e72a914cd18d21dc6feb872c196545ea1e8526c1c2119c381cdb55c15",
+    "confirmation_design_notes.md": "f24af4b36e32670266bae7a17ce27f5fc3825a5bc65c62392d53a2f59c37b7ed"
+  },
+  "query_count": 10,
+  "confirmation_content_read_by_selector": false,
+  "rule": "source cohort prepared independently; root has only checked file bytes hashes before dev selection, not query body or any outcome"
+}

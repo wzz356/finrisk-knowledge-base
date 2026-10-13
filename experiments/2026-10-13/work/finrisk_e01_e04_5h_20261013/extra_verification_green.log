@@ -1,0 +1,7 @@
+test_only_verified_reuse_bookkeeping_can_differ (test_extra_verification.ExtraVerificationTests.test_only_verified_reuse_bookkeeping_can_differ) ... ok
+test_source_or_display_mutation_still_fails (test_extra_verification.ExtraVerificationTests.test_source_or_display_mutation_still_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK

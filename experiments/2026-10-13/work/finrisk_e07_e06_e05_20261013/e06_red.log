@@ -1,0 +1,41 @@
+test_diversify_keeps_model_rank_and_scores (test_e06.E06Tests.test_diversify_keeps_model_rank_and_scores) ... FAIL
+test_known_event_requires_exact_source_scope (test_e06.E06Tests.test_known_event_requires_exact_source_scope) ... FAIL
+test_same_file_other_behavior_not_grouped (test_e06.E06Tests.test_same_file_other_behavior_not_grouped) ... FAIL
+test_uncertain_event_not_grouped (test_e06.E06Tests.test_uncertain_event_not_grouped) ... FAIL
+
+======================================================================
+FAIL: test_diversify_keeps_model_rank_and_scores (test_e06.E06Tests.test_diversify_keeps_model_rank_and_scores)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e06.py", line 10, in setUp
+    self.assertIsNotNone(e06, "E06 implementation absent")
+AssertionError: unexpectedly None : E06 implementation absent
+
+======================================================================
+FAIL: test_known_event_requires_exact_source_scope (test_e06.E06Tests.test_known_event_requires_exact_source_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e06.py", line 10, in setUp
+    self.assertIsNotNone(e06, "E06 implementation absent")
+AssertionError: unexpectedly None : E06 implementation absent
+
+======================================================================
+FAIL: test_same_file_other_behavior_not_grouped (test_e06.E06Tests.test_same_file_other_behavior_not_grouped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e06.py", line 10, in setUp
+    self.assertIsNotNone(e06, "E06 implementation absent")
+AssertionError: unexpectedly None : E06 implementation absent
+
+======================================================================
+FAIL: test_uncertain_event_not_grouped (test_e06.E06Tests.test_uncertain_event_not_grouped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e06.py", line 10, in setUp
+    self.assertIsNotNone(e06, "E06 implementation absent")
+AssertionError: unexpectedly None : E06 implementation absent
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.004s
+
+FAILED (failures=4)

@@ -1,0 +1,193 @@
+{
+  "status": "complete_read_only_candidate_control",
+  "queries": 22,
+  "matrix_exactly_reconstructed": true,
+  "fresh_dense_routes_exactly_reproduced": 22,
+  "frozen_query_vector_candidate_set_equal_queries": 21,
+  "rows": [
+    {
+      "query_id": "Q001",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q002",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q009",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q012",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q016",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q021",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q022",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q037",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q038",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q042",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q044",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "Q047",
+      "same_rerank100_candidate_set": false,
+      "only_with_frozen_query_vector": [
+        "structured:F001090:V2:980f87b4909eff8e3427b6487612ed01c3e1e88f55a571a862a058d77c00698c"
+      ],
+      "only_with_refreshed_query_vector": [
+        "structured:F009207:V2:3722d74d058d3b8252b45bb5a497ecdce4adc53d593710208eb55c71a06214dc"
+      ]
+    },
+    {
+      "query_id": "C001",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "C002",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "C003",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "C004",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "C005",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "C006",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "C007",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "C008",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "C009",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    },
+    {
+      "query_id": "C010",
+      "same_rerank100_candidate_set": true,
+      "only_with_frozen_query_vector": [],
+      "only_with_refreshed_query_vector": []
+    }
+  ],
+  "scope": "Keep actual P1 BM25/index overlay fixed; replace refreshed query vector with validated original query vector, recompute exact dense+RRF candidates. No new semantic grades, no new model call, no configuration selection.",
+  "fixed_real_score_pool_top5_robust_queries": 22,
+  "control_q047_new_same_input_scores": [
+    {
+      "unit_id": "structured:F001090:V2:980f87b4909eff8e3427b6487612ed01c3e1e88f55a571a862a058d77c00698c",
+      "real_score": -0.437255859375,
+      "origin": "validated same-query same-original-indexed-text P0 real score",
+      "binding": {
+        "experiment_inputs": {
+          "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\cohort.json": "d27c55a2d979630407c29e236225f64d9c2d892edff8ebcd6a73f33f11b3fad8",
+          "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\input_freeze.json": "80d9e74137157a824370014831b0fff81361d2c19ce81652e74dbab2356bab70",
+          "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_inputs_p1.jsonl": "c23ddcccff71732074d35263b9906007cd9de17ca88736ecaf6c57577305838b",
+          "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_inputs_p2.jsonl": "f22827d0d6992750d386fb906ad041dff7aaaf2a6867c7d03cd8289808cc14e1",
+          "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_quality.json": "0a2915efd487d41fa1a490c70f1f91b5833fac690e5163e9a399ec92e7abb2ac",
+          "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_review.jsonl": "586f6f1aad4d65794be2145562a087c20e4b9462950d70ce49f19195a8ed828a",
+          "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefixes.jsonl": "42b4cd521d4a6e554ec23afe2a59c110146d32d2f4ef525125d8e2c6e7761adc",
+          "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\queries.jsonl": "21847ec5f83067859669d33baf8afaf84e047fefd26d9ae228c097bfcd572da4",
+          "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\experiment.py": "6f671bd3234d56645022cf35e99d40417c48def1b3df2b3eb5e59800c243e353"
+        },
+        "file_id": "F001090",
+        "indexed_text": "上述事实有现场检查事实确认书、相关人员询问笔录、有关记账凭证复印件、回收薪酬及手续费转账明细等证据材料在案证明。",
+        "indexed_text_sha256": "980f87b4909eff8e3427b6487612ed01c3e1e88f55a571a862a058d77c00698c",
+        "manifest_sha256": "9f7f2d8cdbc621cfa577d8c5ffac439be3aeeeccc2f0e487cd1210bd78487a8d",
+        "prefix_profile": null,
+        "prefix_sha256": null,
+        "query_id": "Q047",
+        "query_text_sha256": "863e6faa8c4da0207cdeb1b496f28515b9a822a79c4207c1d9f81176bcdde407",
+        "runtime": {
+          "adapter_sha256": "c846cac66071c7f83028d99fb5968332655d51bb550abe4047cf0505c5ad44d4",
+          "batch_size": 16,
+          "device": "cuda",
+          "embedding_cache_sha256": "1004a5109d12d22653fb7f8ed1c482172fbf37c9b7c59256d9172475b0cec4f3",
+          "max_length": 512,
+          "numpy": "1.26.4",
+          "precision": "float16",
+          "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+          "reranker_cache_sha256": "7168dae8a54a02b336af80208d80489cd77929a92cfa133e5f3d6bfb8ea68368",
+          "runner_sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+          "torch": "2.6.0+cu124",
+          "transformers": "4.57.1"
+        },
+        "source_sha256": "055727dcfa06433f330c7ec779f051d9c43966af89dd480b055a9abc94a47211",
+        "unit_id": "structured:F001090:V2:980f87b4909eff8e3427b6487612ed01c3e1e88f55a571a862a058d77c00698c"
+      }
+    }
+  ],
+  "control_q047_top5_exact_match": true,
+  "control_score_policy": "21 unchanged candidate sets use identical actual P1 score pool; Q047 adds one input-bound existing P0 real score. No new model call; robustness is conditional on the frozen real score pool, not a new independent run."
+}

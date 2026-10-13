@@ -1,0 +1,3532 @@
+{
+  "input_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_judgments.jsonl": "5bdf60f58f86fba3c0d50bc43c61f449e78224326db1179b66d5adf2055a325c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl": "17fe71c2f6e38774d2aea2f91574a01071973c5e2fe94007908cc7fa4ca4c96d"
+  },
+  "judgment_inputs_sha256": {},
+  "remaining_pairs": 0,
+  "reuse_rule": "exact query id/text, source SHA/full text and independent exact context text",
+  "reused_contexts": 267,
+  "reused_files": 248,
+  "sources": [
+    {
+      "accepted": [
+        {
+          "context_ids": [
+            "C58976b47e964"
+          ],
+          "context_sha256": {
+            "C58976b47e964": "58976b47e9647093cb998b879935c7ee26835b1bd842ecf2356f7f1b5e688f4f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J007b61ea7ea0",
+          "query_id": "Q047",
+          "query_sha256": "863e6faa8c4da0207cdeb1b496f28515b9a822a79c4207c1d9f81176bcdde407",
+          "source_sha256": "8296a7d1a4a3287a173d581c51a5049da7692e36fa92648e78b5f2bd3b33d4da"
+        },
+        {
+          "context_ids": [
+            "Cf8870c2be78b"
+          ],
+          "context_sha256": {
+            "Cf8870c2be78b": "f8870c2be78b0fe9727b6270c44ad3094904a6cceab587e5d813855150025647"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J009df066ae5c",
+          "query_id": "C010",
+          "query_sha256": "fab68072b8f2e10bb7ee4b4e7ecd261dfc89c2d1937ee4f2a9540bb4c80f0620",
+          "source_sha256": "0f9ebc8cdaf8af1310fc07c003c2fa3a78d9421e2d5993b5a3d0e2e7f541cb8a"
+        },
+        {
+          "context_ids": [
+            "C93d760bd69a2"
+          ],
+          "context_sha256": {
+            "C93d760bd69a2": "93d760bd69a2561469f78ea7d8f11bfe9c68fd4707e581177f622e71386a1dfd"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J00c04cec3716",
+          "query_id": "Q038",
+          "query_sha256": "09cd65a185716a9a27e074886db0ec55ed38722def64510061d0bda9c8b9de3a",
+          "source_sha256": "dfe888a677f0afe41fa72ec89b04599556bddbabdde5920a51f66433dd04552c"
+        },
+        {
+          "context_ids": [
+            "Ce397a504f209"
+          ],
+          "context_sha256": {
+            "Ce397a504f209": "e397a504f2097d3f993007b61fbc6ccaf136fd72d0eec35673d2232dc483091e"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J01e13ad650c5",
+          "query_id": "N015",
+          "query_sha256": "f20f116022fdf9e1ba977444642e86195dfaf2cfc2f8c5a4bbd273a6bed7850b",
+          "source_sha256": "7f6b3ca2161031241acbee4ce3314c4a2aace329e1fb3f4f916aea70e92afe1c"
+        },
+        {
+          "context_ids": [
+            "C5f7bb23dae03",
+            "Cd1e670f3bb03"
+          ],
+          "context_sha256": {
+            "C5f7bb23dae03": "5f7bb23dae03a0c24b6339a05e2157f1f5dbefc3e98f909539a0bdb1e40da9a9",
+            "Cd1e670f3bb03": "d1e670f3bb037997d77290a0ee87a1f579ffc0066f1a54b43fee63e7c43fbd2c"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J0596c0b96ba9",
+          "query_id": "Q047",
+          "query_sha256": "863e6faa8c4da0207cdeb1b496f28515b9a822a79c4207c1d9f81176bcdde407",
+          "source_sha256": "1378f650cf58a961b2bfac0067cd918f4f5a9c4c70bc770ba7a46f67fd374379"
+        },
+        {
+          "context_ids": [
+            "Cb3fcb6531322"
+          ],
+          "context_sha256": {
+            "Cb3fcb6531322": "b3fcb6531322af4b1fa1e310fec90e167e348a4d619e9c708aa6e13b54e8e993"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J05ccf43518bb",
+          "query_id": "C003",
+          "query_sha256": "37bcb011d54848a59f3bd726003f9c5690a6d2973641ce2b804a3b6f3c401ba8",
+          "source_sha256": "69e9aa57185547c5d590ea14a5c5de88b5ce8200e9cc8e2e9e8104860d78d908"
+        },
+        {
+          "context_ids": [
+            "C23db7de8b0a1"
+          ],
+          "context_sha256": {
+            "C23db7de8b0a1": "23db7de8b0a169da319223dd2a01f3024a7f532346b62fe287e72d56b7e96a3e"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J06441e066842",
+          "query_id": "Q022",
+          "query_sha256": "7cad30faac223e96f687702dde8c68ea56771cf954a8e8b57599410bf30777fb",
+          "source_sha256": "1467e3f7a5f0ecfae814a837c37d9cecd0038860f063cc348f576d6063ccacdf"
+        },
+        {
+          "context_ids": [
+            "C488f83b47568"
+          ],
+          "context_sha256": {
+            "C488f83b47568": "488f83b47568b35c32daee253e5e2ff2542425ed12b4ec5d2f84b46ad67e8d46"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J079e121d6c6e",
+          "query_id": "C002",
+          "query_sha256": "349e65493959ab6e565457a778a2403c3b8d53a67315a2a1bcc245e67e9fbc4e",
+          "source_sha256": "68872a108d7fe186c15d8cf2207fcfca7733307724db61eb576e91510b35eba7"
+        },
+        {
+          "context_ids": [
+            "C281b7f41840c"
+          ],
+          "context_sha256": {
+            "C281b7f41840c": "281b7f41840c2f8a2e032c08738cf95c477f8807a4fb4a057f63c86e3c9bf7d4"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J07aeb90ecdd8",
+          "query_id": "N004",
+          "query_sha256": "ea089b72cce06ddb01b3abe1bb76598ee45c99a23766ea91416b3b57965680e9",
+          "source_sha256": "53d3847ecd1cc88350c998507a036d6f44005008a89ebbffac3c92f6a0de9d14"
+        },
+        {
+          "context_ids": [
+            "Cd2466b998a49"
+          ],
+          "context_sha256": {
+            "Cd2466b998a49": "d2466b998a493f88fb3f9e583f96bc1eb54ced4d3ee1882be3f481e3a491232e"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J08eabd8091c8",
+          "query_id": "N006",
+          "query_sha256": "00a2b1912f3190889075f8e408d129f9ac89db216c94a3930027e55e5e455fb1",
+          "source_sha256": "25c24e5d34d654523bc33f3a21e001086f8a15bd884f696f68a8345ca640a410"
+        },
+        {
+          "context_ids": [
+            "Cdbbfe3e81a41"
+          ],
+          "context_sha256": {
+            "Cdbbfe3e81a41": "dbbfe3e81a41aa342656bde0f2753867558aec500c7a61a74f717dbcacd4ed97"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J08fccc4c1f73",
+          "query_id": "C005",
+          "query_sha256": "908e1f6a34c53246ddeeee0de866a538e402f12f77db63bbf9fd1297a31b4394",
+          "source_sha256": "7cfbf037824a72940513e654e3d135e7e0f42155e0b5950f526c2acb14d10bec"
+        },
+        {
+          "context_ids": [
+            "C2c7be2e61217",
+            "Ca3272238c59d"
+          ],
+          "context_sha256": {
+            "C2c7be2e61217": "2c7be2e6121794a6b6e8f7377f76cdaf652fedc1d840aa30d9a69943908e533e",
+            "Ca3272238c59d": "a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J092e8e67b994",
+          "query_id": "C007",
+          "query_sha256": "ac8eb531744e78e630f0afe6ae56979972c6d0f20ad2525a459a513399ad1b1a",
+          "source_sha256": "cb6601b0f5231ca274809e3ca44398eb7eeecb54ad4ee97c456d92a7978afa14"
+        },
+        {
+          "context_ids": [
+            "C51eb745172cb"
+          ],
+          "context_sha256": {
+            "C51eb745172cb": "51eb745172cb6afdbdef763242c984009e7dad26b4ca9d2ea91d72f635383759"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J09dac8cd60da",
+          "query_id": "Q038",
+          "query_sha256": "09cd65a185716a9a27e074886db0ec55ed38722def64510061d0bda9c8b9de3a",
+          "source_sha256": "9ff4ba9ffa2ed403e973ddb1a3208942496c2a45d7b1bde90122afe20374835d"
+        },
+        {
+          "context_ids": [
+            "C58976b47e964"
+          ],
+          "context_sha256": {
+            "C58976b47e964": "58976b47e9647093cb998b879935c7ee26835b1bd842ecf2356f7f1b5e688f4f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J0a28e4a4ae37",
+          "query_id": "N010",
+          "query_sha256": "79059aa2c7026975590ef54b7174362b2deeb90e8ded6b39dc436f172f7fe4b5",
+          "source_sha256": "8296a7d1a4a3287a173d581c51a5049da7692e36fa92648e78b5f2bd3b33d4da"
+        },
+        {
+          "context_ids": [
+            "C24d23d577f58"
+          ],
+          "context_sha256": {
+            "C24d23d577f58": "24d23d577f5846fab49092ea3677583f569a6cf31cf88b8d390f12def2f614da"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J0a32b887fe86",
+          "query_id": "N020",
+          "query_sha256": "c5848f5164e328a08f102c30a527c6b56cbe930b581e54d3c5442af2c9c2f3ce",
+          "source_sha256": "31d59e0057293e67a30bcee695ceb9dfa285e6ef7229a9c6a07847b69007c751"
+        },
+        {
+          "context_ids": [
+            "Ca8f67d5af204"
+          ],
+          "context_sha256": {
+            "Ca8f67d5af204": "a8f67d5af204969a7a2c4fe3f9ac5da8eb5eb13024eaa0e33ace0556a6dd27a0"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J0b508af15234",
+          "query_id": "Q037",
+          "query_sha256": "8798ff38bad239823f8497fb1beb8b9daeced7243ac8443e2b38b3fd99b62381",
+          "source_sha256": "7f93d189bfc16d28a9f754fe224b12088a4ba5f452c71df25aa36035ce81375d"
+        },
+        {
+          "context_ids": [
+            "Cb0d3e65df4a8"
+          ],
+          "context_sha256": {
+            "Cb0d3e65df4a8": "b0d3e65df4a8ff78179c1ce6770a1cbab4248481e3d3f2aef41da40082b38580"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J0db51fd9ba9e",
+          "query_id": "Q044",
+          "query_sha256": "31b314ead83162f4d9fe8871783b01fdb4869ed20ed466b16100d62b7e1e17dd",
+          "source_sha256": "199461f82d2293d718ff833d8babfa95d872cf8afe4844f03af1fbc9f0832f62"
+        },
+        {
+          "context_ids": [
+            "Cf43bc10fca6c"
+          ],
+          "context_sha256": {
+            "Cf43bc10fca6c": "f43bc10fca6caf12ec3019f54a238f2cdcb083aa5c047b9c5878ebeaff6919ab"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J1026a5381762",
+          "query_id": "Q038",
+          "query_sha256": "09cd65a185716a9a27e074886db0ec55ed38722def64510061d0bda9c8b9de3a",
+          "source_sha256": "4dc3201a9839e3a8c67b85005537f39fd6faf7b336ff7af883252a6a050d7b9e"
+        },
+        {
+          "context_ids": [
+            "C1e11debb0db4",
+            "C7ef534885e0b"
+          ],
+          "context_sha256": {
+            "C1e11debb0db4": "1e11debb0db415e1b02cf3e3d268daaee3f140a3c1e2b57d7ab226e48765f6fd",
+            "C7ef534885e0b": "7ef534885e0bf9be9a24fcb4162fe3c04b85d7f02d622e6fccfb972f2caad94f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J1026c059e705",
+          "query_id": "Q037",
+          "query_sha256": "8798ff38bad239823f8497fb1beb8b9daeced7243ac8443e2b38b3fd99b62381",
+          "source_sha256": "525ed32bcf625f2eed6ed632272cd953a2c67aa26d370cebcc223cd69458acc1"
+        },
+        {
+          "context_ids": [
+            "C58976b47e964"
+          ],
+          "context_sha256": {
+            "C58976b47e964": "58976b47e9647093cb998b879935c7ee26835b1bd842ecf2356f7f1b5e688f4f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J10606ab8e9a0",
+          "query_id": "N020",
+          "query_sha256": "c5848f5164e328a08f102c30a527c6b56cbe930b581e54d3c5442af2c9c2f3ce",
+          "source_sha256": "8296a7d1a4a3287a173d581c51a5049da7692e36fa92648e78b5f2bd3b33d4da"
+        },
+        {
+          "context_ids": [
+            "Cc247f10c1847"
+          ],
+          "context_sha256": {
+            "Cc247f10c1847": "c247f10c1847bd26acdd3615b3516d4749222ae44d3133759e20222b9a869fe4"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J10d15547e2ba",
+          "query_id": "Q037",
+          "query_sha256": "8798ff38bad239823f8497fb1beb8b9daeced7243ac8443e2b38b3fd99b62381",
+          "source_sha256": "eae1d36e0fbdb2b9c63533c158cf5e834b80ff78e1fa05b8844b8aedebd0db44"
+        },
+        {
+          "context_ids": [
+            "C292d59e5097e"
+          ],
+          "context_sha256": {
+            "C292d59e5097e": "292d59e5097ede3854592834929af70a8da63133310d4f69a0cb4e954243690d"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J1227973c8274",
+          "query_id": "N007",
+          "query_sha256": "58fb9877fbf8beadd4318ed66d4420ff4ee70ff4f1048a6b169ffa6433cc16a3",
+          "source_sha256": "99905e89f627ca21e9d414229b245e28a32b93184664aaef2c148b6780697d89"
+        },
+        {
+          "context_ids": [
+            "C0b236d38e339"
+          ],
+          "context_sha256": {
+            "C0b236d38e339": "0b236d38e339e50045b92e6004408ad3241dbc95e3cce050162c6eaf688c35dd"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J1373ea2ecb5a",
+          "query_id": "Q016",
+          "query_sha256": "e01c124b969f3e39b37e38d5767fa58ec82ace42799ffa2afa47ae54b6e650b2",
+          "source_sha256": "5a3048ff5a6d481f32d79ced360ec9683bd6ed8e5377004a7714cc6ac894a039"
+        },
+        {
+          "context_ids": [
+            "C30b80b6da2bc"
+          ],
+          "context_sha256": {
+            "C30b80b6da2bc": "30b80b6da2bcc268b753ba26219f8fd2a53c6b8a8d99105f7df5b226e5d946ea"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J14cb1271df44",
+          "query_id": "N009",
+          "query_sha256": "2494dbd25062fa4d8ce6c6b1c46e950694cba312d7e9f610e05339a1267dcb7b",
+          "source_sha256": "553507f7d14c9b4c9d64d48254d144af746803b0c68943e0605130fe33b5fe0c"
+        },
+        {
+          "context_ids": [
+            "Cac9dfae971e2"
+          ],
+          "context_sha256": {
+            "Cac9dfae971e2": "ac9dfae971e2a06b1e3f1dd7d6004ea9f45b78292aa81bd4411173a63cddb72a"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J16905abebf06",
+          "query_id": "N019",
+          "query_sha256": "d0d2ea127a733c15102dcaefa415bfcfea3282731f5060858142d47d27a08c13",
+          "source_sha256": "191733ccda56b450c5351f950ab1ad1d3e65e5e9e779846628543ec3fcb89fa2"
+        },
+        {
+          "context_ids": [
+            "Cd6497ba7878f"
+          ],
+          "context_sha256": {
+            "Cd6497ba7878f": "d6497ba7878f7d8a5ac3a5fe4179a5816b2255367ceaf9eb359134b8c9ced1d8"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J16b691f8202d",
+          "query_id": "N004",
+          "query_sha256": "ea089b72cce06ddb01b3abe1bb76598ee45c99a23766ea91416b3b57965680e9",
+          "source_sha256": "82d7d52c6a02c23aed9d7a878a4076496ce5601e4d2c1df9aa8de3b9397c9c97"
+        },
+        {
+          "context_ids": [
+            "C51b03f4a9d7d",
+            "Cd98de17d4cab"
+          ],
+          "context_sha256": {
+            "C51b03f4a9d7d": "51b03f4a9d7d9df09a5b0d753bd25a5e166a8e482182d510612ad228892df0a4",
+            "Cd98de17d4cab": "d98de17d4caba1108a691dce1323d68c6393d2dde839bcd32009f44fee14841e"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J175a7bbf4114",
+          "query_id": "C002",
+          "query_sha256": "349e65493959ab6e565457a778a2403c3b8d53a67315a2a1bcc245e67e9fbc4e",
+          "source_sha256": "b56b10a0397781def8444eb3285d5c0c0486c237f4df168e06249440e004e30e"
+        },
+        {
+          "context_ids": [
+            "C636aac13d1b7"
+          ],
+          "context_sha256": {
+            "C636aac13d1b7": "636aac13d1b7fa5cfaa8377ac218c00910e2f08baaa1886e5151666f1ff82fa8"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J186b229a385f",
+          "query_id": "Q044",
+          "query_sha256": "31b314ead83162f4d9fe8871783b01fdb4869ed20ed466b16100d62b7e1e17dd",
+          "source_sha256": "02801384b223f85b18556c378960ec8864b790828a6be76044d30895a915ed57"
+        },
+        {
+          "context_ids": [
+            "C0adec2f8c93c"
+          ],
+          "context_sha256": {
+            "C0adec2f8c93c": "0adec2f8c93c9f2e1eb39eeac3437b8379759435009a62d2af13777710263ee6"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J18b97a6ea106",
+          "query_id": "C004",
+          "query_sha256": "e3b37c5ee633114ada38210427aabe4f6fcb42f874645aa3bce3e51de8ee27e1",
+          "source_sha256": "bf812f3c3821d5b3316ff68dcfb1af90ff9b6f8ecae70a9e1c11fbc273a3a894"
+        },
+        {
+          "context_ids": [
+            "C0efd4c9f3228",
+            "Cfbe7f36b7906"
+          ],
+          "context_sha256": {
+            "C0efd4c9f3228": "0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+            "Cfbe7f36b7906": "fbe7f36b7906cc4b00177663bec6c41f0f40b1c1e7fc11da23f3608ca518c7e8"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J1aba9e939c1d",
+          "query_id": "Q012",
+          "query_sha256": "07673bbb9716b947644e94856f418f8bbf7a08244e7303c5caea64e816f9a440",
+          "source_sha256": "d775c8470c9b25e940653760e85e3630f9d47dff65379cdaee6a8fe5d5e1cc35"
+        },
+        {
+          "context_ids": [
+            "Ceaaa4f54904f"
+          ],
+          "context_sha256": {
+            "Ceaaa4f54904f": "eaaa4f54904f401d4ddb0fa028d4332fb30f93b51028d762f08cc2199ccdf7b8"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J1e29e1d7b31d",
+          "query_id": "C009",
+          "query_sha256": "6426611b28a1c9844bd6c68c887d772bea229ef77ce79f1a05da8fbd2efe78f0",
+          "source_sha256": "65926fea8a7246bcf97ff059458f8814a6741ba4082d4f0631d4028ad1356eb0"
+        },
+        {
+          "context_ids": [
+            "Ce7c1d4514f94"
+          ],
+          "context_sha256": {
+            "Ce7c1d4514f94": "e7c1d4514f949604d68897ee2d1f63f77e79692237d974111e8785b5b3680ca9"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J1e9455e7d2ed",
+          "query_id": "N015",
+          "query_sha256": "f20f116022fdf9e1ba977444642e86195dfaf2cfc2f8c5a4bbd273a6bed7850b",
+          "source_sha256": "7481277fc34a9d8283a3408624bebb807b807e9f160a3a396676d1b1235746e8"
+        },
+        {
+          "context_ids": [
+            "Cb0d3e65df4a8"
+          ],
+          "context_sha256": {
+            "Cb0d3e65df4a8": "b0d3e65df4a8ff78179c1ce6770a1cbab4248481e3d3f2aef41da40082b38580"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J1ee9731f910d",
+          "query_id": "N014",
+          "query_sha256": "feeeb11279b8950401ea3873e2d5cf92e75d46a1d1908feb01f6a05d06d6f35f",
+          "source_sha256": "199461f82d2293d718ff833d8babfa95d872cf8afe4844f03af1fbc9f0832f62"
+        },
+        {
+          "context_ids": [
+            "C75dd4723157e"
+          ],
+          "context_sha256": {
+            "C75dd4723157e": "75dd4723157e895d3bc6ba148399658c274258281432f114d8c1c8fb79900927"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J2091a0cf4824",
+          "query_id": "N001",
+          "query_sha256": "b8956d305a1d53e06d2e1452eea023d637bf8a327b8321697b1b2fffc684917d",
+          "source_sha256": "21b02359eea07d91cdeb1b8042c6e080e3fd74b08fea3b6f5a23dda4f47c4268"
+        },
+        {
+          "context_ids": [
+            "Cf9c9fc292ae9"
+          ],
+          "context_sha256": {
+            "Cf9c9fc292ae9": "f9c9fc292ae941c3faa4e48c7306c9d3fac98c6799bbc38ca1f602d6fcbab5d6"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J212e5f733f10",
+          "query_id": "Q022",
+          "query_sha256": "7cad30faac223e96f687702dde8c68ea56771cf954a8e8b57599410bf30777fb",
+          "source_sha256": "99a087c13f603cad2d357d62d2e6285744741376735ab8ebe5ca7300153ca4f1"
+        },
+        {
+          "context_ids": [
+            "C9ad1e7ea1102"
+          ],
+          "context_sha256": {
+            "C9ad1e7ea1102": "9ad1e7ea11026876827856e7ecfae32c97d58b44348baa9e939df03620161fc0"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J216d8286351c",
+          "query_id": "C006",
+          "query_sha256": "e3812044ff297b9a3562e0f20a7275a9a9317f126c1f620bb2c5db0a791260e4",
+          "source_sha256": "6a8323bb7f64ecb85decba487a8e38c56da7bd224af76e76a178c8fe33424d47"
+        },
+        {
+          "context_ids": [
+            "C0e2abd4a4c7a",
+            "C438b6493183a"
+          ],
+          "context_sha256": {
+            "C0e2abd4a4c7a": "0e2abd4a4c7a6bb1b659722e9d9033a45c4ca7ec1611763f94fdd3ae44ea5840",
+            "C438b6493183a": "438b6493183af37e9d1a97ddce07b9379987d725bbe4be47c3866926ae41c445"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J22bc6e59d3c8",
+          "query_id": "C006",
+          "query_sha256": "e3812044ff297b9a3562e0f20a7275a9a9317f126c1f620bb2c5db0a791260e4",
+          "source_sha256": "7f07ff5ab0078f92e346c90e8bcd55b2bdc98a1dc13f8f5ccfbf4feb6f485231"
+        },
+        {
+          "context_ids": [
+            "C31ef9ca40e36"
+          ],
+          "context_sha256": {
+            "C31ef9ca40e36": "31ef9ca40e3689107b551029e6b564faa129eb6c8ff884c6df122d8429654d03"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J22f7a3fd2e26",
+          "query_id": "Q009",
+          "query_sha256": "11a7e0fefc3ded50a97c1e8c1097fa6ad10ec1fe550aa390a8a3958fddee50fd",
+          "source_sha256": "12b5d7b83cf70194700f09593667fe37115609617b936f857fc32dd067b8ba6a"
+        },
+        {
+          "context_ids": [
+            "Cdff3438d5c04"
+          ],
+          "context_sha256": {
+            "Cdff3438d5c04": "dff3438d5c04793907a3ada2fd15ed18da11c7d378e432d021e4c481d6293ca7"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J25fcb03753c4",
+          "query_id": "N020",
+          "query_sha256": "c5848f5164e328a08f102c30a527c6b56cbe930b581e54d3c5442af2c9c2f3ce",
+          "source_sha256": "9793f447ca2c58ac7d0e1d4ec08fb464e2c53361eb914bb4e5bbd5282bdecb03"
+        },
+        {
+          "context_ids": [
+            "C98851372efcc"
+          ],
+          "context_sha256": {
+            "C98851372efcc": "98851372efcc2b1922ee478bfdd203518536600a13d02be72ba9c47a119d1d81"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J290cbd651399",
+          "query_id": "N009",
+          "query_sha256": "2494dbd25062fa4d8ce6c6b1c46e950694cba312d7e9f610e05339a1267dcb7b",
+          "source_sha256": "7ce5c0f360f2511652f003bd0e6e855c9d9d9ed4be18e45e8c95bbbd31b6f126"
+        },
+        {
+          "context_ids": [
+            "Cdcb9efc25e3b"
+          ],
+          "context_sha256": {
+            "Cdcb9efc25e3b": "dcb9efc25e3b12badcc844092c9a933aa84797d9183df051320d34995f55d94c"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J293de3b7859b",
+          "query_id": "N015",
+          "query_sha256": "f20f116022fdf9e1ba977444642e86195dfaf2cfc2f8c5a4bbd273a6bed7850b",
+          "source_sha256": "cdf8715fd90eb742feebcfad6f9d3537e706d34b9ccc75e4c473100428ee5639"
+        },
+        {
+          "context_ids": [
+            "C022773f3d109"
+          ],
+          "context_sha256": {
+            "C022773f3d109": "022773f3d1095862d1aa98130336038bdbd7395aeebcdecf1bdd56aead735a45"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J29abfba1e59a",
+          "query_id": "N002",
+          "query_sha256": "0ab1368927c54fe6a6b81b174b0a01a17dfcf8a06c9b088fcfbb6d111957de94",
+          "source_sha256": "2b78ec7eabf985581d6c807dc303e8db97f0e1306339ce85b7fc8afe21bdd485"
+        },
+        {
+          "context_ids": [
+            "C73762b30abab"
+          ],
+          "context_sha256": {
+            "C73762b30abab": "73762b30ababde578eb99a5c34a9f4c2a2d1fd52d4b1be9109a45a4a1c164efe"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J2a339852ebcc",
+          "query_id": "N016",
+          "query_sha256": "d3d7a52904202aee0beed7af837aeb52417181acc423f537c111793965c300f2",
+          "source_sha256": "2981b36c2784c2ec58a54a733b594e2fd439890364cae70a663033799697a163"
+        },
+        {
+          "context_ids": [
+            "Cc2389ca09563"
+          ],
+          "context_sha256": {
+            "Cc2389ca09563": "c2389ca0956383da7d28698a0f3c50d8a0c7114469fa4c6fa6dc5a2fb4cdf285"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J2be77a8d98e1",
+          "query_id": "C001",
+          "query_sha256": "6dc266cdd2c4495a56f59ca97f7cc5470166b7f42f7f0d50e7bdc036354d883f",
+          "source_sha256": "6b4eb3a8f857fd7bc655a589317105d132d6d0b832c0269542b6427d89640488"
+        },
+        {
+          "context_ids": [
+            "C67e3b9c45745"
+          ],
+          "context_sha256": {
+            "C67e3b9c45745": "67e3b9c45745150256d68b269c16f191a596ba518e2a7918926ef943bd25151e"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J2c898d609ae8",
+          "query_id": "N008",
+          "query_sha256": "efa0dcc8c44915edd6263872c669716ad964eb1e9d07b14826671b7c08f6a1d0",
+          "source_sha256": "93a6d238626328bd53d36e31850b287aba1170340a79a62f09c710d6f33304f7"
+        },
+        {
+          "context_ids": [
+            "Cf7f2687faeda"
+          ],
+          "context_sha256": {
+            "Cf7f2687faeda": "f7f2687faeda77b9bc6a82672d85cd24801e277d31ddd2307014c80e376a1978"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J2da0567746c2",
+          "query_id": "C003",
+          "query_sha256": "37bcb011d54848a59f3bd726003f9c5690a6d2973641ce2b804a3b6f3c401ba8",
+          "source_sha256": "040c032a3f3e5ff2ff6d6583fbb6ee70ada664e79eacf5e8d8ca01575e086a34"
+        },
+        {
+          "context_ids": [
+            "Cd00cdc702266"
+          ],
+          "context_sha256": {
+            "Cd00cdc702266": "d00cdc702266fb83b1bf459cd6fedc665f08b8a56e5f7580ffc459350c53d4de"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J2e3cfaa64799",
+          "query_id": "N001",
+          "query_sha256": "b8956d305a1d53e06d2e1452eea023d637bf8a327b8321697b1b2fffc684917d",
+          "source_sha256": "2af7b8f685bf41c08286577992e8f135dad3814c5897cd0161c81ce50076876b"
+        },
+        {
+          "context_ids": [
+            "Ca32d188ef206"
+          ],
+          "context_sha256": {
+            "Ca32d188ef206": "a32d188ef206cba88452b04729d2c352a63e00872b570920f129cbf42f30e683"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J308091de7ec0",
+          "query_id": "C004",
+          "query_sha256": "e3b37c5ee633114ada38210427aabe4f6fcb42f874645aa3bce3e51de8ee27e1",
+          "source_sha256": "be8ef39951beb9d379ed2fdfa09b69be4176d5eb36d13bf5cc52ddf6aca71ef8"
+        },
+        {
+          "context_ids": [
+            "C7a5888e26de6"
+          ],
+          "context_sha256": {
+            "C7a5888e26de6": "7a5888e26de6c2b8c65db1d630666977fb58e1de888b751f56647ce4b15595e9"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J319bd4d8c1f7",
+          "query_id": "N008",
+          "query_sha256": "efa0dcc8c44915edd6263872c669716ad964eb1e9d07b14826671b7c08f6a1d0",
+          "source_sha256": "5ee5a1a7f137f5d79832af2855387269e15f4ee83b470cd1e7c4e08c9ea57122"
+        },
+        {
+          "context_ids": [
+            "Cb27630540b15",
+            "Cc11f962a9560"
+          ],
+          "context_sha256": {
+            "Cb27630540b15": "b27630540b15289ceb77fabb4e55566a09a31215b3ea58eaa348f81dab8c3a42",
+            "Cc11f962a9560": "c11f962a95605058c4467545011990020fc6bf74dab8fa5416267bb5b8897ef6"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J322fe87e6ed3",
+          "query_id": "C007",
+          "query_sha256": "ac8eb531744e78e630f0afe6ae56979972c6d0f20ad2525a459a513399ad1b1a",
+          "source_sha256": "05b6d38882d5f9c16f1d61faf2e0cce80ee9ae196578bb061c640cc95713e163"
+        },
+        {
+          "context_ids": [
+            "Cd9dd892a8492"
+          ],
+          "context_sha256": {
+            "Cd9dd892a8492": "d9dd892a8492391c70c1ac861098519158ae52fde38d876cbb6ba31ad4581801"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J32caeeab83b4",
+          "query_id": "Q037",
+          "query_sha256": "8798ff38bad239823f8497fb1beb8b9daeced7243ac8443e2b38b3fd99b62381",
+          "source_sha256": "58be1dfdea891775dfbc2b8709e47b4d9ea0062ad2113364abe736a30a7aba09"
+        },
+        {
+          "context_ids": [
+            "Ca554b0dfef2b"
+          ],
+          "context_sha256": {
+            "Ca554b0dfef2b": "a554b0dfef2b49022cbdc8e99c9c412402f765dcc3cc7135b59ca0d618f5b6bd"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J339686f79184",
+          "query_id": "C003",
+          "query_sha256": "37bcb011d54848a59f3bd726003f9c5690a6d2973641ce2b804a3b6f3c401ba8",
+          "source_sha256": "49147b87eb9bd7412d7d68603e0aac7491c12c5e2f69c21b5523db060a89e7d1"
+        },
+        {
+          "context_ids": [
+            "C16bd47b9d537"
+          ],
+          "context_sha256": {
+            "C16bd47b9d537": "16bd47b9d5377317243800fe6de52350c84abc0ddbfa120ddf23bfe1aa8ca2e7"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J347bd068d847",
+          "query_id": "N005",
+          "query_sha256": "344f7e3b3c1ed2e19b20aea498fdd9391d5013fca26de84d2dfe890873e5998e",
+          "source_sha256": "94767a5192581a2822606901605941a39502728edf94c6f7bfd91a73ab8ad71c"
+        },
+        {
+          "context_ids": [
+            "Cb5f23d8daaed"
+          ],
+          "context_sha256": {
+            "Cb5f23d8daaed": "b5f23d8daaed56e7340a5628579b0255a06defb39d5a4e169d8c31a9b91347d1"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J35100d84fbe7",
+          "query_id": "N016",
+          "query_sha256": "d3d7a52904202aee0beed7af837aeb52417181acc423f537c111793965c300f2",
+          "source_sha256": "52d653956d81dcf7fd92264f9b201374966e140113a9b69ca587603a61b98246"
+        },
+        {
+          "context_ids": [
+            "Cf7f2687faeda"
+          ],
+          "context_sha256": {
+            "Cf7f2687faeda": "f7f2687faeda77b9bc6a82672d85cd24801e277d31ddd2307014c80e376a1978"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J3553c42419fa",
+          "query_id": "Q002",
+          "query_sha256": "95560a6e7bd02db73c87a32357f5c9de9104def057b410f08897f68cf8317b83",
+          "source_sha256": "040c032a3f3e5ff2ff6d6583fbb6ee70ada664e79eacf5e8d8ca01575e086a34"
+        },
+        {
+          "context_ids": [
+            "Ceaea1455d6dd"
+          ],
+          "context_sha256": {
+            "Ceaea1455d6dd": "eaea1455d6dd3dddaf48e94e51efbe8279e53402e83e3ccb8509fe00985b4dd3"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J36240b4d7025",
+          "query_id": "N002",
+          "query_sha256": "0ab1368927c54fe6a6b81b174b0a01a17dfcf8a06c9b088fcfbb6d111957de94",
+          "source_sha256": "814b6f81c66ae77ee08716a4ac86ea01fef232245d0a2569b0952ce4bb00c540"
+        },
+        {
+          "context_ids": [
+            "Cad51da0fe999"
+          ],
+          "context_sha256": {
+            "Cad51da0fe999": "ad51da0fe999cf7bfd198f62cdff8893d166fc67739a89ac8f6f94fd25143317"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J36f7f28f92bb",
+          "query_id": "N012",
+          "query_sha256": "e5937284604d388647929c82a447ca3824c093cc189d3265abb8398fd018dbcc",
+          "source_sha256": "9ca6a51ff90e92979a2d9666c3df5c8247bbcdd3a496b11cd39a6e17e139c976"
+        },
+        {
+          "context_ids": [
+            "C7c5b373c9c53"
+          ],
+          "context_sha256": {
+            "C7c5b373c9c53": "7c5b373c9c5383b77759b6c3ca9b85b702a42261f387f6d2b641db0aa16e0857"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J38427930ab1f",
+          "query_id": "N013",
+          "query_sha256": "32615cd4fe500ab7875a0d862763c83ee647564a5efe71482a2c1db18edb77b6",
+          "source_sha256": "0c10a9157bb517a01c0f6730cd704d037601386f7b4b6f971bfe8df62a20cd8c"
+        },
+        {
+          "context_ids": [
+            "Ca79db4bb0deb"
+          ],
+          "context_sha256": {
+            "Ca79db4bb0deb": "a79db4bb0debd65da69b48402d6662105602159ea195fd19d82530ae75a61757"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J38719f3550f6",
+          "query_id": "N006",
+          "query_sha256": "00a2b1912f3190889075f8e408d129f9ac89db216c94a3930027e55e5e455fb1",
+          "source_sha256": "74114098592d6de1b8e5ce131a8b33057e3bb934c679dd13e4cea30fe8a2292f"
+        },
+        {
+          "context_ids": [
+            "C4ba29360f47c"
+          ],
+          "context_sha256": {
+            "C4ba29360f47c": "4ba29360f47cd02d0235e6e3938a389f2d3575bbb4ed5bfd44651fd805fb6d2a"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J389a5cc17367",
+          "query_id": "C009",
+          "query_sha256": "6426611b28a1c9844bd6c68c887d772bea229ef77ce79f1a05da8fbd2efe78f0",
+          "source_sha256": "0654d9ddab059ae1edde23538c3495d281292be07607a485f8318389ac144340"
+        },
+        {
+          "context_ids": [
+            "Cd9868a34bf7f"
+          ],
+          "context_sha256": {
+            "Cd9868a34bf7f": "d9868a34bf7f554e05db3f49a4a0c11a15f02212eea8fedff77fe6a62cfaaebb"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J3cee5f255da8",
+          "query_id": "Q021",
+          "query_sha256": "6a3b2af12138bc5673a57b638d428d62c3bdde8fb7d86f1b732c2c1c1764a2a5",
+          "source_sha256": "947ce71e21b85f48c4c432fcec3e43ffbc367a9c93a99b0618aa43743fc57869"
+        },
+        {
+          "context_ids": [
+            "C92ab3d1c3222"
+          ],
+          "context_sha256": {
+            "C92ab3d1c3222": "92ab3d1c3222910bd674f9e8973d83c06f6b52080b31ae82cdec1c9c801e9a18"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J3d217f36ef6e",
+          "query_id": "Q009",
+          "query_sha256": "11a7e0fefc3ded50a97c1e8c1097fa6ad10ec1fe550aa390a8a3958fddee50fd",
+          "source_sha256": "ce35e118d9415bf707c4c97549cbc685fab1775eca1d0015b63846c255e38414"
+        },
+        {
+          "context_ids": [
+            "C24d1e33e374f"
+          ],
+          "context_sha256": {
+            "C24d1e33e374f": "24d1e33e374fd085bac99b0b47f307e93ad860033a2bbab6bff8a26504be8d6f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J3e1db4b21f3a",
+          "query_id": "N017",
+          "query_sha256": "39feee264d56b535adc2d06317a6bbf4e9b126728459a1e5a9361932f6cd729f",
+          "source_sha256": "b390334e7b2b98482d173213635f1cdd7077bc4c34900953453db19b1863df0a"
+        },
+        {
+          "context_ids": [
+            "C762ab18b0d72"
+          ],
+          "context_sha256": {
+            "C762ab18b0d72": "762ab18b0d726c6ebc3f2aa4d1f39fbacc5fd767c365fb22816fdd8090bfa93d"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J3e20ae31c065",
+          "query_id": "N007",
+          "query_sha256": "58fb9877fbf8beadd4318ed66d4420ff4ee70ff4f1048a6b169ffa6433cc16a3",
+          "source_sha256": "df489dd6dd6b572aad36219872420db4d49338d885bd645071545c16303ad149"
+        },
+        {
+          "context_ids": [
+            "Cce9a9144b212"
+          ],
+          "context_sha256": {
+            "Cce9a9144b212": "ce9a9144b212add0e7eb9701cde029e16a5df884afc540bd21f6880e52e448dd"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J3f8346c0c22b",
+          "query_id": "C010",
+          "query_sha256": "fab68072b8f2e10bb7ee4b4e7ecd261dfc89c2d1937ee4f2a9540bb4c80f0620",
+          "source_sha256": "d582329226d0398d4a8ece3db2559d537d220f017b3e7be42a65c67ca6836db1"
+        },
+        {
+          "context_ids": [
+            "C06fe4289a100",
+            "Cc70af3fadd81"
+          ],
+          "context_sha256": {
+            "C06fe4289a100": "06fe4289a10019fe535132c2b0d21662364875736f0cb7a9378de7cfb10aa29c",
+            "Cc70af3fadd81": "c70af3fadd814e3894a15fbcdf7e2cfff070d6fda6f3a9e1f16b6444aecd1dfd"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J4016e354ba0c",
+          "query_id": "C002",
+          "query_sha256": "349e65493959ab6e565457a778a2403c3b8d53a67315a2a1bcc245e67e9fbc4e",
+          "source_sha256": "c3fa65297cb48a1c36694e780ab0ca083fa4ac8090c84f2302552f2b23088eaf"
+        },
+        {
+          "context_ids": [
+            "Ca661fecb7ec8"
+          ],
+          "context_sha256": {
+            "Ca661fecb7ec8": "a661fecb7ec8a5f6e77744266605b4ff0404dd3a138dbefba8416415ae6fc095"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J405899ff3915",
+          "query_id": "N011",
+          "query_sha256": "55bbfd84e2defd576ea30300947d7a3af93b18907941daa95f1c495bfe01a79e",
+          "source_sha256": "2f9072ab6341379690a13e549549267ec50818c0688e614cb2fe37d7bc3bdadf"
+        },
+        {
+          "context_ids": [
+            "C74f465042583"
+          ],
+          "context_sha256": {
+            "C74f465042583": "74f46504258351d5d255a78e9637d59655bb4305f15ffa2b34458bb3cb0e0e3f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J41d5b60998af",
+          "query_id": "C009",
+          "query_sha256": "6426611b28a1c9844bd6c68c887d772bea229ef77ce79f1a05da8fbd2efe78f0",
+          "source_sha256": "ec913b21ad76bc5659d88a2e00f43b2cdb8ac07c267ac87d01c5cab6a3b1f497"
+        },
+        {
+          "context_ids": [
+            "C88189b6ae6b7"
+          ],
+          "context_sha256": {
+            "C88189b6ae6b7": "88189b6ae6b76fe09d1b90329d5ea6c6746b46fa8b138459a0492161a4da71c4"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J41f14d47ef9a",
+          "query_id": "C006",
+          "query_sha256": "e3812044ff297b9a3562e0f20a7275a9a9317f126c1f620bb2c5db0a791260e4",
+          "source_sha256": "9c20069f1664a49f3b7abad41bcb7d510149937ae2211a01aef18e15505d78db"
+        },
+        {
+          "context_ids": [
+            "C67e3b9c45745"
+          ],
+          "context_sha256": {
+            "C67e3b9c45745": "67e3b9c45745150256d68b269c16f191a596ba518e2a7918926ef943bd25151e"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J423a148c359e",
+          "query_id": "N008",
+          "query_sha256": "efa0dcc8c44915edd6263872c669716ad964eb1e9d07b14826671b7c08f6a1d0",
+          "source_sha256": "3a27c47373047ea808f28ef3d3f850cf7914ff53ee10c29a1e73dd9998cd93c9"
+        },
+        {
+          "context_ids": [
+            "C0e2abd4a4c7a",
+            "C438b6493183a"
+          ],
+          "context_sha256": {
+            "C0e2abd4a4c7a": "0e2abd4a4c7a6bb1b659722e9d9033a45c4ca7ec1611763f94fdd3ae44ea5840",
+            "C438b6493183a": "438b6493183af37e9d1a97ddce07b9379987d725bbe4be47c3866926ae41c445"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J43d225606126",
+          "query_id": "N018",
+          "query_sha256": "b6ef49a56b2a29f51b67c107df37f3ecdcc636406045976401fd6d04402d0c72",
+          "source_sha256": "7f07ff5ab0078f92e346c90e8bcd55b2bdc98a1dc13f8f5ccfbf4feb6f485231"
+        },
+        {
+          "context_ids": [
+            "C2aaac14fd32e"
+          ],
+          "context_sha256": {
+            "C2aaac14fd32e": "2aaac14fd32e7776c7d33cd7b0111bc8fd51f7e0535144c15d91bbd190543b35"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J461c9dd5b86c",
+          "query_id": "C009",
+          "query_sha256": "6426611b28a1c9844bd6c68c887d772bea229ef77ce79f1a05da8fbd2efe78f0",
+          "source_sha256": "b77c45e618da9164718375afd483a521b3dc01d1e3d9829025a9474a6cb7a9a8"
+        },
+        {
+          "context_ids": [
+            "C98956337efcf"
+          ],
+          "context_sha256": {
+            "C98956337efcf": "98956337efcf9693f4f0ca40a8f57e6b28dbf6b268a150ffb003ae3f9429205d"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J47b735e7173f",
+          "query_id": "N010",
+          "query_sha256": "79059aa2c7026975590ef54b7174362b2deeb90e8ded6b39dc436f172f7fe4b5",
+          "source_sha256": "fbba9a2459eda59037d2ff178f0b0a0effc177ca7e66a274f4eb8c3c91c70ee6"
+        },
+        {
+          "context_ids": [
+            "C5fe6cd5b3400"
+          ],
+          "context_sha256": {
+            "C5fe6cd5b3400": "5fe6cd5b34002fcc49276bdea5b7c4ea2c7de72ade4037ce7c68a5cec713f1e7"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J48d15fda45a8",
+          "query_id": "C001",
+          "query_sha256": "6dc266cdd2c4495a56f59ca97f7cc5470166b7f42f7f0d50e7bdc036354d883f",
+          "source_sha256": "03470acd8ede5aa2954c2411981780e38c1c6272857a67f9ae78a9e2e787f010"
+        },
+        {
+          "context_ids": [
+            "C06de56ee641f"
+          ],
+          "context_sha256": {
+            "C06de56ee641f": "06de56ee641f64864e0bbe41d9210ea8bce559fb2ae51629461bbbea67ad5865"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J49ae84ec5e5b",
+          "query_id": "C002",
+          "query_sha256": "349e65493959ab6e565457a778a2403c3b8d53a67315a2a1bcc245e67e9fbc4e",
+          "source_sha256": "c266b2f0091d0b1e7d72e68f3dd166a1572930b6d4b277f6b1fffd7592b4a889"
+        },
+        {
+          "context_ids": [
+            "C8d89c69b72d5"
+          ],
+          "context_sha256": {
+            "C8d89c69b72d5": "8d89c69b72d5a86d7dabea7ae76ca345fb8e384d882265f549546d311cd6f499"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J4a898feed447",
+          "query_id": "N001",
+          "query_sha256": "b8956d305a1d53e06d2e1452eea023d637bf8a327b8321697b1b2fffc684917d",
+          "source_sha256": "85e8b8d0f0ff89b9b599d3add98d124c1bbf556aa82d8c6bc3be81712251f29d"
+        },
+        {
+          "context_ids": [
+            "Ca79db4bb0deb"
+          ],
+          "context_sha256": {
+            "Ca79db4bb0deb": "a79db4bb0debd65da69b48402d6662105602159ea195fd19d82530ae75a61757"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J4be093aab86e",
+          "query_id": "N016",
+          "query_sha256": "d3d7a52904202aee0beed7af837aeb52417181acc423f537c111793965c300f2",
+          "source_sha256": "74114098592d6de1b8e5ce131a8b33057e3bb934c679dd13e4cea30fe8a2292f"
+        },
+        {
+          "context_ids": [
+            "Cf608db310294"
+          ],
+          "context_sha256": {
+            "Cf608db310294": "f608db3102948e2352a5e26c54dd8d896d64d81bcd3ea1d1fa286bdb70bd0427"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J4cac66ef04b4",
+          "query_id": "N003",
+          "query_sha256": "104bafeb1df6d8e3b5b9a8e23b5af07a0f779565ebcc9613715032af2eb1c5bb",
+          "source_sha256": "caaef8814f0d203bfb41014a9676d1242b0eb5df5ebe9094d547d1d9b30a6047"
+        },
+        {
+          "context_ids": [
+            "Cc4245e36f1d8"
+          ],
+          "context_sha256": {
+            "Cc4245e36f1d8": "c4245e36f1d82cb95d0427a2cad7e4f3c980ac487b0c89790f2dde22bcfb14a3"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J4d0a354e988d",
+          "query_id": "Q021",
+          "query_sha256": "6a3b2af12138bc5673a57b638d428d62c3bdde8fb7d86f1b732c2c1c1764a2a5",
+          "source_sha256": "8a6beeb710088b445575a8c545a75059d29d52ee81e9249ec39b7603b038055b"
+        },
+        {
+          "context_ids": [
+            "C8a144a9a1cf8"
+          ],
+          "context_sha256": {
+            "C8a144a9a1cf8": "8a144a9a1cf836f87624035d3bfa2392c14f4644600d854eb10e93574954bf71"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J4d3c3481020d",
+          "query_id": "C006",
+          "query_sha256": "e3812044ff297b9a3562e0f20a7275a9a9317f126c1f620bb2c5db0a791260e4",
+          "source_sha256": "c35568644d3d2696ae567974b56586e5600dbbad095e5077c3d60abfcb247c74"
+        },
+        {
+          "context_ids": [
+            "C2aaac14fd32e"
+          ],
+          "context_sha256": {
+            "C2aaac14fd32e": "2aaac14fd32e7776c7d33cd7b0111bc8fd51f7e0535144c15d91bbd190543b35"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J50b9d1333b25",
+          "query_id": "N018",
+          "query_sha256": "b6ef49a56b2a29f51b67c107df37f3ecdcc636406045976401fd6d04402d0c72",
+          "source_sha256": "b77c45e618da9164718375afd483a521b3dc01d1e3d9829025a9474a6cb7a9a8"
+        },
+        {
+          "context_ids": [
+            "C089b24c59a29"
+          ],
+          "context_sha256": {
+            "C089b24c59a29": "089b24c59a29450c9cf884a6fed060da5498801b2ec804fae32b658af9ab8557"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J50faf43a08f2",
+          "query_id": "Q042",
+          "query_sha256": "41c0267eefa5c4e521cf9d0df9c5c3409794db226e935b3c0698fab4a65b5024",
+          "source_sha256": "da2bd617c1363c94ce4367ec44091db8647c033cf66895f9707bd50c2bb0db8c"
+        },
+        {
+          "context_ids": [
+            "C3284812eddd5"
+          ],
+          "context_sha256": {
+            "C3284812eddd5": "3284812eddd54da0d615d3ef1e2844d1788f3bba4a1c1c7e4290d684096fc413"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J525a94092a0b",
+          "query_id": "N016",
+          "query_sha256": "d3d7a52904202aee0beed7af837aeb52417181acc423f537c111793965c300f2",
+          "source_sha256": "84f3fdf7ff4212f3a0361dbbfc49fe2bd23623fb0edcc3e52339b9bfc90541ca"
+        },
+        {
+          "context_ids": [
+            "C862ae456445a"
+          ],
+          "context_sha256": {
+            "C862ae456445a": "862ae456445abe78b44266bdf2928425a94fef68d40a622e3e181ea8071b3d8f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J53cdefba538c",
+          "query_id": "N012",
+          "query_sha256": "e5937284604d388647929c82a447ca3824c093cc189d3265abb8398fd018dbcc",
+          "source_sha256": "d5fd57f2ae802328a32a6b45b2830bd150f3c4cd2cf2ff3069495039bae31455"
+        },
+        {
+          "context_ids": [
+            "Ca1d3af0928f4"
+          ],
+          "context_sha256": {
+            "Ca1d3af0928f4": "a1d3af0928f445944618c8c3c284793d27aa575420f2f223d8ffae6eeb13f18d"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J5584f9536566",
+          "query_id": "Q009",
+          "query_sha256": "11a7e0fefc3ded50a97c1e8c1097fa6ad10ec1fe550aa390a8a3958fddee50fd",
+          "source_sha256": "f8effec9985ae16019a4df41148203abbfbf031fccbe6bfae398654094472d8a"
+        },
+        {
+          "context_ids": [
+            "C85dbc376aa0e"
+          ],
+          "context_sha256": {
+            "C85dbc376aa0e": "85dbc376aa0e629218c5ec8c7424c2c07632989a1128306b1f0fcf7f9aa5f1b7"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J567717e6f71e",
+          "query_id": "Q002",
+          "query_sha256": "95560a6e7bd02db73c87a32357f5c9de9104def057b410f08897f68cf8317b83",
+          "source_sha256": "1b9df03b19f4cdb769b46905615a47643c8f05d0e5532fc2df549248f904ba44"
+        },
+        {
+          "context_ids": [
+            "Cd9868a34bf7f"
+          ],
+          "context_sha256": {
+            "Cd9868a34bf7f": "d9868a34bf7f554e05db3f49a4a0c11a15f02212eea8fedff77fe6a62cfaaebb"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J5a72f499727c",
+          "query_id": "N018",
+          "query_sha256": "b6ef49a56b2a29f51b67c107df37f3ecdcc636406045976401fd6d04402d0c72",
+          "source_sha256": "947ce71e21b85f48c4c432fcec3e43ffbc367a9c93a99b0618aa43743fc57869"
+        },
+        {
+          "context_ids": [
+            "C8f877e5f619a"
+          ],
+          "context_sha256": {
+            "C8f877e5f619a": "8f877e5f619af2bf74630ad6c1298f68f64dd9a3d25ca87bd51b60bcca3ae069"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J5ad22128b2a2",
+          "query_id": "N019",
+          "query_sha256": "d0d2ea127a733c15102dcaefa415bfcfea3282731f5060858142d47d27a08c13",
+          "source_sha256": "7f07ac55bca60a355fdeafbf1af86625f2d6b0b250c13ba27d6225f569227d16"
+        },
+        {
+          "context_ids": [
+            "Cdab715b65566"
+          ],
+          "context_sha256": {
+            "Cdab715b65566": "dab715b65566c6b63b0da346ba769fc633643579f4d50df4828fce56a5eadb42"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J5c0275e166d6",
+          "query_id": "N004",
+          "query_sha256": "ea089b72cce06ddb01b3abe1bb76598ee45c99a23766ea91416b3b57965680e9",
+          "source_sha256": "199461f82d2293d718ff833d8babfa95d872cf8afe4844f03af1fbc9f0832f62"
+        },
+        {
+          "context_ids": [
+            "C4e66e85cc86e"
+          ],
+          "context_sha256": {
+            "C4e66e85cc86e": "4e66e85cc86ecb4c72527f3429ac25f6029e39ccbfbc2550a31d43dc02cf4eed"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J5d2c0d48639d",
+          "query_id": "Q001",
+          "query_sha256": "59c7ba60fabe34574c17ffd5c9eef4c6cc3fcc72839582f51043bb814d12b706",
+          "source_sha256": "2f76f1e6280201ef4612cd54c3f5fa8eac4eb30219ed5e2b4cf3f6ba38b75dbb"
+        },
+        {
+          "context_ids": [
+            "Cf05149f3bea2"
+          ],
+          "context_sha256": {
+            "Cf05149f3bea2": "f05149f3bea2dc1b75319ecaa496323560ff884ab5e85902027ff47024639c9f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J5d66e625bbf8",
+          "query_id": "C005",
+          "query_sha256": "908e1f6a34c53246ddeeee0de866a538e402f12f77db63bbf9fd1297a31b4394",
+          "source_sha256": "cc43b5e36248a1e21fcbf3ccff18627d43cce27c22d559334baf623395ff95b5"
+        },
+        {
+          "context_ids": [
+            "C8f877e5f619a"
+          ],
+          "context_sha256": {
+            "C8f877e5f619a": "8f877e5f619af2bf74630ad6c1298f68f64dd9a3d25ca87bd51b60bcca3ae069"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J5dd838b4dbee",
+          "query_id": "N009",
+          "query_sha256": "2494dbd25062fa4d8ce6c6b1c46e950694cba312d7e9f610e05339a1267dcb7b",
+          "source_sha256": "7f07ac55bca60a355fdeafbf1af86625f2d6b0b250c13ba27d6225f569227d16"
+        },
+        {
+          "context_ids": [
+            "C6abfdca83733"
+          ],
+          "context_sha256": {
+            "C6abfdca83733": "6abfdca83733cdefbcb157faf477696a997b9a1b9c3bb0d6780866981a96c22b"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J60bc5781ac3c",
+          "query_id": "N008",
+          "query_sha256": "efa0dcc8c44915edd6263872c669716ad964eb1e9d07b14826671b7c08f6a1d0",
+          "source_sha256": "164ed8edc9fc6fcbd5b788a9eca47d39017628519fa4f98a8a55cd45a642b0c8"
+        },
+        {
+          "context_ids": [
+            "C0bd953f81792"
+          ],
+          "context_sha256": {
+            "C0bd953f81792": "0bd953f817924e941d574d05493045c2cfbd6ae4419523bc9872fd1b8ae380c6"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J61d431c0152b",
+          "query_id": "N002",
+          "query_sha256": "0ab1368927c54fe6a6b81b174b0a01a17dfcf8a06c9b088fcfbb6d111957de94",
+          "source_sha256": "b24219083e93fdfa06461b4ed56dfb0087e7d7a797a4d1756cd999e20039be55"
+        },
+        {
+          "context_ids": [
+            "C02c87f751f4a"
+          ],
+          "context_sha256": {
+            "C02c87f751f4a": "02c87f751f4a175acf38a771740e740fa07ca9b58c529bf9df16ad4d5b4ad3f1"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J62768e3e2f53",
+          "query_id": "C003",
+          "query_sha256": "37bcb011d54848a59f3bd726003f9c5690a6d2973641ce2b804a3b6f3c401ba8",
+          "source_sha256": "f9e801c924008d0af764ca1fb27ef04ec0cde6533273b38925b81d01dfa87a89"
+        },
+        {
+          "context_ids": [
+            "C959f03cbe5b5"
+          ],
+          "context_sha256": {
+            "C959f03cbe5b5": "959f03cbe5b54ed07bfc35bec87d3b30394d6f23bb6b8e98f0755d83860f4dba"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J62f5d0d5fe91",
+          "query_id": "N003",
+          "query_sha256": "104bafeb1df6d8e3b5b9a8e23b5af07a0f779565ebcc9613715032af2eb1c5bb",
+          "source_sha256": "bcd7469d733f5ef828464db47b02c8010e0cddb0d6e2b54ab21f7bce8156e87f"
+        },
+        {
+          "context_ids": [
+            "C1c463d970937"
+          ],
+          "context_sha256": {
+            "C1c463d970937": "1c463d970937809bd351cd1c871c514cb91b7fba750cf733b8b64fe089ee791f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J6348f0df3ee3",
+          "query_id": "Q044",
+          "query_sha256": "31b314ead83162f4d9fe8871783b01fdb4869ed20ed466b16100d62b7e1e17dd",
+          "source_sha256": "feaaa39222478a920379606070d36e83e66e6ce51015109f93d766b2fef6e8af"
+        },
+        {
+          "context_ids": [
+            "C21c2d8ab24fd"
+          ],
+          "context_sha256": {
+            "C21c2d8ab24fd": "21c2d8ab24fda3b668e489e278be639c1d6e9fad82ac7cdcaa004059a8639445"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J6375df90e212",
+          "query_id": "N015",
+          "query_sha256": "f20f116022fdf9e1ba977444642e86195dfaf2cfc2f8c5a4bbd273a6bed7850b",
+          "source_sha256": "0f9e64083b2b65fe6f35b52c10801e1318e1ad6029c75051da735d8604a27215"
+        },
+        {
+          "context_ids": [
+            "C5fe6cd5b3400"
+          ],
+          "context_sha256": {
+            "C5fe6cd5b3400": "5fe6cd5b34002fcc49276bdea5b7c4ea2c7de72ade4037ce7c68a5cec713f1e7"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J642186f088e7",
+          "query_id": "N001",
+          "query_sha256": "b8956d305a1d53e06d2e1452eea023d637bf8a327b8321697b1b2fffc684917d",
+          "source_sha256": "03470acd8ede5aa2954c2411981780e38c1c6272857a67f9ae78a9e2e787f010"
+        },
+        {
+          "context_ids": [
+            "Cf8212df27788"
+          ],
+          "context_sha256": {
+            "Cf8212df27788": "f8212df27788190951b524f03b0e1264693423821762e9f46ecf74f6d236e162"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J6501b4f5926a",
+          "query_id": "Q022",
+          "query_sha256": "7cad30faac223e96f687702dde8c68ea56771cf954a8e8b57599410bf30777fb",
+          "source_sha256": "c9337239d33fc0db5e4f6f0c51c36c0dc927d2fa9ae803e8971bcfd291ce0d66"
+        },
+        {
+          "context_ids": [
+            "C99dbaeb1dc4c"
+          ],
+          "context_sha256": {
+            "C99dbaeb1dc4c": "99dbaeb1dc4c46183234e6ef29875fe806a00bf888d69d356ad84fcc4d22200c"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J65f4710fcea3",
+          "query_id": "C001",
+          "query_sha256": "6dc266cdd2c4495a56f59ca97f7cc5470166b7f42f7f0d50e7bdc036354d883f",
+          "source_sha256": "d0517dfead6b9077c3ae062a098ea7961a777743bd7e632dea61bf4f787662af"
+        },
+        {
+          "context_ids": [
+            "Cdd8d11fbabcf"
+          ],
+          "context_sha256": {
+            "Cdd8d11fbabcf": "dd8d11fbabcfd129981d41249d9b7ef9d3cf8c7d351fcb3061638d4f02923d72"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J6776f9cc6f2c",
+          "query_id": "Q016",
+          "query_sha256": "e01c124b969f3e39b37e38d5767fa58ec82ace42799ffa2afa47ae54b6e650b2",
+          "source_sha256": "9c7fa32edf6b41be41e0fcd3ac19fb2ad57ee496684663383d5b0db87e900027"
+        },
+        {
+          "context_ids": [
+            "C4a325539b41a",
+            "C9c1c529dc18d"
+          ],
+          "context_sha256": {
+            "C4a325539b41a": "4a325539b41aee0d42196701b7e192b77989b9e8a962c61ce0b8ff965ddfa62f",
+            "C9c1c529dc18d": "9c1c529dc18daef62d4762235fb0a53b43b5fd9139627a31a0874abc912ce2b5"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J67bf533bbe78",
+          "query_id": "Q042",
+          "query_sha256": "41c0267eefa5c4e521cf9d0df9c5c3409794db226e935b3c0698fab4a65b5024",
+          "source_sha256": "47d213a73ea3ead91f90d11c8f0ce373e08842c215a8bb1865e9973a80ef236e"
+        },
+        {
+          "context_ids": [
+            "C32c8f41a110e"
+          ],
+          "context_sha256": {
+            "C32c8f41a110e": "32c8f41a110e7c2eea5a666cd8350bf90178d8b35c903a3aec21a90dfd270591"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J69cda2b7e225",
+          "query_id": "Q002",
+          "query_sha256": "95560a6e7bd02db73c87a32357f5c9de9104def057b410f08897f68cf8317b83",
+          "source_sha256": "971e22a23383121479585e529ae3accef97069f54d3e73152d2cd36d4a36b6bf"
+        },
+        {
+          "context_ids": [
+            "Cf7f2687faeda"
+          ],
+          "context_sha256": {
+            "Cf7f2687faeda": "f7f2687faeda77b9bc6a82672d85cd24801e277d31ddd2307014c80e376a1978"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J69d6fff73aa9",
+          "query_id": "Q042",
+          "query_sha256": "41c0267eefa5c4e521cf9d0df9c5c3409794db226e935b3c0698fab4a65b5024",
+          "source_sha256": "040c032a3f3e5ff2ff6d6583fbb6ee70ada664e79eacf5e8d8ca01575e086a34"
+        },
+        {
+          "context_ids": [
+            "C685cf3ba987d"
+          ],
+          "context_sha256": {
+            "C685cf3ba987d": "685cf3ba987dfa46a6568f460e2b71017e11b63dd842344f51e1a38e6eb0d4e8"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J6a13a6e30111",
+          "query_id": "Q021",
+          "query_sha256": "6a3b2af12138bc5673a57b638d428d62c3bdde8fb7d86f1b732c2c1c1764a2a5",
+          "source_sha256": "7004372d88e3206af28469a1af64c0f295374ad506c4fe4f3806de4c41442bea"
+        },
+        {
+          "context_ids": [
+            "C62508db1df61"
+          ],
+          "context_sha256": {
+            "C62508db1df61": "62508db1df6109b75b3dcd8af051c5564f324c689086956abe8d960e640d7957"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J6cb7ad17c31d",
+          "query_id": "N007",
+          "query_sha256": "58fb9877fbf8beadd4318ed66d4420ff4ee70ff4f1048a6b169ffa6433cc16a3",
+          "source_sha256": "1d2d926f82d2884eead4dfb6fcc0ccd42605518795110cffeeb119f585fc327c"
+        },
+        {
+          "context_ids": [
+            "Cbe8c654d498e"
+          ],
+          "context_sha256": {
+            "Cbe8c654d498e": "be8c654d498e359a3780de6c7cf3087972f214be40bdea2bd3c111511b388114"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J6dcda5372995",
+          "query_id": "N018",
+          "query_sha256": "b6ef49a56b2a29f51b67c107df37f3ecdcc636406045976401fd6d04402d0c72",
+          "source_sha256": "905adb4185b912c2fe05a77e376219d03e3cebb5c2fc334bd757ad3701aa92d3"
+        },
+        {
+          "context_ids": [
+            "C8d5046b81242"
+          ],
+          "context_sha256": {
+            "C8d5046b81242": "8d5046b812428ddfa5a2b43fcdebe60b705951a0b9e496318a52d538f851e262"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J6f63f95f01de",
+          "query_id": "Q016",
+          "query_sha256": "e01c124b969f3e39b37e38d5767fa58ec82ace42799ffa2afa47ae54b6e650b2",
+          "source_sha256": "264ef599580069a4956529396e82ee1501bf28dad8dedd373bdcda9e0192b269"
+        },
+        {
+          "context_ids": [
+            "C02c87f751f4a"
+          ],
+          "context_sha256": {
+            "C02c87f751f4a": "02c87f751f4a175acf38a771740e740fa07ca9b58c529bf9df16ad4d5b4ad3f1"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7151f67abec6",
+          "query_id": "Q042",
+          "query_sha256": "41c0267eefa5c4e521cf9d0df9c5c3409794db226e935b3c0698fab4a65b5024",
+          "source_sha256": "f9e801c924008d0af764ca1fb27ef04ec0cde6533273b38925b81d01dfa87a89"
+        },
+        {
+          "context_ids": [
+            "Cf7be8f9d7d89"
+          ],
+          "context_sha256": {
+            "Cf7be8f9d7d89": "f7be8f9d7d89d5c5ea71a4ddcf676e1cd1c42f7b382dc70c593bac21beb08578"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J721bb4875e6c",
+          "query_id": "N011",
+          "query_sha256": "55bbfd84e2defd576ea30300947d7a3af93b18907941daa95f1c495bfe01a79e",
+          "source_sha256": "97f8a525b2de460ec2496636cacd7a00f3309e1eac5ac019a7ce4b9c0820c162"
+        },
+        {
+          "context_ids": [
+            "C6a7e83829569"
+          ],
+          "context_sha256": {
+            "C6a7e83829569": "6a7e838295691255eb8b4cc20a7c12f3f8c560d226a2496defee5097a9b362da"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J739dc0b7e24e",
+          "query_id": "Q016",
+          "query_sha256": "e01c124b969f3e39b37e38d5767fa58ec82ace42799ffa2afa47ae54b6e650b2",
+          "source_sha256": "12f9c0c661707d2387c17dac796be62fc764c1cfeffd293e510b1c44a820a0a0"
+        },
+        {
+          "context_ids": [
+            "Cc08321914707"
+          ],
+          "context_sha256": {
+            "Cc08321914707": "c08321914707861c206390a18329dd3e9a5362d9c89632cafe1f7d47a8be6594"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7417f2a280be",
+          "query_id": "N012",
+          "query_sha256": "e5937284604d388647929c82a447ca3824c093cc189d3265abb8398fd018dbcc",
+          "source_sha256": "d6c2f79b11a147177d5b3947f8873328df5ac8e93b69d015b99e193c6c9b942b"
+        },
+        {
+          "context_ids": [
+            "Cf608db310294"
+          ],
+          "context_sha256": {
+            "Cf608db310294": "f608db3102948e2352a5e26c54dd8d896d64d81bcd3ea1d1fa286bdb70bd0427"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J75e454b94238",
+          "query_id": "Q002",
+          "query_sha256": "95560a6e7bd02db73c87a32357f5c9de9104def057b410f08897f68cf8317b83",
+          "source_sha256": "caaef8814f0d203bfb41014a9676d1242b0eb5df5ebe9094d547d1d9b30a6047"
+        },
+        {
+          "context_ids": [
+            "C6140e001e747"
+          ],
+          "context_sha256": {
+            "C6140e001e747": "6140e001e747ce8ce2a44064abbbb27a749592f174bc249790d6972f70aa5f39"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7604777288de",
+          "query_id": "N015",
+          "query_sha256": "f20f116022fdf9e1ba977444642e86195dfaf2cfc2f8c5a4bbd273a6bed7850b",
+          "source_sha256": "6c0f764117929a3758b414c266b6dec5485d4a6fd445f5edde65687c649a0b10"
+        },
+        {
+          "context_ids": [
+            "C32c8f41a110e"
+          ],
+          "context_sha256": {
+            "C32c8f41a110e": "32c8f41a110e7c2eea5a666cd8350bf90178d8b35c903a3aec21a90dfd270591"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J761dc9d71d56",
+          "query_id": "N003",
+          "query_sha256": "104bafeb1df6d8e3b5b9a8e23b5af07a0f779565ebcc9613715032af2eb1c5bb",
+          "source_sha256": "971e22a23383121479585e529ae3accef97069f54d3e73152d2cd36d4a36b6bf"
+        },
+        {
+          "context_ids": [
+            "C79415ea46140"
+          ],
+          "context_sha256": {
+            "C79415ea46140": "79415ea4614000b27eb3f675631349236e0fe805f24de66bf6a471d774596a3f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J76b8179c7c54",
+          "query_id": "N013",
+          "query_sha256": "32615cd4fe500ab7875a0d862763c83ee647564a5efe71482a2c1db18edb77b6",
+          "source_sha256": "c19ec344c220b7c17ab092ea8959e9482ceb4a6e52ab4db553394a925cdda5bc"
+        },
+        {
+          "context_ids": [
+            "C8d1143a303cc"
+          ],
+          "context_sha256": {
+            "C8d1143a303cc": "8d1143a303cc9fa788aca23b3b3becd6e937a55327330b0501f4e90edce9d6e0"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J76d138b0f73f",
+          "query_id": "N009",
+          "query_sha256": "2494dbd25062fa4d8ce6c6b1c46e950694cba312d7e9f610e05339a1267dcb7b",
+          "source_sha256": "01affd01ab433decf8684c998837a9af6a68710f95c3bf36f3ea7e6017c7b30b"
+        },
+        {
+          "context_ids": [
+            "C07d6e95da81a"
+          ],
+          "context_sha256": {
+            "C07d6e95da81a": "07d6e95da81a18ec10947e23d4a636c54304127c951a0a235c5692fcd403d039"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J772d757ac6af",
+          "query_id": "N011",
+          "query_sha256": "55bbfd84e2defd576ea30300947d7a3af93b18907941daa95f1c495bfe01a79e",
+          "source_sha256": "de4486722907a4cb89b6f1009f67a259cf5d6e692aaa077f6a660cf6477be4a3"
+        },
+        {
+          "context_ids": [
+            "Cc08321914707"
+          ],
+          "context_sha256": {
+            "Cc08321914707": "c08321914707861c206390a18329dd3e9a5362d9c89632cafe1f7d47a8be6594"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7804fd919334",
+          "query_id": "N002",
+          "query_sha256": "0ab1368927c54fe6a6b81b174b0a01a17dfcf8a06c9b088fcfbb6d111957de94",
+          "source_sha256": "d6c2f79b11a147177d5b3947f8873328df5ac8e93b69d015b99e193c6c9b942b"
+        },
+        {
+          "context_ids": [
+            "Cb0d3e65df4a8"
+          ],
+          "context_sha256": {
+            "Cb0d3e65df4a8": "b0d3e65df4a8ff78179c1ce6770a1cbab4248481e3d3f2aef41da40082b38580"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J78712de86313",
+          "query_id": "Q012",
+          "query_sha256": "07673bbb9716b947644e94856f418f8bbf7a08244e7303c5caea64e816f9a440",
+          "source_sha256": "199461f82d2293d718ff833d8babfa95d872cf8afe4844f03af1fbc9f0832f62"
+        },
+        {
+          "context_ids": [
+            "C90f40fc80bdf"
+          ],
+          "context_sha256": {
+            "C90f40fc80bdf": "90f40fc80bdfbb98e3dac8e19b3e44e129695d3d665b2c376fce8f60cb9cab36"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J78942cf51a46",
+          "query_id": "C007",
+          "query_sha256": "ac8eb531744e78e630f0afe6ae56979972c6d0f20ad2525a459a513399ad1b1a",
+          "source_sha256": "de97c1a7259da678052d1f665dfbffbeae16ede20fc7b46221250b6db17354da"
+        },
+        {
+          "context_ids": [
+            "C24d23d577f58"
+          ],
+          "context_sha256": {
+            "C24d23d577f58": "24d23d577f5846fab49092ea3677583f569a6cf31cf88b8d390f12def2f614da"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J78ba7e70a5fa",
+          "query_id": "N010",
+          "query_sha256": "79059aa2c7026975590ef54b7174362b2deeb90e8ded6b39dc436f172f7fe4b5",
+          "source_sha256": "31d59e0057293e67a30bcee695ceb9dfa285e6ef7229a9c6a07847b69007c751"
+        },
+        {
+          "context_ids": [
+            "C4e257294978f"
+          ],
+          "context_sha256": {
+            "C4e257294978f": "4e257294978fbea54b052c476a8ec2dab1cce00f87d250c25f94ef9209819522"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J79986e845ec5",
+          "query_id": "N001",
+          "query_sha256": "b8956d305a1d53e06d2e1452eea023d637bf8a327b8321697b1b2fffc684917d",
+          "source_sha256": "505a6da20854e2405f47689917e7a3b189fba300e2486154024037f9cbcc59d2"
+        },
+        {
+          "context_ids": [
+            "C1fc170c195be"
+          ],
+          "context_sha256": {
+            "C1fc170c195be": "1fc170c195bedb597db28911d79cefeaf8ec16cf8c10c139d4010e86ec8a9837"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J79d055eb8616",
+          "query_id": "Q044",
+          "query_sha256": "31b314ead83162f4d9fe8871783b01fdb4869ed20ed466b16100d62b7e1e17dd",
+          "source_sha256": "c14a1809e6146024c225ad1ffa7f9acbddfa83804f135d9846e1699e1dd33c4a"
+        },
+        {
+          "context_ids": [
+            "C6645a2497c36"
+          ],
+          "context_sha256": {
+            "C6645a2497c36": "6645a2497c36b1152e28b8f9de0767a8fe1126a7ae4e916d7272ebabb8b6a7fe"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7b658a522636",
+          "query_id": "N006",
+          "query_sha256": "00a2b1912f3190889075f8e408d129f9ac89db216c94a3930027e55e5e455fb1",
+          "source_sha256": "c1b9355868be835d071c66519709781425041f9b69ac814c2590603f0e5892fb"
+        },
+        {
+          "context_ids": [
+            "C54ce2448e138"
+          ],
+          "context_sha256": {
+            "C54ce2448e138": "54ce2448e138d36172f6632c4ee6e6772fd5b0771293ed80f6f003623777c2b0"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7c74510462d2",
+          "query_id": "Q044",
+          "query_sha256": "31b314ead83162f4d9fe8871783b01fdb4869ed20ed466b16100d62b7e1e17dd",
+          "source_sha256": "6185e3e2e6fe7a371576edc083ddedfd36ebe3621c5bd5af3613666cfb9aef41"
+        },
+        {
+          "context_ids": [
+            "C97db91ee2634"
+          ],
+          "context_sha256": {
+            "C97db91ee2634": "97db91ee2634e539a61a66bb0be281fb75acecc0d8e90e34f8e0d9b92a411a52"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7cd62af78109",
+          "query_id": "N020",
+          "query_sha256": "c5848f5164e328a08f102c30a527c6b56cbe930b581e54d3c5442af2c9c2f3ce",
+          "source_sha256": "f887d9d1e24277357344819db37f4af02b0bab27b1a8850034cec7823142b4e9"
+        },
+        {
+          "context_ids": [
+            "Ca65fd46ea92a"
+          ],
+          "context_sha256": {
+            "Ca65fd46ea92a": "a65fd46ea92a418610a7457a5b82f7b6716a3fda1482655ff440bb006a69f2c9"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7da4654bc261",
+          "query_id": "Q009",
+          "query_sha256": "11a7e0fefc3ded50a97c1e8c1097fa6ad10ec1fe550aa390a8a3958fddee50fd",
+          "source_sha256": "bd3e57fc233d75b1c14d67272f9d65dae3a6b1c4ac8aa432f767ce140881a8c8"
+        },
+        {
+          "context_ids": [
+            "C593c5335faee"
+          ],
+          "context_sha256": {
+            "C593c5335faee": "593c5335faee89e082c35d27c04f503ff3e18abc07fdd7798644bb06c4a83999"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7db4bd0b1adc",
+          "query_id": "C005",
+          "query_sha256": "908e1f6a34c53246ddeeee0de866a538e402f12f77db63bbf9fd1297a31b4394",
+          "source_sha256": "66528ee24485139a3f944e38ce3a0e4ef5bc0b172b29960b3022bfa407201cfa"
+        },
+        {
+          "context_ids": [
+            "C0ab852be4fca"
+          ],
+          "context_sha256": {
+            "C0ab852be4fca": "0ab852be4fcaf63668e8a98d4250a8b6cf8d8e15ad1de4633e76851e55ac8b79"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7de7d223022c",
+          "query_id": "C008",
+          "query_sha256": "dfb1d9ed98df95abc624ebf62f9b2fd265d4772083a3a5bfdc9527675ec5f59b",
+          "source_sha256": "85e8b8d0f0ff89b9b599d3add98d124c1bbf556aa82d8c6bc3be81712251f29d"
+        },
+        {
+          "context_ids": [
+            "C8abc27f35390"
+          ],
+          "context_sha256": {
+            "C8abc27f35390": "8abc27f35390057ab11fdbef502f9a781509024c8543052e86b0a4d441e321f2"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J7e464e890780",
+          "query_id": "Q001",
+          "query_sha256": "59c7ba60fabe34574c17ffd5c9eef4c6cc3fcc72839582f51043bb814d12b706",
+          "source_sha256": "69ce43a259e0450ab07c830633de79fc8e34c730033681621060b68fd964acd5"
+        },
+        {
+          "context_ids": [
+            "C0efd4c9f3228",
+            "Cad97b9f13563"
+          ],
+          "context_sha256": {
+            "C0efd4c9f3228": "0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+            "Cad97b9f13563": "ad97b9f1356349dad9817ddb1822d41059512aa4211cc538a19d8b23b8058bf1"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J82468a4e978d",
+          "query_id": "Q012",
+          "query_sha256": "07673bbb9716b947644e94856f418f8bbf7a08244e7303c5caea64e816f9a440",
+          "source_sha256": "68b31661ac7c841a4bda7ed45d21e1c0ecc01377827305a76d48c11ef174b9f6"
+        },
+        {
+          "context_ids": [
+            "C9bc70f3048c9"
+          ],
+          "context_sha256": {
+            "C9bc70f3048c9": "9bc70f3048c9d04e408e5962ac2847a238001eee5856fe99218ed1eabbee9050"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J85aa28d4fbe2",
+          "query_id": "C001",
+          "query_sha256": "6dc266cdd2c4495a56f59ca97f7cc5470166b7f42f7f0d50e7bdc036354d883f",
+          "source_sha256": "63c33c22807fb93cac62807e44364d4f7ddb066f110a7a7946176ad33a401de2"
+        },
+        {
+          "context_ids": [
+            "Cdec2d2a92d26"
+          ],
+          "context_sha256": {
+            "Cdec2d2a92d26": "dec2d2a92d2651389f7991c581ee0e35ac898cb1754c7bd0d6b17ee50c91fc54"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J897f06641577",
+          "query_id": "C005",
+          "query_sha256": "908e1f6a34c53246ddeeee0de866a538e402f12f77db63bbf9fd1297a31b4394",
+          "source_sha256": "d20a4fb9da83a8928a618baefb86047cbab83cc17b7629f84fdabb854171ad15"
+        },
+        {
+          "context_ids": [
+            "Cf997a3815406"
+          ],
+          "context_sha256": {
+            "Cf997a3815406": "f997a381540692f42a8f6dc46c0122af31534ed5d8bf8f1192a141f7e276c44b"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J8a131bf5c0ec",
+          "query_id": "N018",
+          "query_sha256": "b6ef49a56b2a29f51b67c107df37f3ecdcc636406045976401fd6d04402d0c72",
+          "source_sha256": "5684e54118ed4da8a9f993b7af2b2f4e65f0be236febf6418e42e4f7f6a8439a"
+        },
+        {
+          "context_ids": [
+            "C2aaac14fd32e"
+          ],
+          "context_sha256": {
+            "C2aaac14fd32e": "2aaac14fd32e7776c7d33cd7b0111bc8fd51f7e0535144c15d91bbd190543b35"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J8b2c81562a7a",
+          "query_id": "C006",
+          "query_sha256": "e3812044ff297b9a3562e0f20a7275a9a9317f126c1f620bb2c5db0a791260e4",
+          "source_sha256": "b77c45e618da9164718375afd483a521b3dc01d1e3d9829025a9474a6cb7a9a8"
+        },
+        {
+          "context_ids": [
+            "C21c2d8ab24fd"
+          ],
+          "context_sha256": {
+            "C21c2d8ab24fd": "21c2d8ab24fda3b668e489e278be639c1d6e9fad82ac7cdcaa004059a8639445"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J8df0337d3162",
+          "query_id": "N005",
+          "query_sha256": "344f7e3b3c1ed2e19b20aea498fdd9391d5013fca26de84d2dfe890873e5998e",
+          "source_sha256": "0f9e64083b2b65fe6f35b52c10801e1318e1ad6029c75051da735d8604a27215"
+        },
+        {
+          "context_ids": [
+            "C62b924d8e996"
+          ],
+          "context_sha256": {
+            "C62b924d8e996": "62b924d8e996db620d7f7b08f7972cb980df03c425efd6c4ba106f5769c2737c"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J8f75ec1c0eed",
+          "query_id": "N005",
+          "query_sha256": "344f7e3b3c1ed2e19b20aea498fdd9391d5013fca26de84d2dfe890873e5998e",
+          "source_sha256": "dee24a6b29d8ad2618c61c9698d4980fdcfd255cd97f45680ddf87d16689ed98"
+        },
+        {
+          "context_ids": [
+            "Ce397a504f209"
+          ],
+          "context_sha256": {
+            "Ce397a504f209": "e397a504f2097d3f993007b61fbc6ccaf136fd72d0eec35673d2232dc483091e"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J90cc0543cef3",
+          "query_id": "N005",
+          "query_sha256": "344f7e3b3c1ed2e19b20aea498fdd9391d5013fca26de84d2dfe890873e5998e",
+          "source_sha256": "7f6b3ca2161031241acbee4ce3314c4a2aace329e1fb3f4f916aea70e92afe1c"
+        },
+        {
+          "context_ids": [
+            "C9a5ca0ae1e3c"
+          ],
+          "context_sha256": {
+            "C9a5ca0ae1e3c": "9a5ca0ae1e3c861153f9ebb48c7647e0f818498f86eb8f7443894f6c46253254"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J90ecde014192",
+          "query_id": "C005",
+          "query_sha256": "908e1f6a34c53246ddeeee0de866a538e402f12f77db63bbf9fd1297a31b4394",
+          "source_sha256": "ea65237aa2e4b85069ba33541536d287e84be85e7f56fb027584b7369a2eafb6"
+        },
+        {
+          "context_ids": [
+            "Cc5298e1dc42a"
+          ],
+          "context_sha256": {
+            "Cc5298e1dc42a": "c5298e1dc42a8ded1f251ae11f69497839fba7b70df57c7d31c29fd6434fa592"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J91a72b46b275",
+          "query_id": "Q016",
+          "query_sha256": "e01c124b969f3e39b37e38d5767fa58ec82ace42799ffa2afa47ae54b6e650b2",
+          "source_sha256": "7611bb5852456228e1c5e34fe3eae75fb6b96c8474da5751c4ca3afd22aca9c2"
+        },
+        {
+          "context_ids": [
+            "C8c2403e54409"
+          ],
+          "context_sha256": {
+            "C8c2403e54409": "8c2403e5440970315a887efb085543d461729dd13227ef21cd2eda19c1b5d36a"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J941b8f34d269",
+          "query_id": "Q009",
+          "query_sha256": "11a7e0fefc3ded50a97c1e8c1097fa6ad10ec1fe550aa390a8a3958fddee50fd",
+          "source_sha256": "45dca5cfcafba84cec3e10db878e2b9548427c19e27b2c75595979450c257ade"
+        },
+        {
+          "context_ids": [
+            "C24d23d577f58"
+          ],
+          "context_sha256": {
+            "C24d23d577f58": "24d23d577f5846fab49092ea3677583f569a6cf31cf88b8d390f12def2f614da"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J95569adce168",
+          "query_id": "Q047",
+          "query_sha256": "863e6faa8c4da0207cdeb1b496f28515b9a822a79c4207c1d9f81176bcdde407",
+          "source_sha256": "31d59e0057293e67a30bcee695ceb9dfa285e6ef7229a9c6a07847b69007c751"
+        },
+        {
+          "context_ids": [
+            "Cd9a02e403c9d"
+          ],
+          "context_sha256": {
+            "Cd9a02e403c9d": "d9a02e403c9d349d78547b7e4b43161e06b01808cc5a38356a7aca88f7e224e9"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J95da2b69ecb4",
+          "query_id": "Q044",
+          "query_sha256": "31b314ead83162f4d9fe8871783b01fdb4869ed20ed466b16100d62b7e1e17dd",
+          "source_sha256": "80d84180f3b84fa323305a40ef9a2d6bcb621f25d722e8d7d07c40d2f93b1399"
+        },
+        {
+          "context_ids": [
+            "Cca0822ce3e9b"
+          ],
+          "context_sha256": {
+            "Cca0822ce3e9b": "ca0822ce3e9b56d0ec903a5a384128933da5a7c1676b2a42faf317a292c658e2"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J96b47b5b1d83",
+          "query_id": "N013",
+          "query_sha256": "32615cd4fe500ab7875a0d862763c83ee647564a5efe71482a2c1db18edb77b6",
+          "source_sha256": "46a5c8adc7c80c90d2194126e38bd6e64843849f6a48e5c9a991208128e11583"
+        },
+        {
+          "context_ids": [
+            "Ca760031e1707"
+          ],
+          "context_sha256": {
+            "Ca760031e1707": "a760031e1707f8bf553ca13bbf684c33263add5b68802e86e8ef8ff578572481"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J96ed49072b44",
+          "query_id": "Q022",
+          "query_sha256": "7cad30faac223e96f687702dde8c68ea56771cf954a8e8b57599410bf30777fb",
+          "source_sha256": "aec79048bb5a7664e185ba8b4c044272f70a15c8507e195ffd382f0d93075599"
+        },
+        {
+          "context_ids": [
+            "Cadd3efe2d617"
+          ],
+          "context_sha256": {
+            "Cadd3efe2d617": "add3efe2d6174de4223f43013c355b9f51ab00ab9028b197325ade4d498b17b5"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J98fad98e6654",
+          "query_id": "C008",
+          "query_sha256": "dfb1d9ed98df95abc624ebf62f9b2fd265d4772083a3a5bfdc9527675ec5f59b",
+          "source_sha256": "6e6a6d7a401bbe3708de4fa27fef3d19149e1ec6d1592ed4fdd347a285339e89"
+        },
+        {
+          "context_ids": [
+            "C762ab18b0d72"
+          ],
+          "context_sha256": {
+            "C762ab18b0d72": "762ab18b0d726c6ebc3f2aa4d1f39fbacc5fd767c365fb22816fdd8090bfa93d"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J9911e5bf8e45",
+          "query_id": "N017",
+          "query_sha256": "39feee264d56b535adc2d06317a6bbf4e9b126728459a1e5a9361932f6cd729f",
+          "source_sha256": "df489dd6dd6b572aad36219872420db4d49338d885bd645071545c16303ad149"
+        },
+        {
+          "context_ids": [
+            "C6651082b1362"
+          ],
+          "context_sha256": {
+            "C6651082b1362": "6651082b1362b774c3aa12afeb9eaa4920ca741a977081a63ecc7d816af33ee7"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J998bffbc3b31",
+          "query_id": "N013",
+          "query_sha256": "32615cd4fe500ab7875a0d862763c83ee647564a5efe71482a2c1db18edb77b6",
+          "source_sha256": "310b50fba7aa0d9db96d916d1cd998146a0aaef1f5a865f85a6787d29bc35ef6"
+        },
+        {
+          "context_ids": [
+            "C50b1488851e0"
+          ],
+          "context_sha256": {
+            "C50b1488851e0": "50b1488851e09e603c9a2c82f28020e7e424dfcbd5b0f55a97f2d78c46a59875"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J99ab89f34510",
+          "query_id": "N004",
+          "query_sha256": "ea089b72cce06ddb01b3abe1bb76598ee45c99a23766ea91416b3b57965680e9",
+          "source_sha256": "ca7477f90c27c16973a1e4619320ff41afd0c7908b87b1639fcc7e840f75a95f"
+        },
+        {
+          "context_ids": [
+            "C3746b8fd60b6"
+          ],
+          "context_sha256": {
+            "C3746b8fd60b6": "3746b8fd60b6a13d91ce1e3bd6d37566fda06a20cda0f8df17b8e260ec31fcad"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J99cbfeabcf4d",
+          "query_id": "C008",
+          "query_sha256": "dfb1d9ed98df95abc624ebf62f9b2fd265d4772083a3a5bfdc9527675ec5f59b",
+          "source_sha256": "d16d2561a51136d1b9fcedcb311bf1f93f13664ca9de32851615c35f107c8d12"
+        },
+        {
+          "context_ids": [
+            "C4e257294978f"
+          ],
+          "context_sha256": {
+            "C4e257294978f": "4e257294978fbea54b052c476a8ec2dab1cce00f87d250c25f94ef9209819522"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J9b7ba0a4c8b7",
+          "query_id": "C001",
+          "query_sha256": "6dc266cdd2c4495a56f59ca97f7cc5470166b7f42f7f0d50e7bdc036354d883f",
+          "source_sha256": "505a6da20854e2405f47689917e7a3b189fba300e2486154024037f9cbcc59d2"
+        },
+        {
+          "context_ids": [
+            "Ca3d9d837c8dc"
+          ],
+          "context_sha256": {
+            "Ca3d9d837c8dc": "a3d9d837c8dc58f843e9df6605db5194b7c59e536a537ab35c14e7b4a7b3e442"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J9c26fcbe75e0",
+          "query_id": "C004",
+          "query_sha256": "e3b37c5ee633114ada38210427aabe4f6fcb42f874645aa3bce3e51de8ee27e1",
+          "source_sha256": "990a4b16f0ea6f9fc847742c603afadd128cfc4b71d4893c4935e4c146c3624f"
+        },
+        {
+          "context_ids": [
+            "Cd970afdfcdf3"
+          ],
+          "context_sha256": {
+            "Cd970afdfcdf3": "d970afdfcdf35f58cf23fc15de0ad7104c4cd864a97a5b6bbad23458d38f44da"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J9d3ca1f14378",
+          "query_id": "Q002",
+          "query_sha256": "95560a6e7bd02db73c87a32357f5c9de9104def057b410f08897f68cf8317b83",
+          "source_sha256": "b26d3dce8695a78ff60658ca87319abc2e04865c9d27514e529c74ec8b5cb7c0"
+        },
+        {
+          "context_ids": [
+            "C18585a5b9b1e"
+          ],
+          "context_sha256": {
+            "C18585a5b9b1e": "18585a5b9b1e65872d1ddd58f93f5e34370fff717fc229568809af44d5a95e6c"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J9e6822a9bfb3",
+          "query_id": "N019",
+          "query_sha256": "d0d2ea127a733c15102dcaefa415bfcfea3282731f5060858142d47d27a08c13",
+          "source_sha256": "fbc8e801046de44ebe1076a8f9de9489ab936ae13e9de4e9db8c30ad177524ab"
+        },
+        {
+          "context_ids": [
+            "C67e3b9c45745"
+          ],
+          "context_sha256": {
+            "C67e3b9c45745": "67e3b9c45745150256d68b269c16f191a596ba518e2a7918926ef943bd25151e"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J9e6b877efffe",
+          "query_id": "N008",
+          "query_sha256": "efa0dcc8c44915edd6263872c669716ad964eb1e9d07b14826671b7c08f6a1d0",
+          "source_sha256": "ef31dd6193c93f506220ae9f27e45b4b2d77a1ae02499bafbb31575cccefdc98"
+        },
+        {
+          "context_ids": [
+            "Cfaf76d78ed05"
+          ],
+          "context_sha256": {
+            "Cfaf76d78ed05": "faf76d78ed05fcb9261e45fcc4a2922f4f7aef42220060128c902c1148ebca75"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "J9eb264765eb4",
+          "query_id": "N015",
+          "query_sha256": "f20f116022fdf9e1ba977444642e86195dfaf2cfc2f8c5a4bbd273a6bed7850b",
+          "source_sha256": "bc2ec958761d174214b7bf3db85f3c4fb38c969484d30707d5d6858e18c15798"
+        },
+        {
+          "context_ids": [
+            "C0e2abd4a4c7a",
+            "C438b6493183a"
+          ],
+          "context_sha256": {
+            "C0e2abd4a4c7a": "0e2abd4a4c7a6bb1b659722e9d9033a45c4ca7ec1611763f94fdd3ae44ea5840",
+            "C438b6493183a": "438b6493183af37e9d1a97ddce07b9379987d725bbe4be47c3866926ae41c445"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Ja03afd92588d",
+          "query_id": "Q021",
+          "query_sha256": "6a3b2af12138bc5673a57b638d428d62c3bdde8fb7d86f1b732c2c1c1764a2a5",
+          "source_sha256": "7f07ff5ab0078f92e346c90e8bcd55b2bdc98a1dc13f8f5ccfbf4feb6f485231"
+        },
+        {
+          "context_ids": [
+            "Cca297909a76c"
+          ],
+          "context_sha256": {
+            "Cca297909a76c": "ca297909a76cfd45e2b3152b358011a5a8092c08232a8ee6681e69f5b759205a"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Ja03cd8cc2e9b",
+          "query_id": "Q009",
+          "query_sha256": "11a7e0fefc3ded50a97c1e8c1097fa6ad10ec1fe550aa390a8a3958fddee50fd",
+          "source_sha256": "3add94e715072a3e7cdc8334627f1e3a0c1f815e026c68722872b1d4c21dc52a"
+        },
+        {
+          "context_ids": [
+            "Cd1e3dbf52162"
+          ],
+          "context_sha256": {
+            "Cd1e3dbf52162": "d1e3dbf52162efe9831ab7d203b59a5bae6eb2eedcb66f0832cb44772d2ed958"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Ja12d05cbe715",
+          "query_id": "N018",
+          "query_sha256": "b6ef49a56b2a29f51b67c107df37f3ecdcc636406045976401fd6d04402d0c72",
+          "source_sha256": "26eb1b92d507f576c3237d51108967cdfeb191394abb3763c858b4653f6f20fb"
+        },
+        {
+          "context_ids": [
+            "C373191a9f15c"
+          ],
+          "context_sha256": {
+            "C373191a9f15c": "373191a9f15c0fed57dd1bd2f5bf791481cf530562966877f0bc905313714aee"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Ja2a10d7119ef",
+          "query_id": "Q012",
+          "query_sha256": "07673bbb9716b947644e94856f418f8bbf7a08244e7303c5caea64e816f9a440",
+          "source_sha256": "2797a50e6df8ead05352faee1d2aa980363c8b4862d70413c32cc7d32f2b1ef3"
+        },
+        {
+          "context_ids": [
+            "Ce7bebe3208e9"
+          ],
+          "context_sha256": {
+            "Ce7bebe3208e9": "e7bebe3208e9e3b00c50c98a7ba86e41d70aee37ef68b28cb7514b0a831eb173"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Ja4428fce08df",
+          "query_id": "N004",
+          "query_sha256": "ea089b72cce06ddb01b3abe1bb76598ee45c99a23766ea91416b3b57965680e9",
+          "source_sha256": "c596816cbd5732dbfa41fa63ecab2ae139a444fc2f85f9a692b4e41b855c5fa1"
+        },
+        {
+          "context_ids": [
+            "Cc4245e36f1d8"
+          ],
+          "context_sha256": {
+            "Cc4245e36f1d8": "c4245e36f1d82cb95d0427a2cad7e4f3c980ac487b0c89790f2dde22bcfb14a3"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Ja7c36f5e2114",
+          "query_id": "N018",
+          "query_sha256": "b6ef49a56b2a29f51b67c107df37f3ecdcc636406045976401fd6d04402d0c72",
+          "source_sha256": "8a6beeb710088b445575a8c545a75059d29d52ee81e9249ec39b7603b038055b"
+        },
+        {
+          "context_ids": [
+            "Cc65473521933"
+          ],
+          "context_sha256": {
+            "Cc65473521933": "c65473521933b26665a06c55508579c19287f331042ed265af18f56ad4126311"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Ja7cd8638cf7c",
+          "query_id": "N009",
+          "query_sha256": "2494dbd25062fa4d8ce6c6b1c46e950694cba312d7e9f610e05339a1267dcb7b",
+          "source_sha256": "d81d01f205ebfa9c44253faa3367dbea7fb2b019a3f7e735f9bce1d1e46aad32"
+        },
+        {
+          "context_ids": [
+            "C07d558d0fce2"
+          ],
+          "context_sha256": {
+            "C07d558d0fce2": "07d558d0fce279499647effc37dcb2a6a8898b19e57ca746e4b16b8fc6d9e2da"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Ja99499830833",
+          "query_id": "Q047",
+          "query_sha256": "863e6faa8c4da0207cdeb1b496f28515b9a822a79c4207c1d9f81176bcdde407",
+          "source_sha256": "a6ff32fcbe664fe51d40d1d01ae3b9398a784036e4204a6000905f76bd6ed69c"
+        },
+        {
+          "context_ids": [
+            "C88ae4db16ea7"
+          ],
+          "context_sha256": {
+            "C88ae4db16ea7": "88ae4db16ea75d068e6d86df5744a48e7fdb22310d436a3db6a52f77ab97a423"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Ja9b99051aa7f",
+          "query_id": "Q047",
+          "query_sha256": "863e6faa8c4da0207cdeb1b496f28515b9a822a79c4207c1d9f81176bcdde407",
+          "source_sha256": "64c10e5525815fa18849226058f4e3d7dc4ab5a44e9723cdff601ec2e6a01b67"
+        },
+        {
+          "context_ids": [
+            "Cac124f22e8aa"
+          ],
+          "context_sha256": {
+            "Cac124f22e8aa": "ac124f22e8aa7b8af603d91d71c0f64818ac85dd642efcd370c22192323b4ecf"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jadd9caf9641a",
+          "query_id": "C005",
+          "query_sha256": "908e1f6a34c53246ddeeee0de866a538e402f12f77db63bbf9fd1297a31b4394",
+          "source_sha256": "4f16ad05b0b3f7ead273c7adfcede0e1a21ecfad397a62dc1656929ebb565aa8"
+        },
+        {
+          "context_ids": [
+            "C7b52237f2e7c"
+          ],
+          "context_sha256": {
+            "C7b52237f2e7c": "7b52237f2e7ce1722c1a4e56d30aadcdf506603747d69edaba4b3f408b238593"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jae09a63d48b1",
+          "query_id": "N017",
+          "query_sha256": "39feee264d56b535adc2d06317a6bbf4e9b126728459a1e5a9361932f6cd729f",
+          "source_sha256": "3308e2a1ff964b2ce10ff1b6ec1c3ce86e298f1a6d3643f998ab0e041fda17e7"
+        },
+        {
+          "context_ids": [
+            "C9c92f1c33733"
+          ],
+          "context_sha256": {
+            "C9c92f1c33733": "9c92f1c337335ea50f04d671775d8afbd072b00bca5893cade3e61746c1f0e37"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jaf53db4b5baa",
+          "query_id": "C010",
+          "query_sha256": "fab68072b8f2e10bb7ee4b4e7ecd261dfc89c2d1937ee4f2a9540bb4c80f0620",
+          "source_sha256": "eefd382967556ee8837423a07efe390c40aeadc82a1e951672409a12227de5fe"
+        },
+        {
+          "context_ids": [
+            "C31ef9ca40e36"
+          ],
+          "context_sha256": {
+            "C31ef9ca40e36": "31ef9ca40e3689107b551029e6b564faa129eb6c8ff884c6df122d8429654d03"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb01cd3a393b6",
+          "query_id": "N019",
+          "query_sha256": "d0d2ea127a733c15102dcaefa415bfcfea3282731f5060858142d47d27a08c13",
+          "source_sha256": "12b5d7b83cf70194700f09593667fe37115609617b936f857fc32dd067b8ba6a"
+        },
+        {
+          "context_ids": [
+            "C5e9b0a8c29ea"
+          ],
+          "context_sha256": {
+            "C5e9b0a8c29ea": "5e9b0a8c29ea29a881e20c655f1bddc4c9107b790be9bd364a1f01158148f11c"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb037ead0ca80",
+          "query_id": "N013",
+          "query_sha256": "32615cd4fe500ab7875a0d862763c83ee647564a5efe71482a2c1db18edb77b6",
+          "source_sha256": "301f388d9edd9c76644271123082f7d7b90e8ed69063946123f9256dd2e9d391"
+        },
+        {
+          "context_ids": [
+            "C385329c3e315",
+            "Cd4fcf834b81a"
+          ],
+          "context_sha256": {
+            "C385329c3e315": "385329c3e3159340d020d55f44f39ce56e645befe235db326a5ede3270cc6452",
+            "Cd4fcf834b81a": "d4fcf834b81a7b2ed2fe4930be8e605f8bd066b4d06264413d0c25e26a43977c"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb1a011055b35",
+          "query_id": "Q042",
+          "query_sha256": "41c0267eefa5c4e521cf9d0df9c5c3409794db226e935b3c0698fab4a65b5024",
+          "source_sha256": "68578b5a5d1f94beab2e661c56e6a7f14ddc74f9106fc4fae7abc19f8e043381"
+        },
+        {
+          "context_ids": [
+            "Cee4065c407d1"
+          ],
+          "context_sha256": {
+            "Cee4065c407d1": "ee4065c407d1546e353ff780aed01ae54dfcd3e8865067ebe14a7cbf0a37c754"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb2a07fb3b3f3",
+          "query_id": "C008",
+          "query_sha256": "dfb1d9ed98df95abc624ebf62f9b2fd265d4772083a3a5bfdc9527675ec5f59b",
+          "source_sha256": "6c0f764117929a3758b414c266b6dec5485d4a6fd445f5edde65687c649a0b10"
+        },
+        {
+          "context_ids": [
+            "C0efd4c9f3228",
+            "Cfbe7f36b7906"
+          ],
+          "context_sha256": {
+            "C0efd4c9f3228": "0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+            "Cfbe7f36b7906": "fbe7f36b7906cc4b00177663bec6c41f0f40b1c1e7fc11da23f3608ca518c7e8"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb36157545699",
+          "query_id": "N014",
+          "query_sha256": "feeeb11279b8950401ea3873e2d5cf92e75d46a1d1908feb01f6a05d06d6f35f",
+          "source_sha256": "d775c8470c9b25e940653760e85e3630f9d47dff65379cdaee6a8fe5d5e1cc35"
+        },
+        {
+          "context_ids": [
+            "Ca210ee531d04"
+          ],
+          "context_sha256": {
+            "Ca210ee531d04": "a210ee531d047a7878ff651907ac086a33462effe5068e206e4f64664ba67c41"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb3e39bba4b17",
+          "query_id": "N019",
+          "query_sha256": "d0d2ea127a733c15102dcaefa415bfcfea3282731f5060858142d47d27a08c13",
+          "source_sha256": "5b3c12bbbadfb748d009fadd997d6f895e526746fb605757bf6dd9596931e49a"
+        },
+        {
+          "context_ids": [
+            "Ca1d3af0928f4",
+            "Cfdfb221293cd"
+          ],
+          "context_sha256": {
+            "Ca1d3af0928f4": "a1d3af0928f445944618c8c3c284793d27aa575420f2f223d8ffae6eeb13f18d",
+            "Cfdfb221293cd": "fdfb221293cd8f184b250ade2e225659064c0c0a92f3577b744d34c762f65cf2"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb4b898d8a25b",
+          "query_id": "N009",
+          "query_sha256": "2494dbd25062fa4d8ce6c6b1c46e950694cba312d7e9f610e05339a1267dcb7b",
+          "source_sha256": "f8effec9985ae16019a4df41148203abbfbf031fccbe6bfae398654094472d8a"
+        },
+        {
+          "context_ids": [
+            "Cdab715b65566"
+          ],
+          "context_sha256": {
+            "Cdab715b65566": "dab715b65566c6b63b0da346ba769fc633643579f4d50df4828fce56a5eadb42"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb551f744a2b8",
+          "query_id": "N004",
+          "query_sha256": "ea089b72cce06ddb01b3abe1bb76598ee45c99a23766ea91416b3b57965680e9",
+          "source_sha256": "80d84180f3b84fa323305a40ef9a2d6bcb621f25d722e8d7d07c40d2f93b1399"
+        },
+        {
+          "context_ids": [
+            "Cf7f2687faeda"
+          ],
+          "context_sha256": {
+            "Cf7f2687faeda": "f7f2687faeda77b9bc6a82672d85cd24801e277d31ddd2307014c80e376a1978"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb58a4678e958",
+          "query_id": "N013",
+          "query_sha256": "32615cd4fe500ab7875a0d862763c83ee647564a5efe71482a2c1db18edb77b6",
+          "source_sha256": "040c032a3f3e5ff2ff6d6583fbb6ee70ada664e79eacf5e8d8ca01575e086a34"
+        },
+        {
+          "context_ids": [
+            "C88ae4db16ea7"
+          ],
+          "context_sha256": {
+            "C88ae4db16ea7": "88ae4db16ea75d068e6d86df5744a48e7fdb22310d436a3db6a52f77ab97a423"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb59c6f6e7418",
+          "query_id": "N010",
+          "query_sha256": "79059aa2c7026975590ef54b7174362b2deeb90e8ded6b39dc436f172f7fe4b5",
+          "source_sha256": "64c10e5525815fa18849226058f4e3d7dc4ab5a44e9723cdff601ec2e6a01b67"
+        },
+        {
+          "context_ids": [
+            "Cd183d67a0ab5"
+          ],
+          "context_sha256": {
+            "Cd183d67a0ab5": "d183d67a0ab54731451bcff125980c3961eeefa57a5c05bd308a49da21fd9401"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb6b095b76b1a",
+          "query_id": "N002",
+          "query_sha256": "0ab1368927c54fe6a6b81b174b0a01a17dfcf8a06c9b088fcfbb6d111957de94",
+          "source_sha256": "d08ca64ddfd808ab7e356df3e38744b3e8d97fcfc901f1fcf614a4455ba8311e"
+        },
+        {
+          "context_ids": [
+            "C0efd4c9f3228"
+          ],
+          "context_sha256": {
+            "C0efd4c9f3228": "0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb7be28892edf",
+          "query_id": "N014",
+          "query_sha256": "feeeb11279b8950401ea3873e2d5cf92e75d46a1d1908feb01f6a05d06d6f35f",
+          "source_sha256": "ae5499c83c480194c4030caab8a9a858010406a212bdc5de065d4a2346a1612c"
+        },
+        {
+          "context_ids": [
+            "Ce138bb9c7ded"
+          ],
+          "context_sha256": {
+            "Ce138bb9c7ded": "e138bb9c7ded8fb9302c070ddb8d9ebabff03c59ea80867dc0688e2553aeb38d"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jb8d47ead4eb0",
+          "query_id": "C010",
+          "query_sha256": "fab68072b8f2e10bb7ee4b4e7ecd261dfc89c2d1937ee4f2a9540bb4c80f0620",
+          "source_sha256": "bbd49bac337084ea3ea5cd568f6457bf67eb9f9e4686275dbb1774b54a19dd92"
+        },
+        {
+          "context_ids": [
+            "C500b336c9246"
+          ],
+          "context_sha256": {
+            "C500b336c9246": "500b336c9246ea673b286a6a004f7d990f4b271000e4b3992827a0b8953799c2"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jbb4fcf21f285",
+          "query_id": "Q037",
+          "query_sha256": "8798ff38bad239823f8497fb1beb8b9daeced7243ac8443e2b38b3fd99b62381",
+          "source_sha256": "1dbfcfb22b600eec7fd09a35b8e4fa33e634d4b04ea640f7278fa7bd3aae01eb"
+        },
+        {
+          "context_ids": [
+            "C9ff8acd7678b"
+          ],
+          "context_sha256": {
+            "C9ff8acd7678b": "9ff8acd7678b563d841ca4723aabddd75a365c37417191604cdcc424c8b7cd17"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jbc2bbcb80ccb",
+          "query_id": "C004",
+          "query_sha256": "e3b37c5ee633114ada38210427aabe4f6fcb42f874645aa3bce3e51de8ee27e1",
+          "source_sha256": "1e8da44e4d359b5913cee76a84bf4cf207e128ece897748466313d29c502116a"
+        },
+        {
+          "context_ids": [
+            "C3ab7d11626f8"
+          ],
+          "context_sha256": {
+            "C3ab7d11626f8": "3ab7d11626f85f93298372da6e6b32983caa552fee318b77e13bf2bb86dcd218"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jbc5e435e551d",
+          "query_id": "Q022",
+          "query_sha256": "7cad30faac223e96f687702dde8c68ea56771cf954a8e8b57599410bf30777fb",
+          "source_sha256": "6c743107ad971019e6812a701be60fd3e3781a8b390ab2e5496d3bdc1fd66140"
+        },
+        {
+          "context_ids": [
+            "Ca6ecb1fd762e"
+          ],
+          "context_sha256": {
+            "Ca6ecb1fd762e": "a6ecb1fd762e310b760866c92879152f837f5466dc9ee2abd5eb02790d5f583d"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jbca8a2c9998d",
+          "query_id": "N011",
+          "query_sha256": "55bbfd84e2defd576ea30300947d7a3af93b18907941daa95f1c495bfe01a79e",
+          "source_sha256": "6c24351005d06ee0ce0e646dfa2c6eefff54171315815c1bac0e16f9ee764998"
+        },
+        {
+          "context_ids": [
+            "C022773f3d109"
+          ],
+          "context_sha256": {
+            "C022773f3d109": "022773f3d1095862d1aa98130336038bdbd7395aeebcdecf1bdd56aead735a45"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jbd7d45eedae6",
+          "query_id": "N012",
+          "query_sha256": "e5937284604d388647929c82a447ca3824c093cc189d3265abb8398fd018dbcc",
+          "source_sha256": "2b78ec7eabf985581d6c807dc303e8db97f0e1306339ce85b7fc8afe21bdd485"
+        },
+        {
+          "context_ids": [
+            "C4928d8ee1dfa"
+          ],
+          "context_sha256": {
+            "C4928d8ee1dfa": "4928d8ee1dfa5518573702bda6c92d5489e733a815a15e7dd1c67ebc8b073e3a"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jbf8037afa9c5",
+          "query_id": "N001",
+          "query_sha256": "b8956d305a1d53e06d2e1452eea023d637bf8a327b8321697b1b2fffc684917d",
+          "source_sha256": "d9eed5786a1281c70d506cd8132ad701cea2616736f01f0eed647423f4d5b785"
+        },
+        {
+          "context_ids": [
+            "Cf797d42c74d1"
+          ],
+          "context_sha256": {
+            "Cf797d42c74d1": "f797d42c74d11a8e641bd8815af7c91eb5bc48b860e3be8be4325212fa83a5aa"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jbf9a6e6fe53b",
+          "query_id": "Q001",
+          "query_sha256": "59c7ba60fabe34574c17ffd5c9eef4c6cc3fcc72839582f51043bb814d12b706",
+          "source_sha256": "5d8b966637ec874cc786e3bd4ba579319314c67dfae48badb336f857732e0760"
+        },
+        {
+          "context_ids": [
+            "C3e5cba7adc78"
+          ],
+          "context_sha256": {
+            "C3e5cba7adc78": "3e5cba7adc786146e9b669ca2422b1a464d17327b2801329b88872ecf918dc03"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jc23052a75da7",
+          "query_id": "Q002",
+          "query_sha256": "95560a6e7bd02db73c87a32357f5c9de9104def057b410f08897f68cf8317b83",
+          "source_sha256": "657b9c8183aa18170800f483514c2cad6412abf681f1ea8b7eb49634d84be11f"
+        },
+        {
+          "context_ids": [
+            "C79415ea46140"
+          ],
+          "context_sha256": {
+            "C79415ea46140": "79415ea4614000b27eb3f675631349236e0fe805f24de66bf6a471d774596a3f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jc29e0fcb81f7",
+          "query_id": "N003",
+          "query_sha256": "104bafeb1df6d8e3b5b9a8e23b5af07a0f779565ebcc9613715032af2eb1c5bb",
+          "source_sha256": "c19ec344c220b7c17ab092ea8959e9482ceb4a6e52ab4db553394a925cdda5bc"
+        },
+        {
+          "context_ids": [
+            "Ca3272238c59d",
+            "Cc5d5bd671604"
+          ],
+          "context_sha256": {
+            "Ca3272238c59d": "a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b",
+            "Cc5d5bd671604": "c5d5bd6716042c490dbb1911b3cf35c5cda27a5cc3c0e898fd2565005cebb732"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jc2b110f01b38",
+          "query_id": "C007",
+          "query_sha256": "ac8eb531744e78e630f0afe6ae56979972c6d0f20ad2525a459a513399ad1b1a",
+          "source_sha256": "904f1cf886bce0c3ff8a53f758f352c4e180a62b344aa25d14399c9ac62e160b"
+        },
+        {
+          "context_ids": [
+            "C7db806fece12"
+          ],
+          "context_sha256": {
+            "C7db806fece12": "7db806fece12d8b144e7f695d96a0a6ca1e75f8a07e1171e987f6d93c228990c"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jc31156057980",
+          "query_id": "Q022",
+          "query_sha256": "7cad30faac223e96f687702dde8c68ea56771cf954a8e8b57599410bf30777fb",
+          "source_sha256": "bfc1e34553a29fbda6ef4836d53eed100841f5b00493dd41485ae2c0430512b5"
+        },
+        {
+          "context_ids": [
+            "C8e1f7090e17c"
+          ],
+          "context_sha256": {
+            "C8e1f7090e17c": "8e1f7090e17c244404f6f5d55c9cfc0b30f0353a86b5b486b0a1abcae539b169"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jc5a021831d77",
+          "query_id": "C009",
+          "query_sha256": "6426611b28a1c9844bd6c68c887d772bea229ef77ce79f1a05da8fbd2efe78f0",
+          "source_sha256": "c43af6a512feb9484f421c1d130af0f5f93a31111f633888a064b4fa883824f0"
+        },
+        {
+          "context_ids": [
+            "C28b9a849d3c9"
+          ],
+          "context_sha256": {
+            "C28b9a849d3c9": "28b9a849d3c910bb64a4f057f059bdaef6e6d21750b3150e4b52e9f4b5dfeb1d"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jc692c16a4c84",
+          "query_id": "Q009",
+          "query_sha256": "11a7e0fefc3ded50a97c1e8c1097fa6ad10ec1fe550aa390a8a3958fddee50fd",
+          "source_sha256": "ed4eadc7895d4f3a87b4a3f170a7bab8ddc1b483ad76d46174b60592f51a0164"
+        },
+        {
+          "context_ids": [
+            "Ca9968faf95af"
+          ],
+          "context_sha256": {
+            "Ca9968faf95af": "a9968faf95af5f4314c0e11c04be836dedb133ae20cd2cd07c9894491b4bba6e"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jc6afaddd8f4b",
+          "query_id": "C010",
+          "query_sha256": "fab68072b8f2e10bb7ee4b4e7ecd261dfc89c2d1937ee4f2a9540bb4c80f0620",
+          "source_sha256": "6789219fa6e7a4422eb917cf881716a6e5ca243272490c78d88742c9e259b267"
+        },
+        {
+          "context_ids": [
+            "C961253533109"
+          ],
+          "context_sha256": {
+            "C961253533109": "961253533109e234c6e58a3f268d5a3fc99f70f0126631fe44e3beef95a91374"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jc7b0e48cd957",
+          "query_id": "N007",
+          "query_sha256": "58fb9877fbf8beadd4318ed66d4420ff4ee70ff4f1048a6b169ffa6433cc16a3",
+          "source_sha256": "d98ab8af609f6cf1259771b085fb453c70e49741a4c4a85ca1c1111b71b979de"
+        },
+        {
+          "context_ids": [
+            "C02c87f751f4a"
+          ],
+          "context_sha256": {
+            "C02c87f751f4a": "02c87f751f4a175acf38a771740e740fa07ca9b58c529bf9df16ad4d5b4ad3f1"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jccad79c829fc",
+          "query_id": "Q002",
+          "query_sha256": "95560a6e7bd02db73c87a32357f5c9de9104def057b410f08897f68cf8317b83",
+          "source_sha256": "f9e801c924008d0af764ca1fb27ef04ec0cde6533273b38925b81d01dfa87a89"
+        },
+        {
+          "context_ids": [
+            "Cc00713d5e7c4"
+          ],
+          "context_sha256": {
+            "Cc00713d5e7c4": "c00713d5e7c443038f8398c99ee18c5c24dbf2ee41a31d8700a62fe36c4a8831"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jce4953b35e36",
+          "query_id": "Q009",
+          "query_sha256": "11a7e0fefc3ded50a97c1e8c1097fa6ad10ec1fe550aa390a8a3958fddee50fd",
+          "source_sha256": "affacfb42ef9570ef52b36b7acd6aab8487a9d141f4a7d25a7051ad7caab6257"
+        },
+        {
+          "context_ids": [
+            "Ca9968faf95af"
+          ],
+          "context_sha256": {
+            "Ca9968faf95af": "a9968faf95af5f4314c0e11c04be836dedb133ae20cd2cd07c9894491b4bba6e"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jce945fb0d186",
+          "query_id": "Q038",
+          "query_sha256": "09cd65a185716a9a27e074886db0ec55ed38722def64510061d0bda9c8b9de3a",
+          "source_sha256": "6789219fa6e7a4422eb917cf881716a6e5ca243272490c78d88742c9e259b267"
+        },
+        {
+          "context_ids": [
+            "C8d89c69b72d5"
+          ],
+          "context_sha256": {
+            "C8d89c69b72d5": "8d89c69b72d5a86d7dabea7ae76ca345fb8e384d882265f549546d311cd6f499"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jceb16e28f370",
+          "query_id": "N012",
+          "query_sha256": "e5937284604d388647929c82a447ca3824c093cc189d3265abb8398fd018dbcc",
+          "source_sha256": "85e8b8d0f0ff89b9b599d3add98d124c1bbf556aa82d8c6bc3be81712251f29d"
+        },
+        {
+          "context_ids": [
+            "Cecf71012822c"
+          ],
+          "context_sha256": {
+            "Cecf71012822c": "ecf71012822c5ed0e031c85dfbfdce3a8d54e7c923db87e33e4be4be379abd38"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jd279278b80bc",
+          "query_id": "Q038",
+          "query_sha256": "09cd65a185716a9a27e074886db0ec55ed38722def64510061d0bda9c8b9de3a",
+          "source_sha256": "decd39c2513af4ccb2d7bcb8d21ff721d6e41a1e92fbf3b062c6a5eaa38d3b55"
+        },
+        {
+          "context_ids": [
+            "C1f3f7df983b4"
+          ],
+          "context_sha256": {
+            "C1f3f7df983b4": "1f3f7df983b4050ab38f9d9614f198f81424f77a601d39fb9b74ce6b45574caa"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jd53f7fd2cedd",
+          "query_id": "Q037",
+          "query_sha256": "8798ff38bad239823f8497fb1beb8b9daeced7243ac8443e2b38b3fd99b62381",
+          "source_sha256": "43160c57aa36f1aae7c3503a2aee380d2dafb8117f402dd8791b4fddc2e49a39"
+        },
+        {
+          "context_ids": [
+            "C7d4d179859d4"
+          ],
+          "context_sha256": {
+            "C7d4d179859d4": "7d4d179859d4ac6ba5974303992d2c0f3df63d09b1c7d44a552e50e028e0b27f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jd592c13b94c4",
+          "query_id": "C004",
+          "query_sha256": "e3b37c5ee633114ada38210427aabe4f6fcb42f874645aa3bce3e51de8ee27e1",
+          "source_sha256": "82d7d52c6a02c23aed9d7a878a4076496ce5601e4d2c1df9aa8de3b9397c9c97"
+        },
+        {
+          "context_ids": [
+            "C4e257294978f"
+          ],
+          "context_sha256": {
+            "C4e257294978f": "4e257294978fbea54b052c476a8ec2dab1cce00f87d250c25f94ef9209819522"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jd5d25965046d",
+          "query_id": "N011",
+          "query_sha256": "55bbfd84e2defd576ea30300947d7a3af93b18907941daa95f1c495bfe01a79e",
+          "source_sha256": "505a6da20854e2405f47689917e7a3b189fba300e2486154024037f9cbcc59d2"
+        },
+        {
+          "context_ids": [
+            "C8f877e5f619a"
+          ],
+          "context_sha256": {
+            "C8f877e5f619a": "8f877e5f619af2bf74630ad6c1298f68f64dd9a3d25ca87bd51b60bcca3ae069"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jd6fa60b7f446",
+          "query_id": "Q009",
+          "query_sha256": "11a7e0fefc3ded50a97c1e8c1097fa6ad10ec1fe550aa390a8a3958fddee50fd",
+          "source_sha256": "7f07ac55bca60a355fdeafbf1af86625f2d6b0b250c13ba27d6225f569227d16"
+        },
+        {
+          "context_ids": [
+            "C839c4ef78efc"
+          ],
+          "context_sha256": {
+            "C839c4ef78efc": "839c4ef78efc1dd5394272839ae684d9577f41eb85397e4230c8c848b8340a59"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jd7487a4bb9cd",
+          "query_id": "C009",
+          "query_sha256": "6426611b28a1c9844bd6c68c887d772bea229ef77ce79f1a05da8fbd2efe78f0",
+          "source_sha256": "ef31dd6193c93f506220ae9f27e45b4b2d77a1ae02499bafbb31575cccefdc98"
+        },
+        {
+          "context_ids": [
+            "C0efd4c9f3228",
+            "Cad97b9f13563"
+          ],
+          "context_sha256": {
+            "C0efd4c9f3228": "0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+            "Cad97b9f13563": "ad97b9f1356349dad9817ddb1822d41059512aa4211cc538a19d8b23b8058bf1"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jd8dec8d8ade5",
+          "query_id": "N014",
+          "query_sha256": "feeeb11279b8950401ea3873e2d5cf92e75d46a1d1908feb01f6a05d06d6f35f",
+          "source_sha256": "68b31661ac7c841a4bda7ed45d21e1c0ecc01377827305a76d48c11ef174b9f6"
+        },
+        {
+          "context_ids": [
+            "C55422d2f6584"
+          ],
+          "context_sha256": {
+            "C55422d2f6584": "55422d2f65842b8ce1cb3ef745829e068709593d18fbce80f78e59bc02344add"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jd9fedd6ef6b1",
+          "query_id": "N016",
+          "query_sha256": "d3d7a52904202aee0beed7af837aeb52417181acc423f537c111793965c300f2",
+          "source_sha256": "51eb20159566d0db653946ebac43058043e04b4bb987788a11bcca4d9145b65a"
+        },
+        {
+          "context_ids": [
+            "C6648ee6b4f91"
+          ],
+          "context_sha256": {
+            "C6648ee6b4f91": "6648ee6b4f91185ec28af34ca3fab4dfe407363f1a2b5be6156f896fa7189309"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jda8048f5d0aa",
+          "query_id": "C009",
+          "query_sha256": "6426611b28a1c9844bd6c68c887d772bea229ef77ce79f1a05da8fbd2efe78f0",
+          "source_sha256": "faa66683b1056aac0c5b49be5937460f402fb728c212caa8058fcf2be3d5dcd1"
+        },
+        {
+          "context_ids": [
+            "Caf98cf97aa02"
+          ],
+          "context_sha256": {
+            "Caf98cf97aa02": "af98cf97aa02d521eda582a1fc5c38ce808854c3a7c085c64d4fcac66909bb74"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jdb53eaff3edd",
+          "query_id": "N019",
+          "query_sha256": "d0d2ea127a733c15102dcaefa415bfcfea3282731f5060858142d47d27a08c13",
+          "source_sha256": "fe762948e93712743b6880bc1a46541438aab82295ced17e0079fc49f13d7743"
+        },
+        {
+          "context_ids": [
+            "C5fe6cd5b3400"
+          ],
+          "context_sha256": {
+            "C5fe6cd5b3400": "5fe6cd5b34002fcc49276bdea5b7c4ea2c7de72ade4037ce7c68a5cec713f1e7"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jdcd657fc8bb5",
+          "query_id": "N001",
+          "query_sha256": "b8956d305a1d53e06d2e1452eea023d637bf8a327b8321697b1b2fffc684917d",
+          "source_sha256": "3ee77441cbd62087ef9ad6699c017233bebbe9c3c8e03e02a5c50d67941a2546"
+        },
+        {
+          "context_ids": [
+            "C0efd4c9f3228"
+          ],
+          "context_sha256": {
+            "C0efd4c9f3228": "0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jde4735aa76fc",
+          "query_id": "N014",
+          "query_sha256": "feeeb11279b8950401ea3873e2d5cf92e75d46a1d1908feb01f6a05d06d6f35f",
+          "source_sha256": "ba97cbb69f2e7d9561a5fbc3854116be4509d0b51cddaab89ec6ce53eb65b137"
+        },
+        {
+          "context_ids": [
+            "C49adb6ec4fba",
+            "Cc8e4d0590951"
+          ],
+          "context_sha256": {
+            "C49adb6ec4fba": "49adb6ec4fba09ae34831411844e9d44f5795f9c2c083aee6748dde9241910bf",
+            "Cc8e4d0590951": "c8e4d05909518a8d79d86b72dfc46680f30c4ec97285d231b84f62a3675e1df5"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jdeb2d917d9a0",
+          "query_id": "Q021",
+          "query_sha256": "6a3b2af12138bc5673a57b638d428d62c3bdde8fb7d86f1b732c2c1c1764a2a5",
+          "source_sha256": "725027b502e7367d509b1c535945f1331405bd37688f83a95f259e93ff1b5994"
+        },
+        {
+          "context_ids": [
+            "C62508db1df61"
+          ],
+          "context_sha256": {
+            "C62508db1df61": "62508db1df6109b75b3dcd8af051c5564f324c689086956abe8d960e640d7957"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Je18b40189495",
+          "query_id": "N017",
+          "query_sha256": "39feee264d56b535adc2d06317a6bbf4e9b126728459a1e5a9361932f6cd729f",
+          "source_sha256": "1d2d926f82d2884eead4dfb6fcc0ccd42605518795110cffeeb119f585fc327c"
+        },
+        {
+          "context_ids": [
+            "C622738b9ce7f"
+          ],
+          "context_sha256": {
+            "C622738b9ce7f": "622738b9ce7ff580b8a253ca260f71dcb29b4f79c428b661536706b729c6a5ea"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Je197cc0071e3",
+          "query_id": "C008",
+          "query_sha256": "dfb1d9ed98df95abc624ebf62f9b2fd265d4772083a3a5bfdc9527675ec5f59b",
+          "source_sha256": "62ef0174b3a8b385b1ddc8eda97528811a0990b1fd3bd5e3c760451a0fd31314"
+        },
+        {
+          "context_ids": [
+            "Cceda2f1c747d"
+          ],
+          "context_sha256": {
+            "Cceda2f1c747d": "ceda2f1c747dc1915dd1a6169479ba24b6aa0c9b2f0613e52a2295976d83142f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Je5e046c69007",
+          "query_id": "N016",
+          "query_sha256": "d3d7a52904202aee0beed7af837aeb52417181acc423f537c111793965c300f2",
+          "source_sha256": "3feae76242f76c0bdc9d0c222cd86a222f1f64e41e84ef2bd719bf4080acf601"
+        },
+        {
+          "context_ids": [
+            "C0f51c5f490e2"
+          ],
+          "context_sha256": {
+            "C0f51c5f490e2": "0f51c5f490e2ae163361eafd9d27c707c5ac594fa8b244e895888f20d5120b8c"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Je63fc3103b3a",
+          "query_id": "Q001",
+          "query_sha256": "59c7ba60fabe34574c17ffd5c9eef4c6cc3fcc72839582f51043bb814d12b706",
+          "source_sha256": "36cfc1fefa8d7b61f58f9183f442af8a0f1afbd33e71463725d238b09d319ec3"
+        },
+        {
+          "context_ids": [
+            "Cce9a9144b212"
+          ],
+          "context_sha256": {
+            "Cce9a9144b212": "ce9a9144b212add0e7eb9701cde029e16a5df884afc540bd21f6880e52e448dd"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Je64f8f5b20a5",
+          "query_id": "N006",
+          "query_sha256": "00a2b1912f3190889075f8e408d129f9ac89db216c94a3930027e55e5e455fb1",
+          "source_sha256": "d582329226d0398d4a8ece3db2559d537d220f017b3e7be42a65c67ca6836db1"
+        },
+        {
+          "context_ids": [
+            "C28b9a849d3c9"
+          ],
+          "context_sha256": {
+            "C28b9a849d3c9": "28b9a849d3c910bb64a4f057f059bdaef6e6d21750b3150e4b52e9f4b5dfeb1d"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Je8a9547144c9",
+          "query_id": "N009",
+          "query_sha256": "2494dbd25062fa4d8ce6c6b1c46e950694cba312d7e9f610e05339a1267dcb7b",
+          "source_sha256": "ed4eadc7895d4f3a87b4a3f170a7bab8ddc1b483ad76d46174b60592f51a0164"
+        },
+        {
+          "context_ids": [
+            "C5cd12c3befbc",
+            "C715043b00d41"
+          ],
+          "context_sha256": {
+            "C5cd12c3befbc": "5cd12c3befbc457a851f2a14b21e8db32a4d6918c3cac427c41378e9e301df12",
+            "C715043b00d41": "715043b00d416d07f354df8cbd5d3ae81efd2492acc809c6ed9275e2d3edd947"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jea050923d4f0",
+          "query_id": "Q038",
+          "query_sha256": "09cd65a185716a9a27e074886db0ec55ed38722def64510061d0bda9c8b9de3a",
+          "source_sha256": "c1b9355868be835d071c66519709781425041f9b69ac814c2590603f0e5892fb"
+        },
+        {
+          "context_ids": [
+            "C5eb682ae3759"
+          ],
+          "context_sha256": {
+            "C5eb682ae3759": "5eb682ae3759f39f4406c2e464762127491e1c2fdc552cdb76ab29308bc13780"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jea68b6b22f0f",
+          "query_id": "N011",
+          "query_sha256": "55bbfd84e2defd576ea30300947d7a3af93b18907941daa95f1c495bfe01a79e",
+          "source_sha256": "aa7dc5268b49b9ba579af0d6e0283e10c90c72f16164e65f5093759fb076b5ce"
+        },
+        {
+          "context_ids": [
+            "C959f03cbe5b5"
+          ],
+          "context_sha256": {
+            "C959f03cbe5b5": "959f03cbe5b54ed07bfc35bec87d3b30394d6f23bb6b8e98f0755d83860f4dba"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jeb299c25fd25",
+          "query_id": "C003",
+          "query_sha256": "37bcb011d54848a59f3bd726003f9c5690a6d2973641ce2b804a3b6f3c401ba8",
+          "source_sha256": "bcd7469d733f5ef828464db47b02c8010e0cddb0d6e2b54ab21f7bce8156e87f"
+        },
+        {
+          "context_ids": [
+            "C37a3cad8507d"
+          ],
+          "context_sha256": {
+            "C37a3cad8507d": "37a3cad8507d56d6bd0300cca71e69eb1855859dee6b3e64b037e5d428bfca3b"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jeb6aafb60790",
+          "query_id": "N017",
+          "query_sha256": "39feee264d56b535adc2d06317a6bbf4e9b126728459a1e5a9361932f6cd729f",
+          "source_sha256": "6c0f764117929a3758b414c266b6dec5485d4a6fd445f5edde65687c649a0b10"
+        },
+        {
+          "context_ids": [
+            "C98956337efcf"
+          ],
+          "context_sha256": {
+            "C98956337efcf": "98956337efcf9693f4f0ca40a8f57e6b28dbf6b268a150ffb003ae3f9429205d"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jeb8bdacc7237",
+          "query_id": "N020",
+          "query_sha256": "c5848f5164e328a08f102c30a527c6b56cbe930b581e54d3c5442af2c9c2f3ce",
+          "source_sha256": "fbba9a2459eda59037d2ff178f0b0a0effc177ca7e66a274f4eb8c3c91c70ee6"
+        },
+        {
+          "context_ids": [
+            "Ca99d6af07830"
+          ],
+          "context_sha256": {
+            "Ca99d6af07830": "a99d6af07830ccfbad4b9781ca30f8e72f79f4159404387745d60306370348ac"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jeba694673a1e",
+          "query_id": "N010",
+          "query_sha256": "79059aa2c7026975590ef54b7174362b2deeb90e8ded6b39dc436f172f7fe4b5",
+          "source_sha256": "37234caf625ba77886214025427cdf697957460acbe2d74a32bf5f8341b8c026"
+        },
+        {
+          "context_ids": [
+            "Cbe8c654d498e"
+          ],
+          "context_sha256": {
+            "Cbe8c654d498e": "be8c654d498e359a3780de6c7cf3087972f214be40bdea2bd3c111511b388114"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf07d01892c71",
+          "query_id": "N008",
+          "query_sha256": "efa0dcc8c44915edd6263872c669716ad964eb1e9d07b14826671b7c08f6a1d0",
+          "source_sha256": "905adb4185b912c2fe05a77e376219d03e3cebb5c2fc334bd757ad3701aa92d3"
+        },
+        {
+          "context_ids": [
+            "C4685a5d4c521"
+          ],
+          "context_sha256": {
+            "C4685a5d4c521": "4685a5d4c521daede602545eaf23191f9bda308390a8fe36daab96faf4767431"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf1659752312d",
+          "query_id": "Q044",
+          "query_sha256": "31b314ead83162f4d9fe8871783b01fdb4869ed20ed466b16100d62b7e1e17dd",
+          "source_sha256": "d866b311181d43b725966ea97db6cee2e7e3f256b3dd3b99078cdfc02e1f8cb8"
+        },
+        {
+          "context_ids": [
+            "Cf14110ae73c8"
+          ],
+          "context_sha256": {
+            "Cf14110ae73c8": "f14110ae73c8ee8e4d483e7875b56f9570bf8d6b3aa8b22f3ce6e2e4c022ec3f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf2646b765ff0",
+          "query_id": "Q022",
+          "query_sha256": "7cad30faac223e96f687702dde8c68ea56771cf954a8e8b57599410bf30777fb",
+          "source_sha256": "05653cdafa7d31f49c04eddb30e7c2acc4ce5e2b63465f1310055ed14e748869"
+        },
+        {
+          "context_ids": [
+            "C430625d2316b"
+          ],
+          "context_sha256": {
+            "C430625d2316b": "430625d2316b40cdd0991b9f9da8cf2889e9d35df3fd6f1e889eaea3e285b684"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf33128645f03",
+          "query_id": "N006",
+          "query_sha256": "00a2b1912f3190889075f8e408d129f9ac89db216c94a3930027e55e5e455fb1",
+          "source_sha256": "08352d05eec661a91fe8e8ae98ee10e4c0e4959782979dea12fb9dd076d21f81"
+        },
+        {
+          "context_ids": [
+            "Cad4788abb331"
+          ],
+          "context_sha256": {
+            "Cad4788abb331": "ad4788abb331073ef264d170d380178b962af43da1621eba6290e08aa8af782b"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf3744c83f6d9",
+          "query_id": "N004",
+          "query_sha256": "ea089b72cce06ddb01b3abe1bb76598ee45c99a23766ea91416b3b57965680e9",
+          "source_sha256": "7591dac1333077662c23d201c3a61fc5aa836f2333c7ebf54a2fbff3627a0a00"
+        },
+        {
+          "context_ids": [
+            "C8d89c69b72d5"
+          ],
+          "context_sha256": {
+            "C8d89c69b72d5": "8d89c69b72d5a86d7dabea7ae76ca345fb8e384d882265f549546d311cd6f499"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf3aedfef4c8b",
+          "query_id": "C002",
+          "query_sha256": "349e65493959ab6e565457a778a2403c3b8d53a67315a2a1bcc245e67e9fbc4e",
+          "source_sha256": "85e8b8d0f0ff89b9b599d3add98d124c1bbf556aa82d8c6bc3be81712251f29d"
+        },
+        {
+          "context_ids": [
+            "C51eb745172cb"
+          ],
+          "context_sha256": {
+            "C51eb745172cb": "51eb745172cb6afdbdef763242c984009e7dad26b4ca9d2ea91d72f635383759"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf502b031bfd4",
+          "query_id": "N006",
+          "query_sha256": "00a2b1912f3190889075f8e408d129f9ac89db216c94a3930027e55e5e455fb1",
+          "source_sha256": "9ff4ba9ffa2ed403e973ddb1a3208942496c2a45d7b1bde90122afe20374835d"
+        },
+        {
+          "context_ids": [
+            "C88ae4db16ea7"
+          ],
+          "context_sha256": {
+            "C88ae4db16ea7": "88ae4db16ea75d068e6d86df5744a48e7fdb22310d436a3db6a52f77ab97a423"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf59a641d8e7e",
+          "query_id": "N020",
+          "query_sha256": "c5848f5164e328a08f102c30a527c6b56cbe930b581e54d3c5442af2c9c2f3ce",
+          "source_sha256": "64c10e5525815fa18849226058f4e3d7dc4ab5a44e9723cdff601ec2e6a01b67"
+        },
+        {
+          "context_ids": [
+            "C59ee2422e7e6"
+          ],
+          "context_sha256": {
+            "C59ee2422e7e6": "59ee2422e7e645f5131b3451472b7073dff96ae13e846c242141f1562bece414"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf5e6105d38dd",
+          "query_id": "Q012",
+          "query_sha256": "07673bbb9716b947644e94856f418f8bbf7a08244e7303c5caea64e816f9a440",
+          "source_sha256": "df7923f5435f31b32de0e8b0e4221797ebddfbbd070a36d366ee6d26e1dd2315"
+        },
+        {
+          "context_ids": [
+            "Ceaea1455d6dd"
+          ],
+          "context_sha256": {
+            "Ceaea1455d6dd": "eaea1455d6dd3dddaf48e94e51efbe8279e53402e83e3ccb8509fe00985b4dd3"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf6cd920146c2",
+          "query_id": "N012",
+          "query_sha256": "e5937284604d388647929c82a447ca3824c093cc189d3265abb8398fd018dbcc",
+          "source_sha256": "814b6f81c66ae77ee08716a4ac86ea01fef232245d0a2569b0952ce4bb00c540"
+        },
+        {
+          "context_ids": [
+            "C5fe6cd5b3400"
+          ],
+          "context_sha256": {
+            "C5fe6cd5b3400": "5fe6cd5b34002fcc49276bdea5b7c4ea2c7de72ade4037ce7c68a5cec713f1e7"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf7369f5101e6",
+          "query_id": "C001",
+          "query_sha256": "6dc266cdd2c4495a56f59ca97f7cc5470166b7f42f7f0d50e7bdc036354d883f",
+          "source_sha256": "3ee77441cbd62087ef9ad6699c017233bebbe9c3c8e03e02a5c50d67941a2546"
+        },
+        {
+          "context_ids": [
+            "C7c5b373c9c53"
+          ],
+          "context_sha256": {
+            "C7c5b373c9c53": "7c5b373c9c5383b77759b6c3ca9b85b702a42261f387f6d2b641db0aa16e0857"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf73f6b04b701",
+          "query_id": "N003",
+          "query_sha256": "104bafeb1df6d8e3b5b9a8e23b5af07a0f779565ebcc9613715032af2eb1c5bb",
+          "source_sha256": "0c10a9157bb517a01c0f6730cd704d037601386f7b4b6f971bfe8df62a20cd8c"
+        },
+        {
+          "context_ids": [
+            "Cd8959b867e54"
+          ],
+          "context_sha256": {
+            "Cd8959b867e54": "d8959b867e5423d6f4c46a09e60c53f775e053509ba87d4078b82b5760e1eb8f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jf8e610295646",
+          "query_id": "C002",
+          "query_sha256": "349e65493959ab6e565457a778a2403c3b8d53a67315a2a1bcc245e67e9fbc4e",
+          "source_sha256": "bdf03a41d87ac5600536bc2e03376c13643b3769b922806000a74d9cca8af9be"
+        },
+        {
+          "context_ids": [
+            "C0c3288c1b059"
+          ],
+          "context_sha256": {
+            "C0c3288c1b059": "0c3288c1b0596afb97f621f3aeaf66c2662e8b3b3ea0713143dd645eaff77662"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jfc2abdaf19d7",
+          "query_id": "N005",
+          "query_sha256": "344f7e3b3c1ed2e19b20aea498fdd9391d5013fca26de84d2dfe890873e5998e",
+          "source_sha256": "1dc93375307e3c3a34d8b283ce8c3ea62e9191a8a5a0525ca0a58be98e762817"
+        },
+        {
+          "context_ids": [
+            "C11fda0576443"
+          ],
+          "context_sha256": {
+            "C11fda0576443": "11fda05764434c35a82487ca5809dff182c60b336a6a7b16c36a6462bbae3ccc"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jfcd97e6bd36a",
+          "query_id": "Q001",
+          "query_sha256": "59c7ba60fabe34574c17ffd5c9eef4c6cc3fcc72839582f51043bb814d12b706",
+          "source_sha256": "d6cba1a7856b6882b980e8298bc88bb72786435c44dc9cbf2149c70c5ea6296b"
+        },
+        {
+          "context_ids": [
+            "C4b8b3545acfc"
+          ],
+          "context_sha256": {
+            "C4b8b3545acfc": "4b8b3545acfc0bacbf74ab86ece27d40af94942227f73b302d96e39d06cd97eb"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jfd8c85f77640",
+          "query_id": "N007",
+          "query_sha256": "58fb9877fbf8beadd4318ed66d4420ff4ee70ff4f1048a6b169ffa6433cc16a3",
+          "source_sha256": "22a67bedae996fcf9c7b522403536516b3bf53e71a718fcdacf224dd6e35d8e4"
+        },
+        {
+          "context_ids": [
+            "Cdd78be7c717a"
+          ],
+          "context_sha256": {
+            "Cdd78be7c717a": "dd78be7c717a8203145e8243e614400ff93f124e4a5e3d68d235127c41b6e93f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jfdc0983b5b7c",
+          "query_id": "C008",
+          "query_sha256": "dfb1d9ed98df95abc624ebf62f9b2fd265d4772083a3a5bfdc9527675ec5f59b",
+          "source_sha256": "c5987e985ee46333a179ac58c1b8be7ee954179ea707291723f2d265aa3cd7ef"
+        },
+        {
+          "context_ids": [
+            "C4e3fa8f8c337"
+          ],
+          "context_sha256": {
+            "C4e3fa8f8c337": "4e3fa8f8c337bf45fb04f2ed3b88c3d5287a1635950a15be212fcd0eff1411f9"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jfe209e29c2d2",
+          "query_id": "Q012",
+          "query_sha256": "07673bbb9716b947644e94856f418f8bbf7a08244e7303c5caea64e816f9a440",
+          "source_sha256": "4283834b7f31826f7485fba946d8ced800cf2cde27297c0d6f1da49e50549093"
+        },
+        {
+          "context_ids": [
+            "Cac9dfae971e2"
+          ],
+          "context_sha256": {
+            "Cac9dfae971e2": "ac9dfae971e2a06b1e3f1dd7d6004ea9f45b78292aa81bd4411173a63cddb72a"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jfe50d34a88b5",
+          "query_id": "C007",
+          "query_sha256": "ac8eb531744e78e630f0afe6ae56979972c6d0f20ad2525a459a513399ad1b1a",
+          "source_sha256": "191733ccda56b450c5351f950ab1ad1d3e65e5e9e779846628543ec3fcb89fa2"
+        },
+        {
+          "context_ids": [
+            "Cecd6dac68833"
+          ],
+          "context_sha256": {
+            "Cecd6dac68833": "ecd6dac688330b5126d11a08a07e6fc70d8ec411bc72766adf606d942e9fa33c"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jfe51347b158b",
+          "query_id": "N019",
+          "query_sha256": "d0d2ea127a733c15102dcaefa415bfcfea3282731f5060858142d47d27a08c13",
+          "source_sha256": "80b3d379c630c365ec0bb6ff740e1696cc33af351898495c7a25a993b591275e"
+        },
+        {
+          "context_ids": [
+            "Cd8959b867e54"
+          ],
+          "context_sha256": {
+            "Cd8959b867e54": "d8959b867e5423d6f4c46a09e60c53f775e053509ba87d4078b82b5760e1eb8f"
+          },
+          "file_reused": true,
+          "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+          "pair_id": "Jff714fd31937",
+          "query_id": "N004",
+          "query_sha256": "ea089b72cce06ddb01b3abe1bb76598ee45c99a23766ea91416b3b57965680e9",
+          "source_sha256": "bdf03a41d87ac5600536bc2e03376c13643b3769b922806000a74d9cca8af9be"
+        }
+      ],
+      "origin": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\same_round_pool.jsonl",
+      "rejected": [],
+      "reused_contexts": 267,
+      "reused_files": 248
+    }
+  ],
+  "validated_judgments_sha256": "9266fe415446313aef879c0f375584048b06d86325118e1e2311b701c67142cb"
+}

@@ -1,0 +1,75 @@
+test_actual_source_interval_rejected (test_evaluate.EvaluationTests.test_actual_source_interval_rejected) ... ok
+test_blind_pool_strips_method_rank_and_known_positives (test_evaluate.EvaluationTests.test_blind_pool_strips_method_rank_and_known_positives) ... ok
+test_cached_file_cannot_be_overwritten (test_evaluate.EvaluationTests.test_cached_file_cannot_be_overwritten) ... ok
+test_cached_file_context_only_supplement_preserves_old_grade (test_evaluate.EvaluationTests.test_cached_file_context_only_supplement_preserves_old_grade) ... ok
+test_different_query_id_cannot_reuse (test_evaluate.EvaluationTests.test_different_query_id_cannot_reuse) ... ok
+test_different_query_text_cannot_reuse (test_evaluate.EvaluationTests.test_different_query_text_cannot_reuse) ... ok
+test_every_present_arm_must_cover_all_queries (test_evaluate.EvaluationTests.test_every_present_arm_must_cover_all_queries) ... ok
+test_fixed_five_denominator_and_absent_slots (test_evaluate.EvaluationTests.test_fixed_five_denominator_and_absent_slots) ... ok
+test_forged_context_quote_rejected (test_evaluate.EvaluationTests.test_forged_context_quote_rejected) ... ok
+test_forged_file_quote_rejected (test_evaluate.EvaluationTests.test_forged_file_quote_rejected) ... ok
+test_hardlinked_output_alias_rejected_without_mutation (test_evaluate.EvaluationTests.test_hardlinked_output_alias_rejected_without_mutation) ... skipped "hardlinks unavailable: [WinError 5] 拒绝访问。: 'C:\\\\Users\\\\11051\\\\Documents\\\\Codex\\\\2026-10-09\\\\c-users-11051-desktop-agent-ai\\\\outputs\\\\FinRisk_E04小批量实验_20261012\\\\e04_eval_test_2yiajf_3\\\\queries.jsonl' -> 'C:\\\\Users\\\\11051\\\\Documents\\\\Codex\\\\2026-10-09\\\\c-users-11051-desktop-agent-ai\\\\outputs\\\\FinRisk_E04小批量实验_20261012\\\\e04_eval_test_2yiajf_3\\\\out\\\\per_query_metrics.jsonl'"
+test_invalid_source_sha_rejected (test_evaluate.EvaluationTests.test_invalid_source_sha_rejected) ... ok
+test_missing_context_is_remaining_work (test_evaluate.EvaluationTests.test_missing_context_is_remaining_work) ... ok
+test_missing_judgment_refuses_complete_metrics (test_evaluate.EvaluationTests.test_missing_judgment_refuses_complete_metrics) ... ok
+test_modified_validated_resume_rows_rejected (test_evaluate.EvaluationTests.test_modified_validated_resume_rows_rejected) ... ok
+test_multiple_judgment_inputs_merge_disjoint_contexts (test_evaluate.EvaluationTests.test_multiple_judgment_inputs_merge_disjoint_contexts) ... ok
+test_new_context_cannot_inherit_old_context (test_evaluate.EvaluationTests.test_new_context_cannot_inherit_old_context) ... ok
+test_new_phase_cached_file_only_requests_new_context (test_evaluate.EvaluationTests.test_new_phase_cached_file_only_requests_new_context) ... ok
+test_no_known_source_is_not_a_miss (test_evaluate.EvaluationTests.test_no_known_source_is_not_a_miss) ... ok
+test_output_alias_to_queries_rejected_without_mutation (test_evaluate.EvaluationTests.test_output_alias_to_queries_rejected_without_mutation) ... ok
+test_output_guard_rejects_original_frozen_directories (test_evaluate.EvaluationTests.test_output_guard_rejects_original_frozen_directories) ... ok
+test_positive_grade_requires_exact_quote (test_evaluate.EvaluationTests.test_positive_grade_requires_exact_quote) ... ok
+test_prepare_and_summarize_cli_resume_idempotently (test_evaluate.EvaluationTests.test_prepare_and_summarize_cli_resume_idempotently) ... ok
+test_prepare_changed_phase_refuses_overwrite_complete_metrics (test_evaluate.EvaluationTests.test_prepare_changed_phase_refuses_overwrite_complete_metrics) ... ok
+test_reused_input_drift_rejected_at_summary (test_evaluate.EvaluationTests.test_reused_input_drift_rejected_at_summary) ... ok
+test_source_drift_cannot_reuse (test_evaluate.EvaluationTests.test_source_drift_cannot_reuse) ... ok
+test_source_segments_must_match_full_context (test_evaluate.EvaluationTests.test_source_segments_must_match_full_context) ... ok
+test_unknown_same_named_artifact_rejected (test_evaluate.EvaluationTests.test_unknown_same_named_artifact_rejected) ... ok
+test_a0_uses_frozen_v2_aggregate_and_full_context (test_experiment.E04Tests.test_a0_uses_frozen_v2_aggregate_and_full_context) ... ok
+test_arm_100_200_candidate_difference_is_real_union (test_experiment.E04Tests.test_arm_100_200_candidate_difference_is_real_union) ... ok
+test_arm_truncates_routes_to_top100 (test_experiment.E04Tests.test_arm_truncates_routes_to_top100) ... ok
+test_baseline_reproduction_checks_stages_and_aggregate (test_experiment.E04Tests.test_baseline_reproduction_checks_stages_and_aggregate) ... ok
+test_build_record_refuses_missing_or_nonfinite_rerank_score (test_experiment.E04Tests.test_build_record_refuses_missing_or_nonfinite_rerank_score) ... ok
+test_confirmation_arms_must_match_frozen_selection_sha (test_experiment.E04Tests.test_confirmation_arms_must_match_frozen_selection_sha) ... ok
+test_dev_orchestration_uses_one_shared_pool_and_reproduces_a0 (test_experiment.E04Tests.test_dev_orchestration_uses_one_shared_pool_and_reproduces_a0) ... {"event": "model_load_start", "device": "cuda", "precision": "float16"}
+{"event": "model_load_complete", "seconds": 0, "gpu": "synthetic"}
+{"event": "query_start", "query_id": "Q1", "index": 1, "total": 1, "mode": "dev"}
+{"event": "scoring_start", "query_id": "Q1", "missing": 40, "reused": 100}
+{"event": "scoring_complete", "query_id": "Q1", "computed": 40, "seconds": 1.650000012887176e-05}
+{"event": "query_complete", "query_id": "Q1", "arms": ["A0", "A1", "A2", "A3"], "union_units": 140, "reused": 100, "new_scores": 40, "gpu_seconds": 1.650000012887176e-05, "seconds": 0.057108499999230844}
+{"event": "run_complete", "rows": 4, "seconds": 0.09307090000038443, "output": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\tmpy_ramq2d\\results.jsonl"}
+ok
+test_dev_query_requires_exact_original_text (test_experiment.E04Tests.test_dev_query_requires_exact_original_text) ... ok
+test_document_cache_rejects_stale_binding_and_different_existing_files (test_experiment.E04Tests.test_document_cache_rejects_stale_binding_and_different_existing_files) ... ok
+test_empty_routes_return_no_candidates (test_experiment.E04Tests.test_empty_routes_return_no_candidates) ... ok
+test_failed_preparation_produces_failure_log_without_final_output (test_experiment.E04Tests.test_failed_preparation_produces_failure_log_without_final_output) ... {"event": "run_failure", "error": "ValueError: stale source", "result_rows": 0}
+ok
+test_historical_unused_normalization_change_does_not_invalidate_retest (test_experiment.E04Tests.test_historical_unused_normalization_change_does_not_invalidate_retest) ... ok
+test_invalid_query_preflight_is_recorded_as_failure (test_experiment.E04Tests.test_invalid_query_preflight_is_recorded_as_failure) ... {"event": "run_failure", "error": "ValueError: query input must have unique nonempty IDs and text", "result_rows": 0}
+ok
+test_missing_route_keeps_available_route (test_experiment.E04Tests.test_missing_route_keeps_available_route) ... ok
+test_model_args_use_new_e04_cache (test_experiment.E04Tests.test_model_args_use_new_e04_cache) ... ok
+test_only_document_cache_pair_is_copied_and_legacy_is_unchanged (test_experiment.E04Tests.test_only_document_cache_pair_is_copied_and_legacy_is_unchanged) ... {"event": "document_cache_seeded", "key": "2afc095b5eaf23b5bba3395ee1496b80fff3a758ba402f7e37a1970d0af32965", "copied": [".json", ".npy"], "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\tmpaaoe9_00\\new"}
+{"event": "document_cache_seeded", "key": "2afc095b5eaf23b5bba3395ee1496b80fff3a758ba402f7e37a1970d0af32965", "copied": [], "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\tmpaaoe9_00\\new"}
+ok
+test_original_encode_document_hit_and_new_query_miss_write_only_new_cache (test_experiment.E04Tests.test_original_encode_document_hit_and_new_query_miss_write_only_new_cache) ... {"event": "document_cache_seeded", "key": "2afc095b5eaf23b5bba3395ee1496b80fff3a758ba402f7e37a1970d0af32965", "copied": [".json", ".npy"], "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\tmpp6okinu7\\new"}
+ok
+test_output_guard_refuses_any_existing_sidecar (test_experiment.E04Tests.test_output_guard_refuses_any_existing_sidecar) ... ok
+test_route_duplicate_does_not_add_score_or_consume_rank (test_experiment.E04Tests.test_route_duplicate_does_not_add_score_or_consume_rank) ... ok
+test_rrf_rejects_invalid_k_weights_depth (test_experiment.E04Tests.test_rrf_rejects_invalid_k_weights_depth) ... ok
+test_rrf_stable_ties_and_depth (test_experiment.E04Tests.test_rrf_stable_ties_and_depth) ... ok
+test_score_binding_refuses_changed_source_query_or_indexed_text (test_experiment.E04Tests.test_score_binding_refuses_changed_source_query_or_indexed_text) ... ok
+test_score_pool_calls_real_interface_once_for_only_missing_candidates (test_experiment.E04Tests.test_score_pool_calls_real_interface_once_for_only_missing_candidates) ... {"event": "scoring_start", "query_id": "Q1", "missing": 2, "reused": 1}
+{"event": "scoring_complete", "query_id": "Q1", "computed": 2, "seconds": 2.240000139863696e-05}
+ok
+test_score_pool_refuses_incomplete_model_scores (test_experiment.E04Tests.test_score_pool_refuses_incomplete_model_scores) ... {"event": "scoring_start", "query_id": "Q1", "missing": 1, "reused": 0}
+ok
+test_selection_accepts_chosen_arm_from_evaluation (test_experiment.E04Tests.test_selection_accepts_chosen_arm_from_evaluation) ... ok
+test_unit_source_binding_refuses_stale_or_unknown_source (test_experiment.E04Tests.test_unit_source_binding_refuses_stale_or_unknown_source) ... ok
+test_weighted_rrf_changes_priority_without_using_raw_scores (test_experiment.E04Tests.test_weighted_rrf_changes_priority_without_using_raw_scores) ... ok
+
+----------------------------------------------------------------------
+Ran 55 tests in 19.271s
+
+OK (skipped=1)

@@ -1,0 +1,17 @@
+test_bad_source_span_rejected (test_demo.DemoTests.test_bad_source_span_rejected) ... ok
+test_duplicate_evidence_rejected (test_demo.DemoTests.test_duplicate_evidence_rejected) ... ok
+test_fake_human_approval_rejected (test_demo.DemoTests.test_fake_human_approval_rejected) ... ok
+test_missing_judgment_rejected (test_demo.DemoTests.test_missing_judgment_rejected) ... ok
+test_scope_preserves_model_rank_fields (test_demo.DemoTests.test_scope_preserves_model_rank_fields) ... ok
+test_unknown_label_rejected (test_demo.DemoTests.test_unknown_label_rejected) ... ok
+test_unreviewed_hit_unchanged (test_demo.DemoTests.test_unreviewed_hit_unchanged) ... ok
+test_unshown_quote_rejected (test_demo.DemoTests.test_unshown_quote_rejected) ... ok
+test_valid_judgment_passes (test_demo.DemoTests.test_valid_judgment_passes) ... ok
+test_changed_fusion_parameters_rejected (test_parent_binding.ParentBindingTests.test_changed_fusion_parameters_rejected) ... ok
+test_tampered_output_binding_rejected (test_parent_binding.ParentBindingTests.test_tampered_output_binding_rejected) ... ok
+test_valid_bound_parent (test_parent_binding.ParentBindingTests.test_valid_bound_parent) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.109s
+
+OK

@@ -1,0 +1,26 @@
+{
+  "seed": 20261012,
+  "forced_failure_queries": [
+    "Q009",
+    "Q012"
+  ],
+  "query_ids": [
+    "Q001",
+    "Q002",
+    "Q009",
+    "Q012",
+    "Q016",
+    "Q021",
+    "Q022",
+    "Q037",
+    "Q038",
+    "Q042",
+    "Q044",
+    "Q047"
+  ],
+  "group_counts": {
+    "boundary_condition_change": 3,
+    "marketing_sales": 5,
+    "other_insurance_operations": 4
+  }
+}

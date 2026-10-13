@@ -1,0 +1,35 @@
+test_changed_fusion_parameters_rejected (test_parent_binding.ParentBindingTests.test_changed_fusion_parameters_rejected) ... ERROR
+test_tampered_output_binding_rejected (test_parent_binding.ParentBindingTests.test_tampered_output_binding_rejected) ... ERROR
+test_valid_bound_parent (test_parent_binding.ParentBindingTests.test_valid_bound_parent) ... ERROR
+
+======================================================================
+ERROR: test_changed_fusion_parameters_rejected (test_parent_binding.ParentBindingTests.test_changed_fusion_parameters_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_parent_binding.py", line 34, in test_changed_fusion_parameters_rejected
+    demo.check_parent_run(broken, self.query, self.result)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'demo' has no attribute 'check_parent_run'
+
+======================================================================
+ERROR: test_tampered_output_binding_rejected (test_parent_binding.ParentBindingTests.test_tampered_output_binding_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_parent_binding.py", line 28, in test_tampered_output_binding_rejected
+    demo.check_parent_run(broken, self.query, self.result)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'demo' has no attribute 'check_parent_run'
+
+======================================================================
+ERROR: test_valid_bound_parent (test_parent_binding.ParentBindingTests.test_valid_bound_parent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_demo_v3_20261013\test_parent_binding.py", line 22, in test_valid_bound_parent
+    demo.check_parent_run(self.log, self.query, self.result)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'demo' has no attribute 'check_parent_run'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.056s
+
+FAILED (errors=3)

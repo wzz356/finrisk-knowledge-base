@@ -1,0 +1,1 @@
+本轮统一新判读；只评实际显示片段对输入风险判别有无具体帮助。direct为机制直接匹配，partial可为具体条件/相反边界核查，需说明差异；泛泛案由、仅证据清单、无具体机制的邻近主题不算有用。helpful=true必须有显示中连续逐字引文，且在一个实际原文segment内。不得由处罚反推本输入违规，不得跨主体/产品/历史条件无条件外推。看不出事实就保留限制。不得读取配置映射、原V3判断、E05结果/成绩或导航节点；作者与评者均为模型，输入已曝光，不能称独立人工盲测。输出每item一条item_id/item_sha256/helpful/relation/quote/reason/warnings/origin/human_approved。

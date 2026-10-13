@@ -1,0 +1,20 @@
+Failed to find real location of C:\Python314\python.exe
+test_approved_source_quotes_create_sha_bound_view (test_experiment.ContractTests.test_approved_source_quotes_create_sha_bound_view) ... ok
+test_cache_must_be_new_isolated_child_and_output_cannot_overwrite (test_experiment.ContractTests.test_cache_must_be_new_isolated_child_and_output_cannot_overwrite) ... ok
+test_card_route_uses_similarity_top2_and_deduplicates_supported_ids (test_experiment.ContractTests.test_card_route_uses_similarity_top2_and_deduplicates_supported_ids) ... ok
+test_cards_need_two_verified_sources_and_whole_review_binding (test_experiment.ContractTests.test_cards_need_two_verified_sources_and_whole_review_binding) ... ok
+test_changed_context_renders_only_reviewed_subject_without_mixing_table (test_experiment.ContractTests.test_changed_context_renders_only_reviewed_subject_without_mixing_table) ... ok
+test_exact_42_queries_split_new20_replay22_and_no_old_text_as_new (test_experiment.ContractTests.test_exact_42_queries_split_new20_replay22_and_no_old_text_as_new) ... ok
+test_execution_freeze_validates_all_required_file_hashes (test_experiment.ContractTests.test_execution_freeze_validates_all_required_file_hashes) ... ok
+test_five_arm_dimensions_are_frozen_and_m3_never_reranks_cards (test_experiment.ContractTests.test_five_arm_dimensions_are_frozen_and_m3_never_reranks_cards) ... ok
+test_rejected_and_ambiguous_scope_do_not_change_any_view (test_experiment.ContractTests.test_rejected_and_ambiguous_scope_do_not_change_any_view) ... ok
+test_review_binds_whole_input_and_semantic_reason (test_experiment.ContractTests.test_review_binds_whole_input_and_semantic_reason) ... ok
+test_same_real_model_input_shared_across_arms_but_changed_text_rescored (test_experiment.ContractTests.test_same_real_model_input_shared_across_arms_but_changed_text_rescored) ... ok
+test_scope_must_include_original_unit_and_cannot_invent_background (test_experiment.ContractTests.test_scope_must_include_original_unit_and_cannot_invent_background) ... ok
+test_score_binding_rejects_same_id_with_changed_text_or_runtime (test_experiment.ContractTests.test_score_binding_rejects_same_id_with_changed_text_or_runtime) ... ok
+test_source_sha_and_quote_span_tampering_are_rejected (test_experiment.ContractTests.test_source_sha_and_quote_span_tampering_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.195s
+
+OK

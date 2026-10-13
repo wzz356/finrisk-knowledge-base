@@ -1,0 +1,730 @@
+{
+  "queries": 12,
+  "fixed_top5_positions": 60,
+  "useful_context_positions": 40,
+  "useful_context_rate": 0.6666666666666666,
+  "context_support_coverage": 0.8333333333333334,
+  "per_query": [
+    {
+      "query_id": "Q001",
+      "group": "marketing_sales",
+      "baseline_top5": [
+        {
+          "file_id": "F002164",
+          "unit_id": "structured:F002164:V2:c118c3812f10186691c6a478356cc0d16c802cbc21584f1be02625fdc2858dfe",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F001942",
+          "unit_id": "structured:F001942:V2:8abc27f35390057ab11fdbef502f9a781509024c8543052e86b0a4d441e321f2",
+          "file_grade": 2,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F002165",
+          "unit_id": "structured:F002165:V2:dccb498c4d2392e5b6bc16bb2634c16dd09b407a329fdf2abcd78edbee47b952",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F009585",
+          "unit_id": "structured:F009585:V2:33f564468a48b70811f681c0d749f3fcc1c44f29a901e98f30a6f976be912c9c",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F000055",
+          "unit_id": "structured:F000055:V2:a7c1637b8239188b4440bb2b35effc9fa3ae3d999f4dc83e214d0e675e242840",
+          "file_grade": 1,
+          "context_grade": 1
+        }
+      ],
+      "useful_contexts": 3,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": 72,
+          "matching_units": 1
+        },
+        "dense": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_union": {
+          "known_source_best_rank": 126,
+          "matching_units": 1
+        },
+        "rrf_top100": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rerank": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q002",
+      "group": "marketing_sales",
+      "baseline_top5": [
+        {
+          "file_id": "F001716",
+          "unit_id": "structured:F001716:V2:f8084f23ee7b5c19b7bfa66aed7bd5b51ad5e704d919396e3f5558e6c8b2b70b",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F001352",
+          "unit_id": "structured:F001352:V2:f608db3102948e2352a5e26c54dd8d896d64d81bcd3ea1d1fa286bdb70bd0427",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F001353",
+          "unit_id": "structured:F001353:V2:d3b319e1866abbf1234ecd9f28fb0689363d4b443a0091d5030f00161f11b180",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F002063",
+          "unit_id": "structured:F002063:V2:d970afdfcdf35f58cf23fc15de0ad7104c4cd864a97a5b6bbad23458d38f44da",
+          "file_grade": 2,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F001357",
+          "unit_id": "structured:F001357:V2:cf0e4845b5df85c522782b1dd3f6c4ce64aecaa8314b2afaa3417dda27c8eba4",
+          "file_grade": 3,
+          "context_grade": 3
+        }
+      ],
+      "useful_contexts": 5,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": 14,
+          "matching_units": 3
+        },
+        "dense": {
+          "known_source_best_rank": 4,
+          "matching_units": 3
+        },
+        "rrf_union": {
+          "known_source_best_rank": 5,
+          "matching_units": 3
+        },
+        "rrf_top100": {
+          "known_source_best_rank": 5,
+          "matching_units": 3
+        },
+        "rerank": {
+          "known_source_best_rank": 10,
+          "matching_units": 3
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q009",
+      "group": "marketing_sales",
+      "baseline_top5": [
+        {
+          "file_id": "F008841",
+          "unit_id": "structured:F008841:V2:7516eedf539a2b2e52a074229e864278350f281726f919215a7a959fae00ce78",
+          "file_grade": 0,
+          "context_grade": 0
+        },
+        {
+          "file_id": "F007481",
+          "unit_id": "structured:F007481:V2:b26678ae531645db5955ebcc8f4539daa5f364d099e7669ddb56fddbabe5daea",
+          "file_grade": 0,
+          "context_grade": 0
+        },
+        {
+          "file_id": "F004155",
+          "unit_id": "structured:F004155:V2:ac01ca08bb73abe4c814bdab18e2974e50ec6ca5afe847019a23200ecf3f4be7",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F005952",
+          "unit_id": "structured:F005952:V2:abf9685b8f87186d4501cd51d0ba4acc75618b5206ca4fceecd17dcd085b1c9c",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F003966",
+          "unit_id": "structured:F003966:V2:a733f5e114287565ff32aebe54cadfa2dea80f7a94d63c8d5c95f449745a6531",
+          "file_grade": 1,
+          "context_grade": 1
+        }
+      ],
+      "useful_contexts": 0,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": 8,
+          "matching_units": 3
+        },
+        "dense": {
+          "known_source_best_rank": 1,
+          "matching_units": 2
+        },
+        "rrf_union": {
+          "known_source_best_rank": 2,
+          "matching_units": 4
+        },
+        "rrf_top100": {
+          "known_source_best_rank": 2,
+          "matching_units": 4
+        },
+        "rerank": {
+          "known_source_best_rank": 71,
+          "matching_units": 4
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q012",
+      "group": "marketing_sales",
+      "baseline_top5": [
+        {
+          "file_id": "F001794",
+          "unit_id": "structured:F001794:V2:42930f47f91b568a86ef53b23d4cc14b6b54af83abd16c5d40870633ec0748b6",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F000742",
+          "unit_id": "structured:F000742:V2:094203814f22893f35736b56e0ec99e28377285c44a8b85ec8b8a97620c90af4",
+          "file_grade": 1,
+          "context_grade": 0
+        },
+        {
+          "file_id": "F001984",
+          "unit_id": "structured:F001984:V2:b0d3e65df4a8ff78179c1ce6770a1cbab4248481e3d3f2aef41da40082b38580",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F001987",
+          "unit_id": "structured:F001987:V2:0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+          "file_grade": 1,
+          "context_grade": 0
+        },
+        {
+          "file_id": "F001988",
+          "unit_id": "structured:F001988:V2:0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+          "file_grade": 1,
+          "context_grade": 1
+        }
+      ],
+      "useful_contexts": 0,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": 4,
+          "matching_units": 2
+        },
+        "dense": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_union": {
+          "known_source_best_rank": 23,
+          "matching_units": 2
+        },
+        "rrf_top100": {
+          "known_source_best_rank": 23,
+          "matching_units": 2
+        },
+        "rerank": {
+          "known_source_best_rank": 23,
+          "matching_units": 2
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q016",
+      "group": "marketing_sales",
+      "baseline_top5": [
+        {
+          "file_id": "F000720",
+          "unit_id": "structured:F000720:V2:c5298e1dc42a8ded1f251ae11f69497839fba7b70df57c7d31c29fd6434fa592",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F001110",
+          "unit_id": "structured:F001110:V2:6a7e838295691255eb8b4cc20a7c12f3f8c560d226a2496defee5097a9b362da",
+          "file_grade": 3,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F000899",
+          "unit_id": "structured:F000899:V2:8d5046b812428ddfa5a2b43fcdebe60b705951a0b9e496318a52d538f851e262",
+          "file_grade": 3,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F005822",
+          "unit_id": "structured:F005822:V2:66b922badb04760f4fec6f2a00a0057e57921700ad307168f650d168021b259f",
+          "file_grade": 2,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F000738",
+          "unit_id": "structured:F000738:V2:f97936ccef6865cfbde2dbeabc012595e9c5b105bffb1c4dd6d54f25baa70619",
+          "file_grade": 2,
+          "context_grade": 3
+        }
+      ],
+      "useful_contexts": 5,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": 1,
+          "matching_units": 1
+        },
+        "dense": {
+          "known_source_best_rank": 1,
+          "matching_units": 1
+        },
+        "rrf_union": {
+          "known_source_best_rank": 1,
+          "matching_units": 1
+        },
+        "rrf_top100": {
+          "known_source_best_rank": 1,
+          "matching_units": 1
+        },
+        "rerank": {
+          "known_source_best_rank": 1,
+          "matching_units": 1
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q021",
+      "group": "other_insurance_operations",
+      "baseline_top5": [
+        {
+          "file_id": "F003497",
+          "unit_id": "structured:F003497:V2:1b296a1affaff3815a08690025cf339aa5e7b044d33edccbdd64c2c973559a29",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F003486",
+          "unit_id": "structured:F003486:V2:5271e38c87a042a4ed5e575ae28f7bb92a8defbc70c8e7df38096b58e573d4d8",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F003489",
+          "unit_id": "structured:F003489:V2:5271e38c87a042a4ed5e575ae28f7bb92a8defbc70c8e7df38096b58e573d4d8",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F003491",
+          "unit_id": "structured:F003491:V2:5271e38c87a042a4ed5e575ae28f7bb92a8defbc70c8e7df38096b58e573d4d8",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F003638",
+          "unit_id": "structured:F003638:V2:1879f91a74fc1e30bd9ec77016ad53d98a6db2a7782b7a1c2c1c86b39520a763",
+          "file_grade": 3,
+          "context_grade": 3
+        }
+      ],
+      "useful_contexts": 5,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "dense": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_union": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_top100": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rerank": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q022",
+      "group": "other_insurance_operations",
+      "baseline_top5": [
+        {
+          "file_id": "F000636",
+          "unit_id": "structured:F000636:V2:aebafaa2bb054407db1c022bc063d69f8d84d87bc54e93a9dae255d6ff7792cd",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F008595",
+          "unit_id": "structured:F008595:V2:d38e3d402d92cad4afba7dd5851bd18ac6fd398ad6f84f01fc7c3a6490e92d0b",
+          "file_grade": 2,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F002850",
+          "unit_id": "structured:F002850:V2:7db806fece12d8b144e7f695d96a0a6ca1e75f8a07e1171e987f6d93c228990c",
+          "file_grade": 2,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F003388",
+          "unit_id": "structured:F003388:V2:acd4acfb6087a784c832996547616bea6dcb5e29be0557e8b4a4cd8edb34d5d8",
+          "file_grade": 2,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F003387",
+          "unit_id": "structured:F003387:V2:f8212df27788190951b524f03b0e1264693423821762e9f46ecf74f6d236e162",
+          "file_grade": 2,
+          "context_grade": 2
+        }
+      ],
+      "useful_contexts": 5,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": 1,
+          "matching_units": 2
+        },
+        "dense": {
+          "known_source_best_rank": 6,
+          "matching_units": 1
+        },
+        "rrf_union": {
+          "known_source_best_rank": 1,
+          "matching_units": 2
+        },
+        "rrf_top100": {
+          "known_source_best_rank": 1,
+          "matching_units": 2
+        },
+        "rerank": {
+          "known_source_best_rank": 1,
+          "matching_units": 2
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q037",
+      "group": "other_insurance_operations",
+      "baseline_top5": [
+        {
+          "file_id": "F002958",
+          "unit_id": "structured:F002958:V2:1fadbbdd65a4ec609a6d75c7c4b79742a102e7eeb21c0bfe9c9538e2540b5a00",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F002959",
+          "unit_id": "structured:F002959:V2:30de6c0c7184608ed31dfa93eda0b3c6392ec68d93956cb4c072f891ed3b37ea",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F000200",
+          "unit_id": "structured:F000200:V2:871790103bb2a561da48b92ce40b28f2682f34f50c7daa98bbc3e34e5370402d",
+          "file_grade": 2,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F009805",
+          "unit_id": "structured:F009805:V2:28caecc6fdc7d0cf5dd7b50ca6e83693a5196382428ea86de44608ba6848d443",
+          "file_grade": 2,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F008852",
+          "unit_id": "structured:F008852:V2:3902643c058b2b98f8bd437f7a42ebe45eb35c798012f6ba96dcaf2c89973ad7",
+          "file_grade": 2,
+          "context_grade": 2
+        }
+      ],
+      "useful_contexts": 5,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "dense": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_union": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_top100": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rerank": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q038",
+      "group": "other_insurance_operations",
+      "baseline_top5": [
+        {
+          "file_id": "F002890",
+          "unit_id": "structured:F002890:V2:d1c31f1ba6a8045cb54698b7141659205468ff25693e81602133bae1f54abafe",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F000929",
+          "unit_id": "structured:F000929:V2:51eb745172cb6afdbdef763242c984009e7dad26b4ca9d2ea91d72f635383759",
+          "file_grade": 3,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F006220",
+          "unit_id": "structured:F006220:V2:76bdfc196770d2bcf9c7165af20fb094c3e12b916b4037054e552d2b78eced69",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F002659",
+          "unit_id": "structured:F002659:V2:bfa3725ef8d014391752ed1ff0338a15cd82d17557b3d1e0f96b9c9171a9f47c",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F001741",
+          "unit_id": "structured:F001741:V2:6e079989c51325878bf98ac99a4cfa54b1f2c4dc20743118d4e6a85aa7e2c08f",
+          "file_grade": 1,
+          "context_grade": 1
+        }
+      ],
+      "useful_contexts": 2,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": 1,
+          "matching_units": 3
+        },
+        "dense": {
+          "known_source_best_rank": 5,
+          "matching_units": 9
+        },
+        "rrf_union": {
+          "known_source_best_rank": 2,
+          "matching_units": 9
+        },
+        "rrf_top100": {
+          "known_source_best_rank": 2,
+          "matching_units": 6
+        },
+        "rerank": {
+          "known_source_best_rank": 1,
+          "matching_units": 6
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q042",
+      "group": "boundary_condition_change",
+      "baseline_top5": [
+        {
+          "file_id": "F001686",
+          "unit_id": "structured:F001686:V2:80da71cd9bf5d6767158fddd79ebf3bf7c6ea7bdc2e1735334a39eedb998e5b1",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F001687",
+          "unit_id": "structured:F001687:V2:5a10e5775ffad4398b491715afecbd8d20feb27e20c1663f7000a636fe7d9ff2",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F001127",
+          "unit_id": "structured:F001127:V2:7d9cd46698449199ac1e3fcb84f88109aa920fe1eb781b78e60d27c669992a78",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F001128",
+          "unit_id": "structured:F001128:V2:7d9cd46698449199ac1e3fcb84f88109aa920fe1eb781b78e60d27c669992a78",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F001978",
+          "unit_id": "structured:F001978:V2:4a325539b41aee0d42196701b7e192b77989b9e8a962c61ce0b8ff965ddfa62f",
+          "file_grade": 2,
+          "context_grade": 2
+        }
+      ],
+      "useful_contexts": 5,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "dense": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_union": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_top100": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rerank": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q044",
+      "group": "boundary_condition_change",
+      "baseline_top5": [
+        {
+          "file_id": "F006527",
+          "unit_id": "structured:F006527:V2:715bc13ab2eaa5e3a271bce1d4bd7ed1e967fb224e547c6651ab393018e1503b",
+          "file_grade": 2,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F001985",
+          "unit_id": "structured:F001985:V2:d9a02e403c9d349d78547b7e4b43161e06b01808cc5a38356a7aca88f7e224e9",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F000159",
+          "unit_id": "structured:F000159:V2:136d610cdc7b829856f064038ed7b2fd39f87eea23904e13cfec1000fcc5b1af",
+          "file_grade": 2,
+          "context_grade": 2
+        },
+        {
+          "file_id": "F001984",
+          "unit_id": "structured:F001984:V2:b0d3e65df4a8ff78179c1ce6770a1cbab4248481e3d3f2aef41da40082b38580",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F000269",
+          "unit_id": "structured:F000269:V2:df502c53757f21531902f4e3638665b7760bf0564700ac1034d049426171aab1",
+          "file_grade": 2,
+          "context_grade": 2
+        }
+      ],
+      "useful_contexts": 3,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "dense": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_union": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_top100": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rerank": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    },
+    {
+      "query_id": "Q047",
+      "group": "boundary_condition_change",
+      "baseline_top5": [
+        {
+          "file_id": "F000618",
+          "unit_id": "structured:F000618:V2:502a1a2c4117dff0bd14d2c35087f750a01d3d5a9b36febb880d7d0db212cd90",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F001345",
+          "unit_id": "structured:F001345:V2:e6f1fd0956552cc893bf0e880a54e4ca7c16e509a22aa7d11f8e8b8bbae4a58b",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F002312",
+          "unit_id": "structured:F002312:V2:8171cf49f0787fa44148bd39d3f06c33c3fc5761d6c23fbc0fa43addb83d7d75",
+          "file_grade": 3,
+          "context_grade": 3
+        },
+        {
+          "file_id": "F001738",
+          "unit_id": "structured:F001738:V2:8a6f0f73154beb4051a7034f062879c9c1cb6720dd782a8025c2205b988b115e",
+          "file_grade": 1,
+          "context_grade": 1
+        },
+        {
+          "file_id": "F003395",
+          "unit_id": "structured:F003395:V2:07d558d0fce279499647effc37dcb2a6a8898b19e57ca746e4b16b8fc6d9e2da",
+          "file_grade": 1,
+          "context_grade": 1
+        }
+      ],
+      "useful_contexts": 2,
+      "known_source_stages": {
+        "bm25": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "dense": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_union": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rrf_top100": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        },
+        "rerank": {
+          "known_source_best_rank": null,
+          "matching_units": 0
+        }
+      },
+      "limitations": "已知来源阶段命中只是辅助，文书命中不表示对应片段有帮助。"
+    }
+  ],
+  "origin": "reuse same query and exact source-bound context from V2 frozen model judgments; not independent human evaluation"
+}

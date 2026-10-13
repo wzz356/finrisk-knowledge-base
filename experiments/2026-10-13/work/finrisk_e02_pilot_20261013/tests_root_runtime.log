@@ -1,0 +1,93 @@
+test_blind_pool_removes_author_instructions_anchors_and_ranks (test_evaluate.ContextTests.test_blind_pool_removes_author_instructions_anchors_and_ranks) ... ok
+test_extra_unquoted_prefix_assertion_rejected (test_evaluate.ContextTests.test_extra_unquoted_prefix_assertion_rejected) ... ok
+test_extract_accepted_and_original_segments_unchanged (test_evaluate.ContextTests.test_extract_accepted_and_original_segments_unchanged) ... ok
+test_fixed5_denominator_and_missing_grade_not_zero (test_evaluate.ContextTests.test_fixed5_denominator_and_missing_grade_not_zero) ... ok
+test_invalid_label_rejected (test_evaluate.ContextTests.test_invalid_label_rejected) ... ok
+test_new_output_guard_rejects_e04_and_root_itself (test_evaluate.ContextTests.test_new_output_guard_rejects_e04_and_root_itself) ... ok
+test_original_context_cannot_be_fabricated (test_evaluate.ContextTests.test_original_context_cannot_be_fabricated) ... ok
+test_pending_review_not_accepted (test_evaluate.ContextTests.test_pending_review_not_accepted) ... ok
+test_plain_v2_still_accepted (test_evaluate.ContextTests.test_plain_v2_still_accepted) ... ok
+test_prefix_of_another_winner_unit_rejected (test_evaluate.ContextTests.test_prefix_of_another_winner_unit_rejected) ... ok
+test_prefix_quote_is_visible_and_source_exact (test_evaluate.ContextTests.test_prefix_quote_is_visible_and_source_exact) ... ok
+test_real_prepare_summarize_roundtrip_keeps_fresh_bindings (test_evaluate.ContextTests.test_real_prepare_summarize_roundtrip_keeps_fresh_bindings) ... ok
+test_rendered_text_must_exactly_match_prefix_and_base (test_evaluate.ContextTests.test_rendered_text_must_exactly_match_prefix_and_base) ... ok
+test_reused_old_semantic_judgments_are_not_allowed (test_evaluate.ContextTests.test_reused_old_semantic_judgments_are_not_allowed) ... ok
+test_roundtrip_pool_does_not_need_unblinded_winner_id (test_evaluate.ContextTests.test_roundtrip_pool_does_not_need_unblinded_winner_id) ... ok
+test_wrong_prefix_span_is_rejected (test_evaluate.ContextTests.test_wrong_prefix_span_is_rejected) ... ok
+test_all_66_records_use_real_interface_and_p2_frozen_ranking (test_experiment.E02Tests.test_all_66_records_use_real_interface_and_p2_frozen_ranking)
+Synthetic model values test orchestration only; never efficacy or GPU. ... {"event": "model_load_start", "approved_units": 24, "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\tmpgmll6x9d\\cache"}
+{"event": "p1_full_bm25_build_start", "units": 100}
+{"event": "query_start", "query_id": "Q00", "index": 1, "total": 22}
+{"event": "query_complete", "query_id": "Q00", "real_rerank_units": 100, "gpu_seconds": 7.990000085555948e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q01", "index": 2, "total": 22}
+{"event": "query_complete", "query_id": "Q01", "real_rerank_units": 100, "gpu_seconds": 7.569999797851779e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q02", "index": 3, "total": 22}
+{"event": "query_complete", "query_id": "Q02", "real_rerank_units": 100, "gpu_seconds": 6.969999958528206e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q03", "index": 4, "total": 22}
+{"event": "query_complete", "query_id": "Q03", "real_rerank_units": 100, "gpu_seconds": 6.969999958528206e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q04", "index": 5, "total": 22}
+{"event": "query_complete", "query_id": "Q04", "real_rerank_units": 100, "gpu_seconds": 7.240000195452012e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q05", "index": 6, "total": 22}
+{"event": "query_complete", "query_id": "Q05", "real_rerank_units": 100, "gpu_seconds": 7.030000051599927e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q06", "index": 7, "total": 22}
+{"event": "query_complete", "query_id": "Q06", "real_rerank_units": 100, "gpu_seconds": 7.299999924725853e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q07", "index": 8, "total": 22}
+{"event": "query_complete", "query_id": "Q07", "real_rerank_units": 100, "gpu_seconds": 7.410000034724362e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q08", "index": 9, "total": 22}
+{"event": "query_complete", "query_id": "Q08", "real_rerank_units": 100, "gpu_seconds": 7.049999840091914e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q09", "index": 10, "total": 22}
+{"event": "query_complete", "query_id": "Q09", "real_rerank_units": 100, "gpu_seconds": 7.679999907850288e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q10", "index": 11, "total": 22}
+{"event": "query_complete", "query_id": "Q10", "real_rerank_units": 100, "gpu_seconds": 7.74000000092201e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q11", "index": 12, "total": 22}
+{"event": "query_complete", "query_id": "Q11", "real_rerank_units": 100, "gpu_seconds": 9.17999968805816e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q12", "index": 13, "total": 22}
+{"event": "query_complete", "query_id": "Q12", "real_rerank_units": 100, "gpu_seconds": 8.469999738736078e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q13", "index": 14, "total": 22}
+{"event": "query_complete", "query_id": "Q13", "real_rerank_units": 100, "gpu_seconds": 9.609999688109383e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q14", "index": 15, "total": 22}
+{"event": "query_complete", "query_id": "Q14", "real_rerank_units": 100, "gpu_seconds": 9.76999981503468e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q15", "index": 16, "total": 22}
+{"event": "query_complete", "query_id": "Q15", "real_rerank_units": 100, "gpu_seconds": 8.709999747225083e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q16", "index": 17, "total": 22}
+{"event": "query_complete", "query_id": "Q16", "real_rerank_units": 100, "gpu_seconds": 8.239999806392007e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q17", "index": 18, "total": 22}
+{"event": "query_complete", "query_id": "Q17", "real_rerank_units": 100, "gpu_seconds": 7.980000009411015e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q18", "index": 19, "total": 22}
+{"event": "query_complete", "query_id": "Q18", "real_rerank_units": 100, "gpu_seconds": 0.0002029999996011611, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q19", "index": 20, "total": 22}
+{"event": "query_complete", "query_id": "Q19", "real_rerank_units": 100, "gpu_seconds": 0.00012260000221431255, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q20", "index": 21, "total": 22}
+{"event": "query_complete", "query_id": "Q20", "real_rerank_units": 100, "gpu_seconds": 8.570000136387534e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q21", "index": 22, "total": 22}
+{"event": "query_complete", "query_id": "Q21", "real_rerank_units": 100, "gpu_seconds": 7.900000127847306e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "run_complete", "rows": 66, "output": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\tmpgmll6x9d\\results.jsonl", "seconds": 1.5263541999993322}
+ok
+test_approved_exact_extract_is_allowed (test_experiment.E02Tests.test_approved_exact_extract_is_allowed) ... ok
+test_boolean_and_outside_span_rejected (test_experiment.E02Tests.test_boolean_and_outside_span_rejected) ... ok
+test_cache_must_stay_under_e02_work (test_experiment.E02Tests.test_cache_must_stay_under_e02_work) ... ok
+test_duplicate_prefix_or_review_rejected (test_experiment.E02Tests.test_duplicate_prefix_or_review_rejected) ... ok
+test_frozen_seed_copies_only_bound_pair_and_leaves_old_cache_unchanged (test_experiment.E02Tests.test_frozen_seed_copies_only_bound_pair_and_leaves_old_cache_unchanged) ... {"event": "document_cache_seeded", "key": "cf81b68403e25fd11e33f0d6514720fe05d276f645dc075e5cf372363356fbd9", "copied": [".json", ".npy"], "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\tmpp97l5ne0\\new"}
+ok
+test_missing_semantic_review_is_rejected (test_experiment.E02Tests.test_missing_semantic_review_is_rejected) ... ok
+test_output_and_every_sidecar_refuse_overwrite (test_experiment.E02Tests.test_output_and_every_sidecar_refuse_overwrite) ... ok
+test_overlay_changes_only_selected_text_and_preserves_originals (test_experiment.E02Tests.test_overlay_changes_only_selected_text_and_preserves_originals) ... ok
+test_overlay_vectors_replace_only_selected_positions (test_experiment.E02Tests.test_overlay_vectors_replace_only_selected_positions) ... ok
+test_p0_full_stage_reproduction_is_strict (test_experiment.E02Tests.test_p0_full_stage_reproduction_is_strict) ... ok
+test_p1_return_preserves_body_and_has_actual_index_payload (test_experiment.E02Tests.test_p1_return_preserves_body_and_has_actual_index_payload) ... ok
+test_p2_preserves_index_and_no_prefix_bleeds_to_other_winner_unit (test_experiment.E02Tests.test_p2_preserves_index_and_no_prefix_bleeds_to_other_winner_unit) ... ok
+test_prefix_over_180_chars_rejected (test_experiment.E02Tests.test_prefix_over_180_chars_rejected) ... ok
+test_quality_binds_whole_candidate_files_including_spans_and_link_reason (test_experiment.E02Tests.test_quality_binds_whole_candidate_files_including_spans_and_link_reason) ... ok
+test_quote_must_match_precise_interval (test_experiment.E02Tests.test_quote_must_match_precise_interval) ... ok
+test_real_tokenizer_preflight_rejects_overlimit_before_inference (test_experiment.E02Tests.test_real_tokenizer_preflight_rejects_overlimit_before_inference) ... ok
+test_rejected_prefix_does_not_change_dose (test_experiment.E02Tests.test_rejected_prefix_does_not_change_dose) ... ok
+test_replay_query_text_group_or_role_drift_rejected (test_experiment.E02Tests.test_replay_query_text_group_or_role_drift_rejected) ... ok
+test_rerank_scores_require_exact_candidate_ids_and_finite_values (test_experiment.E02Tests.test_rerank_scores_require_exact_candidate_ids_and_finite_values) ... ok
+test_review_prefix_bytes_are_bound (test_experiment.E02Tests.test_review_prefix_bytes_are_bound) ... ok
+test_source_sha_and_base_text_sha_are_bound (test_experiment.E02Tests.test_source_sha_and_base_text_sha_are_bound) ... ok
+test_unknown_label_or_unquoted_prefix_rejected (test_experiment.E02Tests.test_unknown_label_or_unquoted_prefix_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 3.683s
+
+OK

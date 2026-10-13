@@ -1,0 +1,206 @@
+Failed to find real location of C:\Python314\python.exe
+test_approved_exact_extract_is_allowed (__main__.E02Tests.test_approved_exact_extract_is_allowed) ... FAIL
+test_boolean_and_outside_span_rejected (__main__.E02Tests.test_boolean_and_outside_span_rejected) ... FAIL
+test_cache_must_stay_under_e02_work (__main__.E02Tests.test_cache_must_stay_under_e02_work) ... FAIL
+test_duplicate_prefix_or_review_rejected (__main__.E02Tests.test_duplicate_prefix_or_review_rejected) ... FAIL
+test_missing_semantic_review_is_rejected (__main__.E02Tests.test_missing_semantic_review_is_rejected) ... FAIL
+test_output_and_every_sidecar_refuse_overwrite (__main__.E02Tests.test_output_and_every_sidecar_refuse_overwrite) ... FAIL
+test_overlay_changes_only_selected_text_and_preserves_originals (__main__.E02Tests.test_overlay_changes_only_selected_text_and_preserves_originals) ... FAIL
+test_overlay_vectors_replace_only_selected_positions (__main__.E02Tests.test_overlay_vectors_replace_only_selected_positions) ... FAIL
+test_p0_full_stage_reproduction_is_strict (__main__.E02Tests.test_p0_full_stage_reproduction_is_strict) ... FAIL
+test_p1_return_preserves_body_and_has_actual_index_payload (__main__.E02Tests.test_p1_return_preserves_body_and_has_actual_index_payload) ... FAIL
+test_p2_preserves_index_and_no_prefix_bleeds_to_other_winner_unit (__main__.E02Tests.test_p2_preserves_index_and_no_prefix_bleeds_to_other_winner_unit) ... FAIL
+test_prefix_over_180_chars_rejected (__main__.E02Tests.test_prefix_over_180_chars_rejected) ... FAIL
+test_quote_must_match_precise_interval (__main__.E02Tests.test_quote_must_match_precise_interval) ... FAIL
+test_real_tokenizer_preflight_rejects_overlimit_before_inference (__main__.E02Tests.test_real_tokenizer_preflight_rejects_overlimit_before_inference) ... FAIL
+test_rejected_prefix_does_not_change_dose (__main__.E02Tests.test_rejected_prefix_does_not_change_dose) ... FAIL
+test_replay_query_text_group_or_role_drift_rejected (__main__.E02Tests.test_replay_query_text_group_or_role_drift_rejected) ... FAIL
+test_rerank_scores_require_exact_candidate_ids_and_finite_values (__main__.E02Tests.test_rerank_scores_require_exact_candidate_ids_and_finite_values) ... FAIL
+test_review_prefix_bytes_are_bound (__main__.E02Tests.test_review_prefix_bytes_are_bound) ... FAIL
+test_source_sha_and_base_text_sha_are_bound (__main__.E02Tests.test_source_sha_and_base_text_sha_are_bound) ... FAIL
+test_unknown_label_or_unquoted_prefix_rejected (__main__.E02Tests.test_unknown_label_or_unquoted_prefix_rejected) ... FAIL
+
+======================================================================
+FAIL: test_approved_exact_extract_is_allowed (__main__.E02Tests.test_approved_exact_extract_is_allowed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_boolean_and_outside_span_rejected (__main__.E02Tests.test_boolean_and_outside_span_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_cache_must_stay_under_e02_work (__main__.E02Tests.test_cache_must_stay_under_e02_work)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_duplicate_prefix_or_review_rejected (__main__.E02Tests.test_duplicate_prefix_or_review_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_missing_semantic_review_is_rejected (__main__.E02Tests.test_missing_semantic_review_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_output_and_every_sidecar_refuse_overwrite (__main__.E02Tests.test_output_and_every_sidecar_refuse_overwrite)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_overlay_changes_only_selected_text_and_preserves_originals (__main__.E02Tests.test_overlay_changes_only_selected_text_and_preserves_originals)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_overlay_vectors_replace_only_selected_positions (__main__.E02Tests.test_overlay_vectors_replace_only_selected_positions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_p0_full_stage_reproduction_is_strict (__main__.E02Tests.test_p0_full_stage_reproduction_is_strict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_p1_return_preserves_body_and_has_actual_index_payload (__main__.E02Tests.test_p1_return_preserves_body_and_has_actual_index_payload)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_p2_preserves_index_and_no_prefix_bleeds_to_other_winner_unit (__main__.E02Tests.test_p2_preserves_index_and_no_prefix_bleeds_to_other_winner_unit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_prefix_over_180_chars_rejected (__main__.E02Tests.test_prefix_over_180_chars_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_quote_must_match_precise_interval (__main__.E02Tests.test_quote_must_match_precise_interval)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_real_tokenizer_preflight_rejects_overlimit_before_inference (__main__.E02Tests.test_real_tokenizer_preflight_rejects_overlimit_before_inference)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_rejected_prefix_does_not_change_dose (__main__.E02Tests.test_rejected_prefix_does_not_change_dose)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_replay_query_text_group_or_role_drift_rejected (__main__.E02Tests.test_replay_query_text_group_or_role_drift_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_rerank_scores_require_exact_candidate_ids_and_finite_values (__main__.E02Tests.test_rerank_scores_require_exact_candidate_ids_and_finite_values)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_review_prefix_bytes_are_bound (__main__.E02Tests.test_review_prefix_bytes_are_bound)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_source_sha_and_base_text_sha_are_bound (__main__.E02Tests.test_source_sha_and_base_text_sha_are_bound)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+======================================================================
+FAIL: test_unknown_label_or_unquoted_prefix_rejected (__main__.E02Tests.test_unknown_label_or_unquoted_prefix_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e02_pilot_20261013\test_experiment.py", line 50, in setUp
+    self.fail("E02 experiment implementation is missing")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: E02 experiment implementation is missing
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.017s
+
+FAILED (failures=20)

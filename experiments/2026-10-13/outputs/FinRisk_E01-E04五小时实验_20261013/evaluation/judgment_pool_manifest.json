@@ -1,0 +1,43 @@
+{
+  "actual_top5_slots": 1050,
+  "arms": [
+    "B0",
+    "C2",
+    "M3",
+    "S1",
+    "W4"
+  ],
+  "artifact_sha256": {
+    "blind_judgment_pool.jsonl": "2a40a03d93c1f0fac25935981f5ebf21f417dae35b2ed7c27a3cdf26e7424172",
+    "cached_judgments.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "judgment_provenance.jsonl": "d5be624576a8a68cfc2626e381d09cccc1dad591f074701ab74839ed1fce3219"
+  },
+  "blind_to_algorithm_rank_known_positives": true,
+  "context_variants": 274,
+  "evaluation": "model_review_only",
+  "human_approved": false,
+  "human_judgments": 0,
+  "input_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\queries.jsonl": "3f436e2a7dcecd4dc85527b8d81a898cb0735806de971f1e56d9b0658f11f610",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\results.jsonl": "f30bb3f28c9d869398c8d4ca751dc1faa5040997db1f4ceaa412db73ef712a2c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\normalized_final\\data\\documents.jsonl": "1bd86772e4dfe479a87e9bc6ba7ef8d283da74b4a558ee5d4696146c728a584b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\evaluate.py": "9226d3785cbbb1271fee40eaced5f6dff723b1a26463cd396f82b76df7ff44a1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\evaluate.py": "4f76a7f0655c0db95f9033aa0b74c11ef467cddf707275a40059da4c525a3e0c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_v2_20261012\\eval_v2.py": "973e55c9d87a1cf912a98d10387b5cf6e8357d2456ccbd3aa5bf546061a1f073"
+  },
+  "pending_contexts": 274,
+  "pending_files": 268,
+  "pending_pairs": 268,
+  "queries": 42,
+  "queries_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\queries.jsonl",
+  "results_paths": [
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\results.jsonl"
+  ],
+  "reuse_input_sha256": {},
+  "reused_contexts": 0,
+  "reused_files": 0,
+  "sources_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\normalized_final\\data\\documents.jsonl",
+  "status": "awaiting_judgments",
+  "top5_denominator_per_arm": 210,
+  "unique_query_file_pairs": 268
+}

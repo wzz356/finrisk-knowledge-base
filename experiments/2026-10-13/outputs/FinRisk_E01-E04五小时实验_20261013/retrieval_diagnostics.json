@@ -1,0 +1,265 @@
+{
+  "kind": "mechanical_exposure_not_helpfulness",
+  "arms": {
+    "B0": {
+      "queries": 42,
+      "top5_slots": 210,
+      "changed_top5_queries": 0,
+      "changed_query_ids": [],
+      "scoped_top5_slots": 0,
+      "prefix_top5_slots": 0,
+      "scoped_hits": [],
+      "old_selected_top5_slots": 22,
+      "mechanism_support_top5_slots": 9,
+      "rerank_pool_seconds": 24.152449499986687,
+      "newly_scored_units": 4200,
+      "same_run_reused_units": 0
+    },
+    "S1": {
+      "queries": 42,
+      "top5_slots": 210,
+      "changed_top5_queries": 12,
+      "changed_query_ids": [
+        "Q009",
+        "Q012",
+        "Q021",
+        "Q037",
+        "Q038",
+        "Q047",
+        "C002",
+        "C006",
+        "C007",
+        "N009",
+        "N014",
+        "N018"
+      ],
+      "scoped_top5_slots": 5,
+      "prefix_top5_slots": 0,
+      "scoped_hits": [
+        {
+          "query_id": "Q037",
+          "file_id": "F008852",
+          "unit_id": "structured:F008852:V2:3902643c058b2b98f8bd437f7a42ebe45eb35c798012f6ba96dcaf2c89973ad7",
+          "rank": 4,
+          "prefix": false
+        },
+        {
+          "query_id": "Q042",
+          "file_id": "F001128",
+          "unit_id": "structured:F001128:V2:7d9cd46698449199ac1e3fcb84f88109aa920fe1eb781b78e60d27c669992a78",
+          "rank": 4,
+          "prefix": false
+        },
+        {
+          "query_id": "Q042",
+          "file_id": "F001978",
+          "unit_id": "structured:F001978:V2:4a325539b41aee0d42196701b7e192b77989b9e8a962c61ce0b8ff965ddfa62f",
+          "rank": 5,
+          "prefix": false
+        },
+        {
+          "query_id": "C002",
+          "file_id": "F001943",
+          "unit_id": "structured:F001943:V2:c70af3fadd814e3894a15fbcdf7e2cfff070d6fda6f3a9e1f16b6444aecd1dfd",
+          "rank": 2,
+          "prefix": false
+        },
+        {
+          "query_id": "C007",
+          "file_id": "F009488",
+          "unit_id": "structured:F009488:V2:a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b",
+          "rank": 1,
+          "prefix": false
+        }
+      ],
+      "old_selected_top5_slots": 5,
+      "mechanism_support_top5_slots": 4,
+      "rerank_pool_seconds": 0.5600835000004736,
+      "newly_scored_units": 56,
+      "same_run_reused_units": 4144
+    },
+    "C2": {
+      "queries": 42,
+      "top5_slots": 210,
+      "changed_top5_queries": 13,
+      "changed_query_ids": [
+        "Q009",
+        "Q012",
+        "Q021",
+        "Q037",
+        "Q038",
+        "Q042",
+        "Q047",
+        "C002",
+        "C006",
+        "C007",
+        "N009",
+        "N014",
+        "N018"
+      ],
+      "scoped_top5_slots": 1,
+      "prefix_top5_slots": 1,
+      "scoped_hits": [
+        {
+          "query_id": "Q042",
+          "file_id": "F001978",
+          "unit_id": "structured:F001978:V2:4a325539b41aee0d42196701b7e192b77989b9e8a962c61ce0b8ff965ddfa62f",
+          "rank": 5,
+          "prefix": true
+        }
+      ],
+      "old_selected_top5_slots": 1,
+      "mechanism_support_top5_slots": 2,
+      "rerank_pool_seconds": 0.46972559999267105,
+      "newly_scored_units": 40,
+      "same_run_reused_units": 4160
+    },
+    "W4": {
+      "queries": 42,
+      "top5_slots": 210,
+      "changed_top5_queries": 25,
+      "changed_query_ids": [
+        "Q002",
+        "Q009",
+        "Q012",
+        "Q022",
+        "Q037",
+        "Q038",
+        "Q044",
+        "C001",
+        "C002",
+        "C005",
+        "C008",
+        "C009",
+        "N001",
+        "N004",
+        "N006",
+        "N008",
+        "N009",
+        "N011",
+        "N012",
+        "N013",
+        "N015",
+        "N016",
+        "N018",
+        "N019",
+        "N020"
+      ],
+      "scoped_top5_slots": 0,
+      "prefix_top5_slots": 0,
+      "scoped_hits": [],
+      "old_selected_top5_slots": 19,
+      "mechanism_support_top5_slots": 8,
+      "rerank_pool_seconds": 8.801280200015754,
+      "newly_scored_units": 1265,
+      "same_run_reused_units": 2935
+    },
+    "M3": {
+      "queries": 42,
+      "top5_slots": 210,
+      "changed_top5_queries": 3,
+      "changed_query_ids": [
+        "Q012",
+        "N001",
+        "N008"
+      ],
+      "scoped_top5_slots": 0,
+      "prefix_top5_slots": 0,
+      "scoped_hits": [],
+      "old_selected_top5_slots": 23,
+      "mechanism_support_top5_slots": 11,
+      "rerank_pool_seconds": 0.992775900009292,
+      "newly_scored_units": 183,
+      "same_run_reused_units": 4017
+    }
+  },
+  "real_run_seconds": 379.127385900003,
+  "vector_operation": {
+    "actual_query_encoding_rows": 42,
+    "query_encoding_calls": 1,
+    "unique_modified_document_encoding_rows": 36,
+    "mechanism_card_encoding_rows": 4,
+    "unchanged_document_reencoding_rows": 0,
+    "base_document_encoding_origin": "verified_frozen_cache_copy",
+    "old_query_vectors_used": false,
+    "old_reranker_scores_used": false,
+    "shape": [
+      65475,
+      512
+    ],
+    "dtype": "float32",
+    "base_array_sha256": "d45b81a4e076804abf837795762fcbef670140887228adcc1f6a8c03ff32850c",
+    "views": {
+      "S1": {
+        "representation_rows": 21,
+        "changed_text_rows": 15,
+        "changed_unit_rows": 15,
+        "changed_positions": [
+          5963,
+          11955,
+          18804,
+          18815,
+          27273,
+          27831,
+          31909,
+          32284,
+          33728,
+          37619,
+          38068,
+          58191,
+          58223,
+          61905,
+          62589
+        ],
+        "ordered_text_sha256": "f46c0dba5bb910d5b79fcfb68f1c2de4864235cb9d7bd651ef3ae027dbec836a",
+        "array_sha256": "29ec911288bd002ef5cbd0e535b8fc4ae48166efd8be9c05a6e9313a68134167"
+      },
+      "C2": {
+        "representation_rows": 21,
+        "changed_text_rows": 21,
+        "changed_unit_rows": 21,
+        "changed_positions": [
+          5448,
+          5963,
+          9888,
+          11955,
+          18319,
+          18713,
+          18804,
+          18815,
+          27273,
+          27831,
+          31909,
+          32284,
+          33728,
+          37619,
+          38068,
+          57733,
+          58191,
+          58223,
+          61876,
+          61905,
+          62589
+        ],
+        "ordered_text_sha256": "1c79309f27242132e4a3cd3c17989e63deb265c06718e7e6765262be31189c75",
+        "array_sha256": "f55c7712000a868c3f3fff0f9ee770e04262031d53a238d09ef775b6f5e97b2a"
+      }
+    },
+    "seconds": 7.047487699997873
+  },
+  "score_counts": {
+    "actual_local_gpu_rerank": 5744,
+    "same_run_exact_model_input_shared": 15256
+  },
+  "card_selection_patterns": {
+    "E03-MC01,E03-MC04": 4,
+    "E03-MC02,E03-MC03": 3,
+    "E03-MC01,E03-MC03": 10,
+    "E03-MC04,E03-MC02": 5,
+    "E03-MC03,E03-MC04": 5,
+    "E03-MC03,E03-MC02": 4,
+    "E03-MC04,E03-MC01": 8,
+    "E03-MC01,E03-MC02": 3
+  },
+  "all_actual_model_truncated_inputs": 0
+}

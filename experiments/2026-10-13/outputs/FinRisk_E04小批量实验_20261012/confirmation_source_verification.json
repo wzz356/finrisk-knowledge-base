@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "queries": 10,
+  "risk_queries": 6,
+  "boundary_queries": 4,
+  "new_reference_sources": 10,
+  "old_anchor_sources": 27,
+  "source_id_overlap": 0,
+  "exact_full_text_hash_overlap": 0,
+  "exact_source_quotes_verified": 11,
+  "selected_arm_before_confirmation_read": "A0",
+  "selection_sha256": "71daddb3d3a75373dd76c6a09d6dc6abf33f98ef38c68d8e7bf5c55ae2b06bff",
+  "limits": "来源ID和全文不重叠；没有全局事件关系金标，不能宣称事件或机制完全独立。"
+}

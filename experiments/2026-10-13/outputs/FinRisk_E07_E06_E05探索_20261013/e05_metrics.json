@@ -1,0 +1,136 @@
+{
+  "status": "complete_exploratory_replay",
+  "human_approved": false,
+  "queries": 16,
+  "arms": {
+    "B0": {
+      "positions": 80,
+      "helpful": 47,
+      "covered_queries": 13,
+      "direct_helpful": 16,
+      "partial_helpful": 31,
+      "per_query": {
+        "D001": 2,
+        "D002": 0,
+        "D003": 3,
+        "D004": 0,
+        "D005": 5,
+        "D006": 5,
+        "D007": 3,
+        "D008": 3,
+        "D009": 5,
+        "D010": 5,
+        "D011": 5,
+        "D012": 3,
+        "D013": 0,
+        "D014": 3,
+        "D015": 1,
+        "D016": 4
+      }
+    },
+    "DIR": {
+      "positions": 80,
+      "helpful": 45,
+      "covered_queries": 13,
+      "direct_helpful": 16,
+      "partial_helpful": 29,
+      "per_query": {
+        "D001": 2,
+        "D002": 0,
+        "D003": 3,
+        "D004": 0,
+        "D005": 5,
+        "D006": 5,
+        "D007": 3,
+        "D008": 3,
+        "D009": 5,
+        "D010": 5,
+        "D011": 5,
+        "D012": 3,
+        "D013": 0,
+        "D014": 3,
+        "D015": 1,
+        "D016": 2
+      }
+    },
+    "TREE": {
+      "positions": 80,
+      "helpful": 45,
+      "covered_queries": 13,
+      "direct_helpful": 16,
+      "partial_helpful": 29,
+      "per_query": {
+        "D001": 2,
+        "D002": 0,
+        "D003": 3,
+        "D004": 0,
+        "D005": 5,
+        "D006": 5,
+        "D007": 3,
+        "D008": 3,
+        "D009": 5,
+        "D010": 5,
+        "D011": 5,
+        "D012": 3,
+        "D013": 0,
+        "D014": 3,
+        "D015": 1,
+        "D016": 2
+      }
+    }
+  },
+  "navigation_dose": {
+    "B0": {
+      "queries_with_node_hits": 0,
+      "total_node_hits": 0,
+      "accepted_expansions": 0,
+      "leaf_rerank_candidates": 26,
+      "leaf_top5_positions": 3,
+      "changed_file_lists": [],
+      "changed_context_lists": []
+    },
+    "DIR": {
+      "queries_with_node_hits": 6,
+      "total_node_hits": 7,
+      "accepted_expansions": 33,
+      "leaf_rerank_candidates": 50,
+      "leaf_top5_positions": 5,
+      "changed_file_lists": [
+        "D016"
+      ],
+      "changed_context_lists": [
+        "D016"
+      ]
+    },
+    "TREE": {
+      "queries_with_node_hits": 6,
+      "total_node_hits": 8,
+      "accepted_expansions": 66,
+      "leaf_rerank_candidates": 61,
+      "leaf_top5_positions": 5,
+      "changed_file_lists": [
+        "D001",
+        "D016"
+      ],
+      "changed_context_lists": [
+        "D001",
+        "D016"
+      ]
+    }
+  },
+  "unique_judgments": 83,
+  "positions": 240,
+  "actual_gpu_seconds": 202.42222809999657,
+  "actual_new_rerank_pairs": 1649,
+  "exact_shared_rerank_pairs": 3151,
+  "results_sha256": "7f0efdf0f6082418774abc2fac941aebeb2a616fdb99ba65d9c6188badffcee9",
+  "judgments_sha256": "15d028b5c6c9fe7d2c1b086d4330067e3db7adf0a516e1f789e18e807855c468",
+  "limitations": [
+    "16 inputs exposed before experiment",
+    "model review, not independent human gold",
+    "21 reviewed leaves, full corpus competition",
+    "DIR6 versus TREE7 differs in content and count",
+    "hard spherical clustering variant, not UMAP/GMM soft clustering",
+    "navigation summaries not final evidence"
+  ]
+}

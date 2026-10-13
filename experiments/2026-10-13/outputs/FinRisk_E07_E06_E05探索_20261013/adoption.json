@@ -1,0 +1,166 @@
+{
+  "current_weights": [
+    1,
+    1
+  ],
+  "rrf_k": 60,
+  "route_top100": true,
+  "rerank100": true,
+  "E07": "candidate_structured_unknowns_questions_not_auto_deployed",
+  "E06": "candidate_annotations_no_automatic_postponement",
+  "E05": "not_adopted_small_trial",
+  "E08": "user_deferred",
+  "application_default_modified": false,
+  "human_approved": false,
+  "evidence": {
+    "E05_primary": {
+      "B0": {
+        "positions": 80,
+        "helpful": 47,
+        "covered_queries": 13,
+        "direct_helpful": 16,
+        "partial_helpful": 31,
+        "per_query": {
+          "D001": 2,
+          "D002": 0,
+          "D003": 3,
+          "D004": 0,
+          "D005": 5,
+          "D006": 5,
+          "D007": 3,
+          "D008": 3,
+          "D009": 5,
+          "D010": 5,
+          "D011": 5,
+          "D012": 3,
+          "D013": 0,
+          "D014": 3,
+          "D015": 1,
+          "D016": 4
+        }
+      },
+      "DIR": {
+        "positions": 80,
+        "helpful": 45,
+        "covered_queries": 13,
+        "direct_helpful": 16,
+        "partial_helpful": 29,
+        "per_query": {
+          "D001": 2,
+          "D002": 0,
+          "D003": 3,
+          "D004": 0,
+          "D005": 5,
+          "D006": 5,
+          "D007": 3,
+          "D008": 3,
+          "D009": 5,
+          "D010": 5,
+          "D011": 5,
+          "D012": 3,
+          "D013": 0,
+          "D014": 3,
+          "D015": 1,
+          "D016": 2
+        }
+      },
+      "TREE": {
+        "positions": 80,
+        "helpful": 45,
+        "covered_queries": 13,
+        "direct_helpful": 16,
+        "partial_helpful": 29,
+        "per_query": {
+          "D001": 2,
+          "D002": 0,
+          "D003": 3,
+          "D004": 0,
+          "D005": 5,
+          "D006": 5,
+          "D007": 3,
+          "D008": 3,
+          "D009": 5,
+          "D010": 5,
+          "D011": 5,
+          "D012": 3,
+          "D013": 0,
+          "D014": 3,
+          "D015": 1,
+          "D016": 2
+        }
+      }
+    },
+    "E05_wider": {
+      "B0": {
+        "helpful": 53,
+        "positions": 80,
+        "covered_queries": 14,
+        "per_query": {
+          "D001": 2,
+          "D002": 0,
+          "D003": 5,
+          "D004": 5,
+          "D005": 5,
+          "D006": 5,
+          "D007": 3,
+          "D008": 3,
+          "D009": 4,
+          "D010": 5,
+          "D011": 5,
+          "D012": 3,
+          "D013": 0,
+          "D014": 3,
+          "D015": 1,
+          "D016": 4
+        }
+      },
+      "DIR": {
+        "helpful": 53,
+        "positions": 80,
+        "covered_queries": 14,
+        "per_query": {
+          "D001": 2,
+          "D002": 0,
+          "D003": 5,
+          "D004": 5,
+          "D005": 5,
+          "D006": 5,
+          "D007": 3,
+          "D008": 3,
+          "D009": 4,
+          "D010": 5,
+          "D011": 5,
+          "D012": 3,
+          "D013": 0,
+          "D014": 3,
+          "D015": 1,
+          "D016": 4
+        }
+      },
+      "TREE": {
+        "helpful": 53,
+        "positions": 80,
+        "covered_queries": 14,
+        "per_query": {
+          "D001": 2,
+          "D002": 0,
+          "D003": 5,
+          "D004": 5,
+          "D005": 5,
+          "D006": 5,
+          "D007": 3,
+          "D008": 3,
+          "D009": 4,
+          "D010": 5,
+          "D011": 5,
+          "D012": 3,
+          "D013": 0,
+          "D014": 3,
+          "D015": 1,
+          "D016": 4
+        }
+      }
+    }
+  },
+  "priority_next": "new_real_queries_small_rerank_and_condition_match_experiment"
+}

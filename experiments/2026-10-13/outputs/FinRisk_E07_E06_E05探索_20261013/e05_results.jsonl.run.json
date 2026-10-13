@@ -1,0 +1,839 @@
+{
+  "status": "complete",
+  "command": "retrieve",
+  "run_id": "c9bf42b0-4b53-45c6-9a95-a12f3819d1ae",
+  "inputs": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_召回实验_20261012\\queries.jsonl": "ee98d68b4e743fc2b5aef5c09f91627d71d5c10912081f9edcc587904c4cda18",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\quality\\effective_overlays.jsonl": "271f9f0ea3f8cd70ca3af5af2bffeeae2263b397e36246d3f6b9b25e9923a5f4",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\normalized_final\\data\\documents.jsonl": "1bd86772e4dfe479a87e9bc6ba7ef8d283da74b4a558ee5d4696146c728a584b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\indexes\\all9639_final\\manifest.json": "9f7f2d8cdbc621cfa577d8c5ffac439be3aeeeccc2f0e487cd1210bd78487a8d",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\indexes\\all9639_final\\structured.jsonl": "a653fd381c881e1d0659c1154da99c90ab0ac378f65e60f0bda347e2b2c2a2d8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\retrieval\\all9639_results.jsonl": "c76f196843d94b0e026baf8cd69f54f720d9fec278fb9518b5857a88ce3c04c1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\retrieval\\all9639_results.jsonl.run.json": "3e1fadd47983d9710ece824c0c050b7d304d0b2e34a69a599d1401a408fcd8f0",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\metrics\\validated_judgments.jsonl": "fc5c0bffe16d72748594a6516aebb1e9cea5a5d7eef0848093ac0bc17c46881c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\delivery_manifest.json": "e154c7558b80bdeac6c36e29a94be14857e472ef5e20188bab2f45e08d1e4078",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\runner.py": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_v2_20261012\\run_v2.py": "c846cac66071c7f83028d99fb5968332655d51bb550abe4047cf0505c5ad44d4",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_v2_20261012\\projection_v2.py": "7f8805bdfa99f9a1f07e7d92415f85b86eee534b5d76b032258cb123f1a315ca",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\finrisk-knowledge-base\\dictionary\\risk_type_dictionary.csv": "0588febf140ada823980fdbe0c5691d77bc02ed439cb8d44e6cfef1cda12d8bb",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E04小批量实验_20261012\\delivery_manifest.json": "6626ef4872f3b70e2a5c110601ae612db24dfb50336c287656448f879547e30a",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\experiment.py": "dc2269e588af38966be1e2675fb7c86f1caab60f0e11e88e535574cd3a07c46e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\evaluate.py": "4f76a7f0655c0db95f9033aa0b74c11ef467cddf707275a40059da4c525a3e0c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\delivery_manifest.json": "c3e100ebb1124eb19c7e2ad43115f5a863d4615589bf88e0161fa7b177f11565",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_inputs_p1.jsonl": "c23ddcccff71732074d35263b9906007cd9de17ca88736ecaf6c57577305838b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefix_inputs_p2.jsonl": "f22827d0d6992750d386fb906ad041dff7aaaf2a6867c7d03cd8289808cc14e1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\prefixes.jsonl": "42b4cd521d4a6e554ec23afe2a59c110146d32d2f4ef525125d8e2c6e7761adc",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E02小批量实验_20261013\\cohort.json": "d27c55a2d979630407c29e236225f64d9c2d892edff8ebcd6a73f33f11b3fad8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\3a044ed373c805c7ce9ecee17dce008de17ffa3da7b2d1f7e09ee4a435be431b.json": "b8a4d0d16730762d4144d40d7aef3a317bd7189120d1ddc4e89a2eb2551d9125",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\3a044ed373c805c7ce9ecee17dce008de17ffa3da7b2d1f7e09ee4a435be431b.npy": "3227b5094db50030ed32c91c385199d43d95f9845fd4e340db7c46606d843204",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.json": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.npy": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\9dcb1c10e20bfe458fd9876d81e1127a82569fc57965e86ccf2f9350e299649b.json": "d3114cce2d603a007eab793e1d5aca77a49cbbcdaba41ee2f488230bad463918",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\9dcb1c10e20bfe458fd9876d81e1127a82569fc57965e86ccf2f9350e299649b.npy": "29a8e7366f15c34cd7bc65f849e3f95403e7cbbd98042d942fbdd906c7ff8857",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\b58f8551ded6fb6964e53ae7435f768a8d31db2867ad34f6641eab4d31586111.json": "c328e56a354a10ffddcbf8b53de55b02896be9e7433447dd43963e4a7572aa2c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\b58f8551ded6fb6964e53ae7435f768a8d31db2867ad34f6641eab4d31586111.npy": "dc71bdeea033ac92acfc3943a340b038ee1d2cd9e3e15caa37b732bef69da10c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\bbe691f8d98c3121db1f1e8c500b5175bce103830535d01348ac4c41d56cef3e.json": "4ea877880f7750e6137e9c439e83edfd4187bbd968786399a3c5ebae5c3adf35",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\bbe691f8d98c3121db1f1e8c500b5175bce103830535d01348ac4c41d56cef3e.npy": "eeb554f4bdb56220a3c49ad14f9e2ef4398eced6dcdfbc79506d4a250b93f718",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\d986727678c87d0ce31f14b1943c202c39b4f3a58a5ed32ed99ec18e82db2579.json": "8e1aa98b65e3bebe4e5a99c551cbf5b06f17d4a2d9942b7873dbdc10058a9fda",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache\\d986727678c87d0ce31f14b1943c202c39b4f3a58a5ed32ed99ec18e82db2579.npy": "db8526a4c670b980841188e201c88b71ded1f14a3b925cd9471fdcc277174eb7",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.json": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.npy": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\vector_cache\\cada06b4517b1bfe646da0d2c52ab18a9d018c405f0acb732d84f5bbadacd48d.json": "1556d3da9324a0e72564a81543e46911baecd7932644e1f9adcf3cadbf127202",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\vector_cache\\cada06b4517b1bfe646da0d2c52ab18a9d018c405f0acb732d84f5bbadacd48d.npy": "3acc4dc19ef52da3e35e518da5290ad81cd7f10e12e2faf06e8a55cc54fac5d0",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\46ac9ccaf0df812af0a7c85c670e957c2f7913c0f4ea5a65e3cb43a006d33a1b.json": "e274db17a1b8697bb50c5e54eb46292e2b8ca14a7e75b146d0d1044ac22d9cdc",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\46ac9ccaf0df812af0a7c85c670e957c2f7913c0f4ea5a65e3cb43a006d33a1b.npy": "a6020953d944b534c9a25609a8595e20a9a4d31a4552676759875c3d36c9c65f",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.json": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.npy": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\a0c8281b422f28dc576d10c9abb25de94dd2126ab079daefe7cff117aab631d0.json": "e8ed6639393fd2bdc1627d4a4b562e3bee2ade378ddc79b03562f1a13267c5dd",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\vector_cache\\a0c8281b422f28dc576d10c9abb25de94dd2126ab079daefe7cff117aab631d0.npy": "b91246a0b4ed1551d388189ab565c259a20a96a3e8644d378f8f030c63428477",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\queries.jsonl": "3f436e2a7dcecd4dc85527b8d81a898cb0735806de971f1e56d9b0658f11f610",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\new_queries.jsonl": "a385aa18dc7567223a639099b8b6289725c6ad5856f492a9d9899d04b3ad7074",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\scope_units.jsonl": "66891b3af1c86b0bb584871561d90b3e6f7cb4abca635e3f1ea17b61c5f420b8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\scope_review.jsonl": "fd72f3637e5556559f5167680e66927ce92b4038b8fff604ecf99f2e036b4c53",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\mechanism_cards.jsonl": "d56faebfffe3713f3f7cb3dc3ee9f11868d2ca9ce6d1822176c41cea1bad20a1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\mechanism_review.jsonl": "46110d812d380b7e20498d4bd160e22921a9d4a3f4f4adef3ab864ef5a0eb835",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\design.md": "d4cd699743d1a8ddc4c70ed01a1dd76b6920632a8b6bbf7c71a7e1c7ef3a2624",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\input_freeze.json": "3099e43952e1fb36a0ff7feb8a2ca6af52bc6b32df02257feaad713eeecdf58c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\token_preflight.json": "3e263d717cc288a0865d71a37421a614460c8413b7c87a79a98178c6c20f1214",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\评分规则.md": "3f8a4e7b67eeb713971d79497f83055bd22b8c0e90f84c85064e8bc0f41d645b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\source_review_notes.md": "2611f30e11176005c176215d52b0447bab9aad05b3d00fc8b3d575ef2e0baa05",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\experiment.py": "e34f0f978ed731e29e9e1bf47df4ef2c67d3553d999c788c8a20b401234914e9",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\test_experiment.py": "e35e3ad1906c77d3c048fc4da165731794f80d85978f94a4b5ff2996d2166561",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\evaluate.py": "9226d3785cbbb1271fee40eaced5f6dff723b1a26463cd396f82b76df7ff44a1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\test_evaluate.py": "a2e708a419beae7e5829f2581bc27f9794039f2bb302779365d05d529eb371a8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\code_review.md": "fec462877bbb393bbb2c669fe7941bd90474cf0c137dfa469cdeed7da507530b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\tests_root_runtime.log": "6f437d360957484172e4ff814dd14ef7155d01af8dccfcaa4f1d2c6b39da5c54",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_v2_20261012\\eval_v2.py": "973e55c9d87a1cf912a98d10387b5cf6e8357d2456ccbd3aa5bf546061a1f073",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_离线演示V3_20261013\\queries.jsonl": "c656e9e4d57b2c8b4b4f0c8731a228a84cf67573d77bc396122510030d4924e5",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_离线演示V3_20261013\\adoption.json": "bc395b72b8d959e8ac7d7835bd313157e990e851221d05cded1984c5e42e322f",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_demo_v3_20261013\\demo.py": "90da39ef2e9e32ea4614d8ae193dc15b268b8a6dd90951d137cb935fdea6dc32",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_demo_v3_20261013\\test_demo.py": "3c52086bb6e504e944dd79f80c0e34a2cd53be47171486e7e0b736ebe2307499",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_demo_v3_20261013\\tests_green.log": "81637196c5290cdfcdee7d109c942c8065138d0a4f720e76f0139ae984117b69",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E01-E04五小时实验_20261013\\delivery_manifest.json": "047fa29f3071f7f9fc1c71f47fc5e90ceb14ec941502facccf26a42618819a1b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_demo_v3_20261013\\demo_initial.py": "1cfe2e9eb310c043573f0aa4e7e2774d428d1da8177deef9b117f2a4b4b28baa",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_离线演示V3_20261013\\input_freeze_initial.json": "fc839a0093fdda89a5229a5618eda248a993ab1fc256cb22a4b87840f68a7018",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_demo_v3_20261013\\test_parent_binding.py": "049a5b9e10fbad1c14979135a67b07b410bf8bcb67d9312e635358c64de8b161",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_demo_v3_20261013\\tests_final_green.log": "236fbf809b6d0d2c468dd7c8a8149634de70cbca09358b7e47f74d8212cb61f9",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\e05_runner.py": "731dbaa0b201d24cce62dce6c2d64106c4454326af7869a951b3e427a7dc1c96",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e01_e04_5h_20261013\\display_experiment.py": "a0b5f50410938beb886d3188004cbb7b7320f764d5941fe42ef640db1a4e196d",
+    "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\src\\retrieval\\sparse.py": "9a2b7f33342818fc5d00a5aba93a4fbb6378e9f7fe5c88a1501b17b0d3fe45bb",
+    "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\src\\retrieval\\tokenization.py": "5c53e4fe5ebb47657bb6e191b56074889b571b6a85941da516a314d657518465",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\leaves.jsonl": "0288d8b63e9c944282b4e49bfbf4a2eab178b06767eeff1e883b16595c8cd9f0",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\queries.jsonl": "c656e9e4d57b2c8b4b4f0c8731a228a84cf67573d77bc396122510030d4924e5",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\实验设计.md": "17ec1334d39cc533c9e22b991bc7ad22161c8e5562a60c654f9032306e7109d6",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\local_graph.json": "ee0e6743f6195367cb2a37b7083e41820b73b61e8b5fe0571a1c1168aa9857c6",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\e07_final\\e07_execution.json": "1ddba273c92d6765dcd02b80c9265fe87ad06354572d3d8eb4cfd5de06924cb4",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\e07_final\\e07_information_branches.jsonl": "32fb18dfc1483c167b2111689552b94d4d016320ef42b91217c85f60ac5a2f5f",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\e07_final\\e07_input_checks.jsonl": "52c35e7ec9043bf5cfcef2f3b0642c95630d400ac094013ea40e44063c7fc91f",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\e07_final\\e07_profiles.jsonl": "d250fbd0b3f6313a6a52b742c9e3914f64df302302c644e2b8c7b084271d434d",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\freeze_cluster1.json": "777e4278dc5f02f088a4d111f5b02c266687bdad433fe22d54f2a3ada05c96aa",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\clusters_level1.json": "1533f6c6c84bcdb6407f5d1a350cd019af722ee6bb2e9be2feb0460ebe62014c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\clusters_level1.json.run.json": "d724ed2168471f03f4606136829dd27ff7c0434f0ee3228050f074941dee19fd",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\summaries_level1.jsonl": "864ca4f0c7833bb4837da81e7fd1dcec447390b404919954011b85f280dfcd74",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\directory_nodes.jsonl": "703059ae33f1ce632456b7152a4b5f4c72319a3ded3ba52d6bf57563be920f00",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\author_nodes.py": "461523bf243f1e5a35bac22f01fe253295059967874b2258b65053888eec5430",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\freeze_cluster2.json": "7cf0e34d374bc8b936a422a952a9c906d0222c85ca740070648627134f4428f2",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\clusters_level2.json": "b1e198014916815180c15fa69292eb4f588781c0c0560c6e2a7a0f10f895ca3d",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\clusters_level2.json.run.json": "79094a6d90e02f771d897248526a0726ff107f3cffc7f2e7df274c811669fdb4",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\summaries_level2.jsonl": "6e6c1eef62bf43f49a309f280423af435850b10456a76f371d439fab3dc26b44",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\author_upper.py": "304e4f4c1c6fa4a8019c0ea33cc78132a2f95b50bcc30c8c8434d7d2f1551cdb",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\freeze_cluster3.json": "bd142d020c315b0c68f573536a07099a710b4a316fc6f7eb685c43552c3764c2",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\clusters_level3.json": "66f2e9f67980ba9b10bc2b6ee74df38e41fbf589d5caa416535d775e030a709b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\clusters_level3.json.run.json": "6daac67f682c14fcbdc863b986ef0c33f63e7377bb2204bd567daa29db6cc768",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\summaries_level3.jsonl": "8990b2de8e2c5a9d71fda0b84da2b5236e4f293b71fca2364d83e039269874d5",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\tree_nodes.jsonl": "35a99079700a7ec64e02144d47289c38cbfcf87460cfdd9fe557b91b3f4bca01",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\e05_summary_review.md": "221ece088819273374616231c49069f9f83ee57b6f7738406fc54fb00abed55e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\tests_root_green.log": "763b8900c1885c0e9f3f2bb5752ce7d718087f9397498935c32815e6134065fc",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_离线演示V3_20261013\\input_freeze.json": "d247430212838966fee4ab1d8f49fa60fdc8e7ec0733cc79f4e7d57eaefb1c47",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\clusters_level1.json.token_audit.jsonl": "c9e7d90e91ea18fe7be941fca2432f12652afd061cf69409a72c21f0ceb7f243",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\clusters_level2.json.token_audit.jsonl": "1a536d359e48a446a4e52136df31ddd533790480dca5e72742ea8d84b4daeab9",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\clusters_level3.json.token_audit.jsonl": "6c17ecd90082255f70b19846894fcccc9d28444b8b406a913088adf254b0851e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_E07_E06_E05探索_20261013\\freeze_retrieve.json": "9f86cd468e187f7418d524fc1db00dde91994e22016c3f0b1f8540bfdcd7f461"
+  },
+  "actual_gpu_run": true,
+  "arms": [
+    "B0",
+    "DIR",
+    "TREE"
+  ],
+  "result_rows": 48,
+  "completed_queries": 16,
+  "full_unit_population": 65475,
+  "file_population": 9639,
+  "reviewed_leaf_population": 21,
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "weight": 1.0
+  },
+  "rrf": {
+    "k": 60,
+    "weights": [
+      1,
+      1
+    ],
+    "route_top_k": 100,
+    "union_max": 200,
+    "rerank_top_k": 100
+  },
+  "navigation": "full original rows + navigation nodes cosine Top100, then sorted-unit expansion/dedup Top100",
+  "old_query_vectors_used": false,
+  "old_rerank_scores_used": false,
+  "summaries_are_evidence": false,
+  "reviewed_leaf_bindings": {
+    "structured:F000699:V2:fe1c1d14543bacd11b4f3a415540dfd127a6a1f5876fc3f2d32692f1de349997": {
+      "file_id": "F000699",
+      "source_sha256": "a60298fe5b69055e8c93cf09dee3d5f687bfc1af44812edd00cc52ea31ce77e4",
+      "indexed_text_sha256": "fe1c1d14543bacd11b4f3a415540dfd127a6a1f5876fc3f2d32692f1de349997",
+      "reviewed_scope_text_sha256": "fe1c1d14543bacd11b4f3a415540dfd127a6a1f5876fc3f2d32692f1de349997",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "single_subject"
+    },
+    "structured:F000742:V2:094203814f22893f35736b56e0ec99e28377285c44a8b85ec8b8a97620c90af4": {
+      "file_id": "F000742",
+      "source_sha256": "2797a50e6df8ead05352faee1d2aa980363c8b4862d70413c32cc7d32f2b1ef3",
+      "indexed_text_sha256": "094203814f22893f35736b56e0ec99e28377285c44a8b85ec8b8a97620c90af4",
+      "reviewed_scope_text_sha256": "33ec9e5ace0bdd486f4ec45bc5f8a6b6a51a33dd1ad0e3b3a875d082ddfa0874",
+      "original_evidence_ambiguous": true,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F001128:V2:7d9cd46698449199ac1e3fcb84f88109aa920fe1eb781b78e60d27c669992a78": {
+      "file_id": "F001128",
+      "source_sha256": "68578b5a5d1f94beab2e661c56e6a7f14ddc74f9106fc4fae7abc19f8e043381",
+      "indexed_text_sha256": "7d9cd46698449199ac1e3fcb84f88109aa920fe1eb781b78e60d27c669992a78",
+      "reviewed_scope_text_sha256": "7d9cd46698449199ac1e3fcb84f88109aa920fe1eb781b78e60d27c669992a78",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "single_subject"
+    },
+    "structured:F001345:V2:e6f1fd0956552cc893bf0e880a54e4ca7c16e509a22aa7d11f8e8b8bbae4a58b": {
+      "file_id": "F001345",
+      "source_sha256": "1378f650cf58a961b2bfac0067cd918f4f5a9c4c70bc770ba7a46f67fd374379",
+      "indexed_text_sha256": "e6f1fd0956552cc893bf0e880a54e4ca7c16e509a22aa7d11f8e8b8bbae4a58b",
+      "reviewed_scope_text_sha256": "53a6bd9129ab5dbb535d0252d30ef907997c0e8da9d905414e038019d0b04829",
+      "original_evidence_ambiguous": true,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F001943:V2:c70af3fadd814e3894a15fbcdf7e2cfff070d6fda6f3a9e1f16b6444aecd1dfd": {
+      "file_id": "F001943",
+      "source_sha256": "c3fa65297cb48a1c36694e780ab0ca083fa4ac8090c84f2302552f2b23088eaf",
+      "indexed_text_sha256": "c70af3fadd814e3894a15fbcdf7e2cfff070d6fda6f3a9e1f16b6444aecd1dfd",
+      "reviewed_scope_text_sha256": "c70af3fadd814e3894a15fbcdf7e2cfff070d6fda6f3a9e1f16b6444aecd1dfd",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "single_subject"
+    },
+    "structured:F001978:V2:4a325539b41aee0d42196701b7e192b77989b9e8a962c61ce0b8ff965ddfa62f": {
+      "file_id": "F001978",
+      "source_sha256": "47d213a73ea3ead91f90d11c8f0ce373e08842c215a8bb1865e9973a80ef236e",
+      "indexed_text_sha256": "4a325539b41aee0d42196701b7e192b77989b9e8a962c61ce0b8ff965ddfa62f",
+      "reviewed_scope_text_sha256": "4a325539b41aee0d42196701b7e192b77989b9e8a962c61ce0b8ff965ddfa62f",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "single_subject"
+    },
+    "structured:F001987:V2:0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f": {
+      "file_id": "F001987",
+      "source_sha256": "d775c8470c9b25e940653760e85e3630f9d47dff65379cdaee6a8fe5d5e1cc35",
+      "indexed_text_sha256": "0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+      "reviewed_scope_text_sha256": "2b33465165b7cc66486f37083a9531054019c86c11980c932a49227d6ae3c1fd",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F001988:V2:0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f": {
+      "file_id": "F001988",
+      "source_sha256": "68b31661ac7c841a4bda7ed45d21e1c0ecc01377827305a76d48c11ef174b9f6",
+      "indexed_text_sha256": "0efd4c9f322853f3873e3a2bdb709739c746022c5e0581eb23e19f4d22ab115f",
+      "reviewed_scope_text_sha256": "19c866908a40b1d25fad98122b8ce433fe37dc46f480ff15809a82bd7a5d4a8b",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F002890:V2:d1c31f1ba6a8045cb54698b7141659205468ff25693e81602133bae1f54abafe": {
+      "file_id": "F002890",
+      "source_sha256": "c1b9355868be835d071c66519709781425041f9b69ac814c2590603f0e5892fb",
+      "indexed_text_sha256": "d1c31f1ba6a8045cb54698b7141659205468ff25693e81602133bae1f54abafe",
+      "reviewed_scope_text_sha256": "435f6cbd055dd4da1d265391b052c22ac02324366f3fd71ed43c5ffd0bee74d7",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F002958:V2:1fadbbdd65a4ec609a6d75c7c4b79742a102e7eeb21c0bfe9c9538e2540b5a00": {
+      "file_id": "F002958",
+      "source_sha256": "525ed32bcf625f2eed6ed632272cd953a2c67aa26d370cebcc223cd69458acc1",
+      "indexed_text_sha256": "1fadbbdd65a4ec609a6d75c7c4b79742a102e7eeb21c0bfe9c9538e2540b5a00",
+      "reviewed_scope_text_sha256": "ea8de7fd6bff91ce6316f85204b56f057be8404bf56f404a21eb494220f6bcce",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F003464:V2:b27630540b15289ceb77fabb4e55566a09a31215b3ea58eaa348f81dab8c3a42": {
+      "file_id": "F003464",
+      "source_sha256": "05b6d38882d5f9c16f1d61faf2e0cce80ee9ae196578bb061c640cc95713e163",
+      "indexed_text_sha256": "b27630540b15289ceb77fabb4e55566a09a31215b3ea58eaa348f81dab8c3a42",
+      "reviewed_scope_text_sha256": "5ea11072987d13570f2b2bfb91d066bdb60989a8a8c05d5bdb4159c0879c7082",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F003497:V2:1b296a1affaff3815a08690025cf339aa5e7b044d33edccbdd64c2c973559a29": {
+      "file_id": "F003497",
+      "source_sha256": "7f07ff5ab0078f92e346c90e8bcd55b2bdc98a1dc13f8f5ccfbf4feb6f485231",
+      "indexed_text_sha256": "1b296a1affaff3815a08690025cf339aa5e7b044d33edccbdd64c2c973559a29",
+      "reviewed_scope_text_sha256": "b9ffde6c9beecf697f5a3f82b27e3b73862967ae69ba5fdf1fa99bc5157e113b",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F003638:V2:1879f91a74fc1e30bd9ec77016ad53d98a6db2a7782b7a1c2c1c86b39520a763": {
+      "file_id": "F003638",
+      "source_sha256": "725027b502e7367d509b1c535945f1331405bd37688f83a95f259e93ff1b5994",
+      "indexed_text_sha256": "1879f91a74fc1e30bd9ec77016ad53d98a6db2a7782b7a1c2c1c86b39520a763",
+      "reviewed_scope_text_sha256": "db04e9731cd078f9634f8bb9983c20a832e4cf6c0bed59550cd6d60b8c64dfc8",
+      "original_evidence_ambiguous": true,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F004090:V2:a34b5e0552063be5750f48acabfe4c0a1efe6daafb42a2b55c4cf25fbf7c66a7": {
+      "file_id": "F004090",
+      "source_sha256": "b56b10a0397781def8444eb3285d5c0c0486c237f4df168e06249440e004e30e",
+      "indexed_text_sha256": "a34b5e0552063be5750f48acabfe4c0a1efe6daafb42a2b55c4cf25fbf7c66a7",
+      "reviewed_scope_text_sha256": "ab5235b4c1c2161a18592e8180afb54a2e4ffc62bbf682cac4d5c1a319614d6d",
+      "original_evidence_ambiguous": true,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F004155:V2:ac01ca08bb73abe4c814bdab18e2974e50ec6ca5afe847019a23200ecf3f4be7": {
+      "file_id": "F004155",
+      "source_sha256": "f8effec9985ae16019a4df41148203abbfbf031fccbe6bfae398654094472d8a",
+      "indexed_text_sha256": "ac01ca08bb73abe4c814bdab18e2974e50ec6ca5afe847019a23200ecf3f4be7",
+      "reviewed_scope_text_sha256": "196ecf98b076f52c7bad66c9a2edb1335eed7e7ef58dab7f69f48a59d7ecab1b",
+      "original_evidence_ambiguous": true,
+      "reviewed_scope_occurrence_ambiguity": true,
+      "reviewed_scope_attribution_ambiguity": true,
+      "scope_status": "scoped"
+    },
+    "structured:F008852:V2:3902643c058b2b98f8bd437f7a42ebe45eb35c798012f6ba96dcaf2c89973ad7": {
+      "file_id": "F008852",
+      "source_sha256": "7f93d189bfc16d28a9f754fe224b12088a4ba5f452c71df25aa36035ce81375d",
+      "indexed_text_sha256": "3902643c058b2b98f8bd437f7a42ebe45eb35c798012f6ba96dcaf2c89973ad7",
+      "reviewed_scope_text_sha256": "3902643c058b2b98f8bd437f7a42ebe45eb35c798012f6ba96dcaf2c89973ad7",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "single_subject"
+    },
+    "structured:F008940:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93": {
+      "file_id": "F008940",
+      "source_sha256": "b03a4b398211370eff5df87414fc89c5e2d7c86e2f9d8ab70fdf5e5b392b3afe",
+      "indexed_text_sha256": "1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+      "reviewed_scope_text_sha256": "b1dfa6e527640a7c2eda8925ce1c261917b20d236c3a4698f3ccb0cbb740cfb9",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F008944:V2:1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93": {
+      "file_id": "F008944",
+      "source_sha256": "dff34b5341f847a7c5c27a7d966a53c2107098780cfcf7faa15417c24af50100",
+      "indexed_text_sha256": "1e3460abb111bb16399479ff9ce47ec571c38fbe6811fbd14ece8d55f3975a93",
+      "reviewed_scope_text_sha256": "460a335db0decbfe60d78c3cf325161f99f9643345a02e253f24a974d5cb058f",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F009488:V2:a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b": {
+      "file_id": "F009488",
+      "source_sha256": "904f1cf886bce0c3ff8a53f758f352c4e180a62b344aa25d14399c9ac62e160b",
+      "indexed_text_sha256": "a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b",
+      "reviewed_scope_text_sha256": "a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "single_subject"
+    },
+    "structured:F009491:V2:a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b": {
+      "file_id": "F009491",
+      "source_sha256": "cb6601b0f5231ca274809e3ca44398eb7eeecb54ad4ee97c456d92a7978afa14",
+      "indexed_text_sha256": "a3272238c59d8c75339520394efa8de67e968543b84f6395ae830897bf42f25b",
+      "reviewed_scope_text_sha256": "0b5923e57b47396cc0196324e1e62cab943676671d254e988ed6a869a583e048",
+      "original_evidence_ambiguous": false,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    },
+    "structured:F009587:V2:6f1e0d63edd3d43cbe10168563d7023cf8c276267bd6a15ad5626b80dabe00bc": {
+      "file_id": "F009587",
+      "source_sha256": "703a7a2f0e8a02ba56ef5cf7bfec643449280cd98997781a679bd5ac735341dc",
+      "indexed_text_sha256": "6f1e0d63edd3d43cbe10168563d7023cf8c276267bd6a15ad5626b80dabe00bc",
+      "reviewed_scope_text_sha256": "74b7fe8ce5d13dfa78483052f66dd5d0ed63ba7703b0317de51de2609d21f13f",
+      "original_evidence_ambiguous": true,
+      "reviewed_scope_occurrence_ambiguity": false,
+      "reviewed_scope_attribution_ambiguity": false,
+      "scope_status": "scoped"
+    }
+  },
+  "source_audit": {
+    "source_files": 9639,
+    "source_shards": 97,
+    "repo_manifest_sha256": "b9de12fe3c72a904cac85cb3313a5427ec8e161212440f3c71c05bbda4a65dd4",
+    "preparation_code": {
+      "projection_sha256": "7f8805bdfa99f9a1f07e7d92415f85b86eee534b5d76b032258cb123f1a315ca",
+      "historical_normalization_sha256": "814006b00629aa40759ad46199659708cdd993bb80dab7db77b837aebdc523fb",
+      "normalization_executed_in_retrieval": false
+    }
+  },
+  "runtime_binding": {
+    "runner_sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+    "adapter_sha256": "c846cac66071c7f83028d99fb5968332655d51bb550abe4047cf0505c5ad44d4",
+    "device": "cuda",
+    "precision": "float16",
+    "batch_size": 16,
+    "max_length": 512,
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.1",
+    "numpy": "1.26.4",
+    "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+    "embedding_cache_sha256": "1004a5109d12d22653fb7f8ed1c482172fbf37c9b7c59256d9172475b0cec4f3",
+    "reranker_cache_sha256": "7168dae8a54a02b336af80208d80489cd77929a92cfa133e5f3d6bfb8ea68368"
+  },
+  "parameters": {
+    "output": "outputs\\FinRisk_E07_E06_E05探索_20261013\\e05_results.jsonl",
+    "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\retrieval_cache",
+    "embedding_model": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-small-zh-v1.5\\snapshots\\7999e1d3359715c523056ef9478215996d62a620",
+    "reranker_model": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-base\\snapshots\\2cfc18c9415c912f9d8155881c133215df768a70",
+    "project_src": "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\src",
+    "device": "cuda",
+    "precision": "float16",
+    "batch_size": 16,
+    "max_length": 512
+  },
+  "document_cache_seed": {
+    "key": "5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07",
+    "source_cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\vector_cache",
+    "target_cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e07_e06_e05_20261013\\retrieval_cache",
+    "metadata_sha256": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "npy_sha256": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "copied_suffixes": [
+      ".json",
+      ".npy"
+    ],
+    "ordered_unit_text_sha256": "4b13375e3a3facecb24f86c0d2ed44a93d25eb1cdac39bdf706721cc2ff13255",
+    "legacy_cache_access": "read_only",
+    "source_key_from": "frozen legacy run models.cache_events document/structured"
+  },
+  "node_token_preflight": {
+    "inputs": 13,
+    "max_input_tokens": 197,
+    "max_length": 512,
+    "truncated_inputs": 0,
+    "truncation_allowed": false
+  },
+  "vector_operation": {
+    "query_encoding_calls": 1,
+    "actual_query_encoding_rows": 16,
+    "actual_node_encoding_rows": 13,
+    "original_document_reencoding_rows": 0,
+    "original_documents_origin": "SHA/runtime/source-bound_old_cache_copy",
+    "normalized": true,
+    "original_array_sha256": "d45b81a4e076804abf837795762fcbef670140887228adcc1f6a8c03ff32850c"
+  },
+  "bm25_index_seconds": 14.786491099999694,
+  "elapsed_seconds": 202.42222809999657,
+  "models": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "cpu_count": 32,
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.1",
+    "numpy": "1.26.4",
+    "torch_cpu_threads": 16,
+    "torch_interop_threads": 16,
+    "device": "cuda",
+    "precision": "float16",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "cuda_runtime": "12.4",
+    "embedding": {
+      "path": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-small-zh-v1.5\\snapshots\\7999e1d3359715c523056ef9478215996d62a620",
+      "revision": "7999e1d3359715c523056ef9478215996d62a620",
+      "files": [
+        {
+          "path": "1_Pooling/config.json",
+          "size": 190,
+          "sha256": "aaa8861589f80c961a03cc86c7eeaef7605c1676b9ab55329d33a304738769c6"
+        },
+        {
+          "path": "config.json",
+          "size": 776,
+          "sha256": "3853a7979202c348751b753e36f579c41d8da7d36af617d3d907e1fc9b441f2a"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "size": 124,
+          "sha256": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 95827648,
+          "sha256": "354763b9b1357bc9c44f62c6be2276321081ed2567773608c0d0785b61d5a026"
+        },
+        {
+          "path": "modules.json",
+          "size": 349,
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        {
+          "path": "README.md",
+          "size": 27670,
+          "sha256": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "size": 52,
+          "sha256": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 125,
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 439125,
+          "sha256": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 367,
+          "sha256": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a"
+        },
+        {
+          "path": "vocab.txt",
+          "size": 109540,
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+        }
+      ],
+      "cache_sha256": "1004a5109d12d22653fb7f8ed1c482172fbf37c9b7c59256d9172475b0cec4f3"
+    },
+    "reranker": {
+      "path": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-reranker-base\\snapshots\\2cfc18c9415c912f9d8155881c133215df768a70",
+      "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+      "files": [
+        {
+          "path": "config.json",
+          "size": 799,
+          "sha256": "289adf7ada1eb6b4afa7589a48a032d45a076cf2e46dcdb3b4cabc33be14f708"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1112206140,
+          "sha256": "ced967c45fd1902eb92716c9ceeca7c95a936770ea9db611f5a841b926e33fbd"
+        },
+        {
+          "path": "sentencepiece.bpe.model",
+          "size": 5069051,
+          "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 279,
+          "sha256": "d5469a60db23249c7f8945013d78df30b44b6bf686c6bb4740f4223f77b1b535"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 17098107,
+          "sha256": "9eb652ac4e40cc093272bbbe0f55d521cf67570060227109b5cdc20945a4489e"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 443,
+          "sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b"
+        }
+      ],
+      "cache_sha256": "7168dae8a54a02b336af80208d80489cd77929a92cfa133e5f3d6bfb8ea68368"
+    },
+    "query_instruction": "为这个句子生成表示以用于检索相关文章：",
+    "truncation": [
+      {
+        "stage": "embedding",
+        "kind": "document",
+        "inputs": 65475,
+        "truncated_inputs": 0,
+        "max_input_tokens": 299,
+        "max_length": 512,
+        "corpus": "structured",
+        "cache_hit": true
+      },
+      {
+        "stage": "embedding",
+        "kind": "query",
+        "inputs": 16,
+        "truncated_inputs": 0,
+        "max_input_tokens": 81,
+        "max_length": 512,
+        "corpus": "E05_shared_16_replay_queries",
+        "cache_hit": false
+      },
+      {
+        "stage": "embedding",
+        "kind": "document",
+        "inputs": 13,
+        "truncated_inputs": 0,
+        "max_input_tokens": 197,
+        "max_length": 512,
+        "corpus": "E05_navigation_nodes",
+        "cache_hit": false
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D001",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 243,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_DIR",
+        "query_id": "D001",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 96,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_TREE",
+        "query_id": "D001",
+        "inputs": 9,
+        "truncated_inputs": 0,
+        "max_input_tokens": 138,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D002",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 248,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D003",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 238,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D004",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 219,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_DIR",
+        "query_id": "D004",
+        "inputs": 5,
+        "truncated_inputs": 0,
+        "max_input_tokens": 139,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_TREE",
+        "query_id": "D004",
+        "inputs": 2,
+        "truncated_inputs": 0,
+        "max_input_tokens": 105,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D005",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 260,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D006",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 254,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D007",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 245,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D008",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 245,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_DIR",
+        "query_id": "D008",
+        "inputs": 7,
+        "truncated_inputs": 0,
+        "max_input_tokens": 135,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_TREE",
+        "query_id": "D008",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 118,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D009",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 238,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D010",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 223,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D011",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 252,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D012",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 253,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D013",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 254,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_DIR",
+        "query_id": "D013",
+        "inputs": 4,
+        "truncated_inputs": 0,
+        "max_input_tokens": 114,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_TREE",
+        "query_id": "D013",
+        "inputs": 7,
+        "truncated_inputs": 0,
+        "max_input_tokens": 113,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D014",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 245,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_DIR",
+        "query_id": "D014",
+        "inputs": 1,
+        "truncated_inputs": 0,
+        "max_input_tokens": 82,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D015",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 249,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_B0",
+        "query_id": "D016",
+        "inputs": 100,
+        "truncated_inputs": 0,
+        "max_input_tokens": 257,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_DIR",
+        "query_id": "D016",
+        "inputs": 7,
+        "truncated_inputs": 0,
+        "max_input_tokens": 139,
+        "max_length": 512
+      },
+      {
+        "stage": "rerank",
+        "corpus": "E05_TREE",
+        "query_id": "D016",
+        "inputs": 3,
+        "truncated_inputs": 0,
+        "max_input_tokens": 105,
+        "max_length": 512
+      }
+    ],
+    "cache_events": [
+      {
+        "corpus": "structured",
+        "kind": "document",
+        "key": "5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07",
+        "hit": true,
+        "seconds": 1.6873630999980378
+      },
+      {
+        "corpus": "E05_shared_16_replay_queries",
+        "kind": "query",
+        "key": "232bb01347008d54d2f9069244dbb7d3685d457e33bae6c956ef634e77f59476",
+        "hit": false,
+        "seconds": 1.1183713999998872
+      },
+      {
+        "corpus": "E05_navigation_nodes",
+        "kind": "document",
+        "key": "e9d3095f2ad07ff857b9d227e1c8a7cfc01b56047139494e1293245fa7c45eda",
+        "hit": false,
+        "seconds": 0.07412599999952363
+      }
+    ],
+    "model_load_seconds": 48.40989180000179
+  },
+  "output_sha256": "7f0efdf0f6082418774abc2fac941aebeb2a616fdb99ba65d9c6188badffcee9",
+  "score_pool_sha256": "d68ebc8ae0b1516c9e57ccef0434032b762448a304eebc41a853665bcc67ab14",
+  "token_audit_sha256": "667606a4a52e7e85bcc4f9315c9d7da6f5290d17a396d12aaad6855b8d5bc831"
+}

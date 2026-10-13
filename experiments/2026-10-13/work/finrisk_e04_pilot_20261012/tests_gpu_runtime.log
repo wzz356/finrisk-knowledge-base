@@ -1,0 +1,40 @@
+test_a0_uses_frozen_v2_aggregate_and_full_context (__main__.E04Tests.test_a0_uses_frozen_v2_aggregate_and_full_context) ... ok
+test_arm_100_200_candidate_difference_is_real_union (__main__.E04Tests.test_arm_100_200_candidate_difference_is_real_union) ... ok
+test_arm_truncates_routes_to_top100 (__main__.E04Tests.test_arm_truncates_routes_to_top100) ... ok
+test_baseline_reproduction_checks_stages_and_aggregate (__main__.E04Tests.test_baseline_reproduction_checks_stages_and_aggregate) ... ok
+test_build_record_refuses_missing_or_nonfinite_rerank_score (__main__.E04Tests.test_build_record_refuses_missing_or_nonfinite_rerank_score) ... ok
+test_confirmation_arms_must_match_frozen_selection_sha (__main__.E04Tests.test_confirmation_arms_must_match_frozen_selection_sha) ... ok
+{"event": "model_load_start", "device": "cuda", "precision": "float16"}
+{"event": "model_load_complete", "seconds": 0, "gpu": "synthetic"}
+{"event": "query_start", "query_id": "Q1", "index": 1, "total": 1, "mode": "dev"}
+{"event": "scoring_start", "query_id": "Q1", "missing": 40, "reused": 100}
+{"event": "scoring_complete", "query_id": "Q1", "computed": 40, "seconds": 1.930000144056976e-05}
+{"event": "query_complete", "query_id": "Q1", "arms": ["A0", "A1", "A2", "A3"], "union_units": 140, "reused": 100, "new_scores": 40, "gpu_seconds": 1.930000144056976e-05, "seconds": 0.06292450000000827}
+{"event": "run_complete", "rows": 4, "seconds": 0.10352640000019164, "output": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e04_pilot_20261012\\tmpeiryybl2\\results.jsonl"}
+test_dev_orchestration_uses_one_shared_pool_and_reproduces_a0 (__main__.E04Tests.test_dev_orchestration_uses_one_shared_pool_and_reproduces_a0) ... ok
+test_dev_query_requires_exact_original_text (__main__.E04Tests.test_dev_query_requires_exact_original_text) ... ok
+test_empty_routes_return_no_candidates (__main__.E04Tests.test_empty_routes_return_no_candidates) ... ok
+{"event": "run_failure", "error": "ValueError: stale source", "result_rows": 0}
+test_failed_preparation_produces_failure_log_without_final_output (__main__.E04Tests.test_failed_preparation_produces_failure_log_without_final_output) ... ok
+test_historical_unused_normalization_change_does_not_invalidate_retest (__main__.E04Tests.test_historical_unused_normalization_change_does_not_invalidate_retest) ... ok
+{"event": "run_failure", "error": "ValueError: query input must have unique nonempty IDs and text", "result_rows": 0}
+test_invalid_query_preflight_is_recorded_as_failure (__main__.E04Tests.test_invalid_query_preflight_is_recorded_as_failure) ... ok
+test_missing_route_keeps_available_route (__main__.E04Tests.test_missing_route_keeps_available_route) ... ok
+test_output_guard_refuses_any_existing_sidecar (__main__.E04Tests.test_output_guard_refuses_any_existing_sidecar) ... ok
+test_route_duplicate_does_not_add_score_or_consume_rank (__main__.E04Tests.test_route_duplicate_does_not_add_score_or_consume_rank) ... ok
+test_rrf_rejects_invalid_k_weights_depth (__main__.E04Tests.test_rrf_rejects_invalid_k_weights_depth) ... ok
+test_rrf_stable_ties_and_depth (__main__.E04Tests.test_rrf_stable_ties_and_depth) ... ok
+test_score_binding_refuses_changed_source_query_or_indexed_text (__main__.E04Tests.test_score_binding_refuses_changed_source_query_or_indexed_text) ... ok
+{"event": "scoring_start", "query_id": "Q1", "missing": 2, "reused": 1}
+{"event": "scoring_complete", "query_id": "Q1", "computed": 2, "seconds": 2.769999991869554e-05}
+test_score_pool_calls_real_interface_once_for_only_missing_candidates (__main__.E04Tests.test_score_pool_calls_real_interface_once_for_only_missing_candidates) ... ok
+{"event": "scoring_start", "query_id": "Q1", "missing": 1, "reused": 0}
+test_score_pool_refuses_incomplete_model_scores (__main__.E04Tests.test_score_pool_refuses_incomplete_model_scores) ... ok
+test_selection_accepts_chosen_arm_from_evaluation (__main__.E04Tests.test_selection_accepts_chosen_arm_from_evaluation) ... ok
+test_unit_source_binding_refuses_stale_or_unknown_source (__main__.E04Tests.test_unit_source_binding_refuses_stale_or_unknown_source) ... ok
+test_weighted_rrf_changes_priority_without_using_raw_scores (__main__.E04Tests.test_weighted_rrf_changes_priority_without_using_raw_scores) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.388s
+
+OK

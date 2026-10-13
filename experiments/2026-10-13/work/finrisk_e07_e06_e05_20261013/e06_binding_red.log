@@ -1,0 +1,20 @@
+test_diversify_keeps_model_rank_and_scores (test_e06.E06Tests.test_diversify_keeps_model_rank_and_scores) ... ok
+test_known_event_requires_exact_source_scope (test_e06.E06Tests.test_known_event_requires_exact_source_scope) ... ok
+test_reuse_rejects_changed_query_source_or_assessment (test_e06.E06Tests.test_reuse_rejects_changed_query_source_or_assessment) ... ERROR
+test_same_file_other_behavior_not_grouped (test_e06.E06Tests.test_same_file_other_behavior_not_grouped) ... ok
+test_uncertain_event_not_grouped (test_e06.E06Tests.test_uncertain_event_not_grouped) ... ok
+test_unknown_units_same_file_remain_independent (test_e06.E06Tests.test_unknown_units_same_file_remain_independent) ... ok
+
+======================================================================
+ERROR: test_reuse_rejects_changed_query_source_or_assessment (test_e06.E06Tests.test_reuse_rejects_changed_query_source_or_assessment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_e07_e06_e05_20261013\test_e06.py", line 56, in test_reuse_rejects_changed_query_source_or_assessment
+    e06.validate_parent_binding(parent,packet,judgment,{'F1':source})
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'e06' has no attribute 'validate_parent_binding'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+FAILED (errors=1)

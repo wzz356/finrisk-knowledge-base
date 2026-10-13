@@ -1,0 +1,76 @@
+test_all_66_records_use_real_interface_and_p2_frozen_ranking (__main__.E02Tests.test_all_66_records_use_real_interface_and_p2_frozen_ranking)
+{"event": "model_load_start", "approved_units": 24, "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\tmpji53wb5a\\cache"}
+{"event": "p1_full_bm25_build_start", "units": 100}
+{"event": "query_start", "query_id": "Q00", "index": 1, "total": 22}
+{"event": "query_complete", "query_id": "Q00", "real_rerank_units": 100, "gpu_seconds": 6.380000195349567e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q01", "index": 2, "total": 22}
+{"event": "query_complete", "query_id": "Q01", "real_rerank_units": 100, "gpu_seconds": 6.239999856916256e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q02", "index": 3, "total": 22}
+{"event": "query_complete", "query_id": "Q02", "real_rerank_units": 100, "gpu_seconds": 6.330000178422779e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q03", "index": 4, "total": 22}
+{"event": "query_complete", "query_id": "Q03", "real_rerank_units": 100, "gpu_seconds": 6.510000093840063e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q04", "index": 5, "total": 22}
+{"event": "query_complete", "query_id": "Q04", "real_rerank_units": 100, "gpu_seconds": 6.769999890821055e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q05", "index": 6, "total": 22}
+{"event": "query_complete", "query_id": "Q05", "real_rerank_units": 100, "gpu_seconds": 7.519999780924991e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q06", "index": 7, "total": 22}
+{"event": "query_complete", "query_id": "Q06", "real_rerank_units": 100, "gpu_seconds": 7.990000085555948e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q07", "index": 8, "total": 22}
+{"event": "query_complete", "query_id": "Q07", "real_rerank_units": 100, "gpu_seconds": 7.589999950141646e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q08", "index": 9, "total": 22}
+{"event": "query_complete", "query_id": "Q08", "real_rerank_units": 100, "gpu_seconds": 8.499999967170879e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q09", "index": 10, "total": 22}
+{"event": "query_complete", "query_id": "Q09", "real_rerank_units": 100, "gpu_seconds": 8.319999687955715e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q10", "index": 11, "total": 22}
+{"event": "query_complete", "query_id": "Q10", "real_rerank_units": 100, "gpu_seconds": 8.22000001790002e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q11", "index": 12, "total": 22}
+{"event": "query_complete", "query_id": "Q11", "real_rerank_units": 100, "gpu_seconds": 8.879999950295314e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q12", "index": 13, "total": 22}
+{"event": "query_complete", "query_id": "Q12", "real_rerank_units": 100, "gpu_seconds": 0.00011269999959040433, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q13", "index": 14, "total": 22}
+{"event": "query_complete", "query_id": "Q13", "real_rerank_units": 100, "gpu_seconds": 0.00013620000027003698, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q14", "index": 15, "total": 22}
+{"event": "query_complete", "query_id": "Q14", "real_rerank_units": 100, "gpu_seconds": 0.00014010000086273067, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q15", "index": 16, "total": 22}
+{"event": "query_complete", "query_id": "Q15", "real_rerank_units": 100, "gpu_seconds": 0.00010259999908157624, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q16", "index": 17, "total": 22}
+{"event": "query_complete", "query_id": "Q16", "real_rerank_units": 100, "gpu_seconds": 0.00016659999891999178, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q17", "index": 18, "total": 22}
+{"event": "query_complete", "query_id": "Q17", "real_rerank_units": 100, "gpu_seconds": 7.919999916339293e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q18", "index": 19, "total": 22}
+{"event": "query_complete", "query_id": "Q18", "real_rerank_units": 100, "gpu_seconds": 7.030000051599927e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q19", "index": 20, "total": 22}
+{"event": "query_complete", "query_id": "Q19", "real_rerank_units": 100, "gpu_seconds": 7.380000170087442e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q20", "index": 21, "total": 22}
+{"event": "query_complete", "query_id": "Q20", "real_rerank_units": 100, "gpu_seconds": 7.510000068577938e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "query_start", "query_id": "Q21", "index": 22, "total": 22}
+{"event": "query_complete", "query_id": "Q21", "real_rerank_units": 100, "gpu_seconds": 7.580000237794593e-05, "top5_background_p1": 5, "top5_background_p2": 5}
+{"event": "run_complete", "rows": 66, "output": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\tmpji53wb5a\\results.jsonl", "seconds": 1.538731500000722}
+Synthetic model values test orchestration only; never efficacy or GPU. ... ok
+test_approved_exact_extract_is_allowed (__main__.E02Tests.test_approved_exact_extract_is_allowed) ... ok
+test_boolean_and_outside_span_rejected (__main__.E02Tests.test_boolean_and_outside_span_rejected) ... ok
+test_cache_must_stay_under_e02_work (__main__.E02Tests.test_cache_must_stay_under_e02_work) ... ok
+test_duplicate_prefix_or_review_rejected (__main__.E02Tests.test_duplicate_prefix_or_review_rejected) ... ok
+{"event": "document_cache_seeded", "key": "cf81b68403e25fd11e33f0d6514720fe05d276f645dc075e5cf372363356fbd9", "copied": [".json", ".npy"], "cache": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_e02_pilot_20261013\\tmpao9h50ck\\new"}
+test_frozen_seed_copies_only_bound_pair_and_leaves_old_cache_unchanged (__main__.E02Tests.test_frozen_seed_copies_only_bound_pair_and_leaves_old_cache_unchanged) ... ok
+test_missing_semantic_review_is_rejected (__main__.E02Tests.test_missing_semantic_review_is_rejected) ... ok
+test_output_and_every_sidecar_refuse_overwrite (__main__.E02Tests.test_output_and_every_sidecar_refuse_overwrite) ... ok
+test_overlay_changes_only_selected_text_and_preserves_originals (__main__.E02Tests.test_overlay_changes_only_selected_text_and_preserves_originals) ... ok
+test_overlay_vectors_replace_only_selected_positions (__main__.E02Tests.test_overlay_vectors_replace_only_selected_positions) ... ok
+test_p0_full_stage_reproduction_is_strict (__main__.E02Tests.test_p0_full_stage_reproduction_is_strict) ... ok
+test_p1_return_preserves_body_and_has_actual_index_payload (__main__.E02Tests.test_p1_return_preserves_body_and_has_actual_index_payload) ... ok
+test_p2_preserves_index_and_no_prefix_bleeds_to_other_winner_unit (__main__.E02Tests.test_p2_preserves_index_and_no_prefix_bleeds_to_other_winner_unit) ... ok
+test_prefix_over_180_chars_rejected (__main__.E02Tests.test_prefix_over_180_chars_rejected) ... ok
+test_quote_must_match_precise_interval (__main__.E02Tests.test_quote_must_match_precise_interval) ... ok
+test_real_tokenizer_preflight_rejects_overlimit_before_inference (__main__.E02Tests.test_real_tokenizer_preflight_rejects_overlimit_before_inference) ... ok
+test_rejected_prefix_does_not_change_dose (__main__.E02Tests.test_rejected_prefix_does_not_change_dose) ... ok
+test_replay_query_text_group_or_role_drift_rejected (__main__.E02Tests.test_replay_query_text_group_or_role_drift_rejected) ... ok
+test_rerank_scores_require_exact_candidate_ids_and_finite_values (__main__.E02Tests.test_rerank_scores_require_exact_candidate_ids_and_finite_values) ... ok
+test_review_prefix_bytes_are_bound (__main__.E02Tests.test_review_prefix_bytes_are_bound) ... ok
+test_source_sha_and_base_text_sha_are_bound (__main__.E02Tests.test_source_sha_and_base_text_sha_are_bound) ... ok
+test_unknown_label_or_unquoted_prefix_rejected (__main__.E02Tests.test_unknown_label_or_unquoted_prefix_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 2.840s
+
+OK

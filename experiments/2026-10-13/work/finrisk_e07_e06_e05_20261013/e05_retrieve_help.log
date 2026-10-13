@@ -1,0 +1,14 @@
+usage: e05_runner.py retrieve [-h] --queries QUERIES --leaves LEAVES
+                              --directory-nodes DIRECTORY_NODES --tree-nodes
+                              TREE_NODES --freeze FREEZE --output OUTPUT
+                              --cache CACHE
+
+options:
+  -h, --help            show this help message and exit
+  --queries QUERIES
+  --leaves LEAVES
+  --directory-nodes DIRECTORY_NODES
+  --tree-nodes TREE_NODES
+  --freeze FREEZE
+  --output OUTPUT
+  --cache CACHE

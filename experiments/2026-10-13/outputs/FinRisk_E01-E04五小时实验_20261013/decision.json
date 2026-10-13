@@ -1,0 +1,41 @@
+{
+  "status": "completed_small_pilots_with_candidate_recommendation",
+  "recommended_retrieval_candidate": "W4_BM25_BGE_weight_2_to_1_rrf60_rerank100",
+  "recommended_combination_candidate": "WD_weighted_retrieval_and_reviewed_unit_scoped_return",
+  "scope_of_return_candidate": "Only the 21 source-reviewed units; other source/case/behavior mappings remain pending.",
+  "production_configuration_changed": false,
+  "application_modified": false,
+  "github_pushed": false,
+  "human_approved": false,
+  "independent_combination_confirmation": false,
+  "e01": {
+    "long_index_replacement_adopted": false,
+    "scoped_return_candidate": true,
+    "reason": "S1 no helpfulness gain; fixed-ranking D1 gains three slots, two of which are debated general analogies. Extend only after source/scope review."
+  },
+  "e02": {
+    "full_prefix_rollout": false,
+    "reason": "C2 has only one actual background slot and no useful-count gain over S1; D2 equals D1 at higher exposure."
+  },
+  "e03": {
+    "always_on_card_route": false,
+    "cards_kept_as_candidate_material": 4,
+    "reason": "M3 changes three Top5 lists but no helpfulness, coverage or warning gains."
+  },
+  "e04": {
+    "candidate_weight": [2, 1],
+    "reason": "W4 gains ten useful slots overall and four on new business texts, coverage does not fall and warning counts do not rise. N018 regresses by two slots."
+  },
+  "combination": {
+    "original_model_graded_useful_slots": 147,
+    "denominator": 210,
+    "new_business_useful_slots": 65,
+    "new_business_denominator": 100,
+    "targeted_sensitivity_useful_slots": 145,
+    "targeted_sensitivity_new_business_useful_slots": 63,
+    "caveat": "Post-selection same-input diagnostic. Excluding only two debated N014 loan-to-medical general analogy positions is not a full stricter benchmark."
+  },
+  "retained_failures": ["N018 true-agent boundary regression", "Q012 claim-service convenience/speed support still absent", "N014 generalized cross-product analogy and same-event multiple-file counting"],
+  "ambiguous_unchanged_sources": ["F006493", "F006220", "F000269"],
+  "deferred": ["full-corpus scoped projection", "token/overlap/semantic grid", "complex generated prefixes", "full cross-case rule/counterexample library", "multi-vector and ANN", "GraphRAG and RAPTOR", "full human quality acceptance", "application/default deployment"]
+}
