@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "scope_queries_replayed": 40,
+  "dense_vectors_shapes": {
+    "document": [
+      65475,
+      512
+    ],
+    "query": [
+      20,
+      512
+    ]
+  },
+  "closed_vectors_exact_subset": true,
+  "BM25_replayed": true,
+  "dense_rank_recomputed": true,
+  "RRF_equal_weight_recomputed": true,
+  "all_200_file_rankings_max_aggregation_verified": true,
+  "rerank_candidates_and_actual_API_bindings_verified": true,
+  "truncated_inputs": 0,
+  "local_model_file_hashes_verified": true,
+  "no_new_model_API_requests": true
+}

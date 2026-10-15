@@ -1,0 +1,779 @@
+{
+  "schema": "finrisk-evalset-public-v1",
+  "date": "2026-10-15",
+  "files": {
+    "outputs/FinRisk_可用测试集_v1_20261015/adjudication_log.jsonl": {
+      "bytes": 6585,
+      "sha256": "3ea550b18a7136887adf05ed22eddbbf4a7923c4e6f407026db8d2c5ecb193d6"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/all_results.jsonl/part-0001.jsonl.gz": {
+      "bytes": 1729747,
+      "sha256": "2d837cd9fae9bb1593081aa54fffcee3327e0e41ce770976e32b3c9917eec091"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/all_results.jsonl/part-0002.jsonl.gz": {
+      "bytes": 1750725,
+      "sha256": "bd3d5fa8d536b50679ce04b617d75d1d0735c2ee230b62d390dfef2ccd63728d"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/all_results.jsonl/part-0003.jsonl.gz": {
+      "bytes": 1925203,
+      "sha256": "b52ec94af1d1f4f19abaab383a8a97836dace4d5d5f22e4fb1a55abcdaf9aea0"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/all_results.jsonl/part-0004.jsonl.gz": {
+      "bytes": 1470885,
+      "sha256": "731773f1d2bb0b9f7656ad704d3c53dbe882ab33d39e20153a4a700f82019d54"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/all_results.jsonl/parts.json": {
+      "bytes": 1371,
+      "sha256": "f4f6d7c4e74ae8cb12e99d10b1de8ea5ffd07b629f7d780dd5325c8fedbcd7f9"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/annotation_decisions_initial.jsonl": {
+      "bytes": 143823,
+      "sha256": "4cb3d34bc002fa43e93ad05a18f6a1472925bfeeee40ba851ffe5c74c6598c77"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/annotation_inputs/part_1.jsonl": {
+      "bytes": 75206,
+      "sha256": "8a3f56ce90b355da3650a79b6f1a0a0f454f33e01fc0095516509778d4068cb6"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/annotation_inputs/part_2.jsonl": {
+      "bytes": 69248,
+      "sha256": "10fc5b905a09d6c1380f0321050c22e1f71f87aac4d805e03f1206e3e0f8791e"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/annotation_inputs/part_3.jsonl": {
+      "bytes": 68816,
+      "sha256": "c7d07dbd8208d4ccf0df2233f9fce1124c795afacdc63cb512f9563b5005172f"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/api_completion.json": {
+      "bytes": 167,
+      "sha256": "4e7b38d99c7ba2192e21fc44568bdae4ec10a7e2dcfb613358a2c91d13ff2691"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/api_cost_audit.json": {
+      "bytes": 623,
+      "sha256": "7634b09db068d84cc4924d04c47985e1ec50c5ff20b83a7ba86ef285fc98f136"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/api_design.json": {
+      "bytes": 508,
+      "sha256": "2f58fd73b1d5ce7d1523921e46245f07016cd5ccb11433d000381f953f83a0c3"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/api_freeze.json": {
+      "bytes": 2412,
+      "sha256": "c65f8c800b665b690193b3652bdba7fe41411eba9e337100467c1985a1f03600"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/blind_review_summary.json": {
+      "bytes": 330,
+      "sha256": "c477e7fd51a6c8c549daf97964f7a9d9db11ca940e5f37ddbcdde6f5fce6091f"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/blind_review_summary_part12.json": {
+      "bytes": 342,
+      "sha256": "4fc547bb5d842e678eb5344ae2da1e1d116e605eb66d52a0a6c68ef1d250f063"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/bound_scores.jsonl": {
+      "bytes": 2742726,
+      "sha256": "d531a6b0337fa5dc05a0bae8c04459e5bdd0a976594a42da65ac24284551894a"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/candidate_freeze.json": {
+      "bytes": 3280,
+      "sha256": "dc717aaf3f2e6eab53feebece498940c4b642e77af1b8737af7a551a58968a7e"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/candidate_map.jsonl": {
+      "bytes": 758000,
+      "sha256": "3f97bc93527836cdb0bf3ad611418348dba68986187e770a606b60f19f0ecca3"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/closed_index_units.jsonl": {
+      "bytes": 5021778,
+      "sha256": "2405b74ba6662cc091fedfc05ea07045c32343e6f56acc78456f8a9d0f9f769d"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/closed_metrics_summary.json": {
+      "bytes": 82583,
+      "sha256": "f729650f3c944195c2bf9022f38371cf537d3ac67d5adf251c4759b56b390165"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/closed_miss_diagnostics.json": {
+      "bytes": 11846,
+      "sha256": "302fc8f17d30c2cf81e38bcee7d469f023ae85283070e8e6feb9d2f9f712329f"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/closed_vector_binding.json": {
+      "bytes": 86442,
+      "sha256": "69b815a1356814e8d11c32a4f8a00957f7c615f48772b734096b31fe64e8d0df"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/core_verification.json": {
+      "bytes": 650,
+      "sha256": "b7a72d90c6a47a9a889d9d545d779ff5917ff9cfcf99a0e5d5cb9c7de947070a"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/corpus.jsonl": {
+      "bytes": 213270,
+      "sha256": "dea604752d7d60b4e000bf62bdeac3e634640c61bab15f27c80bba283e163004"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/dataset_manifest.json": {
+      "bytes": 7710,
+      "sha256": "2b2a46dcc9a5e396017360c51818fccb2c331b4db14b12fafd9c155ea0d8d303"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/deepseek_routes.jsonl": {
+      "bytes": 511976,
+      "sha256": "314c57e53a9905af0504f323cc16dad6376244a4bd420cc79d427e98c6c4903c"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/delivery_manifest.json": {
+      "bytes": 37275,
+      "sha256": "1e9faccca64abe01927933506ff50a3fe89491b458d771b2fc11d7d703d2b0d3"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/evaluate.py": {
+      "bytes": 2895,
+      "sha256": "6fa804d27bb70eb579947fdc367050afae497d5c187ddee61a33c2264235a8b7"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/evaluator_metrics.py": {
+      "bytes": 2773,
+      "sha256": "d13d46ff3be530711e1edc252567f34863090334c7893f142c8ad8d4ef4a7024"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/export_authorization.json": {
+      "bytes": 600,
+      "sha256": "e1d4015c66ed0dc2f15bc37f69c6f95e793b46f97929b3f933f3575a41531bc2"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/final_verification.json": {
+      "bytes": 874,
+      "sha256": "525310c2265496fb6a1b86bf6a43c40b69d3bc9291e35e9fe72d4d0525a8dbe7"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/FinRisk_测试集_v1_可移植包.zip": {
+      "bytes": 1041701,
+      "sha256": "44e60bb3f443168a0e50b4f89db31066dfd6acf3fe79cd489bd70ef984d75e2c"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/full_known_reference_coverage.json": {
+      "bytes": 35212,
+      "sha256": "a3b12506e767aa4fc68fe1dbc6dcea0e258d2ccf206c7ae7136c381c472083d2"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/full_ND_actual_helpfulness.json": {
+      "bytes": 20214,
+      "sha256": "c1a0ac3b02de475b0d4ab73db4c2e5a567eac16fd275556816129ed7a1d84780"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/initial_annotation_summary.json": {
+      "bytes": 595,
+      "sha256": "db1298f8d4e0134c7d316feaf09cbffbbf39bdc3f4befa127660fb4393944718"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/input_freeze.json": {
+      "bytes": 3188,
+      "sha256": "e0ac87edbed9f650fea02d55edb799df523890b7ae295180c62e97e870b082ad"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/local_model_log.json": {
+      "bytes": 12895,
+      "sha256": "720c8020ef6015ae8f43ddb560e1ae4897133274149366ea7ce7b06fe3dbc308"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/local_results.jsonl/part-0001.jsonl.gz": {
+      "bytes": 1729747,
+      "sha256": "2d837cd9fae9bb1593081aa54fffcee3327e0e41ce770976e32b3c9917eec091"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/local_results.jsonl/part-0002.jsonl.gz": {
+      "bytes": 1750725,
+      "sha256": "bd3d5fa8d536b50679ce04b617d75d1d0735c2ee230b62d390dfef2ccd63728d"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/local_results.jsonl/part-0003.jsonl.gz": {
+      "bytes": 1925203,
+      "sha256": "b52ec94af1d1f4f19abaab383a8a97836dace4d5d5f22e4fb1a55abcdaf9aea0"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/local_results.jsonl/part-0004.jsonl.gz": {
+      "bytes": 103646,
+      "sha256": "56727a8aca95c3c53bdeb9f62e7d99b659706b2e18ef5f1db4b59e6a9b5cea95"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/local_results.jsonl/parts.json": {
+      "bytes": 1379,
+      "sha256": "e61f414df6662faef1bbe4389d517d4514218f5141880beca181f49e92d9f016"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/metrics/closed100_BGE.json": {
+      "bytes": 44557,
+      "sha256": "b9754a3ecf6bea274bc1054696fe0bb447cfdfb160e6d1ba199ee1b5fcf2976d"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/metrics/closed100_BM25.json": {
+      "bytes": 44447,
+      "sha256": "37f6bd1d49bd1e0c60e490d78e806d3c73a2fbd7e710410593e874e9236bc7ee"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/metrics/closed100_N0.json": {
+      "bytes": 44362,
+      "sha256": "5b44b942871b24da109b4d53f225a7806844e2b57e6801dc0cf43b30683cf8a2"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/metrics/closed100_ND.json": {
+      "bytes": 44243,
+      "sha256": "a9faa2c7446d613c0b55cdc9964b39d16ee3e4aeedddae3c6fa82ce8a315cbb6"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/metrics/closed100_RRF.json": {
+      "bytes": 44563,
+      "sha256": "cc4bce89687c6e11e12094d15c28f7c0e40742ce2e56f47a54c18f9ff2fd0e3e"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/metrics/standalone_cli_ND.json": {
+      "bytes": 45885,
+      "sha256": "318a4ba278e0dcf844763f005afa4bb9e8a3840996cd8e4fbf64fc1239a80013"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/portable_verification.json": {
+      "bytes": 599,
+      "sha256": "7144c450ee0933d283462fb124196c6f06c5420675615a37289719f345efb403"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/prediction_freeze.json": {
+      "bytes": 4455,
+      "sha256": "1c9b7a233999cfbff1fef6025b0a3cfab587fc2f0f57b2b7843ec0e34e8e6e51"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/qrels.jsonl": {
+      "bytes": 2581853,
+      "sha256": "b24e884bb53231774f34d5630277bcf4ea833693a6ce8f82e239b4593fee0f9c"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/qrels_direct.txt": {
+      "bytes": 38000,
+      "sha256": "852db879cf7ebd39e97ec9f8a0b9f222e3634744131b1db4912a0d9953c71adc"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/qrels_freeze.json": {
+      "bytes": 3881,
+      "sha256": "fe48a4b7bc5052a1e872326cce1d69d2d694209c85efbdd6043bba3e65289921"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/qrels_graded_gain.txt": {
+      "bytes": 38000,
+      "sha256": "545b05498a145487e7fd11f2c67672b41ba756db40d37f7422b1da73e49512a6"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/qrels_graded_levels.txt": {
+      "bytes": 38000,
+      "sha256": "fab490df819167f39d76b304371e6eef4791a50f907a3541febec4678cfdb468"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/qrels_initial.jsonl": {
+      "bytes": 2163265,
+      "sha256": "f8b7cd203df8fc521ce21c8e0b775386f0df1df3e113655e57b387b9cd502bb8"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/qrels_second_blind_review.jsonl": {
+      "bytes": 1820725,
+      "sha256": "5236a2f708035a4560d51b52013db1ca5727743bd806fd0f49036d3affae9835"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/qrels_second_blind_review_part12.jsonl": {
+      "bytes": 1197048,
+      "sha256": "3ef0cb259e52d6def12055a4962d1abfea77b9dac9ceeff43498df278179a0c1"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/queries.jsonl": {
+      "bytes": 6017,
+      "sha256": "06fbe0672f18862096c408c5f1b3820416d475775925f60fddb33902df5e6009"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/query_specs.jsonl": {
+      "bytes": 8203,
+      "sha256": "e874402a3fb459bcca2f3b4da21bdab7f4f475fdb31a3d5bfc14b7d7346e1ce2"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/rankings/closed100_BGE.jsonl": {
+      "bytes": 11674,
+      "sha256": "25f9247c85ef6f4b6fd82525790fb12d2ea3d90c2639e75af6fc20d9fe4f971c"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/rankings/closed100_BM25.jsonl": {
+      "bytes": 9177,
+      "sha256": "7e06579c0ac3a13dc9583c16a21352d979a52cb555dfc9ab1da9c41aa4541cc6"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/rankings/closed100_N0.jsonl": {
+      "bytes": 10475,
+      "sha256": "71d55ca2f7a0f6c29ea23358cfd82132e32c79512773bb2cff4c66463772089c"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/rankings/closed100_ND.jsonl": {
+      "bytes": 10475,
+      "sha256": "6e35325f467b568b657e161f8700f5798a4550d1652811191977732bc658d5df"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/rankings/closed100_RRF.jsonl": {
+      "bytes": 10475,
+      "sha256": "9a5414033d2849e018bcdf6087c0719f2f09c0f340ea04d130f27534867a74bf"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/rankings/full9639_BGE.jsonl": {
+      "bytes": 18395,
+      "sha256": "3ea83aa326fb34b82f7a0970c40c924c4bb05ecd6dcd8cf533b2b03e63a9a300"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/rankings/full9639_BM25.jsonl": {
+      "bytes": 13753,
+      "sha256": "264588af3e04898de768bf85aea02f45be618033d367e8174125d3faff02c367"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/rankings/full9639_N0.jsonl": {
+      "bytes": 16008,
+      "sha256": "76970ecce3ca6bcc675f6339ce3814256f6323d2ed6d3e50f0bc4c6e3e7efc44"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/rankings/full9639_ND.jsonl": {
+      "bytes": 16008,
+      "sha256": "ac1c6fc561506fd231c656b9267290707044adcb2eb913c65ae8721b96a305bd"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/rankings/full9639_RRF.jsonl": {
+      "bytes": 16008,
+      "sha256": "eb1c6532d20bb3ec17e16eba3eb3e618321c65618cd7c4e5d0c7d6a0478b08f5"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/README.md": {
+      "bytes": 9355,
+      "sha256": "f279f79a69f938fbc5114c5c119b689484106559d1a41d3aed32a7db7b49346d"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/reference_summary.json": {
+      "bytes": 3516,
+      "sha256": "f8fae06dc51a8bda81ea433a1ee2e963867455070245e42e959c14950e2a9f03"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/requests.jsonl": {
+      "bytes": 2362531,
+      "sha256": "1f7bf949c36c451b311cdf34803e138d8dd11e4c7c14dcd7f03d890d4b271fa9"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/responses.jsonl": {
+      "bytes": 3835565,
+      "sha256": "9f657d758533e73a4d0bec8019c4c921ae9aaceeb5def744cb6c758238133ec8"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/retrieval.token_audit.jsonl/part-0001.jsonl.gz": {
+      "bytes": 2392655,
+      "sha256": "a8e89fceb82ec6f8d58362ed2a7327116c848d061248dbb2442218e34699ed27"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/retrieval.token_audit.jsonl/part-0002.jsonl.gz": {
+      "bytes": 493553,
+      "sha256": "4449215d9ff4ff7a1de128d4566dc396d623ff1b0ee9f082d4d9e8ebaa3e50e8"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/retrieval.token_audit.jsonl/parts.json": {
+      "bytes": 815,
+      "sha256": "549057238c30710ae7ed11257008ac8e7f2f6543ef0715818b9251a59a0a6730"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/retrieval_completion.json": {
+      "bytes": 506,
+      "sha256": "7e6115cfa996b789cdd1c1acb6737bf87c3ea1dc3e804a6e13d0e6138841888e"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/retrieval_config.json": {
+      "bytes": 526,
+      "sha256": "11d88aafb17a925a880efd748bd814edd59df8b4f6e6cdf179cc18b6c73a9d0a"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/retrieval_verification.json": {
+      "bytes": 541,
+      "sha256": "421ed3e45bb21a20a50ce7c775e6362046dd392ed5cb01bb84e6e69099b9b989"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/review_disagreements_all.jsonl": {
+      "bytes": 215887,
+      "sha256": "1561b1f899fa5b9c0dfa25a6343505a908f60a2d11b29ee59ba3c444d033a09d"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/review_disagreements_all_part12.jsonl": {
+      "bytes": 145613,
+      "sha256": "948cd8b819a16ff9a994a30016cff682afda3e7ed3cc5a22a1b62e0dc213b1f1"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/review_disagreements_material.jsonl": {
+      "bytes": 97627,
+      "sha256": "214c3f308c64657b35f12dd7e39fd74e1f89e10ca02cc586a574cfce7fd3cde8"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/review_disagreements_material_part12.jsonl": {
+      "bytes": 71560,
+      "sha256": "4c3c127588460df1e7025cdd7e863e4e0c9ba0cfefda8b8662e894fe1a249e63"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/root_review_inputs.jsonl": {
+      "bytes": 269531,
+      "sha256": "df8bf1528a64c6a74bb2fcc32fbb442111984e18fc6a90cd2cd36399a9036d3e"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/routes.jsonl": {
+      "bytes": 3249562,
+      "sha256": "64a39830cdff3a8ff1a0b4f52a2699514fabb8c659a569b583133860485add8e"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/score_inputs.jsonl": {
+      "bytes": 3076906,
+      "sha256": "71c5f2ef8790d00af3a85aae81f6f972364764c3c7b87303314b9f02d37dcf54"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/scores.jsonl": {
+      "bytes": 2669063,
+      "sha256": "57b6a82a68c6e48f16c952bd2e11991d3b91cc6b99e4d01242f154b30e00cec9"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/selection_audit.json": {
+      "bytes": 7665,
+      "sha256": "54c29251dfa95858f8f9265aa2a12a08645bea916943ec86b604d0ee831e7ea1"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/source_exploration.json": {
+      "bytes": 73696,
+      "sha256": "7e214178459985e280bbac6f2f095a641e1a99ebbcf5881561326f4e72c3ea78"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_annotation_summary.json": {
+      "bytes": 374,
+      "sha256": "3ef52c92879875ad3ef61fe441349fb4974b1058f92427b6c36c92234619eb62"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_annotation_summary_initial.json": {
+      "bytes": 382,
+      "sha256": "738ad814c30413c99a1fa2eaf7d864fa766dd2221dbf7ac5c5c489dfa65ed391"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_annotations_initial.jsonl": {
+      "bytes": 214129,
+      "sha256": "6ca2c837373154fa1222759b91f44548d4d9d25566a9befe8e2fe5f634d38c3e"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_corpus.jsonl": {
+      "bytes": 740109,
+      "sha256": "04b306bd9e31bb57b7dd95355780fdd77b914d62519221379888c34d4cc5851e"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_input_freeze.json": {
+      "bytes": 947,
+      "sha256": "8df286325fdd7c04c843750cdabf06af6f68ac7d6832a703526ea6ec71b7a674"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_inputs/part_1.jsonl": {
+      "bytes": 330399,
+      "sha256": "bdeb9e50f670f3f4470b890c0cabc9550d3f9c2d50bc226e9c7fb272e98822bb"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_inputs/part_2.jsonl": {
+      "bytes": 278138,
+      "sha256": "1c3ed3d4ce31b61f2329103b92454b97b9e19a73f7aefec201fc8fa4c40aee28"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_inputs/part_3.jsonl": {
+      "bytes": 285465,
+      "sha256": "d2f693fa66888068c0bd9b8f3b512562cb67bfeb56b193dd0c269db4e4f6b577"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_qrels.jsonl": {
+      "bytes": 321233,
+      "sha256": "96859fcc175a2ee0ebce1bff66475a1a9a318d3e61c9e3035b834edc4f2c875e"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_qrels_freeze.json": {
+      "bytes": 2413,
+      "sha256": "98eee58242d5ddae8eb3d05829f904c19f34cf81f18a84ffc177bd9b05cbcad0"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_root_audit_disagreements.jsonl": {
+      "bytes": 3451,
+      "sha256": "9eab3711eaaa3fe1e3db0be33b8df1fe4082b955010e878d5a1646238d988a08"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_root_blind_audit_inputs.jsonl": {
+      "bytes": 67296,
+      "sha256": "6d8375e4175a1d486653ef6e486b3b9b5b6111faf6a9e4e91129d6f4b56e6ba5"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/supplement_selection.json": {
+      "bytes": 25005,
+      "sha256": "e7caa6ae0c882758a033e2220010c2218ff465d013d9a6d87169e106a7278320"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/人工验收样例.md": {
+      "bytes": 4490,
+      "sha256": "d17fc8ffb6e0b47598e681c85315dbe40f79ea7d044c7f0aac785b00c0238de8"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/指标报告.md": {
+      "bytes": 11099,
+      "sha256": "96ce487d981b247866c29ce6c7974e895970ffb97bddc4979e0debb24e52c0fb"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/标注规则.md": {
+      "bytes": 2464,
+      "sha256": "51d3bb3b57df1104f448b4f474eda9c9e539748751e9e94e25904a976e1d4ab0"
+    },
+    "outputs/FinRisk_可用测试集_v1_20261015/重排规则.md": {
+      "bytes": 2739,
+      "sha256": "62150059789ff0fe959a45382f78f2c9ed21df013b9f603072a383c52836a772"
+    },
+    "payload_map.json": {
+      "bytes": 96466,
+      "sha256": "e15c990ebd6fdc6f59368f370667124986259ede1540cd2ef052e17136a7d41f"
+    },
+    "publication_scope.json": {
+      "bytes": 3089,
+      "sha256": "cfc0af7f3abcedb0f3d5d0ac4e7a9ab8c6dfe3ab6c001695af6fc8748cb43671"
+    },
+    "README.md": {
+      "bytes": 5006,
+      "sha256": "ff7854cd06b346608a8139af88bdced5d2c6cf24d85ba634ffe949f7653b96f2"
+    },
+    "work/finrisk_evalset_20261015/adjudications_part12.json": {
+      "bytes": 4899,
+      "sha256": "f78564056cd38f31e4884b53f9652dea5b7da48642be43294a13edfe2516cccd"
+    },
+    "work/finrisk_evalset_20261015/adjudications_part3.json": {
+      "bytes": 1752,
+      "sha256": "87bf700bf4bdc00ca2c1a4c7940e4bb5722b1396f16b025987a0f664168a1c28"
+    },
+    "work/finrisk_evalset_20261015/annotations/part_1/decisions.jsonl": {
+      "bytes": 49604,
+      "sha256": "465e09363f3ad684ae970fe1b19a5f1f9f1819c159c9597a2da070ba121dcb02"
+    },
+    "work/finrisk_evalset_20261015/annotations/part_1/mechanical_validation.json": {
+      "bytes": 259,
+      "sha256": "dbe54cc4858a32ee58747cb7b6d0f6d04268ebb74056802e91eba5c9298f2542"
+    },
+    "work/finrisk_evalset_20261015/annotations/part_2/decisions.jsonl": {
+      "bytes": 46715,
+      "sha256": "0fe73d8c4d1af78bb23c8d57f9c0cbf393f4b5e456acd47115c69ef2282d2e78"
+    },
+    "work/finrisk_evalset_20261015/annotations/part_2/verification.json": {
+      "bytes": 2099,
+      "sha256": "2500620c049f516adac7125433e24a6bcca064bccbdcaaf296315f60bdf00931"
+    },
+    "work/finrisk_evalset_20261015/annotations/part_3/decisions.jsonl": {
+      "bytes": 42760,
+      "sha256": "20dc3686c00123690d9948c84b0ee3527add4e4ee34940eac43b495b14ed3ab0"
+    },
+    "work/finrisk_evalset_20261015/annotations/part_3/validate.ps1": {
+      "bytes": 3335,
+      "sha256": "6fe653dc9892735041d9d0fd201a31663b5bd7930f5e4a7fc3f8b761bada894c"
+    },
+    "work/finrisk_evalset_20261015/annotations/part_3/validation.json": {
+      "bytes": 339,
+      "sha256": "cc9d3456c52149c775489fa44d387c38a249c276777b7ffc32e40c4932ca5c7f"
+    },
+    "work/finrisk_evalset_20261015/api_prepare.py": {
+      "bytes": 2607,
+      "sha256": "71f569a92064e5c8310386a0b9dbe126f50dfec3cece6aec0fff196c221e2043"
+    },
+    "work/finrisk_evalset_20261015/api_run.py": {
+      "bytes": 1420,
+      "sha256": "b6762355ea3ed43fb1b28367643b6eca7c1b4a500551e94eac62f7ff32291e49"
+    },
+    "work/finrisk_evalset_20261015/assemble_predictions.py": {
+      "bytes": 3628,
+      "sha256": "e9fff073bdd075c6d3592f928e8d18d93313162ee806a9bec15ec04d6148b81a"
+    },
+    "work/finrisk_evalset_20261015/build_evaluator.py": {
+      "bytes": 3322,
+      "sha256": "68cbbe9dd4c44c31188ffc9753314cb61dc450671e13e3ab693d2ccfaef91848"
+    },
+    "work/finrisk_evalset_20261015/build_inputs.py": {
+      "bytes": 6146,
+      "sha256": "75c997faf227db1d0b9991f42754472253ed8f49bc24ef064363b5d0af616a7d"
+    },
+    "work/finrisk_evalset_20261015/common.py": {
+      "bytes": 1435,
+      "sha256": "c3562ddc3c4e13ae58a9cc82a99a396ace106af136c8c0ab93346f34a2ad1a1c"
+    },
+    "work/finrisk_evalset_20261015/compare_reviews.py": {
+      "bytes": 2156,
+      "sha256": "3069708455e5dfb70585c31bc714d8e5bc5c6b9c8136548323318b62ac53eeb7"
+    },
+    "work/finrisk_evalset_20261015/compare_supplement.py": {
+      "bytes": 2754,
+      "sha256": "c3e60ccc3f81cf70645de0ae9c7cfc52c00907fc1d3069d802888d2aa1c55685"
+    },
+    "work/finrisk_evalset_20261015/diagnose_closed.py": {
+      "bytes": 2107,
+      "sha256": "eddceebfa10a608b5c6235393c7d35edfba5ccd326821db8a42b13a57a3bcfaa"
+    },
+    "work/finrisk_evalset_20261015/evaluate_runs.py": {
+      "bytes": 2543,
+      "sha256": "d469bd112709ce61df6a2c9281c84e3ea2c12562e4ce8871568b38cc182b9f1c"
+    },
+    "work/finrisk_evalset_20261015/explore.py": {
+      "bytes": 1967,
+      "sha256": "49b97b5b4e710b716159c216a651d0e224c1a5bed13f50c83a401d89c9a0c36a"
+    },
+    "work/finrisk_evalset_20261015/finalize_qrels.py": {
+      "bytes": 3390,
+      "sha256": "14c58f408abf9f549ae8dd771084937ec4b70316c0efdbec499bc5da99c1af00"
+    },
+    "work/finrisk_evalset_20261015/finalize_supplement.py": {
+      "bytes": 4010,
+      "sha256": "10e26576cf49c8a9d5d755d0402704b2dbb936f5f4658a9eb14eb2e46a034354"
+    },
+    "work/finrisk_evalset_20261015/findings.md": {
+      "bytes": 2349,
+      "sha256": "2f1dde5bce1de80c9701b8b46a7c50cceb242c040e0b7aa8555eac2aa8507845"
+    },
+    "work/finrisk_evalset_20261015/labels.py": {
+      "bytes": 1898,
+      "sha256": "30af53a91904874825b5d2a015cbc201739bc0d1c72d28c7a781caa668bb901f"
+    },
+    "work/finrisk_evalset_20261015/merge_annotations.py": {
+      "bytes": 1557,
+      "sha256": "e8e041f7d116fb38528939bad6a24cabb87bd57dd35bc3d6be10642680fad1e8"
+    },
+    "work/finrisk_evalset_20261015/negative_audit.json": {
+      "bytes": 1192,
+      "sha256": "33c31ea369f8e62606b347d69761e41c85e7aa821279a668f01029d28f857d93"
+    },
+    "work/finrisk_evalset_20261015/package_portable.py": {
+      "bytes": 3200,
+      "sha256": "488b75d462568356ee311270cb97e0961f3194c2a94d8ab4ff5ffa96355d4f85"
+    },
+    "work/finrisk_evalset_20261015/prepare_supplement_audit.py": {
+      "bytes": 704,
+      "sha256": "b66365cf446f8653e0314bb926094a1457c680d5f49ff07b34c652446247d9d4"
+    },
+    "work/finrisk_evalset_20261015/progress.md": {
+      "bytes": 3390,
+      "sha256": "5e2a3815a59fe603f3e9e2ff9befebd318f56d7abafeefcb2bc642d01f501684"
+    },
+    "work/finrisk_evalset_20261015/query_spec.json": {
+      "bytes": 8066,
+      "sha256": "1ef916543d978db4013ee3452129da4627eba571cb28b18d65b28445be58eb0c"
+    },
+    "work/finrisk_evalset_20261015/request_engine.py": {
+      "bytes": 7730,
+      "sha256": "0ef595b7dd869a7870dd0292adc64a2f735d9d9fdb601df9170cb6d9d0c729f7"
+    },
+    "work/finrisk_evalset_20261015/retrieval_case_ids.py": {
+      "bytes": 137,
+      "sha256": "d1a9ed095a3a0fb2f4d174cb0848ff69e5201c2b3386971b4f1a00da4a5fe1c1"
+    },
+    "work/finrisk_evalset_20261015/retrieve.py": {
+      "bytes": 6515,
+      "sha256": "81746c96224eaa00b6e74478131c2a9212284e39adccad1a65dca6ab5d651459"
+    },
+    "work/finrisk_evalset_20261015/reviews/part_1/decisions.jsonl": {
+      "bytes": 57342,
+      "sha256": "c55eca19ea673209a200c65ee198a53bb076245dcb5d144a38d5c4716edde54c"
+    },
+    "work/finrisk_evalset_20261015/reviews/part_1/verification_r1.json": {
+      "bytes": 2349,
+      "sha256": "2c6c7df53de1951cca77d28b1708e1edc12257dc40b0ce246848535de1592278"
+    },
+    "work/finrisk_evalset_20261015/reviews/part_1/verify_r1.ps1": {
+      "bytes": 4628,
+      "sha256": "e4e5d80ebf27f6c450905890eaf59d3c721bb048d3f078cf0afa653a4a518793"
+    },
+    "work/finrisk_evalset_20261015/reviews/part_2/decisions.jsonl": {
+      "bytes": 37958,
+      "sha256": "14c2ca39bd2a25820d40c76407ffe625d0f2f4e3a82fe6daddc7b853a6642414"
+    },
+    "work/finrisk_evalset_20261015/reviews/part_2/verification.json": {
+      "bytes": 608,
+      "sha256": "9feaef28d632ee4c26d9d66b30b0f80cf066cc6a9d16dc7ba580dece23bc9b26"
+    },
+    "work/finrisk_evalset_20261015/reviews/part_3/decisions.jsonl": {
+      "bytes": 47202,
+      "sha256": "1f8834d05fafac434a18af0565306d9dcc04a8df10c40ccd33c4d996b38fcb8d"
+    },
+    "work/finrisk_evalset_20261015/reviews/part_3/verification.json": {
+      "bytes": 3948,
+      "sha256": "5a0a5085d617ced3695a800c4ac0a8a3dd28600d4af39bfbef0e98c70a204b03"
+    },
+    "work/finrisk_evalset_20261015/reviews/part_3/verify.ps1": {
+      "bytes": 4971,
+      "sha256": "f4896f5da96170594ae8b036e5dbb9bb96d9bfca83744b066d66158eeff09758"
+    },
+    "work/finrisk_evalset_20261015/scoring.py": {
+      "bytes": 545,
+      "sha256": "16f937c8149de0338a9084535e106d4c3754e4bc44bae78be04bc1f19999ce24"
+    },
+    "work/finrisk_evalset_20261015/seal_delivery.py": {
+      "bytes": 2268,
+      "sha256": "70bfc96e3013438f17f8b7eb3789cc7e6387ee9296f28d1976255f782f9a3dfa"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/decisions.jsonl": {
+      "bytes": 74009,
+      "sha256": "479bd54187382edf8ce48a9001e43bd4ef617dcca5d32d9b4baf90075f6e8a21"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_01.json": {
+      "bytes": 4099,
+      "sha256": "6b1e47e8b2583141f0147a1fee69e6e5f4f8b20a24084f5ca4d281992297adad"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_02.json": {
+      "bytes": 4192,
+      "sha256": "c11ebac45b55814b70839f65f7d8bbf3ae2df1be9209193435d41f4bf33a76f1"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_03.json": {
+      "bytes": 4157,
+      "sha256": "c985be429f74dc57a58bbe18a7d4fbc9c38996ca0bbf86b1f6a54556a590bc13"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_04.json": {
+      "bytes": 4864,
+      "sha256": "45f64d489bc1cdbd796408500eb0bc964d06a6438b0efe245e1fb2b6cd287a18"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_05.json": {
+      "bytes": 4237,
+      "sha256": "982f01b8b789f312f93a1509d2dc819b43f4ea567cdd089244fc9209119d2db2"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_06.json": {
+      "bytes": 2764,
+      "sha256": "624995c27c5addb1c312fe9c618d5c0a649a6b99f20a4161e04a20a72d25ddc5"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_07.json": {
+      "bytes": 4642,
+      "sha256": "43884713875c71512a47fff3af437dc1e397555f64870bdcef6605312ee603e7"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_08.json": {
+      "bytes": 2277,
+      "sha256": "f2b6da066509b5a22b3fc4e428b01b46249c65eb43e3ed248fc3a79365ce9725"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_09.json": {
+      "bytes": 4207,
+      "sha256": "92e560d994cf96f2cab517a8e51e1aeba2dcafbd29a80db00461eb02e8e3b9c4"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_10.json": {
+      "bytes": 3895,
+      "sha256": "f7648a47e5938e3109db25ea49c08c640c00babc94a62ab79c00ffc31c1ff069"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/manual_11.json": {
+      "bytes": 1688,
+      "sha256": "3834b8a7e4a6e396914984998f5b1dbec5e6419375bd57b21b46a3618091ae16"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/serialize_validate.py": {
+      "bytes": 2326,
+      "sha256": "361f01d50981156ad83b8d55967a38a674b30c942550f5fa6b1af6f120b6a9c1"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/validation_report.json": {
+      "bytes": 401,
+      "sha256": "3c767c536d505facf3a75c44d79ca907e415b72e970c2bee4c6f466191d534c9"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_1/verification_report.md": {
+      "bytes": 975,
+      "sha256": "e1609ff15e79d42a944d7c19bfa25838176d073220c7cd2ed3f273e091f195e8"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/batch_01.json": {
+      "bytes": 3725,
+      "sha256": "20fadd562952e3db37cb4d8dc50aea626795da965a792340bf27d9dd2cbd6ee6"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/batch_02.json": {
+      "bytes": 5526,
+      "sha256": "a3d3e41ebc1c82976a7de62559117cd3b4da3e80937dce22a988db468448b933"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/batch_03.json": {
+      "bytes": 5127,
+      "sha256": "96a0a43df7d1618ea64100418566833b5a52af84406fc0dbd89babc615cdd589"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/batch_04.json": {
+      "bytes": 3151,
+      "sha256": "78746e97fb73c74493065228d62106ccb2c54c4d8581c9cc6c465eeb63557569"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/batch_05.json": {
+      "bytes": 5553,
+      "sha256": "8cdd2765ffe52824d95589e1fe600711d14f504f4af825d72ea45e268ca1c126"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/batch_06.json": {
+      "bytes": 3638,
+      "sha256": "b435c135ac57be600ccb6200dfed2d174f1fb912cf22b91ebd414a7ff003f1a0"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/batch_07.json": {
+      "bytes": 4221,
+      "sha256": "86fb628157eb2f9c2c426ef88c64cd6a1264bad5320f6a5057a6bf928b8f976f"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/batch_08.json": {
+      "bytes": 3034,
+      "sha256": "809e20300e77f427e24c88f9d5b8cc6eb4cff38f38983f0495d1c11f5ba26077"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/decisions.jsonl": {
+      "bytes": 64501,
+      "sha256": "7ecb2c7d586fc6b500bde844affa25ea2fa25184e6f6b0854e1e157fb651a37c"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/serialize.py": {
+      "bytes": 2308,
+      "sha256": "ffd6979f99647aa6c543f24be1eaba97d38b03c3c480a656226298d4b6f85a12"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_2/validation_report.json": {
+      "bytes": 599,
+      "sha256": "7438287fb3949a2021c5137fc6c3c344c84ff0036fb9a38b67a4cc5f49076940"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_3/decisions.jsonl": {
+      "bytes": 75866,
+      "sha256": "a2d408fd818fa5686caaccecdceeafe6f049b43a6883e5a91b413162ca8270a0"
+    },
+    "work/finrisk_evalset_20261015/supplement_annotations/part_3/reviews.jsonl": {
+      "bytes": 47186,
+      "sha256": "2c2f44fce2f23468a72893109ffb845fd5e616e73783cfcbfae7ba7598691f13"
+    },
+    "work/finrisk_evalset_20261015/supplement_root_blind_audit.json": {
+      "bytes": 5610,
+      "sha256": "5e4ddc77fb1c13a1f516822929b779a0865c105874fa013e8b368fd8b26a73a4"
+    },
+    "work/finrisk_evalset_20261015/task_plan.md": {
+      "bytes": 4560,
+      "sha256": "b7cc544484cb1ca5528fb822c1652b4147e58aeb407b7b27b4c990dbe7a699dc"
+    },
+    "work/finrisk_evalset_20261015/test_evalset.py": {
+      "bytes": 1952,
+      "sha256": "d417b1ccf52993348a04b606dba5f10fe57f433a5d0cb5ca62c6a2eca4f0d404"
+    },
+    "work/finrisk_evalset_20261015/verify_core.py": {
+      "bytes": 9490,
+      "sha256": "cd349f35b662b2e2121ecc3d50deee4c8ef26321cab5b9d3c81d1b4fa2e74512"
+    },
+    "work/finrisk_evalset_20261015/verify_final.py": {
+      "bytes": 7236,
+      "sha256": "6587bb1284915e9b48a0665d2e272e3b3fe2ebf8a5f54ac2690a10c383762bcf"
+    },
+    "work/finrisk_evalset_20261015/verify_retrieval.py": {
+      "bytes": 5310,
+      "sha256": "bf67488df2990a989fac885357514f8350584fa3e9b424b20fad4b5fd00ee6ef"
+    },
+    "work/finrisk_evalset_20261015/write_readme.py": {
+      "bytes": 10837,
+      "sha256": "1a2ebc19617e8c00c835c48808b9d2af487e29cdc96a89468645d45a19aa1e52"
+    },
+    "work/finrisk_evalset_20261015/write_report.py": {
+      "bytes": 11804,
+      "sha256": "d6b76313fc1d94484c0b76899bf48a36e6c9c519e958f6a099a557863d705679"
+    }
+  },
+  "original_payloads": 177,
+  "closed_queries": 20,
+  "closed_documents": 100,
+  "closed_complete_qrels": 2000,
+  "full_ND_top20_judgments": 400,
+  "human_approved": false,
+  "true_full_corpus_recall_available": false,
+  "weights": [
+    1,
+    1
+  ],
+  "original_sha_restoration_verified": true,
+  "credential_pattern_matches": 0
+}

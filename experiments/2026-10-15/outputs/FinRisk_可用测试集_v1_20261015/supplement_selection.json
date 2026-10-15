@@ -1,0 +1,1470 @@
+{
+  "stage": "ND",
+  "top_k": 20,
+  "outside_documents": 281,
+  "outside_pairs": 365,
+  "no_ranks_shown_to_annotators": true,
+  "closed_reference_not_modified": true,
+  "pairs": [
+    {
+      "query_id": "KBT004",
+      "file_id": "F000055"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F000070"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F000133"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F000227"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F000233"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F000330"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F000390"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F000391"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F000391"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F000392"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F000392"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F000394"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F000397"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F000397"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F000397"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F000422"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F000435"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F000455"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F000479"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F000543"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F000581"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F000598"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F000623"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F000624"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F000660"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F000671"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F000671"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F000671"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F000672"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F000672"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F000674"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F000675"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F000675"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F000682"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F000692"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F000694"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000695"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F000697"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000698"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F000700"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F000732"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F000771"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F000839"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F000839"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F000839"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F000840"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F000841"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F000841"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F000841"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F000842"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F000842"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000843"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000844"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000845"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000846"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000847"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000848"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000849"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000850"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000851"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F000852"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F000852"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000852"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F000853"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F000874"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F000879"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F000890"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F000909"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F000910"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F000910"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F000938"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F001001"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F001007"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F001008"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F001032"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F001043"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F001045"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F001045"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F001045"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001045"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F001045"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001046"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F001048"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F001048"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F001048"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F001066"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F001079"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001097"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F001115"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001115"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001118"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F001125"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F001126"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F001127"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001127"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F001128"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001128"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F001159"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F001163"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F001163"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001169"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001170"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F001190"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F001191"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F001266"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001277"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001315"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F001319"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F001319"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F001320"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F001323"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F001349"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001352"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001353"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F001355"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F001356"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001356"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F001356"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F001356"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F001357"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001357"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F001357"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F001357"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001433"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001434"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F001435"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001435"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F001456"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F001469"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F001501"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001529"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F001529"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F001529"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001530"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F001530"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001531"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F001531"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001535"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F001555"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001576"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F001611"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F001625"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001625"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001647"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001684"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001686"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001687"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F001687"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001693"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001715"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F001716"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F001717"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F001717"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F001730"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F001739"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F001739"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F001739"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F001749"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F001749"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001774"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001783"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F001785"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F001788"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F001794"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F001794"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F001794"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F001795"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F001795"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F001795"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F001816"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001826"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F001828"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001837"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F001838"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F001840"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F001903"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F001910"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F001911"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F001915"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F001918"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F001918"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F001918"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F001943"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F001943"
+    },
+    {
+      "query_id": "KBT013",
+      "file_id": "F001947"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F001949"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F001950"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F001952"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F001952"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001970"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F001971"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F001971"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F001974"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F001975"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F001976"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F001976"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F001977"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F001978"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F001978"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F001980"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F001987"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F001988"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F002002"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F002007"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F002007"
+    },
+    {
+      "query_id": "KBT006",
+      "file_id": "F002016"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F002017"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F002017"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F002021"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F002021"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F002032"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F002033"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F002033"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F002056"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F002056"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F002062"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F002063"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F002063"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F002064"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F002064"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F002066"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F002089"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F002100"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F002122"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F002164"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F002165"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F002180"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F002180"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F002180"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F002180"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F002181"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F002181"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F002202"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F002203"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F002203"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F002227"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F002259"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F002261"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F002283"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F002284"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F002296"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F002337"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F002397"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F002408"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F002408"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F002420"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F002421"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F002485"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F002485"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F002509"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F002555"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F002560"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F002561"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F002561"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F002563"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F002563"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F002564"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F002565"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F002574"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F002594"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F002619"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F002620"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F002621"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F002622"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F002622"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F002623"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F002623"
+    },
+    {
+      "query_id": "KBT015",
+      "file_id": "F002623"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F002623"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F002646"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F002647"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F002649"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F002655"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F002657"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F002665"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F002828"
+    },
+    {
+      "query_id": "KBT018",
+      "file_id": "F002874"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F003042"
+    },
+    {
+      "query_id": "KBT017",
+      "file_id": "F003043"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F003074"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F003075"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F003094"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F003160"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F003189"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F003189"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F003267"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F003284"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F003327"
+    },
+    {
+      "query_id": "KBT020",
+      "file_id": "F003346"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F003425"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F003445"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F003464"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F003464"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F003464"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F003464"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F003484"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F003796"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F003798"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F003880"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F003913"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F004054"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F004146"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F004155"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F004295"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F004365"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F004411"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F004440"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F004440"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F004490"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F004526"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F004548"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F004569"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F004663"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F004968"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F005092"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F005116"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F005300"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F005327"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F005355"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F005530"
+    },
+    {
+      "query_id": "KBT009",
+      "file_id": "F005543"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F005569"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F005812"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F005935"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F005935"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F005935"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F006563"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F006565"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F006567"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F006568"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F006572"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F006634"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F006673"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F006818"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F006916"
+    },
+    {
+      "query_id": "KBT005",
+      "file_id": "F007769"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F007863"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F007926"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F007959"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F008118"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F008133"
+    },
+    {
+      "query_id": "KBT019",
+      "file_id": "F008534"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F008636"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F008648"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F008648"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F008736"
+    },
+    {
+      "query_id": "KBT001",
+      "file_id": "F008743"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F008776"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F008940"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F008944"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F009004"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F009089"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F009090"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F009223"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F009408"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F009411"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F009412"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F009412"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F009510"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F009689"
+    },
+    {
+      "query_id": "KBT014",
+      "file_id": "F009690"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F009787"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F009794"
+    },
+    {
+      "query_id": "KBT004",
+      "file_id": "F009826"
+    },
+    {
+      "query_id": "KBT003",
+      "file_id": "F009979"
+    }
+  ]
+}

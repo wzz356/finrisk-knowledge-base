@@ -1,0 +1,20 @@
+{
+  "reviewer_id": "r2",
+  "source_file": "outputs\\FinRisk_可用测试集_v1_20261015\\annotation_inputs\\part_2.jsonl",
+  "decisions_file": "work\\finrisk_evalset_20261015\\reviews\\part_2\\decisions.jsonl",
+  "document_count": 33,
+  "query_count": 20,
+  "grade_count": 660.0,
+  "grade_distribution": {
+    "0": 518,
+    "1": 80,
+    "2": 16,
+    "3": 46
+  },
+  "source_quote_count": 62,
+  "all_quotes_contiguous_in_corresponding_full_text": true,
+  "all20_queries_reviewed_flags_valid": true,
+  "human_approved_false_for_all": true,
+  "origin": "model_source_review",
+  "errors": []
+}

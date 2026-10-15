@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": {
+    "all_seven_freezes_and_codes_unchanged": true,
+    "core_and_real_retrieval_replay_passed": true,
+    "400_actual_full_top20_pairs_source_bound_35_closed_reused_18_spotchecks": true,
+    "actual_full_top1_MRR_precision_independently_recomputed_no_global_recall": true,
+    "auxiliary_graded_NDCG_independent_formula_recalculation": true,
+    "macro_vs_micro_examples_theoretical_cap_and_CLI_verified": true,
+    "miss_diagnostics_fixed_references": true,
+    "source_selection_queries14_groups5_boundaries_exclusion_checked": true,
+    "deliverable_files_report_numbers_examples_and_command_checked": true,
+    "outputs_and_work_text_secret_scan": true
+  },
+  "check_count": 10,
+  "scanned_text_files": 171,
+  "human_approved": false,
+  "global_true_recall_claimed": false,
+  "verified_at_utc": "2026-10-14T19:24:49.950076+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "BM25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "tokenization": "original project chinese_unigram_bigram",
+    "top_units": 100
+  },
+  "BGE": {
+    "model": "BAAI/bge-small-zh-v1.5",
+    "dim": 512,
+    "pooling": "CLS",
+    "normalization": "L2",
+    "top_units": 100
+  },
+  "RRF": {
+    "weights": [
+      1,
+      1
+    ],
+    "k": 60,
+    "candidate_units": 100
+  },
+  "N0": "BAAI/bge-reranker-base",
+  "ND": "deepseek-flash",
+  "aggregation": "file maximum unit score; file_id tie break",
+  "primary_relevant_grade": 3
+}

@@ -1,0 +1,110 @@
+"""以实测数据生成最终报告，不按结果改题、参考或模型参数。"""
+from common import *
+closed=read(OUT/'closed_metrics_summary.json');full=read(OUT/'full_known_reference_coverage.json');actual=read(OUT/'full_ND_actual_helpfulness.json');refs=read(OUT/'reference_summary.json');cost=read(OUT/'api_cost_audit.json');miss=read(OUT/'closed_miss_diagnostics.json')
+labels={'BM25':'BM25','BGE':'BGE向量','RRF':'1:1 RRF','N0':'RRF＋BGE交叉编码器','ND':'RRF＋DeepSeek Flash'}
+pct=lambda v:f'{v*100:.2f}%'
+value=lambda s,k:s[k]['value'] if isinstance(s[k],dict) else s[k]
+primary='\n'.join('|'+labels[s['stage']]+'|'+ '|'.join([pct(value(s['primary'],k)) for k in ['recall5','recall10','recall20']])+f"|{value(s['primary'],'mrr20'):.4f}|{s['primary']['ndcg5']:.4f}|{s['primary']['ndcg10']:.4f}|{s['primary']['ndcg20']:.4f}|{pct(value(s['primary'],'top1_hit_rate'))} ({s['primary']['top1_hit_count']}/20)|" for s in closed['stages'])
+coverage='\n'.join('|'+labels[s['stage']]+'|'+'|'.join(pct(s['macro'][f'known_reference_coverage{k}']) for k in [5,10,20,100])+'|' for s in full['stages'])
+nd=next(s for s in closed['stages'] if s['stage']=='ND');n0=next(s for s in closed['stages'] if s['stage']=='N0');fm=actual['summary']
+per=read(OUT/'metrics/closed100_ND.json')['primary_per_query'];qspec={q['query_id']:q for q in rows(OUT/'query_specs.jsonl')}
+per_table='\n'.join(f"|{r['query_id']}|{qspec[r['query_id']]['group']}|{r['positive_reference_count']}|{r['relevant_count20']}|{pct(r['recall20']['value'])}|{r['first_relevant_rank_within_cutoff']}|" for r in per)
+aux='\n'.join(f"|{labels[s['stage']]}|{s['auxiliary_graded_ndcg']['ndcg5']:.4f}|{s['auxiliary_graded_ndcg']['ndcg10']:.4f}|{s['auxiliary_graded_ndcg']['ndcg20']:.4f}|" for s in closed['stages'])
+text=f'''# FinRisk可用测试集v1：实测指标与结论
+
+已构建20题×100源文书的完整封闭测试集，并运行BM25、BGE、1:1 RRF、交叉编码器和DeepSeek重排对照。主指标只计“同机制直接支撑”的3分文书。DeepSeek在闭集上的Recall@20为90.73%、MRR@20为0.9375、NDCG@20为0.8868、Top-1为18/20。全9639文书补充检索也已实跑，实际返回Top20全部完成判断；其Top1为18/20、MRR@20为0.95，但没有全库真实Recall分母。
+
+## 1. 测试集是否可用
+
+- 20条源案例机制合成业务输入，14种机制，5道合规边界题；100份真实完整原文，818个V2检索单元。
+- 2000个配对逐对明确判断，两轮独立盲读各覆盖全部矩阵；不是没找到就自动记0。
+- 最终3分140对、2分78对、1分232对、0分1550对。每题直接参考1—22份，无零正例题。
+- 两轮1930对原始等级相同；25处计分分歧根据原文裁定；45处仅0/1差异保留并注明，不影响计分。额外抽查6个机制容易混淆的负例。
+- 问题和语料在检索前冻结，参考裁定不读取具体排名；随后分别冻结参考和预测，再评分。没有调融合权重、改模型或为提高指标改答案。
+- 全部标注为模型判断，human_approved=false。它是可复核的银标诊断集，仍需人工抽样验收，不能称人工金标准或官方赛事成绩。
+
+## 2. 封闭100文书：主四指标
+
+下表20题等权宏平均；四项均以3分为相关，主NDCG采用二值相关性。Recall分母完整但仅限这100份文书。BM25与BGE各100单元，1:1 RRF(k=60)后选前100单元；N0、ND重排完全相同候选。按文书最高单元分聚合，F编号去重。
+
+|方法|Recall@5|Recall@10|Recall@20|MRR@20|NDCG@5|NDCG@10|NDCG@20|Top-1|
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+{primary}
+
+DeepSeek较交叉编码器的Recall@20提高{(value(nd['primary'],'recall20')-value(n0['primary'],'recall20'))*100:.2f}个百分点，MRR@20提高{value(nd['primary'],'mrr20')-value(n0['primary'],'mrr20'):.4f}，Top1提高10个百分点。本集只有20题，不能据此宣称稳定的总体优势。
+
+BM25单路在这批源机制问题上比BGE单路更强。1:1融合并非每个指标都超过BM25，但后续DeepSeek重排改善了靠前位置；按已约定继续保持1:1，这次不根据测试结果搜索权重。附14机制等权宏平均：DeepSeek Recall@20={pct(nd['group_macro']['recall20'])}、MRR@20={nd['group_macro']['mrr20']:.4f}、Top1={pct(nd['group_macro']['top1_hit_rate'])}；此为题目成对相关性的敏感性观察，不替代主20题宏平均。
+
+### DeepSeek逐题结果
+
+|题号|机制|全部直接参考|Top20直接数|Recall@20|首个直接名次|
+|---|---|---:|---:|---:|---:|
+{per_table}
+
+例如KBT007为6/8=75%。全部题Top20共找到122个直接配对，122/140=87.14%是配对微平均，与逐题宏平均90.73%不同；主报告用后者。KBT011/012各有22份参考，Top20即使全相关也不能达到100%Recall；本集宏平均Recall@20的文书数量理论上限为99.09%。
+
+### 尚未解决的错误
+
+闭集ND Top20漏掉18个直接配对：8个不在RRF前100候选单元对应的文书中，10个进入候选后排在20名之外。这个分类按文书是否进入候选计算；文书进入并不保证其关键事实片段进入，因此后10个还可能包含片段选择或上下文缺失问题，不能一概归罪于重排模型。
+
+- KBT004首位是F001375，属于收益保证的部分帮助；明确保险/银行性质比较案例首次出现在第4名，重排门槛与全文参考存在偏差。
+- KBT010首位F001507只泛称停售误导，未披露实际未停售；直接对照案例首次在第2名。合规边界输入的条件比较仍不稳定。
+- 部分漏例源文书明示直接机制，而实际进入候选的片段没有该事实，API可能给0分。完整明细及原文在`closed_miss_diagnostics.json`，参考未因此降级。
+
+## 3. 全9639文书：已知参考覆盖
+
+分母仍是封闭100文书内各题的全部3分文书，仅回答“全库排名找回了多少已知参考ID”。全库另外有其他相关文书，不知道其全部数量，因此下表不能叫全库真实Recall，也不据此计算全库完整NDCG。
+
+|方法|已知覆盖@5|已知覆盖@10|已知覆盖@20|已知覆盖：全部返回候选文书|
+|---|---:|---:|---:|---:|
+{coverage}
+
+最后一列文件字段名为coverage100：实际100单元聚合后文书不足100，但取全部返回文书。全库ND每题返回52—81份候选文书，平均69.4；闭集为39—53份，平均44.25。RRF/N0/ND候选文书集合相同，所以最后一列相同；重排无法新增候选以外的文书。
+
+ND已知覆盖@20为31.81%，候选文书整体覆盖41.69%。它显示扩库后已知案例发生了候选竞争和排序变化；还不能证明返回的其他案例没有帮助。全库BM25已知参考候选覆盖49.23%，BGE为25.05%，说明下一轮值得检验候选文书多样性和向量通路的机制匹配。这里没有进行新的候选量/去重策略调优。
+
+## 4. 全库ND实际结果是否有帮助
+
+20题的前20份文书，共400个实际配对全部按完整原文判断。35对直接复用闭集既有参考；365个库外配对涉及281份原文，独立盲读后主会话固定随机抽查18对，17对一致，1处2→1边界裁定不影响3分主口径。原分片标签与修订均留存。补充池单轮加抽查，审核强度低于闭集双轮。
+
+|指标|实测值|含义|
+|---|---:|---|
+|Top-1直接命中率|{pct(fm['top1_hit_rate'])} ({fm['top1_hit_count']}/20)|首份原文直接帮助|
+|MRR@20|{fm['mrr20']:.4f}|前20首个直接案例的倒数宏平均|
+|Success@20|{pct(fm['success20'])}|前20至少有一份直接案例|
+|Precision@5|{pct(fm['precision5'])}|前5直接支撑占比|
+|Precision@10|{pct(fm['precision10'])}|前10直接支撑占比|
+|Precision@20|{pct(fm['precision20'])} (261/400)|前20直接支撑占比|
+
+Top1未直接命中的两题是KBT005与KBT008，首个直接均在第2名。400对中3分261、2分63、1分65、0分11。库外365对有232个新的直接配对；这说明只以那100份参考文件是否命中评价全库，会漏记许多可用案例。
+
+仅对返回Top20完全标注足够计算上述Top1、MRR@20、Precision@K和Success@20；它不足以计算全库真正Recall或完整NDCG。不要把“261个已见直接配对”当全库相关总量，也不要把Top20以外的未标注文件自动填0。全库补充标签不会回填闭集分母。
+
+## 5. 附分级NDCG
+
+下表是闭集附指标：3分增益3、2分增益1、0/1增益0；只观察部分帮助的排序，不改变主Recall/MRR/Top1标准。
+
+|方法|分级NDCG@5|分级NDCG@10|分级NDCG@20|
+|---|---:|---:|---:|
+{aux}
+
+## 6. 运行、费用与验证
+
+实际本地检索共40个范围—题目组合，包含模型冷加载与缓存检查84.94秒；闭集检索7.37秒、全库32.40秒，embedding和交叉编码器输入截断均为0。DeepSeek完成3877个独立评分，8并发；123个完全相同输入跨范围复用，共3957次尝试，80次失败或格式拒绝后重试，没有缺评分补默认值。
+
+3919个响应有可核算usage，共输入3197220 token、输出387134 token。已知usage估算费用${cost['usage_based_estimated_usd']:.4f}；38个未知usage失败请求另按预留计账，含不确定请求及峰值价的保守预算记账上界${cost['conservative_peak_booked_bound_usd']:.4f}，没有达到2美元保护上限。此为日志估算而非账户账单，价格依据[DeepSeek官方价格表](https://api-docs.deepseek.com/quick_start/pricing/)。
+
+验证已覆盖：2000完整矩阵及双轮原文引用、25处裁定、源原文和索引哈希、查询/文档真实向量及闭集子集、40题BM25/BGE/RRF回放、200条阶段文书排名最大分聚合、3877个评分与实际响应绑定、独立四指标公式重算、可移植评分入口实跑、5项针对缺评/假引文/门槛/源兜底的测试。既有封存实验未改动。全库补充的400配对、原文证据、Top1/MRR/Precision及附分级NDCG独立重算也已验证通过；记录见`core_verification.json`、`retrieval_verification.json`、`final_verification.json`。可移植包另在独立目录解压后实跑五种排名，结果见`portable_verification.json`。
+
+首次检索适配发现原文兜底单元case_ids为空导致接口失败，沿用原后端既有case_id修正后通过回归；原索引未改。向量回放检查一度漏拼查询编码指令，核对原后端后修正验证输入并通过；排名未变。补充第3片在最终汇报时遇模型容量错误，但全部120条显式语义判断已写入，主会话仅补来源元数据并验证精确覆盖，未补语义评分。
+
+## 7. 建议如何验收和继续
+
+先看`人工验收样例.md`的5对及6个困难反例，确认“3分直接/2分部分”的边界。完整参考、实测排名和标准库评分工具可直接用于同配置回归比较。保持v1冻结，不在看见错误后反复修改同一参考来提高数值。
+
+若继续改进，优先用新的开发输入验证：候选单元重复是否挤掉文书、被召回文件的关键事实是否实际送入重排、合规边界是否被错误当一般主题。将当前20题用于调参后，就需要另建独立业务输入测试集。要报全9639真Recall，仍需至少对选定少数题穷尽全库相关性，或者明确使用抽样估计并给不确定性；本次没有冒充完成这一步。
+
+精选100份小库、源案例合成问题、机制成对输入、同事件不同主体罚单、尚未经人工批准的模型标签都可能使成绩偏乐观或存在边界误差。本版能作为可重复的诊断与演示，不替代官方评测和真实业务验收。
+'''
+(OUT/'指标报告.md').write_text(text,encoding='utf-8')
+print(json.dumps({'report_created':True,'closed_macro_recall20':value(nd['primary'],'recall20'),'full_precision20':fm['precision20']},ensure_ascii=False))

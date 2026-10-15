@@ -1,0 +1,18 @@
+{
+  "assigned_documents": 94,
+  "assigned_pairs": 127,
+  "reviewed_pairs": 127,
+  "grade_distribution": {
+    "0": 2,
+    "1": 26,
+    "2": 16,
+    "3": 83
+  },
+  "duplicate_pairs": 0,
+  "unknown_pairs": 0,
+  "missing_pairs": [],
+  "source_sha256_matches": true,
+  "quotes_are_exact_source_substrings": true,
+  "all_reasons_and_limitations_present": true,
+  "exact_coverage": true
+}

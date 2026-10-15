@@ -1,0 +1,35 @@
+{
+  "path": "outputs/FinRisk_可用测试集_v1_20261015/all_results.jsonl",
+  "bytes": 79568817,
+  "sha256": "2b710119149b24b600b154499f6acfbb1d8b8322a4ab02918d7b1cb753945871",
+  "parts": [
+    {
+      "path": "outputs/FinRisk_可用测试集_v1_20261015/all_results.jsonl/part-0001.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1729747,
+      "sha256": "2d837cd9fae9bb1593081aa54fffcee3327e0e41ce770976e32b3c9917eec091",
+      "uncompressed_bytes": 20763811
+    },
+    {
+      "path": "outputs/FinRisk_可用测试集_v1_20261015/all_results.jsonl/part-0002.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1750725,
+      "sha256": "bd3d5fa8d536b50679ce04b617d75d1d0735c2ee230b62d390dfef2ccd63728d",
+      "uncompressed_bytes": 20424014
+    },
+    {
+      "path": "outputs/FinRisk_可用测试集_v1_20261015/all_results.jsonl/part-0003.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1925203,
+      "sha256": "b52ec94af1d1f4f19abaab383a8a97836dace4d5d5f22e4fb1a55abcdaf9aea0",
+      "uncompressed_bytes": 20868068
+    },
+    {
+      "path": "outputs/FinRisk_可用测试集_v1_20261015/all_results.jsonl/part-0004.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 1470885,
+      "sha256": "731773f1d2bb0b9f7656ad704d3c53dbe882ab33d39e20153a4a700f82019d54",
+      "uncompressed_bytes": 17512924
+    }
+  ]
+}

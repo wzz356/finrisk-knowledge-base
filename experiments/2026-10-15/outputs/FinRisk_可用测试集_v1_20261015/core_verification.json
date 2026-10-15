@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": {
+    "all_freeze_and_code_hashes": true,
+    "complete_2000_source_bound_labels_two_blind_rounds_25_adjudications_6_negatives": true,
+    "trec_formats_explicit_full_matrix": true,
+    "3877_real_API_scores_4000_bindings_raw_response_replay_cost_bound": true,
+    "five_stages_four_metrics_independent_formula_recalculation": true,
+    "portable_evaluator_real_ranking_and_unknown_guard": true,
+    "full_known_coverage_not_true_recall": true,
+    "previous_sealed_experiment_unchanged": true,
+    "new_outputs_no_API_keys": true
+  },
+  "check_count": 9,
+  "verified_at_utc": "2026-10-14T19:06:39.702731+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "reviewer_id": "p3",
+  "source_documents": 33,
+  "decision_documents": 33,
+  "total_grades": 660.0,
+  "grade_counts": {
+    "0": 504,
+    "1": 88,
+    "2": 23,
+    "3": 45
+  },
+  "evidence_entries": 68,
+  "checks_passed": true,
+  "errors": [],
+  "human_approved": false,
+  "annotation_origin": "model_source_review"
+}

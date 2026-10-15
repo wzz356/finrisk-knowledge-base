@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-14T18:25:14.444017+00:00",
+  "before_API_and_metrics": true,
+  "sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\closed_index_units.jsonl": "2405b74ba6662cc091fedfc05ea07045c32343e6f56acc78456f8a9d0f9f769d",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\closed_vector_binding.json": "69b815a1356814e8d11c32a4f8a00957f7c615f48772b734096b31fe64e8d0df",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\local_model_log.json": "720c8020ef6015ae8f43ddb560e1ae4897133274149366ea7ce7b06fe3dbc308",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\score_inputs.jsonl": "71c5f2ef8790d00af3a85aae81f6f972364764c3c7b87303314b9f02d37dcf54",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\candidate_map.jsonl": "3f97bc93527836cdb0bf3ad611418348dba68986187e770a606b60f19f0ecca3",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\local_results.jsonl": "1456acdaf96324a17494b00e79c6c865a2889ab61e45ae9fdc15cd408dd8451f",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\routes.jsonl": "64a39830cdff3a8ff1a0b4f52a2699514fabb8c659a569b583133860485add8e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\retrieval_completion.json": "7e6115cfa996b789cdd1c1acb6737bf87c3ea1dc3e804a6e13d0e6138841888e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\retrieval.token_audit.jsonl": "17e5125468562412b2e80b388d6ffc763b85b7a5800c07d9fe9b1050dd982072"
+  },
+  "code_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\retrieve.py": "81746c96224eaa00b6e74478131c2a9212284e39adccad1a65dca6ab5d651459",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\retrieval_case_ids.py": "d1a9ed095a3a0fb2f4d174cb0848ff69e5201c2b3386971b4f1a00da4a5fe1c1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\runner.py": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_v2_20261012\\run_v2.py": "c846cac66071c7f83028d99fb5968332655d51bb550abe4047cf0505c5ad44d4",
+    "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\src\\retrieval\\sparse.py": "9a2b7f33342818fc5d00a5aba93a4fbb6378e9f7fe5c88a1501b17b0d3fe45bb",
+    "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\src\\retrieval\\tokenization.py": "5c53e4fe5ebb47657bb6e191b56074889b571b6a85941da516a314d657518465"
+  }
+}

@@ -1,0 +1,968 @@
+{
+  "scope": "full9639",
+  "denominator": "all grade3 documents inside the 100-document closed corpus only",
+  "not_true_full_corpus_recall": true,
+  "unjudged_files_not_marked_nonrelevant": true,
+  "stages": [
+    {
+      "stage": "BM25",
+      "metric_name": "known_closed_reference_coverage_not_full_corpus_recall",
+      "per_query": [
+        {
+          "query_id": "KBT001",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.125,
+          "known_reference_coverage10": 0.25,
+          "known_reference_coverage20": 0.25,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT002",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.125,
+          "known_reference_coverage100": 0.25,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT003",
+          "known_direct_count": 5,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.4,
+          "known_reference_coverage20": 0.4,
+          "known_reference_coverage100": 0.4,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT004",
+          "known_direct_count": 5,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT005",
+          "known_direct_count": 2,
+          "known_reference_coverage5": 1.0,
+          "known_reference_coverage10": 1.0,
+          "known_reference_coverage20": 1.0,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT006",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.75,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT007",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.375,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT008",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT009",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.25,
+          "known_reference_coverage10": 0.5,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT010",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.25,
+          "known_reference_coverage10": 0.5,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT011",
+          "known_direct_count": 22,
+          "known_reference_coverage5": 0.045454545454545456,
+          "known_reference_coverage10": 0.045454545454545456,
+          "known_reference_coverage20": 0.045454545454545456,
+          "known_reference_coverage100": 0.09090909090909091,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT012",
+          "known_direct_count": 22,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.045454545454545456,
+          "known_reference_coverage100": 0.09090909090909091,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT013",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.14285714285714285,
+          "known_reference_coverage20": 0.5714285714285714,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 16
+        },
+        {
+          "query_id": "KBT014",
+          "known_direct_count": 1,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 16
+        },
+        {
+          "query_id": "KBT015",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.7142857142857143,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT016",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.14285714285714285,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.2857142857142857,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT017",
+          "known_direct_count": 6,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.3333333333333333,
+          "known_reference_coverage100": 0.6666666666666666,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT018",
+          "known_direct_count": 9,
+          "known_reference_coverage5": 0.1111111111111111,
+          "known_reference_coverage10": 0.1111111111111111,
+          "known_reference_coverage20": 0.1111111111111111,
+          "known_reference_coverage100": 0.2222222222222222,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT019",
+          "known_direct_count": 2,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT020",
+          "known_direct_count": 1,
+          "known_reference_coverage5": 1.0,
+          "known_reference_coverage10": 1.0,
+          "known_reference_coverage20": 1.0,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 19
+        }
+      ],
+      "macro": {
+        "known_reference_coverage5": 0.13907828282828283,
+        "known_reference_coverage10": 0.20461399711399714,
+        "known_reference_coverage20": 0.2726605339105339,
+        "known_reference_coverage100": 0.4922853535353536
+      }
+    },
+    {
+      "stage": "BGE",
+      "metric_name": "known_closed_reference_coverage_not_full_corpus_recall",
+      "per_query": [
+        {
+          "query_id": "KBT001",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.125,
+          "known_reference_coverage20": 0.375,
+          "known_reference_coverage100": 0.375,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT002",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.125,
+          "known_reference_coverage100": 0.375,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT003",
+          "known_direct_count": 5,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT004",
+          "known_direct_count": 5,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT005",
+          "known_direct_count": 2,
+          "known_reference_coverage5": 0.5,
+          "known_reference_coverage10": 0.5,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT006",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.25,
+          "known_reference_coverage20": 0.25,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT007",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.125,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT008",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT009",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.25,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT010",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT011",
+          "known_direct_count": 22,
+          "known_reference_coverage5": 0.045454545454545456,
+          "known_reference_coverage10": 0.045454545454545456,
+          "known_reference_coverage20": 0.045454545454545456,
+          "known_reference_coverage100": 0.045454545454545456,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT012",
+          "known_direct_count": 22,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.045454545454545456,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT013",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.5714285714285714,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT014",
+          "known_direct_count": 1,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT015",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.14285714285714285,
+          "known_reference_coverage10": 0.2857142857142857,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.5714285714285714,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT016",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.14285714285714285,
+          "known_reference_coverage10": 0.14285714285714285,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.42857142857142855,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT017",
+          "known_direct_count": 6,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT018",
+          "known_direct_count": 9,
+          "known_reference_coverage5": 0.1111111111111111,
+          "known_reference_coverage10": 0.1111111111111111,
+          "known_reference_coverage20": 0.1111111111111111,
+          "known_reference_coverage100": 0.2222222222222222,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT019",
+          "known_direct_count": 2,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT020",
+          "known_direct_count": 1,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 1.0,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 19
+        }
+      ],
+      "macro": {
+        "known_reference_coverage5": 0.047113997113997115,
+        "known_reference_coverage10": 0.07300685425685426,
+        "known_reference_coverage20": 0.16318542568542568,
+        "known_reference_coverage100": 0.2504779942279942
+      }
+    },
+    {
+      "stage": "RRF",
+      "metric_name": "known_closed_reference_coverage_not_full_corpus_recall",
+      "per_query": [
+        {
+          "query_id": "KBT001",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.125,
+          "known_reference_coverage20": 0.375,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT002",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.125,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT003",
+          "known_direct_count": 5,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.4,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT004",
+          "known_direct_count": 5,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT005",
+          "known_direct_count": 2,
+          "known_reference_coverage5": 0.5,
+          "known_reference_coverage10": 0.5,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT006",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT007",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.125,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT008",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT009",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.25,
+          "known_reference_coverage10": 0.25,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT010",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT011",
+          "known_direct_count": 22,
+          "known_reference_coverage5": 0.045454545454545456,
+          "known_reference_coverage10": 0.045454545454545456,
+          "known_reference_coverage20": 0.045454545454545456,
+          "known_reference_coverage100": 0.045454545454545456,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT012",
+          "known_direct_count": 22,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.045454545454545456,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT013",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.14285714285714285,
+          "known_reference_coverage10": 0.14285714285714285,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT014",
+          "known_direct_count": 1,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT015",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.2857142857142857,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.5714285714285714,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT016",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.14285714285714285,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.42857142857142855,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT017",
+          "known_direct_count": 6,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT018",
+          "known_direct_count": 9,
+          "known_reference_coverage5": 0.1111111111111111,
+          "known_reference_coverage10": 0.2222222222222222,
+          "known_reference_coverage20": 0.2222222222222222,
+          "known_reference_coverage100": 0.2222222222222222,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT019",
+          "known_direct_count": 2,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT020",
+          "known_direct_count": 1,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 1.0,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 19
+        }
+      ],
+      "macro": {
+        "known_reference_coverage5": 0.05247113997113997,
+        "known_reference_coverage10": 0.08570526695526695,
+        "known_reference_coverage20": 0.20624098124098125,
+        "known_reference_coverage100": 0.4169065656565657
+      }
+    },
+    {
+      "stage": "N0",
+      "metric_name": "known_closed_reference_coverage_not_full_corpus_recall",
+      "per_query": [
+        {
+          "query_id": "KBT001",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.125,
+          "known_reference_coverage10": 0.125,
+          "known_reference_coverage20": 0.25,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT002",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.125,
+          "known_reference_coverage10": 0.125,
+          "known_reference_coverage20": 0.125,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT003",
+          "known_direct_count": 5,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.2,
+          "known_reference_coverage100": 0.4,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT004",
+          "known_direct_count": 5,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT005",
+          "known_direct_count": 2,
+          "known_reference_coverage5": 0.5,
+          "known_reference_coverage10": 0.5,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT006",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT007",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.125,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT008",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT009",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.25,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT010",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.25,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT011",
+          "known_direct_count": 22,
+          "known_reference_coverage5": 0.045454545454545456,
+          "known_reference_coverage10": 0.045454545454545456,
+          "known_reference_coverage20": 0.045454545454545456,
+          "known_reference_coverage100": 0.045454545454545456,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT012",
+          "known_direct_count": 22,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.045454545454545456,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT013",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.2857142857142857,
+          "known_reference_coverage10": 0.2857142857142857,
+          "known_reference_coverage20": 0.5714285714285714,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 16
+        },
+        {
+          "query_id": "KBT014",
+          "known_direct_count": 1,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT015",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.14285714285714285,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.5714285714285714,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT016",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.42857142857142855,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT017",
+          "known_direct_count": 6,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.16666666666666666,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT018",
+          "known_direct_count": 9,
+          "known_reference_coverage5": 0.2222222222222222,
+          "known_reference_coverage10": 0.2222222222222222,
+          "known_reference_coverage20": 0.2222222222222222,
+          "known_reference_coverage100": 0.2222222222222222,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT019",
+          "known_direct_count": 2,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT020",
+          "known_direct_count": 1,
+          "known_reference_coverage5": 1.0,
+          "known_reference_coverage10": 1.0,
+          "known_reference_coverage20": 1.0,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 19
+        }
+      ],
+      "macro": {
+        "known_reference_coverage5": 0.11516955266955267,
+        "known_reference_coverage10": 0.1348124098124098,
+        "known_reference_coverage20": 0.22011002886002884,
+        "known_reference_coverage100": 0.4169065656565657
+      }
+    },
+    {
+      "stage": "ND",
+      "metric_name": "known_closed_reference_coverage_not_full_corpus_recall",
+      "per_query": [
+        {
+          "query_id": "KBT001",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.125,
+          "known_reference_coverage10": 0.375,
+          "known_reference_coverage20": 0.375,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT002",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.125,
+          "known_reference_coverage10": 0.125,
+          "known_reference_coverage20": 0.25,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT003",
+          "known_direct_count": 5,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.4,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT004",
+          "known_direct_count": 5,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT005",
+          "known_direct_count": 2,
+          "known_reference_coverage5": 1.0,
+          "known_reference_coverage10": 1.0,
+          "known_reference_coverage20": 1.0,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT006",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.25,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT007",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.125,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT008",
+          "known_direct_count": 8,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 20
+        },
+        {
+          "query_id": "KBT009",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.5,
+          "known_reference_coverage10": 0.5,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT010",
+          "known_direct_count": 4,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.25,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 16
+        },
+        {
+          "query_id": "KBT011",
+          "known_direct_count": 22,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.045454545454545456,
+          "known_reference_coverage100": 0.045454545454545456,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT012",
+          "known_direct_count": 22,
+          "known_reference_coverage5": 0.045454545454545456,
+          "known_reference_coverage10": 0.045454545454545456,
+          "known_reference_coverage20": 0.045454545454545456,
+          "known_reference_coverage100": 0.045454545454545456,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT013",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.14285714285714285,
+          "known_reference_coverage10": 0.42857142857142855,
+          "known_reference_coverage20": 0.7142857142857143,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 15
+        },
+        {
+          "query_id": "KBT014",
+          "known_direct_count": 1,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.0,
+          "known_reference_coverage20": 0.0,
+          "known_reference_coverage100": 0.0,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT015",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.14285714285714285,
+          "known_reference_coverage10": 0.2857142857142857,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.5714285714285714,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT016",
+          "known_direct_count": 7,
+          "known_reference_coverage5": 0.14285714285714285,
+          "known_reference_coverage10": 0.14285714285714285,
+          "known_reference_coverage20": 0.2857142857142857,
+          "known_reference_coverage100": 0.42857142857142855,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT017",
+          "known_direct_count": 6,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.16666666666666666,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 17
+        },
+        {
+          "query_id": "KBT018",
+          "known_direct_count": 9,
+          "known_reference_coverage5": 0.1111111111111111,
+          "known_reference_coverage10": 0.1111111111111111,
+          "known_reference_coverage20": 0.1111111111111111,
+          "known_reference_coverage100": 0.2222222222222222,
+          "unjudged_outside_closed_top20": 19
+        },
+        {
+          "query_id": "KBT019",
+          "known_direct_count": 2,
+          "known_reference_coverage5": 0.0,
+          "known_reference_coverage10": 0.5,
+          "known_reference_coverage20": 0.5,
+          "known_reference_coverage100": 0.5,
+          "unjudged_outside_closed_top20": 18
+        },
+        {
+          "query_id": "KBT020",
+          "known_direct_count": 1,
+          "known_reference_coverage5": 1.0,
+          "known_reference_coverage10": 1.0,
+          "known_reference_coverage20": 1.0,
+          "known_reference_coverage100": 1.0,
+          "unjudged_outside_closed_top20": 19
+        }
+      ],
+      "macro": {
+        "known_reference_coverage5": 0.16675685425685424,
+        "known_reference_coverage10": 0.24651875901875903,
+        "known_reference_coverage20": 0.3181367243867244,
+        "known_reference_coverage100": 0.4169065656565657
+      }
+    }
+  ]
+}

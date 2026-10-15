@@ -1,0 +1,251 @@
+{
+  "missing_direct_pairs_from_top20": 18,
+  "candidate_absent": 8,
+  "rank_after20": 10,
+  "misses": [
+    {
+      "query_id": "KBT001",
+      "file_id": "F009543",
+      "direct_quote": "存在混淆保险产品与银行产品、以保险合同未确定利益承诺保证收益、以限时限量购买为由进行宣\n传销售等违法行为",
+      "rank": 46,
+      "in_100_unit_candidates": true,
+      "best_unit_score": 0,
+      "structural_reason": "ranked_after_20"
+    },
+    {
+      "query_id": "KBT002",
+      "file_id": "F009540",
+      "direct_quote": "存在混淆保险产品与银行产品、以保险合同未确定利益承诺保证收益、以限时限量购买为由进行宣\n传销售等违法行为",
+      "rank": null,
+      "in_100_unit_candidates": false,
+      "best_unit_score": null,
+      "structural_reason": "not_in_candidate_units"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F005815",
+      "direct_quote": "对工银安盛人寿保险有限公司山西分\n公司内部培训片面夸大保险责任事项\n负有责任",
+      "rank": null,
+      "in_100_unit_candidates": false,
+      "best_unit_score": null,
+      "structural_reason": "not_in_candidate_units"
+    },
+    {
+      "query_id": "KBT007",
+      "file_id": "F009323",
+      "direct_quote": "其中11场次存在虚假宣传与保险业务相关的法律、法规、政策,错误解释保\n险合同条款,夸大保险责任或者保险产品收益,混淆说明产品定价利率与投保人收益率等欺骗投保人的行为。",
+      "rank": null,
+      "in_100_unit_candidates": false,
+      "best_unit_score": null,
+      "structural_reason": "not_in_candidate_units"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F000683",
+      "direct_quote": "主要表现为夸大保险责任或\n保险产品收益,利用营销手段进行不实宣传,对法律、法规、政策作不实宣传等。",
+      "rank": 24,
+      "in_100_unit_candidates": true,
+      "best_unit_score": 0,
+      "structural_reason": "ranked_after_20"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F000699",
+      "direct_quote": "对理赔手\n续、时效等服务夸大宣传,擅自扩大保险责任,对本公司进行夸大宣传并诋毁同业公司等。",
+      "rank": 25,
+      "in_100_unit_candidates": true,
+      "best_unit_score": 0,
+      "structural_reason": "ranked_after_20"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F000819",
+      "direct_quote": "存在夸大保险产品收益、夸大保险责任、",
+      "rank": 26,
+      "in_100_unit_candidates": true,
+      "best_unit_score": 0,
+      "structural_reason": "ranked_after_20"
+    },
+    {
+      "query_id": "KBT008",
+      "file_id": "F005815",
+      "direct_quote": "对工银安盛人寿保险有限公司山西分\n公司内部培训片面夸大保险责任事项\n负有责任",
+      "rank": null,
+      "in_100_unit_candidates": false,
+      "best_unit_score": null,
+      "structural_reason": "not_in_candidate_units"
+    },
+    {
+      "query_id": "KBT010",
+      "file_id": "F000822",
+      "direct_quote": "以即将停售为由宣传实际并未停售的产品",
+      "rank": null,
+      "in_100_unit_candidates": false,
+      "best_unit_score": null,
+      "structural_reason": "not_in_candidate_units"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F005881",
+      "direct_quote": "对太平财险常德中支车险业务给予投保\n人保险合同约定以外利益的行为承担直\n接责任",
+      "rank": null,
+      "in_100_unit_candidates": false,
+      "best_unit_score": null,
+      "structural_reason": "not_in_candidate_units"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F006713",
+      "direct_quote": "对该公司给予投保人保险合同约定\n以外利益的违法违规行为负有直接责任",
+      "rank": null,
+      "in_100_unit_candidates": false,
+      "best_unit_score": null,
+      "structural_reason": "not_in_candidate_units"
+    },
+    {
+      "query_id": "KBT011",
+      "file_id": "F007120",
+      "direct_quote": "对中国人寿保险股份有限公司贵阳市都司支公\n司给予或者承诺给予投保人保险合同约定以外\n利益事项负有责任",
+      "rank": null,
+      "in_100_unit_candidates": false,
+      "best_unit_score": null,
+      "structural_reason": "not_in_candidate_units"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F000495",
+      "direct_quote": "2017年6月至7月,天安财险重庆分公司采用向投保人赠送加油卡的方式,给予投保人保险合同约定以外的其他利益。",
+      "rank": 23,
+      "in_100_unit_candidates": true,
+      "best_unit_score": 15,
+      "structural_reason": "ranked_after_20"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F001363",
+      "direct_quote": "你支公司制定激励方案,对寿险营销员销售车险保单给予实物礼品奖励,实际由寿险营销员赠送给投保人。",
+      "rank": 21,
+      "in_100_unit_candidates": true,
+      "best_unit_score": 20,
+      "structural_reason": "ranked_after_20"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F004455",
+      "direct_quote": "欺骗投保人和\n给予投保人保\n险合同约定以\n外的利益",
+      "rank": 27,
+      "in_100_unit_candidates": true,
+      "best_unit_score": 15,
+      "structural_reason": "ranked_after_20"
+    },
+    {
+      "query_id": "KBT012",
+      "file_id": "F005881",
+      "direct_quote": "对太平财险常德中支车险业务给予投保\n人保险合同约定以外利益的行为承担直\n接责任",
+      "rank": 28,
+      "in_100_unit_candidates": true,
+      "best_unit_score": 15,
+      "structural_reason": "ranked_after_20"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F001823",
+      "direct_quote": "为了完成回访任务,公司员工刘雪梅授意他\n人代替投保人在客户回访函上签名后交回公司。",
+      "rank": 29,
+      "in_100_unit_candidates": true,
+      "best_unit_score": 0,
+      "structural_reason": "ranked_after_20"
+    },
+    {
+      "query_id": "KBT016",
+      "file_id": "F001948",
+      "direct_quote": "2012年1-7月,有21份回访问卷非投保人本人签名,其中3名客户并未接受过公司回访。",
+      "rank": 30,
+      "in_100_unit_candidates": true,
+      "best_unit_score": 0,
+      "structural_reason": "ranked_after_20"
+    }
+  ],
+  "top1_non_direct": [
+    {
+      "query_id": "KBT004",
+      "query_text": "顾问明确说明这不是银行存款，准备比较前先列出保障范围、费用、退保损失和使用资金的限制，再说明保险演示收益与存款利息计算条件不同，不据此保证哪一种更高。",
+      "file_id": "F001375",
+      "reference": {
+        "document_mechanism_summary": "太平人寿北京东城支公司产品说明会上讲师孙涛虚构限时限额限购，实际未限售，并承诺红利不确定产品6%基本收益、上不封顶；本件处罚机构。未披露银行比较、回访、合同外赠礼、代抄代签或其他题目操作。",
+        "explicit_matrix_decision": true,
+        "file_id": "F001375",
+        "grade": 2,
+        "human_approved": false,
+        "initial_grade": 2,
+        "initial_reviewer_id": "p1",
+        "limitation": "本案没有完整条件比较事实，不能据此认定题目如实比較违法。",
+        "origin": "model_source_review",
+        "query_id": "KBT004",
+        "reason": "保证不确定收益可部分提醒保险演示收益的保证边界，题目明确不保证哪一种更高。",
+        "reference_origin": "two_blind_model_reads_with_root_adjudication",
+        "review_status": "two_blind_reviews_agree",
+        "reviewer_id": "p1",
+        "second_grade": 2,
+        "second_reviewer_id": "r1",
+        "source_quote": "二是承诺产品收益,如“针对稳赢二号的客户,有金账号的朋友我们提高到6%+……就是6%是基本的收益……再往上,上不封顶”。经查,该款产品红利分配不确定。",
+        "source_text_sha256": "4283834b7f31826f7485fba946d8ced800cf2cde27297c0d6f1da49e50549093"
+      },
+      "API_best_unit_opinion": {
+        "human_approved": false,
+        "level": "concise_direct",
+        "limitation": "未涉及保障范围、费用、退保损失及资金使用限制。",
+        "origin": "actual_deepseek_flash_API",
+        "pair_id": "KB02799",
+        "query_key": "Q04",
+        "query_text_sha256": "688fcbed92c4be79fa7dca42f39215c09ff1e9c14f2064b60d6b332ba1b39dff",
+        "reason": "直接对应输入中“保险演示收益与存款利息计算条件不同、不保证更高”的边界，展示承诺收益与红利不确定的冲突。",
+        "response_id": "7e82aa5e-2d57-48c4-85ed-775e258737f8",
+        "returned_model": "deepseek-flash",
+        "score": 78,
+        "source_quote": "二是承诺产品收益,如“针对稳赢二号的客户,有金账号的朋友我们提高到6%+……就是6%是基本的收益……再往上,上不封顶”。经查,该款产品红利分配不确定。",
+        "unit_text_sha256": "6d946a9e632ee5e4828f89ef56d3fc82336714bafdf95829b2f67fb479b94bc9"
+      }
+    },
+    {
+      "query_id": "KBT010",
+      "query_text": "公司已经正式确定停止受理这款产品新单的日期，顾问只如实告知该日期和现有合同继续有效，没有编造剩余名额，也不声称最后几个小时必须购买。",
+      "file_id": "F001507",
+      "reference": {
+        "document_mechanism_summary": "昆仑健康33笔被举报电销保单中25笔使用不需花钱、即将停售等误导话术，谎称国家要求所有保险主附险搭配，对保险责任错误解释并虚假宣传保单贷款；公司及电销负责人邓文明受罚。未披露实际未停售、交强险受理条件、收益保证或其他具体题目操作。",
+        "explicit_matrix_decision": true,
+        "file_id": "F001507",
+        "grade": 2,
+        "human_approved": false,
+        "initial_grade": 2,
+        "initial_reviewer_id": "p1",
+        "limitation": "未披露真实停售安排，故不构成完整真假对照，也不能认定题目如实告知违法。",
+        "origin": "model_source_review",
+        "query_id": "KBT010",
+        "reason": "停售误导话术可部分帮助判断停售告知风险，题目要求真实日期且不编名额。",
+        "reference_origin": "two_blind_model_reads_with_root_adjudication",
+        "review_status": "two_blind_reviews_agree",
+        "reviewer_id": "p1",
+        "second_grade": 2,
+        "second_reviewer_id": "r1",
+        "source_quote": "以“不需要花钱消费”、“即将停售”等误导性话术欺骗投保人",
+        "source_text_sha256": "aca8a48876d2cb0b507acc957e965c7fa59859c51ff93542bf35c3b63addb408"
+      },
+      "API_best_unit_opinion": {
+        "human_approved": false,
+        "level": "partial",
+        "limitation": "仅泛化提及停售误导，无对象、日期或合同效力对应，不足以直接支撑当前宣传核查。",
+        "origin": "actual_deepseek_flash_API",
+        "pair_id": "KB02772",
+        "query_key": "Q10",
+        "query_text_sha256": "203046afbc036e7268b415b1e13fe6949b6ec7fe509138cf78fcf3ca0d463ff9",
+        "reason": "片段提及“即将停售”误导话术，与停售告知主题相关，但未涉及如实告知停售日期或合同继续有效等具体条件。",
+        "response_id": "d4388d23-0e34-443d-bc50-9dae1967d7ed",
+        "returned_model": "deepseek-flash",
+        "score": 45,
+        "source_quote": "以“不需要花钱消费”、“即将停售”等误导性话术欺骗投保人",
+        "unit_text_sha256": "2c25540bda1bdbfea2edaeb1d12848008cf5cd6a9b615a5f044d8afaa6106afd"
+      }
+    }
+  ]
+}

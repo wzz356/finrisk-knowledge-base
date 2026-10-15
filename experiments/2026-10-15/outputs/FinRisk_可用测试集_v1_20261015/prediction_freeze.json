@@ -1,0 +1,28 @@
+{
+  "frozen_at_utc": "2026-10-14T19:01:10.677770+00:00",
+  "before_metrics": true,
+  "qrels_sha256": "b24e884bb53231774f34d5630277bcf4ea833693a6ce8f82e239b4593fee0f9c",
+  "sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\bound_scores.jsonl": "d531a6b0337fa5dc05a0bae8c04459e5bdd0a976594a42da65ac24284551894a",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\all_results.jsonl": "2b710119149b24b600b154499f6acfbb1d8b8322a4ab02918d7b1cb753945871",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\deepseek_routes.jsonl": "314c57e53a9905af0504f323cc16dad6376244a4bd420cc79d427e98c6c4903c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\scores.jsonl": "57b6a82a68c6e48f16c952bd2e11991d3b91cc6b99e4d01242f154b30e00cec9",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\requests.jsonl": "1f7bf949c36c451b311cdf34803e138d8dd11e4c7c14dcd7f03d890d4b271fa9",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\responses.jsonl": "9f657d758533e73a4d0bec8019c4c921ae9aaceeb5def744cb6c758238133ec8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\api_completion.json": "4e7b38d99c7ba2192e21fc44568bdae4ec10a7e2dcfb613358a2c91d13ff2691",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\rankings\\closed100_BGE.jsonl": "25f9247c85ef6f4b6fd82525790fb12d2ea3d90c2639e75af6fc20d9fe4f971c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\rankings\\closed100_BM25.jsonl": "7e06579c0ac3a13dc9583c16a21352d979a52cb555dfc9ab1da9c41aa4541cc6",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\rankings\\closed100_N0.jsonl": "71d55ca2f7a0f6c29ea23358cfd82132e32c79512773bb2cff4c66463772089c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\rankings\\closed100_ND.jsonl": "6e35325f467b568b657e161f8700f5798a4550d1652811191977732bc658d5df",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\rankings\\closed100_RRF.jsonl": "9a5414033d2849e018bcdf6087c0719f2f09c0f340ea04d130f27534867a74bf",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\rankings\\full9639_BGE.jsonl": "3ea83aa326fb34b82f7a0970c40c924c4bb05ecd6dcd8cf533b2b03e63a9a300",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\rankings\\full9639_BM25.jsonl": "264588af3e04898de768bf85aea02f45be618033d367e8174125d3faff02c367",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\rankings\\full9639_N0.jsonl": "76970ecce3ca6bcc675f6339ce3814256f6323d2ed6d3e50f0bc4c6e3e7efc44",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\rankings\\full9639_ND.jsonl": "ac1c6fc561506fd231c656b9267290707044adcb2eb913c65ae8721b96a305bd",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\rankings\\full9639_RRF.jsonl": "eb1c6532d20bb3ec17e16eba3eb3e618321c65618cd7c4e5d0c7d6a0478b08f5"
+  },
+  "code_sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\assemble_predictions.py": "e9fff073bdd075c6d3592f928e8d18d93313162ee806a9bec15ec04d6148b81a",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_llm_rerank_20261014\\scores.py": "e44483ce780922caaba10499d69d0614b34315986fd8c2151e57aa0e74ceade7"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "dataset": "FinRisk可用测试集v1",
+  "date": "2026-10-15",
+  "queries": 20,
+  "closed_documents": 100,
+  "closed_complete_qrels": 2000,
+  "mechanism_groups": 14,
+  "boundary_queries": 5,
+  "full_ND_top20_judgments": 400,
+  "human_approved": false,
+  "true_full9639_recall_available": false,
+  "original_local_manifest": "outputs/FinRisk_可用测试集_v1_20261015/delivery_manifest.json",
+  "original_local_manifest_sha256": "1e9faccca64abe01927933506ff50a3fe89491b458d771b2fc11d7d703d2b0d3",
+  "published_original_payloads": 177,
+  "excluded_local_payloads": [
+    {
+      "path": "work/finrisk_evalset_20261015/failed_retrieval_token_audit_1.jsonl",
+      "bytes": 23944121,
+      "sha256": "86cfd5bbeb706c1516a2d156b76ce22a358d2baa737cc291176f03ee3d340a9f",
+      "reason": "failed pre-ranking attempt token audit mirror; error preserved in plan/report"
+    },
+    {
+      "path": "work/finrisk_evalset_20261015/supplement_resume_part3.jsonl",
+      "bytes": 285558,
+      "sha256": "60ef00df58893c2cc8911e0d7d69d891c1b51831a66b027fba8f5fda57ee93d6",
+      "reason": "unused resume input copy; all assigned inputs and completed explicit labels published"
+    },
+    {
+      "path": "work/finrisk_evalset_20261015/vector_cache/5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.json",
+      "bytes": 22304799,
+      "sha256": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+      "reason": "runtime embedding vector cache and duplicate token audit metadata; model/index binding remains in result logs"
+    },
+    {
+      "path": "work/finrisk_evalset_20261015/vector_cache/5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.npy",
+      "bytes": 134092928,
+      "sha256": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+      "reason": "runtime embedding vector cache and duplicate token audit metadata; model/index binding remains in result logs"
+    },
+    {
+      "path": "work/finrisk_evalset_20261015/vector_cache/77bc6cccfdc5c3e6881dacd52610cbab46e11da80380d73212693c12d4e07ed3.json",
+      "bytes": 8237,
+      "sha256": "c5f5f6c317e028d7e04cec88295f2984fe956453c914eed8fa2aaed3dd87f029",
+      "reason": "runtime embedding vector cache and duplicate token audit metadata; model/index binding remains in result logs"
+    },
+    {
+      "path": "work/finrisk_evalset_20261015/vector_cache/77bc6cccfdc5c3e6881dacd52610cbab46e11da80380d73212693c12d4e07ed3.npy",
+      "bytes": 41088,
+      "sha256": "73edd5f1d8192283070d0150b4784a461911a688c129251ae78b4147551d19fc",
+      "reason": "runtime embedding vector cache and duplicate token audit metadata; model/index binding remains in result logs"
+    }
+  ],
+  "portable_core_files": 48,
+  "portable_zip_sha256": "44e60bb3f443168a0e50b4f89db31066dfd6acf3fe79cd489bd70ef984d75e2c",
+  "baseline_repository_commit": "33c5a4b135f6ed21a70a9ccc3d8125bba1dc163c",
+  "current_weights": [
+    1,
+    1
+  ],
+  "source_knowledge_base_and_historical_results_unchanged": true,
+  "new_model_API_requests": 0
+}

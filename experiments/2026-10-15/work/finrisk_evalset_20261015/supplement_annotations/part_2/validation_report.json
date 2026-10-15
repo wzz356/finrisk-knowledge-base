@@ -1,0 +1,21 @@
+{
+  "assigned_documents": 94,
+  "assigned_pairs": 118,
+  "annotated_pairs": 118,
+  "grade_distribution": {
+    "1": 21,
+    "3": 67,
+    "0": 6,
+    "2": 24
+  },
+  "exact_coverage": true,
+  "missing_pairs": [],
+  "duplicate_pairs": 0,
+  "all_quotes_are_source_substrings": true,
+  "all_text_sha256_match": true,
+  "reviewer_id": "full_p2",
+  "human_approved": false,
+  "final_schema_check_passed": true,
+  "output_sha256": "7ecb2c7d586fc6b500bde844affa25ea2fa25184e6f6b0854e1e157fb651a37c",
+  "input_sha256": "1c3ed3d4ce31b61f2329103b92454b97b9e19a73f7aefec201fc8fa4c40aee28"
+}

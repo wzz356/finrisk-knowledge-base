@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "queries": 20,
+  "scopes": [
+    {
+      "scope": "closed100",
+      "files": 100,
+      "units": 818,
+      "seconds": 7.368447199994989
+    },
+    {
+      "scope": "full9639",
+      "files": 9639,
+      "units": 65475,
+      "seconds": 32.398787600002834
+    }
+  ],
+  "unique_API_pairs": 3877,
+  "mapped_pairs": 4000,
+  "same_query_unit_text_reused_between_scopes": 123,
+  "total_seconds": 84.9393315999987,
+  "truncated_by_stage": {
+    "embedding": 0,
+    "rerank": 0
+  }
+}

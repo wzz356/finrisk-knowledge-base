@@ -1,0 +1,17 @@
+{
+  "annotated_pairs": 400,
+  "outside_pairs": 365,
+  "closed_reference_reused_pairs": 35,
+  "outside_documents": 281,
+  "grade_counts": {
+    "3": 261,
+    "2": 63,
+    "0": 11,
+    "1": 65
+  },
+  "root_blind_spotcheck_pairs": 18,
+  "root_blind_grade_agreement": 17,
+  "root_adjudicated_pairs": 1,
+  "human_approved": false,
+  "single_blind_pool_with_sample_audit": true
+}

@@ -1,0 +1,15 @@
+{
+  "documents": 34,
+  "grade_cells": 680.0,
+  "grade_counts": {
+    "0": 527,
+    "1": 75,
+    "2": 28,
+    "3": 50
+  },
+  "evidence_quotes": 78,
+  "errors": [],
+  "source": "model_source_review",
+  "human_approved": false,
+  "passed": true
+}

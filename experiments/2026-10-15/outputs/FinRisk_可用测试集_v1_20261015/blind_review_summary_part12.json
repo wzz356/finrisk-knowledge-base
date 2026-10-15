@@ -1,0 +1,15 @@
+{
+  "pairs": 1340,
+  "exact_agreement_count": 1295,
+  "exact_agreement_rate": 0.9664179104477612,
+  "material_disagreements": 19,
+  "non_direct_topic_only_disagreements": 26,
+  "second_grade_counts": {
+    "0": 1052,
+    "2": 49,
+    "1": 143,
+    "3": 96
+  },
+  "both_model_not_human": true,
+  "rankings_not_opened_for_adjudication": true
+}

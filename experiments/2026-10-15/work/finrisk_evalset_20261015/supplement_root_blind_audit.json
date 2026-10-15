@@ -1,0 +1,24 @@
+{
+ "origin":"root_source_spotcheck_before_reading_supplement_labels_and_metrics",
+ "human_approved":false,
+ "decisions":[
+  {"query_id":"KBT018","file_id":"F002574","grade":3,"source_quote":"中国人寿哈尔滨分公司委托71名未取得《保险代理从业人员资格证书》的银保客户经理和239个未取得《保险兼业代理业务许可证》的银行网点从事保险销售活动。","reason":"明确无资格个人和无许可证网点受委托销售，同机制直接。","limitation":"不补后来补证的安排，各责任主体按原文区分。"},
+  {"query_id":"KBT004","file_id":"F002063","grade":3,"source_quote":"把缴纳保费说成是存钱","reason":"保险存款混同与片面比较明确，可对照当前如实区分产品及比较条件。","limitation":"本案是反面案例，不说明当前输入违法。"},
+  {"query_id":"KBT015","file_id":"F002623","grade":3,"source_quote":"存在代为抄写风险提示语句的现象","reason":"原文明示代抄提示，属于本人确认被替代的具体同机制操作。","limitation":"不补具体代抄人员，不要求同时另有代签。"},
+  {"query_id":"KBT005","file_id":"F002657","grade":3,"source_quote":"你公司2010年1-8月分红险产品电话回访中未确认投保人是否知悉退保可能产生的损失。","reason":"电话回访退损确认缺失直接对应。","limitation":"不补删流程的主观命令。"},
+  {"query_id":"KBT011","file_id":"F005812","grade":3,"source_quote":"给予投保人、被保险人或者受益\n人保险合同约定以外的利益","reason":"明确客户合同外利益，简短案由已说明关键机制。","limitation":"不补商场卡、礼品种类及金额。"},
+  {"query_id":"KBT008","file_id":"F008776","grade":2,"source_quote":"保险合同中未包括全部险种\n责任和责任免除","reason":"合同责任免责内容不完整能部分提示依据核实，但不是销售人员扩大责任承诺。","limitation":"合同内容不全与口头乱承诺是不同操作，不能直接。"},
+  {"query_id":"KBT007","file_id":"F000671","grade":1,"source_quote":"","reason":"泛称产品夸大及市场信息、门槛价格、属性说明不实，未明确承保范围/责任错解。","limitation":"不补保险责任夸大事实。"},
+  {"query_id":"KBT009","file_id":"F005530","grade":1,"source_quote":"","reason":"仅产品销售误导概括案由，不含实际未停售却编造停售或限额的事实。","limitation":"法条不能补销售事实。"},
+  {"query_id":"KBT001","file_id":"F001435","grade":3,"source_quote":"分红收益-每年享受股东式分红6%-8%","reason":"固定分红与收益下限欺骗明确，是收益确定化案例。","limitation":"不补公司实际兜底行为或未来十年安排。"},
+  {"query_id":"KBT011","file_id":"F009223","grade":3,"source_quote":"上述7名代理人获取方案奖励后将\n13.68万元方案奖励资金通过佣金账户转账至内勤投保人个人账户。","reason":"内勤员工以投保人身份获合同外现金回扣，利益对象为客户，直接。","limitation":"理赔调查人员获购物卡是另一行为，不能混入此直接证据；员工客户身份需保留。"},
+  {"query_id":"KBT005","file_id":"F002485","grade":1,"source_quote":"","reason":"泛称未按规定回访新型险，未披露退损确认环节。","limitation":"不从第十条或问卷证据补出退损缺失。"},
+  {"query_id":"KBT013","file_id":"F001434","grade":3,"source_quote":"将16件保单的投保人联系方式变更为自己或其亲友的联系方式","reason":"明确代理人以自己或亲友号码替代客户号码，直接对应真实性被绕过。","limitation":"原文说明回访不成功，不补实际成功代接。"},
+  {"query_id":"KBT014","file_id":"F003189","grade":1,"source_quote":"","reason":"销售中隐瞒退保条件、信用额度误导等，无教客户在回访中答假话或拒绝回访。","limitation":"销售答复与回访阶段不同，不補回访操作。"},
+  {"query_id":"KBT004","file_id":"F001320","grade":2,"source_quote":"其仅按高档分红和万能险高档结算利率计算退保金,且未明确说明计算依据是“高档”收益水平。","reason":"保险收益演示和退保计算条件失实可部分帮助核实比较条件，但无保险银行比较。","limitation":"一般收益/退保误述只部分对照，不推定存款性质混同。"},
+  {"query_id":"KBT011","file_id":"F006572","grade":3,"source_quote":"承诺给予投保人保险合同约定以外的保\n险费回扣或者其他利益","reason":"明确投保人合同外利益承诺，直接。","limitation":"未列实物礼品及已交付情况。"},
+  {"query_id":"KBT005","file_id":"F007769","grade":2,"source_quote":"隐瞒提前退保损失的行为","reason":"同一退损事项被隐瞒有具体事实，但发生在销售阶段，可部分提示。","limitation":"不是回访退损确认缺失，不到3。"},
+  {"query_id":"KBT016","file_id":"F001978","grade":3,"source_quote":"代投保人在人身保险新型产品投保单上抄录风险提示语句。","reason":"明确代抄与当前本人亲自抄录形成同机制关键差异对照。","limitation":"不能据此认定当前亲自抄录违法。"},
+  {"query_id":"KBT003","file_id":"F002164","grade":3,"source_quote":"这个产品很简单,它就是一个类似于银行定期存款的产品","reason":"明确把保险说成银行定期存款，产品性质混淆直接。","limitation":"课件、现场讲师及个险部经理管理责任分开，不补当前全部细节。"}
+ ]
+}

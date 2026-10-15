@@ -1,0 +1,12 @@
+{
+ "origin":"root_source_adjudication_before_reading_rankings",
+ "human_approved":false,
+ "decisions":[
+  {"query_id":"KBT003","file_id":"F001436","final_grade":2,"selected_evidence":"second","root_reason":"明确将分红与复利作固定收益宣传，可部分核查收益条件；没有银行产品比较或保险存款混同事实，不到3。"},
+  {"query_id":"KBT004","file_id":"F001436","final_grade":2,"selected_evidence":"second","root_reason":"固定收益虚假宣传可部分对照题中如实说明计算条件，但不补银行比较机制，只2。"},
+  {"query_id":"KBT003","file_id":"F001685","final_grade":2,"selected_evidence":"second","root_reason":"明确把不确定红利与有条件的生存金累息宣传为确定利益，部分帮助核查收益和资金条件；没有金融产品比较或存款混同，不到3。"},
+  {"query_id":"KBT004","file_id":"F001685","final_grade":2,"selected_evidence":"second","root_reason":"选择性留存服务与利率不确定性有实际条件，可部分对照完整说明；缺保险银行产品比较，不到3。"},
+  {"query_id":"KBT018","file_id":"F002412","final_grade":3,"selected_evidence":"second","root_reason":"明确向代理资格已过期的贸易公司支付代理手续费，已构成与无有效资格机构开展代理业务的具体同机制事实。仅贸易公司资格过期有原文依据，不推定物流公司也无资格，不补先卖后补的时间顺序。"},
+  {"query_id":"KBT013","file_id":"F008984","final_grade":2,"selected_evidence":"initial","root_reason":"明确阻碍或诱导本人不接受、不如实回答回访，与绕过客户真实确认存在具体相邻操作，具有部分帮助；没有电话替换或代接事实，不到3。"}
+ ]
+}

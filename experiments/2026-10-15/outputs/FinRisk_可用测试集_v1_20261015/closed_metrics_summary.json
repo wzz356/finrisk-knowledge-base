@@ -1,0 +1,2877 @@
+{
+  "scope": "closed100",
+  "primary_relevant": "grade3",
+  "stages": [
+    {
+      "stage": "BM25",
+      "primary": {
+        "queries": 20,
+        "top1_hit_count": 16,
+        "top1_hit_rate": {
+          "value": 0.8,
+          "fraction": "4/5"
+        },
+        "mrr20": {
+          "value": 0.86125,
+          "fraction": "689/800"
+        },
+        "recall5": {
+          "value": 0.4963257575757576,
+          "fraction": "13103/26400"
+        },
+        "recall_valid_queries5": 20,
+        "ndcg5": 0.6927939165645778,
+        "ndcg_valid_queries5": 20,
+        "max_grade_saturated_queries5": 13,
+        "recall10": {
+          "value": 0.7375703463203463,
+          "fraction": "136303/184800"
+        },
+        "recall_valid_queries10": 20,
+        "ndcg10": 0.7312950690489346,
+        "ndcg_valid_queries10": 20,
+        "max_grade_saturated_queries10": 2,
+        "recall20": {
+          "value": 0.863989898989899,
+          "fraction": "17107/19800"
+        },
+        "recall_valid_queries20": 20,
+        "ndcg20": 0.776194223386265,
+        "ndcg_valid_queries20": 20,
+        "max_grade_saturated_queries20": 2
+      },
+      "auxiliary_graded_ndcg": {
+        "ndcg5": 0.7068281149102756,
+        "ndcg10": 0.7274596654487183,
+        "ndcg20": 0.765164113086053
+      },
+      "groups": [
+        {
+          "group": "交强险强制搭售",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 1.0,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 1.0,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "代抄代签",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.6428571428571429,
+            "fraction": "9/14"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.915209948681596,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.8571428571428571,
+            "fraction": "6/7"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.8706407232325213,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.9390929631696348,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "保险与金融产品比较",
+          "queries": 2,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "mrr20": {
+            "value": 0.5625,
+            "fraction": "9/16"
+          },
+          "recall5": {
+            "value": 0.2,
+            "fraction": "1/5"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.2765732350040719,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.6,
+            "fraction": "3/5"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.4866648425437742,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.9,
+            "fraction": "9/10"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.6149713856976853,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "保险责任夸大",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.25,
+            "fraction": "1/4"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.530943388959284,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.4375,
+            "fraction": "7/16"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.5212517088348381,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.6875,
+            "fraction": "11/16"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.6464888854707471,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访代接",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.7142857142857143,
+            "fraction": "5/7"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.9799214801447084,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.9799214801447084,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访时限",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.8318724637288825,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.961999147059583,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.961999147059583,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访退保损失披露",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 1.0,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 1.0,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "收益确定化",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5625,
+            "fraction": "9/16"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.915209948681596,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.875,
+            "fraction": "7/8"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.8835434264433997,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.9375,
+            "fraction": "15/16"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.91280614174249,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "无资质销售",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.3333333333333333,
+            "fraction": "1/3"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.6992148198508502,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 0.6666666666666666,
+            "fraction": "2/3"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.707824280674585,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.8888888888888888,
+            "fraction": "8/9"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.8369068540705756,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "虚列费用套资",
+          "queries": 1,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.5147714448836774,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.7634017248465543,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.7634017248465543,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "虚构停售限额",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.6366824387328316,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.6366824387328316,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.625,
+            "fraction": "5/8"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.6818451579430266,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "诋毁同业",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.8772153153380493,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.8772153153380493,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.8772153153380493,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "诱导回访不实",
+          "queries": 1,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.1,
+            "fraction": "1/10"
+          },
+          "recall5": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.2890648263178878,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.2890648263178878,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "购险合同外利益",
+          "queries": 2,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "mrr20": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall5": {
+            "value": 0.1590909090909091,
+            "fraction": "7/44"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.6917831836856678,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.2727272727272727,
+            "fraction": "3/11"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.6244541635112972,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 2,
+          "recall20": {
+            "value": 0.5454545454545454,
+            "fraction": "6/11"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.6124830259503868,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 2
+        }
+      ],
+      "group_macro": {
+        "recall5": 0.5437190785405072,
+        "recall10": 0.800645485466914,
+        "recall20": 0.898881673881674,
+        "mrr20": 0.8508928571428571,
+        "top1_hit_rate": 0.7857142857142857,
+        "ndcg5": 0.7063911562533219,
+        "ndcg10": 0.7573331484057164,
+        "ndcg20": 0.7940140648393806
+      }
+    },
+    {
+      "stage": "BGE",
+      "primary": {
+        "queries": 20,
+        "top1_hit_count": 13,
+        "top1_hit_rate": {
+          "value": 0.65,
+          "fraction": "13/20"
+        },
+        "mrr20": {
+          "value": 0.7805555555555556,
+          "fraction": "281/360"
+        },
+        "recall5": {
+          "value": 0.3811471861471861,
+          "fraction": "17609/46200"
+        },
+        "recall_valid_queries5": 20,
+        "ndcg5": 0.5611409662218547,
+        "ndcg_valid_queries5": 20,
+        "max_grade_saturated_queries5": 13,
+        "recall10": {
+          "value": 0.590283189033189,
+          "fraction": "327253/554400"
+        },
+        "recall_valid_queries10": 20,
+        "ndcg10": 0.5926321380497523,
+        "ndcg_valid_queries10": 20,
+        "max_grade_saturated_queries10": 2,
+        "recall20": {
+          "value": 0.7424531024531025,
+          "fraction": "12863/17325"
+        },
+        "recall_valid_queries20": 20,
+        "ndcg20": 0.6330961978026396,
+        "ndcg_valid_queries20": 20,
+        "max_grade_saturated_queries20": 2
+      },
+      "auxiliary_graded_ndcg": {
+        "ndcg5": 0.5824320793529029,
+        "ndcg10": 0.5939092960884533,
+        "ndcg20": 0.6370175459196726
+      },
+      "groups": [
+        {
+          "group": "交强险强制搭售",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 1.0,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 1.0,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "代抄代签",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5714285714285714,
+            "fraction": "4/7"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.8496074099254252,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.7142857142857143,
+            "fraction": "5/7"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.7801996509063445,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.9285714285714286,
+            "fraction": "13/14"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.878809159757072,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "保险与金融产品比较",
+          "queries": 2,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "mrr20": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall5": {
+            "value": 0.2,
+            "fraction": "1/5"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.2765732350040719,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.2,
+            "fraction": "1/5"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.2765732350040719,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.4,
+            "fraction": "2/5"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.3558490018396586,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "保险责任夸大",
+          "queries": 2,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "mrr20": {
+            "value": 0.6666666666666666,
+            "fraction": "2/3"
+          },
+          "recall5": {
+            "value": 0.25,
+            "fraction": "1/4"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.3930068676327363,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.4375,
+            "fraction": "7/16"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.4112679134722948,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.4454452980581898,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访代接",
+          "queries": 1,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall5": {
+            "value": 0.42857142857142855,
+            "fraction": "3/7"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.5296347172140421,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 0.8571428571428571,
+            "fraction": "6/7"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.6781655456329551,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.754840359625848,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访时限",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.5855700749881525,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.5855700749881525,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.7746947685384568,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访退保损失披露",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.6131471927654584,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.8175295903539446,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.8175295903539446,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "收益确定化",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.8539316501572936,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.625,
+            "fraction": "5/8"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.7218019995189504,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.7869206687833237,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "无资质销售",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.3333333333333333,
+            "fraction": "1/3"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.6992148198508502,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 0.5555555555555556,
+            "fraction": "5/9"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.6370685199535043,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.5555555555555556,
+            "fraction": "5/9"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.6370685199535043,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "虚列费用套资",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.6843515475204855,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 0.6666666666666666,
+            "fraction": "2/3"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.6980575869171199,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.8581169988743236,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "虚构停售限额",
+          "queries": 2,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.42796116937431417,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.42796116937431417,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.42796116937431417,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "诋毁同业",
+          "queries": 1,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.16666666666666666,
+            "fraction": "1/6"
+          },
+          "recall5": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.21840743681816419,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.3580028106829147,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "诱导回访不实",
+          "queries": 1,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.1111111111111111,
+            "fraction": "1/9"
+          },
+          "recall5": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.3010299956639812,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.3010299956639812,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "购险合同外利益",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.1590909090909091,
+            "fraction": "7/44"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.7543701539552121,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.38636363636363635,
+            "fraction": "17/44"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.8406030370576367,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 2,
+          "recall20": {
+            "value": 0.5681818181818182,
+            "fraction": "25/44"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.6853351583673514,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 2
+        }
+      ],
+      "group_macro": {
+        "recall5": 0.3887445887445887,
+        "recall10": 0.6387510307153165,
+        "recall20": 0.8001649144506288,
+        "mrr20": 0.763888888888889,
+        "top1_hit_rate": 0.6428571428571429,
+        "ndcg5": 0.547669202742003,
+        "ndcg10": 0.599588268261531,
+        "ndcg20": 0.6486859642766344
+      }
+    },
+    {
+      "stage": "RRF",
+      "primary": {
+        "queries": 20,
+        "top1_hit_count": 15,
+        "top1_hit_rate": {
+          "value": 0.75,
+          "fraction": "3/4"
+        },
+        "mrr20": {
+          "value": 0.835,
+          "fraction": "167/200"
+        },
+        "recall5": {
+          "value": 0.4497077922077922,
+          "fraction": "13851/30800"
+        },
+        "recall_valid_queries5": 20,
+        "ndcg5": 0.6209904069292205,
+        "ndcg_valid_queries5": 20,
+        "max_grade_saturated_queries5": 13,
+        "recall10": {
+          "value": 0.6983658008658009,
+          "fraction": "64529/92400"
+        },
+        "recall_valid_queries10": 20,
+        "ndcg10": 0.6749423742880233,
+        "ndcg_valid_queries10": 20,
+        "max_grade_saturated_queries10": 2,
+        "recall20": {
+          "value": 0.8670580808080808,
+          "fraction": "68671/79200"
+        },
+        "recall_valid_queries20": 20,
+        "ndcg20": 0.7366909183700356,
+        "ndcg_valid_queries20": 20,
+        "max_grade_saturated_queries20": 2
+      },
+      "auxiliary_graded_ndcg": {
+        "ndcg5": 0.6590930067971501,
+        "ndcg10": 0.6803281350214836,
+        "ndcg20": 0.7401128261431189
+      },
+      "groups": [
+        {
+          "group": "交强险强制搭售",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 1.0,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 1.0,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "代抄代签",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.7765732350040719,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.8571428571428571,
+            "fraction": "6/7"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.8586497194950147,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.9301502975605547,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "保险与金融产品比较",
+          "queries": 2,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.35,
+            "fraction": "7/20"
+          },
+          "recall5": {
+            "value": 0.2,
+            "fraction": "1/5"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.17259567112343469,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.6,
+            "fraction": "3/5"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.3871642019310903,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.8,
+            "fraction": "4/5"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.4687963687258455,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "保险责任夸大",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.25,
+            "fraction": "1/4"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.530943388959284,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.4375,
+            "fraction": "7/16"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.5189918609881192,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.625,
+            "fraction": "5/8"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.6132711357008523,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访代接",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5714285714285714,
+            "fraction": "4/7"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.830419897363192,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.9453078548481746,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.9453078548481746,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访时限",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.6366824387328316,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.7541985434892587,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.863092304557491,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访退保损失披露",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.9197207891481876,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.9197207891481876,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.9197207891481876,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "收益确定化",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.625,
+            "fraction": "5/8"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.6875,
+            "fraction": "11/16"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.7879483356572412,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.9375,
+            "fraction": "15/16"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.918250349400549,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "无资质销售",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.3333333333333333,
+            "fraction": "1/3"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.6992148198508502,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 0.6666666666666666,
+            "fraction": "2/3"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.707824280674585,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.8888888888888888,
+            "fraction": "8/9"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.8248554348450188,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "虚列费用套资",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.6666666666666666,
+            "fraction": "2/3"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.8539316501572936,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.9582149838208569,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.9582149838208569,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "虚构停售限额",
+          "queries": 2,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "mrr20": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall5": {
+            "value": 0.25,
+            "fraction": "1/4"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.3183412193664158,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 0.375,
+            "fraction": "3/8"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.3834045610317661,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.5349103126589018,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "诋毁同业",
+          "queries": 1,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.3333333333333333,
+            "fraction": "1/3"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.5437713091520254,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.5437713091520254,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.5437713091520254,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "诱导回访不实",
+          "queries": 1,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.16666666666666666,
+            "fraction": "1/6"
+          },
+          "recall5": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.3562071871080222,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.3562071871080222,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "购险合同外利益",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.13636363636363635,
+            "fraction": "3/22"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.6695801026368081,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.3181818181818182,
+            "fraction": "7/22"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.7206425896564465,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 2,
+          "recall20": {
+            "value": 0.6136363636363636,
+            "fraction": "27/44"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.6959457879137645,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 2
+        }
+      ],
+      "group_macro": {
+        "recall5": 0.5023423005565862,
+        "recall10": 0.7637136672850958,
+        "recall20": 0.9010732323232323,
+        "mrr20": 0.8285714285714285,
+        "top1_hit_rate": 0.75,
+        "ndcg5": 0.6394124658210282,
+        "ndcg10": 0.7030033012143421,
+        "ndcg20": 0.7551781511028747
+      }
+    },
+    {
+      "stage": "N0",
+      "primary": {
+        "queries": 20,
+        "top1_hit_count": 16,
+        "top1_hit_rate": {
+          "value": 0.8,
+          "fraction": "4/5"
+        },
+        "mrr20": {
+          "value": 0.8663461538461539,
+          "fraction": "901/1040"
+        },
+        "recall5": {
+          "value": 0.5206818181818181,
+          "fraction": "2291/4400"
+        },
+        "recall_valid_queries5": 20,
+        "ndcg5": 0.6826286733862488,
+        "ndcg_valid_queries5": 20,
+        "max_grade_saturated_queries5": 13,
+        "recall10": {
+          "value": 0.7518885281385281,
+          "fraction": "138949/184800"
+        },
+        "recall_valid_queries10": 20,
+        "ndcg10": 0.7301138784560115,
+        "ndcg_valid_queries10": 20,
+        "max_grade_saturated_queries10": 2,
+        "recall20": {
+          "value": 0.8783116883116883,
+          "fraction": "6763/7700"
+        },
+        "recall_valid_queries20": 20,
+        "ndcg20": 0.7733814789688495,
+        "ndcg_valid_queries20": 20,
+        "max_grade_saturated_queries20": 2
+      },
+      "auxiliary_graded_ndcg": {
+        "ndcg5": 0.6736762594569503,
+        "ndcg10": 0.7012644351286965,
+        "ndcg20": 0.7532760017219898
+      },
+      "groups": [
+        {
+          "group": "交强险强制搭售",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 1.0,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 1.0,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "代抄代签",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.6428571428571429,
+            "fraction": "9/14"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.915209948681596,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.8571428571428571,
+            "fraction": "6/7"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.8662010117327994,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.9285714285714286,
+            "fraction": "13/14"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.9005605533470858,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "保险与金融产品比较",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.4,
+            "fraction": "2/5"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.49698443151337346,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.8,
+            "fraction": "4/5"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.7109549895238868,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.9,
+            "fraction": "9/10"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.7516224122180966,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "保险责任夸大",
+          "queries": 2,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "mrr20": {
+            "value": 0.5384615384615384,
+            "fraction": "7/13"
+          },
+          "recall5": {
+            "value": 0.1875,
+            "fraction": "3/16"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.3421757737602428,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.25,
+            "fraction": "1/4"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.3002416915900408,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.4263478624765251,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访代接",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.7142857142857143,
+            "fraction": "5/7"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 1.0,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 1.0,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访时限",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.8318724637288825,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.9709286432396581,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.9709286432396581,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访退保损失披露",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.8503449055347546,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.8503449055347546,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.8503449055347546,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "收益确定化",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.4375,
+            "fraction": "7/16"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.7543701539552121,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.6875,
+            "fraction": "11/16"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.7229265962384287,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.875,
+            "fraction": "7/8"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.8107555589613924,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "无资质销售",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.3333333333333333,
+            "fraction": "1/3"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.6992148198508502,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 0.6666666666666666,
+            "fraction": "2/3"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.7016190663078011,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.8814027502282785,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "虚列费用套资",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.6666666666666666,
+            "fraction": "2/3"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.8539316501572936,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.9582149838208569,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.9582149838208569,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "虚构停售限额",
+          "queries": 2,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "mrr20": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall5": {
+            "value": 0.375,
+            "fraction": "3/8"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.4414924137367808,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.6456119349129067,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.875,
+            "fraction": "7/8"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.6983597270304619,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "诋毁同业",
+          "queries": 1,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.3868528072345416,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.6052602440527058,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.6052602440527058,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "诱导回访不实",
+          "queries": 1,
+          "top1_hit_count": 0,
+          "top1_hit_rate": {
+            "value": 0.0,
+            "fraction": "0"
+          },
+          "mrr20": {
+            "value": 0.25,
+            "fraction": "1/4"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.4306765580733931,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.4306765580733931,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.4306765580733931,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "购险合同外利益",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.18181818181818182,
+            "fraction": "2/11"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.8496074099254252,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.3409090909090909,
+            "fraction": "15/44"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.7966803600474672,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 2,
+          "recall20": {
+            "value": 0.7045454545454546,
+            "fraction": "31/44"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.7977546331801091,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 2
+        }
+      ],
+      "group_macro": {
+        "recall5": 0.5849257884972171,
+        "recall10": 0.8108727581941867,
+        "recall20": 0.9130797773654916,
+        "mrr20": 0.8598901098901098,
+        "top1_hit_rate": 0.7857142857142857,
+        "ndcg5": 0.7037666668680247,
+        "ndcg10": 0.7542614989339071,
+        "ndcg20": 0.7915877737259513
+      }
+    },
+    {
+      "stage": "ND",
+      "primary": {
+        "queries": 20,
+        "top1_hit_count": 18,
+        "top1_hit_rate": {
+          "value": 0.9,
+          "fraction": "9/10"
+        },
+        "mrr20": {
+          "value": 0.9375,
+          "fraction": "15/16"
+        },
+        "recall5": {
+          "value": 0.6313672438672439,
+          "fraction": "35003/55440"
+        },
+        "recall_valid_queries5": 20,
+        "ndcg5": 0.8439874822464318,
+        "ndcg_valid_queries5": 20,
+        "max_grade_saturated_queries5": 13,
+        "recall10": {
+          "value": 0.8507305194805195,
+          "fraction": "10481/12320"
+        },
+        "recall_valid_queries10": 20,
+        "ndcg10": 0.8779237047613611,
+        "ndcg_valid_queries10": 20,
+        "max_grade_saturated_queries10": 2,
+        "recall20": {
+          "value": 0.9073051948051948,
+          "fraction": "5589/6160"
+        },
+        "recall_valid_queries20": 20,
+        "ndcg20": 0.8868104246398636,
+        "ndcg_valid_queries20": 20,
+        "max_grade_saturated_queries20": 2
+      },
+      "auxiliary_graded_ndcg": {
+        "ndcg5": 0.8634850913824657,
+        "ndcg10": 0.8655721505613405,
+        "ndcg20": 0.8733848277549743
+      },
+      "groups": [
+        {
+          "group": "交强险强制搭售",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 1.0,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 1.0,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "代抄代签",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.6428571428571429,
+            "fraction": "9/14"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.9343974612438292,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.7857142857142857,
+            "fraction": "11/14"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.8459782922215213,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.8571428571428571,
+            "fraction": "6/7"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.8843156992179677,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "保险与金融产品比较",
+          "queries": 2,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "mrr20": {
+            "value": 0.625,
+            "fraction": "5/8"
+          },
+          "recall5": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.44685352999185635,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.7242598740474209,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.7242598740474209,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "保险责任夸大",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.375,
+            "fraction": "3/8"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.7035390600827187,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.5625,
+            "fraction": "9/16"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.6517976436373989,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.625,
+            "fraction": "5/8"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.6859750282232937,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访代接",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.5714285714285714,
+            "fraction": "4/7"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.8687949224876583,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.9803771474638899,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.9803771474638899,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访时限",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.8318724637288825,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.9550236580992474,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.9550236580992474,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "回访退保损失披露",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 1.0,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 1.0,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "收益确定化",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.625,
+            "fraction": "5/8"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.875,
+            "fraction": "7/8"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.9105213167623127,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.875,
+            "fraction": "7/8"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.9105213167623127,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "无资质销售",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.4444444444444444,
+            "fraction": "4/9"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.8687949224876583,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.977015370299312,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.977015370299312,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "虚列费用套资",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.6666666666666666,
+            "fraction": "2/3"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 0.8687949224876583,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 1,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 0.9838048780283076,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 0.9838048780283076,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "虚构停售限额",
+          "queries": 2,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 0.5,
+            "fraction": "1/2"
+          },
+          "mrr20": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall5": {
+            "value": 0.75,
+            "fraction": "3/4"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.7207462068683904,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 0.875,
+            "fraction": "7/8"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.7902742966237782,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 0.875,
+            "fraction": "7/8"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.7902742966237782,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "诋毁同业",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 1.0,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 1.0,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "诱导回访不实",
+          "queries": 1,
+          "top1_hit_count": 1,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries5": 1,
+          "ndcg5": 1.0,
+          "ndcg_valid_queries5": 1,
+          "max_grade_saturated_queries5": 0,
+          "recall10": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries10": 1,
+          "ndcg10": 1.0,
+          "ndcg_valid_queries10": 1,
+          "max_grade_saturated_queries10": 0,
+          "recall20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall_valid_queries20": 1,
+          "ndcg20": 1.0,
+          "ndcg_valid_queries20": 1,
+          "max_grade_saturated_queries20": 0
+        },
+        {
+          "group": "购险合同外利益",
+          "queries": 2,
+          "top1_hit_count": 2,
+          "top1_hit_rate": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "mrr20": {
+            "value": 1.0,
+            "fraction": "1"
+          },
+          "recall5": {
+            "value": 0.20454545454545456,
+            "fraction": "9/44"
+          },
+          "recall_valid_queries5": 2,
+          "ndcg5": 0.915209948681596,
+          "ndcg_valid_queries5": 2,
+          "max_grade_saturated_queries5": 2,
+          "recall10": {
+            "value": 0.4090909090909091,
+            "fraction": "9/22"
+          },
+          "recall_valid_queries10": 2,
+          "ndcg10": 0.9082950973757999,
+          "ndcg_valid_queries10": 2,
+          "max_grade_saturated_queries10": 2,
+          "recall20": {
+            "value": 0.8409090909090909,
+            "fraction": "37/44"
+          },
+          "recall_valid_queries20": 2,
+          "ndcg20": 0.9246475045784829,
+          "ndcg_valid_queries20": 2,
+          "max_grade_saturated_queries20": 2
+        }
+      ],
+      "group_macro": {
+        "recall5": 0.68071016285302,
+        "recall10": 0.8933789424860853,
+        "recall20": 0.9337894248608534,
+        "mrr20": 0.9553571428571429,
+        "top1_hit_rate": 0.9285714285714286,
+        "ndcg5": 0.868500245575732,
+        "ndcg10": 0.9090962553256421,
+        "ndcg20": 0.9154439123817152
+      }
+    }
+  ],
+  "zero_positive_queries": []
+}

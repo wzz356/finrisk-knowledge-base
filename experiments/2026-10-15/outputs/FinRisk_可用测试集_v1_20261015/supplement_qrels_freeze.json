@@ -1,0 +1,16 @@
+{
+  "before_supplement_metrics": true,
+  "frozen_at_utc": "2026-10-14T19:18:44.183998+00:00",
+  "sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\supplement_qrels.jsonl": "96859fcc175a2ee0ebce1bff66475a1a9a318d3e61c9e3035b834edc4f2c875e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\supplement_corpus.jsonl": "04b306bd9e31bb57b7dd95355780fdd77b914d62519221379888c34d4cc5851e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\supplement_annotation_summary.json": "3ef52c92879875ad3ef61fe441349fb4974b1058f92427b6c36c92234619eb62",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\supplement_annotations_initial.jsonl": "6ca2c837373154fa1222759b91f44548d4d9d25566a9befe8e2fe5f634d38c3e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\supplement_root_blind_audit_inputs.jsonl": "6d8375e4175a1d486653ef6e486b3b9b5b6111faf6a9e4e91129d6f4b56e6ba5",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\supplement_root_blind_audit.json": "5e4ddc77fb1c13a1f516822929b779a0865c105874fa013e8b368fd8b26a73a4",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\finalize_supplement.py": "10e26576cf49c8a9d5d755d0402704b2dbb936f5f4658a9eb14eb2e46a034354",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\supplement_annotations\\part_1\\decisions.jsonl": "479bd54187382edf8ce48a9001e43bd4ef617dcca5d32d9b4baf90075f6e8a21",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\supplement_annotations\\part_2\\decisions.jsonl": "7ecb2c7d586fc6b500bde844affa25ea2fa25184e6f6b0854e1e157fb651a37c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\supplement_annotations\\part_3\\decisions.jsonl": "a2d408fd818fa5686caaccecdceeafe6f049b43a6883e5a91b413162ca8270a0"
+  }
+}

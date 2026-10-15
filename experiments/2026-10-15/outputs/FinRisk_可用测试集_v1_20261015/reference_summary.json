@@ -1,0 +1,158 @@
+{
+  "queries": 20,
+  "documents": 100,
+  "pairs": 2000,
+  "grade_counts": {
+    "0": 1550,
+    "1": 232,
+    "2": 78,
+    "3": 140
+  },
+  "per_query": [
+    {
+      "query_id": "KBT001",
+      "group": "收益确定化",
+      "input_type": "risk",
+      "direct_count": 8,
+      "partial_count": 5
+    },
+    {
+      "query_id": "KBT002",
+      "group": "收益确定化",
+      "input_type": "risk_with_qualification",
+      "direct_count": 8,
+      "partial_count": 5
+    },
+    {
+      "query_id": "KBT003",
+      "group": "保险与金融产品比较",
+      "input_type": "risk",
+      "direct_count": 5,
+      "partial_count": 9
+    },
+    {
+      "query_id": "KBT004",
+      "group": "保险与金融产品比较",
+      "input_type": "boundary",
+      "direct_count": 5,
+      "partial_count": 9
+    },
+    {
+      "query_id": "KBT005",
+      "group": "回访退保损失披露",
+      "input_type": "risk",
+      "direct_count": 2,
+      "partial_count": 1
+    },
+    {
+      "query_id": "KBT006",
+      "group": "回访时限",
+      "input_type": "risk",
+      "direct_count": 4,
+      "partial_count": 1
+    },
+    {
+      "query_id": "KBT007",
+      "group": "保险责任夸大",
+      "input_type": "risk",
+      "direct_count": 8,
+      "partial_count": 1
+    },
+    {
+      "query_id": "KBT008",
+      "group": "保险责任夸大",
+      "input_type": "boundary",
+      "direct_count": 8,
+      "partial_count": 1
+    },
+    {
+      "query_id": "KBT009",
+      "group": "虚构停售限额",
+      "input_type": "risk",
+      "direct_count": 4,
+      "partial_count": 4
+    },
+    {
+      "query_id": "KBT010",
+      "group": "虚构停售限额",
+      "input_type": "boundary",
+      "direct_count": 4,
+      "partial_count": 4
+    },
+    {
+      "query_id": "KBT011",
+      "group": "购险合同外利益",
+      "input_type": "risk",
+      "direct_count": 22,
+      "partial_count": 4
+    },
+    {
+      "query_id": "KBT012",
+      "group": "购险合同外利益",
+      "input_type": "boundary",
+      "direct_count": 22,
+      "partial_count": 4
+    },
+    {
+      "query_id": "KBT013",
+      "group": "回访代接",
+      "input_type": "risk",
+      "direct_count": 7,
+      "partial_count": 5
+    },
+    {
+      "query_id": "KBT014",
+      "group": "诱导回访不实",
+      "input_type": "risk",
+      "direct_count": 1,
+      "partial_count": 8
+    },
+    {
+      "query_id": "KBT015",
+      "group": "代抄代签",
+      "input_type": "risk",
+      "direct_count": 7,
+      "partial_count": 0
+    },
+    {
+      "query_id": "KBT016",
+      "group": "代抄代签",
+      "input_type": "boundary",
+      "direct_count": 7,
+      "partial_count": 0
+    },
+    {
+      "query_id": "KBT017",
+      "group": "虚列费用套资",
+      "input_type": "risk",
+      "direct_count": 6,
+      "partial_count": 12
+    },
+    {
+      "query_id": "KBT018",
+      "group": "无资质销售",
+      "input_type": "risk",
+      "direct_count": 9,
+      "partial_count": 2
+    },
+    {
+      "query_id": "KBT019",
+      "group": "诋毁同业",
+      "input_type": "risk",
+      "direct_count": 2,
+      "partial_count": 0
+    },
+    {
+      "query_id": "KBT020",
+      "group": "交强险强制搭售",
+      "input_type": "risk",
+      "direct_count": 1,
+      "partial_count": 3
+    }
+  ],
+  "material_adjudicated": 25,
+  "topic_only_0_vs_1_retained_initial": 45,
+  "human_approved": false,
+  "all_labels_explicit_not_default_zero": true,
+  "rankings_not_read_before_reference_freeze": true
+}

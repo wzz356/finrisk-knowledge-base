@@ -1,0 +1,9 @@
+{
+  "explicit_authorized": true,
+  "persistent_prior_user_request": "好的，还是用deepseek，我批准你使用。用官方数据集跑一次看看结果",
+  "current_user_request": "依据现有案例和知识库，构建一份可用的测试集，用于计算指标，规模不用太大。五小时内完成",
+  "scope_user_selected": "封闭小测试集＋全库补充检索（推荐）",
+  "scope": "20新业务输入及原已授权知识库的实际候选索引片段，不发送任何参考标注",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "budget_peak_bound_usd": 2
+}

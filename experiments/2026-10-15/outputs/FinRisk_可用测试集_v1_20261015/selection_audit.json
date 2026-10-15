@@ -1,0 +1,349 @@
+{
+  "seed": 2026101503,
+  "before_retrieval": true,
+  "selected": {
+    "F001265": {
+      "stratum": "source_grounded_seed"
+    },
+    "F001928": {
+      "stratum": "source_grounded_seed"
+    },
+    "F002237": {
+      "stratum": "source_grounded_seed"
+    },
+    "F002241": {
+      "stratum": "source_grounded_seed"
+    },
+    "F000822": {
+      "stratum": "source_grounded_seed"
+    },
+    "F000819": {
+      "stratum": "source_grounded_seed"
+    },
+    "F001354": {
+      "stratum": "source_grounded_seed"
+    },
+    "F000495": {
+      "stratum": "source_grounded_seed"
+    },
+    "F000301": {
+      "stratum": "source_grounded_seed"
+    },
+    "F001926": {
+      "stratum": "source_grounded_seed"
+    },
+    "F008984": {
+      "stratum": "source_grounded_seed"
+    },
+    "F001965": {
+      "stratum": "source_grounded_seed"
+    },
+    "F001803": {
+      "stratum": "source_grounded_seed"
+    },
+    "F001748": {
+      "stratum": "source_grounded_seed"
+    },
+    "F001948": {
+      "stratum": "source_grounded_seed"
+    },
+    "F000699": {
+      "stratum": "source_grounded_seed"
+    },
+    "F002969": {
+      "stratum": "mechanism_neighbor",
+      "group": "dividend"
+    },
+    "F009540": {
+      "stratum": "mechanism_neighbor",
+      "group": "dividend"
+    },
+    "F009543": {
+      "stratum": "mechanism_neighbor",
+      "group": "dividend"
+    },
+    "F005329": {
+      "stratum": "mechanism_neighbor",
+      "group": "deposit"
+    },
+    "F008441": {
+      "stratum": "mechanism_neighbor",
+      "group": "deposit"
+    },
+    "F005326": {
+      "stratum": "mechanism_neighbor",
+      "group": "deposit"
+    },
+    "F002229": {
+      "stratum": "mechanism_neighbor",
+      "group": "surrender"
+    },
+    "F002230": {
+      "stratum": "mechanism_neighbor",
+      "group": "surrender"
+    },
+    "F009323": {
+      "stratum": "mechanism_neighbor",
+      "group": "coverage"
+    },
+    "F001827": {
+      "stratum": "mechanism_neighbor",
+      "group": "coverage"
+    },
+    "F005815": {
+      "stratum": "mechanism_neighbor",
+      "group": "coverage"
+    },
+    "F001375": {
+      "stratum": "mechanism_neighbor",
+      "group": "scarcity"
+    },
+    "F001363": {
+      "stratum": "mechanism_neighbor",
+      "group": "gift"
+    },
+    "F000899": {
+      "stratum": "mechanism_neighbor",
+      "group": "gift"
+    },
+    "F000653": {
+      "stratum": "mechanism_neighbor",
+      "group": "identity"
+    },
+    "F001098": {
+      "stratum": "mechanism_neighbor",
+      "group": "identity"
+    },
+    "F002341": {
+      "stratum": "mechanism_neighbor",
+      "group": "identity"
+    },
+    "F003343": {
+      "stratum": "mechanism_neighbor",
+      "group": "competitor"
+    },
+    "F001972": {
+      "stratum": "mechanism_neighbor",
+      "group": "callback"
+    },
+    "F001823": {
+      "stratum": "mechanism_neighbor",
+      "group": "callback"
+    },
+    "F002491": {
+      "stratum": "mechanism_neighbor",
+      "group": "signature"
+    },
+    "F001806": {
+      "stratum": "mechanism_neighbor",
+      "group": "signature"
+    },
+    "F004503": {
+      "stratum": "mechanism_neighbor",
+      "group": "finance"
+    },
+    "F002119": {
+      "stratum": "mechanism_neighbor",
+      "group": "finance"
+    },
+    "F003405": {
+      "stratum": "mechanism_neighbor",
+      "group": "finance"
+    },
+    "F001439": {
+      "stratum": "mechanism_neighbor",
+      "group": "qualification"
+    },
+    "F002976": {
+      "stratum": "mechanism_neighbor",
+      "group": "qualification"
+    },
+    "F000348": {
+      "stratum": "mechanism_neighbor",
+      "group": "qualification"
+    },
+    "F002045": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F004574": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F000417": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F001507": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F005203": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F007137": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F000791": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F000583": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F005881": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F007000": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F005434": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F004332": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F004455": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F001298": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F001685": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F005878": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F007691": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F009481": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F002412": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F007170": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F004648": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F008051": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F000683": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F001436": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F006269": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F001802": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F009140": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F003966": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F005568": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F007120": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F009907": {
+      "stratum": "risk_adjacent_distractor"
+    },
+    "F006713": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F000153": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F009988": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F003243": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F004905": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F005580": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F004287": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F000865": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F000886": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F007998": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F004573": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F006485": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F001956": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F007648": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F006371": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F000916": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F006986": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F008440": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F006098": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F004264": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F006663": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F008368": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F002614": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F006522": {
+      "stratum": "fixed_random_distractor"
+    },
+    "F001147": {
+      "stratum": "fixed_random_distractor"
+    }
+  },
+  "excluded_previous12_reference_files": [
+    "F000692",
+    "F001276",
+    "F001446",
+    "F005380",
+    "F005956",
+    "F006559",
+    "F006599",
+    "F009855",
+    "F009883"
+  ],
+  "cases": 100,
+  "queries": 20,
+  "source_grounded_synthetic": true,
+  "not_all27_tags_covered": true
+}

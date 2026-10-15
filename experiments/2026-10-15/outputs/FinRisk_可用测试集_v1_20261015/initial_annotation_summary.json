@@ -1,0 +1,35 @@
+{
+  "documents": 100,
+  "queries": 20,
+  "pairs": 2000,
+  "grade_counts": {
+    "0": 1550,
+    "1": 242,
+    "2": 73,
+    "3": 135
+  },
+  "per_query_direct_counts": {
+    "KBT001": 8,
+    "KBT002": 8,
+    "KBT003": 3,
+    "KBT004": 3,
+    "KBT005": 2,
+    "KBT006": 4,
+    "KBT007": 8,
+    "KBT008": 8,
+    "KBT009": 4,
+    "KBT010": 4,
+    "KBT011": 22,
+    "KBT012": 22,
+    "KBT013": 7,
+    "KBT014": 1,
+    "KBT015": 7,
+    "KBT016": 7,
+    "KBT017": 6,
+    "KBT018": 8,
+    "KBT019": 2,
+    "KBT020": 1
+  },
+  "model_generated_not_human_gold": true,
+  "ranking_not_used_for_labels": true
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "zip_path": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\FinRisk_测试集_v1_可移植包.zip",
+  "zip_sha256": "44e60bb3f443168a0e50b4f89db31066dfd6acf3fe79cd489bd70ef984d75e2c",
+  "zip_bytes": 1041701,
+  "packaged_files": 48,
+  "all_member_hashes_verified": true,
+  "separate_directory_real_CLI_stages": [
+    "BM25",
+    "BGE",
+    "RRF",
+    "N0",
+    "ND"
+  ],
+  "all_5_exact_metric_payloads_equal": true,
+  "dependency": "Python standard library only",
+  "model_or_API_requests": 0
+}

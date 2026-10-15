@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-14T18:26:22.951020+00:00",
+  "before_API": true,
+  "sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\api_prepare.py": "71f569a92064e5c8310386a0b9dbe126f50dfec3cece6aec0fff196c221e2043",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\api_run.py": "b6762355ea3ed43fb1b28367643b6eca7c1b4a500551e94eac62f7ff32291e49",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\request_engine.py": "0ef595b7dd869a7870dd0292adc64a2f735d9d9fdb601df9170cb6d9d0c729f7",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_deepseek_rerank_20261014\\api_adapter.py": "98d5092dddc65cd7e15ee3d4a3c5284b827dc14d7c135d29636617531f0b4ae2",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_deepseek_rerank_20261014\\run.py": "3890dfdd2195532c551ffc46964f9e43cec1e6780d40a2014910b5185dc11d20",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_official_only_20261015\\citation.py": "3a60dcde0ef436719dcdd9172f3c0d8268c243aeca304353092201841738a7a3",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\score_inputs.jsonl": "71c5f2ef8790d00af3a85aae81f6f972364764c3c7b87303314b9f02d37dcf54",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\candidate_map.jsonl": "3f97bc93527836cdb0bf3ad611418348dba68986187e770a606b60f19f0ecca3",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\api_design.json": "2f58fd73b1d5ce7d1523921e46245f07016cd5ccb11433d000381f953f83a0c3",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\export_authorization.json": "e1d4015c66ed0dc2f15bc37f69c6f95e793b46f97929b3f933f3575a41531bc2",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\重排规则.md": "62150059789ff0fe959a45382f78f2c9ed21df013b9f603072a383c52836a772"
+  }
+}

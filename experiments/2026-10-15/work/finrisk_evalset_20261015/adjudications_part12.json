@@ -1,0 +1,25 @@
+{
+ "origin":"root_source_adjudication_before_reading_rankings",
+ "human_approved":false,
+ "decisions":[
+  {"query_id":"KBT017","file_id":"F000153","final_grade":1,"selected_evidence":"second","root_reason":"只有虚假报表资料与其他机构利益，没有费用列支/报销/套资操作，仍只是财务主题，不能作部分会议费机制证据。"},
+  {"query_id":"KBT003","file_id":"F001265","final_grade":2,"selected_evidence":"initial","root_reason":"明示账户与余额宝银行利息比较并保证收益，但未说明保费存款混同或比较是否忽略条件；保证收益是另一明确机制。本题金融比较只部分对应。"},
+  {"query_id":"KBT004","file_id":"F001265","final_grade":2,"selected_evidence":"initial","root_reason":"可帮助核查收益比较和保证条件，但不能从综合收益违法事实补出片面比较或产品性质混淆；保留部分对照。"},
+  {"query_id":"KBT003","file_id":"F001507","final_grade":2,"selected_evidence":"second","root_reason":"保单贷款重要内容虚假宣传明确，可部分提醒保险资金使用条件需要核实；没有金融产品比较或存款混同，不到3。"},
+  {"query_id":"KBT004","file_id":"F001507","final_grade":2,"selected_evidence":"second","root_reason":"实际误述贷款等合同内容，能部分对照完整说明资金条件；缺保险与存款比较机制，不能直接。"},
+  {"query_id":"KBT003","file_id":"F001827","final_grade":2,"selected_evidence":"second","root_reason":"明确将不确定分红保证最低收益，与题中收益金融介绍部分相邻；本题规格已约定一般分红保证仅部分相关，不补出银行比较。"},
+  {"query_id":"KBT004","file_id":"F001827","final_grade":2,"selected_evidence":"second","root_reason":"不确定分红最低保证能部分对照无保证条件，但没有性质混淆或比较表，只部分帮助。"},
+  {"query_id":"KBT007","file_id":"F001928","final_grade":2,"selected_evidence":"initial","root_reason":"明确对保险条款作引人误解宣传，能部分核查准确解释责任；未载扩大承保或免除项目，不到3。"},
+  {"query_id":"KBT008","file_id":"F001928","final_grade":2,"selected_evidence":"initial","root_reason":"条款说明失实对如实解释条款有部分帮助，但缺责任免除或扩大承保具体机制，只2。"},
+  {"query_id":"KBT013","file_id":"F002491","final_grade":2,"selected_evidence":"initial","root_reason":"面访问卷代客户签名是回访确认真实性被替代的明确相邻操作，可部分对照；没有电话替换或代接，不到3。"},
+  {"query_id":"KBT014","file_id":"F002491","final_grade":2,"selected_evidence":"initial","root_reason":"代签回访确认与客户真实确认被绕过存在具体相邻事实，但没有诱导本人答假话，只2。"},
+  {"query_id":"KBT011","file_id":"F003243","final_grade":2,"selected_evidence":"second","root_reason":"未按报备费率少收保费是具体投保费用优惠偏差，能部分提示优惠依据核查；并未证明另送合同外礼品，不到3。"},
+  {"query_id":"KBT012","file_id":"F003243","final_grade":2,"selected_evidence":"second","root_reason":"费率偏差仅部分帮助区分优惠依据，阶段与合同生存给付不同，不能判当前给付违法或作为直接合同外利益案。"},
+  {"query_id":"KBT017","file_id":"F004574","final_grade":1,"selected_evidence":"second","root_reason":"仅泛称编制或提供虚假报告资料，未有任何费用虚列或报销操作，属于财务主题而非可核实相邻机制。"},
+  {"query_id":"KBT017","file_id":"F007648","final_grade":1,"selected_evidence":"second","root_reason":"仅虚假财务资料及经理责任，费用科目和套资均无，保持主题1。"},
+  {"query_id":"KBT003","file_id":"F009540","final_grade":3,"selected_evidence":"second","root_reason":"原文明示混淆保险与银行产品，关键是产品性质混淆，已可直接帮助本题澄清保险与银行产品。3不表示案中有逐字存款话术或全部费用遗漏；课件管理角色保留。"},
+  {"query_id":"KBT004","file_id":"F009540","final_grade":3,"selected_evidence":"second","root_reason":"明示保险银行产品性质混淆，可与题中明确说明产品差异直接对照；不补具体存款话术或比较表，不判当前违规。"},
+  {"query_id":"KBT003","file_id":"F009543","final_grade":3,"selected_evidence":"second","root_reason":"原文明确课件混淆保险与银行产品，与本题性质混淆同机制，可以直接参考；不要求银行产品子类完全相同，不补逐字保费存款话术。"},
+  {"query_id":"KBT004","file_id":"F009543","final_grade":3,"selected_evidence":"second","root_reason":"案中性质混淆可与明确产品差异的当前说明直接对照；机构培训管理责任与当前顾问行为须区分，不证明当前违法。"}
+ ]
+}

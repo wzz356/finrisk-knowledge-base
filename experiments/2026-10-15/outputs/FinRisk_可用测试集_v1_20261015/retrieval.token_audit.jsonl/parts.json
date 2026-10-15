@@ -1,0 +1,21 @@
+{
+  "path": "outputs/FinRisk_可用测试集_v1_20261015/retrieval.token_audit.jsonl",
+  "bytes": 24927433,
+  "sha256": "17e5125468562412b2e80b388d6ffc763b85b7a5800c07d9fe9b1050dd982072",
+  "parts": [
+    {
+      "path": "outputs/FinRisk_可用测试集_v1_20261015/retrieval.token_audit.jsonl/part-0001.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 2392655,
+      "sha256": "a8e89fceb82ec6f8d58362ed2a7327116c848d061248dbb2442218e34699ed27",
+      "uncompressed_bytes": 20971396
+    },
+    {
+      "path": "outputs/FinRisk_可用测试集_v1_20261015/retrieval.token_audit.jsonl/part-0002.jsonl.gz",
+      "compression": "gzip",
+      "bytes": 493553,
+      "sha256": "4449215d9ff4ff7a1de128d4566dc396d623ff1b0ee9f082d4d9e8ebaa3e50e8",
+      "uncompressed_bytes": 3956037
+    }
+  ]
+}

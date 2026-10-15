@@ -1,0 +1,22 @@
+{
+  "requests": 3957,
+  "accepted": 3877,
+  "rejected": 80,
+  "responses_with_usage": 3919,
+  "unknown_usage_requests": 38,
+  "usage_tokens": {
+    "prompt": 3197220,
+    "completion": 387134,
+    "cache_hit": 2382846,
+    "cache_miss": 814374
+  },
+  "pricing_periods": {
+    "off_peak": 3919
+  },
+  "usage_based_estimated_usd": 0.36158503800000047,
+  "unknown_usage_peak_reserved_usd": 0.06651899999999998,
+  "conservative_peak_booked_bound_usd": 0.7896890759999999,
+  "not_account_statement": true,
+  "includes_rejected_requests_with_usage": true,
+  "price_source": "https://api-docs.deepseek.com/quick_start/pricing/"
+}

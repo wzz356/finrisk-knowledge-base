@@ -1,0 +1,13 @@
+{
+ "origin":"root_full_source_negative_spotcheck",
+ "human_approved":false,
+ "qrels_modified":false,
+ "decisions":[
+  {"query_id":"KBT011","file_id":"F001748","grade_confirmed":1,"reason":"虚列费用给银保专员/渠道开支，利益对象不是购险客户；不能补为客户合同外赠礼。"},
+  {"query_id":"KBT017","file_id":"F000495","grade_confirmed":0,"reason":"投保人获合同外加油卡，事实没有虚列会议/培训费；会计凭证是证据载体，不能补套资。"},
+  {"query_id":"KBT019","file_id":"F001928","grade_confirmed":0,"reason":"本公司条款误导及存款利率片面比较，不是诋毁同业保险公司经营或理赔。"},
+  {"query_id":"KBT013","file_id":"F002237","grade_confirmed":1,"reason":"犹豫期后回访/未确认退损是不同操作，没有代理人替换电话或冒充接访。"},
+  {"query_id":"KBT005","file_id":"F001926","grade_confirmed":1,"reason":"办公电话替换及冒充客户回访，未明确退保损失披露项，主题相同不能当同机制。"},
+  {"query_id":"KBT020","file_id":"F000301","grade_confirmed":1,"reason":"车辆保险返现金，不是单独交强险拒保/强制商业险搭售。"}
+ ]
+}

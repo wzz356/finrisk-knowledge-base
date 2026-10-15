@@ -1,0 +1,24 @@
+{
+  "frozen_at_utc": "2026-10-14T18:59:51.232393+00:00",
+  "human_approved": false,
+  "rankings_not_read_before_freeze": true,
+  "sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\qrels.jsonl": "b24e884bb53231774f34d5630277bcf4ea833693a6ce8f82e239b4593fee0f9c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\adjudication_log.jsonl": "3ea550b18a7136887adf05ed22eddbbf4a7923c4e6f407026db8d2c5ecb193d6",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\qrels_direct.txt": "852db879cf7ebd39e97ec9f8a0b9f222e3634744131b1db4912a0d9953c71adc",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\qrels_graded_levels.txt": "fab490df819167f39d76b304371e6eef4791a50f907a3541febec4678cfdb468",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\qrels_graded_gain.txt": "545b05498a145487e7fd11f2c67672b41ba756db40d37f7422b1da73e49512a6",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\reference_summary.json": "f8fae06dc51a8bda81ea433a1ee2e963867455070245e42e959c14950e2a9f03",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\qrels_initial.jsonl": "f8b7cd203df8fc521ce21c8e0b775386f0df1df3e113655e57b387b9cd502bb8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\qrels_second_blind_review.jsonl": "5236a2f708035a4560d51b52013db1ca5727743bd806fd0f49036d3affae9835",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\review_disagreements_all.jsonl": "1561b1f899fa5b9c0dfa25a6343505a908f60a2d11b29ee59ba3c444d033a09d",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\blind_review_summary.json": "c477e7fd51a6c8c549daf97964f7a9d9db11ca940e5f37ddbcdde6f5fce6091f",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\corpus.jsonl": "dea604752d7d60b4e000bf62bdeac3e634640c61bab15f27c80bba283e163004",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\queries.jsonl": "06fbe0672f18862096c408c5f1b3820416d475775925f60fddb33902df5e6009",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\query_specs.jsonl": "e874402a3fb459bcca2f3b4da21bdab7f4f475fdb31a3d5bfc14b7d7346e1ce2",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_可用测试集_v1_20261015\\标注规则.md": "51d3bb3b57df1104f448b4f474eda9c9e539748751e9e94e25904a976e1d4ab0",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\adjudications_part12.json": "f78564056cd38f31e4884b53f9652dea5b7da48642be43294a13edfe2516cccd",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\adjudications_part3.json": "87bf700bf4bdc00ca2c1a4c7940e4bb5722b1396f16b025987a0f664168a1c28",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\finalize_qrels.py": "14c58f408abf9f549ae8dd771084937ec4b70316c0efdbec499bc5da99c1af00"
+  }
+}
