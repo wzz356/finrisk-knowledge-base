@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-17T08:23:42.084480+00:00",
+  "status": "passed",
+  "scalar_checks": 62,
+  "actual_rankings_recomputed": true,
+  "actual_predictions_recomputed": true,
+  "tolerance": 1e-12,
+  "reference_pool_scope_only": true,
+  "global_recall_reported": false
+}

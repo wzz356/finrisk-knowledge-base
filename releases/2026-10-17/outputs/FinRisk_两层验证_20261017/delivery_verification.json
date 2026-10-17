@@ -1,0 +1,91 @@
+{
+  "utc": "2026-10-17T08:30:04.767321+00:00",
+  "status": "passed",
+  "offline_tests": 94,
+  "original_dataset_validation": {
+    "status": "passed",
+    "questions": 90,
+    "states": {
+      "risk": 60,
+      "insufficient": 10,
+      "no_clear_risk": 20
+    },
+    "explicit_admissions": 2,
+    "views": {
+      "queries.jsonl": 90,
+      "closed_queries.jsonl": 24,
+      "retrieval_queries.jsonl": 60
+    },
+    "documents": 100,
+    "extra_legacy_documents": 2,
+    "closed_units": 1037,
+    "pairs": 2400,
+    "zero_direct_positive_queries": [
+      "FTEV2_013",
+      "FTEV2_078"
+    ],
+    "quoted_positive_pairs": 257,
+    "root_audited_pairs": 55,
+    "changed_pair_grades": 15,
+    "human_review_pending": 40,
+    "model_business_metrics_computed": false
+  },
+  "portable_recomputation": {
+    "status": "passed",
+    "retrieval_methods": [
+      "BM25",
+      "BGE",
+      "RRF",
+      "DeepSeek"
+    ],
+    "retrieval_queries": 24,
+    "risk_queries_per_arm": 90,
+    "actual_context_and_source_quote_counts_match": true,
+    "risk": {
+      "no_retrieval": {
+        "state_accuracy": 0.9777777777777777,
+        "risk_binary": {
+          "tp": 60,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.967741935483871,
+          "recall": 1.0,
+          "f1": 0.9836065573770492
+        },
+        "labels": {
+          "tp": 60,
+          "fp": 83,
+          "fn": 0,
+          "precision": 0.4195804195804196,
+          "recall": 1.0,
+          "f1": 0.5911330049261084
+        }
+      },
+      "RAG": {
+        "state_accuracy": 0.9666666666666667,
+        "risk_binary": {
+          "tp": 60,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1": 0.975609756097561
+        },
+        "labels": {
+          "tp": 60,
+          "fp": 86,
+          "fn": 0,
+          "precision": 0.410958904109589,
+          "recall": 1.0,
+          "f1": 0.5825242718446602
+        }
+      }
+    },
+    "network_or_api_used": false,
+    "global_recall_reported": false
+  },
+  "original_source_sha256": "1bd86772e4dfe479a87e9bc6ba7ef8d283da74b4a558ee5d4696146c728a584b",
+  "source_file_count": 9639,
+  "no_new_api_calls": true,
+  "original_dataset_manifest_sha256": "deb8dfb2db8cda3a86682391bbde0b631d22edf4175626a29c4efbade829a60a"
+}

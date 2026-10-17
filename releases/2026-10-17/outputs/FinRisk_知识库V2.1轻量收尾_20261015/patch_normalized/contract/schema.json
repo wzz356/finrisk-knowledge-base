@@ -1,0 +1,928 @@
+{
+  "contract_version": "fr5-foundation-v1",
+  "extension_tables": [
+    "document_evidence",
+    "responsibility_relations",
+    "retrieval_units",
+    "id_registry",
+    "id_migrations"
+  ],
+  "format": "typed_field_contract_v1",
+  "limits": [
+    "Type checker is a declared-field validator, not a complete JSON Schema engine",
+    "Nested relation/evidence/approval checks run separately",
+    "This version is a foundation contract; independent30 validation still required"
+  ],
+  "nested_constraints": {
+    "approvals": "scope/value/source version bound; model_review never human approval",
+    "case_parties": "exactly one penalized party; all penalties reference that party",
+    "money": "finite nonnegative or null; role, unit and currency evidence separated",
+    "party_hierarchy": "original designation/evidence/level or null+missing_reason; no inferred geographic tier",
+    "risk_tags": "0..3 exact official names; primary and secondary order match; zero has reason",
+    "scene": "canonical ID or null; direct_evidence/clue_only/unknown independent of transfer scope",
+    "scene_scope": "source_context_only/conditional_transfer/insufficient with necessary conditions and evidence"
+  },
+  "scope": "offline candidate construction; compatible eight-table core",
+  "tables": {
+    "annotations": {
+      "additional_fields": "allowed_for_compatibility",
+      "optional_fields": {
+        "value": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        }
+      },
+      "primary_key": "annotation_id",
+      "required_fields": {
+        "annotation_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "case_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "creator": {
+          "type": [
+            "string"
+          ]
+        },
+        "evidence_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "exclusion_conditions": {
+          "type": [
+            "array"
+          ]
+        },
+        "field": {
+          "type": [
+            "string"
+          ]
+        },
+        "model_or_prompt_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "origin": {
+          "type": [
+            "string"
+          ]
+        },
+        "review_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "review_status": {
+          "type": [
+            "string"
+          ]
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scope": {
+          "type": [
+            "string",
+            "object"
+          ]
+        },
+        "target_id": {
+          "type": [
+            "string"
+          ]
+        }
+      }
+    },
+    "behaviors": {
+      "additional_fields": "allowed_for_compatibility",
+      "optional_fields": {
+        "factor_values": {
+          "type": [
+            "object"
+          ]
+        },
+        "missing_reasons": {
+          "type": [
+            "array"
+          ]
+        }
+      },
+      "primary_key": "behavior_id",
+      "required_fields": {
+        "action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "actor_refs": {
+          "type": [
+            "array"
+          ]
+        },
+        "annotation_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "applicable_scenes": {
+          "type": [
+            "array"
+          ]
+        },
+        "background_evidence_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "behavior_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "behavior_summary": {
+          "type": [
+            "string"
+          ]
+        },
+        "case_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "condition_evidence_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "conditions": {
+          "type": [
+            "array"
+          ]
+        },
+        "event_behavior_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "exceptions": {
+          "type": [
+            "array"
+          ]
+        },
+        "fact_evidence_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "fact_review_status": {
+          "type": [
+            "string"
+          ]
+        },
+        "material_function": {
+          "enum": [
+            "direct_promotion",
+            "employee_instruction",
+            "prohibition_reminder",
+            "risk_education",
+            "fact_description",
+            "unknown"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "material_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "object": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "observed_scene": {
+          "type": [
+            "object"
+          ]
+        },
+        "original_expression_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "primary_risk_tag": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "product_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_status": {
+          "enum": [
+            "candidate",
+            "approved_core",
+            "quarantined",
+            "held"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "record_version": {
+          "type": [
+            "integer"
+          ]
+        },
+        "regulatory_finding": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "risk_mechanism": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "risk_tag_basis": {
+          "type": [
+            "array"
+          ]
+        },
+        "risk_tags": {
+          "type": [
+            "array"
+          ]
+        },
+        "scene_review_status": {
+          "type": [
+            "string"
+          ]
+        },
+        "secondary_risk_tags": {
+          "type": [
+            "array"
+          ]
+        },
+        "tag_review_status": {
+          "type": [
+            "string"
+          ]
+        },
+        "target": {
+          "type": [
+            "string",
+            "object",
+            "null"
+          ]
+        },
+        "uncertainties": {
+          "type": [
+            "array"
+          ]
+        }
+      }
+    },
+    "cases": {
+      "additional_fields": "allowed_for_compatibility",
+      "optional_fields": {},
+      "primary_key": "case_id",
+      "required_fields": {
+        "behavior_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "behavior_period": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "case_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "case_origin": {
+          "type": [
+            "string"
+          ]
+        },
+        "case_summary": {
+          "type": [
+            "string"
+          ]
+        },
+        "event_group_basis": {
+          "type": [
+            "string",
+            "object",
+            "null"
+          ]
+        },
+        "event_group_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fact_review_status": {
+          "type": [
+            "string"
+          ]
+        },
+        "field_evidence": {
+          "type": [
+            "object"
+          ]
+        },
+        "legacy_case_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "legal_refs": {
+          "type": [
+            "array"
+          ]
+        },
+        "missing_reasons": {
+          "type": [
+            "array"
+          ]
+        },
+        "parties": {
+          "type": [
+            "array"
+          ]
+        },
+        "penalties": {
+          "type": [
+            "array"
+          ]
+        },
+        "penalty_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "penalty_doc_no": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_status": {
+          "enum": [
+            "candidate",
+            "approved_core",
+            "quarantined",
+            "held"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "quality_flags": {
+          "type": [
+            "array"
+          ]
+        },
+        "record_version": {
+          "type": [
+            "integer"
+          ]
+        },
+        "regulator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scene_review_status": {
+          "type": [
+            "string"
+          ]
+        },
+        "source_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "tag_review_status": {
+          "type": [
+            "string"
+          ]
+        },
+        "text_ids": {
+          "type": [
+            "array"
+          ]
+        }
+      }
+    },
+    "documents": {
+      "additional_fields": "allowed_for_compatibility",
+      "optional_fields": {},
+      "primary_key": "text_id",
+      "required_fields": {
+        "encoding": {
+          "type": [
+            "string"
+          ]
+        },
+        "extraction_method": {
+          "type": [
+            "string"
+          ]
+        },
+        "full_text": {
+          "type": [
+            "string"
+          ]
+        },
+        "newline_handling": {
+          "type": [
+            "string"
+          ]
+        },
+        "page_map": {
+          "type": [
+            "object",
+            "array",
+            "null"
+          ]
+        },
+        "paragraph_map": {
+          "type": [
+            "object",
+            "array",
+            "null"
+          ]
+        },
+        "pdf_text_consistency_status": {
+          "type": [
+            "string"
+          ]
+        },
+        "source_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "source_sha256": {
+          "type": [
+            "string"
+          ]
+        },
+        "text_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "text_quality_flags": {
+          "type": [
+            "array"
+          ]
+        },
+        "text_sha256": {
+          "type": [
+            "string"
+          ]
+        },
+        "text_version": {
+          "type": [
+            "integer"
+          ]
+        }
+      }
+    },
+    "evidence": {
+      "additional_fields": "allowed_for_compatibility",
+      "optional_fields": {},
+      "primary_key": "evidence_id",
+      "required_fields": {
+        "behavior_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "case_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "end_char": {
+          "type": [
+            "integer"
+          ]
+        },
+        "evidence_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "evidence_type": {
+          "type": [
+            "string"
+          ]
+        },
+        "historical_review_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "human_review_status": {
+          "type": [
+            "string"
+          ]
+        },
+        "offset_unit": {
+          "enum": [
+            "unicode_codepoint"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "page_number": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "source_sha256": {
+          "type": [
+            "string"
+          ]
+        },
+        "source_status": {
+          "enum": [
+            "verified"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "source_verification_method": {
+          "type": [
+            "string"
+          ]
+        },
+        "span_convention": {
+          "enum": [
+            "[start,end)"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "start_char": {
+          "type": [
+            "integer"
+          ]
+        },
+        "supported_fields": {
+          "type": [
+            "array"
+          ]
+        },
+        "text_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "text_sha256": {
+          "type": [
+            "string"
+          ]
+        },
+        "text_version": {
+          "type": [
+            "integer"
+          ]
+        },
+        "verbatim": {
+          "type": [
+            "string"
+          ]
+        }
+      }
+    },
+    "materials": {
+      "additional_fields": "allowed_for_compatibility",
+      "optional_fields": {},
+      "primary_key": "material_id",
+      "required_fields": {
+        "case_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "complete_business_material_available": {
+          "type": [
+            "boolean"
+          ]
+        },
+        "completeness": {
+          "type": [
+            "string"
+          ]
+        },
+        "evidence_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "material_form": {
+          "type": [
+            "string"
+          ]
+        },
+        "material_function": {
+          "type": [
+            "string"
+          ]
+        },
+        "material_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "string"
+          ]
+        },
+        "origin": {
+          "type": [
+            "string"
+          ]
+        },
+        "original_expression_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "original_expression_missing_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "review_status": {
+          "type": [
+            "string"
+          ]
+        }
+      }
+    },
+    "reviews": {
+      "additional_fields": "allowed_for_compatibility",
+      "optional_fields": {},
+      "primary_key": "review_id",
+      "required_fields": {
+        "approved_scope": {
+          "type": [
+            "array"
+          ]
+        },
+        "case_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "decision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "exclusion_scope": {
+          "type": [
+            "array"
+          ]
+        },
+        "field_scope": {
+          "type": [
+            "array"
+          ]
+        },
+        "independent_second_review_completed": {
+          "type": [
+            "boolean"
+          ]
+        },
+        "origin": {
+          "type": [
+            "string"
+          ]
+        },
+        "original_record_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_record_sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "review_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "type": [
+            "string"
+          ]
+        },
+        "target_ids": {
+          "type": [
+            "array"
+          ]
+        }
+      }
+    },
+    "source_inventory": {
+      "additional_fields": "allowed_for_compatibility",
+      "optional_fields": {},
+      "primary_key": "source_id",
+      "required_fields": {
+        "access_scope": {
+          "type": [
+            "string"
+          ]
+        },
+        "byte_size": {
+          "type": [
+            "integer"
+          ]
+        },
+        "error_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "exclusion_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "file_type": {
+          "enum": [
+            "txt",
+            "pdf"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "insurance_relevance": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "linked_source_ids": {
+          "type": [
+            "array"
+          ]
+        },
+        "mapping_basis": {
+          "type": [
+            "string"
+          ]
+        },
+        "mapping_status": {
+          "enum": [
+            "verified",
+            "candidate",
+            "unresolved"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "official_file_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_filename": {
+          "type": [
+            "string"
+          ]
+        },
+        "pipeline_version": {
+          "type": [
+            "string"
+          ]
+        },
+        "processed_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "processing_status": {
+          "enum": [
+            "pending",
+            "success",
+            "partial",
+            "failed",
+            "excluded",
+            "duplicate_linked"
+          ],
+          "type": [
+            "string"
+          ]
+        },
+        "relative_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "relevance_review_status": {
+          "type": [
+            "string"
+          ]
+        },
+        "relevance_to_marketing": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "source_id": {
+          "type": [
+            "string"
+          ]
+        },
+        "source_sha256": {
+          "type": [
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

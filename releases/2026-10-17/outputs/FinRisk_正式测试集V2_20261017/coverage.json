@@ -1,0 +1,64 @@
+{
+  "questions": 90,
+  "states": {
+    "risk": 60,
+    "insufficient": 10,
+    "no_clear_risk": 20
+  },
+  "styles": {
+    "long_background": 12,
+    "substantive_claim_missing_condition": 10,
+    "dialogue": 12,
+    "customer_short": 12,
+    "normal_boundary": 20,
+    "boundary_hard": 12,
+    "internal_instruction": 12
+  },
+  "difficulty": {
+    "medium": 44,
+    "easy": 31,
+    "hard": 15
+  },
+  "risk_mechanisms": {
+    "M10": 5,
+    "M03": 5,
+    "M02": 5,
+    "M11": 5,
+    "M05": 5,
+    "M12": 5,
+    "M07": 5,
+    "M06": 5,
+    "M08": 5,
+    "M01": 5,
+    "M09": 5,
+    "M04": 5
+  },
+  "required_labels": {
+    "委托无资质机构销售": 5,
+    "避债避税": 5,
+    "回访违规": 10,
+    "客户信息不真实": 5,
+    "保证收益": 5,
+    "电销违规": 5,
+    "销售误导": 13,
+    "隐瞒重要信息": 2,
+    "虚假宣传": 5,
+    "合同外利益": 5
+  },
+  "character_lengths": {
+    "min": 111,
+    "max": 379,
+    "at_least_300": 12
+  },
+  "human_review": {
+    "total": 40,
+    "random": 30,
+    "challenge": 10,
+    "pending": 40
+  },
+  "official_labels_total": 27,
+  "selected_source_anchor_facts": 30,
+  "selected_source_candidate_event_families": 29,
+  "model_business_results": null,
+  "global_recall": null
+}

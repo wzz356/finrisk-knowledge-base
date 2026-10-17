@@ -1,0 +1,14 @@
+{
+  "candidate_for_90_regression": false,
+  "default_application_changed": false,
+  "full_plan_complete": false,
+  "reason": "本轮未达到将C组替换现有默认判别流程的准入条件。法规库和条件卡可作为研究与可追溯解释组件，不能仅因引用更多就宣称判断更准确。",
+  "open_items": [
+    "original_artifacts",
+    "pending_legal_currentness",
+    "L011_L012",
+    "mechanism_query_expansion_main_flow",
+    "90_same_batch_regression",
+    "agent_application_bridge"
+  ]
+}

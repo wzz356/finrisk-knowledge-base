@@ -1,0 +1,219 @@
+{
+  "utc": "2026-10-17T08:18:05.129527+00:00",
+  "queries": 12,
+  "outputs": 24,
+  "preselected_before_predictions": true,
+  "anonymous_arm_review": true,
+  "reference_answers_not_provided": true,
+  "by_arm": {
+    "no_retrieval": {
+      "outputs": 12,
+      "state_assessment": {
+        "supported": 12
+      },
+      "mechanism_assessment": {
+        "supported": 12
+      },
+      "overall_evidence_support": {
+        "no_citation": 12
+      },
+      "citation_assessments": {}
+    },
+    "RAG": {
+      "outputs": 12,
+      "state_assessment": {
+        "supported": 12
+      },
+      "mechanism_assessment": {
+        "supported": 9,
+        "questionable": 3
+      },
+      "overall_evidence_support": {
+        "supported": 10,
+        "partly_supported": 2
+      },
+      "citation_assessments": {
+        "supported": 38,
+        "partly_supported": 2
+      }
+    }
+  },
+  "issues": [
+    {
+      "query_id": "FTEV2_033",
+      "arm": "RAG",
+      "review": {
+        "anonymous_arm": "B",
+        "state_assessment": "supported",
+        "mechanism_assessment": "questionable",
+        "citation_assessments": [
+          {
+            "index": 1,
+            "file_id": "F000842",
+            "judgment": "supported",
+            "reason": "给定证据明确记载保全时私自变更客户信息并导致非本人回访及相应处罚，支持该历史情形的claim；claim只将其作为本人操作需核实的对照。"
+          },
+          {
+            "index": 2,
+            "file_id": "F001803",
+            "judgment": "supported",
+            "reason": "给定源文明确记载银保专管员代替投保人签名伪造面访问卷，足以支持代签伪造本人确认这一历史机制；换行差异不改变语义。"
+          },
+          {
+            "index": 3,
+            "file_id": "F001822",
+            "judgment": "supported",
+            "reason": "证据明确记载员工为完成回访任务授意他人代投保人在回访函签名及被处罚，支持所述回访代签问题；claim将其标为对照。"
+          }
+        ],
+        "overall_evidence_support": "supported",
+        "reason": "insufficient判断合理，三项citation对各自明确限定的历史对照有支撑；但机制中并列回访/签署违规且候选标签出现回访违规，题面只有受益人变更电子签署，尚无回访行为。",
+        "limitations": "原始记录待补不能推定代签已发生；回访代签案例可供核实签署真实性时对照，却不能将当前保全签署直接归入回访违规。"
+      }
+    },
+    {
+      "query_id": "FTEV2_053",
+      "arm": "RAG",
+      "review": {
+        "anonymous_arm": "A",
+        "state_assessment": "supported",
+        "mechanism_assessment": "questionable",
+        "citation_assessments": [
+          {
+            "index": 1,
+            "file_id": "F001177",
+            "judgment": "supported",
+            "reason": "给定证据确有电销中心被检查并发现销售误导等违法行为，支持claim所述渠道监管背景；未出现拒绝后继续推销的事实。"
+          },
+          {
+            "index": 2,
+            "file_id": "F000841",
+            "judgment": "supported",
+            "reason": "给定证据明确记载电话销售隐瞒免责、退保损失等重要事项，支持claim将其称为电销背景对照；不直接支持拒绝后仍推销这一机制。"
+          }
+        ],
+        "overall_evidence_support": "partly_supported",
+        "reason": "客户已两次明确排除销售，理赔服务已完成，坐席仍继续介绍新险，足以支持risk；但回答把同意听保险方案扩大为投保同意。两条citation各自背景claim真实，均未覆盖拒绝后继续外呼。",
+        "limitations": "题面支持违背明确拒绝继续推销的风险判断，并未记载客户投保同意、投保申请或实际成交；当前具体风险主要由题面支撑，不能用泛化电销处罚作直接机制或违法证明。"
+      }
+    },
+    {
+      "query_id": "FTEV2_009",
+      "arm": "RAG",
+      "review": {
+        "anonymous_arm": "B",
+        "state_assessment": "supported",
+        "mechanism_assessment": "questionable",
+        "citation_assessments": [
+          {
+            "index": 1,
+            "file_id": "F001356",
+            "judgment": "supported",
+            "reason": "给定源案明确说明红利不确定，并载有将分红说成确定最低额的销售话术，支持作为未来增额保证的机制对照。"
+          },
+          {
+            "index": 2,
+            "file_id": "F001478",
+            "judgment": "supported",
+            "reason": "源案明确将不确定利益宣传为承诺约定利益并夸大保险利益，支持claim所述相似机制，未要求其复刻本题增额形式。"
+          },
+          {
+            "index": 3,
+            "file_id": "F001716",
+            "judgment": "supported",
+            "reason": "源案载明将不确定红利宣传为具体领取金额且高于假设高档水平，支持claim所述虚假收益宣传对照。"
+          },
+          {
+            "index": 4,
+            "file_id": "F001816",
+            "judgment": "supported",
+            "reason": "源案直接对照每年固定分红宣传与条款分红不确定，支持将演示增额承诺成确定利益的机制类比。"
+          }
+        ],
+        "overall_evidence_support": "supported",
+        "reason": "risk及未来非保证利益被承诺为确定利益的主机制有支持，四条引证均支持该机制；但机制中把后续分红不确定归为顾问先前的正确说明，题面仅写这是条款摘录。",
+        "limitations": "顾问本人曾提示后续分红不确定这一主体归因未获支持；条款摘录与顾问发言须分开。案件支持风险机制，不能证明当前交易已违法。"
+      }
+    },
+    {
+      "query_id": "FTEV2_068",
+      "arm": "RAG",
+      "review": {
+        "anonymous_arm": "A",
+        "state_assessment": "supported",
+        "mechanism_assessment": "supported",
+        "citation_assessments": [
+          {
+            "index": 1,
+            "file_id": "F000858",
+            "judgment": "supported",
+            "reason": "给定处罚决定书片段记载电销夸大收益、保险责任及虚假停售欺骗，支持所声称的一般电销误导背景；不覆盖拒绝后继续营销。"
+          },
+          {
+            "index": 2,
+            "file_id": "F000697",
+            "judgment": "partly_supported",
+            "reason": "片段明确电销中心存在欺骗投保人的违法行为及责任人，支持监管背景；没有给出实际处罚结果，回答称因该行为被处罚超出片段展示事实。"
+          }
+        ],
+        "overall_evidence_support": "partly_supported",
+        "reason": "当前拒绝后仍推销、报价及引导购买均由题面直接给出，risk及机制成立；案例仅为电销背景，回答也明确承认不能直接对应当前机制，但一处补称被处罚未有给定结果。",
+        "limitations": "给定案例均没有客户明确拒绝后仍营销的事实，不能据此直接确证该机制或认定当前还有欺骗、强制投保等行为；题面未说明之后是否再次拨打。"
+      }
+    },
+    {
+      "query_id": "FTEV2_085",
+      "arm": "RAG",
+      "review": {
+        "anonymous_arm": "A",
+        "state_assessment": "supported",
+        "mechanism_assessment": "supported",
+        "citation_assessments": [
+          {
+            "index": 1,
+            "file_id": "F001987",
+            "judgment": "partly_supported",
+            "reason": "片段直接记载存钱、储蓄误导话术和产品性质混淆，支持机制类比；但没有给出实际处罚结果，claim中的被处罚超出片段展示事实。"
+          },
+          {
+            "index": 2,
+            "file_id": "F001988",
+            "judgment": "supported",
+            "reason": "给定片段明确相同的存钱、储蓄误导话术及混淆性质，与所声称机制一致。"
+          },
+          {
+            "index": 3,
+            "file_id": "F000840",
+            "judgment": "supported",
+            "reason": "片段将以银行存款等其他金融产品名义销售保险列为电话销售欺骗投保人，直接支持以存款名义推广保险的类比。"
+          },
+          {
+            "index": 4,
+            "file_id": "F002062",
+            "judgment": "supported",
+            "reason": "片段明确不实宣称保险收益之外另有银行定期利息，并给出违反保险法及处罚；支持回答所称不实混同的误导性质，但不是同一具体话术。"
+          },
+          {
+            "index": 5,
+            "file_id": "F002063",
+            "judgment": "supported",
+            "reason": "片段明确不当类比保险分红和定存利息、把缴费说成存钱，支持该引用关于销售误导的判断。"
+          }
+        ],
+        "overall_evidence_support": "supported",
+        "reason": "题面已明确冒称存款并掩盖保险性质，多个引证直接覆盖产品属性混淆，核心机制有充分支持；F001987未展示处罚结果，局部被处罚表述支持不足。",
+        "limitations": "题面是晨会演练指令，不证明已向客户实际使用或造成损失；源片段并非都展示具体处罚结果，也没有单独认定当前培训安排的效力。"
+      }
+    }
+  ],
+  "diagnostic_only": true,
+  "not_full90_semantic_accuracy": true,
+  "human_approved": false,
+  "exact_citation_indices": "one-based in reviewer files",
+  "independent_review_limitation": "Part3 reviewer inspected another agent status summary only after its own result was saved; no later edits reported. No gold or arm mapping seen by reviewers.",
+  "sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_two_layer_validation_20261017\\semantic_audit_decisions_part_1.jsonl": "48845901fb5141f8686b780c950e7756b515e33771101dc0426a24da857b363a",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_two_layer_validation_20261017\\semantic_audit_decisions_part_2.jsonl": "093b179778666dd04021579cf9c52a7f9ae64a8abb53fd02ca46fd0464ca9a11",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_two_layer_validation_20261017\\semantic_audit_decisions_part_3.jsonl": "557ca4cc0cefbf971ecbf0005c0b4bacef32fc56c3a37e92e33998354d0b437d"
+  }
+}

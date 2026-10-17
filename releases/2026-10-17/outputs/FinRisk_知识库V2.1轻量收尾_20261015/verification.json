@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "prior_sealed_payloads_reverified": 91,
+  "effective_candidates_read_from_gzip_and_hash_verified": 9639,
+  "baseline_unchanged_drafts": 9634,
+  "patch_drafts_verified": 5,
+  "exact_allowed_JSON_field_changes": 8,
+  "normalized_patch_files_verified": 19,
+  "affected_units_reprojected_equal_except_candidate_fingerprint": 33,
+  "cases": 15620,
+  "behaviors": 25186,
+  "source_fingerprints_verified": true,
+  "human_approval_not_inferred": true,
+  "new_model_API_calls": 0,
+  "build_seconds": 16.38976399999956
+}

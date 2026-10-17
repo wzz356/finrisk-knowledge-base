@@ -1,0 +1,38 @@
+{
+  "utc": "2026-10-16T19:18:02.991993+00:00",
+  "before_matrix_judgments": true,
+  "queries": 24,
+  "documents": 100,
+  "pairs": 2400,
+  "expected_zero_positive_is_valid": true,
+  "parts": [
+    {
+      "part": 1,
+      "documents": 33,
+      "source_chars": 29271,
+      "pairs": 792
+    },
+    {
+      "part": 2,
+      "documents": 33,
+      "source_chars": 29271,
+      "pairs": 792
+    },
+    {
+      "part": 3,
+      "documents": 34,
+      "source_chars": 29404,
+      "pairs": 816
+    }
+  ],
+  "sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_20261017\\query_freeze.json": "533e4e6489b19e03218c6f1918823cf6f3cc2ae0c2eaf8e9cd18d4d4dcb96e57",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_20261017\\corpus.jsonl": "f5315a6fea0d6cef2558d3e91e165e09f0407fa0e4dc8bf1f49f25c95bb1f503",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_20261017\\corpus_selection.jsonl": "a0f86b98c0de9dd934b5d625bc56a510e3e1f9659f967ca8405954f3aa54de66",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_evalset_20261017\\closed_random_audit_preselection.json": "6312ff5f8b685f2c80a907b529f2c81762e91f8d6ab42f67cfd2ebcb3e46f2ad",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_evalset_20261017\\closed_part_1.jsonl": "be455fff52aba2e7f2f242de44c3e64bb067b9baa8872f6eb8f3c47ea37b02a3",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_evalset_20261017\\closed_part_2.jsonl": "e289643072dfe1b454189a8bbe72f355bfe3a9509d9e20ae558bce50fb6d2736",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_evalset_20261017\\closed_part_3.jsonl": "df46d3301a3cdd475b4fff974bb1eab10e5e8f71d23cc7a63666d1a450761d1a"
+  },
+  "human_approved": false
+}

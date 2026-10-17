@@ -1,0 +1,13 @@
+{
+  "reason": "unstated cosmetic list caps rejected complete provided legal/case references",
+  "only_change": "allow complete lists bounded by provided source counts; every ID/version and all fact predicates still checked",
+  "semantic_changes": false,
+  "prompts_changed": false,
+  "references_changed": false,
+  "queries_changed": false,
+  "prior_accepted_preserved": true,
+  "raw_records_unchanged": true,
+  "new_requests_for_recovery": 0,
+  "retries_per_task_unchanged": 3,
+  "source_sha256": "f786c473ab351e04690c9cd3b97f6293f46d7579d0e0b0ce3c1cdd4c391ffa29"
+}

@@ -1,0 +1,906 @@
+{
+  "utc": "2026-10-17T08:18:56.577717+00:00",
+  "known_positive_pairs": 99,
+  "counts": {
+    "absent_from_both_BM25_BGE_Top100_units": 51,
+    "kept_in_DeepSeek_Top20": 39,
+    "entered_RRF100_but_outside_DeepSeek_Top20": 3,
+    "in_dual_route_union_but_cut_by_RRF100": 6
+  },
+  "per_pair": [
+    {
+      "query_id": "FTEV2_001",
+      "file_id": "F001196",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_001",
+      "file_id": "F001952",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_001",
+      "file_id": "F009590",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_004",
+      "file_id": "F000419",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_004",
+      "file_id": "F000653",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "entered_RRF100_but_outside_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_004",
+      "file_id": "F001715",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_004",
+      "file_id": "F001774",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_004",
+      "file_id": "F001837",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_004",
+      "file_id": "F001926",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_004",
+      "file_id": "F001952",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_016",
+      "file_id": "F001739",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_016",
+      "file_id": "F002647",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_016",
+      "file_id": "F003484",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_016",
+      "file_id": "F007769",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_018",
+      "file_id": "F001682",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_018",
+      "file_id": "F002283",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_018",
+      "file_id": "F002284",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_018",
+      "file_id": "F002623",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_019",
+      "file_id": "F002647",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_019",
+      "file_id": "F003425",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_024",
+      "file_id": "F006818",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_031",
+      "file_id": "F001354",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_031",
+      "file_id": "F001355",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_031",
+      "file_id": "F001375",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_037",
+      "file_id": "F003425",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "entered_RRF100_but_outside_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F000390",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F000495",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F001535",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F001900",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F003620",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F007926",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F008369",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F009410",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F009415",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F009418",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "in_dual_route_union_but_cut_by_RRF100"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F009481",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F009589",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_043",
+      "file_id": "F009984",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_044",
+      "file_id": "F000419",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_044",
+      "file_id": "F000653",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_044",
+      "file_id": "F001715",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_044",
+      "file_id": "F001774",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_044",
+      "file_id": "F001837",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_044",
+      "file_id": "F001926",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_044",
+      "file_id": "F001952",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_057",
+      "file_id": "F001266",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_057",
+      "file_id": "F001505",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_057",
+      "file_id": "F001774",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_057",
+      "file_id": "F001822",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_057",
+      "file_id": "F001824",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_057",
+      "file_id": "F001952",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_061",
+      "file_id": "F000858",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_061",
+      "file_id": "F000860",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_061",
+      "file_id": "F001355",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_062",
+      "file_id": "F001196",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_062",
+      "file_id": "F001952",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_062",
+      "file_id": "F009590",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_063",
+      "file_id": "F001111",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_063",
+      "file_id": "F002623",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_067",
+      "file_id": "F001682",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_067",
+      "file_id": "F002283",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_067",
+      "file_id": "F002284",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_067",
+      "file_id": "F002623",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "in_dual_route_union_but_cut_by_RRF100"
+    },
+    {
+      "query_id": "FTEV2_068",
+      "file_id": "F001506",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_069",
+      "file_id": "F001352",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_069",
+      "file_id": "F001354",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_069",
+      "file_id": "F001375",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_069",
+      "file_id": "F001478",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_069",
+      "file_id": "F001717",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "entered_RRF100_but_outside_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_069",
+      "file_id": "F001827",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_069",
+      "file_id": "F002563",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "in_dual_route_union_but_cut_by_RRF100"
+    },
+    {
+      "query_id": "FTEV2_070",
+      "file_id": "F006818",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_071",
+      "file_id": "F001352",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_071",
+      "file_id": "F001354",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "in_dual_route_union_but_cut_by_RRF100"
+    },
+    {
+      "query_id": "FTEV2_071",
+      "file_id": "F001375",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_071",
+      "file_id": "F001478",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_071",
+      "file_id": "F001717",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_071",
+      "file_id": "F001827",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_071",
+      "file_id": "F002563",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_079",
+      "file_id": "F001266",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_079",
+      "file_id": "F001505",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_079",
+      "file_id": "F001774",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_079",
+      "file_id": "F001822",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_079",
+      "file_id": "F001824",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "in_dual_route_union_but_cut_by_RRF100"
+    },
+    {
+      "query_id": "FTEV2_079",
+      "file_id": "F001952",
+      "BM25_top100_units_contains_file": true,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": true,
+      "DeepSeek_top20_files_contains_file": true,
+      "category": "kept_in_DeepSeek_Top20"
+    },
+    {
+      "query_id": "FTEV2_087",
+      "file_id": "F001506",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F000390",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F000495",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F001535",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F001900",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F003620",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F007926",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F008369",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F009410",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F009415",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F009418",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F009481",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F009589",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": true,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "in_dual_route_union_but_cut_by_RRF100"
+    },
+    {
+      "query_id": "FTEV2_089",
+      "file_id": "F009984",
+      "BM25_top100_units_contains_file": false,
+      "BGE_top100_units_contains_file": false,
+      "RRF_top100_units_contains_file": false,
+      "DeepSeek_top20_files_contains_file": false,
+      "category": "absent_from_both_BM25_BGE_Top100_units"
+    }
+  ],
+  "scope": "frozen closed100 known direct pairs in real full9639 routes; incomplete relevance set, not global Recall",
+  "query_file_unit_granularity_explicit": true,
+  "no_new_retrieval_or_API": true
+}

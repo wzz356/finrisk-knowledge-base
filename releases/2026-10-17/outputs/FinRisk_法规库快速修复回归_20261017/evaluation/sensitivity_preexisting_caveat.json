@@ -1,0 +1,16 @@
+{
+  "analysis": {
+    "original_correct": 34,
+    "alternate_acceptable_correct": 34,
+    "questions": 36,
+    "one_question": "LR36_019",
+    "primary_reference_unchanged": true
+  },
+  "review": {
+    "original_correct": 34,
+    "alternate_acceptable_correct": 34,
+    "questions": 36,
+    "one_question": "LR36_019",
+    "primary_reference_unchanged": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_法规库快速修复回归_20261017\\packets.jsonl": "cbaf1b592216a5d698eba52851bed28b6ca66a7ab54d182919764040a5799684",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_法规库快速修复回归_20261017\\operational_rules.json": "f3023550e4f0df428f520ed3e80519c0da4aa2191e97f1d85f4243a01717e074",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_法规库快速修复回归_20261017\\prompts.json": "4a0777b4cba59f296eaea20d3d2736af39de83843a2f2382528a80268ec47c03",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_法规库快速修复回归_20261017\\api_authorization.json": "94798acc589c4670d650dcb184676240767270499cac354c26943de8b7bb3cdf",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_regulation_quickfix_20261017\\common_paths.py": "4f5255c15b5bd09c2ad17c7e9a85d002836a0ebbe84339e5874a48d7e7e4438e",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_regulation_quickfix_20261017\\repair_api.py": "f8f371b0f1ab210cf0a0d5ba4e31a41250b8078e414b24e0a172a14d202c804f",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_regulation_quickfix_20261017\\repair_pipeline.py": "b26917daf80a20ec020ae8be6f3e0516f4f4108e8efb69d268f62b5ecd3244bf",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_regulation_quickfix_20261017\\repair_rules.py": "7ef67ad2164cc87864ebf71da89649c2880bd3048cba5360c932f45d0b3ab275",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_regulation_quickfix_20261017\\test_repair.py": "bc15767993ab5c96910588e966e10916415b4ab7903e00135486fafad16e5697"
+  },
+  "regression_not_independent_confirm": true,
+  "reference_answers_not_used_for_input": true
+}

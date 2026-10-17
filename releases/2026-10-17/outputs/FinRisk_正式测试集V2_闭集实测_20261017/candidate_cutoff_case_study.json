@@ -1,0 +1,30 @@
+{
+  "file_id": "F006818",
+  "known_relevance_grade": 3,
+  "method": "post-run diagnostic only; no selection or ranking changed",
+  "queries": {
+    "FTEV2_024": {
+      "BM25": [],
+      "BGE": [
+        98
+      ],
+      "RRF_union": [
+        150
+      ],
+      "RRF": []
+    },
+    "FTEV2_070": {
+      "BM25": [],
+      "BGE": [
+        36
+      ],
+      "RRF_union": [
+        66
+      ],
+      "RRF": [
+        66
+      ]
+    }
+  },
+  "conclusion": "Long input direct source enters BGE100 but is dropped by RRF100 at union rank150; short input retains source at rank66; two different queries, not a controlled causal ablation"
+}

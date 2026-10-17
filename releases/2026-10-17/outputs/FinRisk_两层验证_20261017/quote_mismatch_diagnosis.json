@@ -1,0 +1,357 @@
+{
+  "utc": "2026-10-17T08:18:05.168516+00:00",
+  "strict_mismatches": 43,
+  "categories": {
+    "not_whitespace_only": 2,
+    "whitespace_only": 41
+  },
+  "items": [
+    {
+      "query_id": "FTEV2_003",
+      "citation_index": 0,
+      "file_id": "F002283",
+      "model_quote": "避债避税 合理合法”, “保险不是花费,而是帐户转移”",
+      "category": "not_whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_005",
+      "citation_index": 1,
+      "file_id": "F008187",
+      "model_quote": "编制虚假资料",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_007",
+      "citation_index": 1,
+      "file_id": "F001987",
+      "model_quote": "宣传“贷款能贷本金的70%,把本金贷出去以后,在180天内返还回来是没有任何费用产生的”与保险条款规定的“贷款金额不得超过您申请时本合同现金价值扣除各项欠款及应付利息后余额的70%,每次贷款期限最长不超过180日,贷款利率按您与我们签订的贷款协议中约定的利率执行”的事实不符。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_008",
+      "citation_index": 1,
+      "file_id": "F004751",
+      "model_quote": "给予投保人保险合同约定以外的其他利益",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_010",
+      "citation_index": 1,
+      "file_id": "F001716",
+      "model_quote": "彭艳群对于保单红利的宣传也与实际情况明显不符,将不确定的红利收益宣传为确定收益,且明显夸大收益水平。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_011",
+      "citation_index": 1,
+      "file_id": "F000419",
+      "model_quote": "由外勤人员代替投保人完成新契约回访",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_011",
+      "citation_index": 3,
+      "file_id": "F001276",
+      "model_quote": "由汤x接听9xxxx回访电话并回访成功",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_012",
+      "citation_index": 1,
+      "file_id": "F009590",
+      "model_quote": "2019年,国寿财险山东省分公司下辖济南、临沂、潍坊、烟台中心支公司与64家无保险兼业代理资格的车商、修理厂等单位开展保险业务合作,委托上述单位开展车险业务销售,涉及保费收入24,086,707.65元。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_018",
+      "citation_index": 1,
+      "file_id": "F001947",
+      "model_quote": "未向客户明确告知是保险产品,混淆保险产品与银行存款",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_020",
+      "citation_index": 1,
+      "file_id": "F001349",
+      "model_quote": "张某夸大保险产品收益,告知常某该保单缴费满5年后,第6年退保就能把前5年所交保费全部退回",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_023",
+      "citation_index": 0,
+      "file_id": "F000855",
+      "model_quote": "存在公司销售人员使用与事实不符表述等欺骗投保人的行为",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_025",
+      "citation_index": 0,
+      "file_id": "F001569",
+      "model_quote": "通过自编特别约定的方式扩展了保险责任,将原保险条款中的免责条款纳入了保障范围,你公司未按照规定使用备案的保险条款",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_025",
+      "citation_index": 3,
+      "file_id": "F001288",
+      "model_quote": "人保财险涪陵李渡支公司综合部副经理庹某明确表示拒绝承保",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_025",
+      "citation_index": 4,
+      "file_id": "F002661",
+      "model_quote": "约定保费包含在登封少林旅游集团公司为游客办理的《中国嵩山风景名胜游览证》中,并约定手续费比例为保险费的30%",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_029",
+      "citation_index": 0,
+      "file_id": "F002619",
+      "model_quote": "未明确确认投保人是否知悉费用扣除项目及扣除的比例或者金额",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_029",
+      "citation_index": 1,
+      "file_id": "F001348",
+      "model_quote": "张耀中夸大保险产品收益,告知常某该保单缴费满5年后,第6年退保就能把前5年所交保费全部退回",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_033",
+      "citation_index": 1,
+      "file_id": "F001803",
+      "model_quote": "另有16件保单在面访过程中,未访问到投保人本人,相关面访问卷是由你公司银保专管员代替投保人签名伪造而成。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_033",
+      "citation_index": 2,
+      "file_id": "F001822",
+      "model_quote": "为了完成回访任务,公司员工张权忠授意他人代替投保人在客户回访函上签名后交回公司。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_034",
+      "citation_index": 0,
+      "file_id": "F009412",
+      "model_quote": "未给消费者强调条款约定免除责任的内容",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_039",
+      "citation_index": 1,
+      "file_id": "F001739",
+      "model_quote": "出现“存起来”、“存一笔钱”等话术,将人身保险产品与银行存款进行片面比较,以及未告知客户退保会产生损失等行为",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_042",
+      "citation_index": 0,
+      "file_id": "F001822",
+      "model_quote": "为了完成回访任务,公司员工张权忠授意他人代替投保人在客户回访函上签名后交回公司。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_044",
+      "citation_index": 2,
+      "file_id": "F001277",
+      "model_quote": "于2014年1月16日由汤x接听9xxxx回访电话并回访成功。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_044",
+      "citation_index": 3,
+      "file_id": "F000419",
+      "model_quote": "并由外勤人员代替投保人完成新契约回访。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_045",
+      "citation_index": 1,
+      "file_id": "F000419",
+      "model_quote": "由外勤人员代替投保人完成新契约回访",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_045",
+      "citation_index": 2,
+      "file_id": "F000817",
+      "model_quote": "核心业务系统漏洞导致投保人电话号码记录错误,造成公司未按照《人身保险新型产品信息披露管理办法》的要求回访投保人本人",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_046",
+      "citation_index": 1,
+      "file_id": "F000701",
+      "model_quote": "未在销售网页中列明意外伤残保险责任和保险金额",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_046",
+      "citation_index": 2,
+      "file_id": "F001569",
+      "model_quote": "通过自编特别约定的方式扩展了保险责任，将原保险条款中的免责条款纳入了保障范围",
+      "category": "not_whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_051",
+      "citation_index": 3,
+      "file_id": "F001686",
+      "model_quote": "即使客户选择将“生存金”留存在公司,其累积生息的利率也是非确定的,每年的利率由中国人寿总公司确定,而利益演示系统依据3.5%的年利率计算并以此宣传以后几十年的累积生息属于虚假陈述。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_052",
+      "citation_index": 2,
+      "file_id": "F001533",
+      "model_quote": "《保险兼业代理业务许可证》于2013年3月24日到期,在2013年3月25日至5月30日,该网点一直代理销售人保寿险保险产品",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_060",
+      "citation_index": 4,
+      "file_id": "F000916",
+      "model_quote": "向投保人刘某支付保险合同约定以外的保险费回扣21.6万元",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_067",
+      "citation_index": 1,
+      "file_id": "F001947",
+      "model_quote": "未向客户明确告知是保险产品,混淆保险产品与银行存款",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_068",
+      "citation_index": 0,
+      "file_id": "F000858",
+      "model_quote": "电销人员在保险销售服务活动过程中,采取夸大收益、夸大保险责任、以即将停售为由宣传实际并未停售的产品等方式,欺骗投保人。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_070",
+      "citation_index": 1,
+      "file_id": "F002296",
+      "model_quote": "未确认投保人是否知悉责任免除",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_070",
+      "citation_index": 2,
+      "file_id": "F009689",
+      "model_quote": "在销售过程中未予更正",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_073",
+      "citation_index": 1,
+      "file_id": "F009590",
+      "model_quote": "委托上述单位开展车险业务销售",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_076",
+      "citation_index": 1,
+      "file_id": "F009587",
+      "model_quote": "“E生平安.重疾险”产品宣传材料中称“确诊即赔”。上述三种保险产品的宣传资料中,存在多项夸大保险责任等内容。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_083",
+      "citation_index": 0,
+      "file_id": "F001822",
+      "model_quote": "在电话回访不成功的情况下,未采取信函或者会见等有效的方式进行回访。为了完成回访任务,公司员工张权忠授意他人代替投保人在客户回访函上签名后交回公司。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_084",
+      "citation_index": 1,
+      "file_id": "F001822",
+      "model_quote": "为了完成回访任务,公司员工张权忠授意他人代替投保人在客户回访函上签名后交回公司。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_087",
+      "citation_index": 0,
+      "file_id": "F000855",
+      "model_quote": "存在公司销售人员使用与事实不符表述等欺骗投保人的行为",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_087",
+      "citation_index": 1,
+      "file_id": "F001822",
+      "model_quote": "在电话回访不成功的情况下,未采取信函或者会见等有效的方式进行回访。为了完成回访任务,公司员工张权忠授意他人代替投保人在客户回访函上签名后交回公司。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_088",
+      "citation_index": 2,
+      "file_id": "F001277",
+      "model_quote": "由汤x接听9xxxx回访电话并回访成功。",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_089",
+      "citation_index": 2,
+      "file_id": "F004590",
+      "model_quote": "给予保险合同约定以外的利益",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    },
+    {
+      "query_id": "FTEV2_090",
+      "citation_index": 2,
+      "file_id": "F002296",
+      "model_quote": "未确认投保人是否知悉责任免除",
+      "category": "whitespace_only",
+      "predictions_unchanged": true
+    }
+  ],
+  "diagnostic_only": true,
+  "original_strict_literal_metric_unchanged": true,
+  "no_quote_edits_to_risk_predictions": true
+}

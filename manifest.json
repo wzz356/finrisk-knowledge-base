@@ -4857,8 +4857,812 @@
       "sha256": "d54f61d1e9938c5704ce37baf2cc6530b792424e71cf14bef9384f13ebcea6c7"
     },
     "README.md": {
-      "bytes": 5152,
-      "sha256": "28a42af9ae4ad66fcd0c56e99d3200342c2510ada469bff1e6dee689abcf91b7"
+      "bytes": 6696,
+      "sha256": "34885543338143c8c6128011ade7c7abe870dceae11a5ee4504d17043cc46bff"
+    },
+    "releases/2026-10-17/legacy_manifest_reconciliation.json": {
+      "bytes": 691,
+      "sha256": "3127b59497e2566866b374d26db4fea4baa59788c525ad646d83d8f51eac0d87"
+    },
+    "releases/2026-10-17/manifest.json": {
+      "bytes": 42049,
+      "sha256": "405e010b0a9ba3b59b5b4be332590c704e3e56b96b3f384044c97ab9efe8594c"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/api_risk/predictions_no_retrieval.jsonl": {
+      "bytes": 119022,
+      "sha256": "e07f3635ad944cdc01fb069fea2d2b0b043ee10800491cd0087a1933a32b6eca"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/api_risk/predictions_RAG.jsonl": {
+      "bytes": 204202,
+      "sha256": "b64955a4e57d2a80c7d9225b130c390843019938c58723c1e37f7488157e50d2"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/api_risk/risk_inputs.jsonl": {
+      "bytes": 1323799,
+      "sha256": "aa2aea52a43d913f52e32136af37ab81ad5e63455b2e47ea3ae42cafda9afdaa"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/blind_audit_summary.json": {
+      "bytes": 1884,
+      "sha256": "d62bc61cc6e5c3e2ec4f42c909d404fa72ae2a0df72aaee84308627218daac38"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/candidate_loss_analysis.json": {
+      "bytes": 32711,
+      "sha256": "e4815e5f6bc52ab7c1cfb9d61f4b402c4def4ce654d17a92f8e4257db7370ca5"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/closed_queries.jsonl": {
+      "bytes": 19677,
+      "sha256": "cfd328ad475cb82921412ee2b6f934e2d00aa88f18edb9cd75633e96c2f96ad2"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/cost_audit.json": {
+      "bytes": 997,
+      "sha256": "a3573a686e305f42952e29a159f4bbc5879277834398d95cf6dbf5e00fe6ae44"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/delivery_verification.json": {
+      "bytes": 2405,
+      "sha256": "ee668c09a27b19b2436e9e0e646a18da19b6bad4968e6e816373a643e07df36f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/design_freeze.json": {
+      "bytes": 2951,
+      "sha256": "8e3d524117bdf18e678044c94acbab7759b62f74e7fa30e81493aa2e8ea4781f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/evaluation_reference/master.jsonl": {
+      "bytes": 258091,
+      "sha256": "752f11ed7aa2dec3cd583330e0afba56dd147aadc56e1b43ce0733a2af0a774d"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/full_pool_diagnostics.jsonl": {
+      "bytes": 98242,
+      "sha256": "cd806f27e681cb9f50fac63e71fb6f9f0ac94b079078839e6567bca928e75be4"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/full_pool_metrics.json": {
+      "bytes": 230145,
+      "sha256": "7f42e7cfc3c20d02576a8c86e45b6e195e0b039abf73f79e34147cd95cdb4601"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/independent_numeric_verification.json": {
+      "bytes": 274,
+      "sha256": "4afb0ed38be3a7e9eb246d681fad025058f9f4201bac4baf1ab731359444dccf"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/official_labels.json": {
+      "bytes": 4008,
+      "sha256": "bd0f83cdd619d3252aa36c5069daf1a3c5042998af076e744823f4e43e12d55b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/qrels_adjudications.jsonl": {
+      "bytes": 17102,
+      "sha256": "9337173ba0d14f518183d351be9f0e66869f029e0c762aa8e3b8aaa213556a60"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/qrels_new_final.jsonl": {
+      "bytes": 1041769,
+      "sha256": "3ea49272423af70ed2c7a3b3b8900417c77376c3e1676cf05ce3d984a8776318"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/queries.jsonl": {
+      "bytes": 61126,
+      "sha256": "ed856141d85075a8d7006c22fc1d77ed074960df9547fbc7de8ad1dcfa0bdd5b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/quote_mismatch_diagnosis.json": {
+      "bytes": 13913,
+      "sha256": "01a59145a3533685f4b261ec975f17a1512f3b9f8367e70826222f61100be375"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/rankings_BGE_main24.jsonl": {
+      "bytes": 20278,
+      "sha256": "85391971df4595450b58df70be6d57e650c78ef76be4ec9a01181b56b1a2578d"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/rankings_BM25_main24.jsonl": {
+      "bytes": 16263,
+      "sha256": "739a44d8f7c5335587bddbbd22bf557f26315b85533f543c90ea071e2672806b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/rankings_DeepSeek_main24.jsonl": {
+      "bytes": 18133,
+      "sha256": "39f9d48cf173ebec64ee94aaf7a3eb4b0a49491627f79fab7888288f03691fd5"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/rankings_RRF_main24.jsonl": {
+      "bytes": 18133,
+      "sha256": "7f0253bda5aff8e3a67d608abda8edda0d7b8b8b27b5e111d67d3417df9a429f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/reference_pool.json": {
+      "bytes": 433388,
+      "sha256": "448428df681788073ae4d527c3da2659a8edce9040e842f582b0e27b8a8f349a"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/reference_source_documents.jsonl": {
+      "bytes": 1994247,
+      "sha256": "57e1683d0ff7cf43eeb88123b961e0d93f3594d69645541bce393ff796b87f5e"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/retrieval_freeze.json": {
+      "bytes": 5210,
+      "sha256": "149de02d22e873373d73bd685fc6c3dcecfba70ffe23424ea09991ca9d029830"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/risk_comparison.json": {
+      "bytes": 465218,
+      "sha256": "beae23bc49d0c0969d1e3700e1069327a20f623cd610948e0f5ba75525f7fd8e"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/risk_metrics_no_retrieval.json": {
+      "bytes": 57026,
+      "sha256": "eb76aa4cb59a8b96e31bdbcc4945600cc8aa61fcd213209ac9f171cd386992bd"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/risk_metrics_RAG.json": {
+      "bytes": 57100,
+      "sha256": "d84fb6dde7a5e87c3003d8d6a29076e041e6c169fc69491976bfc6d16f184265"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/run_design.json": {
+      "bytes": 1599,
+      "sha256": "f42a78d4e2088239f8ce88c59c0178ca3cdc564d7a4947554fbfbccb21062dfb"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/scripts/evaluate_formal_risk.py": {
+      "bytes": 5273,
+      "sha256": "ad9f27caf7204cf0c8f612d94b7ce22af41cbd46d0dc76ce70f59122d42d2c3a"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/scripts/pool_evaluation.py": {
+      "bytes": 11665,
+      "sha256": "a45848f2227d88d22f5b1ae7ca1d1cb0c17f0b274f6d460abc4abc5ac8641037"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/scripts/recompute_metrics.py": {
+      "bytes": 3216,
+      "sha256": "4dc002e38888f91f0ed3b2f87c4155eb3648f49e604de1afa86111a66467104e"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/semantic_audit_decisions.jsonl": {
+      "bytes": 23423,
+      "sha256": "51855433ae5967c9da4236f62465def1e16de3905c0dcb6cc688f0377d4a3f43"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/semantic_audit_summary.json": {
+      "bytes": 10807,
+      "sha256": "8c8e61554aa278f9dd4151f81c08ec8ad4aed603caa5fa0e4ff2b8d5ba3dff85"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/verification_actual.json": {
+      "bytes": 608,
+      "sha256": "0df52bcfcc709d9cd1e87a49154c7a417ab36df1e0574407efb7d1148c7182e6"
+    },
+    "releases/2026-10-17/outputs/FinRisk_两层验证_20261017/两层验证报告.md": {
+      "bytes": 6785,
+      "sha256": "1a7cdf6621dd9e5b8c67eb8f74986e7612732369b63ebc3349612e001cb28892"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/closed_design_freeze.json": {
+      "bytes": 2109,
+      "sha256": "4d4116d2eafaaa50191c1131901941723b623dc0a79c54c046fbd89bfcab7e36"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/closed_queries.jsonl": {
+      "bytes": 19677,
+      "sha256": "cfd328ad475cb82921412ee2b6f934e2d00aa88f18edb9cd75633e96c2f96ad2"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/corpus.jsonl": {
+      "bytes": 245444,
+      "sha256": "f5315a6fea0d6cef2558d3e91e165e09f0407fa0e4dc8bf1f49f25c95bb1f503"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/coverage.json": {
+      "bytes": 1310,
+      "sha256": "77e08e82477ec7b0da9d3a10bb3af2570da2f5eb7cf3afc45db2850fcc0af0b6"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/dataset_card.json": {
+      "bytes": 2337,
+      "sha256": "ac73eceef0786879b146ba3eced54253264c602ff86f125bccb41d3f92996c86"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/final_surface_similarity_audit.jsonl": {
+      "bytes": 21546,
+      "sha256": "52097b395ca986a929f4368824b11500978405cae42fc053e3dcf57f77832d7b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/id_map.jsonl": {
+      "bytes": 12690,
+      "sha256": "faec641dd62eccd0f183c37d26e798fea250d73f2e8a2e2a9bd83164421f4711"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/master.jsonl": {
+      "bytes": 258091,
+      "sha256": "752f11ed7aa2dec3cd583330e0afba56dd147aadc56e1b43ce0733a2af0a774d"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/official_labels.json": {
+      "bytes": 4008,
+      "sha256": "bd0f83cdd619d3252aa36c5069daf1a3c5042998af076e744823f4e43e12d55b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/protocol_addendum_human_blinding.md": {
+      "bytes": 1049,
+      "sha256": "74d4961498b497ca8128c84a513a25e4b8789ae4f926cc1d224f0398b6b05271"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/protocol_addendum_label_mapping.md": {
+      "bytes": 1960,
+      "sha256": "722e87ff36369e0682086ec9c7e36881aba974e66701da0087097b8742b438ad"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/protocol_addendum_relevance_adjudication.md": {
+      "bytes": 1753,
+      "sha256": "791c51b31853332bbdf24835f3002f1f5e2adce60aecaec1f97d49c86f3eeb80"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/qrels_audit_results.jsonl": {
+      "bytes": 37962,
+      "sha256": "1742adb1c4218683cae87883023a2f40397ee11baedbd2ac77f47d9b15a4be0f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/qrels_audit_summary.json": {
+      "bytes": 1285,
+      "sha256": "c60834af45d5e0e04ab38e31b4535508ffca9a4ef9f4173333e32578aa6fde2b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/qrels_closed.jsonl": {
+      "bytes": 1916218,
+      "sha256": "b3c057f0045fde1b8ac60fef144d05a77f3395559441815fdd32c46c018e967d"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/qrels_freeze.json": {
+      "bytes": 1147,
+      "sha256": "deae3b50dc1359ac5b94b4f0227e00775f74f26e103df8d23ca73059d87538dd"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/queries.jsonl": {
+      "bytes": 61126,
+      "sha256": "ed856141d85075a8d7006c22fc1d77ed074960df9547fbc7de8ad1dcfa0bdd5b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/query_freeze.json": {
+      "bytes": 1971,
+      "sha256": "533e4e6489b19e03218c6f1918823cf6f3cc2ae0c2eaf8e9cd18d4d4dcb96e57"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/retrieval_queries.jsonl": {
+      "bytes": 43113,
+      "sha256": "f0bf7ef998e0151e433f671f6c16f68803ba1c6629dce43467d74e4ae1288400"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/scripts/evaluate_formal_retrieval.py": {
+      "bytes": 3583,
+      "sha256": "96f6bf90e63863e189634e655573056e6696334818b0d01c4ba86627a8aebb64"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/scripts/evaluate_formal_risk.py": {
+      "bytes": 5273,
+      "sha256": "ad9f27caf7204cf0c8f612d94b7ce22af41cbd46d0dc76ce70f59122d42d2c3a"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/scripts/evaluator_metrics.py": {
+      "bytes": 2773,
+      "sha256": "d13d46ff3be530711e1edc252567f34863090334c7893f142c8ad8d4ef4a7024"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/source_anchor_facts.jsonl": {
+      "bytes": 33551,
+      "sha256": "5305f8f3cc533f2d4aff02ac00a010bb7c1d1a0c0c71f0eaf957547e8b4d33c2"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/source_event_registry.jsonl": {
+      "bytes": 156698,
+      "sha256": "25f21cf83768387ee2f5a70c816a677be401a7c824b12444dd73e73e8c8065fe"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/source_selection_audit.json": {
+      "bytes": 54306,
+      "sha256": "a4233f29057c2b9275e14f9e50b0048cff9284da1f3051cc698cdeb05e20cdd6"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/validation_receipt.json": {
+      "bytes": 709,
+      "sha256": "e32c7594a24b55a23b573836fc770b009ff7b217b68e853ebf92f34f6f6a18e6"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/完整评价协议.md": {
+      "bytes": 12246,
+      "sha256": "f348c4d5822869b8c87c692fdd84538246663f73bc981a57a8751ec5808e994c"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/candidate_cutoff_case_study.json": {
+      "bytes": 663,
+      "sha256": "b4193c286b920c2a1d286255f62a32210404a5f71791753184c011c43b5b67d3"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/closed_queries.jsonl": {
+      "bytes": 19677,
+      "sha256": "cfd328ad475cb82921412ee2b6f934e2d00aa88f18edb9cd75633e96c2f96ad2"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/cost_audit.json": {
+      "bytes": 1179,
+      "sha256": "df78160b13a8f686e2e5d57da9bdaaedb65d1564904cb71fcd1f6f9cd408045c"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/design_freeze.json": {
+      "bytes": 4267,
+      "sha256": "3d7e293e1a51147c6da48d0d02fb89d31d0ce70043d266eacb627d7270cdd8e1"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/input_type_groups.jsonl": {
+      "bytes": 5258,
+      "sha256": "b8f4bde0389163fa9e36adfd72d9d2248e8b872c913eebbf6f7e216af19fc420"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/metrics_baselines.json": {
+      "bytes": 538578,
+      "sha256": "7db4d64911e2bf38e9fb1424277e03d293967ef04726c7b86e92355d5f47d2d5"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/metrics_final.json": {
+      "bytes": 715001,
+      "sha256": "5e15565a8c6edf01f113d0d79e6b86b080f0da8d818f86aae553800aa7ecac40"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/rankings_BGE.jsonl": {
+      "bytes": 12853,
+      "sha256": "faf711b1b3e8ea64619ab6a73eb53669cdfab64783fa8c3cab5d5fd5e798861f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/rankings_BM25.jsonl": {
+      "bytes": 11687,
+      "sha256": "e5ad64f7ff269026f378173aaa698a2179df9950c9d40c4723057d77aa29f9f3"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/rankings_DeepSeek.jsonl": {
+      "bytes": 12193,
+      "sha256": "b6e3f06dc8198fd3213b6be112a3c0bef4c3c7b8460f5c0a6ec546879ca2bd0e"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/rankings_RRF.jsonl": {
+      "bytes": 12193,
+      "sha256": "f5088efc1ae01fba0ed4273c67f95d35c12633e4db642974c2fe8d1dc2d2e02d"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/retrieval_freeze.json": {
+      "bytes": 5396,
+      "sha256": "b22570a861c8cf03fb6e7c489ebd3bf10ffaeb41df39763a6d98b6f15a159a68"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/run_design.json": {
+      "bytes": 1416,
+      "sha256": "f79721e897ca9f64d2bbddaf1cf80edd00cb38a2feeafe8c194cacce9e6fcef1"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/verification.json": {
+      "bytes": 2931,
+      "sha256": "1b4fd9bb49795c5c48a93c5f928f831069198a76e5f81ff8ad28abccfbdd2734"
+    },
+    "releases/2026-10-17/outputs/FinRisk_正式测试集V2_闭集实测_20261017/实测报告.md": {
+      "bytes": 5486,
+      "sha256": "6e09cef44d276cc0c701c22fd4bd6e3d3b39ae18618230b3b37b92c36282b698"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/article_dependencies.json": {
+      "bytes": 3615,
+      "sha256": "68dcd852feb35a2dfc761f8d28dfacc784fa1dcfe0de36021b1a9cc6fa9b83ab"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/article_model_views.jsonl": {
+      "bytes": 52431,
+      "sha256": "dd519916615ddba673205a1345d11362d68f986574c9a73186eb2a80f0066b4f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/articles.jsonl": {
+      "bytes": 53889,
+      "sha256": "6733e9fa9e4f05ac55caf4222ff821ae6ce08bfbd67c2ac4fba6aab5680cb2f1"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/catalog.jsonl": {
+      "bytes": 187526,
+      "sha256": "3ccfd814cd080df157f580ea64208ee5a7dff9131421b75ba1ecd99b8d3d4293"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/examples/停售规则卡.json": {
+      "bytes": 3162,
+      "sha256": "859f9e015fd8562e5232777dd5d4aa6cbf90b8640786e4f1945db92a28dccd10"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/examples/停售规则读取.json": {
+      "bytes": 6501,
+      "sha256": "671277d05c823a4d9ca1a9335e9e443a19b002407fc46dc50c204a0d65dc0a83"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/experiment/confirm_metrics_v2.json": {
+      "bytes": 18966,
+      "sha256": "35ab39652093bdbf9f7c110754e5935093b834679e8ff89968523e49deca5842"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/experiment/confirm_queries.jsonl": {
+      "bytes": 17819,
+      "sha256": "4e897011989e6b2699ca6e6bea0e9d6aaebbf54bcd40e09e32873514f6fccf8d"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/experiment/confirm_references.jsonl": {
+      "bytes": 62853,
+      "sha256": "b2b71070facc55d2a5d757bb54c1eedb303864ca507832698bca8bbc1b2f2797"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/experiment/cost_summary.json": {
+      "bytes": 435,
+      "sha256": "39e5852af01985c13641244ed269b2c35f5b9b1f6dbbca15a507e24a6015af0f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/experiment/dev_metrics_v2.json": {
+      "bytes": 18570,
+      "sha256": "7021be88107894cb323572ec5013683f332c2c37bbb3341e6e424d3a6f299c4e"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/experiment/release_decision.json": {
+      "bytes": 531,
+      "sha256": "08b20e71f777b078cee427457b6b74ea2303bf257c9dbb3745123a4da2ce4528"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/experiment/resolved_predictions_A.jsonl": {
+      "bytes": 92268,
+      "sha256": "9aa2ef514b441088a9c5cecabc463b104a8bb7c3a1f1f16bcaba0491e0809c07"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/experiment/resolved_predictions_B.jsonl": {
+      "bytes": 442078,
+      "sha256": "2998decdbaadc9296f77767371b516fe3999a67f0f84ef159a487409e44b434e"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/experiment/resolved_predictions_C.jsonl": {
+      "bytes": 460785,
+      "sha256": "a589e9f542292b7053e5c023770452b04c1d6c20b33140764436d44d1a8af062"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/indexes/embedding_token_audit.jsonl": {
+      "bytes": 22203,
+      "sha256": "7de1c0fbb1400c7664ebfa06587a12cf19a510c9ef69507f2ef53f554c3a49c5"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/indexes/embedding_units.jsonl": {
+      "bytes": 65482,
+      "sha256": "532f66f98aea2661a60afac80aa42ee741742e0f300b9f0c6076f87ed9e6e33b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/indexes/metadata.json": {
+      "bytes": 1051,
+      "sha256": "cc47e48e925644892b4672dcdaeb9e56320feaa0c6e5e32ee255e1c2a4f878f3"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/indexes/vectors.npy": {
+      "bytes": 516224,
+      "sha256": "39f4460f428bb1467347bf800fef7cfda54e8db4a9291ca15c9ff9622360e1e8"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/mechanism_rule_links.jsonl": {
+      "bytes": 2692,
+      "sha256": "ab1584cd67125e36852896c3559cef652b6f1a3a17687664c92677e773ee8c7d"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/rules.jsonl": {
+      "bytes": 109072,
+      "sha256": "7d2f69f3b378c7bec32eefaad04e7eff409c64c595e95d85db75f11a61e116ee"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/source_registry.jsonl": {
+      "bytes": 182143,
+      "sha256": "3973272f41019da20f6828104e04104c9d3709dc9c504bc87f85a430f6dcc7e7"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L001_000.txt": {
+      "bytes": 29791,
+      "sha256": "7daca1a2728d129256d8295cf6174f0cdf6022f21df8d5d60dcd047052ae6b9b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L001_001.txt": {
+      "bytes": 31317,
+      "sha256": "a16cc53bcd1a0a51ee03c4f11a7e9c228044113da6da78f93355fc173b8f0cbb"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L001_002.txt": {
+      "bytes": 31454,
+      "sha256": "be97820fc86ba3ba460bd24cd5ff8b286399dd9aae5d52e5ae5936b4976bdb7b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L002_000.txt": {
+      "bytes": 28745,
+      "sha256": "f5999460326f254b21e61cfd3406a845c098f3e8cfc21b84e6d01fca2007ea7e"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L003_000.txt": {
+      "bytes": 22657,
+      "sha256": "6c153bd4a86adfb375d521d367e90cc5ea11c21da7e87cea850438eda03c23b9"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L004_000.txt": {
+      "bytes": 14344,
+      "sha256": "c34004b8030235f89ac9f439860638155381e6ef676024491de6b5326e74f8f8"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L004_001.txt": {
+      "bytes": 14518,
+      "sha256": "5a0c076f6dc61984c38298e8c033ea1ec1da2722d12e1a87e576c496f3636668"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L005_000.txt": {
+      "bytes": 24184,
+      "sha256": "8a1ab1556b65a2924580aad4a453bd720f51039cf58e707051c8bad7cc25377f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L006_000.txt": {
+      "bytes": 22520,
+      "sha256": "940311cff54ae7dda58745f126db9aa1a4d9a3e57a800f16053640adef47ba06"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L007_000.txt": {
+      "bytes": 13169,
+      "sha256": "c2bcd71958b13f8191ddce5c3ae40bc79ca7ba77faca62471f60975d61f7e8d4"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L008_000.txt": {
+      "bytes": 341,
+      "sha256": "b1b7e779d9ed2628e262ea8b8b402566d5865cb6847d84497bbd429d4a67a6c7"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L008_001.txt": {
+      "bytes": 317,
+      "sha256": "65763c483da1d5cd1a7a079e0b0de7b835171399e920029c94492db735ec90a8"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L008_002.txt": {
+      "bytes": 287,
+      "sha256": "cfe26b164373e06c2d11324bb68000db3d793658ad82db49f56a2943f277dc95"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L008_003.txt": {
+      "bytes": 410,
+      "sha256": "a9bc2f1c5824dcd33023c393a8bdba0e689a2d782ce1a5b4f614bb9f145076a5"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L008_004.txt": {
+      "bytes": 585,
+      "sha256": "fa3e1ced9c37b714e3ad8beda04145ef9d842319ecba37fcc3cd02fec6ac9518"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L008_005.txt": {
+      "bytes": 26989,
+      "sha256": "ddcc10c8c4cad5266b3a11ce7623df6a964800fbdeff56b82b95184bf16e28ca"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L009_000.txt": {
+      "bytes": 20017,
+      "sha256": "93fc96651ae6f676b4fd83d8498d68b748c04f7b2b5a160ca6970bc69ed86379"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L010_000.txt": {
+      "bytes": 30237,
+      "sha256": "215e664de3530d3fe3430e416ae46aef1026608345ff79e351b22ef5f118ccf4"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L010_001.txt": {
+      "bytes": 30911,
+      "sha256": "ae691fc5ed635e0bfc4018219b75e258cb42f9e4a0a2c330e09171d2f2525084"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L011_000.txt": {
+      "bytes": 313,
+      "sha256": "ee061a88e9b4cc8cd26f8addc7bed7b6b6fcf4f464d4f6eaa0af6a66d9757574"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/reader_snapshots/L012_000.txt": {
+      "bytes": 339,
+      "sha256": "899588c993ba6ce18a3047b775fc01a96018fcbb778bed38fc3caf9fcf131864"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/review/current_catalog_checks.txt": {
+      "bytes": 32502,
+      "sha256": "98d80918f1e98f1ffc5cbce62f5765f6bb7e2e3c81f7ebdddf5313aa6aa0c7d6"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/review/pricing_facts.json": {
+      "bytes": 535,
+      "sha256": "c6a9c2b4f5c5144db505a23cdcd4ae45aa817b1296762d963891f555967a30b4"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/review/status_search.txt": {
+      "bytes": 31558,
+      "sha256": "44e99d465f4e342741440e6b0e4865698faf1d874b72c8288e2efea2f9090979"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/sources/texts.jsonl": {
+      "bytes": 261594,
+      "sha256": "b93b01ef3416d72ff6b35bed237d129254422ab3858d48ab97699e082f09e5d0"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/tag_coverage.json": {
+      "bytes": 7878,
+      "sha256": "ea5bae841b456d48867f8bd34bddbd6fa39f215f53beeeed27e1f82e4f0c2468"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/tag_rule_links.jsonl": {
+      "bytes": 3114,
+      "sha256": "9355a69ea9e56f57847c448222acd2ebe7f4c9f51642334873b02f24f6b013db"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/tag_rule_links_full.jsonl": {
+      "bytes": 15722,
+      "sha256": "6721996acf9ccc072428ee93684d2d76590ba6fe79808eaa683d72e7ab0d20af"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/tool_contracts.json": {
+      "bytes": 1480,
+      "sha256": "1721b5c869941de30b948515b3f2d82fc169976c9e997102173d1c5d7dddd0d9"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/实验报告.md": {
+      "bytes": 6350,
+      "sha256": "f2026887df919a7d804ef55a536490a5b1f561e6cec6b8b9b35110479de87763"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/法规目录与边界.md": {
+      "bytes": 3083,
+      "sha256": "3cc9119241f1f14c11606ebd1060deef5b6faefb538f73c811c1da056bf750ee"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库V1_20261017/验收清单.md": {
+      "bytes": 3480,
+      "sha256": "e402d673980a8c1085e27e8aa39765973b1b36e19d70945494d36e35508a8f7d"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/cost_summary.json": {
+      "bytes": 475,
+      "sha256": "04e6ae6b54232be33f4ca539e4d875e4d259c537fa9485c682e7af19ffbbfe74"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/evaluation/metrics.json": {
+      "bytes": 37938,
+      "sha256": "9e894758c905373efed9dfbbe4568183591ce96f40b871086c45aeefdf9d8407"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/evaluation/official_labels.json": {
+      "bytes": 4008,
+      "sha256": "bd0f83cdd619d3252aa36c5069daf1a3c5042998af076e744823f4e43e12d55b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/evaluation/per_query_comparison.jsonl": {
+      "bytes": 13131,
+      "sha256": "1887dacf93c7c3256aac4570c93cc75c6dfe21dc388ba332814c4ee1b6e75365"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/evaluation/references_unchanged.jsonl": {
+      "bytes": 62853,
+      "sha256": "b2b71070facc55d2a5d757bb54c1eedb303864ca507832698bca8bbc1b2f2797"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/evaluation/sensitivity_preexisting_caveat.json": {
+      "bytes": 379,
+      "sha256": "19d75b18d19e388c59dd64e7ca71611805cba17a548fc84e9a65debd87933341"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/execution_complete_sources_addendum.json": {
+      "bytes": 578,
+      "sha256": "566b4ede2a3052476967529af927f9dc493b925fcbbfa53e5fca9ed3f1d5ec32"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/execution_format_addendum.json": {
+      "bytes": 644,
+      "sha256": "10e53f7c2bda9175ad33cd202fc4426cc9c1bea92404d2096147047f80c1f745"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/model_outputs_analysis.jsonl": {
+      "bytes": 99238,
+      "sha256": "460287212588efdbfec4d6a9f67bdaecbe4f241085695918d41e1b8563ae90db"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/model_outputs_review.jsonl": {
+      "bytes": 75654,
+      "sha256": "e27024b2d5ba76c981f75a2dd3e6fb88a6490faa671595e4f5be93fe0e151bd4"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/operational_rules.json": {
+      "bytes": 16995,
+      "sha256": "f3023550e4f0df428f520ed3e80519c0da4aa2191e97f1d85f4243a01717e074"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/pre_api_freeze.json": {
+      "bytes": 2116,
+      "sha256": "78e9bf7ae8458f60df2fe99f13f6f4947de5633b227c4b9496550ee7963dc304"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/predictions_analysis.jsonl": {
+      "bytes": 117524,
+      "sha256": "20a2274ca71aebd6d6ae79f20a8642cbb8137d3fc49b6199e32008c614c57659"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/predictions_review.jsonl": {
+      "bytes": 93801,
+      "sha256": "7a1f7b0388bd4daaa2d6356bec8645ee331ef2996bf1916c7fad682fdfb42dfd"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/prompts.json": {
+      "bytes": 4066,
+      "sha256": "4a0777b4cba59f296eaea20d3d2736af39de83843a2f2382528a80268ec47c03"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/release_decision.json": {
+      "bytes": 640,
+      "sha256": "e8270ccbe220c91d35d3110959588a5c08f174e059b1ccb208bf7716f7a3fe57"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/review_value_comparison.json": {
+      "bytes": 559,
+      "sha256": "ae5a67e5bad30f82b7985ffbcf0d6e8413c84646c768d8a0a97f87001bca7ae2"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/semantic_spotcheck_all36.jsonl": {
+      "bytes": 15018,
+      "sha256": "9515e3a0b3206eda88f65786236e37493673e9eeb5d622bf072318da9f5bcb21"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/test_results.txt": {
+      "bytes": 3045,
+      "sha256": "ab86c58fdda3a01fef0a4dad06c5945029718197ce255f0b1dff13db08d240d1"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/verification.json": {
+      "bytes": 812,
+      "sha256": "88928925b4edc96ef5f5e31255c9d6d30ca3f91c5cf8d20fe8bf474bf1018058"
+    },
+    "releases/2026-10-17/outputs/FinRisk_法规库快速修复回归_20261017/修复实测报告.md": {
+      "bytes": 6594,
+      "sha256": "c6e409b655b018e9118dc16542401534456aad27027277942e3c2a30a2f10111"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/closeout_summary.json": {
+      "bytes": 1311,
+      "sha256": "352cb703303456e588cc1a24cb2113d432410f098d8fc6313f36d5dda3518033"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/corrected_projection_units.jsonl": {
+      "bytes": 164011,
+      "sha256": "a1ba2591f3b2a47b2a5a12713a7c2f509dabb7ad65fc37ee61eb520833e755b8"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/effective_candidate_overlays.jsonl": {
+      "bytes": 89271,
+      "sha256": "f3fb07566da6c088bbe59b314beab4e86c7c1d33a1230adc1ce07169b2e2513c"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/effective_candidates.jsonl.gz": {
+      "bytes": 17420425,
+      "sha256": "e46887270a10a5c54c437e34c45f575c32b9a5d6e15a5e8afdedc5a9a2e5953e"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/existing_human_scope_records.jsonl": {
+      "bytes": 15417,
+      "sha256": "4e6c79e7dcb35606c6a2f32a598c671a1c55796cfcb2e493455ff49592d93614"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/file_index.jsonl": {
+      "bytes": 3121924,
+      "sha256": "e09d192e9230e5bdc9712d4bbb932c03a1b06ce1c94b2bd767b4e06809cf7660"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/manifest.json": {
+      "bytes": 5720,
+      "sha256": "1d05d8036669d0f77252a6937418665b06d554eb72d7be064595ab40a484f69d"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/contract/schema.json": {
+      "bytes": 18396,
+      "sha256": "a62707c481a9adead45721f7f640c8b319bbff6a5f8ff285e428d2a171eba401"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/data/annotations.jsonl": {
+      "bytes": 114061,
+      "sha256": "65e8b0f44b1264da2ed4142fcd49c5c8959bc669140dcb612af0c6e59427d4f8"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/data/behaviors.jsonl": {
+      "bytes": 65312,
+      "sha256": "d3f2dad4aae68ee1db310ef0eefe34412612d859d1cfe8f5feccf07d75b47e23"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/data/cases.jsonl": {
+      "bytes": 34833,
+      "sha256": "4e296f51dbb735baa86f15bccf558e56ee2a43cf9b6f3d288e856f041d01c17f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/data/documents.jsonl": {
+      "bytes": 17649,
+      "sha256": "661b250f8579a7a038a91ee356ea84a73157023449ee9a415d2c33607305b766"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/data/evidence.jsonl": {
+      "bytes": 67019,
+      "sha256": "7789d9eb507cb32a19db449623d52a980c81a9c630378fd95b2bfc610ea1cd3b"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/data/materials.jsonl": {
+      "bytes": 7428,
+      "sha256": "10a5d12a12dcea0f42581746ffe97ae9c12c435c5aa45ddf25c36c2386cedb27"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/data/reviews.jsonl": {
+      "bytes": 6665,
+      "sha256": "feb707a319769e61407d806b834460e82456414ccab65e44f5a5a55e8ac047a3"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/data/source_inventory.jsonl": {
+      "bytes": 9502,
+      "sha256": "ddb19cc2f031197191285a5bae27449684f9879cadd97d8e5e2c7401473bdac7"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/extensions/candidate_snapshots.jsonl": {
+      "bytes": 165736,
+      "sha256": "2156fa9cbdda5d218412ab341fb4b49319383d963f0b95b97a0ed3d8f4332e32"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/extensions/document_evidence.jsonl": {
+      "bytes": 105058,
+      "sha256": "e29da55a1bf6938f8a6cbca4adb4a80e9d5047161680b3bc87a43c35e01fd93f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/extensions/id_registry.jsonl": {
+      "bytes": 117571,
+      "sha256": "40684895fe3ad4b2d4a4bf788163c82bac4e16212ebc865651993be981b89202"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/extensions/issues.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/extensions/quote_bindings.jsonl": {
+      "bytes": 200312,
+      "sha256": "c54927ed1429092d7dd2740b0f4a55cb7b5a5e0f277dd5ef41177a7f73a3df72"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/extensions/responsibility_relations.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/INDEX.md": {
+      "bytes": 822,
+      "sha256": "7c649909dba71525878165c5786cc9ca27bd6e8037902bd35b8c16311c89bacb"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/manifest.json": {
+      "bytes": 4006,
+      "sha256": "485c89520a2c34326cebff6da53779df050cfed01c6f560816af3ce8c15fbad0"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/reading/behavior_reading.jsonl": {
+      "bytes": 23804,
+      "sha256": "98c133e5256f29034666f040c24130ed37dd158392d920dc2608bcc464b5d780"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/reading/case_reading.jsonl": {
+      "bytes": 29876,
+      "sha256": "2d18391b9c9deaa70418d61dcb5cb253880b4292642536ead71c712291304ed1"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_normalized/reading/document_index.jsonl": {
+      "bytes": 9175,
+      "sha256": "6b547a8f709236eedc1045e10e754d8cf358fce46f216bafbf51e140f49a1899"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/patch_verification.json": {
+      "bytes": 2387,
+      "sha256": "3ade8f44598e3e33f604e25e97521f0ec572a41bec32107026773918d00d07e1"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/README.md": {
+      "bytes": 4872,
+      "sha256": "21e0943c660215041b42689671999031d363291fa33d6d6007055216d30426ab"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/verification.json": {
+      "bytes": 537,
+      "sha256": "bad0a29c7ff2a13251ca78aafd691a98cc986b5d9dc23c323af05f93f1981afd"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/verify_release.py": {
+      "bytes": 2411,
+      "sha256": "5e1a77fad392c8aa39c6f972b636289b1319352e6afbf0b6ab2070ce57c09f2c"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/version.json": {
+      "bytes": 1539,
+      "sha256": "6fc5b1c442e305c320ddd053a2ad218fa006dfac2709b1a12a6d5a9987d6ab8f"
+    },
+    "releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/剩余事项.md": {
+      "bytes": 1383,
+      "sha256": "697ef42e8086d3d8d925ca5d496e3e19e4fe7e5a1bea7eb98b829fad99676dc1"
+    },
+    "releases/2026-10-17/publication_verification.json": {
+      "bytes": 802,
+      "sha256": "fb155c621e617cb77efb3190f4789cf191a8f172432b985606ae771c658278ad"
+    },
+    "releases/2026-10-17/README.md": {
+      "bytes": 5276,
+      "sha256": "10d1cdf531b282ef7c81d4386239011acaf0f857a22bb47da1e143caf9f1bfdb"
+    },
+    "releases/2026-10-17/reproduce.py": {
+      "bytes": 5083,
+      "sha256": "48def6409920d650e1471ffca398d2c7e68607445633f9bf688798cf3ca35392"
+    },
+    "releases/2026-10-17/selection_provenance.json": {
+      "bytes": 67044,
+      "sha256": "67cbc02c65d33678b4f790bb424f9a3e7ff46b7a36843a57489f50c7045ddf1a"
+    },
+    "releases/2026-10-17/work/finrisk_regulation_quickfix_20261017/common_paths.py": {
+      "bytes": 957,
+      "sha256": "4f5255c15b5bd09c2ad17c7e9a85d002836a0ebbe84339e5874a48d7e7e4438e"
+    },
+    "releases/2026-10-17/work/finrisk_regulation_quickfix_20261017/repair_pipeline.py": {
+      "bytes": 17988,
+      "sha256": "b26917daf80a20ec020ae8be6f3e0516f4f4108e8efb69d268f62b5ecd3244bf"
+    },
+    "releases/2026-10-17/work/finrisk_regulation_quickfix_20261017/repair_rules.py": {
+      "bytes": 6943,
+      "sha256": "7ef67ad2164cc87864ebf71da89649c2880bd3048cba5360c932f45d0b3ab275"
+    },
+    "releases/2026-10-17/work/finrisk_regulation_v1/law_index.py": {
+      "bytes": 6684,
+      "sha256": "aa86c43858ee371565f8a54f7bf7627f20fa298b278658526d05b96a4346d8ce"
+    },
+    "releases/2026-10-17/work/finrisk_regulation_v1/regulation_tools.py": {
+      "bytes": 8623,
+      "sha256": "00bac953ad0abb8cd84409ddbaf14f7c1141e5e2e7d633977e86d43c7f7c986e"
+    },
+    "releases/2026-10-17/work/finrisk_regulation_v1/rule_cards.py": {
+      "bytes": 19051,
+      "sha256": "9d7fa7a787f25dbf9ec5bc10969be0d8cd3d9dd9303fb4724eb129620c81b365"
+    },
+    "releases/2026-10-17/work/finrisk_regulation_v1/score_experiment.py": {
+      "bytes": 8262,
+      "sha256": "8c7c2a6dd5fa7efac3be5994476c390da3d22b9b5a0515bf0153c7cb1cc3125b"
+    },
+    "releases/2026-10-17/work/finrisk_regulation_v1/source_registry.py": {
+      "bytes": 7389,
+      "sha256": "4fa3efee009a86b9dd0791911f58fa2b186f66fb97b1a4eaf6c7ef4ab59e410a"
+    },
+    "releases/2026-10-17/答辩索引.md": {
+      "bytes": 4021,
+      "sha256": "0fbbb7fcb03ceb6ba01483e69c49b0db1a4fc835e509142df4be0589027abe91"
     },
     "tools/export_repository.py": {
       "bytes": 18138,
@@ -7168,5 +7972,8 @@
     "human_approved": false,
     "true_global_recall": false,
     "full_ND_top20_judgments": 400
-  }
+  },
+  "latest_delivery": "releases/2026-10-17",
+  "publication_updated": "2026-10-17",
+  "latest_delivery_reference_quality": "model silver, not human gold"
 }

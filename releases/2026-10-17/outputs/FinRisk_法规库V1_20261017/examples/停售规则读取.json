@@ -1,0 +1,108 @@
+{
+  "rule": {
+    "rule_id": "M09-R01",
+    "mechanism_id": "M09",
+    "title": "停售调价公告条件",
+    "norm_type": "prohibition",
+    "article_refs": [
+      "L002-A0019"
+    ],
+    "dependency_refs": [
+      "L002-A0002",
+      "L002-A0005",
+      "L002-A0019"
+    ],
+    "subjects": "以各条文所列保险公司、中介、销售人员或经营者为准；不能互换主体",
+    "products": "核产品性质、期限、个人或团体及本条范围",
+    "channels": "核实际销售宣传、回访、订立或商业电话环节",
+    "conditions": [
+      {
+        "condition_id": "M09-R01-C1",
+        "description": "保险销售人员是否宣称对应产品即将停售或调价",
+        "support_article_refs": [
+          "L002-A0019"
+        ],
+        "role": "需从当前输入核实的事实维度，非本次事实断言"
+      },
+      {
+        "condition_id": "M09-R01-C2",
+        "description": "公司是否已发布对应名称和起始日期的公告，以及是否属于条文公告例外",
+        "support_article_refs": [
+          "L002-A0019"
+        ],
+        "role": "需从当前输入核实的事实维度，非本次事实断言"
+      }
+    ],
+    "condition_logic": "按触发行为AND适用范围核对；所列核实维度不是必须全部为真的关键词判定器",
+    "exceptions": "见同机制边界卡及dependency_refs中的原文；未知条件须保留unknown",
+    "required_facts": [
+      "保险销售人员是否宣称对应产品即将停售或调价",
+      "公司是否已发布对应名称和起始日期的公告，以及是否属于条文公告例外"
+    ],
+    "forbidden_inferences": [
+      "不得把缺公告材料直接当未发布公告的事实"
+    ],
+    "interpretation": "公司未公告前销售人员不得宣称该产品即将停售调价；没有在输入附公告不等于公司没有公告。真实公告也不豁免其他虚假表述。",
+    "support_spans": [
+      {
+        "article_id": "L002-A0019",
+        "version_id": "L002-ca4f800b8ffd",
+        "start": 0,
+        "end": 292,
+        "quote": "　　第十九条  保险公司决定停止销售某一保险产品或者调整某一保险产品价格的，应当在官方线上平台显著位置和营业场所公告，但保险公司在经审批或者备案的费率浮动区间或者费率参数调整区间内调整价格的除外。公告内容应当包括停止销售或者调整价格的保险产品名称、停止销售或者价格调整的起始日期等信息，其中起始日期不得早于公告日期。\n\n　　前款公告的停止销售或者调整价格的起始日期经过后，保险公司应当按照公告内容停止销售相应保险产品或者调整相应保险产品价格。\n　　在保险公司未就某一保险产品发出停止销售或者调整价格的公告前，保险销售人员不得在保险销售中向他人宣称某一保险产品即将停止销售或者调整价格。",
+        "source_start": 4019,
+        "source_end": 4311
+      }
+    ],
+    "review_status": "model_reviewed_research_only",
+    "human_approved": false,
+    "review_identity": "当前会话助手，非独立专家",
+    "publication_ready": false
+  },
+  "articles": [
+    {
+      "article": {
+        "article_id": "L002-A0019",
+        "source_id": "L002",
+        "version_id": "L002-ca4f800b8ffd",
+        "number": 19,
+        "start": 4019,
+        "end": 4311,
+        "text": "　　第十九条  保险公司决定停止销售某一保险产品或者调整某一保险产品价格的，应当在官方线上平台显著位置和营业场所公告，但保险公司在经审批或者备案的费率浮动区间或者费率参数调整区间内调整价格的除外。公告内容应当包括停止销售或者调整价格的保险产品名称、停止销售或者价格调整的起始日期等信息，其中起始日期不得早于公告日期。\n\n　　前款公告的停止销售或者调整价格的起始日期经过后，保险公司应当按照公告内容停止销售相应保险产品或者调整相应保险产品价格。\n　　在保险公司未就某一保险产品发出停止销售或者调整价格的公告前，保险销售人员不得在保险销售中向他人宣称某一保险产品即将停止销售或者调整价格。",
+        "text_sha256": "ee99362d10aef871e5e3b5b2221fcd4da01b6fd7d8aaec6d43a314954a77e2a8",
+        "complete": true
+      },
+      "source": {
+        "source_id": "L002",
+        "title": "保险销售行为管理办法",
+        "version_id": "L002-ca4f800b8ffd",
+        "legal_status": "official_catalog_marked_current",
+        "official_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1129945&itemId=928",
+        "retrieval_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "representation": "official_reader_snapshot_not_original_html_pdf",
+        "original_artifact_acquired": false
+      },
+      "dependencies": [
+        "L002-A0002",
+        "L002-A0005"
+      ],
+      "model_view": {
+        "article_id": "L002-A0019",
+        "version_id": "L002-ca4f800b8ffd",
+        "spans": [
+          {
+            "article_id": "L002-A0019",
+            "version_id": "L002-ca4f800b8ffd",
+            "start": 0,
+            "end": 292,
+            "quote": "　　第十九条  保险公司决定停止销售某一保险产品或者调整某一保险产品价格的，应当在官方线上平台显著位置和营业场所公告，但保险公司在经审批或者备案的费率浮动区间或者费率参数调整区间内调整价格的除外。公告内容应当包括停止销售或者调整价格的保险产品名称、停止销售或者价格调整的起始日期等信息，其中起始日期不得早于公告日期。\n\n　　前款公告的停止销售或者调整价格的起始日期经过后，保险公司应当按照公告内容停止销售相应保险产品或者调整相应保险产品价格。\n　　在保险公司未就某一保险产品发出停止销售或者调整价格的公告前，保险销售人员不得在保险销售中向他人宣称某一保险产品即将停止销售或者调整价格。",
+            "source_start": 4019,
+            "source_end": 4311
+          }
+        ],
+        "partial": false,
+        "withheld_reason": null
+      }
+    }
+  ]
+}

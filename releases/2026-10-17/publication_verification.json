@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "at_utc": "2026-10-17T15:17:53.025546+00:00",
+  "replay": {
+    "status": "PASS",
+    "selected_original_payloads": 194,
+    "candidate_documents": 9639,
+    "source_dependency": "9639 source text hashes match existing repository index",
+    "formal_queries": 90,
+    "closed_query_document_pairs": 2400,
+    "closed_methods": 4,
+    "full_pool_methods": 4,
+    "risk_predictions": 180,
+    "regression_questions": 36,
+    "regression_metric_configurations": 6,
+    "new_API_calls": 0,
+    "global_true_recall_claimed": false
+  },
+  "credential_pattern_scan_files": 201,
+  "credential_pattern_matches": 0,
+  "new_payload_max_bytes": 17420425,
+  "source_content_not_relabelled": true,
+  "new_model_calls": 0,
+  "original_local_checkout_unmodified": true
+}

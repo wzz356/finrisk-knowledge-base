@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "files": 5,
+  "normalization": {
+    "passed": true,
+    "errors": [],
+    "core_counts": {
+      "source_inventory": 5,
+      "documents": 5,
+      "cases": 8,
+      "behaviors": 13,
+      "evidence": 50,
+      "annotations": 94,
+      "materials": 5,
+      "reviews": 5
+    },
+    "extension_counts": {
+      "id_registry": 279,
+      "document_evidence": 86,
+      "responsibility_relations": 0,
+      "quote_bindings": 266,
+      "issues": 0,
+      "candidate_snapshots": 5
+    },
+    "unmatched_quote_count": 0,
+    "validation_scope": "mechanical_declared_fields_ids_hashes_spans; semantic_and_human_review_not_claimed"
+  },
+  "independent_patch_restore_verified": true,
+  "restored_payloads_equal": 19,
+  "stable_core_id_counts": {
+    "source_inventory": 5,
+    "documents": 5,
+    "cases": 8,
+    "behaviors": 13,
+    "evidence": 50,
+    "annotations": 94,
+    "materials": 5,
+    "reviews": 5
+  },
+  "projection_comparison": [
+    {
+      "file_id": "F001935",
+      "units": 13,
+      "unit_ids_text_context_attribution_identical": true,
+      "candidate_binding_updated": true,
+      "source_text_sha256": "c7e73a517bca3adfb3a1e158e02f67680c415ed21d8082d9e46a8b1340dbed2c"
+    },
+    {
+      "file_id": "F004248",
+      "units": 9,
+      "unit_ids_text_context_attribution_identical": true,
+      "candidate_binding_updated": true,
+      "source_text_sha256": "101f0e174b1e89819ffc0239046212a8808d4ab04719fccdb6bfe7cb1a275631"
+    },
+    {
+      "file_id": "F005529",
+      "units": 3,
+      "unit_ids_text_context_attribution_identical": true,
+      "candidate_binding_updated": true,
+      "source_text_sha256": "d3fa4648ec42c444fd3412c64faebd75196ba770955e54ea9fce7afa453a26d8"
+    },
+    {
+      "file_id": "F007683",
+      "units": 3,
+      "unit_ids_text_context_attribution_identical": true,
+      "candidate_binding_updated": true,
+      "source_text_sha256": "95d1944c8cee3ab7f92e12a99462389ecc5f2a34f932cb383fb7cf7f02870c1a"
+    },
+    {
+      "file_id": "F009173",
+      "units": 5,
+      "unit_ids_text_context_attribution_identical": true,
+      "candidate_binding_updated": true,
+      "source_text_sha256": "2e5ba4e70158b700b9915ba309c4c857e736fefdd69b607335c448acb7b192f9"
+    }
+  ],
+  "ranking_inputs_changed": false,
+  "retrieval_rerun": false,
+  "quality_improvement_not_claimed": true,
+  "application_or_gpu_cache_modified": false
+}

@@ -1,0 +1,43 @@
+{
+  "utc": "2026-10-16T19:30:12.978385+00:00",
+  "before_any_system_performance": true,
+  "human_approved": false,
+  "sha256": {
+    "qrels_closed.jsonl": "b3c057f0045fde1b8ac60fef144d05a77f3395559441815fdd32c46c018e967d",
+    "qrels_audit_results.jsonl": "1742adb1c4218683cae87883023a2f40397ee11baedbd2ac77f47d9b15a4be0f",
+    "qrels_audit_summary.json": "c60834af45d5e0e04ab38e31b4535508ffca9a4ef9f4173333e32578aa6fde2b"
+  },
+  "validation": {
+    "pairs": 2400,
+    "positive_counts": {
+      "FTEV2_001": 3,
+      "FTEV2_004": 7,
+      "FTEV2_013": 0,
+      "FTEV2_016": 4,
+      "FTEV2_018": 4,
+      "FTEV2_019": 2,
+      "FTEV2_024": 1,
+      "FTEV2_031": 3,
+      "FTEV2_037": 1,
+      "FTEV2_043": 13,
+      "FTEV2_044": 7,
+      "FTEV2_057": 6,
+      "FTEV2_061": 3,
+      "FTEV2_062": 3,
+      "FTEV2_063": 2,
+      "FTEV2_067": 4,
+      "FTEV2_068": 1,
+      "FTEV2_069": 7,
+      "FTEV2_070": 1,
+      "FTEV2_071": 7,
+      "FTEV2_078": 0,
+      "FTEV2_079": 6,
+      "FTEV2_087": 1,
+      "FTEV2_089": 13
+    },
+    "zero_positive_queries": [
+      "FTEV2_013",
+      "FTEV2_078"
+    ]
+  }
+}

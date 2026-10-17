@@ -1,0 +1,78 @@
+{
+  "dataset_version": "FinRisk Formal Evaluation V2 2026-10-17",
+  "status": "frozen_model_silver_pending_human_acceptance",
+  "generated_on_local": "2026-10-17 Asia/Shanghai",
+  "questions": 90,
+  "new_primary_inputs": 90,
+  "variants_counted_as_new": 0,
+  "states": {
+    "risk": 60,
+    "insufficient": 10,
+    "no_clear_risk": 20
+  },
+  "risk_mechanisms": 12,
+  "required_official_tags_covered": 10,
+  "official_dictionary_tags": 27,
+  "closed": {
+    "queries": 24,
+    "documents": 100,
+    "pairs": 2400,
+    "existing_kb_units": 1037,
+    "grades": {
+      "0": 1872,
+      "1": 271,
+      "3": 99,
+      "2": 158
+    },
+    "direct_positive_pairs": 99,
+    "queries_with_direct_positive": 22,
+    "zero_direct_positive_queries": [
+      "FTEV2_013",
+      "FTEV2_078"
+    ]
+  },
+  "full_retrieval_view": {
+    "queries": 60,
+    "risk": 48,
+    "no_clear_risk": 8,
+    "insufficient": 4,
+    "corpus_documents": 9639,
+    "rankings_available": false,
+    "pool_qrels_available": false,
+    "global_recall_available": false
+  },
+  "human_acceptance": {
+    "selected": 40,
+    "random": 30,
+    "challenge": 10,
+    "batches": 8,
+    "approved": 0
+  },
+  "generator": "current_session_and_inherited_subagents; exact model identifier not exposed in tool output",
+  "calls": {
+    "external_api": 0,
+    "external_api_cost": 0,
+    "currency": "USD",
+    "session_usage": "会话及子代理仍消耗会话额度，本轮token总数未由工具统计"
+  },
+  "business_results": {
+    "recall": null,
+    "mrr": null,
+    "ndcg": null,
+    "top1": null,
+    "risk_f1": null,
+    "faithfulness": null
+  },
+  "review_limit": "90题草稿独立模型盲审；28题改文后由主会话复核，没有再进行全量独立盲审。55组qrels复核也不是人工金标。",
+  "source_overlap": {
+    "formal_corpus_previous_anchor_files": 8,
+    "formal_corpus_previous_pool_files": 37,
+    "corpus_candidate_event_families": 93,
+    "anchor_candidate_families": 29,
+    "anchor_confirmed_previous_event_overlap_families": 4,
+    "all_events_independent_verified": false
+  },
+  "old_v1_policy": "原70主输入与10变体仅作为开发／回归集，本轮未修改；不并入90题主分母",
+  "knowledge_base_changed": false,
+  "github_updated": false
+}

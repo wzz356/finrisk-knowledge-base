@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-17T06:06:17.106825+00:00",
+  "approved_design": "user requested both validation layers after reading proposal",
+  "retrieval_main_queries": 24,
+  "risk_queries": 90,
+  "risk_arms": [
+    "no_retrieval",
+    "RAG"
+  ],
+  "full_corpus_files": 9639,
+  "full_corpus_units": 65475,
+  "BM25": {
+    "top_units": 100,
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "BGE": {
+    "model": "BAAI/bge-small-zh-v1.5",
+    "top_units": 100
+  },
+  "RRF": {
+    "weights": [
+      1,
+      1
+    ],
+    "k": 60,
+    "top_units": 100
+  },
+  "rerank": {
+    "model": "deepseek-flash",
+    "temperature": 0,
+    "thinking": "disabled",
+    "max_tokens": 512,
+    "concurrency": 8
+  },
+  "risk_profile": "frozen DATASET/prerequisites/generation_profile.json",
+  "risk_evidence": "top5 unique files after actual DeepSeek; representative unit with same-file source neighbors",
+  "qrels": "fixed grade3 direct support; shared four-route Top20 pool; existing frozen pairs reused; unknown independently labeled blind to route/rank",
+  "outside_random": {
+    "seed": 2026101713,
+    "files_per_query": 10
+  },
+  "global_recall": null,
+  "ndcg_scope": "shared four-route Top20 pool; exclude outside random and old closed references not in pool",
+  "compare_closed_versus_full": "different candidate universe and qrels scope; do not directly subtract Recall or call pool NDCG global",
+  "reference_quality": "model silver; user waived human review; not expert gold",
+  "new_API_authorized": false,
+  "new_API_total_proposed_cap_usd": 4.0,
+  "no_github_upload": true
+}

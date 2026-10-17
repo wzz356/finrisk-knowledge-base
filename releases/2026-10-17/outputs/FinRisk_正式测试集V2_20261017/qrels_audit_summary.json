@@ -1,0 +1,59 @@
+{
+  "utc": "2026-10-16T19:30:12.892852+00:00",
+  "initial_pair_count": 2400,
+  "final_pair_count": 2400,
+  "reviewed_pairs": 55,
+  "random_pairs": 24,
+  "targeted_pairs": 22,
+  "additional_dispute_pairs": 9,
+  "changes": 15,
+  "random_exact_grade_agreement_count": 18,
+  "random_direct_binary_agreement_count": 24,
+  "random_initial_direct_positive_count": 4,
+  "audit_is_human_gold": false,
+  "quality_accuracy_estimate": null,
+  "root_is_also_query_adjudicator": true,
+  "initial_grades": {
+    "0": 1877,
+    "1": 270,
+    "3": 100,
+    "2": 153
+  },
+  "final_grades": {
+    "0": 1872,
+    "1": 271,
+    "3": 99,
+    "2": 158
+  },
+  "pairs": 2400,
+  "positive_counts": {
+    "FTEV2_001": 3,
+    "FTEV2_004": 7,
+    "FTEV2_013": 0,
+    "FTEV2_016": 4,
+    "FTEV2_018": 4,
+    "FTEV2_019": 2,
+    "FTEV2_024": 1,
+    "FTEV2_031": 3,
+    "FTEV2_037": 1,
+    "FTEV2_043": 13,
+    "FTEV2_044": 7,
+    "FTEV2_057": 6,
+    "FTEV2_061": 3,
+    "FTEV2_062": 3,
+    "FTEV2_063": 2,
+    "FTEV2_067": 4,
+    "FTEV2_068": 1,
+    "FTEV2_069": 7,
+    "FTEV2_070": 1,
+    "FTEV2_071": 7,
+    "FTEV2_078": 0,
+    "FTEV2_079": 6,
+    "FTEV2_087": 1,
+    "FTEV2_089": 13
+  },
+  "zero_positive_queries": [
+    "FTEV2_013",
+    "FTEV2_078"
+  ]
+}

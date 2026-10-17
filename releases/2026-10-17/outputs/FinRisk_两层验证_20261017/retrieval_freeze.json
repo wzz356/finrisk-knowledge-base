@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-17T06:08:43.271567+00:00",
+  "after_retrieval_before_judgment_or_API": true,
+  "input_design_freeze_sha256": "8e3d524117bdf18e678044c94acbab7759b62f74e7fa30e81493aa2e8ea4781f",
+  "sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\full_routes.jsonl": "830759aef8d27a3132c0d290c7d16ec8828537073c3dba0996e2c74169663627",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\closed_routes.jsonl": "2843bb5a7fcb84f800721d2ae083adb42e807fff2775afec9609b1f767690b8c",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\retrieval_inputs.json": "6099a3b32158145ca8ce882c42529386bf5f979ea4b922aac77be9f1769e9526",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\retrieval_log.json": "676cf44cc2dca733359a52e8b68c5a2d0d20e981544266979f8c4397fc674849",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\suite_retrieval.token_audit.jsonl": "0130adf4ef23fcaa68396b6ffeaae7563f4cc2af0f43c6ba1a031716fb13892a",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_two_layer_validation_20261017\\retrieve_suite.py": "ea0100bf3a8498184c4e0f0db9537ca2478008eabb96148963835de177449f53",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_two_layer_validation_20261017\\common.py": "64036be68d44dc21b1c8d956049d50b0a0f5d3070e3f233600acc76e8fe5e642",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\design_freeze.json": "8e3d524117bdf18e678044c94acbab7759b62f74e7fa30e81493aa2e8ea4781f",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\retrieval_queries.jsonl": "ed856141d85075a8d7006c22fc1d77ed074960df9547fbc7de8ad1dcfa0bdd5b",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\closed_queries.jsonl": "cfd328ad475cb82921412ee2b6f934e2d00aa88f18edb9cd75633e96c2f96ad2",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\corpus.jsonl": "f5315a6fea0d6cef2558d3e91e165e09f0407fa0e4dc8bf1f49f25c95bb1f503",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\indexes\\all9639_final\\structured.jsonl": "a653fd381c881e1d0659c1154da99c90ab0ac378f65e60f0bda347e2b2c2a2d8",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库V2_20261012\\indexes\\all9639_final\\manifest.json": "9f7f2d8cdbc621cfa577d8c5ffac439be3aeeeccc2f0e487cd1210bd78487a8d",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\runner.py": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+    "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\src\\retrieval\\sparse.py": "9a2b7f33342818fc5d00a5aba93a4fbb6378e9f7fe5c88a1501b17b0d3fe45bb",
+    "C:\\Users\\11051\\Desktop\\金融比赛\\复赛\\FinRisk_复赛改进\\src\\retrieval\\tokenization.py": "5c53e4fe5ebb47657bb6e191b56074889b571b6a85941da516a314d657518465",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_evalset_20261015\\retrieval_case_ids.py": "d1a9ed095a3a0fb2f4d174cb0848ff69e5201c2b3386971b4f1a00da4a5fe1c1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_召回率校准_20261013\\retrieval_results.jsonl.run.json": "1f4a1717467fff253a76029f8ab71e2cee2428fb71b69e3049c89259e9b54ba5",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_recall_calibration_20261013\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.json": "643059072281d86dd46c8e9f364d0d9e3373528010f830c8a25a20055dd90f78",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_recall_calibration_20261013\\vector_cache\\5439ca546467f0674ef4a3de046941defb3c2268072fdf4927d583702ae76c07.npy": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\retrieval_query_cache\\f5df1acd9cf9d2179b749b96361d388d9fb2a75f5a38d6a373efb596773cc3f4.json": "ae2cfe911b9d4abc52f0ff368337bf28e952192c31d3f5f58205b817b12a75d1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_两层验证_20261017\\retrieval_query_cache\\f5df1acd9cf9d2179b749b96361d388d9fb2a75f5a38d6a373efb596773cc3f4.npy": "169d8eeead4b1b5c55c476fb00c597e7e98552a3f03867b7927b2fc8b7931e96"
+  }
+}

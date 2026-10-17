@@ -1,0 +1,95 @@
+{
+  "utc": "2026-10-17T04:16:31.739486+00:00",
+  "status": "passed",
+  "original_dataset_manifest_verified": true,
+  "original_dataset_validation": {
+    "status": "passed",
+    "questions": 90,
+    "states": {
+      "risk": 60,
+      "insufficient": 10,
+      "no_clear_risk": 20
+    },
+    "explicit_admissions": 2,
+    "views": {
+      "queries.jsonl": 90,
+      "closed_queries.jsonl": 24,
+      "retrieval_queries.jsonl": 60
+    },
+    "documents": 100,
+    "extra_legacy_documents": 2,
+    "closed_units": 1037,
+    "pairs": 2400,
+    "zero_direct_positive_queries": [
+      "FTEV2_013",
+      "FTEV2_078"
+    ],
+    "quoted_positive_pairs": 257,
+    "root_audited_pairs": 55,
+    "changed_pair_grades": 15,
+    "human_review_pending": 40,
+    "model_business_metrics_computed": false
+  },
+  "api_scores_with_actual_responses_replayed": 2400,
+  "all_score_and_response_bindings_valid": true,
+  "budget_outstanding": 0,
+  "budget_conservative_upper_within_approved_cap": true,
+  "independent_numeric_replay": {
+    "BM25": {
+      "top1_hit_rate": 0.25,
+      "mrr20": 0.3659970238095238,
+      "recall1": 0.08953546453546453,
+      "recall5": 0.28242590742590745,
+      "recall10": 0.4155011655011655,
+      "recall20": 0.6136779886779887,
+      "ndcg1": 0.2727272727272727,
+      "ndcg5": 0.2994324623202908,
+      "ndcg10": 0.3483927131516051,
+      "ndcg20": 0.42816076498399236
+    },
+    "BGE": {
+      "top1_hit_rate": 0.2916666666666667,
+      "mrr20": 0.3888573232323233,
+      "recall1": 0.09873459873459872,
+      "recall5": 0.2244838494838495,
+      "recall10": 0.3513153513153513,
+      "recall20": 0.532009657009657,
+      "ndcg1": 0.3181818181818182,
+      "ndcg5": 0.2892153520034597,
+      "ndcg10": 0.3239116022467596,
+      "ndcg20": 0.3896101314201822
+    },
+    "RRF": {
+      "top1_hit_rate": 0.2916666666666667,
+      "mrr20": 0.41279324229691877,
+      "recall1": 0.09602897102897102,
+      "recall5": 0.25695138195138195,
+      "recall10": 0.44763569763569766,
+      "recall20": 0.6415251415251415,
+      "ndcg1": 0.3181818181818182,
+      "ndcg5": 0.3148429131724735,
+      "ndcg10": 0.38706154041598656,
+      "ndcg20": 0.4622378015806282
+    },
+    "DeepSeek": {
+      "top1_hit_rate": 0.7083333333333334,
+      "mrr20": 0.7421875,
+      "recall1": 0.2564518814518814,
+      "recall5": 0.5460789210789211,
+      "recall10": 0.7204878454878455,
+      "recall20": 0.8021561771561772,
+      "ndcg1": 0.7727272727272727,
+      "ndcg5": 0.6691404576736117,
+      "ndcg10": 0.7070946192824056,
+      "ndcg20": 0.7231556017581846
+    }
+  },
+  "human_review_waived": true,
+  "human_gold": false,
+  "new_adaptation_tests": 4,
+  "inherited_evaluator_tests": 13,
+  "cost_guard_tests": 4,
+  "unknown_top20_filled_as_zero": false,
+  "full_KB_metrics_reported": false,
+  "risk_classification_metrics_reported": false
+}

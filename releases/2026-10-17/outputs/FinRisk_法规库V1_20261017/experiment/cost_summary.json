@@ -1,0 +1,16 @@
+{
+  "total_booked_usd": 0.7509922680000001,
+  "cap_usd": 2,
+  "remaining_usd": 1.249007732,
+  "usage_priced_usd": 0.656883768,
+  "usage_missing_requests": 66,
+  "request_attempts": 3816,
+  "valid_model_response_count": 3750,
+  "unknown_usage_booked_at_full_reservation": true,
+  "not_bank_statement": true,
+  "phases": {
+    "dev": 0.045631698000000005,
+    "cases": 0.575668404,
+    "confirm": 0.12969216600000005
+  }
+}

@@ -1,0 +1,25 @@
+test_extra_provided_legal_sources_are_preserved_but_versions_checked (test_execution_format.CompleteLegalListTests.test_extra_provided_legal_sources_are_preserved_but_versions_checked) ... ok
+test_real_response_keeps_all_judgment_content_unchanged (test_execution_format.FormatRecoveryTests.test_real_response_keeps_all_judgment_content_unchanged) ... ok
+test_review_cannot_quote_cases_it_never_received (test_execution_format.FormatRecoveryTests.test_review_cannot_quote_cases_it_never_received) ... ok
+test_received_response_is_journaled_before_record_append (test_repair.BudgetAndIOTests.test_received_response_is_journaled_before_record_append) ... ok
+test_shared_cap_unknown_usage_remains_booked (test_repair.BudgetAndIOTests.test_shared_cap_unknown_usage_remains_booked) ... ok
+test_confidence_and_limitations_survive_packet_building (test_repair.RepairTests.test_confidence_and_limitations_survive_packet_building) ... ok
+test_corrective_context_cannot_establish_active_risk (test_repair.RepairTests.test_corrective_context_cannot_establish_active_risk) ... ok
+test_definite_negation_needs_quote_and_explicit_owner (test_repair.RepairTests.test_definite_negation_needs_quote_and_explicit_owner) ... ok
+test_denied_impersonation_dominates_unfinished_callback (test_repair.RepairTests.test_denied_impersonation_dominates_unfinished_callback) ... ok
+test_explicit_proposal_remains_risk_without_completion (test_repair.RepairTests.test_explicit_proposal_remains_risk_without_completion) ... ok
+test_labels_from_other_mechanism_are_not_promoted (test_repair.RepairTests.test_labels_from_other_mechanism_are_not_promoted) ... ok
+test_legacy_mapping_reproduced_and_mechanism_restored (test_repair.RepairTests.test_legacy_mapping_reproduced_and_mechanism_restored) ... ok
+test_observer_missing_materials_never_proves_violation (test_repair.RepairTests.test_observer_missing_materials_never_proves_violation) ... ok
+test_one_clear_risk_not_downgraded_by_other_unknown_claim (test_repair.RepairTests.test_one_clear_risk_not_downgraded_by_other_unknown_claim) ... ok
+test_raw_model_labels_are_retained_before_gate (test_repair.RepairTests.test_raw_model_labels_are_retained_before_gate) ... ok
+test_risk_opinion_without_claims_does_not_silently_pass_as_clear (test_repair.RepairTests.test_risk_opinion_without_claims_does_not_silently_pass_as_clear) ... ok
+test_salesperson_contract_confirmation_is_risky_without_false_record (test_repair.RepairTests.test_salesperson_contract_confirmation_is_risky_without_false_record) ... ok
+test_sixth_rank_tax_article_is_in_context (test_repair.RepairTests.test_sixth_rank_tax_article_is_in_context) ... ok
+test_unknown_notice_cannot_become_definite_risk (test_repair.RepairTests.test_unknown_notice_cannot_become_definite_risk) ... ok
+test_unknown_predicate_ID_and_non_input_quote_are_rejected (test_repair.RepairTests.test_unknown_predicate_ID_and_non_input_quote_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.017s
+
+OK

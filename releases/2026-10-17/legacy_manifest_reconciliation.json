@@ -1,0 +1,13 @@
+{
+  "prior_commit": "9ea851c233b3384c79d51a1c8038e0d220acbf85",
+  "prior_manifest_sha256": "833459938cb121a6a73c36bb73bfc2908ba5cb719821473678d14cfe9d21d4e8",
+  "prior_manifest_entries": 1778,
+  "prior_manifest_missing_paths": 0,
+  "prior_manifest_stale_existing_paths": 0,
+  "missing_path_list_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "missing_examples": [],
+  "existing_tracked_files": 1779,
+  "old_tracked_payloads_deleted": 0,
+  "old_tracked_payloads_modified_except_root_readme_manifest": 0,
+  "repair": "root manifest refreshed with this release; Windows long paths verified with extended absolute paths; no historical files deleted"
+}

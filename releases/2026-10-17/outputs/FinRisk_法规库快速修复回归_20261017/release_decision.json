@@ -1,0 +1,17 @@
+{
+  "recommended_mode": "single_analysis_plus_condition_gate",
+  "review_default_enabled": false,
+  "approved_for": "offline_regression_candidate_and_team_demo",
+  "production_application_changed": false,
+  "all_issues_fixed": false,
+  "not_independent_test": true,
+  "remaining_primary_errors": [
+    "LR36_001",
+    "LR36_027"
+  ],
+  "remaining_substantive_scope_issue": [
+    "LR36_006"
+  ],
+  "priority": "validate on fresh inputs before generalization claims; do not keep tuning the same36 to100%",
+  "rationale": "34/36 versus old29/36; all12 clear risks retained; no aggregate gain from one extra same-model review"
+}

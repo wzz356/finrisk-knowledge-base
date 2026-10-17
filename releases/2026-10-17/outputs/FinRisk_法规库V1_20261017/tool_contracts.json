@@ -1,0 +1,50 @@
+{
+  "version": "regulation_tools_v1",
+  "snapshot_date": "2026-10-17",
+  "tools": [
+    {
+      "name": "search_regulations",
+      "description": "检索法规候选并补齐条件卡支撑、范围、定义和例外；不自动作法律裁定",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "maxLength": 10000
+          },
+          "top_k": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "read_regulation",
+      "description": "读取已登记article_id或rule_id及出处、完整正文和关联条件",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "registered_id": {
+            "type": "string"
+          },
+          "version_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "registered_id"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "runtime_policy": "快照、时间模式和是否允许待核材料由宿主固定，不暴露任意路径/网址；首轮实验显式允许待核并标研究用途",
+  "current_status": "本地离线函数已实现；未接入现有Agent应用",
+  "source_currentness_and_case_applicability_separate": true
+}

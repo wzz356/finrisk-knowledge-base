@@ -1,0 +1,18 @@
+{
+  "state_changed_by_single_review": [],
+  "gate_changed_initial": [],
+  "gate_changed_review": [],
+  "normalized_labels_differ_from_raw_initial": [
+    "LR36_012",
+    "LR36_020",
+    "LR36_024"
+  ],
+  "normalized_labels_differ_from_raw_review": [
+    "LR36_012",
+    "LR36_020",
+    "LR36_024"
+  ],
+  "recommended_fast_mode": "single_analysis_plus_condition_gate",
+  "review_default_enabled": false,
+  "basis": "No state or aggregate label-metric improvement from extra review in this already-seen regression; not a universal conclusion"
+}

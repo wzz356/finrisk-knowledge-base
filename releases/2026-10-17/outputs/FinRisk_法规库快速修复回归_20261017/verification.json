@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "unit_tests": 20,
+  "test_failures": 0,
+  "original_archive_unchanged": true,
+  "original_archive_sha256": "fd61234fa063afceab78800018b77c6a42f985a42150d47f5a13e03766563152",
+  "original_payloads_unchanged": 744,
+  "frozen_core_code_and_packets_unchanged": true,
+  "accepted_responses_unchanged_from_original_model_JSON": 72,
+  "payload_hashes_verified": 72,
+  "answer_fields_absent_from_requests": true,
+  "exact_law_excerpts": true,
+  "classification_and_state_replay": true,
+  "cost_replay": true,
+  "new_python_syntax_files": 11,
+  "credential_pattern_scan_files": 128,
+  "reference_status": "unchanged_model_silver",
+  "semantic_review_current_model_not_independent_expert": true,
+  "default_application_changed": false,
+  "new_API_calls_during_verification": 0
+}

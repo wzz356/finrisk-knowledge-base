@@ -1,8 +1,22 @@
 # FinRisk 重建知识库
 
-**基础数据版本：[V2 / 9639份知识库](versions/v2-20261012)。当前离线演示V3，融合权重1:1。** 关联应用：[finrisk-workbench](https://github.com/wzz356/finrisk-workbench)。
+**最新交付：[V2.1案例库＋法规库＋正式测试与实测结果（2026-10-17）](releases/2026-10-17)。案例9639份，双路融合权重1:1。** 关联应用：[finrisk-workbench](https://github.com/wzz356/finrisk-workbench)。
 
 V2完成统一八表、稳定ID、原文证据绑定、阅读入口和两范围检索投影，修订157份有效候选，早期30份迁移官方27类标签。全量机械检查、8509主批次登记对账与保存输入恢复通过。当前9项展示字段/片段已人工判断，完整文书批准0；后续复核由用户委托助手，判断来源保持模型复核。应用默认库未切换。
+
+## 当前最小交付与答辩入口（2026-10-17）
+
+[交付说明](releases/2026-10-17/README.md) · [答辩索引与结果总览](releases/2026-10-17/答辩索引.md) · [正式90题](releases/2026-10-17/outputs/FinRisk_正式测试集V2_20261017/queries.jsonl) · [复算入口](releases/2026-10-17/reproduce.py)
+
+V2.1将9639份当前候选和5份既有修正合并，原文与全量投影复用仓库V2。新增10份官方来源阅读快照、64条法规和24张条件卡。精简交付保留正式数据、冻结设计、实际排名、模型预测、逐题指标与复算代码，省去完整API日志、临时文件和重复大包。
+
+24题×100篇文书的完整闭集，DeepSeek Recall@20=80.22%、MRR@20=0.7422、NDCG@20=0.7232、Top-1=70.83%。同24题扩大到9639篇后，Top-1=45.83%、MRR@20=0.5069，已知参考微平均覆盖39.39%，后者不是全库Recall。90题两臂未显示最终判断的RAG增益；法规快速修复在已见36题中正确29→34。不同实验范围分开报告，模型银标不当人工金标。
+
+```powershell
+python -S -X utf8 -B 'releases/2026-10-17/reproduce.py'
+```
+
+当前候选请读取[effective_candidates.jsonl.gz](releases/2026-10-17/outputs/FinRisk_知识库V2.1轻量收尾_20261015/effective_candidates.jsonl.gz)中每行的`draft`。旧V2、旧20题和旧开发实验保留为历史基线；现有应用默认未切换。
 
 ## 最新召回测试集与指标（2026-10-15）
 
@@ -30,7 +44,7 @@ E06重复占位3→0，但有用位置53→51/80；E05统一新评原版47/80、
 python .\tools\verify_experiments.py --repo .
 ```
 
-## 当前数据与实验入口
+## 历史V2基线数据与实验入口
 
 - [9639份V2有效候选](versions/v2-20261012/data/candidates)、[文书定位索引](versions/v2-20261012/data/file_index.jsonl)、[共享原文](data/sources)。
 - [V2重建与召回复测报告](versions/v2-20261012/V2重建与召回复测报告.md)、[任务清单进度](versions/v2-20261012/任务清单状态_V2.md)。
@@ -50,7 +64,7 @@ python .\tools\verify_experiments.py --repo .
 
 ## 版本与校验
 
-根目录data/candidates、indexes/2026-10-12、evaluation/2026-10-12及quality/2026-10-12保留V1基线；[V1历史说明](docs/V1_README_20261012.md)。读取当前候选请用versions/v2-20261012/data/candidates。V2原文共享根data/sources，字典仍是[官方27类](dictionary/risk_type_dictionary.csv)。
+根目录data/candidates、indexes/2026-10-12、evaluation/2026-10-12及quality/2026-10-12保留V1基线；[V1历史说明](docs/V1_README_20261012.md)。当前有效稿请用上方V2.1入口，versions/v2-20261012/data/candidates保留为基线。V2原文共享根data/sources，字典仍是[官方27类](dictionary/risk_type_dictionary.csv)。
 
 ```powershell
 python .\tools\verify_repository.py

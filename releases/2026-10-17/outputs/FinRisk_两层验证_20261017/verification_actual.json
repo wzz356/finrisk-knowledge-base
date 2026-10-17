@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-17T08:13:52.566683+00:00",
+  "status": "passed",
+  "rerank_scores": 9000,
+  "risk_predictions": 180,
+  "initial_relevance_pairs": 1133,
+  "rerank_first_valid_response_verified": true,
+  "original_quote_policy_accepted_pairs": 59,
+  "acceptance_policy": "existing accepted scores unchanged; first valid response under applicable parser epoch",
+  "risk_predictions_exactly_match_actual_model_responses": true,
+  "input_freezes_match": true,
+  "unknown_qrels_never_defaulted": true,
+  "no_outstanding_budget_reservations": true,
+  "total_booked_upper_usd": 2.0194225560000008
+}

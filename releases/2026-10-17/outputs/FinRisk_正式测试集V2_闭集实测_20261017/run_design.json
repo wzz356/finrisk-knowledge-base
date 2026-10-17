@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-17T03:47:35.996090+00:00",
+  "dataset": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_20261017",
+  "closed_queries": 24,
+  "closed_documents": 100,
+  "closed_kb_units": 1037,
+  "human_review": "user explicitly waived human review; references remain model silver",
+  "human_approved": false,
+  "local_extra": "same 24 queries on full KB RRF only; no paid full rerank, no full metrics without qrels",
+  "relevant_grade": 3,
+  "K": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "MRR_cutoff": 20,
+  "primary_macro_queries": 24,
+  "recall_valid_queries": 22,
+  "zero_positives_retained": true,
+  "ranking_methods": [
+    "BM25",
+    "BGE",
+    "RRF_1_to_1",
+    "RRF_DeepSeek"
+  ],
+  "qrels_not_used_for_retrieval": true,
+  "api": {
+    "model": "deepseek-flash",
+    "temperature": 0,
+    "max_tokens": 512,
+    "thinking": "disabled",
+    "concurrency": 8,
+    "max_attempts": 3,
+    "closed_peak_booked_cap_usd": 0.8,
+    "global_peak_booked_cap_usd": 2
+  },
+  "pricing_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "pricing_checked_date": "2026-10-17",
+  "peak_usd_per_million": {
+    "cache_miss": 0.3,
+    "cache_hit": 0.006,
+    "output": 1.2
+  },
+  "off_peak": "half; actual usage estimates, not account statement",
+  "risk_classification_run_in_this_stage": false
+}

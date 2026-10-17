@@ -1,0 +1,14 @@
+{
+  "reason": "model returned 4/5 provided case analogies; original validator limited3 but prompt did not state that count",
+  "changed": "allow up to five already-provided case analogies; all other validation remains",
+  "new_semantic_policy": false,
+  "queries_changed": false,
+  "prompts_changed": false,
+  "references_changed": false,
+  "prior_accepted_tasks_kept": true,
+  "raw_records_rewritten": false,
+  "earliest_original_valid_response_only": true,
+  "no_extra_request_for_recovery": true,
+  "maximum_attempts_per_task_unchanged": 3,
+  "source_sha256": "3e82ccf9c167dce0cc544cbd1f1cdf5cffab12cbe5c5913141325115ec10195c"
+}

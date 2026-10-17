@@ -1,0 +1,86 @@
+{
+  "utc": "2026-10-17T08:12:39.369170+00:00",
+  "random_audited_pairs": 36,
+  "grade_changes": 12,
+  "grade_change_details": [
+    {
+      "query_id": "FTEV2_001",
+      "file_id": "F002252",
+      "old_grade": 1,
+      "new_grade": 2
+    },
+    {
+      "query_id": "FTEV2_001",
+      "file_id": "F003525",
+      "old_grade": 2,
+      "new_grade": 3
+    },
+    {
+      "query_id": "FTEV2_019",
+      "file_id": "F001536",
+      "old_grade": 1,
+      "new_grade": 2
+    },
+    {
+      "query_id": "FTEV2_037",
+      "file_id": "F001748",
+      "old_grade": 0,
+      "new_grade": 1
+    },
+    {
+      "query_id": "FTEV2_044",
+      "file_id": "F002237",
+      "old_grade": 1,
+      "new_grade": 2
+    },
+    {
+      "query_id": "FTEV2_057",
+      "file_id": "F002350",
+      "old_grade": 1,
+      "new_grade": 2
+    },
+    {
+      "query_id": "FTEV2_057",
+      "file_id": "F007162",
+      "old_grade": 2,
+      "new_grade": 3
+    },
+    {
+      "query_id": "FTEV2_067",
+      "file_id": "F001084",
+      "old_grade": 2,
+      "new_grade": 1
+    },
+    {
+      "query_id": "FTEV2_070",
+      "file_id": "F002025",
+      "old_grade": 1,
+      "new_grade": 2
+    },
+    {
+      "query_id": "FTEV2_071",
+      "file_id": "F003663",
+      "old_grade": 0,
+      "new_grade": 2
+    },
+    {
+      "query_id": "FTEV2_079",
+      "file_id": "F001564",
+      "old_grade": 0,
+      "new_grade": 1
+    },
+    {
+      "query_id": "FTEV2_087",
+      "file_id": "F002665",
+      "old_grade": 2,
+      "new_grade": 1
+    }
+  ],
+  "exact_grade_agreement": 0.6666666666666666,
+  "direct_binary_agreement": 0.9444444444444444,
+  "human_approved": false,
+  "agreement_is_not_label_accuracy": true,
+  "not_independent_expert_gold": true,
+  "labels_remain_model_silver": true,
+  "all_initial_annotations_retained": true
+}

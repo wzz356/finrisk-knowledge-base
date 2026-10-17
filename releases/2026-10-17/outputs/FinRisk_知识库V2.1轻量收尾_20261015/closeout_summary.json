@@ -1,0 +1,50 @@
+{
+  "sample_quote_occurrences": 324,
+  "sample_issue_pointers": 62,
+  "sample_files": 30,
+  "source_characters": 13472,
+  "conclusions": {
+    "pass_no_key_issue": 17,
+    "fix_required": 5,
+    "source_unknown": 8
+  },
+  "disagreement_items": 16,
+  "disagreement_pairs": 13,
+  "disagreement_resolutions": {
+    "document_underestimated": 8,
+    "context_overestimated": 8
+  },
+  "fixed_issues": 5,
+  "fixed_files": 5,
+  "fixed_fields": 8,
+  "confirmed_issue_severity": {
+    "minor": 2,
+    "major": 3
+  },
+  "source_unknown_issue_records": 13,
+  "optional_deferred": 1,
+  "critical_found_this_sample": 0,
+  "new_quarantined_files": 0,
+  "old_queue_documents": 4514,
+  "old_signal_records": 5438,
+  "old_queue_review_groups": {
+    "not_reviewed_this_round": 4500,
+    "source_unknown_retained_limited_review": 5,
+    "reviewed_limited_scope": 8,
+    "confirmed_issue_fixed_limited_scope": 1
+  },
+  "old_base_byte_binding_changed": 0,
+  "old_signal_records_closed_this_round": 0,
+  "existing_limited_human_records": 9,
+  "full_document_human_approved": 0,
+  "verified_initial_freeze_files": 32,
+  "mechanical_checks_pass": 9639,
+  "model_review_not_human_approval": true,
+  "independent_gold": false,
+  "reserved_360_used": false,
+  "current_weights": [
+    1,
+    1
+  ],
+  "patch_verification_passed": true
+}

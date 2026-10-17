@@ -1,0 +1,35 @@
+{
+  "articles": 64,
+  "paragraph_units": 252,
+  "shape": [
+    252,
+    512
+  ],
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "bge": {
+    "model": "C:\\Users\\11051\\.cache\\huggingface\\hub\\models--BAAI--bge-small-zh-v1.5\\snapshots\\7999e1d3359715c523056ef9478215996d62a620",
+    "pooling": "CLS",
+    "L2_normalized": true,
+    "max_length": 512,
+    "hidden_truncation": false,
+    "article_aggregation": "maximum paragraph cosine"
+  },
+  "rrf": {
+    "weights": [
+      1,
+      1
+    ],
+    "k": 60
+  },
+  "document_scope": "independent regulation index",
+  "case_document_vectors_recomputed": 0,
+  "sha256": {
+    "articles.jsonl": "6733e9fa9e4f05ac55caf4222ff821ae6ce08bfbd67c2ac4fba6aab5680cb2f1",
+    "article_model_views.jsonl": "dd519916615ddba673205a1345d11362d68f986574c9a73186eb2a80f0066b4f",
+    "indexes/vectors.npy": "39f4460f428bb1467347bf800fef7cfda54e8db4a9291ca15c9ff9622360e1e8",
+    "indexes/embedding_units.jsonl": "532f66f98aea2661a60afac80aa42ee741742e0f300b9f0c6076f87ed9e6e33b"
+  }
+}

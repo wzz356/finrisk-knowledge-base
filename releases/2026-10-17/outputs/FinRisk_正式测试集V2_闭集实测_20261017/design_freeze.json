@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-17T03:47:36.000996+00:00",
+  "before_formal_retrieval": true,
+  "sha256": {
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_闭集实测_20261017\\closed_queries.jsonl": "cfd328ad475cb82921412ee2b6f934e2d00aa88f18edb9cd75633e96c2f96ad2",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_闭集实测_20261017\\retrieval_queries.jsonl": "cfd328ad475cb82921412ee2b6f934e2d00aa88f18edb9cd75633e96c2f96ad2",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_闭集实测_20261017\\corpus.jsonl": "f5315a6fea0d6cef2558d3e91e165e09f0407fa0e4dc8bf1f49f25c95bb1f503",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_闭集实测_20261017\\input_type_groups.jsonl": "b8f4bde0389163fa9e36adfd72d9d2248e8b872c913eebbf6f7e216af19fc420",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_闭集实测_20261017\\run_design.json": "f79721e897ca9f64d2bbddaf1cf80edd00cb38a2feeafe8c194cacce9e6fcef1",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_闭集实测_20261017\\adaptation_record.json": "5cdbcb87273a1112325170f18fe278dbb031b8a4e53b7ace9cb803d94719dc75",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_metrics_20261017\\api_adapter.py": "569e3dd0ac79c20066eef5d442d0f44196e7ec52832b2500984612d2e9a0f8bd",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_metrics_20261017\\bootstrap.py": "23e58ef1a4f321b76f64ba969917db7dc931cd6539b9c7f75657f1c046dd4fcf",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_metrics_20261017\\common.py": "730fbd6a554dbb1b90675adf952ccb0a90b201f5004ad8e0391d459d49788c03",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_metrics_20261017\\context_builder.py": "038b0368da47d5be1ff9a9446d9f9a29b3e6c3fadfe60ce667b9151394821af2",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_metrics_20261017\\formal_contract.py": "9f60cf43d64274678b59d543d65cb7e1c3261262dea7938f55fb2cb0e18b6788",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_metrics_20261017\\prepare_suite_scores.py": "1ba1446f66826ca42a762da082ed0d88b7aad0b0980f61fe3c19d28a2089e1f6",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_metrics_20261017\\retrieve_suite.py": "b2d9ac549e0379d38c1ab293b9c324e80591ac83c9f379acf9a50745491bbde9",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_metrics_20261017\\run_suite_api.py": "ca98ad0b24384282121d403457181a40d9bc44cbfa325f72f5de92a9eef64961",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_formal_metrics_20261017\\test_formal_adaptation.py": "4f4e42016403fe93319df23cbe20b0731a6b42b1b3a2dbf9447a572cb39d6edb",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_20261017\\manifest.json": "deb8dfb2db8cda3a86682391bbde0b631d22edf4175626a29c4efbade829a60a",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_20261017\\qrels_closed.jsonl": "b3c057f0045fde1b8ac60fef144d05a77f3395559441815fdd32c46c018e967d",
+    "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_正式测试集V2_20261017\\closed_kb_units.jsonl": "afea13e94f0bbd00c36d644f6b3cacaa16ed4175be7a1cf774b3a4e46b393459"
+  },
+  "test_environment_fix_before_retrieval": "Only software test fixtures moved from Windows sandbox Temp to writable workspace; queries, references, ranking configuration unchanged"
+}

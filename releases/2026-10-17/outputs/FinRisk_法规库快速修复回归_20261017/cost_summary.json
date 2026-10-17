@@ -1,0 +1,17 @@
+{
+  "total_booked_usd": 0.154403388,
+  "self_imposed_cap_usd": 0.5,
+  "phases": {
+    "analysis": 0.105389826,
+    "review": 0.04901356199999999
+  },
+  "attempts": 84,
+  "usage_missing_attempts": 0,
+  "outstanding": 0,
+  "not_bank_statement": true,
+  "original_case_scores_regenerated": 0,
+  "logic_tasks": 72,
+  "local_format_recovery_tasks": 5,
+  "pricing_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "pricing_checked_on": "2026-10-17"
+}

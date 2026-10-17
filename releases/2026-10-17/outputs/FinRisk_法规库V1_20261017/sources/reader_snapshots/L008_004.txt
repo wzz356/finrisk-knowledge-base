@@ -1,0 +1,7 @@
+Internal Error ()
+citeturn82view0 [wordlim: 200] Source: open({"ref_id":"https://www.court.gov.cn/zixun/xiangqing/233181.html","lineno":null}); Total lines: 1
+L0: Failed to fetch https://www.court.gov.cn/zixun/xiangqing/233181.html: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn82view1 [wordlim: 200] Source: find({"ref_id":"https://www.court.gov.cn/zixun/xiangqing/233181.html","pattern":"第五百三十八条"}); Total lines: 1
+No matching text found for "第五百三十八条"

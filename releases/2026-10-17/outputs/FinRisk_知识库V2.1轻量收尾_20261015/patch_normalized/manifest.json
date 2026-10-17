@@ -1,0 +1,131 @@
+{
+  "batches": {
+    "prior1000": 2,
+    "remaining8509": 3
+  },
+  "candidate_count": 5,
+  "contract_format": "typed_field_contract_v1",
+  "core_tables": [
+    "source_inventory",
+    "documents",
+    "cases",
+    "behaviors",
+    "evidence",
+    "annotations",
+    "materials",
+    "reviews"
+  ],
+  "counts": {
+    "annotations": 94,
+    "behaviors": 13,
+    "cases": 8,
+    "documents": 5,
+    "evidence": 50,
+    "materials": 5,
+    "reviews": 5,
+    "source_inventory": 5
+  },
+  "extension_counts": {
+    "candidate_snapshots": 5,
+    "document_evidence": 86,
+    "id_registry": 279,
+    "issues": 0,
+    "quote_bindings": 266,
+    "responsibility_relations": 0
+  },
+  "extension_tables": [
+    "id_registry",
+    "document_evidence",
+    "responsibility_relations",
+    "quote_bindings",
+    "issues",
+    "candidate_snapshots"
+  ],
+  "files": {
+    "INDEX.md": {
+      "bytes": 822,
+      "sha256": "7c649909dba71525878165c5786cc9ca27bd6e8037902bd35b8c16311c89bacb"
+    },
+    "contract/schema.json": {
+      "bytes": 18396,
+      "sha256": "a62707c481a9adead45721f7f640c8b319bbff6a5f8ff285e428d2a171eba401"
+    },
+    "data/annotations.jsonl": {
+      "bytes": 114061,
+      "sha256": "65e8b0f44b1264da2ed4142fcd49c5c8959bc669140dcb612af0c6e59427d4f8"
+    },
+    "data/behaviors.jsonl": {
+      "bytes": 65312,
+      "sha256": "d3f2dad4aae68ee1db310ef0eefe34412612d859d1cfe8f5feccf07d75b47e23"
+    },
+    "data/cases.jsonl": {
+      "bytes": 34833,
+      "sha256": "4e296f51dbb735baa86f15bccf558e56ee2a43cf9b6f3d288e856f041d01c17f"
+    },
+    "data/documents.jsonl": {
+      "bytes": 17649,
+      "sha256": "661b250f8579a7a038a91ee356ea84a73157023449ee9a415d2c33607305b766"
+    },
+    "data/evidence.jsonl": {
+      "bytes": 67019,
+      "sha256": "7789d9eb507cb32a19db449623d52a980c81a9c630378fd95b2bfc610ea1cd3b"
+    },
+    "data/materials.jsonl": {
+      "bytes": 7428,
+      "sha256": "10a5d12a12dcea0f42581746ffe97ae9c12c435c5aa45ddf25c36c2386cedb27"
+    },
+    "data/reviews.jsonl": {
+      "bytes": 6665,
+      "sha256": "feb707a319769e61407d806b834460e82456414ccab65e44f5a5a55e8ac047a3"
+    },
+    "data/source_inventory.jsonl": {
+      "bytes": 9502,
+      "sha256": "ddb19cc2f031197191285a5bae27449684f9879cadd97d8e5e2c7401473bdac7"
+    },
+    "extensions/candidate_snapshots.jsonl": {
+      "bytes": 165736,
+      "sha256": "2156fa9cbdda5d218412ab341fb4b49319383d963f0b95b97a0ed3d8f4332e32"
+    },
+    "extensions/document_evidence.jsonl": {
+      "bytes": 105058,
+      "sha256": "e29da55a1bf6938f8a6cbca4adb4a80e9d5047161680b3bc87a43c35e01fd93f"
+    },
+    "extensions/id_registry.jsonl": {
+      "bytes": 117571,
+      "sha256": "40684895fe3ad4b2d4a4bf788163c82bac4e16212ebc865651993be981b89202"
+    },
+    "extensions/issues.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "extensions/quote_bindings.jsonl": {
+      "bytes": 200312,
+      "sha256": "c54927ed1429092d7dd2740b0f4a55cb7b5a5e0f277dd5ef41177a7f73a3df72"
+    },
+    "extensions/responsibility_relations.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reading/behavior_reading.jsonl": {
+      "bytes": 23804,
+      "sha256": "98c133e5256f29034666f040c24130ed37dd158392d920dc2608bcc464b5d780"
+    },
+    "reading/case_reading.jsonl": {
+      "bytes": 29876,
+      "sha256": "2d18391b9c9deaa70418d61dcb5cb253880b4292642536ead71c712291304ed1"
+    },
+    "reading/document_index.jsonl": {
+      "bytes": 9175,
+      "sha256": "6b547a8f709236eedc1045e10e754d8cf358fce46f216bafbf51e140f49a1899"
+    }
+  },
+  "normalizer_version": "finrisk-candidate-normalization-v2.1",
+  "original_source_bytes_verified_by_normalizer": false,
+  "overlay_count": 5,
+  "reading_counts": {
+    "behavior_reading": 13,
+    "case_reading": 8,
+    "document_index": 5
+  },
+  "validation_claim": "declared_field_types_enums_and_separate_ids_spans_hashes; not_complete_JSON_Schema_or_semantic_approval"
+}

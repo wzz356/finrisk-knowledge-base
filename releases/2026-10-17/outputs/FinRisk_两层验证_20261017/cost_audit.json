@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-17T08:13:52.571997+00:00",
+  "actual_requests": 9661,
+  "known_usage_estimated_usd": 1.7414649060000016,
+  "missing_usage_requests": 164,
+  "missing_usage_retained_upper_usd": 0.27795765000000006,
+  "total_conservative_upper_usd": 2.0194225560000008,
+  "by_stage_booked_upper_usd": {
+    "full": 1.7032863719999993,
+    "relevance": 0.21966246599999978,
+    "risk": 0.09647371800000001
+  },
+  "authorized_cap_usd": 4.0,
+  "not_account_statement": true,
+  "returned_models_all_responses": {
+    "deepseek-flash": 9497
+  },
+  "pricing_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "peak_per_million": {
+    "input_miss": 0.3,
+    "input_hit": 0.006,
+    "output": 1.2
+  },
+  "actual_offpeak": "half; UTC weekend",
+  "rerank_request_outcomes": {
+    "accepted": 8999,
+    "rejected": 222
+  },
+  "rerank_error_summary": {
+    "ValueError": 61,
+    "RuntimeError": 97,
+    "RemoteDisconnected": 59,
+    "JSONDecodeError": 5
+  }
+}
