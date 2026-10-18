@@ -1,0 +1,30 @@
+{
+  "schema": "finrisk-knowledge-organization-adoption-v1",
+  "default_case_retrieval": {
+    "corpus_documents": 9639,
+    "structured_units": 65475,
+    "routes": ["BM25", "BGE"],
+    "RRF_c": 60,
+    "weights": [1, 1],
+    "rerank_model": "deepseek-flash",
+    "contextual_overlay_enabled": false
+  },
+  "organized_judgment_enabled_by_default": false,
+  "K_holdout_adoption_gate_passed": false,
+  "R_controlled_development_numeric_gate_passed": false,
+  "R_fresh_holdout_executed": false,
+  "R_stop_reason": "No Top1 gain and MRR decrease; preregistered development gate failed",
+  "read_layer_available": true,
+  "optional_profile": "expanded",
+  "optional_knowledge_lock": "expanded/contracts/knowledge_lock.json",
+  "case_reader_lock": "case_reader/final_lock.json",
+  "read_api": "code/kb_facade.py:KnowledgeFacade",
+  "navigation_is_hard_filter": false,
+  "current_input_facts_assessed_by_knowledge_layer": false,
+  "full_corpus_serving_index_included": false,
+  "full_corpus_true_recall_measured": false,
+  "production_activated": false,
+  "live_Agent_runtime_verified": false,
+  "human_approved": false,
+  "review_origin": "current_session_model"
+}

@@ -1,0 +1,11 @@
+{
+  "total": 240,
+  "effective": 240,
+  "missing": [],
+  "program_metadata_recovered": 87,
+  "grades_changed_from_later_original_acceptance": 10,
+  "no_new_paid_calls": true,
+  "selection_policy": "uniform_first_valid_response; no ranking/reference visibility",
+  "original_records_and_later_accepted_preserved": true,
+  "human_approved": false
+}

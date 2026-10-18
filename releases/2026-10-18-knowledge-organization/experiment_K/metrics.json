@@ -1,0 +1,231 @@
+{
+  "schema": "finrisk-K-result-v1",
+  "summary": {
+    "development": {
+      "K0": {
+        "queries": 12,
+        "accepted": 9,
+        "format_failures": 3,
+        "state_correct": 9,
+        "state_accuracy": 0.75,
+        "by_state": {
+          "risk": {
+            "total": 4,
+            "correct": 4
+          },
+          "no_clear_risk": {
+            "total": 4,
+            "correct": 3
+          },
+          "insufficient_info": {
+            "total": 4,
+            "correct": 2
+          }
+        },
+        "mechanism_set_exact": 9,
+        "confusion": {
+          "risk": {
+            "risk": 4
+          },
+          "no_clear_risk": {
+            "no_clear_risk": 3,
+            "format_failure": 1
+          },
+          "insufficient_info": {
+            "insufficient_info": 2,
+            "format_failure": 2
+          }
+        },
+        "required_positive_error_decisions": 0,
+        "semantic_boundary_error_decisions": 3,
+        "case_citations": 65,
+        "law_citations": 15,
+        "supported_citations": 34,
+        "semantic_citation_support_rate": 0.425,
+        "case_citation_counts": {
+          "supported": 25,
+          "partial": 39,
+          "unsupported": 1
+        },
+        "law_citation_counts": {
+          "supported": 9,
+          "partial": 4,
+          "unsupported": 2
+        },
+        "mean_case_chars": 3949.6666666666665,
+        "mean_knowledge_chars": 2745.5833333333335
+      },
+      "K1": {
+        "queries": 12,
+        "accepted": 8,
+        "format_failures": 4,
+        "state_correct": 8,
+        "state_accuracy": 0.6666666666666666,
+        "by_state": {
+          "risk": {
+            "total": 4,
+            "correct": 3
+          },
+          "no_clear_risk": {
+            "total": 4,
+            "correct": 3
+          },
+          "insufficient_info": {
+            "total": 4,
+            "correct": 2
+          }
+        },
+        "mechanism_set_exact": 8,
+        "confusion": {
+          "risk": {
+            "risk": 3,
+            "format_failure": 1
+          },
+          "no_clear_risk": {
+            "no_clear_risk": 3,
+            "format_failure": 1
+          },
+          "insufficient_info": {
+            "insufficient_info": 2,
+            "format_failure": 2
+          }
+        },
+        "required_positive_error_decisions": 0,
+        "semantic_boundary_error_decisions": 3,
+        "case_citations": 61,
+        "law_citations": 15,
+        "supported_citations": 31,
+        "semantic_citation_support_rate": 0.40789473684210525,
+        "case_citation_counts": {
+          "supported": 22,
+          "partial": 38,
+          "unsupported": 1
+        },
+        "law_citation_counts": {
+          "supported": 9,
+          "partial": 6
+        },
+        "mean_case_chars": 3949.6666666666665,
+        "mean_knowledge_chars": 3769.0
+      }
+    },
+    "holdout": {
+      "K0": {
+        "queries": 12,
+        "accepted": 12,
+        "format_failures": 0,
+        "state_correct": 12,
+        "state_accuracy": 1.0,
+        "by_state": {
+          "risk": {
+            "total": 4,
+            "correct": 4
+          },
+          "no_clear_risk": {
+            "total": 4,
+            "correct": 4
+          },
+          "insufficient_info": {
+            "total": 4,
+            "correct": 4
+          }
+        },
+        "mechanism_set_exact": 11,
+        "confusion": {
+          "no_clear_risk": {
+            "no_clear_risk": 4
+          },
+          "risk": {
+            "risk": 4
+          },
+          "insufficient_info": {
+            "insufficient_info": 4
+          }
+        },
+        "required_positive_error_decisions": 1,
+        "semantic_boundary_error_decisions": 8,
+        "case_citations": 22,
+        "law_citations": 17,
+        "supported_citations": 22,
+        "semantic_citation_support_rate": 0.5641025641025641,
+        "case_citation_counts": {
+          "partial": 10,
+          "supported": 12
+        },
+        "law_citation_counts": {
+          "supported": 10,
+          "partial": 5,
+          "unsupported": 2
+        },
+        "mean_case_chars": 3873.1666666666665,
+        "mean_knowledge_chars": 2542.9166666666665
+      },
+      "K1": {
+        "queries": 12,
+        "accepted": 12,
+        "format_failures": 0,
+        "state_correct": 11,
+        "state_accuracy": 0.9166666666666666,
+        "by_state": {
+          "risk": {
+            "total": 4,
+            "correct": 3
+          },
+          "no_clear_risk": {
+            "total": 4,
+            "correct": 4
+          },
+          "insufficient_info": {
+            "total": 4,
+            "correct": 4
+          }
+        },
+        "mechanism_set_exact": 11,
+        "confusion": {
+          "no_clear_risk": {
+            "no_clear_risk": 4
+          },
+          "risk": {
+            "risk": 3,
+            "insufficient_info": 1
+          },
+          "insufficient_info": {
+            "insufficient_info": 4
+          }
+        },
+        "required_positive_error_decisions": 0,
+        "semantic_boundary_error_decisions": 9,
+        "case_citations": 24,
+        "law_citations": 16,
+        "supported_citations": 20,
+        "semantic_citation_support_rate": 0.5,
+        "case_citation_counts": {
+          "partial": 12,
+          "supported": 12
+        },
+        "law_citation_counts": {
+          "supported": 8,
+          "partial": 4,
+          "unsupported": 4
+        },
+        "mean_case_chars": 3873.1666666666665,
+        "mean_knowledge_chars": 3724.4166666666665
+      }
+    }
+  },
+  "holdout_trial_gate": {
+    "passed": false,
+    "state_correct_nondecrease": false,
+    "boundary_error_reduced": false,
+    "no_new_nonrisk_errors": true,
+    "citation_support_nondecrease": false
+  },
+  "interpretation": {
+    "knowledge_organization_is_combined_intervention": true,
+    "retrieval_rankings_identical_between_K_arms": true,
+    "full_corpus_recall_measured": false,
+    "reference": "independently reviewed model silver; synthetic inputs; 8 story groups",
+    "output_format_debugging": "development 7 failures retained; compact holdout both arms same canonical schema and1024token cap",
+    "citation_semantics": "separate blinded session review, not expert gold or guaranteed double blind"
+  }
+}

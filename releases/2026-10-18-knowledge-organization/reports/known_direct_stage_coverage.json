@@ -1,0 +1,1461 @@
+{
+  "summary": {
+    "R0": {
+      "BM25": 0.8595454545454545,
+      "BGE": 0.4727272727272727,
+      "dual_union": 1.0,
+      "RRF": 1.0,
+      "rerank_Top20": 0.9875
+    },
+    "R1": {
+      "BM25": 0.8595454545454545,
+      "BGE": 0.4727272727272727,
+      "dual_union": 1.0,
+      "RRF": 1.0,
+      "rerank_Top20": 1.0
+    }
+  },
+  "per_query": [
+    {
+      "query_id": "KO_K001",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K001",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 3,
+      "found_known_direct": 0,
+      "known_pool_coverage": 0.0,
+      "missed_known_direct": [
+        "F001918",
+        "F009170",
+        "F009171"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K001",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K001",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K001",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K002",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K002",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 3,
+      "found_known_direct": 0,
+      "known_pool_coverage": 0.0,
+      "missed_known_direct": [
+        "F001918",
+        "F009170",
+        "F009171"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K002",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K002",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K002",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K003",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K003",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K003",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K003",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K003",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K007",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K007",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K007",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K007",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K007",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K008",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K008",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 5,
+      "found_known_direct": 4,
+      "known_pool_coverage": 0.8,
+      "missed_known_direct": [
+        "F002623"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K008",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K008",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K008",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K009",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K009",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K009",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K009",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K009",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K013",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 4,
+      "found_known_direct": 4,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K013",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 4,
+      "found_known_direct": 0,
+      "known_pool_coverage": 0.0,
+      "missed_known_direct": [
+        "F001803",
+        "F001806",
+        "F001808",
+        "F002033"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K013",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 4,
+      "found_known_direct": 4,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K013",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 4,
+      "found_known_direct": 4,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K013",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 4,
+      "found_known_direct": 4,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K014",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K014",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 5,
+      "found_known_direct": 1,
+      "known_pool_coverage": 0.2,
+      "missed_known_direct": [
+        "F001693",
+        "F001803",
+        "F001806",
+        "F002056"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K014",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K014",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K014",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K015",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 5,
+      "found_known_direct": 3,
+      "known_pool_coverage": 0.6,
+      "missed_known_direct": [
+        "F001097",
+        "F001098"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K015",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 5,
+      "found_known_direct": 3,
+      "known_pool_coverage": 0.6,
+      "missed_known_direct": [
+        "F002032",
+        "F002033"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K015",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K015",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K015",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K019",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 11,
+      "found_known_direct": 6,
+      "known_pool_coverage": 0.5454545454545454,
+      "missed_known_direct": [
+        "F001113",
+        "F001363",
+        "F002484",
+        "F002485",
+        "F003464"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K019",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 11,
+      "found_known_direct": 8,
+      "known_pool_coverage": 0.7272727272727273,
+      "missed_known_direct": [
+        "F000917",
+        "F009689",
+        "F009690"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K019",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 11,
+      "found_known_direct": 11,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K019",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 11,
+      "found_known_direct": 11,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K019",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 11,
+      "found_known_direct": 11,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K020",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 8,
+      "found_known_direct": 6,
+      "known_pool_coverage": 0.75,
+      "missed_known_direct": [
+        "F001394",
+        "F002484"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K020",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 8,
+      "found_known_direct": 8,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K020",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 8,
+      "found_known_direct": 8,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K020",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 8,
+      "found_known_direct": 8,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K020",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 8,
+      "found_known_direct": 7,
+      "known_pool_coverage": 0.875,
+      "missed_known_direct": [
+        "F001716"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K021",
+      "arm": "R0",
+      "stage": "BM25",
+      "known_direct": 20,
+      "found_known_direct": 14,
+      "known_pool_coverage": 0.7,
+      "missed_known_direct": [
+        "F001113",
+        "F002484",
+        "F002485",
+        "F004365",
+        "F004856",
+        "F005066"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K021",
+      "arm": "R0",
+      "stage": "BGE",
+      "known_direct": 20,
+      "found_known_direct": 8,
+      "known_pool_coverage": 0.4,
+      "missed_known_direct": [
+        "F000390",
+        "F000543",
+        "F000886",
+        "F003060",
+        "F003379",
+        "F003442",
+        "F003444",
+        "F003445",
+        "F003608",
+        "F003611",
+        "F003612",
+        "F009272"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K021",
+      "arm": "R0",
+      "stage": "RRF",
+      "known_direct": 20,
+      "found_known_direct": 20,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K021",
+      "arm": "R0",
+      "stage": "dual_union",
+      "known_direct": 20,
+      "found_known_direct": 20,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K021",
+      "arm": "R0",
+      "stage": "rerank_Top20",
+      "known_direct": 20,
+      "found_known_direct": 20,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K001",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K001",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 3,
+      "found_known_direct": 0,
+      "known_pool_coverage": 0.0,
+      "missed_known_direct": [
+        "F001918",
+        "F009170",
+        "F009171"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K001",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K001",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K001",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K002",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K002",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 3,
+      "found_known_direct": 0,
+      "known_pool_coverage": 0.0,
+      "missed_known_direct": [
+        "F001918",
+        "F009170",
+        "F009171"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K002",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K002",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K002",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 3,
+      "found_known_direct": 3,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K003",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K003",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K003",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K003",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K003",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K007",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K007",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K007",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K007",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K007",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K008",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K008",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 5,
+      "found_known_direct": 4,
+      "known_pool_coverage": 0.8,
+      "missed_known_direct": [
+        "F002623"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K008",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K008",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K008",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K009",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K009",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K009",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K009",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K009",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 0,
+      "found_known_direct": 0,
+      "known_pool_coverage": null,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K013",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 4,
+      "found_known_direct": 4,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K013",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 4,
+      "found_known_direct": 0,
+      "known_pool_coverage": 0.0,
+      "missed_known_direct": [
+        "F001803",
+        "F001806",
+        "F001808",
+        "F002033"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K013",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 4,
+      "found_known_direct": 4,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K013",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 4,
+      "found_known_direct": 4,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K013",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 4,
+      "found_known_direct": 4,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K014",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K014",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 5,
+      "found_known_direct": 1,
+      "known_pool_coverage": 0.2,
+      "missed_known_direct": [
+        "F001693",
+        "F001803",
+        "F001806",
+        "F002056"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K014",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K014",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K014",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K015",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 5,
+      "found_known_direct": 3,
+      "known_pool_coverage": 0.6,
+      "missed_known_direct": [
+        "F001097",
+        "F001098"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K015",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 5,
+      "found_known_direct": 3,
+      "known_pool_coverage": 0.6,
+      "missed_known_direct": [
+        "F002032",
+        "F002033"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K015",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K015",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K015",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 5,
+      "found_known_direct": 5,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K019",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 11,
+      "found_known_direct": 6,
+      "known_pool_coverage": 0.5454545454545454,
+      "missed_known_direct": [
+        "F001113",
+        "F001363",
+        "F002484",
+        "F002485",
+        "F003464"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K019",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 11,
+      "found_known_direct": 8,
+      "known_pool_coverage": 0.7272727272727273,
+      "missed_known_direct": [
+        "F000917",
+        "F009689",
+        "F009690"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K019",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 11,
+      "found_known_direct": 11,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K019",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 11,
+      "found_known_direct": 11,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K019",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 11,
+      "found_known_direct": 11,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K020",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 8,
+      "found_known_direct": 6,
+      "known_pool_coverage": 0.75,
+      "missed_known_direct": [
+        "F001394",
+        "F002484"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K020",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 8,
+      "found_known_direct": 8,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K020",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 8,
+      "found_known_direct": 8,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K020",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 8,
+      "found_known_direct": 8,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K020",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 8,
+      "found_known_direct": 8,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K021",
+      "arm": "R1",
+      "stage": "BM25",
+      "known_direct": 20,
+      "found_known_direct": 14,
+      "known_pool_coverage": 0.7,
+      "missed_known_direct": [
+        "F001113",
+        "F002484",
+        "F002485",
+        "F004365",
+        "F004856",
+        "F005066"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K021",
+      "arm": "R1",
+      "stage": "BGE",
+      "known_direct": 20,
+      "found_known_direct": 8,
+      "known_pool_coverage": 0.4,
+      "missed_known_direct": [
+        "F000390",
+        "F000543",
+        "F000886",
+        "F003060",
+        "F003379",
+        "F003442",
+        "F003444",
+        "F003445",
+        "F003608",
+        "F003611",
+        "F003612",
+        "F009272"
+      ],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K021",
+      "arm": "R1",
+      "stage": "RRF",
+      "known_direct": 20,
+      "found_known_direct": 20,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K021",
+      "arm": "R1",
+      "stage": "dual_union",
+      "known_direct": 20,
+      "found_known_direct": 20,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    },
+    {
+      "query_id": "KO_K021",
+      "arm": "R1",
+      "stage": "rerank_Top20",
+      "known_direct": 20,
+      "found_known_direct": 20,
+      "known_pool_coverage": 1.0,
+      "missed_known_direct": [],
+      "denominator": "shared judged Top20 document union only",
+      "global_true_recall": false
+    }
+  ],
+  "limitation": "Selection-biased known pool, not independent initial-retrieval recall or full-corpus recall."
+}

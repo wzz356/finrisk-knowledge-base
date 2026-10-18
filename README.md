@@ -1,6 +1,17 @@
 # FinRisk 重建知识库
 
-**最新增量：[知识库交接、证据范围、法规核验与辅助检索实验（2026-10-18）](releases/2026-10-18)。基础案例仍为9639份V2.1，双路融合1:1。** 关联应用：[finrisk-workbench](https://github.com/wzz356/finrisk-workbench)。
+**最新交付：[知识组织增强、67条法规统一读取与K/R实验（2026-10-18）](releases/2026-10-18-knowledge-organization)。基础案例仍为9639份，双路融合1:1；增强方案未达采用门槛，保持可选。** 关联应用：[finrisk-workbench](https://github.com/wzz356/finrisk-workbench)。
+
+## 本轮知识组织与实验
+
+[验收报告](releases/2026-10-18-knowledge-organization/验收报告.md) · [完整复核包](releases/2026-10-18-knowledge-organization/FinRisk_知识组织增强_交付_20261018_v2.zip) · [读取接口](releases/2026-10-18-knowledge-organization/contracts/read_api.md) · [离线复算](releases/2026-10-18-knowledge-organization/reproduce.py)
+
+新增12机制卡、67条法规注册、分层导航、证据包与依赖影响检测。K保留12题正确数12→11，R定向前缀Top-1持平且MRR下降，两项均未过预设门槛；不替换现有默认。不宣称实测全库Recall或专家金标。完整包真实解压核验697载荷、旧960位置与全部指标通过；主测试60项通过。资料精读59份、便携读取481份与实际检索9639份分别报告。
+
+```powershell
+python -S -X utf8 -B 'releases/2026-10-18-knowledge-organization/reproduce.py'
+```
+
 
 ## 最新增量成果与核验（2026-10-18）
 

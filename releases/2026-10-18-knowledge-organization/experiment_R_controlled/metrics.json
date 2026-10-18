@@ -1,0 +1,145 @@
+{
+  "schema": "finrisk-R-development-metrics-v1",
+  "queries": 12,
+  "story_groups": 4,
+  "summary": {
+    "R0": {
+      "1": {
+        "P": 0.5833333333333334,
+        "MRR": 0.5833333333333334,
+        "Top1": 0.5833333333333334,
+        "known_pool_recall": 0.14075757575757575,
+        "NDCG_pool": 0.8015873015873015,
+        "valid_queries": 12
+      },
+      "5": {
+        "P": 0.5,
+        "MRR": 0.6694444444444444,
+        "Top1": 0.5833333333333334,
+        "known_pool_recall": 0.5479545454545455,
+        "NDCG_pool": 0.8118808005117396,
+        "valid_queries": 12
+      },
+      "10": {
+        "P": 0.4083333333333334,
+        "MRR": 0.6694444444444444,
+        "Top1": 0.5833333333333334,
+        "known_pool_recall": 0.8093181818181818,
+        "NDCG_pool": 0.8885972736600941,
+        "valid_queries": 12
+      },
+      "20": {
+        "P": 0.2833333333333333,
+        "MRR": 0.6694444444444444,
+        "Top1": 0.5833333333333334,
+        "known_pool_recall": 0.9875,
+        "NDCG_pool": 0.9295908022986725,
+        "valid_queries": 12
+      }
+    },
+    "R1": {
+      "1": {
+        "P": 0.5833333333333334,
+        "MRR": 0.5833333333333334,
+        "Top1": 0.5833333333333334,
+        "known_pool_recall": 0.14075757575757575,
+        "NDCG_pool": 0.8015873015873015,
+        "valid_queries": 12
+      },
+      "5": {
+        "P": 0.5,
+        "MRR": 0.6555555555555556,
+        "Top1": 0.5833333333333334,
+        "known_pool_recall": 0.5479545454545455,
+        "NDCG_pool": 0.8095948324396033,
+        "valid_queries": 12
+      },
+      "10": {
+        "P": 0.4083333333333334,
+        "MRR": 0.6555555555555556,
+        "Top1": 0.5833333333333334,
+        "known_pool_recall": 0.8093181818181818,
+        "NDCG_pool": 0.8898796799932285,
+        "valid_queries": 12
+      },
+      "20": {
+        "P": 0.28750000000000003,
+        "MRR": 0.6555555555555556,
+        "Top1": 0.5833333333333334,
+        "known_pool_recall": 1.0,
+        "NDCG_pool": 0.9345056411220778,
+        "valid_queries": 12
+      }
+    }
+  },
+  "numeric_gate_passed": false,
+  "adoption_gate_passed": false,
+  "role_error_review": "not_needed_for_failed_numeric_gate",
+  "default_contextual_representation_enabled": false,
+  "new_holdout_required": false,
+  "no_global_true_recall": true,
+  "reference": "model_silver_shared_Top20_union",
+  "changes": [
+    {
+      "query_id": "KO_K001",
+      "top1_changed": false,
+      "top20_files_changed": false
+    },
+    {
+      "query_id": "KO_K002",
+      "top1_changed": false,
+      "top20_files_changed": false
+    },
+    {
+      "query_id": "KO_K003",
+      "top1_changed": false,
+      "top20_files_changed": true
+    },
+    {
+      "query_id": "KO_K007",
+      "top1_changed": false,
+      "top20_files_changed": true
+    },
+    {
+      "query_id": "KO_K008",
+      "top1_changed": false,
+      "top20_files_changed": false
+    },
+    {
+      "query_id": "KO_K009",
+      "top1_changed": false,
+      "top20_files_changed": false
+    },
+    {
+      "query_id": "KO_K013",
+      "top1_changed": true,
+      "top20_files_changed": true
+    },
+    {
+      "query_id": "KO_K014",
+      "top1_changed": false,
+      "top20_files_changed": false
+    },
+    {
+      "query_id": "KO_K015",
+      "top1_changed": false,
+      "top20_files_changed": false
+    },
+    {
+      "query_id": "KO_K019",
+      "top1_changed": false,
+      "top20_files_changed": false
+    },
+    {
+      "query_id": "KO_K020",
+      "top1_changed": false,
+      "top20_files_changed": true
+    },
+    {
+      "query_id": "KO_K021",
+      "top1_changed": false,
+      "top20_files_changed": false
+    }
+  ],
+  "K_metadata_policy": "first-valid 240; 87 flags repaired; 10 grades increased; compare legacy sensitivity separately"
+}

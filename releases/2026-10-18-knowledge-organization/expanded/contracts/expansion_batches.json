@@ -1,0 +1,33 @@
+{
+  "priority_order": [
+    "M07",
+    "M08",
+    "M05",
+    "M06",
+    "M03",
+    "M09",
+    "M10",
+    "M12"
+  ],
+  "batches": [
+    [
+      "M07",
+      "M08"
+    ],
+    [
+      "M05",
+      "M06",
+      "M03"
+    ],
+    [
+      "M09",
+      "M10",
+      "M12"
+    ]
+  ],
+  "source_documents": 59,
+  "cap": 144,
+  "all_eight_new_cards_partial": true,
+  "index_intervention_expanded": false,
+  "acceptance_sha256": "608b171ae988d21c90394bc0a5a75638a93b2d6c3499920eebbee0ba4d494544"
+}

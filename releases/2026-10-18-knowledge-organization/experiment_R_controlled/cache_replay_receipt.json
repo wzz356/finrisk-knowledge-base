@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "exact_cache_results": 1200,
+  "new_API_calls": 0,
+  "query_vector_source": "original K matrix rows; byte-identical",
+  "old_R_rankings_copied": false,
+  "controlled_candidate_set_used": true,
+  "source_response_and_request_binding_verified": true
+}

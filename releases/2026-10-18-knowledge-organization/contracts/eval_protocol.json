@@ -1,0 +1,67 @@
+{
+  "schema": "finrisk-K-protocol-v1",
+  "utc": "2026-10-18T04:03:44.072388+00:00",
+  "queries": 24,
+  "story_groups": 8,
+  "development_queries": 12,
+  "holdout_queries": 12,
+  "query_generation": "synthetic_natural_business_paragraphs_from_independent_author",
+  "reference": "model_silver_independent_session_review_not_expert_gold",
+  "human_approved": false,
+  "split_unit": "story triplet; 8 groups, not 24 independent samples",
+  "experiment_K": {
+    "fixed_case_rankings": true,
+    "fixed_case_text": true,
+    "case_context_chars": 4000,
+    "law_and_guide_chars": 4000,
+    "available_legal_corpus": 67,
+    "K0": "flat screening rules with main articles",
+    "K1": "scoped mechanism guide with dependency-aware reading",
+    "retrieval_gain_claim_allowed": false,
+    "holdout_opened": false
+  },
+  "retrieval": {
+    "corpus_documents": 9639,
+    "structured_units": 65475,
+    "routes": [
+      "BM25",
+      "BGE"
+    ],
+    "top_per_route": 100,
+    "RRF_c": 60,
+    "weights": [
+      1,
+      1
+    ],
+    "rerank": "deepseek-flash",
+    "rerank_count": 100
+  },
+  "metrics": {
+    "K": [
+      1,
+      5,
+      10,
+      20
+    ],
+    "direct_relevance": 3,
+    "graded_gains": [
+      0,
+      1,
+      3,
+      7
+    ],
+    "ndcg_idcg": "judged candidate pool",
+    "unjudged_policy": "refuse complete metrics or report explicit missing; never impute zero",
+    "global_true_recall": false,
+    "case_dedup": "query-file; best reranked unit per document",
+    "recall_name": "known_pool_recall_not_full_corpus_recall"
+  },
+  "acceptance": {
+    "K": "holdout three-state correct count nondecrease; >=1 fewer boundary error; no new normal/unknown error; no citation decline; budget unchanged",
+    "R": "development P5 and NDCG20 nondecrease; >=1 Top1 or >=.03 MRR gain; no new role error; otherwise stop"
+  },
+  "failure_policy": "keep every frozen query; missing judgments are failures, missing relevance remains unjudged; max3 attempts for format only",
+  "semantic_review": "blinded to ranks/arm/expected labels; model silver; no independent expert claim",
+  "default_auxiliary_route_enabled": false,
+  "production_activated": false
+}

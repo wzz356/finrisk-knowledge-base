@@ -1,0 +1,40 @@
+{
+  "archive_sha256": "7c91606a3e5ea20dddf6421ddc53ab98a70bbae1b1dc193ddc5dbf3c65231ec9",
+  "archive_bytes": 23691915,
+  "portable_manifest_sha256": "e1235c097a9c381bb71ea30fa6793124f94bb766993aa7f5fb9702668c607b03",
+  "original_extraction_verification": {
+    "passed": true,
+    "payloads_verified": 697,
+    "case_units": 732,
+    "case_documents": 481,
+    "case_registered_spans_read": 740,
+    "legacy_positions_replayed": 960,
+    "legal_articles_read": 67,
+    "mechanisms_read": {
+      "pilot": 4,
+      "expanded": 12
+    },
+    "K_decisions": 48,
+    "K_accepted": 41,
+    "K_development_failures_retained": 7,
+    "K_holdout_gate_passed": false,
+    "R": {
+      "queries": 12,
+      "shared_qrels": 245,
+      "exact_cached_scores": 1200,
+      "gate_passed": false
+    },
+    "maintenance_nodes": 4313,
+    "maintenance_baseline_changed": 0,
+    "expanded_scope_smoke_inputs": 36,
+    "additional_descriptive_metrics_replayed": true,
+    "API_calls": 0,
+    "full_corpus_search_reexecuted": false,
+    "models_reexecuted": false,
+    "full_corpus_true_recall_measured": false,
+    "human_approved": false,
+    "review_origin": "current_session_model",
+    "live_Agent_runtime_verified": false
+  },
+  "identity": "original local delivery verification; publication replay is rerun independently"
+}

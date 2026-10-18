@@ -1,0 +1,11 @@
+{
+  "selected_units": 20,
+  "cap": 60,
+  "pilot_documents": 48,
+  "available_candidate_units": 78,
+  "queries_or_ranks_read": false,
+  "original_index_changed": false,
+  "default_enabled": false,
+  "scope": "literal document-context prefix; deliberately no guessed same-actor attribution",
+  "new_paid_calls": 0
+}

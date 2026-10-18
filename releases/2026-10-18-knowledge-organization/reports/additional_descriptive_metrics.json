@@ -1,0 +1,429 @@
+{
+  "schema": "finrisk-additional-descriptive-metrics-v1",
+  "Success_at_K": {
+    "K_development": {
+      "1": {
+        "queries": 12,
+        "successes": 7,
+        "Success": 0.5833333333333334
+      },
+      "5": {
+        "queries": 12,
+        "successes": 10,
+        "Success": 0.8333333333333334
+      },
+      "10": {
+        "queries": 12,
+        "successes": 10,
+        "Success": 0.8333333333333334
+      },
+      "20": {
+        "queries": 12,
+        "successes": 10,
+        "Success": 0.8333333333333334
+      }
+    },
+    "K_holdout": {
+      "1": {
+        "queries": 12,
+        "successes": 8,
+        "Success": 0.6666666666666666
+      },
+      "5": {
+        "queries": 12,
+        "successes": 9,
+        "Success": 0.75
+      },
+      "10": {
+        "queries": 12,
+        "successes": 10,
+        "Success": 0.8333333333333334
+      },
+      "20": {
+        "queries": 12,
+        "successes": 11,
+        "Success": 0.9166666666666666
+      }
+    },
+    "R0": {
+      "1": {
+        "queries": 12,
+        "successes": 7,
+        "Success": 0.5833333333333334
+      },
+      "5": {
+        "queries": 12,
+        "successes": 10,
+        "Success": 0.8333333333333334
+      },
+      "10": {
+        "queries": 12,
+        "successes": 10,
+        "Success": 0.8333333333333334
+      },
+      "20": {
+        "queries": 12,
+        "successes": 10,
+        "Success": 0.8333333333333334
+      }
+    },
+    "R1": {
+      "1": {
+        "queries": 12,
+        "successes": 7,
+        "Success": 0.5833333333333334
+      },
+      "5": {
+        "queries": 12,
+        "successes": 10,
+        "Success": 0.8333333333333334
+      },
+      "10": {
+        "queries": 12,
+        "successes": 10,
+        "Success": 0.8333333333333334
+      },
+      "20": {
+        "queries": 12,
+        "successes": 10,
+        "Success": 0.8333333333333334
+      }
+    }
+  },
+  "mechanism_errors": {
+    "development_K0": {
+      "frozen_queries": 12,
+      "accepted": 9,
+      "format_failures": 3,
+      "valid_decisions_with_omissions": 0,
+      "valid_decisions_with_extra_mechanisms": 0,
+      "omitted_mechanisms": {},
+      "extra_mechanisms": {},
+      "per_query": [
+        {
+          "query_id": "KO_K001",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K002",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K003",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K007",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K008",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K009",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K013",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K015",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K021",
+          "omitted": [],
+          "extra": []
+        }
+      ]
+    },
+    "development_K1": {
+      "frozen_queries": 12,
+      "accepted": 8,
+      "format_failures": 4,
+      "valid_decisions_with_omissions": 0,
+      "valid_decisions_with_extra_mechanisms": 0,
+      "omitted_mechanisms": {},
+      "extra_mechanisms": {},
+      "per_query": [
+        {
+          "query_id": "KO_K001",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K002",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K003",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K007",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K008",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K009",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K013",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K015",
+          "omitted": [],
+          "extra": []
+        }
+      ]
+    },
+    "holdout_K0": {
+      "frozen_queries": 12,
+      "accepted": 12,
+      "format_failures": 0,
+      "valid_decisions_with_omissions": 1,
+      "valid_decisions_with_extra_mechanisms": 1,
+      "omitted_mechanisms": {
+        "M02": 1
+      },
+      "extra_mechanisms": {
+        "M01": 1
+      },
+      "per_query": [
+        {
+          "query_id": "KO_K004",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K005",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K006",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K010",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K011",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K012",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K016",
+          "omitted": [
+            "M02"
+          ],
+          "extra": [
+            "M01"
+          ]
+        },
+        {
+          "query_id": "KO_K017",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K018",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K022",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K023",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K024",
+          "omitted": [],
+          "extra": []
+        }
+      ]
+    },
+    "holdout_K1": {
+      "frozen_queries": 12,
+      "accepted": 12,
+      "format_failures": 0,
+      "valid_decisions_with_omissions": 1,
+      "valid_decisions_with_extra_mechanisms": 0,
+      "omitted_mechanisms": {
+        "M02": 1
+      },
+      "extra_mechanisms": {},
+      "per_query": [
+        {
+          "query_id": "KO_K004",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K005",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K006",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K010",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K011",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K012",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K016",
+          "omitted": [
+            "M02"
+          ],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K017",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K018",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K022",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K023",
+          "omitted": [],
+          "extra": []
+        },
+        {
+          "query_id": "KO_K024",
+          "omitted": [],
+          "extra": []
+        }
+      ]
+    }
+  },
+  "judgment_usage_by_arm": {
+    "development_K0": {
+      "attempts": 21,
+      "accepted": 9,
+      "rejected": 12,
+      "unknown": 0,
+      "known_usage_tokens": {
+        "prompt_tokens": 113252,
+        "completion_tokens": 16986,
+        "prompt_cache_hit_tokens": 50176,
+        "prompt_cache_miss_tokens": 63076
+      },
+      "attempt_seconds_sum": 94.72030800001812,
+      "median_attempt_seconds": 4.449964699997508,
+      "mean_case_chars": 3949.6666666666665,
+      "mean_knowledge_chars": 2745.5833333333335
+    },
+    "development_K1": {
+      "attempts": 23,
+      "accepted": 8,
+      "rejected": 15,
+      "unknown": 0,
+      "known_usage_tokens": {
+        "prompt_tokens": 131265,
+        "completion_tokens": 19038,
+        "prompt_cache_hit_tokens": 62592,
+        "prompt_cache_miss_tokens": 68673
+      },
+      "attempt_seconds_sum": 102.8238422999857,
+      "median_attempt_seconds": 4.507270399997651,
+      "mean_case_chars": 3949.6666666666665,
+      "mean_knowledge_chars": 3769
+    },
+    "holdout_K0": {
+      "attempts": 13,
+      "accepted": 12,
+      "rejected": 1,
+      "unknown": 0,
+      "known_usage_tokens": {
+        "prompt_tokens": 67121,
+        "completion_tokens": 3258,
+        "prompt_cache_hit_tokens": 7296,
+        "prompt_cache_miss_tokens": 59825
+      },
+      "attempt_seconds_sum": 62.743295200009015,
+      "median_attempt_seconds": 3.5760445999985677,
+      "mean_case_chars": 3873.1666666666665,
+      "mean_knowledge_chars": 2542.9166666666665
+    },
+    "holdout_K1": {
+      "attempts": 13,
+      "accepted": 12,
+      "rejected": 1,
+      "unknown": 0,
+      "known_usage_tokens": {
+        "prompt_tokens": 73205,
+        "completion_tokens": 3322,
+        "prompt_cache_hit_tokens": 8320,
+        "prompt_cache_miss_tokens": 64885
+      },
+      "attempt_seconds_sum": 63.61676350001653,
+      "median_attempt_seconds": 3.096322700002929,
+      "mean_case_chars": 3873.1666666666665,
+      "mean_knowledge_chars": 3724.4166666666665
+    }
+  },
+  "Success_definition": "At least one grade-3 directly supporting document in TopK",
+  "K_retrieval_identical_between_arms": true,
+  "full_corpus_true_recall": false,
+  "reference": "same frozen model-silver qrels",
+  "timing_limits": "Per-HTTP attempt includes retries; parallel seconds sum is not wall-clock or full Agent latency. Retrieval/encoding time is in retrieval receipts.",
+  "no_new_queries_or_calls": true,
+  "human_approved": false
+}

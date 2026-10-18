@@ -1,0 +1,98 @@
+{
+  "KO_K001": {
+    "group_id": "KO_G01",
+    "split": "development"
+  },
+  "KO_K002": {
+    "group_id": "KO_G01",
+    "split": "development"
+  },
+  "KO_K003": {
+    "group_id": "KO_G01",
+    "split": "development"
+  },
+  "KO_K004": {
+    "group_id": "KO_G02",
+    "split": "holdout"
+  },
+  "KO_K005": {
+    "group_id": "KO_G02",
+    "split": "holdout"
+  },
+  "KO_K006": {
+    "group_id": "KO_G02",
+    "split": "holdout"
+  },
+  "KO_K007": {
+    "group_id": "KO_G03",
+    "split": "development"
+  },
+  "KO_K008": {
+    "group_id": "KO_G03",
+    "split": "development"
+  },
+  "KO_K009": {
+    "group_id": "KO_G03",
+    "split": "development"
+  },
+  "KO_K010": {
+    "group_id": "KO_G04",
+    "split": "holdout"
+  },
+  "KO_K011": {
+    "group_id": "KO_G04",
+    "split": "holdout"
+  },
+  "KO_K012": {
+    "group_id": "KO_G04",
+    "split": "holdout"
+  },
+  "KO_K013": {
+    "group_id": "KO_G05",
+    "split": "development"
+  },
+  "KO_K014": {
+    "group_id": "KO_G05",
+    "split": "development"
+  },
+  "KO_K015": {
+    "group_id": "KO_G05",
+    "split": "development"
+  },
+  "KO_K016": {
+    "group_id": "KO_G06",
+    "split": "holdout"
+  },
+  "KO_K017": {
+    "group_id": "KO_G06",
+    "split": "holdout"
+  },
+  "KO_K018": {
+    "group_id": "KO_G06",
+    "split": "holdout"
+  },
+  "KO_K019": {
+    "group_id": "KO_G07",
+    "split": "development"
+  },
+  "KO_K020": {
+    "group_id": "KO_G07",
+    "split": "development"
+  },
+  "KO_K021": {
+    "group_id": "KO_G07",
+    "split": "development"
+  },
+  "KO_K022": {
+    "group_id": "KO_G08",
+    "split": "holdout"
+  },
+  "KO_K023": {
+    "group_id": "KO_G08",
+    "split": "holdout"
+  },
+  "KO_K024": {
+    "group_id": "KO_G08",
+    "split": "holdout"
+  }
+}

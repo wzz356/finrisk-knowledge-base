@@ -1,0 +1,158 @@
+{
+  "schema": "finrisk-api-cost-audit-v1",
+  "hard_cap_usd": 2,
+  "booked_peak_bound_usd": 1.152937092,
+  "remaining_bound_usd": 0.8470629080000001,
+  "actual_vendor_invoice_verified": false,
+  "amount_identity": "Conservative peak-price bookkeeping, not verified actual vendor billing",
+  "reserved_attempts": 3064,
+  "recorded_attempts": 3064,
+  "settled_attempts": 3064,
+  "unsettled_reservations": 0,
+  "unknown_cost_reservations": 2,
+  "phases": {
+    "K_development_judgment": {
+      "recorded_attempts": 44,
+      "unique_paid_pairs": 24,
+      "maximum_attempts": 3,
+      "statuses": {
+        "accepted": 17,
+        "rejected": 27
+      },
+      "seconds_sum": 197.54415030000382,
+      "median_attempt_seconds": 4.4718134499999,
+      "known_usage_tokens": {
+        "prompt_tokens": 244517,
+        "completion_tokens": 36024,
+        "prompt_cache_hit_tokens": 112768,
+        "prompt_cache_miss_tokens": 131749
+      },
+      "booked_peak_bound_usd": 0.083430108
+    },
+    "K_development_relevance": {
+      "recorded_attempts": 330,
+      "unique_paid_pairs": 240,
+      "maximum_attempts": 3,
+      "statuses": {
+        "accepted": 239,
+        "rejected": 91
+      },
+      "seconds_sum": 828.4021750999964,
+      "median_attempt_seconds": 2.252492550003808,
+      "known_usage_tokens": {
+        "prompt_tokens": 409780,
+        "completion_tokens": 36735,
+        "prompt_cache_hit_tokens": 99456,
+        "prompt_cache_miss_tokens": 310324
+      },
+      "booked_peak_bound_usd": 0.140694036
+    },
+    "K_development_rerank": {
+      "recorded_attempts": 1201,
+      "unique_paid_pairs": 1200,
+      "maximum_attempts": 2,
+      "statuses": {
+        "accepted": 1200,
+        "unknown": 1
+      },
+      "seconds_sum": 3091.597639599975,
+      "median_attempt_seconds": 2.2426303000029293,
+      "known_usage_tokens": {
+        "prompt_tokens": 1733103,
+        "completion_tokens": 145674,
+        "prompt_cache_hit_tokens": 1073664,
+        "prompt_cache_miss_tokens": 659439
+      },
+      "booked_peak_bound_usd": 0.38196368399999997
+    },
+    "K_holdout_judgment": {
+      "recorded_attempts": 26,
+      "unique_paid_pairs": 24,
+      "maximum_attempts": 2,
+      "statuses": {
+        "accepted": 24,
+        "rejected": 2
+      },
+      "seconds_sum": 126.36005870002555,
+      "median_attempt_seconds": 3.3361836500007485,
+      "known_usage_tokens": {
+        "prompt_tokens": 140326,
+        "completion_tokens": 6580,
+        "prompt_cache_hit_tokens": 15616,
+        "prompt_cache_miss_tokens": 124710
+      },
+      "booked_peak_bound_usd": 0.045402696
+    },
+    "K_holdout_relevance": {
+      "recorded_attempts": 240,
+      "unique_paid_pairs": 240,
+      "maximum_attempts": 1,
+      "statuses": {
+        "accepted": 240
+      },
+      "seconds_sum": 651.7223867999783,
+      "median_attempt_seconds": 2.336381099998107,
+      "known_usage_tokens": {
+        "prompt_tokens": 320900,
+        "completion_tokens": 26410,
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 320900
+      },
+      "booked_peak_bound_usd": 0.127962
+    },
+    "K_holdout_rerank": {
+      "recorded_attempts": 1200,
+      "unique_paid_pairs": 1200,
+      "maximum_attempts": 1,
+      "statuses": {
+        "accepted": 1200
+      },
+      "seconds_sum": 2781.21220039991,
+      "median_attempt_seconds": 2.174748500001442,
+      "known_usage_tokens": {
+        "prompt_tokens": 1717893,
+        "completion_tokens": 138950,
+        "prompt_cache_hit_tokens": 1075200,
+        "prompt_cache_miss_tokens": 642693
+      },
+      "booked_peak_bound_usd": 0.3659991
+    },
+    "R_development_relevance": {
+      "recorded_attempts": 5,
+      "unique_paid_pairs": 5,
+      "maximum_attempts": 1,
+      "statuses": {
+        "accepted": 5
+      },
+      "seconds_sum": 20.451669000001857,
+      "median_attempt_seconds": 4.239427000000433,
+      "known_usage_tokens": {
+        "prompt_tokens": 5579,
+        "completion_tokens": 550,
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 5579
+      },
+      "booked_peak_bound_usd": 0.0023336999999999998
+    },
+    "R_development_rerank": {
+      "recorded_attempts": 18,
+      "unique_paid_pairs": 18,
+      "maximum_attempts": 1,
+      "statuses": {
+        "accepted": 18
+      },
+      "seconds_sum": 63.39728689996991,
+      "median_attempt_seconds": 4.011142049999762,
+      "known_usage_tokens": {
+        "prompt_tokens": 24766,
+        "completion_tokens": 2053,
+        "prompt_cache_hit_tokens": 16128,
+        "prompt_cache_miss_tokens": 8638
+      },
+      "booked_peak_bound_usd": 0.005151768
+    }
+  },
+  "parallel_request_seconds_are_not_wall_clock": true,
+  "all_failed_and_unused_requests_retained": true,
+  "price_reference": "https://api-docs.deepseek.com/quick_start/pricing/"
+}
