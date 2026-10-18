@@ -1,6 +1,17 @@
 # FinRisk 重建知识库
 
-**最新交付：[知识组织增强、67条法规统一读取与K/R实验（2026-10-18）](releases/2026-10-18-knowledge-organization)。基础案例仍为9639份，双路融合1:1；增强方案未达采用门槛，保持可选。** 关联应用：[finrisk-workbench](https://github.com/wzz356/finrisk-workbench)。
+**最新交付：[全库读取与法规接口、新36题真实验证](releases/2026-10-18-p0-validated) · [完整便携包与实验包下载](https://github.com/wzz356/finrisk-knowledge-base/releases/tag/kb-p0-validated-20261018)。9639份案例、67条法规、12机制指南；留出分类新旧均12/12，未证明新版增益，多机制漏判限制已公开。** 关联应用：[finrisk-workbench](https://github.com/wzz356/finrisk-workbench)。
+
+## 当前知识库交付与实测
+
+[交付范围与限制](releases/2026-10-18-p0-validated/README.md) · [接入说明](releases/2026-10-18-p0-validated/knowledge/使用说明.md) · [最新效果报告](releases/2026-10-18-p0-validated/experiment/效果验证报告.md) · [正式36题](releases/2026-10-18-p0-validated/experiment/dataset/model_inputs.jsonl) · [指标复算](releases/2026-10-18-p0-validated/experiment/复算指标.py)
+
+完整读取覆盖9639文书/110878读取单元，消费索引和全部依赖放在Release便携包；仓库松散文件供浏览。开发主集11/12、留出主集12/12，两版分类相同。12多机制题存在未检查条件，不能用总分类正确率掩盖漏风险；银标与待定边界分别报告，不宣称真实全库Recall、全27标签覆盖或专家金标。应用默认未自动替换。
+
+```powershell
+python -S -X utf8 -B 'releases/2026-10-18-p0-validated/experiment/复算指标.py'
+```
+
 
 ## 本轮知识组织与实验
 

@@ -1,0 +1,151 @@
+{
+  "package_id": "finrisk_evaluation_new36_review_corrected_v1_20261018",
+  "created_date": "2026-10-18",
+  "manifest_self_hash_excluded": true,
+  "frozen_before_model_results": true,
+  "human_approved": false,
+  "expert_gold": false,
+  "model_performance_measured": false,
+  "final_correction_independent_recheck": "passed_model_silver_not_human_gold",
+  "source_hashes": {
+    "query_author": {
+      "queries.jsonl": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+      "groups.jsonl": "eae4828912c6f8b95d15afee254e7e6d2d82a08fe7e5eb36daaa2d1971084352",
+      "expected.jsonl": "4ed271c6f56c6f3effa1b9d52084e61ec68ab6c2d1f694c7fa81908531a1f420",
+      "author_notes.md": "a384aa4db50c40da8047b1ed18338b0be0f6c2c3e43d20203ae67801a151b44e"
+    },
+    "review.json": "ef8ef644f53b5920b10811fedf1ae2b802618a5483f5481dbc9b4eea35a89084",
+    "review.md": "28dda72e57cdea48e7a39850c2a418235a7e2af57e0ad2cdc9f60094b9a02722",
+    "mechanisms.jsonl": "8df14e9990a68e3c06647ee1b9920df58fd206b834f453c6584f93014e7d4ebc"
+  },
+  "counts": {
+    "queries": 36,
+    "story_groups": 16,
+    "single_queries": 24,
+    "multi_queries": 12,
+    "development": 18,
+    "holdout": 18,
+    "main_analysis": 24,
+    "boundary_challenge": 12
+  },
+  "primary_analysis_excludes": "Every query whose adjudication_status is boundary_reference_pending",
+  "split_counts": {
+    "development": {
+      "main_analysis": 12,
+      "boundary_challenge": 6
+    },
+    "holdout": {
+      "main_analysis": 12,
+      "boundary_challenge": 6
+    }
+  },
+  "files": [
+    {
+      "path": "model_inputs.jsonl",
+      "sha256": "99e019ca28e5a3ad02786447a47602cd0dae4695a81a1977c671bf0977586a36",
+      "bytes": 19048,
+      "model_visible": true,
+      "payload_note": "Only text is sent; opaque_id is bookkeeping metadata."
+    },
+    {
+      "path": "patch_log.json",
+      "sha256": "78e5c269589926a852f7683afd8d42dbdafbf1547042e841f6cf28306bb40290",
+      "bytes": 46370,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "protocol.md",
+      "sha256": "f076bf0595f2edc20ab881c0243c0146da40477665f23cb8c2462e27f52e612f",
+      "bytes": 5091,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "queries.jsonl",
+      "sha256": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+      "bytes": 21208,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "reference/expected.jsonl",
+      "sha256": "5a93f18b7eec98648725ca741b8c207056a677c00d3b7e992a8154f33c84b41f",
+      "bytes": 89492,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "reference/final_recheck.json",
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload.",
+      "sha256": "275289fc40223bce9c82501959e9517b14423d5f55bd03d699402a99ac5646a2",
+      "bytes": 4536
+    },
+    {
+      "path": "reference/final_recheck.md",
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload.",
+      "sha256": "b5f67299100055da35b0b9310112c55c31dcf92f06c672ec7433ce4160a0a15f",
+      "bytes": 2091
+    },
+    {
+      "path": "reference/groups.jsonl",
+      "sha256": "eae4828912c6f8b95d15afee254e7e6d2d82a08fe7e5eb36daaa2d1971084352",
+      "bytes": 2472,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "reference/mapping.jsonl",
+      "sha256": "2ab4a24dab6c9b4dff2c6841d9d57f9fd7fc235052d16ea752ad3d9902b5200b",
+      "bytes": 9795,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "reference/randomization.json",
+      "sha256": "6f8e59b09aae8fe72d8f33c4f1237d37fcdd97d35b8b23cfbaf5e15c9b96d07e",
+      "bytes": 503,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "reference/source_author_notes.md",
+      "sha256": "a384aa4db50c40da8047b1ed18338b0be0f6c2c3e43d20203ae67801a151b44e",
+      "bytes": 6126,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "reference/source_review.json",
+      "sha256": "ef8ef644f53b5920b10811fedf1ae2b802618a5483f5481dbc9b4eea35a89084",
+      "bytes": 12155,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "reference/source_review.md",
+      "sha256": "28dda72e57cdea48e7a39850c2a418235a7e2af57e0ad2cdc9f60094b9a02722",
+      "bytes": 12723,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "reference/split.json",
+      "sha256": "e10adc0baeaf45978ee5d2e0a0d54ead5eb24c660a85e0676553db70367e439e",
+      "bytes": 6304,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    },
+    {
+      "path": "verification.json",
+      "sha256": "89fb3740a07525f47f0f186ba9d46d92bc548874a5deadc3fde1b809641ce828",
+      "bytes": 121225,
+      "model_visible": false,
+      "payload_note": "Never include this file in model payload."
+    }
+  ],
+  "final_recheck_report": "reference/final_recheck.json",
+  "final_recheck_sha256": "275289fc40223bce9c82501959e9517b14423d5f55bd03d699402a99ac5646a2"
+}

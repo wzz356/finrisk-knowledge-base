@@ -1,0 +1,630 @@
+{
+  "source_sha256": "33c3b428a5a7f42706c86b1e03b748bef4a6a92e663413ec639fb669fe72ed6d",
+  "review_sha256": "3069148c08fa129011d0d740049c07b37e0b209e2afcf070c55d4726f051a999",
+  "result_sha256": "c81b6578ac65bb19464c679bce708f3226394d17595c785a66f1d81ce5616924",
+  "changed_article_ids": [
+    "L002-A0029"
+  ],
+  "before": {
+    "article_id": "L002-A0029",
+    "source_id": "L002",
+    "version_id": "L002-ca4f800b8ffd",
+    "text_sha256": "264ef0c213d9ad3c67ba921969ae961febe794bcc996f062dfc5310506836694",
+    "actor_scope": [
+      "insurer",
+      "insurance_agent",
+      "insurance_broker",
+      "insurance_salesperson",
+      "policyholder"
+    ],
+    "product_scope": [
+      "all_insurance"
+    ],
+    "stage_scope": [
+      "contract_signing",
+      "telemarketing",
+      "general"
+    ],
+    "scope_status": "broader",
+    "assertion_basis": {
+      "actor": "direct_literal",
+      "product": "direct_literal",
+      "stage": "assistant_interpretation"
+    },
+    "restrictions": {
+      "scope_conditions": "机构要求签署/确认、电话确认、互联网确认、本人或书面受托人员确认、销售人员不得代确认是不同分支；不得概括为所有方式均必须手写本人签名。",
+      "actor_scope_role": "norm_addressee_or_right_holder_as_explained_not_every_person_mentioned",
+      "general_unknown_meaning": "general仅表示原文宽范围或本保险枚举未细分；unknown表示证据未足。两者都不是全保险主体/产品适用，也不能作明确排除。",
+      "conditional_axes": [
+        "stage"
+      ],
+      "matching_use": "research_candidate_only_general_or_unknown_must_remain_conditional",
+      "source_title_alone_may_not_create_substantive_scope": true,
+      "source_current_validity": {
+        "status": "official_registry_marked_current",
+        "observed_label": "现行有效",
+        "observed_at": "2026-10-18T02:26:13.912716+00:00",
+        "case_specific_applicability": "not_automatically_established"
+      },
+      "declared_effective_date": "2024-03-01",
+      "source_date_limitations": null,
+      "source_remaining_gaps": [
+        "标准TLS本地原始HTML/PDF bytes未取得；原件SHA为空",
+        "历史个案仍须按行为日、合同日及过渡条款核时间效力"
+      ],
+      "temporal_rule": "先匹配行为/合同日期；未核历史版本不得倒推适用",
+      "full_admission_completed": false,
+      "production_active": false,
+      "official_original_http_bytes_acquired": false,
+      "historical_case_applicability_confirmed": false,
+      "current_business_fact_proof": false
+    },
+    "evidence": [
+      {
+        "axis": "actor",
+        "basis": "direct_literal",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "text": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "literal": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "start": 0,
+        "end": 285,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "scope_basis",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 6213,
+            "end_char": 6498,
+            "start_byte_utf8": 17906,
+            "end_byte_utf8": 18755,
+            "span_sha256": "264ef0c213d9ad3c67ba921969ae961febe794bcc996f062dfc5310506836694"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          163,
+          165
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:e1"
+      },
+      {
+        "axis": "product",
+        "basis": "direct_literal",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "text": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "literal": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "start": 0,
+        "end": 285,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "scope_basis",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 6213,
+            "end_char": 6498,
+            "start_byte_utf8": 17906,
+            "end_byte_utf8": 18755,
+            "span_sha256": "264ef0c213d9ad3c67ba921969ae961febe794bcc996f062dfc5310506836694"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          163,
+          165
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:e2"
+      },
+      {
+        "axis": "stage",
+        "basis": "assistant_interpretation",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "text": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "literal": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "start": 0,
+        "end": 285,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "scope_basis",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 6213,
+            "end_char": 6498,
+            "start_byte_utf8": 17906,
+            "end_byte_utf8": 18755,
+            "span_sha256": "264ef0c213d9ad3c67ba921969ae961febe794bcc996f062dfc5310506836694"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          163,
+          165
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:e3"
+      },
+      {
+        "axis": "product",
+        "basis": "source_title_scope",
+        "source_type": "source_title",
+        "source_id": "L002",
+        "field": "title",
+        "file": "source_registry.jsonl",
+        "jsonl_line": 2,
+        "text": "保险销售行为管理办法",
+        "literal": "保险销售行为管理办法",
+        "start": 0,
+        "end": 10,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_title_zero_based_half_open",
+        "role": "title_context_only_not_sufficient_for_substantive_scope",
+        "evidence_id": "L002-A0029:e4"
+      },
+      {
+        "axis": "actor",
+        "basis": "direct_literal",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0002",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 5,
+        "text": "　　第二条  保险公司为订立保险合同所开展的销售行为，保险中介机构、保险销售人员受保险公司委托或者与保险公司合作为订立保险合同所开展的销售行为，应当遵守本办法的规定。\n\n　　本办法所称保险公司不包括再保险公司。\n　　本办法所称保险中介机构包括：保险代理机构和保险经纪人。保险代理机构包括专业代理机构和兼业代理机构。\n\n　　本办法所称保险销售人员包括：保险公司中从事保险销售的员工、个人保险代理人及纳入销售人员管理的其他用工形式的人员，保险代理机构中从事保险代理的人员，保险经纪人中从事保险经纪业务的人员。",
+        "literal": "　　第二条  保险公司为订立保险合同所开展的销售行为，保险中介机构、保险销售人员受保险公司委托或者与保险公司合作为订立保险合同所开展的销售行为，应当遵守本办法的规定。\n\n　　本办法所称保险公司不包括再保险公司。\n　　本办法所称保险中介机构包括：保险代理机构和保险经纪人。保险代理机构包括专业代理机构和兼业代理机构。\n\n　　本办法所称保险销售人员包括：保险公司中从事保险销售的员工、个人保险代理人及纳入销售人员管理的其他用工形式的人员，保险代理机构中从事保险代理的人员，保险经纪人中从事保险经纪业务的人员。",
+        "start": 0,
+        "end": 252,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "same_source_context_not_official_cross_reference",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 534,
+            "end_char": 786,
+            "start_byte_utf8": 1195,
+            "end_byte_utf8": 1939,
+            "span_sha256": "82711261edb312510f3826af3e95f411e568223a036d34cd6cbd29762df05000"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          32,
+          37
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:e5"
+      },
+      {
+        "axis": "stage",
+        "basis": "direct_literal",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0005",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 7,
+        "text": "　　第五条  本办法所称保险销售行为包括保险销售前行为、保险销售中行为和保险销售后行为。\n\n　　保险销售前行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员为订立保险合同创造环境、准备条件、招揽保险合同相对人的行为。\n　　保险销售中行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员与特定相对人为订立保险合同就合同内容进行沟通、商谈，作出要约或承诺的行为。\n\n　　保险销售后行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员履行依照法律法规和监管制度规定的以及基于保险合同订立而产生的保单送达、回访、信息通知等附随义务的行为。",
+        "literal": "　　第五条  本办法所称保险销售行为包括保险销售前行为、保险销售中行为和保险销售后行为。\n\n　　保险销售前行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员为订立保险合同创造环境、准备条件、招揽保险合同相对人的行为。\n　　保险销售中行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员与特定相对人为订立保险合同就合同内容进行沟通、商谈，作出要约或承诺的行为。\n\n　　保险销售后行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员履行依照法律法规和监管制度规定的以及基于保险合同订立而产生的保单送达、回访、信息通知等附随义务的行为。",
+        "start": 0,
+        "end": 287,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "same_source_context_not_official_cross_reference",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 958,
+            "end_char": 1245,
+            "start_byte_utf8": 2427,
+            "end_byte_utf8": 3276,
+            "span_sha256": "a2750aa8234a1c4e7572580a732b1d515724c81b01349572c62e9b6265907a35"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          49,
+          54
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:e6"
+      }
+    ],
+    "human_approved": false,
+    "review_origin": "current_session_model",
+    "research_only": true,
+    "subclauses": [
+      {
+        "subclause_id": "L002-A0029#p1",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "field": "text",
+        "start": 0,
+        "end": 196,
+        "text": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。",
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "use": "explanation_only",
+        "requires_full_article": true,
+        "may_independently_determine_applicability": false
+      },
+      {
+        "subclause_id": "L002-A0029#p2",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "field": "text",
+        "start": 198,
+        "end": 285,
+        "text": "　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "use": "explanation_only",
+        "requires_full_article": true,
+        "may_independently_determine_applicability": false
+      }
+    ]
+  },
+  "after": {
+    "article_id": "L002-A0029",
+    "source_id": "L002",
+    "version_id": "L002-ca4f800b8ffd",
+    "text_sha256": "264ef0c213d9ad3c67ba921969ae961febe794bcc996f062dfc5310506836694",
+    "actor_scope": [
+      "insurer",
+      "insurance_agent",
+      "insurance_broker",
+      "insurance_salesperson",
+      "policyholder",
+      "general"
+    ],
+    "product_scope": [
+      "all_insurance"
+    ],
+    "stage_scope": [
+      "contract_signing",
+      "telemarketing",
+      "general"
+    ],
+    "scope_status": "broader",
+    "assertion_basis": {
+      "actor": "assistant_interpretation",
+      "product": "direct_literal",
+      "stage": "assistant_interpretation"
+    },
+    "restrictions": {
+      "scope_conditions": "机构要求签署/确认、电话确认、互联网确认、本人或书面受托人员确认、销售人员不得代确认是不同分支；不得概括为所有方式均必须手写本人签名。",
+      "actor_scope_role": "norm_addressee_or_right_holder_as_explained_not_every_person_mentioned",
+      "general_unknown_meaning": "general仅表示原文宽范围或本保险枚举未细分；unknown表示证据未足。两者都不是全保险主体/产品适用，也不能作明确排除。",
+      "conditional_axes": [
+        "stage",
+        "actor"
+      ],
+      "matching_use": "research_candidate_only_general_or_unknown_must_remain_conditional",
+      "source_title_alone_may_not_create_substantive_scope": true,
+      "source_current_validity": {
+        "status": "official_registry_marked_current",
+        "observed_label": "现行有效",
+        "observed_at": "2026-10-18T02:26:13.912716+00:00",
+        "case_specific_applicability": "not_automatically_established"
+      },
+      "declared_effective_date": "2024-03-01",
+      "source_date_limitations": null,
+      "source_remaining_gaps": [
+        "标准TLS本地原始HTML/PDF bytes未取得；原件SHA为空",
+        "历史个案仍须按行为日、合同日及过渡条款核时间效力"
+      ],
+      "temporal_rule": "先匹配行为/合同日期；未核历史版本不得倒推适用",
+      "full_admission_completed": false,
+      "production_active": false,
+      "official_original_http_bytes_acquired": false,
+      "historical_case_applicability_confirmed": false,
+      "current_business_fact_proof": false
+    },
+    "evidence": [
+      {
+        "axis": "actor",
+        "basis": "direct_literal",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "text": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "literal": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "start": 0,
+        "end": 285,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "scope_basis",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 6213,
+            "end_char": 6498,
+            "start_byte_utf8": 17906,
+            "end_byte_utf8": 18755,
+            "span_sha256": "264ef0c213d9ad3c67ba921969ae961febe794bcc996f062dfc5310506836694"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          163,
+          165
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:e1"
+      },
+      {
+        "axis": "product",
+        "basis": "direct_literal",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "text": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "literal": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "start": 0,
+        "end": 285,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "scope_basis",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 6213,
+            "end_char": 6498,
+            "start_byte_utf8": 17906,
+            "end_byte_utf8": 18755,
+            "span_sha256": "264ef0c213d9ad3c67ba921969ae961febe794bcc996f062dfc5310506836694"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          163,
+          165
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:e2"
+      },
+      {
+        "axis": "stage",
+        "basis": "assistant_interpretation",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "text": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "literal": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "start": 0,
+        "end": 285,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "scope_basis",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 6213,
+            "end_char": 6498,
+            "start_byte_utf8": 17906,
+            "end_byte_utf8": 18755,
+            "span_sha256": "264ef0c213d9ad3c67ba921969ae961febe794bcc996f062dfc5310506836694"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          163,
+          165
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:e3"
+      },
+      {
+        "axis": "product",
+        "basis": "source_title_scope",
+        "source_type": "source_title",
+        "source_id": "L002",
+        "field": "title",
+        "file": "source_registry.jsonl",
+        "jsonl_line": 2,
+        "text": "保险销售行为管理办法",
+        "literal": "保险销售行为管理办法",
+        "start": 0,
+        "end": 10,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_title_zero_based_half_open",
+        "role": "title_context_only_not_sufficient_for_substantive_scope",
+        "evidence_id": "L002-A0029:e4"
+      },
+      {
+        "axis": "actor",
+        "basis": "direct_literal",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0002",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 5,
+        "text": "　　第二条  保险公司为订立保险合同所开展的销售行为，保险中介机构、保险销售人员受保险公司委托或者与保险公司合作为订立保险合同所开展的销售行为，应当遵守本办法的规定。\n\n　　本办法所称保险公司不包括再保险公司。\n　　本办法所称保险中介机构包括：保险代理机构和保险经纪人。保险代理机构包括专业代理机构和兼业代理机构。\n\n　　本办法所称保险销售人员包括：保险公司中从事保险销售的员工、个人保险代理人及纳入销售人员管理的其他用工形式的人员，保险代理机构中从事保险代理的人员，保险经纪人中从事保险经纪业务的人员。",
+        "literal": "　　第二条  保险公司为订立保险合同所开展的销售行为，保险中介机构、保险销售人员受保险公司委托或者与保险公司合作为订立保险合同所开展的销售行为，应当遵守本办法的规定。\n\n　　本办法所称保险公司不包括再保险公司。\n　　本办法所称保险中介机构包括：保险代理机构和保险经纪人。保险代理机构包括专业代理机构和兼业代理机构。\n\n　　本办法所称保险销售人员包括：保险公司中从事保险销售的员工、个人保险代理人及纳入销售人员管理的其他用工形式的人员，保险代理机构中从事保险代理的人员，保险经纪人中从事保险经纪业务的人员。",
+        "start": 0,
+        "end": 252,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "same_source_context_not_official_cross_reference",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 534,
+            "end_char": 786,
+            "start_byte_utf8": 1195,
+            "end_byte_utf8": 1939,
+            "span_sha256": "82711261edb312510f3826af3e95f411e568223a036d34cd6cbd29762df05000"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          32,
+          37
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:e5"
+      },
+      {
+        "axis": "stage",
+        "basis": "direct_literal",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0005",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 7,
+        "text": "　　第五条  本办法所称保险销售行为包括保险销售前行为、保险销售中行为和保险销售后行为。\n\n　　保险销售前行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员为订立保险合同创造环境、准备条件、招揽保险合同相对人的行为。\n　　保险销售中行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员与特定相对人为订立保险合同就合同内容进行沟通、商谈，作出要约或承诺的行为。\n\n　　保险销售后行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员履行依照法律法规和监管制度规定的以及基于保险合同订立而产生的保单送达、回访、信息通知等附随义务的行为。",
+        "literal": "　　第五条  本办法所称保险销售行为包括保险销售前行为、保险销售中行为和保险销售后行为。\n\n　　保险销售前行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员为订立保险合同创造环境、准备条件、招揽保险合同相对人的行为。\n　　保险销售中行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员与特定相对人为订立保险合同就合同内容进行沟通、商谈，作出要约或承诺的行为。\n\n　　保险销售后行为是指保险公司及受其委托或者与其合作的保险中介机构、保险销售人员履行依照法律法规和监管制度规定的以及基于保险合同订立而产生的保单送达、回访、信息通知等附随义务的行为。",
+        "start": 0,
+        "end": 287,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "same_source_context_not_official_cross_reference",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 958,
+            "end_char": 1245,
+            "start_byte_utf8": 2427,
+            "end_byte_utf8": 3276,
+            "span_sha256": "a2750aa8234a1c4e7572580a732b1d515724c81b01349572c62e9b6265907a35"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          49,
+          54
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:e6"
+      },
+      {
+        "axis": "actor",
+        "basis": "assistant_interpretation",
+        "source_type": "article_text",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "field": "text",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "text": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "literal": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。\n\n　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "start": 0,
+        "end": 285,
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "role": "independent_model_review_conservative_scope_non_exhaustive",
+        "sealed_provenance": {
+          "coordinate_system": "legacy_literal_char",
+          "snapshot_file": "snapshots/core_L002.txt",
+          "span": {
+            "start_char": 6213,
+            "end_char": 6498,
+            "start_byte_utf8": 17906,
+            "end_byte_utf8": 18755,
+            "span_sha256": "264ef0c213d9ad3c67ba921969ae961febe794bcc996f062dfc5310506836694"
+          },
+          "transform": "none",
+          "snapshot_is_original_HTTP_bytes": false
+        },
+        "official_reader_file": "snapshots/reader_L002.txt",
+        "official_observed_line_range": [
+          163,
+          165
+        ],
+        "official_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+        "evidence_id": "L002-A0029:review_actor"
+      }
+    ],
+    "human_approved": false,
+    "review_origin": "current_session_model",
+    "research_only": true,
+    "subclauses": [
+      {
+        "subclause_id": "L002-A0029#p1",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "field": "text",
+        "start": 0,
+        "end": 196,
+        "text": "　　第二十九条  保险公司、保险中介机构应当按照有关法律法规和监管制度规定，要求投保人以书面或者其他可保存的形式，签署或者确认投保声明、投保提示书、免除或者减轻保险人责任条款的说明等文件，以及监管规定的相关文书材料。通过电话销售保险的，可以以签署投保单或者电话录音等方式确认投保人投保意愿。通过互联网开展保险销售的，可以通过互联网保险销售行为可回溯方式确认投保人投保意愿，并符合监管制度规定。",
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "use": "explanation_only",
+        "requires_full_article": true,
+        "may_independently_determine_applicability": false
+      },
+      {
+        "subclause_id": "L002-A0029#p2",
+        "source_id": "L002",
+        "article_id": "L002-A0029",
+        "file": "articles.jsonl",
+        "jsonl_line": 13,
+        "field": "text",
+        "start": 198,
+        "end": 285,
+        "text": "　　投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。保险销售人员不得代替保险业务活动相关当事人在订立保险合同的有关文书材料中确认。",
+        "coordinate_system": "unicode_codepoints_in_exact_decoded_article_text_zero_based_half_open",
+        "use": "explanation_only",
+        "requires_full_article": true,
+        "may_independently_determine_applicability": false
+      }
+    ],
+    "independent_model_review": {
+      "finding_id": "SCOPE-001",
+      "change": "preserve written-authorized representative branch; actor enumeration is not exhaustive",
+      "human_approved": false
+    }
+  },
+  "validated_count": 67,
+  "human_approved": false,
+  "legal_gold_standard": false
+}

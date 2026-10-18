@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "protected_frozen_files_unchanged": 944,
+  "phases_complete": 4,
+  "unique_tasks": 3708,
+  "attempts": 3723,
+  "usage_ledger_recomputed": true,
+  "booked_peak_bound_usd": 1.2710993759999958,
+  "hard_cap_usd": 2,
+  "actual_invoice_verified": false,
+  "scanned_json_text_artifacts": 83,
+  "credential_like_values_found": 0,
+  "expert_review": false,
+  "github_upload_performed": false,
+  "verified_utc": "2026-10-18T09:11:49.425971+00:00"
+}

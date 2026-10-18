@@ -1,0 +1,94 @@
+{
+  "status": "completed_limited_semantic_review",
+  "review_date": "2026-10-18",
+  "full_72_output_semantic_audit": false,
+  "expert_legal_review": false,
+  "read_scope": [
+    "results/semantic_review_queue.jsonl (12 rows)",
+    "results/navigation_scope_diagnostics.json",
+    "KnowledgeAssets M01/M02/M11 condition cards",
+    "KnowledgeAssets L002-A0035 with necessary dependencies"
+  ],
+  "findings": [
+    {
+      "id": "O01",
+      "query_ids": [
+        "RQ20261018_026"
+      ],
+      "finding": "Both arms reverse the meaning of truthful uncertainty into false-answer coaching",
+      "confidence": "high_local_semantics",
+      "reference_changed": false
+    },
+    {
+      "id": "O02",
+      "query_ids": [
+        "RQ20261018_027",
+        "RQ20261018_025",
+        "RQ20261018_030",
+        "RQ20261018_034",
+        "RQ20261018_036",
+        "RQ20261018_031",
+        "RQ20261018_028",
+        "RQ20261018_033"
+      ],
+      "finding": "Shared reading candidates become a mechanism/predicate allowlist during judgment; missing mechanisms cannot be reported",
+      "missing_candidate_items": 13,
+      "positive_reference_items": 5,
+      "uncertain_reference_items": 8,
+      "not_a_BM25_BGE_corpus_hard_filter": true,
+      "counterfactual_effect_not_measured": true
+    },
+    {
+      "id": "O03",
+      "query_ids": [
+        "RQ20261018_002",
+        "RQ20261018_003"
+      ],
+      "article_id": "L002-A0035",
+      "finding": "Two scope mismatches are model-classification flags, not independently established legal citation errors",
+      "legal_error_count_proven": false
+    },
+    {
+      "id": "O04",
+      "finding": "Whole-input state accuracy does not establish mechanism completeness",
+      "parent_reported_main_classification": {
+        "development": "11/12",
+        "holdout": "12/12"
+      },
+      "parent_reported_holdout_main_mechanism_exact": "11/12",
+      "examples": [
+        "025/028 partial risk mechanisms",
+        "003 M02 overreported as M01+M02",
+        "027/030/033/036 incomplete uncertain mechanisms"
+      ]
+    },
+    {
+      "id": "O05",
+      "query_ids": [
+        "RQ20261018_024"
+      ],
+      "finding": "Boundary-pending later-marketing assessment depends on whether preparation establishes the future contact purpose; preserve disagreement and distinguish intended from completed conduct"
+    }
+  ],
+  "parent_supplied_full_multimechanism_summary": {
+    "queries": 12,
+    "development_main_queries": 6,
+    "development_main_missing_predicates": 17,
+    "holdout_boundary_queries": 6,
+    "holdout_boundary_missing_predicates": 25,
+    "positive_or_uncertain_candidate_missing_queries": 8,
+    "negative_reference_mechanism_unchecked_queries": 4,
+    "independently_read_multimechanism_rows_in_queue": 9,
+    "full_12_text_recheck_performed": false
+  },
+  "actions": {
+    "new_api_calls": 0,
+    "references_modified": false,
+    "predictions_modified": false,
+    "implementation_modified": false
+  },
+  "input_sha256": {
+    "outputs\\FinRisk_P0效果验证_20261018\\results\\semantic_review_queue.jsonl": "ae931d82908e9c0e923b21172eeb44ebb5ff896e363c56c455c74edd9134cd51",
+    "outputs\\FinRisk_P0效果验证_20261018\\results\\navigation_scope_diagnostics.json": "319b6bad8b93937c1654be976ebae52d9cc1b922b2541ca48dcfc3cab789792d"
+  }
+}

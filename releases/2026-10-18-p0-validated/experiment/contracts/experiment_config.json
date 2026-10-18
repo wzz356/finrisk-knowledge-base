@@ -1,0 +1,26 @@
+{
+  "scope": "finrisk-p0-effect-new36-20261018-v1",
+  "version": "pre-API-v1",
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "thinking": "disabled",
+  "case_budget": 4000,
+  "law_budget": 4000,
+  "route_top_k": 100,
+  "rrf_c": 60,
+  "rrf_weights": [
+    1,
+    1
+  ],
+  "source_document_collapse": "highest unit score then stable unit ID",
+  "judgment_candidate_documents": 20,
+  "mechanism_selection": "frozen input-only risk_coverage candidates, no two-mechanism cap; all twelve only when unmapped",
+  "conditions": "same immutable card definitions for both arms, no expected states",
+  "comparison": "legal assembly only; shared full corpus reader and navigation",
+  "primary_reference_rule": "24 main_analysis; boundary_reference_pending 12 only in separate challenge report",
+  "split_protocol": "18 development first; exact same frozen configuration for single 18 holdout run; no planned tuning or answer revision",
+  "dense_score_tie": "frozen structured file position, identical to prior retrieval",
+  "RRF_score_tie": "ascending stable unit_id",
+  "DeepSeek_score_tie": "ascending stable unit_id",
+  "paid_approval_pending_at_preparation": true
+}

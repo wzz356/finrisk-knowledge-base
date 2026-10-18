@@ -1,0 +1,14 @@
+{
+  "manifest_sha256": "e939ff14fa8a43b24a484e5306185bb71e14e674aad9502ee3615e90c723b3d5",
+  "queries_sha256": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+  "expected_sha256": "5a93f18b7eec98648725ca741b8c207056a677c00d3b7e992a8154f33c84b41f",
+  "model_inputs_sha256": "99e019ca28e5a3ad02786447a47602cd0dae4695a81a1977c671bf0977586a36",
+  "split_sha256": "e10adc0baeaf45978ee5d2e0a0d54ead5eb24c660a85e0676553db70367e439e",
+  "model_performance_measured": false,
+  "human_approved": false,
+  "primary_queries": 24,
+  "boundary_challenge_queries": 12,
+  "development": 18,
+  "holdout": 18,
+  "model_calls_this_round": 0
+}

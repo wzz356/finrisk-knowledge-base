@@ -1,0 +1,19 @@
+{
+  "tag": "kb-p0-validated-20261018",
+  "release_url": "https://github.com/wzz356/finrisk-knowledge-base/releases/tag/kb-p0-validated-20261018",
+  "assets": [
+    {
+      "name": "FinRisk_知识库P0修复_便携包.zip",
+      "bytes": 310903955,
+      "sha256": "a225efb96d2b016c0a345584450c0a6aaa11184b61df6ed44a61af3f73d3cf90",
+      "url": "https://github.com/wzz356/finrisk-knowledge-base/releases/download/kb-p0-validated-20261018/FinRisk_%E7%9F%A5%E8%AF%86%E5%BA%93P0%E4%BF%AE%E5%A4%8D_%E4%BE%BF%E6%90%BA%E5%8C%85.zip"
+    },
+    {
+      "name": "FinRisk_P0效果验证_20261018_完整结果.zip",
+      "bytes": 11304480,
+      "sha256": "1616f887ddb2a97a66b4fac76b5f54570e6389e40f41d9ebc1a89f9b33c2f9da",
+      "url": "https://github.com/wzz356/finrisk-knowledge-base/releases/download/kb-p0-validated-20261018/FinRisk_P0%E6%95%88%E6%9E%9C%E9%AA%8C%E8%AF%81_20261018_%E5%AE%8C%E6%95%B4%E7%BB%93%E6%9E%9C.zip"
+    }
+  ],
+  "source_archives_immutable": true
+}

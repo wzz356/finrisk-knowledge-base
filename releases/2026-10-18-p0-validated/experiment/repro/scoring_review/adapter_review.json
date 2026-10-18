@@ -1,0 +1,63 @@
+{
+  "review_date": "2026-10-18",
+  "review_type": "independent_narrow_analysis_adapter_review",
+  "verdict": "pass_after_verified_minimal_fix",
+  "open_blocking_findings": 0,
+  "open_code_defects": 0,
+  "resolved_findings": [
+    {
+      "id": "A1",
+      "title": "Protocol canonicalization and scoring/bootstrap validity could diverge",
+      "status": "resolved_and_independently_verified",
+      "original_trigger": "protocol permits predicate [status, quote], but caller ignored canonical returned copy and adapter validity only required parsed non-null",
+      "original_impact": "scorer could reject list predicate while comparison/bootstrap counted matching state as correct",
+      "actual_model_result_impact_known": false,
+      "minimal_fix_observed": ["accepted cache uses validate_result returned copy at analyze_results.py:21", "adapter reuses scoring._valid_prediction at analysis_adapter.py:14-15"],
+      "verification": ["legal list passes after protocol canonicalization", "uncanonicalized list fails consistently", "malformed mechanisms fail consistently", "missing accepted record fails consistently"]
+    }
+  ],
+  "checks": {
+    "alignment_and_pre_reference_termination_gate": "static_pass_only",
+    "fixed_36_by_2_denominator": "pass_handwritten_fixture",
+    "failed_outputs_preserved": "pass_explicit_invalid_records",
+    "canonicalization_and_bootstrap_validity": "pass",
+    "displayed_citation_sources_from_job_data": "pass",
+    "paired_group_resampling_in_each_stratum": "pass",
+    "fee_aggregation_under_ledger_contract": "pass_handwritten_fixtures"
+  },
+  "verification": {
+    "existing_adapter_tests": {"tests": 5, "failures": 0, "exit_code": 0},
+    "independent_handwritten_cases": {"adapter_scoring_bootstrap": 9, "fee_snippet": 3, "total": 12, "failures": 0, "exit_code": 0},
+    "legal_list_to_dictionary_fixture": true,
+    "fixed_denominator_fixture": {"predictions": 72, "old_query_denominator": 36, "new_query_denominator": 36, "output_failures": 2},
+    "group_bootstrap_fixtures": {"unequal_group_size_point_delta": 0.3333333333333333, "unequal_group_size_interval": [-1.0, 1.0], "single_group_paired_interval": [0.0, 0.0]},
+    "fee_fixtures": ["normal aggregation including unknown usage", "unsettled reservation rejected", "booked amount above cap rejected"],
+    "execution_method": "allowed functions/snippets selected with AST and synthetic in-memory fixtures; no analyze_results.main invocation"
+  },
+  "scope": {
+    "read_files": ["analysis_adapter.py", "analyze_results.py", "tests/test_analysis_adapter.py", "scoring.py", "scoring_notes.md", "protocol.py", "effect_common.py"],
+    "real_references_read": false,
+    "model_results_read": false,
+    "real_ledger_read": false,
+    "freeze_manifest_read": false,
+    "network_or_api_used": false,
+    "implementation_or_frozen_files_modified_by_reviewer": false,
+    "inference_or_tuning_performed": false
+  },
+  "limitations": [
+    "actual input/result/freeze bindings were not examined",
+    "missing accepted records become explicit invalid predictions, not scorer missing records",
+    "fee aggregation does not verify real invoices, prices, source ledger integrity, or booked amount calculation",
+    "reserve/settle set equality checks coverage, while unique settlement relies on controlled ledger writer",
+    "group bootstrap is descriptive for small group counts and is not proof of generalization"
+  ],
+  "source_sha256": {
+    "analysis_adapter.py": "61226A93290FFE3A2708F85D14C3763ABE97051A59BE37BF6751B6912A9D976C",
+    "analyze_results.py": "7D08D833366ED9C78367F2ED8668775D354DC107B5BC728B899E509AE9AE56EC",
+    "tests/test_analysis_adapter.py": "86781BBE1DD8C704588CD223F76F1AA696C181F910386F496583D468BF913E3B",
+    "scoring.py": "A0F4D40EB88EF3220A9EE71158F5AAC7206F4F6EAD9EFE673A008D97C7519276",
+    "scoring_notes.md": "E05704420CE6DC1DD2822DA1F52234E38224F0C8BD62804EDDE77093E226ADED",
+    "protocol.py": "DD028FDC410FB6D2A52E50823E1B2DD3C66933BF05F8D5CB23641B666D4B0817",
+    "effect_common.py": "875259CD831568FCA1A92984166062B8F8759C864C1CC8024C9B61DDD501F020"
+  }
+}

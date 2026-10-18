@@ -1,0 +1,163 @@
+{
+  "review_id": "finrisk_query_independent_static_review_20261018_v1",
+  "reviewed_at_date": "2026-10-18",
+  "reviewer_type": "independent_subagent_model",
+  "review_identity": "未参与编写的独立子代理静态复核；不是法律专家金标或人工批准",
+  "human_approved": false,
+  "legal_expert_gold": false,
+  "model_inference_performed": false,
+  "network_used": false,
+  "business_or_model_api_used": false,
+  "implementation_read": false,
+  "old_queries_or_results_read": false,
+  "source_data_modified": false,
+  "disposition": "reference_corrections_required_before_predicate_scoring_freeze",
+  "overall_state_flips_required": [],
+  "scope": {
+    "query_author_files": ["queries.jsonl", "expected.jsonl", "groups.jsonl", "author_notes.md"],
+    "sealed_knowledge": "outputs/FinRisk_知识组织增强_交付_20261018_v2/expanded/knowledge/mechanisms.jsonl",
+    "sealed_legal": "outputs/FinRisk_知识组织增强_交付_20261018_v2/legal/articles.jsonl and its recorded source_text_file snapshots",
+    "reviewed_input_sha256": {
+      "queries.jsonl": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+      "expected.jsonl": "4ed271c6f56c6f3effa1b9d52084e61ec68ab6c2d1f694c7fa81908531a1f420",
+      "groups.jsonl": "eae4828912c6f8b95d15afee254e7e6d2d82a08fe7e5eb36daaa2d1971084352",
+      "author_notes.md": "a384aa4db50c40da8047b1ed18338b0be0f6c2c3e43d20203ae67801a151b44e",
+      "mechanisms.jsonl": "8df14e9990a68e3c06647ee1b9920df58fd206b834f453c6584f93014e7d4ebc",
+      "articles.jsonl": "0ea04dc9efe0b3e10dbdcbece75eeee8bc019e2fafec5bc05f6fc43e5e72d69a"
+    }
+  },
+  "validation": {
+    "queries": 36,
+    "expected": 36,
+    "story_groups": 16,
+    "mechanisms": 12,
+    "single_queries": 24,
+    "multi_queries": 12,
+    "required_predicate_assessments": 130,
+    "literal_spans": 251,
+    "scope_spans": 144,
+    "predicate_evidence_spans": 107,
+    "literal_span_errors": [],
+    "input_hash_errors": [],
+    "required_predicate_id_errors": [],
+    "mechanical_state_consistency_errors": [],
+    "unique_input_hashes": 36,
+    "legal_snapshot_articles_checked": 43,
+    "legal_snapshot_literal_errors": [],
+    "state_counts": {"risk": 16, "no_clear_risk": 10, "insufficient_info": 10},
+    "text_explicit_answer_leak_found": false,
+    "metadata_order_leak_risk_found": true,
+    "semantic_span_support_fully_clean": false
+  },
+  "findings": [
+    {
+      "finding_id": "R01",
+      "severity": "P2",
+      "must_resolve_before_freeze": true,
+      "query_ids": ["RQ20261018_030"],
+      "fields": ["M04.covered_recipient", "M04.transaction_offer"],
+      "issue": "实际产品可能为存款；客户本人签单扣费不足以证明保险利益对象身份或投保成交绑定。",
+      "evidence": [{"start":100,"end":113,"quote":"客户本人签单扣费后领八百元"},{"start":104,"end":113,"quote":"签单扣费后领八百元"}],
+      "minimal_fix": "两个条件 met 改 unknown 并补缺项理由；保留领取承诺为线索。输入、uncertain_mechanism_ids、整题 insufficient_info 不变。",
+      "changes_overall_state": false
+    },
+    {
+      "finding_id": "R02",
+      "severity": "P2",
+      "must_resolve_before_freeze": true,
+      "query_ids": ["RQ20261018_030"],
+      "fields": ["M05.promised_certain"],
+      "issue": "有确定性用语，但无法确认其指向条件卡所称的该非保证部分；本题该对象本身 unknown。",
+      "evidence": [{"start":71,"end":80,"quote":"演示那项每年肯定有"}],
+      "minimal_fix": "依现有卡定义将 met 改 unknown，说明确定性用语已知但对象未明；如采取独立通用确定性因子的解释，须先统一定义而非暗改单题。",
+      "changes_overall_state": false
+    },
+    {
+      "finding_id": "R03",
+      "severity": "P2",
+      "must_resolve_before_freeze": true,
+      "query_ids": ["RQ20261018_005","RQ20261018_006","RQ20261018_009","RQ20261018_010","RQ20261018_014","RQ20261018_017","RQ20261018_018","RQ20261018_021","RQ20261018_023","RQ20261018_024","RQ20261018_025","RQ20261018_026","RQ20261018_027","RQ20261018_028","RQ20261018_029","RQ20261018_030","RQ20261018_031","RQ20261018_032","RQ20261018_033","RQ20261018_035","RQ20261018_036"],
+      "fields": ["scope_facts"],
+      "issue": "部分 value 合并了其他句子的事实，局部 quote 虽逐字匹配但支撑不全；030 的银行与保险联合身份在全文也未建立。",
+      "minimal_fix": "优先收窄 value 到该 quote 支持的内容，或拆分并重新绑定原句；具体轴、跨度与示例见 review.md 的 R03 表。",
+      "changes_overall_state": false
+    },
+    {
+      "finding_id": "R04",
+      "severity": "P3",
+      "must_resolve_before_freeze": false,
+      "query_ids": ["RQ20261018_023","RQ20261018_024"],
+      "fields": ["scope_facts.behavior_date"],
+      "issue": "仅记取消日 2026-10-08，未区分三天后的拟营销安排或待核工单；024 未拨号。",
+      "minimal_fix": "分别记录取消时间与后续安排的相对时间，并绑定相应原句；不推成已完成外呼日。",
+      "changes_overall_state": false
+    },
+    {
+      "finding_id": "R05",
+      "severity": "P2",
+      "must_resolve_before_freeze": true,
+      "query_ids": ["RQ20261018_001","RQ20261018_002","RQ20261018_003","RQ20261018_004","RQ20261018_005","RQ20261018_006","RQ20261018_007","RQ20261018_008","RQ20261018_009","RQ20261018_010","RQ20261018_011","RQ20261018_012","RQ20261018_013","RQ20261018_014","RQ20261018_015","RQ20261018_016","RQ20261018_017","RQ20261018_018","RQ20261018_019","RQ20261018_020","RQ20261018_021","RQ20261018_022","RQ20261018_023","RQ20261018_024","RQ20261018_025","RQ20261018_026","RQ20261018_027","RQ20261018_028","RQ20261018_029","RQ20261018_030","RQ20261018_031","RQ20261018_032","RQ20261018_033","RQ20261018_034","RQ20261018_035","RQ20261018_036"],
+      "fields": ["model_input_protocol", "query_id", "file_order"],
+      "issue": "原题号奇偶及三联顺序与状态有确定结构关联；是否实际泄漏取决于执行协议，未读取实现。",
+      "minimal_fix": "模型仅见单条 text、每题新上下文、固定打乱顺序；原 ID/分组/category/参考留在模型不可见的记账和评分侧。确需显示 ID 时另用与状态无关的不透明 ID。",
+      "changes_overall_state": false
+    }
+  ],
+  "boundary_review": {
+    "pending_status_should_be_preserved": true,
+    "pending_status_does_not_force_insufficient_info": true,
+    "mechanism_to_query_ids": {
+      "M03": ["RQ20261018_005","RQ20261018_006","RQ20261018_034","RQ20261018_035","RQ20261018_036"],
+      "M08": ["RQ20261018_015","RQ20261018_016","RQ20261018_031","RQ20261018_032","RQ20261018_033"],
+      "M12": ["RQ20261018_023","RQ20261018_024","RQ20261018_034","RQ20261018_035","RQ20261018_036"]
+    },
+    "unique_query_count": 12,
+    "decisions": [
+      {"query_id":"RQ20261018_005","state":"risk","decision":"retain_pending","reason":"绝对全债税承诺支持筛查；不裁断保单执行或税负。"},
+      {"query_id":"RQ20261018_006","state":"no_clear_risk","decision":"retain_pending","reason":"有条件区分债权和给付；不反推个案免税。"},
+      {"query_id":"RQ20261018_015","state":"risk","decision":"retain_pending","reason":"已知等待期及免赔额与明确话术相反；不判具体理赔。"},
+      {"query_id":"RQ20261018_016","state":"insufficient_info","decision":"retain_pending","reason":"缺真实合同及完整说明，不由录音截断推未说明。"},
+      {"query_id":"RQ20261018_023","state":"risk","decision":"retain_pending","reason":"明确取消后仍安排推新；属于拟营销预警，不证明已拨号。"},
+      {"query_id":"RQ20261018_024","state":"insufficient_info","decision":"retain_pending","reason":"取消明确，后续服务或营销目的未知。"},
+      {"query_id":"RQ20261018_031","state":"risk","decision":"retain_pending","reason":"退款、作业限制、无停售均有独立事实；不适用 L004 认定团险。"},
+      {"query_id":"RQ20261018_032","state":"no_clear_risk","decision":"retain_pending","reason":"说明与合同一致，真实停售公告及准确对应由背景给定。"},
+      {"query_id":"RQ20261018_033","state":"insufficient_info","decision":"retain_pending","reason":"退款、限制及公告真实性均待核，销售自称公告不足。"},
+      {"query_id":"RQ20261018_034","state":"risk","decision":"retain_pending","reason":"全债税、无证销售、取消后推新分别有事实；不扩为法律金标。"},
+      {"query_id":"RQ20261018_035","state":"no_clear_risk","decision":"retain_pending","reason":"场务、应请求理赔服务和有条件债税说明均未满足相应风险条件。"},
+      {"query_id":"RQ20261018_036","state":"insufficient_info","decision":"retain_pending","reason":"给付性质、协会行为与许可、取消范围及联系目的待核。"}
+    ],
+    "limits": ["M03 不裁断全部执行、撤销、继承、婚姻财产或所有税种。","M08 条文不能替代具体合同事实；L004 团险范围排除不豁免全部说明责任。","M12 不补直接案例，不引入未准入的六个月期限或期满自动恢复营销。","不升级 human_approved，不声称新完成来源现行性与2026-08-28之后立改废核验。"]
+  },
+  "split_protocol": {
+    "protocol_id": "fixed_story_group_18_18_v1_20261018",
+    "status": "proposed_fixed_before_model_results",
+    "assignment_basis": "一次性明确整组映射，按题型、三分类与边界数量作结构平衡；未用模型结果。",
+    "whole_story_groups_only": true,
+    "all_12_mechanisms_required_in_each_split": false,
+    "development": {
+      "group_ids": ["SG01","SG03","SG05","SG08","SG10","SG12","MG01","MG02"],
+      "query_ids": ["RQ20261018_001","RQ20261018_002","RQ20261018_005","RQ20261018_006","RQ20261018_009","RQ20261018_010","RQ20261018_015","RQ20261018_016","RQ20261018_019","RQ20261018_020","RQ20261018_023","RQ20261018_024","RQ20261018_025","RQ20261018_026","RQ20261018_027","RQ20261018_028","RQ20261018_029","RQ20261018_030"],
+      "query_count": 18,
+      "group_count": 8,
+      "single_query_count": 12,
+      "multi_query_count": 6,
+      "state_counts": {"risk":8,"no_clear_risk":5,"insufficient_info":5},
+      "boundary_reference_pending_count": 6,
+      "evaluated_mechanisms": ["M01","M02","M03","M04","M05","M06","M08","M10","M11","M12"]
+    },
+    "holdout": {
+      "group_ids": ["SG02","SG04","SG06","SG07","SG09","SG11","MG03","MG04"],
+      "query_ids": ["RQ20261018_003","RQ20261018_004","RQ20261018_007","RQ20261018_008","RQ20261018_011","RQ20261018_012","RQ20261018_013","RQ20261018_014","RQ20261018_017","RQ20261018_018","RQ20261018_021","RQ20261018_022","RQ20261018_031","RQ20261018_032","RQ20261018_033","RQ20261018_034","RQ20261018_035","RQ20261018_036"],
+      "query_count": 18,
+      "group_count": 8,
+      "single_query_count": 12,
+      "multi_query_count": 6,
+      "state_counts": {"risk":8,"no_clear_risk":5,"insufficient_info":5},
+      "boundary_reference_pending_count": 6,
+      "evaluated_mechanisms": ["M02","M03","M04","M06","M07","M08","M09","M10","M11","M12"]
+    },
+    "freeze_and_visibility_rules": ["先修参考并重验和记录哈希，再冻结输入、知识、提示版本和此整组映射。","只用开发题调试、示例和参数选择；留出参考及逐题结果由评分侧保管。","最终配置固定后再一次性运行留出，不按其表现换组、改参数或改答案重跑择优。","只把单条 text 传模型，各题新上下文，固定打乱运行顺序，原 ID 和分组不可见。","分开报告整题、机制、必要条件、证据跨度和边界子集结果。","若留出暴露数据缺陷，记录并隔离受影响评分，不静默修订后反复择优。"],
+    "audit_visibility_limit": "静态审核者已读取全量参考；不是审核者盲测或专家审查。"
+  },
+  "naturalness_assessment": "营销、工单和培训复盘叙述可用，正常版保留触发词；仍是事实受控、负向说明充分的合成题，不代表真实业务分布或泛化。"
+}

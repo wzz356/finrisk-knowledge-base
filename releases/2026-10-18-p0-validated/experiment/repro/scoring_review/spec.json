@@ -1,0 +1,51 @@
+{
+  "review_date": "2026-10-18",
+  "review_type": "independent_specification_review",
+  "core_spec_status": "pass",
+  "gate": "not_blocked",
+  "blocking_findings": 0,
+  "open_code_defects": 0,
+  "scope": {
+    "read_files": ["scoring.py", "scoring_notes.md", "tests/test_scoring.py"],
+    "real_questions_or_references_read": false,
+    "model_results_read": false,
+    "real_scoring_run": false,
+    "network_or_api_used": false,
+    "implementation_modified": false
+  },
+  "checks": [
+    {"id": "S1", "name": "four_separate_strata", "status": "pass", "lines": [307, 329]},
+    {"id": "S2", "name": "classification_full_denominators_invalid_column", "status": "pass", "lines": [182, 188, 234, 253], "independent_cases": 3375},
+    {"id": "S3", "name": "mechanism_exact_and_micro_invalid_semantics", "status": "pass", "lines": [190, 195, 255, 258], "independent_cases": 48},
+    {"id": "S4", "name": "registered_predicate_subset_primary_extras_separate", "status": "pass", "lines": [197, 217, 259, 266], "independent_cases": 288},
+    {"id": "S5", "name": "citations_mechanical_only", "status": "pass", "lines": [137, 165]},
+    {"id": "S6", "name": "normal_nonrisk_unknown_denominators_distinct", "status": "pass", "lines": [219, 243, 268, 272]},
+    {"id": "S7", "name": "paired_exact_mcnemar", "status": "pass", "lines": [120, 134], "independent_cases": 121},
+    {"id": "S8", "name": "wilson_default_95_percent_and_fixed_extreme_confidence", "status": "pass", "lines": [19, 32], "independent_cases": 9},
+    {"id": "S9", "name": "input_audit_zero_denominators_json_and_no_mutation", "status": "pass"}
+  ],
+  "verification": {
+    "existing_tests": {"tests": 25, "failures": 0, "exit_code": 0},
+    "independent_handwritten_cases": {
+      "total": 3844,
+      "classification": 3375,
+      "mechanisms": 48,
+      "predicates": 288,
+      "mcnemar": 121,
+      "wilson": 9,
+      "integrated": 3,
+      "failures": 0,
+      "exit_code": 0
+    }
+  },
+  "resolved_cross_references": ["quality.json:Q1", "quality.json:D1"],
+  "correlation_limitation_explicit_in_current_notes": true,
+  "optional_group_bootstrap": {
+    "recommended": true,
+    "blocking": false,
+    "resampling_unit": "group_id",
+    "preserve": ["all_queries_within_group", "old_new_pairing", "four_strata_separation"],
+    "statistic": "recompute_query_weighted_new_minus_old_difference_within_each_stratum",
+    "limitations": ["small_group_count", "degenerate_resamples", "exploratory_only"]
+  }
+}

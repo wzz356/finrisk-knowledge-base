@@ -1,0 +1,151 @@
+{
+  "reviewed_date": "2026-10-18",
+  "reviewer": "independent runtime code reviewer",
+  "specification": "docs/superpowers/specs/2026-10-18-finrisk-evidence-runtime-design.md",
+  "verdict": "no_open_blocking_code_findings",
+  "open_findings": [],
+  "test_results": [
+    {
+      "pattern": "test_full_reader.py",
+      "passed": 12,
+      "scope": "small fixtures only; portable new process included"
+    },
+    {
+      "pattern": "test_scope*.py",
+      "passed": 11
+    },
+    {
+      "pattern": "test_evidence_packer.py",
+      "passed": 6
+    },
+    {
+      "pattern": "test_risk_coverage.py",
+      "passed": 5
+    },
+    {
+      "pattern": "test_knowledge_assets.py",
+      "passed": 3
+    },
+    {
+      "pattern": "test_runtime_cli.py",
+      "passed": 3
+    }
+  ],
+  "tests_passed": 40,
+  "tests_failed": 0,
+  "API_calls": 0,
+  "full_corpus_reader_constructed_by_reviewer": false,
+  "full_corpus_mechanical_acceptance_independently_repeated": false,
+  "legal_semantics_or_expert_gold_review": false,
+  "reviewed_file_sha256": {
+    "full_reader.py": "2381c0a191463008ead44a1b93d5e5ae838f148be256173e13a147e52cf3808f",
+    "full_reader_task/reader.py": "f53baaf8ee79ae92894b1fdacf000fb95e7a53fbefedf35b9847d21bbbf1b5e5",
+    "full_reader_task/builder.py": "7ace876a27a5263f0b8cc9e73989a12841790f1824509069503ae638e0e17462",
+    "full_reader_task/primitives.py": "36c112dc76649e658caef21d027108e07ae5e66b413096cae3a591e8bb1ad3be",
+    "full_reader_task/legacy_base_reader.py": "a1e8d2d59380b2edbf110e2d046e6a89a16ed61e38c7e485daefaacf01de4013",
+    "full_reader_task/__init__.py": "e3ab6109eb9ce2969f3f065719648226935ea09c8143be6c70e714c0898d0c19",
+    "knowledge_assets.py": "56d3c04003bdd060cc2a32ee54ce28f9b0bc7e7b7a831a9231833eaab4557f96",
+    "frozen_legal_registry.py": "c3556502c90e8c0cbfa4d6f2c993bd52384b60219ed274be977c3ad4575489b8",
+    "scope_table.py": "c573c2868a5e1fe1f799e307941d8f9e732edcea1839ff650f827feebd97163f",
+    "scope_selector.py": "73eea13775df90bec5df43d3205871da0d8fe3423d32456214c227df9ac67a6a",
+    "risk_coverage.py": "cb89536d97e96bddbe572585b3c3993da49b0451f94c4d1ec15876af438c4f08",
+    "evidence_packer.py": "fe1675e0812d1696e163c3778bbf8a135f05d269262d80dc618b7be8f87d188f",
+    "evidence_runtime.py": "254fdf40a53b0e76439ca2ecbbfb15a5342f92260a20fe1bc269bc70580df86f",
+    "runtime_common.py": "72e35a67ceec00853121e4a681cc67638afd19b16a85de8cd1fb38d840d008aa",
+    "runtime_cli.py": "ee599ff986e7094f646763ae5fa9f3404a13dd74bfb5967cbbfb191f591693fa",
+    "tests/test_runtime_cli.py": "01e7851072b6d80fe3b644ac61b9480e865212968cdab8be599f717833cd8efe"
+  },
+  "schema": "finrisk-runtime-quality-review-v1",
+  "resolved_findings": [
+    {
+      "id": "QUALITY-R2",
+      "priority": "P2",
+      "status": "fixed_and_independently_reverified",
+      "file": "evidence_packer.py",
+      "line": 48,
+      "title": "联合依赖闭包触限后，已装入条文仍出现在补读列表",
+      "before": "unresolved保存联合closure(limit32)的unread；逐root后来补齐后，next_read未减included，coverage也仍仅因联合诊断partial而部分。",
+      "impact": "调用方会重复读取已获得条文，可能持续补读；完整装配也可能被错误标成partial。",
+      "reproduction_before": {
+        "mechanism_ids": [
+          "M11",
+          "M07",
+          "M03"
+        ],
+        "law_budget": 8000,
+        "used_chars": 7704,
+        "included_articles": 33,
+        "next_read_articles": 14,
+        "already_included_but_next_read": [
+          "D-ESIGN-A0003",
+          "D-ESIGN-A0004",
+          "D-ESIGN-A0013",
+          "D-ESIGN-A0014",
+          "L002-A0031",
+          "L002-A0034"
+        ]
+      },
+      "minimal_fix": "next_read去掉最终included，以实际并集与剩余missing/unread/excluded/guide omission计算装配状态，保留原闭包诊断。",
+      "verification": [
+        "test_joint_closure_limit_does_not_request_already_assembled_articles passed: 40 articles complete, no next_read",
+        "independent actual-assets 3-mechanism probe: 33 included / 8 next_read / intersection empty / 7704 chars",
+        "independent actual-assets 12-mechanism probe: 37 included / 24 next_read / intersection empty / 7993 chars"
+      ]
+    },
+    {
+      "id": "QUALITY-R3",
+      "priority": "P2",
+      "status": "fixed_and_independently_reverified",
+      "file": "runtime_cli.py",
+      "line": 16,
+      "title": "非法类型的案例ID未被serve捕获，导致持久worker退出",
+      "before": "JSON请求read_case(unit_id=[])在真实SQLite映射抛出sqlite3.ProgrammingError；原serve只捕获ValueError/TypeError/KeyError/JSONDecodeError。",
+      "impact": "一条坏参数会退出已完成全库校验的持久进程，后续请求无法继续；需要再次昂贵冷启动。",
+      "minimal_fix": "抽出handle_line并捕获sqlite3.Error，serve在同一EvidenceRuntime上下文中逐行调用，错误返回ok=false。",
+      "verification": [
+        "test_bad_database_parameter_does_not_kill_persistent_worker passed",
+        "independent actual small FullReader probe: ProgrammingError -> ok=false, then valid read_case succeeds on the same instance",
+        "private close operation returns ok=false; static inspection confirms only whitelisted methods are dispatched and EvidenceRuntime is outside stdin loop"
+      ]
+    }
+  ],
+  "strengths": [
+    "SQLite主键拒绝重复；压缩原JSON记录并保持只读映射，返回新对象；不会把全量语料常驻为dict。",
+    "显式外部manifest信任锚同时约束DB载荷、实现载荷与五版本，未登记span及缺失旧绑定补丁均拒绝。",
+    "旧read/read_span字段由冻结基类复用；历史候选归属、当前事实、规则解释与调用方检查的身份被保留。",
+    "实际送模型文本按字符计预算；无单条或例外截断，来源提示去重；修复后补读集合与最终装配集合相离。",
+    "本地JSONL worker只分派白名单工具，显式root/pin，单实例跨请求复用；坏数据库参数返回错误后继续服务。"
+  ],
+  "nonblocking_limits": [
+    "FullKnowledgeReader启动仍进行全量流式逐记录校验；有界缓存不等于快速启动。应按已有生命周期约束每进程复用持久实例，并公布主流程实测耗时。",
+    "本审核只运行小夹具与67条资料相关验证，未运行test_evidence_runtime.py，未独立重复全量110878及旧960回放；最终验收需以主流程报告为准。"
+  ],
+  "verification_run": "Fresh unified unittest suite: 40 passed; excluded only test_evidence_runtime to avoid another full reader startup",
+  "incremental_review_assets_sha256": {
+    "outputs/FinRisk_知识库P0修复_20261018/policy/article_scopes.jsonl": "c81b6578ac65bb19464c679bce708f3226394d17595c785a66f1d81ce5616924",
+    "outputs/FinRisk_知识库P0修复_20261018/reports/scope_patch.json": "31151509761e53f49af40edf77dc6d63df943b5f704a88ef06b278c572758f6f",
+    "work/finrisk_evidence_runtime_v1_20261018/scope_review/review.json": "3069148c08fa129011d0d740049c07b37e0b209e2afcf070c55d4726f051a999"
+  },
+  "scope_001_patch_review": {
+    "status": "verified_against_original_Scope_001_minimal_fix",
+    "only_changed_article_id": "L002-A0029",
+    "preserved_old_actor_tags": true,
+    "added_general": true,
+    "actor_basis": "assistant_interpretation",
+    "conditional_axes_includes_actor": true,
+    "original_text_sha_preserved": true,
+    "written_authorized_representative_and_no_salesperson_substitution_literals_preserved": true,
+    "result_sha_matches_scope_patch_receipt": true,
+    "representative_actor_queries": "conditional",
+    "legal_expert_gold": false
+  },
+  "runtime_cli_review": {
+    "operations_whitelisted": true,
+    "private_operations_rejected": true,
+    "explicit_root_and_manifest_pin_required": true,
+    "single_EvidenceRuntime_instance_outside_stdin_loop": true,
+    "network_calls": 0,
+    "bad_parameter_then_good_request_same_real_small_reader": "passed",
+    "full_corpus_worker_process_integration_repeated_by_reviewer": false
+  }
+}

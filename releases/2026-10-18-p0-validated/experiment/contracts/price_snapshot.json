@@ -1,0 +1,13 @@
+{
+  "checked_date": "2026-10-18",
+  "official_pricing_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "official_chat_api_url": "https://api-docs.deepseek.com/api/create-chat-completion/",
+  "requested_model": "deepseek-flash",
+  "published_served_version": "DeepSeek-V4.1-Flash-1017",
+  "peak_rates_usd_per_million": {
+    "input_miss": 0.3,
+    "input_hit": 0.006,
+    "output": 1.2
+  },
+  "budget_accounting": "peak bound even when off-peak; not provider invoice"
+}

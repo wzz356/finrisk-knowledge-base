@@ -1,0 +1,52 @@
+{
+  "scope": "finrisk-p0-effect-new36-20261018-v1",
+  "model": "deepseek-flash",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "max_unique_tasks": {
+    "rerank": 3600,
+    "scope": 36,
+    "judgment": 72
+  },
+  "max_attempts_per_task": 3,
+  "proposed_hard_cap_usd": 2,
+  "all_attempts_share_cap": true,
+  "max_workers": 12,
+  "unknown_usage_booked_at_full_reservation": true,
+  "unknown_transport_retry_within_attempt_cap": true,
+  "data_sent": [
+    "36 frozen synthetic business inputs",
+    "public penalty excerpts in shared RRF100",
+    "public legal text and model-authored reading guides",
+    "input-only conservative scope extraction"
+  ],
+  "data_excluded": [
+    "reference answers",
+    "reference grades",
+    "query_id",
+    "opaque_id",
+    "group_id",
+    "split",
+    "analysis_set",
+    "arm",
+    "credential contents"
+  ],
+  "arms": [
+    "old expanded legal assembly",
+    "new scope-aware whole legal assembly"
+  ],
+  "shared_case_budget": 4000,
+  "legal_budget_per_arm": 4000,
+  "common_controls": [
+    "same BM25/BGE/RRF candidates and DeepSeek ranking",
+    "same uncapped current-input reading candidates",
+    "same condition definitions and scope extraction",
+    "same actual case_text and displayed case IDs",
+    "same model and output protocol"
+  ],
+  "retrieval_metrics_not_measured": [
+    "global true Recall",
+    "new-query MRR/NDCG without independently labelled case reference"
+  ],
+  "protocol_source": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库P0修复_20261018\\evaluation_new36\\protocol.md",
+  "fee_protocol_source": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_法规库实施规划_20261017\\实验协议.md"
+}

@@ -1,0 +1,10 @@
+{
+  "runtime_manifest_sha256": "c178df130ac618d5ba6e5a7944648fb6d25d60fb3de2c095b6f833fc16cf96a8",
+  "expected_versions": {
+    "content": "finrisk-basic-closeout-v2.1-20261013:fa2fb293b5cb483ed6f7e300758cbf5ae67b868d5fb5033bd3db053bb7d9ebb6",
+    "projection": "V2-all9639_final:52a987679efaee2a3e849598e2946422d01410c9c98ef6029ec2b7be30e88546",
+    "articles": "articles-v1-20261017:6733e9fa9e4f05ac55caf4222ff821ae6ce08bfbd67c2ac4fba6aab5680cb2f1",
+    "rules": "rules-v1-20261017:7d2f69f3b378c7bec32eefaad04e7eff409c64c595e95d85db75f11a61e116ee",
+    "scope": "finrisk-scope-overlay-20261018-v1"
+  }
+}

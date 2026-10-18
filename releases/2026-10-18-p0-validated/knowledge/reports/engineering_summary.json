@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "engineering_probes": 7,
+  "API_calls": 0,
+  "model_accuracy_measured": false,
+  "retrieval_recall_measured": false,
+  "incompatible_article_uses_old": 4,
+  "incompatible_article_uses_new": 0,
+  "limitations": [
+    "7个已知失败工程回归，不是随机样本或泛化效果证据",
+    "只改变材料装配，不改变BM25/BGE/RRF/DeepSeek重排或旧检索指标",
+    "规范不匹配按调用方引用的范围解释，不独立证明当前事实或法律适用"
+  ]
+}

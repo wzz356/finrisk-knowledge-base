@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "tests_run": 47,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 281.1275095000019,
+  "public_runtime_startup_seconds": 249.6458147000085,
+  "full_reader_validation": {
+    "literal_ranges": 450996,
+    "unit_layers": 221773,
+    "reviewed_rebinds": 33
+  },
+  "all_consumer_modules_from_extracted_package": true,
+  "consumer_module_paths": {
+    "runtime_common": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\runtime_common.py",
+    "frozen_legal_registry": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\frozen_legal_registry.py",
+    "knowledge_assets": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\knowledge_assets.py",
+    "evidence_packer": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\evidence_packer.py",
+    "full_reader_task": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\full_reader_task\\__init__.py",
+    "full_reader_task.primitives": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\full_reader_task\\primitives.py",
+    "full_reader_task.legacy_base_reader": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\full_reader_task\\legacy_base_reader.py",
+    "full_reader_task.reader": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\full_reader_task\\reader.py",
+    "full_reader_task.builder": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\full_reader_task\\builder.py",
+    "full_reader": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\full_reader.py",
+    "scope_selector": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\scope_selector.py",
+    "scope_table": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\scope_table.py",
+    "risk_coverage": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\risk_coverage.py",
+    "evidence_runtime": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\evidence_runtime.py",
+    "runtime_cli": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018\\code\\runtime_cli.py"
+  },
+  "API_calls": 0,
+  "model_accuracy_measured": false
+}

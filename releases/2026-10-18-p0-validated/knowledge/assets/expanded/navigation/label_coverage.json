@@ -1,0 +1,227 @@
+[
+  {
+    "risk_tag": "欺骗投保人",
+    "status": "partial",
+    "mechanism_ids": [
+      "M06"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "销售误导",
+    "status": "partial",
+    "mechanism_ids": [
+      "M07",
+      "M08",
+      "M06"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "夸大收益",
+    "status": "partial",
+    "mechanism_ids": [
+      "M05"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "虚假宣传",
+    "status": "partial",
+    "mechanism_ids": [
+      "M09"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "合同外利益",
+    "status": "partial",
+    "mechanism_ids": [
+      "M04"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "赠送利益",
+    "status": "partial",
+    "mechanism_ids": [
+      "M04"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "回扣返佣",
+    "status": "partial",
+    "mechanism_ids": [
+      "M04"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "产品说明会违规",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "培训材料违规",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "回访违规",
+    "status": "partial",
+    "mechanism_ids": [
+      "M01",
+      "M02"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "电销违规",
+    "status": "partial",
+    "mechanism_ids": [
+      "M12"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "不当比较",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "贬低竞品",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "绝对化表述",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "承诺收益",
+    "status": "partial",
+    "mechanism_ids": [
+      "M05"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "保证收益",
+    "status": "partial",
+    "mechanism_ids": [
+      "M05"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "弱化风险提示",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "隐瞒重要信息",
+    "status": "partial",
+    "mechanism_ids": [
+      "M07",
+      "M08"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "虚构收益率",
+    "status": "partial",
+    "mechanism_ids": [
+      "M05"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "诱导投保",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "避债避税",
+    "status": "partial",
+    "mechanism_ids": [
+      "M03"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "虚列费用套取资金",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "代理人管理不到位",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "委托无资质机构销售",
+    "status": "partial",
+    "mechanism_ids": [
+      "M10"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "未按规定使用费率条款",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "客户信息不真实",
+    "status": "partial",
+    "mechanism_ids": [
+      "M11"
+    ],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  },
+  {
+    "risk_tag": "其他",
+    "status": "uncovered_in_this_enhancement",
+    "mechanism_ids": [],
+    "automatic_assignment": false,
+    "full_legal_boundary_coverage": false
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "reviewed_date": "2026-10-18",
+  "reviewer": "independent runtime code reviewer",
+  "specification": "docs/superpowers/specs/2026-10-18-finrisk-evidence-runtime-design.md",
+  "verdict": "no_open_blocking_code_findings",
+  "open_findings": [],
+  "test_results": [
+    {
+      "pattern": "test_full_reader.py",
+      "passed": 12,
+      "scope": "small fixtures only; portable new process included"
+    },
+    {
+      "pattern": "test_scope*.py",
+      "passed": 11
+    },
+    {
+      "pattern": "test_evidence_packer.py",
+      "passed": 6
+    },
+    {
+      "pattern": "test_risk_coverage.py",
+      "passed": 5
+    },
+    {
+      "pattern": "test_knowledge_assets.py",
+      "passed": 3
+    },
+    {
+      "pattern": "test_runtime_cli.py",
+      "passed": 3
+    }
+  ],
+  "tests_passed": 40,
+  "tests_failed": 0,
+  "API_calls": 0,
+  "full_corpus_reader_constructed_by_reviewer": false,
+  "full_corpus_mechanical_acceptance_independently_repeated": false,
+  "legal_semantics_or_expert_gold_review": false,
+  "reviewed_file_sha256": {
+    "full_reader.py": "2381c0a191463008ead44a1b93d5e5ae838f148be256173e13a147e52cf3808f",
+    "full_reader_task/reader.py": "f53baaf8ee79ae92894b1fdacf000fb95e7a53fbefedf35b9847d21bbbf1b5e5",
+    "full_reader_task/builder.py": "7ace876a27a5263f0b8cc9e73989a12841790f1824509069503ae638e0e17462",
+    "full_reader_task/primitives.py": "36c112dc76649e658caef21d027108e07ae5e66b413096cae3a591e8bb1ad3be",
+    "full_reader_task/legacy_base_reader.py": "a1e8d2d59380b2edbf110e2d046e6a89a16ed61e38c7e485daefaacf01de4013",
+    "full_reader_task/__init__.py": "e3ab6109eb9ce2969f3f065719648226935ea09c8143be6c70e714c0898d0c19",
+    "knowledge_assets.py": "56d3c04003bdd060cc2a32ee54ce28f9b0bc7e7b7a831a9231833eaab4557f96",
+    "frozen_legal_registry.py": "c3556502c90e8c0cbfa4d6f2c993bd52384b60219ed274be977c3ad4575489b8",
+    "scope_table.py": "c573c2868a5e1fe1f799e307941d8f9e732edcea1839ff650f827feebd97163f",
+    "scope_selector.py": "73eea13775df90bec5df43d3205871da0d8fe3423d32456214c227df9ac67a6a",
+    "risk_coverage.py": "cb89536d97e96bddbe572585b3c3993da49b0451f94c4d1ec15876af438c4f08",
+    "evidence_packer.py": "fe1675e0812d1696e163c3778bbf8a135f05d269262d80dc618b7be8f87d188f",
+    "evidence_runtime.py": "254fdf40a53b0e76439ca2ecbbfb15a5342f92260a20fe1bc269bc70580df86f",
+    "runtime_common.py": "72e35a67ceec00853121e4a681cc67638afd19b16a85de8cd1fb38d840d008aa",
+    "runtime_cli.py": "ee599ff986e7094f646763ae5fa9f3404a13dd74bfb5967cbbfb191f591693fa",
+    "tests/test_runtime_cli.py": "01e7851072b6d80fe3b644ac61b9480e865212968cdab8be599f717833cd8efe"
+  },
+  "schema": "finrisk-runtime-spec-review-v1",
+  "resolved_findings": [
+    {
+      "id": "SPEC-R1",
+      "priority": "P1",
+      "status": "fixed_and_independently_reverified",
+      "file": "scope_selector.py",
+      "line": 39,
+      "title": "把可重叠的环节枚举误判为互斥，排除必要披露条文",
+      "before": "stage不相同即mismatch。真实资产下，保险公司在售前介绍万能型保险，insurer/universal_life/pre_sale导致M05的L005-A0012和L005-A0029仅因stage被排除。",
+      "impact": "当前输入明确了时间阶段，却丢失产品说明书的完整风险提示及适用范围上下文；不符合保守范围选择。",
+      "minimal_fix": "未登记阶段互斥依据时，不同stage保守conditional；已证产品/主体互斥仍可排除。",
+      "verification": [
+        "test_disclosure_stage_can_overlap_pre_sale_or_review passed",
+        "test_real_universal_disclosure_not_excluded_at_pre_sale passed",
+        "independent actual-assets probe: L005-A0012/L005-A0029 conditional and included at 8000 chars"
+      ]
+    }
+  ],
+  "requirement_assessment": {
+    "P0_A_full_reader": "代码与12项小夹具符合固定清单SHA、五版本、只读SQLite、非法ID与区间拒绝、有界字节缓存、逐ID返回原字段的设计；未重复构造600MB全量读器。110878/9639与旧960逐值验收由主流程完成并保留其实际报告。",
+    "P0_B_scope_and_budget": "67条侧表SHA与原句核验；运行时只有axis direct_literal错配才能排除，unknown/general保守；R1修复后阶段重叠保留；规范原文优先、完整条文与依赖成组，超预算整组省略并给ID。",
+    "P0_C_multiple_risk": "12机制词表无2个上限；字面触发保留位置；读取/调用方报告检查/待检查分开；否定未自动消解，无触发标unmapped，风险成立与全段安全均不由本层给出。",
+    "local_worker": "runtime_cli显式root/pin、白名单dispatch、单个持久实例；私有操作拒绝；坏SQLite参数不再终止serve。"
+  },
+  "known_external_work_excluded": [
+    "L002-A0029侧表general修补已由主流程单独处理，不重复计为实现缺陷",
+    "36条新题与独立内容审核不属于本次代码审核",
+    "最终封包与全量回读/960回放报告待主流程完成"
+  ],
+  "verification_run": "Fresh unified unittest suite: 40 passed; excluded only test_evidence_runtime to avoid another full reader startup",
+  "incremental_review_assets_sha256": {
+    "outputs/FinRisk_知识库P0修复_20261018/policy/article_scopes.jsonl": "c81b6578ac65bb19464c679bce708f3226394d17595c785a66f1d81ce5616924",
+    "outputs/FinRisk_知识库P0修复_20261018/reports/scope_patch.json": "31151509761e53f49af40edf77dc6d63df943b5f704a88ef06b278c572758f6f",
+    "work/finrisk_evidence_runtime_v1_20261018/scope_review/review.json": "3069148c08fa129011d0d740049c07b37e0b209e2afcf070c55d4726f051a999"
+  },
+  "scope_001_patch_review": {
+    "status": "verified_against_original_Scope_001_minimal_fix",
+    "only_changed_article_id": "L002-A0029",
+    "preserved_old_actor_tags": true,
+    "added_general": true,
+    "actor_basis": "assistant_interpretation",
+    "conditional_axes_includes_actor": true,
+    "original_text_sha_preserved": true,
+    "written_authorized_representative_and_no_salesperson_substitution_literals_preserved": true,
+    "result_sha_matches_scope_patch_receipt": true,
+    "representative_actor_queries": "conditional",
+    "legal_expert_gold": false
+  },
+  "runtime_cli_review": {
+    "operations_whitelisted": true,
+    "private_operations_rejected": true,
+    "explicit_root_and_manifest_pin_required": true,
+    "single_EvidenceRuntime_instance_outside_stdin_loop": true,
+    "network_calls": 0,
+    "bad_parameter_then_good_request_same_real_small_reader": "passed",
+    "full_corpus_worker_process_integration_repeated_by_reviewer": false
+  }
+}

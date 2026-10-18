@@ -1,0 +1,3622 @@
+{
+  "verification_id": "new36_static_verification_20261018_v1",
+  "passed": true,
+  "model_calls": 0,
+  "independent_model_performance_test": false,
+  "final_correction_independent_recheck": "passed_model_silver_not_human_gold",
+  "source_four_files_unchanged": {
+    "passed": true,
+    "before": {
+      "queries.jsonl": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+      "groups.jsonl": "eae4828912c6f8b95d15afee254e7e6d2d82a08fe7e5eb36daaa2d1971084352",
+      "expected.jsonl": "4ed271c6f56c6f3effa1b9d52084e61ec68ab6c2d1f694c7fa81908531a1f420",
+      "author_notes.md": "a384aa4db50c40da8047b1ed18338b0be0f6c2c3e43d20203ae67801a151b44e"
+    },
+    "after": {
+      "queries.jsonl": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+      "groups.jsonl": "eae4828912c6f8b95d15afee254e7e6d2d82a08fe7e5eb36daaa2d1971084352",
+      "expected.jsonl": "4ed271c6f56c6f3effa1b9d52084e61ec68ab6c2d1f694c7fa81908531a1f420",
+      "author_notes.md": "a384aa4db50c40da8047b1ed18338b0be0f6c2c3e43d20203ae67801a151b44e"
+    }
+  },
+  "queries_byte_copy_sha256": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+  "query_count": 36,
+  "unique_query_hashes": 36,
+  "unique_opaque_ids": 36,
+  "required_predicate_assessments": 130,
+  "literal_span_count": 253,
+  "scope_span_count": 146,
+  "predicate_proof_span_count": 104,
+  "predicate_clue_span_count": 3,
+  "all_spans_exact_match": true,
+  "scope_semantic_corrections": {
+    "review_findings_query_count": 21,
+    "patched_query_count": 21,
+    "all_review_R03_query_ids_covered": true,
+    "basis": "Manual local value narrowing/rebinding recorded in patch_log; not inferred from literal-match assertions."
+  },
+  "condition_id_sets_all_exact": true,
+  "three_state_all_consistent": true,
+  "no_overall_or_mechanism_set_flip": true,
+  "split_no_query_overlap": true,
+  "split_no_group_overlap": true,
+  "split_matches_review_exact_assignment": true,
+  "split_checks": {
+    "development": {
+      "query_count": 18,
+      "group_count": 8,
+      "main_analysis_count": 12,
+      "boundary_challenge_count": 6,
+      "state_counts": {
+        "no_clear_risk": 5,
+        "risk": 8,
+        "insufficient_info": 5
+      },
+      "main_state_counts": {
+        "no_clear_risk": 4,
+        "risk": 5,
+        "insufficient_info": 3
+      },
+      "boundary_state_counts": {
+        "risk": 3,
+        "insufficient_info": 2,
+        "no_clear_risk": 1
+      },
+      "query_ids": [
+        "RQ20261018_001",
+        "RQ20261018_002",
+        "RQ20261018_005",
+        "RQ20261018_006",
+        "RQ20261018_009",
+        "RQ20261018_010",
+        "RQ20261018_015",
+        "RQ20261018_016",
+        "RQ20261018_019",
+        "RQ20261018_020",
+        "RQ20261018_023",
+        "RQ20261018_024",
+        "RQ20261018_025",
+        "RQ20261018_026",
+        "RQ20261018_027",
+        "RQ20261018_028",
+        "RQ20261018_029",
+        "RQ20261018_030"
+      ],
+      "group_ids": [
+        "MG01",
+        "MG02",
+        "SG01",
+        "SG03",
+        "SG05",
+        "SG08",
+        "SG10",
+        "SG12"
+      ]
+    },
+    "holdout": {
+      "query_count": 18,
+      "group_count": 8,
+      "main_analysis_count": 12,
+      "boundary_challenge_count": 6,
+      "state_counts": {
+        "no_clear_risk": 5,
+        "risk": 8,
+        "insufficient_info": 5
+      },
+      "main_state_counts": {
+        "risk": 6,
+        "no_clear_risk": 3,
+        "insufficient_info": 3
+      },
+      "boundary_state_counts": {
+        "no_clear_risk": 2,
+        "risk": 2,
+        "insufficient_info": 2
+      },
+      "query_ids": [
+        "RQ20261018_003",
+        "RQ20261018_004",
+        "RQ20261018_007",
+        "RQ20261018_008",
+        "RQ20261018_011",
+        "RQ20261018_012",
+        "RQ20261018_013",
+        "RQ20261018_014",
+        "RQ20261018_017",
+        "RQ20261018_018",
+        "RQ20261018_021",
+        "RQ20261018_022",
+        "RQ20261018_031",
+        "RQ20261018_032",
+        "RQ20261018_033",
+        "RQ20261018_034",
+        "RQ20261018_035",
+        "RQ20261018_036"
+      ],
+      "group_ids": [
+        "MG03",
+        "MG04",
+        "SG02",
+        "SG04",
+        "SG06",
+        "SG07",
+        "SG09",
+        "SG11"
+      ]
+    }
+  },
+  "analysis_counts": {
+    "main_analysis": 24,
+    "boundary_challenge": 12
+  },
+  "adjudication_counts": {
+    "model_silver_independently_reviewed": 24,
+    "boundary_reference_pending": 12
+  },
+  "model_input_visibility": {
+    "every_line_exact_keys": [
+      "opaque_id",
+      "text"
+    ],
+    "private_opaque_mapping_round_trip": true,
+    "original_order_not_used": true,
+    "payload_is_only_text": true,
+    "fresh_context_required_per_query": true,
+    "payload_rules_actual_runtime_implementation_inspected": false
+  },
+  "record_checks": [
+    {
+      "query_id": "RQ20261018_001",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M01",
+          "expected": [
+            "M01.false_answer_instruction",
+            "M01.review_context"
+          ],
+          "actual": [
+            "M01.false_answer_instruction",
+            "M01.review_context"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_002",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M01",
+          "expected": [
+            "M01.false_answer_instruction",
+            "M01.review_context"
+          ],
+          "actual": [
+            "M01.false_answer_instruction",
+            "M01.review_context"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "no_clear_risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_003",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M02",
+          "expected": [
+            "M02.identity_review",
+            "M02.impersonation"
+          ],
+          "actual": [
+            "M02.identity_review",
+            "M02.impersonation"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_004",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M02",
+          "expected": [
+            "M02.identity_review",
+            "M02.impersonation"
+          ],
+          "actual": [
+            "M02.identity_review",
+            "M02.impersonation"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "insufficient_info",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_005",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M03",
+          "expected": [
+            "M03.insurance_legal_promotion",
+            "M03.unconditional_overclaim"
+          ],
+          "actual": [
+            "M03.insurance_legal_promotion",
+            "M03.unconditional_overclaim"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_006",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M03",
+          "expected": [
+            "M03.insurance_legal_promotion",
+            "M03.unconditional_overclaim"
+          ],
+          "actual": [
+            "M03.insurance_legal_promotion",
+            "M03.unconditional_overclaim"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "no_clear_risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_007",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M04",
+          "expected": [
+            "M04.covered_recipient",
+            "M04.outside_contract",
+            "M04.transaction_offer"
+          ],
+          "actual": [
+            "M04.covered_recipient",
+            "M04.outside_contract",
+            "M04.transaction_offer"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_008",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M04",
+          "expected": [
+            "M04.covered_recipient",
+            "M04.outside_contract",
+            "M04.transaction_offer"
+          ],
+          "actual": [
+            "M04.covered_recipient",
+            "M04.outside_contract",
+            "M04.transaction_offer"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "insufficient_info",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_009",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M05",
+          "expected": [
+            "M05.promised_certain",
+            "M05.uncertain_future_benefit"
+          ],
+          "actual": [
+            "M05.promised_certain",
+            "M05.uncertain_future_benefit"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_010",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M05",
+          "expected": [
+            "M05.promised_certain",
+            "M05.uncertain_future_benefit"
+          ],
+          "actual": [
+            "M05.promised_certain",
+            "M05.uncertain_future_benefit"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "no_clear_risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_011",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M06",
+          "expected": [
+            "M06.equated_deposit",
+            "M06.insurance_known"
+          ],
+          "actual": [
+            "M06.equated_deposit",
+            "M06.insurance_known"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_012",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M06",
+          "expected": [
+            "M06.equated_deposit",
+            "M06.insurance_known"
+          ],
+          "actual": [
+            "M06.equated_deposit",
+            "M06.insurance_known"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "insufficient_info",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_013",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M07",
+          "expected": [
+            "M07.known_refund_terms",
+            "M07.refund_assurance",
+            "M07.refund_conflict"
+          ],
+          "actual": [
+            "M07.known_refund_terms",
+            "M07.refund_assurance",
+            "M07.refund_conflict"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_014",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M07",
+          "expected": [
+            "M07.known_refund_terms",
+            "M07.refund_assurance",
+            "M07.refund_conflict"
+          ],
+          "actual": [
+            "M07.known_refund_terms",
+            "M07.refund_assurance",
+            "M07.refund_conflict"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "no_clear_risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_015",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M08",
+          "expected": [
+            "M08.contract_limit_known",
+            "M08.contradiction_or_concealment"
+          ],
+          "actual": [
+            "M08.contract_limit_known",
+            "M08.contradiction_or_concealment"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_016",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M08",
+          "expected": [
+            "M08.contract_limit_known",
+            "M08.contradiction_or_concealment"
+          ],
+          "actual": [
+            "M08.contract_limit_known",
+            "M08.contradiction_or_concealment"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "insufficient_info",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_017",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M09",
+          "expected": [
+            "M09.known_notice_violation_or_falsity",
+            "M09.scarcity_statement"
+          ],
+          "actual": [
+            "M09.known_notice_violation_or_falsity",
+            "M09.scarcity_statement"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_018",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M09",
+          "expected": [
+            "M09.known_notice_violation_or_falsity",
+            "M09.scarcity_statement"
+          ],
+          "actual": [
+            "M09.known_notice_violation_or_falsity",
+            "M09.scarcity_statement"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "no_clear_risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_019",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M10",
+          "expected": [
+            "M10.institution_unlicensed",
+            "M10.substantive_sales"
+          ],
+          "actual": [
+            "M10.institution_unlicensed",
+            "M10.substantive_sales"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_020",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M10",
+          "expected": [
+            "M10.institution_unlicensed",
+            "M10.substantive_sales"
+          ],
+          "actual": [
+            "M10.institution_unlicensed",
+            "M10.substantive_sales"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "insufficient_info",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_021",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M11",
+          "expected": [
+            "M11.contract_confirmation",
+            "M11.salesperson_substitution"
+          ],
+          "actual": [
+            "M11.contract_confirmation",
+            "M11.salesperson_substitution"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_022",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M11",
+          "expected": [
+            "M11.contract_confirmation",
+            "M11.salesperson_substitution"
+          ],
+          "actual": [
+            "M11.contract_confirmation",
+            "M11.salesperson_substitution"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "no_clear_risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_023",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M12",
+          "expected": [
+            "M12.later_marketing",
+            "M12.marketing_cancelled"
+          ],
+          "actual": [
+            "M12.later_marketing",
+            "M12.marketing_cancelled"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_024",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M12",
+          "expected": [
+            "M12.later_marketing",
+            "M12.marketing_cancelled"
+          ],
+          "actual": [
+            "M12.later_marketing",
+            "M12.marketing_cancelled"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "insufficient_info",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M01",
+          "expected": [
+            "M01.false_answer_instruction",
+            "M01.review_context"
+          ],
+          "actual": [
+            "M01.false_answer_instruction",
+            "M01.review_context"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M02",
+          "expected": [
+            "M02.identity_review",
+            "M02.impersonation"
+          ],
+          "actual": [
+            "M02.identity_review",
+            "M02.impersonation"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M11",
+          "expected": [
+            "M11.contract_confirmation",
+            "M11.salesperson_substitution"
+          ],
+          "actual": [
+            "M11.contract_confirmation",
+            "M11.salesperson_substitution"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M01",
+          "expected": [
+            "M01.false_answer_instruction",
+            "M01.review_context"
+          ],
+          "actual": [
+            "M01.false_answer_instruction",
+            "M01.review_context"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M02",
+          "expected": [
+            "M02.identity_review",
+            "M02.impersonation"
+          ],
+          "actual": [
+            "M02.identity_review",
+            "M02.impersonation"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M11",
+          "expected": [
+            "M11.contract_confirmation",
+            "M11.salesperson_substitution"
+          ],
+          "actual": [
+            "M11.contract_confirmation",
+            "M11.salesperson_substitution"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "no_clear_risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_027",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M01",
+          "expected": [
+            "M01.false_answer_instruction",
+            "M01.review_context"
+          ],
+          "actual": [
+            "M01.false_answer_instruction",
+            "M01.review_context"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M02",
+          "expected": [
+            "M02.identity_review",
+            "M02.impersonation"
+          ],
+          "actual": [
+            "M02.identity_review",
+            "M02.impersonation"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M11",
+          "expected": [
+            "M11.contract_confirmation",
+            "M11.salesperson_substitution"
+          ],
+          "actual": [
+            "M11.contract_confirmation",
+            "M11.salesperson_substitution"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "insufficient_info",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M04",
+          "expected": [
+            "M04.covered_recipient",
+            "M04.outside_contract",
+            "M04.transaction_offer"
+          ],
+          "actual": [
+            "M04.covered_recipient",
+            "M04.outside_contract",
+            "M04.transaction_offer"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M05",
+          "expected": [
+            "M05.promised_certain",
+            "M05.uncertain_future_benefit"
+          ],
+          "actual": [
+            "M05.promised_certain",
+            "M05.uncertain_future_benefit"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M06",
+          "expected": [
+            "M06.equated_deposit",
+            "M06.insurance_known"
+          ],
+          "actual": [
+            "M06.equated_deposit",
+            "M06.insurance_known"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M04",
+          "expected": [
+            "M04.covered_recipient",
+            "M04.outside_contract",
+            "M04.transaction_offer"
+          ],
+          "actual": [
+            "M04.covered_recipient",
+            "M04.outside_contract",
+            "M04.transaction_offer"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M05",
+          "expected": [
+            "M05.promised_certain",
+            "M05.uncertain_future_benefit"
+          ],
+          "actual": [
+            "M05.promised_certain",
+            "M05.uncertain_future_benefit"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M06",
+          "expected": [
+            "M06.equated_deposit",
+            "M06.insurance_known"
+          ],
+          "actual": [
+            "M06.equated_deposit",
+            "M06.insurance_known"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "no_clear_risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_030",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M04",
+          "expected": [
+            "M04.covered_recipient",
+            "M04.outside_contract",
+            "M04.transaction_offer"
+          ],
+          "actual": [
+            "M04.covered_recipient",
+            "M04.outside_contract",
+            "M04.transaction_offer"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M05",
+          "expected": [
+            "M05.promised_certain",
+            "M05.uncertain_future_benefit"
+          ],
+          "actual": [
+            "M05.promised_certain",
+            "M05.uncertain_future_benefit"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M06",
+          "expected": [
+            "M06.equated_deposit",
+            "M06.insurance_known"
+          ],
+          "actual": [
+            "M06.equated_deposit",
+            "M06.insurance_known"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "insufficient_info",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M07",
+          "expected": [
+            "M07.known_refund_terms",
+            "M07.refund_assurance",
+            "M07.refund_conflict"
+          ],
+          "actual": [
+            "M07.known_refund_terms",
+            "M07.refund_assurance",
+            "M07.refund_conflict"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M08",
+          "expected": [
+            "M08.contract_limit_known",
+            "M08.contradiction_or_concealment"
+          ],
+          "actual": [
+            "M08.contract_limit_known",
+            "M08.contradiction_or_concealment"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M09",
+          "expected": [
+            "M09.known_notice_violation_or_falsity",
+            "M09.scarcity_statement"
+          ],
+          "actual": [
+            "M09.known_notice_violation_or_falsity",
+            "M09.scarcity_statement"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M07",
+          "expected": [
+            "M07.known_refund_terms",
+            "M07.refund_assurance",
+            "M07.refund_conflict"
+          ],
+          "actual": [
+            "M07.known_refund_terms",
+            "M07.refund_assurance",
+            "M07.refund_conflict"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M08",
+          "expected": [
+            "M08.contract_limit_known",
+            "M08.contradiction_or_concealment"
+          ],
+          "actual": [
+            "M08.contract_limit_known",
+            "M08.contradiction_or_concealment"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M09",
+          "expected": [
+            "M09.known_notice_violation_or_falsity",
+            "M09.scarcity_statement"
+          ],
+          "actual": [
+            "M09.known_notice_violation_or_falsity",
+            "M09.scarcity_statement"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "no_clear_risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_033",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M07",
+          "expected": [
+            "M07.known_refund_terms",
+            "M07.refund_assurance",
+            "M07.refund_conflict"
+          ],
+          "actual": [
+            "M07.known_refund_terms",
+            "M07.refund_assurance",
+            "M07.refund_conflict"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M08",
+          "expected": [
+            "M08.contract_limit_known",
+            "M08.contradiction_or_concealment"
+          ],
+          "actual": [
+            "M08.contract_limit_known",
+            "M08.contradiction_or_concealment"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M09",
+          "expected": [
+            "M09.known_notice_violation_or_falsity",
+            "M09.scarcity_statement"
+          ],
+          "actual": [
+            "M09.known_notice_violation_or_falsity",
+            "M09.scarcity_statement"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "insufficient_info",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M03",
+          "expected": [
+            "M03.insurance_legal_promotion",
+            "M03.unconditional_overclaim"
+          ],
+          "actual": [
+            "M03.insurance_legal_promotion",
+            "M03.unconditional_overclaim"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M10",
+          "expected": [
+            "M10.institution_unlicensed",
+            "M10.substantive_sales"
+          ],
+          "actual": [
+            "M10.institution_unlicensed",
+            "M10.substantive_sales"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M12",
+          "expected": [
+            "M12.later_marketing",
+            "M12.marketing_cancelled"
+          ],
+          "actual": [
+            "M12.later_marketing",
+            "M12.marketing_cancelled"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M03",
+          "expected": [
+            "M03.insurance_legal_promotion",
+            "M03.unconditional_overclaim"
+          ],
+          "actual": [
+            "M03.insurance_legal_promotion",
+            "M03.unconditional_overclaim"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M10",
+          "expected": [
+            "M10.institution_unlicensed",
+            "M10.substantive_sales"
+          ],
+          "actual": [
+            "M10.institution_unlicensed",
+            "M10.substantive_sales"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M12",
+          "expected": [
+            "M12.later_marketing",
+            "M12.marketing_cancelled"
+          ],
+          "actual": [
+            "M12.later_marketing",
+            "M12.marketing_cancelled"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "no_clear_risk",
+      "three_state_consistent": true,
+      "human_approved": false
+    },
+    {
+      "query_id": "RQ20261018_036",
+      "text_hash_match": true,
+      "source_text_unchanged": true,
+      "overall_state_unchanged": true,
+      "mechanism_sets_unchanged": true,
+      "expected_required_predicate_sets": [
+        {
+          "mechanism_id": "M03",
+          "expected": [
+            "M03.insurance_legal_promotion",
+            "M03.unconditional_overclaim"
+          ],
+          "actual": [
+            "M03.insurance_legal_promotion",
+            "M03.unconditional_overclaim"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M10",
+          "expected": [
+            "M10.institution_unlicensed",
+            "M10.substantive_sales"
+          ],
+          "actual": [
+            "M10.institution_unlicensed",
+            "M10.substantive_sales"
+          ],
+          "exact_match": true
+        },
+        {
+          "mechanism_id": "M12",
+          "expected": [
+            "M12.later_marketing",
+            "M12.marketing_cancelled"
+          ],
+          "actual": [
+            "M12.later_marketing",
+            "M12.marketing_cancelled"
+          ],
+          "exact_match": true
+        }
+      ],
+      "derived_overall_state": "insufficient_info",
+      "three_state_consistent": true,
+      "human_approved": false
+    }
+  ],
+  "literal_span_checks": [
+    {
+      "query_id": "RQ20261018_001",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 47,
+      "quote": "2026年10月12日，一位果园经营者刚买了五年期万能寿险，代理人留下来交代第二天公司的回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_001",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 47,
+      "quote": "2026年10月12日，一位果园经营者刚买了五年期万能寿险，代理人留下来交代第二天公司的回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_001",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 47,
+      "quote": "2026年10月12日，一位果园经营者刚买了五年期万能寿险，代理人留下来交代第二天公司的回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_001",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 47,
+      "quote": "2026年10月12日，一位果园经营者刚买了五年期万能寿险，代理人留下来交代第二天公司的回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_001",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 30,
+      "end": 46,
+      "quote": "代理人留下来交代第二天公司的回访",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_001",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 47,
+      "end": 115,
+      "quote": "客户当面说仍分不清最低保证和结算利率，代理人却说：“电话问收益风险是否明白，您一律答完全明白，别把不懂的地方说出来，等回访结束我再讲。”",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_002",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 42,
+      "quote": "2026年10月12日，果园经营者办完五年期万能寿险，代理人陪他看完账户和费用页面。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_002",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 42,
+      "quote": "2026年10月12日，果园经营者办完五年期万能寿险，代理人陪他看完账户和费用页面。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_002",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 42,
+      "quote": "2026年10月12日，果园经营者办完五年期万能寿险，代理人陪他看完账户和费用页面。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_002",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 76,
+      "end": 133,
+      "quote": "代理人说：“明天公司回访就按您真实理解回答；如果又有疑问，直接告诉回访员没弄明白，申请再解释，别为赶进度说都知道。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_002",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 82,
+      "end": 97,
+      "quote": "明天公司回访就按您真实理解回答",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_002",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 98,
+      "end": 132,
+      "quote": "如果又有疑问，直接告诉回访员没弄明白，申请再解释，别为赶进度说都知道",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_003",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 44,
+      "quote": "2026年10月9日，港区值夜班的投保人买了一份年金保险，暂时接不到公司的身份核验回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_003",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 44,
+      "end": 110,
+      "quote": "代理人在营业部对同事说：“客户资料我已打印好，回访电话转到你这里，你就说自己是投保人，身份证尾号和保费照纸上答，知悉事项也由你确认。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_003",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 44,
+      "quote": "2026年10月9日，港区值夜班的投保人买了一份年金保险，暂时接不到公司的身份核验回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_003",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 44,
+      "quote": "2026年10月9日，港区值夜班的投保人买了一份年金保险，暂时接不到公司的身份核验回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_003",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 34,
+      "end": 43,
+      "quote": "公司的身份核验回访",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_003",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 77,
+      "end": 109,
+      "quote": "你就说自己是投保人，身份证尾号和保费照纸上答，知悉事项也由你确认",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_004",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 48,
+      "quote": "2026年10月9日，港区值夜班的客户买了年金保险，营业部安排同事在其休息时间协助接通公司回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_004",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 48,
+      "quote": "2026年10月9日，港区值夜班的客户买了年金保险，营业部安排同事在其休息时间协助接通公司回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_004",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 48,
+      "quote": "2026年10月9日，港区值夜班的客户买了年金保险，营业部安排同事在其休息时间协助接通公司回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_004",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 48,
+      "quote": "2026年10月9日，港区值夜班的客户买了年金保险，营业部安排同事在其休息时间协助接通公司回访。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_004",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 128,
+      "end": 143,
+      "quote": "没有写谁完成身份核验和知悉答复",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_005",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 41,
+      "quote": "2026年10月7日，保险公司的客户经理给开修理铺的客户讲终身寿险的家庭资产安排。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_005",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 41,
+      "quote": "2026年10月7日，保险公司的客户经理给开修理铺的客户讲终身寿险的家庭资产安排。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_005",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 41,
+      "quote": "2026年10月7日，保险公司的客户经理给开修理铺的客户讲终身寿险的家庭资产安排。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_005",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 123,
+      "end": 155,
+      "quote": "”客户说想再问财税人员，经理仍把这段承诺写进了当日的销售建议书。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_005",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 11,
+      "end": 40,
+      "quote": "保险公司的客户经理给开修理铺的客户讲终身寿险的家庭资产安排",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_005",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 70,
+      "end": 122,
+      "quote": "不论欠谁、何时欠的，债权人都不能碰，也绝不可能撤销。以后无论领的是年金、退保金还是赔款，所有税种都不用交",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_006",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 47,
+      "quote": "2026年10月7日，开修理铺的客户向保险公司客户经理询问终身寿险能否处理家庭债务和税务问题。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_006",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 47,
+      "quote": "2026年10月7日，开修理铺的客户向保险公司客户经理询问终身寿险能否处理家庭债务和税务问题。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_006",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 47,
+      "quote": "2026年10月7日，开修理铺的客户向保险公司客户经理询问终身寿险能否处理家庭债务和税务问题。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_006",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 132,
+      "end": 162,
+      "quote": "”他把客户的借款与给付问题列在便签上，约好另找专业人员核实。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_006",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 27,
+      "end": 46,
+      "quote": "询问终身寿险能否处理家庭债务和税务问题",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_006",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 83,
+      "end": 131,
+      "quote": "不能把全部收益、全部税都包进去。有债务时还要核处分行为和债权人权利，不能保证保单绝不被执行或撤销",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_007",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 80,
+      "quote": "2026年10月11日，商场专柜经营者准备为自己投保年金保险，保险公司销售员拿出一张购物卡样品说：“您今天交首期保费，我另外给您两千元购物卡，收卡的就是您本人。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_007",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 80,
+      "quote": "2026年10月11日，商场专柜经营者准备为自己投保年金保险，保险公司销售员拿出一张购物卡样品说：“您今天交首期保费，我另外给您两千元购物卡，收卡的就是您本人。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_007",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 80,
+      "quote": "2026年10月11日，商场专柜经营者准备为自己投保年金保险，保险公司销售员拿出一张购物卡样品说：“您今天交首期保费，我另外给您两千元购物卡，收卡的就是您本人。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_007",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 80,
+      "quote": "2026年10月11日，商场专柜经营者准备为自己投保年金保险，保险公司销售员拿出一张购物卡样品说：“您今天交首期保费，我另外给您两千元购物卡，收卡的就是您本人。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_007",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 71,
+      "end": 79,
+      "quote": "收卡的就是您本人",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_007",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 122,
+      "end": 144,
+      "quote": "必须等这张投保单扣费成功后才发，不投保就没有",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_007",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 88,
+      "end": 121,
+      "quote": "保单条款和正式活动附件里都没有这项利益，卡钱由营业部另列推广费支付",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_008",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 80,
+      "quote": "2026年10月11日，商场专柜经营者咨询年金保险时，保险公司销售员给他看了一张写着“签单可领两千元”的活动海报，说这笔钱由投保人领取，要在首期保费扣款后申请。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_008",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 80,
+      "quote": "2026年10月11日，商场专柜经营者咨询年金保险时，保险公司销售员给他看了一张写着“签单可领两千元”的活动海报，说这笔钱由投保人领取，要在首期保费扣款后申请。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_008",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 80,
+      "quote": "2026年10月11日，商场专柜经营者咨询年金保险时，保险公司销售员给他看了一张写着“签单可领两千元”的活动海报，说这笔钱由投保人领取，要在首期保费扣款后申请。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_008",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 80,
+      "quote": "2026年10月11日，商场专柜经营者咨询年金保险时，保险公司销售员给他看了一张写着“签单可领两千元”的活动海报，说这笔钱由投保人领取，要在首期保费扣款后申请。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_008",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 58,
+      "end": 67,
+      "quote": "这笔钱由投保人领取",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_008",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 68,
+      "end": 79,
+      "quote": "要在首期保费扣款后申请",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_009",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 40,
+      "quote": "2026年10月6日，一家托育门店的经营者在保险代理人的办公室看十年期分红寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_009",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 40,
+      "quote": "2026年10月6日，一家托育门店的经营者在保险代理人的办公室看十年期分红寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_009",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 40,
+      "quote": "2026年10月6日，一家托育门店的经营者在保险代理人的办公室看十年期分红寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_009",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 40,
+      "quote": "2026年10月6日，一家托育门店的经营者在保险代理人的办公室看十年期分红寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_009",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 40,
+      "end": 69,
+      "quote": "产品说明书写明未来红利不保证，代理人也承认它取决于经营结果",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_009",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 79,
+      "end": 120,
+      "quote": "这栏以后每年三万元红利一定发，哪怕公司分红为零，您也固定拿这个数，演示数字就是承诺",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_010",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 40,
+      "quote": "2026年10月6日，托育门店经营者请保险代理人逐栏解释十年期分红寿险的领取表。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_010",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 40,
+      "quote": "2026年10月6日，托育门店经营者请保险代理人逐栏解释十年期分红寿险的领取表。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_010",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 40,
+      "quote": "2026年10月6日，托育门店经营者请保险代理人逐栏解释十年期分红寿险的领取表。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_010",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 40,
+      "end": 119,
+      "quote": "代理人先指出合同基本保额表内约定的固定给付，再翻到红利演示页说：“合同保证的是前面那部分及对应期间，后面的未来红利要看经营结果，可能为零，不能把演示数当保证。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_010",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 90,
+      "end": 108,
+      "quote": "后面的未来红利要看经营结果，可能为零",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_010",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 109,
+      "end": 118,
+      "quote": "不能把演示数当保证",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_011",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 60,
+      "quote": "2026年10月8日，银行代销柜台向准备存五年定期的退休客户介绍一份五年期两全保险，柜台已经展示了保险公司的正式投保书。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_011",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 60,
+      "end": 127,
+      "quote": "银行保险销售人员却把材料压在下面说：“虽然封面写保险，实际上就是本行定期存款，您填的是存单申请，钱一直存在银行，保险公司只是印封面的。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_011",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 60,
+      "quote": "2026年10月8日，银行代销柜台向准备存五年定期的退休客户介绍一份五年期两全保险，柜台已经展示了保险公司的正式投保书。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_011",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 127,
+      "end": 160,
+      "quote": "”客户据此说那就按存款办理，销售人员继续引导填写该保险的投保资料。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_011",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 32,
+      "end": 59,
+      "quote": "一份五年期两全保险，柜台已经展示了保险公司的正式投保书",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_011",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 79,
+      "end": 126,
+      "quote": "虽然封面写保险，实际上就是本行定期存款，您填的是存单申请，钱一直存在银行，保险公司只是印封面的",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_012",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 39,
+      "quote": "2026年10月8日，退休客户在银行综合服务区听工作人员介绍“安心储备组合”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_012",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 39,
+      "quote": "2026年10月8日，退休客户在银行综合服务区听工作人员介绍“安心储备组合”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_012",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 39,
+      "quote": "2026年10月8日，退休客户在银行综合服务区听工作人员介绍“安心储备组合”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_012",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 105,
+      "end": 163,
+      "quote": "当天尚未填写任何申请表，也没留下产品代码、发行主体或合同首页，家属只知道接待地点在银行，还不清楚实际推荐的是哪一项。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_013",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 46,
+      "quote": "2026年10月10日，一位物流车队调度员买三年期寿险刚满一年，已过犹豫期，累计交费四万元。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_013",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 46,
+      "end": 91,
+      "quote": "保险公司销售员当天调出的有效合同和退保试算均显示现在只能退二万七千元，且没有特别退款安排。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_013",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 46,
+      "quote": "2026年10月10日，一位物流车队调度员买三年期寿险刚满一年，已过犹豫期，累计交费四万元。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_013",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 46,
+      "end": 91,
+      "quote": "保险公司销售员当天调出的有效合同和退保试算均显示现在只能退二万七千元，且没有特别退款安排。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_013",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 111,
+      "end": 130,
+      "quote": "四万元原额一分不少回账户，没有任何损失",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_013",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 32,
+      "end": 90,
+      "quote": "已过犹豫期，累计交费四万元。保险公司销售员当天调出的有效合同和退保试算均显示现在只能退二万七千元，且没有特别退款安排",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_013",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 70,
+      "end": 132,
+      "quote": "现在只能退二万七千元，且没有特别退款安排。他仍对客户说：“您这张单子今天想退就退，四万元原额一分不少回账户，没有任何损失。”",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_014",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 37,
+      "quote": "2026年10月10日，物流车队调度员咨询已持有一年的三年期寿险能否退保。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_014",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 37,
+      "end": 93,
+      "quote": "保险公司销售员核对了四万元累计交费、已过的犹豫期和当日有效退保试算，表内现金价值为二万七千元，没有特别退款安排。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_014",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 37,
+      "quote": "2026年10月10日，物流车队调度员咨询已持有一年的三年期寿险能否退保。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_014",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 37,
+      "end": 93,
+      "quote": "保险公司销售员核对了四万元累计交费、已过的犹豫期和当日有效退保试算，表内现金价值为二万七千元，没有特别退款安排。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_014",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 97,
+      "end": 129,
+      "quote": "按现在这张表只能退二万七，和您交的四万相比少一万三，不是原额取回",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_014",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 71,
+      "end": 92,
+      "quote": "表内现金价值为二万七千元，没有特别退款安排",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_014",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 97,
+      "end": 129,
+      "quote": "按现在这张表只能退二万七，和您交的四万相比少一万三，不是原额取回",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_015",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 41,
+      "quote": "2026年10月13日，经营洗衣店的客户向保险公司销售员咨询一年期个人住院医疗险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_015",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 41,
+      "quote": "2026年10月13日，经营洗衣店的客户向保险公司销售员咨询一年期个人住院医疗险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_015",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 41,
+      "quote": "2026年10月13日，经营洗衣店的客户向保险公司销售员咨询一年期个人住院医疗险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_015",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 41,
+      "end": 128,
+      "quote": "双方正在看的正式条款列明一般疾病等待期三十天、每年一万元免赔额，销售员刚在内部笔记里核对过这两项，却对客户说：“生效当天普通疾病住院就能赔，花一元报一元，没有等待和免赔门槛。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_015",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 47,
+      "end": 89,
+      "quote": "正式条款列明一般疾病等待期三十天、每年一万元免赔额，销售员刚在内部笔记里核对过这两项",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_015",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 97,
+      "end": 127,
+      "quote": "生效当天普通疾病住院就能赔，花一元报一元，没有等待和免赔门槛",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_015",
+      "path": "required_predicate_assessments[1].evidence[1]",
+      "kind": "evidence",
+      "start": 47,
+      "end": 72,
+      "quote": "正式条款列明一般疾病等待期三十天、每年一万元免赔额",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_016",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 63,
+      "quote": "2026年10月13日，洗衣店经营者转述保险公司销售员在介绍个人住院医疗险时说过：“这份住院费用基本都能报，不用自己承担太多。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_016",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 63,
+      "quote": "2026年10月13日，洗衣店经营者转述保险公司销售员在介绍个人住院医疗险时说过：“这份住院费用基本都能报，不用自己承担太多。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_016",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 63,
+      "quote": "2026年10月13日，洗衣店经营者转述保险公司销售员在介绍个人住院医疗险时说过：“这份住院费用基本都能报，不用自己承担太多。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_016",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 112,
+      "end": 157,
+      "quote": "客户尚未拿到正式条款，连“基本”指哪些费用也记不清，销售员答应第二天带齐本次产品材料再谈。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_017",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月14日，保险公司的普通型寿险销售小组讨论周末社区展位。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_017",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月14日，保险公司的普通型寿险销售小组讨论周末社区展位。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_017",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月14日，保险公司的普通型寿险销售小组讨论周末社区展位。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_017",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 136,
+      "end": 157,
+      "quote": "”他要求把这句话加到当晚的客户邀约电话里。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_017",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 117,
+      "end": 135,
+      "quote": "这款周日就关门，再犹豫下周绝对买不到",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_017",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 35,
+      "end": 102,
+      "quote": "公司产品岗当天已书面确认，这一具体产品没有停售决定，官方线上平台和营业场所均未发停售或调价公告，本次也不涉及备案费率浮动或参数区间调整",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_018",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 88,
+      "quote": "2026年10月14日，社区展位所售普通型寿险的真实停售公告已由产品岗核验：保险公司10月1日在官方线上平台显著位置和各营业场所同时公告了产品全名及10月20日停售的起始日期。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_018",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 88,
+      "quote": "2026年10月14日，社区展位所售普通型寿险的真实停售公告已由产品岗核验：保险公司10月1日在官方线上平台显著位置和各营业场所同时公告了产品全名及10月20日停售的起始日期。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_018",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 88,
+      "end": 136,
+      "quote": "销售员拿着同一公告告诉客户：“这份公告对应您看的这款，20日起停止销售，是否投保仍请按需求决定。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_018",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 88,
+      "quote": "2026年10月14日，社区展位所售普通型寿险的真实停售公告已由产品岗核验：保险公司10月1日在官方线上平台显著位置和各营业场所同时公告了产品全名及10月20日停售的起始日期。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_018",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 115,
+      "end": 135,
+      "quote": "20日起停止销售，是否投保仍请按需求决定",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_018",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 38,
+      "end": 87,
+      "quote": "保险公司10月1日在官方线上平台显著位置和各营业场所同时公告了产品全名及10月20日停售的起始日期",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_019",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 32,
+      "quote": "2026年10月5日，保险公司与一家社区便民中心签了推广合作单。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_019",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 32,
+      "quote": "2026年10月5日，保险公司与一家社区便民中心签了推广合作单。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_019",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 32,
+      "end": 129,
+      "quote": "公司渠道负责人已核实，该中心从未取得开展保险代理销售所需的机构许可，负责人仍把一款意外保险的客户名单交给中心，要求中心员工按家庭情况推荐保额、解释除外责任并引导提交投保单，按成交单数结算服务费。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_019",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 32,
+      "end": 129,
+      "quote": "公司渠道负责人已核实，该中心从未取得开展保险代理销售所需的机构许可，负责人仍把一款意外保险的客户名单交给中心，要求中心员工按家庭情况推荐保额、解释除外责任并引导提交投保单，按成交单数结算服务费。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_019",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 87,
+      "end": 128,
+      "quote": "要求中心员工按家庭情况推荐保额、解释除外责任并引导提交投保单，按成交单数结算服务费",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_019",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 32,
+      "end": 65,
+      "quote": "公司渠道负责人已核实，该中心从未取得开展保险代理销售所需的机构许可",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_020",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 40,
+      "quote": "2026年10月5日，保险公司的渠道负责人旁听社区便民中心的一场意外保险介绍会。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_020",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 40,
+      "end": 75,
+      "quote": "中心员工依合作单为客户逐项推荐保额、解释除外责任，并帮助完成投保申请。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_020",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 40,
+      "quote": "2026年10月5日，保险公司的渠道负责人旁听社区便民中心的一场意外保险介绍会。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_020",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 119,
+      "end": 167,
+      "quote": "渠道负责人尚未查许可登记，也没有取得该中心无证或许可失效的记录，会议照片只拍到了讲解和申请流程。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_020",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 40,
+      "end": 74,
+      "quote": "中心员工依合作单为客户逐项推荐保额、解释除外责任，并帮助完成投保申请",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_021",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 51,
+      "quote": "2026年10月15日，夜市摊主通过保险代理人购买定期寿险，投保流程停在合同风险提示文书的逐项确认页。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_021",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 51,
+      "quote": "2026年10月15日，夜市摊主通过保险代理人购买定期寿险，投保流程停在合同风险提示文书的逐项确认页。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_021",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 51,
+      "quote": "2026年10月15日，夜市摊主通过保险代理人购买定期寿险，投保流程停在合同风险提示文书的逐项确认页。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_021",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 51,
+      "quote": "2026年10月15日，夜市摊主通过保险代理人购买定期寿险，投保流程停在合同风险提示文书的逐项确认页。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_021",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 30,
+      "end": 50,
+      "quote": "投保流程停在合同风险提示文书的逐项确认页",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_021",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 63,
+      "end": 87,
+      "quote": "代理人直接拿过手机，替客户勾选全部确认项并点提交",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_022",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 51,
+      "quote": "2026年10月15日，夜市摊主通过保险代理人购买定期寿险，来到合同风险提示文书确认页时说手机字太小。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_022",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 51,
+      "end": 82,
+      "quote": "代理人只替他打开大字显示，手离开屏幕后逐句解释客户圈出的术语。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_022",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 51,
+      "quote": "2026年10月15日，夜市摊主通过保险代理人购买定期寿险，来到合同风险提示文书确认页时说手机字太小。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_022",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 51,
+      "quote": "2026年10月15日，夜市摊主通过保险代理人购买定期寿险，来到合同风险提示文书确认页时说手机字太小。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_022",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 30,
+      "end": 43,
+      "quote": "来到合同风险提示文书确认页",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_022",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 82,
+      "end": 112,
+      "quote": "客户读完后自己逐项选择、确认并提交，期间没有把手机交回代理人",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_023",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 61,
+      "quote": "2026年10月8日，保险公司电话营销组收到一位面包房店主的录音请求：“取消你们公司的保险推销电话，以后别再打来推荐产品。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_023",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 61,
+      "quote": "2026年10月8日，保险公司电话营销组收到一位面包房店主的录音请求：“取消你们公司的保险推销电话，以后别再打来推荐产品。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_023",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 72,
+      "end": 123,
+      "quote": "三天后，组长仍安排坐席拨打同一号码，说先以客服检查保单为开场，随后向本人介绍新款年金险并劝他追加保费。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_023",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 72,
+      "end": 123,
+      "quote": "三天后，组长仍安排坐席拨打同一号码，说先以客服检查保单为开场，随后向本人介绍新款年金险并劝他追加保费。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_023",
+      "path": "scope_facts[4]",
+      "kind": "scope_fact",
+      "start": 62,
+      "end": 123,
+      "quote": "系统当天已登记取消。三天后，组长仍安排坐席拨打同一号码，说先以客服检查保单为开场，随后向本人介绍新款年金险并劝他追加保费。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_023",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 36,
+      "end": 60,
+      "quote": "取消你们公司的保险推销电话，以后别再打来推荐产品",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_023",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 72,
+      "end": 122,
+      "quote": "三天后，组长仍安排坐席拨打同一号码，说先以客服检查保单为开场，随后向本人介绍新款年金险并劝他追加保费",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_024",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 46,
+      "quote": "2026年10月8日，面包房店主要求保险公司取消今后的产品推销电话，系统留下了完整取消记录。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_024",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 46,
+      "end": 91,
+      "quote": "三天后服务台出现一张给该店主的外呼工单，标题是“保单跟进”，备注只有“周五下午本人方便”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_024",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 91,
+      "end": 159,
+      "quote": "店主此前有一宗未结理赔，也曾咨询过年金险，但工单没有写这次要补哪些理赔材料，还是准备继续介绍产品；派单人尚未补充通话脚本，电话也未拨出。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_024",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 91,
+      "end": 159,
+      "quote": "店主此前有一宗未结理赔，也曾咨询过年金险，但工单没有写这次要补哪些理赔材料，还是准备继续介绍产品；派单人尚未补充通话脚本，电话也未拨出。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_024",
+      "path": "scope_facts[4]",
+      "kind": "scope_fact",
+      "start": 46,
+      "end": 91,
+      "quote": "三天后服务台出现一张给该店主的外呼工单，标题是“保单跟进”，备注只有“周五下午本人方便”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_024",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 16,
+      "end": 45,
+      "quote": "要求保险公司取消今后的产品推销电话，系统留下了完整取消记录",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月3日，保险代理团队复盘陶艺工作室主理人的终身寿险订单。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月3日，保险代理团队复盘陶艺工作室主理人的终身寿险订单。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月3日，保险代理团队复盘陶艺工作室主理人的终身寿险订单。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 35,
+      "end": 62,
+      "quote": "客户签约时，销售员拿其手机替他勾选合同风险提示并提交。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 76,
+      "end": 95,
+      "quote": "销售员却教他在公司回访时回答已充分理解",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 62,
+      "end": 95,
+      "quote": "客户后来明确说没懂退保费用，销售员却教他在公司回访时回答已充分理解",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 126,
+      "end": 138,
+      "quote": "把身份及知悉答复一起做完",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "path": "required_predicate_assessments[3].evidence[0]",
+      "kind": "evidence",
+      "start": 96,
+      "end": 138,
+      "quote": "组长又安排另一销售员接回访，按客户姓名和证件尾号自称投保人，把身份及知悉答复一起做完",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "path": "required_predicate_assessments[4].evidence[0]",
+      "kind": "evidence",
+      "start": 35,
+      "end": 61,
+      "quote": "客户签约时，销售员拿其手机替他勾选合同风险提示并提交",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_025",
+      "path": "required_predicate_assessments[5].evidence[0]",
+      "kind": "evidence",
+      "start": 41,
+      "end": 61,
+      "quote": "销售员拿其手机替他勾选合同风险提示并提交",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 34,
+      "quote": "2026年10月3日，陶艺工作室主理人通过保险代理团队投保终身寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 34,
+      "quote": "2026年10月3日，陶艺工作室主理人通过保险代理团队投保终身寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 34,
+      "quote": "2026年10月3日，陶艺工作室主理人通过保险代理团队投保终身寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 95,
+      "end": 161,
+      "quote": "第二天助理接到公司回访，先报自己是协助预约的人，只约好时间并转接，随后由客户本人完成身份和知悉答复；助理全程没有替客户回答这些问题。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 79,
+      "end": 94,
+      "quote": "销售员让他在回访中如实说没明白",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 67,
+      "end": 94,
+      "quote": "客户说退保费用还需再问，销售员让他在回访中如实说没明白",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 128,
+      "end": 144,
+      "quote": "随后由客户本人完成身份和知悉答复",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "path": "required_predicate_assessments[3].evidence[0]",
+      "kind": "evidence",
+      "start": 107,
+      "end": 144,
+      "quote": "先报自己是协助预约的人，只约好时间并转接，随后由客户本人完成身份和知悉答复",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "path": "required_predicate_assessments[4].evidence[0]",
+      "kind": "evidence",
+      "start": 34,
+      "end": 66,
+      "quote": "销售员解释风险提示后把手机放回客户手边，由客户自主逐项勾选并提交",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_026",
+      "path": "required_predicate_assessments[5].evidence[0]",
+      "kind": "evidence",
+      "start": 54,
+      "end": 66,
+      "quote": "由客户自主逐项勾选并提交",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_027",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 54,
+      "quote": "2026年10月3日，陶艺工作室的终身寿险订单备注写着“帮点确认、回访答过”，经办销售员说自己替忙了些操作。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_027",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 54,
+      "quote": "2026年10月3日，陶艺工作室的终身寿险订单备注写着“帮点确认、回访答过”，经办销售员说自己替忙了些操作。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_027",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 54,
+      "quote": "2026年10月3日，陶艺工作室的终身寿险订单备注写着“帮点确认、回访答过”，经办销售员说自己替忙了些操作。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_027",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 54,
+      "end": 91,
+      "quote": "留下的手机截图没显示确认的是合同风险提示还是订单送达页面，也看不清谁在点。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_027",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 91,
+      "end": 104,
+      "quote": "回访计划列有身份和知悉项目",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_027",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 91,
+      "end": 104,
+      "quote": "回访计划列有身份和知悉项目",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 60,
+      "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台推介十年期分红年金险，正式投保书摆在桌上，说明书写明未来红利不保证。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 60,
+      "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台推介十年期分红年金险，正式投保书摆在桌上，说明书写明未来红利不保证。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 60,
+      "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台推介十年期分红年金险，正式投保书摆在桌上，说明书写明未来红利不保证。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 100,
+      "end": 137,
+      "quote": "今天投保成功我另送您八百元充值卡，保单及附件都没有这笔，是柜台自掏推广费。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 138,
+      "end": 152,
+      "quote": "职工说由自己作投保人并领取卡",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 100,
+      "end": 116,
+      "quote": "今天投保成功我另送您八百元充值卡",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 117,
+      "end": 136,
+      "quote": "保单及附件都没有这笔，是柜台自掏推广费",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "required_predicate_assessments[3].evidence[0]",
+      "kind": "evidence",
+      "start": 47,
+      "end": 59,
+      "quote": "说明书写明未来红利不保证",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "required_predicate_assessments[4].evidence[0]",
+      "kind": "evidence",
+      "start": 79,
+      "end": 99,
+      "quote": "演示的每年两万元红利固定给，经营差也不少",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "required_predicate_assessments[5].evidence[0]",
+      "kind": "evidence",
+      "start": 26,
+      "end": 46,
+      "quote": "推介十年期分红年金险，正式投保书摆在桌上",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_028",
+      "path": "required_predicate_assessments[6].evidence[0]",
+      "kind": "evidence",
+      "start": 64,
+      "end": 78,
+      "quote": "这就是银行十年存款，不算保险",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 65,
+      "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台介绍十年期分红年金险，先说明银行只是代销，保险公司承保，办理的是保险而非存款。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 65,
+      "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台介绍十年期分红年金险，先说明银行只是代销，保险公司承保，办理的是保险而非存款。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 65,
+      "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台介绍十年期分红年金险，先说明银行只是代销，保险公司承保，办理的是保险而非存款。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 94,
+      "end": 171,
+      "quote": "客户问海报上的“投保后领取”是否赠品，销售员翻出真实合同约定的生存金条款，说明领取对象是投保人本人，须满足合同时间条件，柜台没有另外给钱、返卡或附送礼品。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 133,
+      "end": 143,
+      "quote": "领取对象是投保人本人",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 102,
+      "end": 107,
+      "quote": "投保后领取",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 113,
+      "end": 130,
+      "quote": "销售员翻出真实合同约定的生存金条款",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "required_predicate_assessments[3].evidence[0]",
+      "kind": "evidence",
+      "start": 74,
+      "end": 81,
+      "quote": "未来不保证红利",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "required_predicate_assessments[4].evidence[0]",
+      "kind": "evidence",
+      "start": 85,
+      "end": 93,
+      "quote": "明确红利可能为零",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "required_predicate_assessments[5].evidence[0]",
+      "kind": "evidence",
+      "start": 26,
+      "end": 36,
+      "quote": "介绍十年期分红年金险",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_029",
+      "path": "required_predicate_assessments[6].evidence[0]",
+      "kind": "evidence",
+      "start": 37,
+      "end": 64,
+      "quote": "先说明银行只是代销，保险公司承保，办理的是保险而非存款",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_030",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 59,
+      "quote": "2026年10月4日，职工公寓咨询台展示银行定期存款与年金保险两套单页，工作人员推荐“十年计划”，让客户“按存款办”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_030",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 59,
+      "quote": "2026年10月4日，职工公寓咨询台展示银行定期存款与年金保险两套单页，工作人员推荐“十年计划”，让客户“按存款办”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_030",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 59,
+      "quote": "2026年10月4日，职工公寓咨询台展示银行定期存款与年金保险两套单页，工作人员推荐“十年计划”，让客户“按存款办”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_030",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 132,
+      "end": 169,
+      "quote": "客户没有留下产品代码、承保或发行主体、合同及活动附件，只带回一张咨询名片。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_030",
+      "path": "required_predicate_assessments[0].clue_evidence[0]",
+      "kind": "clue_evidence",
+      "start": 100,
+      "end": 113,
+      "quote": "客户本人签单扣费后领八百元",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_030",
+      "path": "required_predicate_assessments[1].clue_evidence[0]",
+      "kind": "clue_evidence",
+      "start": 104,
+      "end": 113,
+      "quote": "签单扣费后领八百元",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_030",
+      "path": "required_predicate_assessments[4].clue_evidence[0]",
+      "kind": "clue_evidence",
+      "start": 71,
+      "end": 80,
+      "quote": "演示那项每年肯定有",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月2日，保险公司业务员向幕墙施工队续推一年期团体意外险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月2日，保险公司业务员向幕墙施工队续推一年期团体意外险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月2日，保险公司业务员向幕墙施工队续推一年期团体意外险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月2日，保险公司业务员向幕墙施工队续推一年期团体意外险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 124,
+      "end": 131,
+      "quote": "旧单全退一万元",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 35,
+      "end": 72,
+      "quote": "旧单已过犹豫期，合同和当日试算明确退一万元保费只能拿回三千元，且无特别退款",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 52,
+      "end": 72,
+      "quote": "退一万元保费只能拿回三千元，且无特别退款",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "required_predicate_assessments[2].evidence[1]",
+      "kind": "evidence",
+      "start": 124,
+      "end": 131,
+      "quote": "旧单全退一万元",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "required_predicate_assessments[3].evidence[0]",
+      "kind": "evidence",
+      "start": 73,
+      "end": 87,
+      "quote": "新单条款明列十米以上作业不保",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "required_predicate_assessments[4].evidence[0]",
+      "kind": "evidence",
+      "start": 132,
+      "end": 138,
+      "quote": "新单多高都保",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "required_predicate_assessments[4].evidence[1]",
+      "kind": "evidence",
+      "start": 73,
+      "end": 87,
+      "quote": "新单条款明列十米以上作业不保",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "required_predicate_assessments[5].evidence[0]",
+      "kind": "evidence",
+      "start": 139,
+      "end": 150,
+      "quote": "这款明天停售，今晚得交",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_031",
+      "path": "required_predicate_assessments[6].evidence[0]",
+      "kind": "evidence",
+      "start": 88,
+      "end": 116,
+      "quote": "产品岗另已确认新产品没有停售决定或公告，也无费率区间调整",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月2日，幕墙施工队向保险公司业务员咨询一年期团体意外险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月2日，幕墙施工队向保险公司业务员咨询一年期团体意外险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 35,
+      "quote": "2026年10月2日，幕墙施工队向保险公司业务员咨询一年期团体意外险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 154,
+      "end": 175,
+      "quote": "业务员准确转告，建议先按实际工种另选产品。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 95,
+      "end": 101,
+      "quote": "旧单不能全退",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 35,
+      "end": 61,
+      "quote": "旧单合同和当日试算显示过犹豫期仅退三千元，无特别退款",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 95,
+      "end": 101,
+      "quote": "旧单不能全退",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "required_predicate_assessments[3].evidence[0]",
+      "kind": "evidence",
+      "start": 62,
+      "end": 76,
+      "quote": "新单条款明列十米以上作业不保",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "required_predicate_assessments[4].evidence[0]",
+      "kind": "evidence",
+      "start": 77,
+      "end": 94,
+      "quote": "业务员据此提醒二十米作业不在保障内",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "required_predicate_assessments[5].evidence[0]",
+      "kind": "evidence",
+      "start": 142,
+      "end": 161,
+      "quote": "10月15日停售起始日。业务员准确转告",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_032",
+      "path": "required_predicate_assessments[6].evidence[0]",
+      "kind": "evidence",
+      "start": 109,
+      "end": 153,
+      "quote": "公司9月25日在官方线上平台显著位置及营业场所公告了这款新单全名与10月15日停售起始日",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_033",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 70,
+      "quote": "2026年10月2日，幕墙施工队准备换一年期团体意外险，业务员在电话里说“旧单能把原来交的钱都退回来，新单施工出事都能报，这款也快停售了”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_033",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 70,
+      "quote": "2026年10月2日，幕墙施工队准备换一年期团体意外险，业务员在电话里说“旧单能把原来交的钱都退回来，新单施工出事都能报，这款也快停售了”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_033",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 70,
+      "quote": "2026年10月2日，幕墙施工队准备换一年期团体意外险，业务员在电话里说“旧单能把原来交的钱都退回来，新单施工出事都能报，这款也快停售了”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_033",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 70,
+      "quote": "2026年10月2日，幕墙施工队准备换一年期团体意外险，业务员在电话里说“旧单能把原来交的钱都退回来，新单施工出事都能报，这款也快停售了”。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_033",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 37,
+      "end": 50,
+      "quote": "旧单能把原来交的钱都退回来",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_033",
+      "path": "required_predicate_assessments[5].evidence[0]",
+      "kind": "evidence",
+      "start": 61,
+      "end": 68,
+      "quote": "这款也快停售了",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 75,
+      "quote": "2026年10月6日，保险公司把水产批发协会会员的个人寿险推介交给协会，已核实协会从未取得保险代理机构许可，仍要求其员工推荐保额、解释条款并促成投保。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 75,
+      "quote": "2026年10月6日，保险公司把水产批发协会会员的个人寿险推介交给协会，已核实协会从未取得保险代理机构许可，仍要求其员工推荐保额、解释条款并促成投保。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 148,
+      "end": 180,
+      "quote": "”这次没有旧保单服务请求，通话目的就是劝会员为自己新增终身寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 75,
+      "end": 148,
+      "quote": "一位会员已在该公司系统明确取消保险营销电话，协会员工仍受安排向其拨号推新单，说：“用这份保单装钱，不管哪种债、哪种税都绝对隔开，所有给付一概免税。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 116,
+      "end": 147,
+      "quote": "用这份保单装钱，不管哪种债、哪种税都绝对隔开，所有给付一概免税",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 124,
+      "end": 147,
+      "quote": "不管哪种债、哪种税都绝对隔开，所有给付一概免税",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 54,
+      "end": 74,
+      "quote": "仍要求其员工推荐保额、解释条款并促成投保",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "path": "required_predicate_assessments[3].evidence[0]",
+      "kind": "evidence",
+      "start": 36,
+      "end": 53,
+      "quote": "已核实协会从未取得保险代理机构许可",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "path": "required_predicate_assessments[4].evidence[0]",
+      "kind": "evidence",
+      "start": 75,
+      "end": 96,
+      "quote": "一位会员已在该公司系统明确取消保险营销电话",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_034",
+      "path": "required_predicate_assessments[5].evidence[0]",
+      "kind": "evidence",
+      "start": 97,
+      "end": 112,
+      "quote": "协会员工仍受安排向其拨号推新单",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 34,
+      "quote": "2026年10月6日，保险公司在水产批发协会会场给会员介绍个人寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 34,
+      "quote": "2026年10月6日，保险公司在水产批发协会会场给会员介绍个人寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 34,
+      "quote": "2026年10月6日，保险公司在水产批发协会会场给会员介绍个人寿险。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 84,
+      "end": 129,
+      "quote": "会员已取消营销电话后，又主动要求客服联系补交旧单理赔发票；客服只核材料，没有任何产品推荐。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 129,
+      "end": 154,
+      "quote": "当天讲师谈债税时也说明须核债权人权利和具体给付性质",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "path": "required_predicate_assessments[1].evidence[0]",
+      "kind": "evidence",
+      "start": 155,
+      "end": 181,
+      "quote": "不能保证保单绝不被执行，更不承诺全部保险收益免所有税",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "path": "required_predicate_assessments[2].evidence[0]",
+      "kind": "evidence",
+      "start": 48,
+      "end": 83,
+      "quote": "只负责摆桌和签到，不推荐产品、解释条款或办理申请，销售均由公司员工完成",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "path": "required_predicate_assessments[3].evidence[0]",
+      "kind": "evidence",
+      "start": 34,
+      "end": 46,
+      "quote": "协会没有保险代理机构许可",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "path": "required_predicate_assessments[4].evidence[0]",
+      "kind": "evidence",
+      "start": 84,
+      "end": 94,
+      "quote": "会员已取消营销电话后",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_035",
+      "path": "required_predicate_assessments[5].evidence[0]",
+      "kind": "evidence",
+      "start": 95,
+      "end": 128,
+      "quote": "又主动要求客服联系补交旧单理赔发票；客服只核材料，没有任何产品推荐",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_036",
+      "path": "scope_facts[0]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 79,
+      "quote": "2026年10月6日，水产批发协会会后留下一份个人寿险合作纪要，写着“协会介绍会员、后续协助办理”，没有记清谁推荐保额或商谈条款，协会保险代理许可也尚未查询。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_036",
+      "path": "scope_facts[1]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 79,
+      "quote": "2026年10月6日，水产批发协会会后留下一份个人寿险合作纪要，写着“协会介绍会员、后续协助办理”，没有记清谁推荐保额或商谈条款，协会保险代理许可也尚未查询。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_036",
+      "path": "scope_facts[2]",
+      "kind": "scope_fact",
+      "start": 0,
+      "end": 79,
+      "quote": "2026年10月6日，水产批发协会会后留下一份个人寿险合作纪要，写着“协会介绍会员、后续协助办理”，没有记清谁推荐保额或商谈条款，协会保险代理许可也尚未查询。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_036",
+      "path": "scope_facts[3]",
+      "kind": "scope_fact",
+      "start": 79,
+      "end": 131,
+      "quote": "会员此前发过“先不用联系”，接收部门未注明是否取消产品推销；之后工单只写“补资料谈保障”，通话内容未存。",
+      "literal_match": true
+    },
+    {
+      "query_id": "RQ20261018_036",
+      "path": "required_predicate_assessments[0].evidence[0]",
+      "kind": "evidence",
+      "start": 131,
+      "end": 150,
+      "quote": "会场工作人员另说“这笔返还不涉及个税”",
+      "literal_match": true
+    }
+  ],
+  "final_recheck_report": "reference/final_recheck.json",
+  "final_recheck_sha256": "275289fc40223bce9c82501959e9517b14423d5f55bd03d699402a99ac5646a2"
+}

@@ -1,0 +1,9 @@
+{
+  "id_seed": "finrisk-new36-opaque-id-20261018-v1",
+  "order_seed": "finrisk-new36-shuffled-order-20261018-v1",
+  "algorithm": "CPython random.Random; opaque ID getrandbits(128) over sorted original query IDs; then a separate Random.shuffle over the original 36 queries",
+  "python_version": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "labels_used_for_id_or_order_generation": false,
+  "model_visible": false,
+  "fixed_before_model_results": true
+}

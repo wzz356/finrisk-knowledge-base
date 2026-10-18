@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "queries": 36,
+  "documents": 9639,
+  "units": 65475,
+  "route_top_k": 100,
+  "rrf_top_k": 100,
+  "weights": [
+    1,
+    1
+  ],
+  "rrf_c": 60,
+  "new_paid_calls": 0,
+  "reference_answers_read": false,
+  "document_vectors_recomputed": 0,
+  "seconds": 81.84089560000575,
+  "python": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_retrieval_20261012\\.venv\\Scripts\\python.exe",
+  "torch": "2.6.0+cu124"
+}

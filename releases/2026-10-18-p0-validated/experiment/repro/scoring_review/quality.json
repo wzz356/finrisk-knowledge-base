@@ -1,0 +1,65 @@
+{
+  "review_date": "2026-10-18",
+  "review_type": "independent_code_quality_review",
+  "verdict": "pass_after_verified_fixes",
+  "default_95_percent_scoring_gate": "not_blocked",
+  "blocking_code_defect_count": 0,
+  "nonblocking_code_defect_count": 0,
+  "documentation_clarification_count": 0,
+  "resolved_code_defect_count": 1,
+  "resolved_documentation_clarification_count": 1,
+  "implementation_modified": false,
+  "real_data_or_model_results_read": false,
+  "real_scoring_run": false,
+  "findings": [
+    {
+      "id": "Q1",
+      "kind": "code_defect",
+      "priority": "P3",
+      "status": "resolved_and_independently_verified",
+      "blocking": false,
+      "file": "scoring.py",
+      "line": 26,
+      "title": "Extreme valid confidence rounds the quantile probability to one",
+      "counterexample": {"function": "wilson_interval", "correct": 1, "total": 2, "confidence": 0.9999999999999999},
+      "original_observed": {"accepted_by_range_check": true, "quantile_probability": 1.0, "exception": "StatisticsError", "message": "p must be in the range 0.0 < p < 1.0"},
+      "current_observed": {"lower": 0.007116458287148797, "upper": 0.9928835417128512, "exception": null},
+      "expected": "finite Wilson endpoints for the accepted confidence range",
+      "impact": "custom extreme confidence only; default 0.95 unchanged",
+      "minimal_fix": "z = -NormalDist().inv_cdf((1 - confidence) / 2)",
+      "minimal_fix_independent_numeric_check": {"z": 8.292361075813595, "lower": 0.007116458287148797, "upper": 0.9928835417128512},
+      "regression_test": "accepted near-one confidence yields finite endpoints containing 0.5 within [0,1]"
+    },
+    {
+      "id": "D1",
+      "kind": "documentation_clarification",
+      "status": "resolved_and_independently_verified",
+      "blocking": false,
+      "file": "scoring_notes.md",
+      "lines": [93, 117],
+      "title": "State the correlation limitation for Wilson as well as McNemar",
+      "original_observed": "same-group correlation warning explicitly addresses McNemar; Wilson has no equally explicit qualification",
+      "current_observed": "notes line 117 explicitly states Wilson and McNemar are both unadjusted for within-group correlation and multiplicity",
+      "minimal_fix": "state Wilson intervals are unadjusted for within-story-group and within-query event dependence"
+    }
+  ],
+  "verification": {
+    "existing_tests": {"tests": 25, "failures": 0, "exit_code": 0},
+    "independent_passed_cases": {"total": 3844, "classification": 3375, "mechanisms": 48, "predicates": 288, "mcnemar": 121, "wilson": 9, "integrated": 3, "exit_code": 0},
+    "historically_reproduced_and_now_fixed_defects": 1,
+    "json_allow_nan_false_checked": true,
+    "input_immutability_checked": true,
+    "fixture_source": "handwritten synthetic fixtures and finite state enumeration only"
+  },
+  "optional_analysis": {"name": "paired_group_bootstrap", "recommended": true, "blocking": false, "details_in": "spec.json"},
+  "source_sha256": {
+    "scoring.py": "A0F4D40EB88EF3220A9EE71158F5AAC7206F4F6EAD9EFE673A008D97C7519276",
+    "scoring_notes.md": "E05704420CE6DC1DD2822DA1F52234E38224F0C8BD62804EDDE77093E226ADED",
+    "tests/test_scoring.py": "FED9B08803E7F912316E52A47B363B3CCB8072D66464F1E7EC824B9BCFAB5500"
+  },
+  "original_review_source_sha256": {
+    "scoring.py": "F62B9A14747052BD15336B73D74E184B0485D96B83532CF16F6EFE4071ED05DE",
+    "scoring_notes.md": "C423C0F1E59D8B8E023C5E5EB9AE12CA7A6AB066E43468CD8C8F296D2F6175AB",
+    "tests/test_scoring.py": "EAE43BB66C63EEF2532465B60A5DFF187560513F77300E917BD9D66E92F70E61"
+  }
+}

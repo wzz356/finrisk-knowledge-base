@@ -1,0 +1,574 @@
+{
+  "review_schema": "finrisk_scope_independent_model_review_v1",
+  "reviewed_at": "2026-10-18T07:46:10.866684+00:00",
+  "review_type": "independent_model_text_and_scope_review",
+  "legal_gold_standard": false,
+  "human_approved": false,
+  "production_admission": false,
+  "decision": "changes_required_before_using_L002_A0029_actor_as_exclusion",
+  "summary": "67条逐条复核；1处重要主体覆盖缺口，66条在完整原文、条件及研究限制下可接受。完整性检查均通过。",
+  "counts": {
+    "critical": 0,
+    "important": 1,
+    "minor": 0,
+    "article_assessments": 67
+  },
+  "input_sha256": {
+    "work/finrisk_evidence_runtime_v1_20261018/scope_author/article_scopes.jsonl": "33c3b428a5a7f42706c86b1e03b748bef4a6a92e663413ec639fb669fe72ed6d",
+    "work/finrisk_evidence_runtime_v1_20261018/scope_author/design_notes.md": "c96dc81eee5d7d5e09fea8de76fdaa770982b27e74390a17c98f8a1ceba35cc1",
+    "work/finrisk_evidence_runtime_v1_20261018/scope_author/clarification.md": "32949c5c365cebf7888ca4d31a999a5543ee8e58a081d75f02064b98e61afa7f",
+    "outputs/FinRisk_知识库P0修复_20261018/assets/legal/articles.jsonl": "0ea04dc9efe0b3e10dbdcbece75eeee8bc019e2fafec5bc05f6fc43e5e72d69a",
+    "outputs/FinRisk_知识库P0修复_20261018/assets/legal/source_registry.jsonl": "d1f9f5049e0b5098fc4fb5be27bd3e2f0f17a22e43ff1bdd3c48ba866c00e829"
+  },
+  "verification": {
+    "scope_count": 67,
+    "unique_scope_ids": 67,
+    "source_registry_count": 13,
+    "sources_with_articles": 11,
+    "article_identity_and_text_sha256_pass": 67,
+    "evidence_coordinates_exact_replay_pass": 446,
+    "evidence_types": {
+      "article_text": 375,
+      "source_title": 67,
+      "snapshot_text": 4
+    },
+    "subclause_article_count": 45,
+    "subclause_exact_replay_pass": 193,
+    "subclause_uncovered_nonwhitespace_count": 0,
+    "subclause_explanation_flags_pass": 193,
+    "stored_official_reader_hash_pass": 67,
+    "stored_official_reader_literal_match_pass": 67,
+    "sealed_provenance_span_hash_and_text_pass": 67,
+    "reader_matching": {
+      "whitespace_normalized_exact": 34,
+      "explicit_punctuation_width_map_then_whitespace": 9,
+      "added_dependency_whitespace_literal": 24
+    },
+    "integrity_errors": []
+  },
+  "findings": [
+    {
+      "finding_id": "SCOPE-001",
+      "priority": "P1",
+      "severity": "important",
+      "article_id": "L002-A0029",
+      "scope_jsonl_line": 13,
+      "fields": [
+        "actor_scope",
+        "assertion_basis.actor",
+        "restrictions.conditional_axes"
+      ],
+      "problem": "actor_scope未覆盖正文允许的一般书面受托确认人员，却将聚合actor轴标为direct_literal。在该轴被用于排他匹配时，标签集合并不完整。",
+      "original_literal": "投保文书材料应当由投保人或者其书面委托的人员以签字、盖章或者其他法律法规认可的方式进行确认。",
+      "original_location": {
+        "file": "outputs/FinRisk_知识库P0修复_20261018/assets/legal/articles.jsonl",
+        "jsonl_line": 13,
+        "field": "text",
+        "start": 200,
+        "reader_file": "snapshots/reader_L002.txt",
+        "official_reader_line": 165,
+        "end": 246
+      },
+      "existing_actor_scope": [
+        "insurer",
+        "insurance_agent",
+        "insurance_broker",
+        "insurance_salesperson",
+        "policyholder"
+      ],
+      "counterexample": "被核对的确认行为由投保人已书面委托的家属完成，该家属不是投保人本人，也不是公司、中介或销售人员。该行为仍属于第29条第二款明文要求核对的受托确认分支；不能仅因其不在当前标签中而排除本条。",
+      "impact": "可能在直接规范装配前漏掉允许依法受托确认的分支；文书是否实际满足有效书面授权、其他法律认可方式及禁止销售人员代确认，仍须另核。此反例不判定具体文书有效。",
+      "minimal_fix": "沿用现有枚举，保留现有actor标签并加入general，将assertion_basis.actor改为assistant_interpretation，并将actor加入conditional_axes；或明确禁用本条聚合actor轴排除。继续保留原文、书面委托条件及销售人员不得代确认。不得把一般受托人员强行等同policyholder或insurance_salesperson。",
+      "blocks": "将本条聚合actor轴作为完整排他集合；不阻断带全文和条件的研究候选展示。"
+    }
+  ],
+  "accepted_key_boundaries": {
+    "L001-A0116": "stage=general不阻止已查实的actor互斥排除；只涉及代理机构自身且无公司或工作人员归属的义务，不可直接装配116条。",
+    "L001-A0131": "明文代理人、经纪人及从业人员；公司主体不能仅因禁令相似被换用131条。身份交叠、归属不明、代述、混合主体保留条件候选。",
+    "L005-A0016": "已查实纯投连产品及回访时，万能型这一明确产品轴可排除本条的直接规范装配；不能由此宣告无回访义务，应另核L005-A0025和其他规则。",
+    "general_unknown": "轴级阻止确定匹配或排除；不把整条conditional/broader视为所有轴未知，也不把有字面证据视为未覆盖分支已经穷尽。"
+  },
+  "article_assessments": [
+    {
+      "article_id": "L001-A0017",
+      "scope_jsonl_line": 1,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "保险人、订立保险合同、格式条款及免责说明均有正文依据；不把条款不生效扩成整份合同无效。"
+    },
+    {
+      "article_id": "L001-A0116",
+      "scope_jsonl_line": 2,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "保险公司及其工作人员是原文主体；general阶段不削弱主体字面边界，不能把保险销售人员职业名直接等同公司工作人员。"
+    },
+    {
+      "article_id": "L001-A0119",
+      "scope_jsonl_line": 3,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "须取得经营许可的是保险代理机构、保险经纪人；保留代理机构这一限定，不扩成每个个人代理人均须取得机构经营许可证。"
+    },
+    {
+      "article_id": "L001-A0131",
+      "scope_jsonl_line": 4,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "保险代理人、保险经纪人及其从业人员为明文主体；不因禁令文字相似而与116条互换。"
+    },
+    {
+      "article_id": "L002-A0002",
+      "scope_jsonl_line": 5,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "受公司委托或合作、不含再保险公司以及中介和销售人员的法定定义均完整保留。"
+    },
+    {
+      "article_id": "L002-A0003",
+      "scope_jsonl_line": 6,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "主体含general，保留未获准的其他机构个人禁售分支及公司中介执业登记分支。"
+    },
+    {
+      "article_id": "L002-A0005",
+      "scope_jsonl_line": 7,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "销售前中后及保单送达等未枚举事项均保留；general避免整条缩成回访。"
+    },
+    {
+      "article_id": "L002-A0017",
+      "scope_jsonl_line": 8,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "主体对应建立宣传管理制度的公司和中介；阶段映射属解释，不可仅据阶段标签作排他。"
+    },
+    {
+      "article_id": "L002-A0019",
+      "scope_jsonl_line": 9,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "公司公告、实施和销售人员宣称三分支及费率区间调整例外均保留。"
+    },
+    {
+      "article_id": "L002-A0022",
+      "scope_jsonl_line": 10,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "人身险标签只是上位候选；新型产品风险提示与依法须测评的分句未合成全部人身险测评义务。"
+    },
+    {
+      "article_id": "L002-A0025",
+      "scope_jsonl_line": 11,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "投保前、公司格式条款和提示事项有字面依据；三个月、同公司同产品、权利义务简单及投保人同意的简化条件完整。"
+    },
+    {
+      "article_id": "L002-A0026",
+      "scope_jsonl_line": 12,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "免责减责提示与免除责任条款解释分别保留，未截去免赔额等第二款。"
+    },
+    {
+      "article_id": "L002-A0029",
+      "scope_jsonl_line": 13,
+      "result": "changes_required_for_actor_exclusion",
+      "serious_findings": [
+        "SCOPE-001"
+      ],
+      "assessment": "正文及限制说明保留书面受托确认分支，但actor标签未容纳一般受托人员，不能作为完整排他主体集合。"
+    },
+    {
+      "article_id": "L002-A0033",
+      "scope_jsonl_line": 14,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "义务主体为保险销售人员；投保后向公司中介供信息以利订约，未误映射为合同后回访。"
+    },
+    {
+      "article_id": "L002-A0035",
+      "scope_jsonl_line": 15,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "仅监管规定相关产品按制度回访；可回溯且信息已确认时合理简化的条件保留。"
+    },
+    {
+      "article_id": "L003-A0013",
+      "scope_jsonl_line": 16,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "金融机构、投资型产品及保险跨产品范围以general保守处理，未硬缩成万能险。"
+    },
+    {
+      "article_id": "L003-A0037",
+      "scope_jsonl_line": 17,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "保险产品告知有字面依据；general主体须结合第3条金融机构定义及第47条，不能映射为全部销售人员。"
+    },
+    {
+      "article_id": "L003-A0047",
+      "scope_jsonl_line": 18,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "代理机构和经纪人适用本办法是字面范围引入条；产品和阶段general不构成独立业务禁令。"
+    },
+    {
+      "article_id": "L003-A0049",
+      "scope_jsonl_line": 19,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "仅为施行日期，三轴general；不据该条独立确定具体业务义务或倒推历史。"
+    },
+    {
+      "article_id": "L004-A0029",
+      "scope_jsonl_line": 20,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "个人人身保险、团体排除及信息披露完整；主体来自同来源第3条解释而非本条独立义务。"
+    },
+    {
+      "article_id": "L005-A0004",
+      "scope_jsonl_line": 21,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "个人客户、分红万能投连三类、确认栏与签字均明文，保留线上线下和其他录入方式。"
+    },
+    {
+      "article_id": "L005-A0006",
+      "scope_jsonl_line": 22,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "首款四种设计类型和次款投诉渠道均保留，personal_insurance为粗粒度上位范围。"
+    },
+    {
+      "article_id": "L005-A0007",
+      "scope_jsonl_line": 23,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "仅普通型说明书，产品标签上位映射标为解释，不能用其确认分红或其他设计类型适用。"
+    },
+    {
+      "article_id": "L005-A0008",
+      "scope_jsonl_line": 24,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "分红型说明书及增额分红终了红利条件保留；非保证利益和演示限制未截断。"
+    },
+    {
+      "article_id": "L005-A0011",
+      "scope_jsonl_line": 25,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "分红回访产品和环节有明文依据；公司主体是同来源范围解释，仍须一年期以上等条件。"
+    },
+    {
+      "article_id": "L005-A0012",
+      "scope_jsonl_line": 26,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "正文多处万能型字面并有同来源第四章标题辅助；灵活交费、持续奖金等条件保留，非仅凭标题定范围。"
+    },
+    {
+      "article_id": "L005-A0016",
+      "scope_jsonl_line": 27,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "万能型和回访均明文，不能将最低保证利率表述移到纯投连产品；公司主体和一年期以上仍待事实确认。"
+    },
+    {
+      "article_id": "L005-A0017",
+      "scope_jsonl_line": 28,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "公司向个人客户销售万能型、风险告知和签字确认明文；未偷换成本金损失测评规则。"
+    },
+    {
+      "article_id": "L005-A0025",
+      "scope_jsonl_line": 29,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "投连型回访、可能亏损和费用扣除明文，未以万能险保证利率替换。"
+    },
+    {
+      "article_id": "L005-A0029",
+      "scope_jsonl_line": 30,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "人身保险公司经营、一年期以上、人身产品信息披露均明文，但上位标签不能证明具体产品已满足条件。"
+    },
+    {
+      "article_id": "L006-A0024",
+      "scope_jsonl_line": 31,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "经营者和消费者、商业性信息及电话、同意取消停止三条件保留；general非全保险主体或产品适用。"
+    },
+    {
+      "article_id": "L007-S01-I01",
+      "scope_jsonl_line": 32,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "万能险四项同时具备、保单账户价值最低收益保证以及保证期间调整条件均完整；未外推全部已交保费无损。"
+    },
+    {
+      "article_id": "L008-A0538",
+      "scope_jsonl_line": 33,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "无偿处分或恶意延期且影响债权实现、请求法院撤销的条件完整；三轴general不推出买保险即撤销。"
+    },
+    {
+      "article_id": "L008-A0539",
+      "scope_jsonl_line": 34,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "价格明显不合理或担保、影响债权、相对人知道应知均保留；不以保险场景代替构成事实。"
+    },
+    {
+      "article_id": "L008-A0540",
+      "scope_jsonl_line": 35,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "撤销范围以债权为限及必要费用保留，须结合撤销事由及期间。"
+    },
+    {
+      "article_id": "L008-A0541",
+      "scope_jsonl_line": 36,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "一年与五年的不同起算点完整，未把二者混为同一期间。"
+    },
+    {
+      "article_id": "L008-A0542",
+      "scope_jsonl_line": 37,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "以行为实际被撤销为前提的自始效力保留，general未被用作保险专属结论。"
+    },
+    {
+      "article_id": "L009-A0004",
+      "scope_jsonl_line": 38,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "十类所得和第十项备案全条保留；保险赔款仅其中一项，未外推所有保险利益及所有税种。"
+    },
+    {
+      "article_id": "L010-A0002",
+      "scope_jsonl_line": 39,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "境内商业广告活动及四类广告角色均完整，三轴general避免把内部讨论直接当商业广告。"
+    },
+    {
+      "article_id": "L010-A0004",
+      "scope_jsonl_line": 40,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "真实性责任主体广告主明确，general映射未把广告主经营者发布者职责混同。"
+    },
+    {
+      "article_id": "L010-A0028",
+      "scope_jsonl_line": 41,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "虚假广告构成及第(二)项对购买行为有实质影响的条件保留。"
+    },
+    {
+      "article_id": "L003-A0046",
+      "scope_jsonl_line": 42,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "含本数仅限本办法数量解释，三轴general不独立设定义务。"
+    },
+    {
+      "article_id": "L003-A0040",
+      "scope_jsonl_line": 43,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "财产和短期人身、团体以及可能本金损失的缴费自然人分支完整；可以免仅限需求和财务支付评估。"
+    },
+    {
+      "article_id": "L002-A0021",
+      "scope_jsonl_line": 44,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "公司评估与确定范围、中介协助及按范围委派的不同义务人保留，未把被委派人员当成两款同一义务人。"
+    },
+    {
+      "article_id": "L002-A0024",
+      "scope_jsonl_line": 45,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "机构互联网名称提示、销售人员面对面证件及非面对面身份说明三分支完整，general避免整条缩成电话。"
+    },
+    {
+      "article_id": "L002-A0028",
+      "scope_jsonl_line": 46,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "建议终止三情形与坚持订约时说明风险确认自身意愿的继续分支完整，非绝对禁售。"
+    },
+    {
+      "article_id": "L002-A0031",
+      "scope_jsonl_line": 47,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "按不同销售方式实施可回溯及备份存档，general避免只保留电话录音。"
+    },
+    {
+      "article_id": "L002-A0034",
+      "scope_jsonl_line": 48,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "核保通过后纸质或电子保单、发票和查询功能保留，电子形式仍须符合电子签名法律。"
+    },
+    {
+      "article_id": "L002-A0047",
+      "scope_jsonl_line": 49,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "仅一般性引入其他销售相关规定，未伪造具体文号或官方交叉引用。"
+    },
+    {
+      "article_id": "L003-A0003",
+      "scope_jsonl_line": 50,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "投资型产品本金损失限定、保险并列范围、业务例外及金融机构定义完整。"
+    },
+    {
+      "article_id": "L003-A0012",
+      "scope_jsonl_line": 51,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "明文第38条例外及三类不适当性情形完整，未把一般禁止变成无例外禁售。"
+    },
+    {
+      "article_id": "L003-A0034",
+      "scope_jsonl_line": 52,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "保险适当性必要信息、产品特征和列举项保留，不等于无条件采集全部信息。"
+    },
+    {
+      "article_id": "L003-A0035",
+      "scope_jsonl_line": 53,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "需求及财务支付评估按解释继承保险语境，另携第40条可免分支，非全部人员一律义务。"
+    },
+    {
+      "article_id": "L003-A0036",
+      "scope_jsonl_line": 54,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "投连等可能本金损失产品为非穷尽集合，general保留其他符合条件产品，未推给全部保险。"
+    },
+    {
+      "article_id": "L003-A0038",
+      "scope_jsonl_line": 55,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "合同订立前建议终止与坚持投保后充分说明并书面自主选择完整，不能外推为一切产品通用豁免。"
+    },
+    {
+      "article_id": "L003-A0039",
+      "scope_jsonl_line": 56,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "变额等保单利益不确定类型及四阈值之一保留，上位personal_insurance属解释，不能扩成全部人身险。"
+    },
+    {
+      "article_id": "L004-A0002",
+      "scope_jsonl_line": 57,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "人身险险种设计期间定义完整，作为定义候选不直接建立所有人身险相同披露义务。"
+    },
+    {
+      "article_id": "L004-A0031",
+      "scope_jsonl_line": 58,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "施行及三旧文件废止的文号完整，general阶段不直接确定历史个案适用。"
+    },
+    {
+      "article_id": "L005-A0026",
+      "scope_jsonl_line": 59,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "四种特殊产品及按相关规定执行的条件完整，personal_insurance为上位解释不可确认所有人身险适用。"
+    },
+    {
+      "article_id": "L005-A0027",
+      "scope_jsonl_line": 60,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "三渠道及如有特殊要求从其规定的条件完整，下一章标题被明确标为非实体条件。"
+    },
+    {
+      "article_id": "L005-A0030",
+      "scope_jsonl_line": 61,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "施行及施行后报审备案的一年期以上产品要求并列，general保留报送阶段。"
+    },
+    {
+      "article_id": "D-ESIGN-A0003",
+      "scope_jsonl_line": 62,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "当事人约定及形式效力和三类不适用例外完整；下一章标题不作实体条件。"
+    },
+    {
+      "article_id": "D-ESIGN-A0004",
+      "scope_jsonl_line": 63,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "可有形表现且随时调取的书面形式条件保留，未偷换成任意点击均可靠签名。"
+    },
+    {
+      "article_id": "D-ESIGN-A0013",
+      "scope_jsonl_line": 64,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "同时满足四条件与末款当事人约定可靠条件均保留，分段不得独立定性。"
+    },
+    {
+      "article_id": "D-ESIGN-A0014",
+      "scope_jsonl_line": 65,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "仅可靠电子签名同效力，并读第13条可靠性与第3条范围限制。"
+    },
+    {
+      "article_id": "L007-S04-I21",
+      "scope_jsonl_line": 66,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "公司销售万能险为主范围，六类禁令及组合销售分支完整，未把其他产品单售一并纳入。"
+    },
+    {
+      "article_id": "L007-S05-I24",
+      "scope_jsonl_line": 67,
+      "result": "acceptable_with_stated_constraints",
+      "serious_findings": [],
+      "assessment": "施行、特定废止及旧业务原则整改期限完整，未删原则上，也未冒充全面现行核验。"
+    }
+  ],
+  "limitations": [
+    "本次为另一个模型执行的独立文本与范围复审，不是法律专家、人类批准或法律金标；不确认具体查询、违法性、文书效力或生产准入。",
+    "只读作者67行、design_notes.md、clarification.md及封存assets/legal原条文和来源快照；未读取任何旧新题、排序结果、运行实现、密钥；未联网或调用外部API。",
+    "本地官方reader文本不是原始HTTP HTML/PDF字节。未重新完成截至核验日的全面效力或历史版本检查；保险法、民法典、个税法、广告法的目录证据有2026-08-28截止日，万能险通知全面现行状态未闭合。",
+    "general/unknown仅该轴不能确认匹配或排除；其他轴只有在字面范围足以覆盖全部相关分支、目标行为及相应事实归属已经确定、确认范围互斥时，才可排除该条对该主体/产品/环节的直接装配。",
+    "标签是粗粒度映射而非自足法律条件；保险公司工作人员归属、代理机构与个人代理人、个人人身与团体、保险期限、特殊渠道与产品、日期、特别规则仍须查实；不能靠标签不相等认定范围互斥。",
+    "assistant_interpretation或source_title_scope不提供确定排除依据，conditional_axes目前主要列general/unknown轴，不能把不在该列表等同为可排除；须逐轴读取assertion_basis及原文。",
+    "193片段均只作解释，始终携带整条及例外；来源标题仅辅助，76项模型所需上下文不升级为官方交叉引用。",
+    "修复SCOPE-001后须重新核验目标行与原始身份哈希、逐字证据及分段；本报告不修改作者数据或实现。"
+  ]
+}

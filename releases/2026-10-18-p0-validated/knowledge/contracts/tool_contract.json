@@ -1,0 +1,152 @@
+{
+  "schema": "finrisk-evidence-tools-v1",
+  "transport": "local persistent Python object or JSONL worker; no MCP deployment",
+  "request_fields": [
+    "operation",
+    "arguments"
+  ],
+  "operations": {
+    "list_mechanisms": {
+      "required": [],
+      "purpose": "列出12个阅读机制，不能作为全库硬过滤"
+    },
+    "read_mechanism": {
+      "required": [
+        "mechanism_id"
+      ],
+      "optional": {
+        "level": [
+          "L0",
+          "L1",
+          "L2"
+        ]
+      },
+      "purpose": "读取解释性条件和边界，非法律原文或当前事实"
+    },
+    "read_article": {
+      "required": [
+        "article_id"
+      ],
+      "optional": {
+        "include_dependencies": "bool, default true",
+        "as_of": "ISO date or null"
+      },
+      "purpose": "原条文、登记上下文与时效待核标记；原始HTTP文件尚未全部归档"
+    },
+    "read_case": {
+      "required": [
+        "unit_id"
+      ],
+      "optional": {
+        "layer": [
+          "hit",
+          "extended",
+          "supplement"
+        ]
+      },
+      "purpose": "按全库稳定ID回读；supplement仅限已登记scope，extended可能含其他主体行为"
+    },
+    "read_span": {
+      "required": [
+        "span_id"
+      ],
+      "purpose": "仅允许已登记、同来源字面区间"
+    },
+    "get_dependencies": {
+      "required": [
+        "article_ids"
+      ],
+      "optional": {
+        "limit": "integer 1..32"
+      },
+      "purpose": "有限闭包；unread/partial必须保留"
+    },
+    "get_coverage": {
+      "required": [
+        "mechanism_id"
+      ],
+      "purpose": "材料覆盖和缺口；不证明当前输入风险已检查"
+    },
+    "get_input_coverage": {
+      "required": [
+        "text"
+      ],
+      "optional": {
+        "read_ids": "list",
+        "checked_ids": "list, caller reported"
+      },
+      "purpose": "不截断候选；已读/已检查/未检查分别展示，既不判有风险也不判全段安全"
+    },
+    "get_evidence_bundle": {
+      "required": [
+        "mechanism_ids",
+        "case_unit_ids"
+      ],
+      "optional": {
+        "budget_chars": "integer 2..8000",
+        "case_budget": "integer >=0",
+        "law_budget": "integer >=1",
+        "current_text": "string or null",
+        "scope_facts": "quoted caller scope facts",
+        "checked_mechanism_ids": "list, caller reported"
+      },
+      "purpose": "法规及完整上下文优先，解释后置；完整案例块；超预算返回补读ID和partial"
+    }
+  },
+  "scope_enums": {
+    "actor": [
+      "beneficiary",
+      "consumer",
+      "general",
+      "insurance_agent",
+      "insurance_broker",
+      "insurance_participant",
+      "insurance_salesperson",
+      "insured",
+      "insurer",
+      "policyholder",
+      "unknown"
+    ],
+    "product": [
+      "all_insurance",
+      "general",
+      "investment_linked",
+      "participating",
+      "personal_insurance",
+      "property_insurance",
+      "universal_life",
+      "unknown"
+    ],
+    "stage": [
+      "claims",
+      "contract_signing",
+      "general",
+      "information_disclosure",
+      "post_sale_review",
+      "pre_sale",
+      "surrender",
+      "telemarketing",
+      "unknown"
+    ]
+  },
+  "scope_fact_fields": [
+    "value",
+    "origin=current_input",
+    "quote",
+    "start",
+    "end"
+  ],
+  "scope_unknown": "omit axis or unknown with reason",
+  "budget_unit": "Unicode codepoints of case_text + legal_assembly.text",
+  "model_payload_fields": [
+    "case_text",
+    "legal_assembly.text"
+  ],
+  "compatibility_alias": "law_and_guide_text == legal_assembly.text; never send both",
+  "historical_fact_vs_current_input": "separate; literal slice validation does not prove semantic interpretation",
+  "retrieval_policy": "external unchanged BM25+BGE, equal 1:1 RRF, DeepSeek rerank; read index does not rank",
+  "whole_input_safe_verdict_supported": false,
+  "official_27_labels_exhaustively_covered": false,
+  "model_calls": 0,
+  "production_admission": false
+}

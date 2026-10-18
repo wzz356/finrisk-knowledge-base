@@ -1,0 +1,1313 @@
+{
+  "revision_id": "new36_review_corrected_v1_20261018",
+  "source_review_id": "finrisk_query_independent_static_review_20261018_v1",
+  "resolved_findings": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05"
+  ],
+  "source_author_directory": "work/finrisk_evidence_runtime_v1_20261018/query_author",
+  "source_author_hashes_before": {
+    "queries.jsonl": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+    "groups.jsonl": "eae4828912c6f8b95d15afee254e7e6d2d82a08fe7e5eb36daaa2d1971084352",
+    "expected.jsonl": "4ed271c6f56c6f3effa1b9d52084e61ec68ab6c2d1f694c7fa81908531a1f420",
+    "author_notes.md": "a384aa4db50c40da8047b1ed18338b0be0f6c2c3e43d20203ae67801a151b44e"
+  },
+  "source_author_hashes_after": {
+    "queries.jsonl": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+    "groups.jsonl": "eae4828912c6f8b95d15afee254e7e6d2d82a08fe7e5eb36daaa2d1971084352",
+    "expected.jsonl": "4ed271c6f56c6f3effa1b9d52084e61ec68ab6c2d1f694c7fa81908531a1f420",
+    "author_notes.md": "a384aa4db50c40da8047b1ed18338b0be0f6c2c3e43d20203ae67801a151b44e"
+  },
+  "source_author_files_unchanged": true,
+  "queries_exact_byte_copy": true,
+  "overall_state_changes": [],
+  "mechanism_set_changes": [],
+  "predicate_status_changes": 3,
+  "scope_queries_changed": [
+    "RQ20261018_005",
+    "RQ20261018_006",
+    "RQ20261018_009",
+    "RQ20261018_010",
+    "RQ20261018_014",
+    "RQ20261018_017",
+    "RQ20261018_018",
+    "RQ20261018_021",
+    "RQ20261018_023",
+    "RQ20261018_024",
+    "RQ20261018_025",
+    "RQ20261018_026",
+    "RQ20261018_027",
+    "RQ20261018_028",
+    "RQ20261018_029",
+    "RQ20261018_030",
+    "RQ20261018_031",
+    "RQ20261018_032",
+    "RQ20261018_033",
+    "RQ20261018_035",
+    "RQ20261018_036"
+  ],
+  "scope_query_count": 21,
+  "boundary_pending_retained": 12,
+  "nonboundary_review_status_updated": 24,
+  "human_approval_added": false,
+  "legal_expert_gold": false,
+  "model_calls": 0,
+  "implementation_or_old_results_read": false,
+  "final_correction_independent_recheck": "passed_model_silver_not_human_gold",
+  "patches": [
+    {
+      "finding_ids": [
+        "R01"
+      ],
+      "query_id": "RQ20261018_030",
+      "field": "required_predicate_assessments.M04.covered_recipient",
+      "before": {
+        "mechanism_id": "M04",
+        "predicate_id": "M04.covered_recipient",
+        "status": "met",
+        "evidence": [
+          {
+            "quote": "客户本人签单扣费后领八百元",
+            "start": 100,
+            "end": 113
+          }
+        ]
+      },
+      "after": {
+        "mechanism_id": "M04",
+        "predicate_id": "M04.covered_recipient",
+        "status": "unknown",
+        "evidence": [],
+        "clue_evidence": [
+          {
+            "quote": "客户本人签单扣费后领八百元",
+            "start": 100,
+            "end": 113
+          }
+        ],
+        "missing_reason": "存在客户本人领取八百元的承诺，但实际产品及领取人的保险合同身份未明，不能证明其为投保人、被保险人或受益人。"
+      }
+    },
+    {
+      "finding_ids": [
+        "R01"
+      ],
+      "query_id": "RQ20261018_030",
+      "field": "required_predicate_assessments.M04.transaction_offer",
+      "before": {
+        "mechanism_id": "M04",
+        "predicate_id": "M04.transaction_offer",
+        "status": "met",
+        "evidence": [
+          {
+            "quote": "签单扣费后领八百元",
+            "start": 104,
+            "end": 113
+          }
+        ]
+      },
+      "after": {
+        "mechanism_id": "M04",
+        "predicate_id": "M04.transaction_offer",
+        "status": "unknown",
+        "evidence": [],
+        "clue_evidence": [
+          {
+            "quote": "签单扣费后领八百元",
+            "start": 104,
+            "end": 113
+          }
+        ],
+        "missing_reason": "存在签单扣费后领取承诺，但实际产品未确定，扣费是否对应投保成交未明。"
+      }
+    },
+    {
+      "finding_ids": [
+        "R02"
+      ],
+      "query_id": "RQ20261018_030",
+      "field": "required_predicate_assessments.M05.promised_certain",
+      "before": {
+        "mechanism_id": "M05",
+        "predicate_id": "M05.promised_certain",
+        "status": "met",
+        "evidence": [
+          {
+            "quote": "演示那项每年肯定有",
+            "start": 71,
+            "end": 80
+          }
+        ]
+      },
+      "after": {
+        "mechanism_id": "M05",
+        "predicate_id": "M05.promised_certain",
+        "status": "unknown",
+        "evidence": [],
+        "clue_evidence": [
+          {
+            "quote": "演示那项每年肯定有",
+            "start": 71,
+            "end": 80
+          }
+        ],
+        "missing_reason": "确定性用语“演示那项每年肯定有”已知，但被遮挡栏目及具体产品未明，无法确认该承诺指向非保证部分。"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_005",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月7日，保险公司的客户经理给开修理铺的客户讲终身寿险的家庭资产安排。",
+        "start": 0,
+        "end": 41,
+        "axis": "subject",
+        "value": "保险公司客户经理与有到期借款的客户"
+      },
+      "after": {
+        "quote": "2026年10月7日，保险公司的客户经理给开修理铺的客户讲终身寿险的家庭资产安排。",
+        "start": 0,
+        "end": 41,
+        "axis": "subject",
+        "value": "保险公司客户经理与修理铺客户"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_006",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月7日，开修理铺的客户向保险公司客户经理询问终身寿险能否处理家庭债务和税务问题。",
+        "start": 0,
+        "end": 47,
+        "axis": "product",
+        "value": "终身寿险及性质未核的生存给付"
+      },
+      "after": {
+        "quote": "2026年10月7日，开修理铺的客户向保险公司客户经理询问终身寿险能否处理家庭债务和税务问题。",
+        "start": 0,
+        "end": 47,
+        "axis": "product",
+        "value": "终身寿险"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_009",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月6日，一家托育门店的经营者在保险代理人的办公室看十年期分红寿险。",
+        "start": 0,
+        "end": 40,
+        "axis": "subject",
+        "value": "保险代理人对客户说明收益"
+      },
+      "after": {
+        "quote": "2026年10月6日，一家托育门店的经营者在保险代理人的办公室看十年期分红寿险。",
+        "start": 0,
+        "end": 40,
+        "axis": "subject",
+        "value": "保险代理人与托育门店经营者"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_009",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月6日，一家托育门店的经营者在保险代理人的办公室看十年期分红寿险。",
+        "start": 0,
+        "end": 40,
+        "axis": "product",
+        "value": "十年期分红寿险的未来红利"
+      },
+      "after": {
+        "quote": "2026年10月6日，一家托育门店的经营者在保险代理人的办公室看十年期分红寿险。",
+        "start": 0,
+        "end": 40,
+        "axis": "product",
+        "value": "十年期分红寿险"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_009",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "2026年10月6日，一家托育门店的经营者在保险代理人的办公室看十年期分红寿险。",
+        "start": 0,
+        "end": 40,
+        "axis": "stage",
+        "value": "销售利益演示"
+      },
+      "after": {
+        "quote": "2026年10月6日，一家托育门店的经营者在保险代理人的办公室看十年期分红寿险。",
+        "start": 0,
+        "end": 40,
+        "axis": "stage",
+        "value": "在保险代理人办公室咨询十年期分红寿险"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_010",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月6日，托育门店经营者请保险代理人逐栏解释十年期分红寿险的领取表。",
+        "start": 0,
+        "end": 40,
+        "axis": "product",
+        "value": "十年期分红寿险及合同固定给付"
+      },
+      "after": {
+        "quote": "2026年10月6日，托育门店经营者请保险代理人逐栏解释十年期分红寿险的领取表。",
+        "start": 0,
+        "end": 40,
+        "axis": "product",
+        "value": "十年期分红寿险"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_014",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月10日，物流车队调度员咨询已持有一年的三年期寿险能否退保。",
+        "start": 0,
+        "end": 37,
+        "axis": "product",
+        "value": "已持有一年且犹豫期外的寿险"
+      },
+      "after": {
+        "quote": "2026年10月10日，物流车队调度员咨询已持有一年的三年期寿险能否退保。",
+        "start": 0,
+        "end": 37,
+        "axis": "product",
+        "value": "已持有一年的三年期寿险"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_017",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月14日，保险公司的普通型寿险销售小组讨论周末社区展位。",
+        "start": 0,
+        "end": 35,
+        "axis": "subject",
+        "value": "保险公司产品岗与销售小组"
+      },
+      "after": {
+        "quote": "2026年10月14日，保险公司的普通型寿险销售小组讨论周末社区展位。",
+        "start": 0,
+        "end": 35,
+        "axis": "subject",
+        "value": "保险公司普通型寿险销售小组"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_018",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月14日，社区展位所售普通型寿险的真实停售公告已由产品岗核验：保险公司10月1日在官方线上平台显著位置和各营业场所同时公告了产品全名及10月20日停售的起始日期。",
+        "start": 0,
+        "end": 88,
+        "axis": "subject",
+        "value": "保险公司公告、产品岗核验、销售员准确转告"
+      },
+      "after": {
+        "quote": "2026年10月14日，社区展位所售普通型寿险的真实停售公告已由产品岗核验：保险公司10月1日在官方线上平台显著位置和各营业场所同时公告了产品全名及10月20日停售的起始日期。",
+        "start": 0,
+        "end": 88,
+        "axis": "subject",
+        "value": "保险公司发布停售公告、产品岗核验"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_021",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月15日，夜市摊主通过保险代理人购买定期寿险，投保流程停在合同风险提示文书的逐项确认页。",
+        "start": 0,
+        "end": 51,
+        "axis": "subject",
+        "value": "保险代理人取代拟投保客户作确认"
+      },
+      "after": {
+        "quote": "2026年10月15日，夜市摊主通过保险代理人购买定期寿险，投保流程停在合同风险提示文书的逐项确认页。",
+        "start": 0,
+        "end": 51,
+        "axis": "subject",
+        "value": "保险代理人与购买定期寿险的客户"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03",
+        "R04"
+      ],
+      "query_id": "RQ20261018_023",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月8日，保险公司电话营销组收到一位面包房店主的录音请求：“取消你们公司的保险推销电话，以后别再打来推荐产品。",
+        "start": 0,
+        "end": 61,
+        "axis": "subject",
+        "value": "保险公司电话营销组、坐席与店主消费者"
+      },
+      "after": {
+        "quote": "2026年10月8日，保险公司电话营销组收到一位面包房店主的录音请求：“取消你们公司的保险推销电话，以后别再打来推荐产品。",
+        "start": 0,
+        "end": 61,
+        "axis": "subject",
+        "value": "保险公司电话营销组与面包房店主"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03",
+        "R04"
+      ],
+      "query_id": "RQ20261018_023",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "”系统当天已登记取消。",
+        "start": 61,
+        "end": 72,
+        "axis": "stage",
+        "value": "取消营销后三天的商业外呼安排"
+      },
+      "after": {
+        "quote": "三天后，组长仍安排坐席拨打同一号码，说先以客服检查保单为开场，随后向本人介绍新款年金险并劝他追加保费。",
+        "start": 72,
+        "end": 123,
+        "axis": "stage",
+        "value": "拟安排向同一号码介绍新款年金险并劝追加保费；不证明通话已发生"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03",
+        "R04"
+      ],
+      "query_id": "RQ20261018_024",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "店主此前有一宗未结理赔，也曾咨询过年金险，但工单没有写这次要补哪些理赔材料，还是准备继续介绍产品；派单人尚未补充通话脚本，电话也未拨出。",
+        "start": 91,
+        "end": 159,
+        "axis": "stage",
+        "value": "取消后三天、待明确目的外呼工单"
+      },
+      "after": {
+        "quote": "店主此前有一宗未结理赔，也曾咨询过年金险，但工单没有写这次要补哪些理赔材料，还是准备继续介绍产品；派单人尚未补充通话脚本，电话也未拨出。",
+        "start": 91,
+        "end": 159,
+        "axis": "stage",
+        "value": "服务或营销目的待核、尚未拨出的外呼工单"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_025",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月3日，保险代理团队复盘陶艺工作室主理人的终身寿险订单。",
+        "start": 0,
+        "end": 35,
+        "axis": "subject",
+        "value": "保险代理团队及客户，另一销售员被安排替答"
+      },
+      "after": {
+        "quote": "2026年10月3日，保险代理团队复盘陶艺工作室主理人的终身寿险订单。",
+        "start": 0,
+        "end": 35,
+        "axis": "subject",
+        "value": "保险代理团队与陶艺工作室客户的订单"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_025",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "客户签约时，销售员拿其手机替他勾选合同风险提示并提交。",
+        "start": 35,
+        "end": 62,
+        "axis": "stage",
+        "value": "合同文书确认与后续回访分别发生"
+      },
+      "after": {
+        "quote": "客户签约时，销售员拿其手机替他勾选合同风险提示并提交。",
+        "start": 35,
+        "end": 62,
+        "axis": "stage",
+        "value": "签约时由销售员代作合同风险提示确认"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_026",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月3日，陶艺工作室主理人通过保险代理团队投保终身寿险。",
+        "start": 0,
+        "end": 34,
+        "axis": "subject",
+        "value": "保险代理团队、预约助理与实际客户"
+      },
+      "after": {
+        "quote": "2026年10月3日，陶艺工作室主理人通过保险代理团队投保终身寿险。",
+        "start": 0,
+        "end": 34,
+        "axis": "subject",
+        "value": "保险代理团队与陶艺工作室客户"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_026",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "第二天助理接到公司回访，先报自己是协助预约的人，只约好时间并转接，随后由客户本人完成身份和知悉答复；助理全程没有替客户回答这些问题。",
+        "start": 95,
+        "end": 161,
+        "axis": "stage",
+        "value": "投保文书确认及合同后回访"
+      },
+      "after": {
+        "quote": "第二天助理接到公司回访，先报自己是协助预约的人，只约好时间并转接，随后由客户本人完成身份和知悉答复；助理全程没有替客户回答这些问题。",
+        "start": 95,
+        "end": 161,
+        "axis": "stage",
+        "value": "助理公开身份预约转接，由本人完成回访身份和知悉答复"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_027",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "留下的手机截图没显示确认的是合同风险提示还是订单送达页面，也看不清谁在点。",
+        "start": 54,
+        "end": 91,
+        "axis": "stage",
+        "value": "合同确认环节及回访实际答复待核"
+      },
+      "after": {
+        "quote": "留下的手机截图没显示确认的是合同风险提示还是订单送达页面，也看不清谁在点。",
+        "start": 54,
+        "end": 91,
+        "axis": "stage",
+        "value": "确认页面的环节及操作者待核"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_028",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台推介十年期分红年金险，正式投保书摆在桌上，说明书写明未来红利不保证。",
+        "start": 0,
+        "end": 60,
+        "axis": "subject",
+        "value": "银行代销保险人员向公寓职工推介"
+      },
+      "after": {
+        "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台推介十年期分红年金险，正式投保书摆在桌上，说明书写明未来红利不保证。",
+        "start": 0,
+        "end": 60,
+        "axis": "subject",
+        "value": "职工公寓咨询台的银行保险销售员"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_028",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台推介十年期分红年金险，正式投保书摆在桌上，说明书写明未来红利不保证。",
+        "start": 0,
+        "end": 60,
+        "axis": "product",
+        "value": "十年期分红年金险，未来红利及额外充值卡"
+      },
+      "after": {
+        "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台推介十年期分红年金险，正式投保书摆在桌上，说明书写明未来红利不保证。",
+        "start": 0,
+        "end": 60,
+        "axis": "product",
+        "value": "十年期分红年金险及不保证的未来红利"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_028",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "今天投保成功我另送您八百元充值卡，保单及附件都没有这笔，是柜台自掏推广费。",
+        "start": 100,
+        "end": 137,
+        "axis": "stage",
+        "value": "成交前性质、利益及附送承诺"
+      },
+      "after": {
+        "quote": "今天投保成功我另送您八百元充值卡，保单及附件都没有这笔，是柜台自掏推广费。",
+        "start": 100,
+        "end": 137,
+        "axis": "stage",
+        "value": "与投保成功绑定的额外充值卡承诺"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_029",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台介绍十年期分红年金险，先说明银行只是代销，保险公司承保，办理的是保险而非存款。",
+        "start": 0,
+        "end": 65,
+        "axis": "subject",
+        "value": "银行保险销售人员与职工客户"
+      },
+      "after": {
+        "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台介绍十年期分红年金险，先说明银行只是代销，保险公司承保，办理的是保险而非存款。",
+        "start": 0,
+        "end": 65,
+        "axis": "subject",
+        "value": "职工公寓咨询台的银行保险销售员"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_029",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台介绍十年期分红年金险，先说明银行只是代销，保险公司承保，办理的是保险而非存款。",
+        "start": 0,
+        "end": 65,
+        "axis": "product",
+        "value": "分红年金险及合同约定的生存金"
+      },
+      "after": {
+        "quote": "2026年10月4日，银行保险销售员在职工公寓咨询台介绍十年期分红年金险，先说明银行只是代销，保险公司承保，办理的是保险而非存款。",
+        "start": 0,
+        "end": 65,
+        "axis": "product",
+        "value": "十年期分红年金险"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_030",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月4日，职工公寓咨询台展示银行定期存款与年金保险两套单页，工作人员推荐“十年计划”，让客户“按存款办”。",
+        "start": 0,
+        "end": 59,
+        "axis": "subject",
+        "value": "银行与保险联合咨询台工作人员和客户"
+      },
+      "after": {
+        "quote": "2026年10月4日，职工公寓咨询台展示银行定期存款与年金保险两套单页，工作人员推荐“十年计划”，让客户“按存款办”。",
+        "start": 0,
+        "end": 59,
+        "axis": "subject",
+        "value": "职工公寓咨询台工作人员与客户"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_030",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月4日，职工公寓咨询台展示银行定期存款与年金保险两套单页，工作人员推荐“十年计划”，让客户“按存款办”。",
+        "start": 0,
+        "end": 59,
+        "axis": "product",
+        "value": "对象未明的十年计划及八百元领取利益"
+      },
+      "after": {
+        "quote": "2026年10月4日，职工公寓咨询台展示银行定期存款与年金保险两套单页，工作人员推荐“十年计划”，让客户“按存款办”。",
+        "start": 0,
+        "end": 59,
+        "axis": "product",
+        "value": "工作人员推荐的“十年计划”"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_030",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "客户没有留下产品代码、承保或发行主体、合同及活动附件，只带回一张咨询名片。",
+        "start": 132,
+        "end": 169,
+        "axis": "stage",
+        "value": "签单前、材料未留齐的推介"
+      },
+      "after": {
+        "quote": "客户没有留下产品代码、承保或发行主体、合同及活动附件，只带回一张咨询名片。",
+        "start": 132,
+        "end": 169,
+        "axis": "stage",
+        "value": "产品推介材料未留齐"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_031",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月2日，保险公司业务员向幕墙施工队续推一年期团体意外险。",
+        "start": 0,
+        "end": 35,
+        "axis": "subject",
+        "value": "保险公司业务员向团体投保方施工队说明"
+      },
+      "after": {
+        "quote": "2026年10月2日，保险公司业务员向幕墙施工队续推一年期团体意外险。",
+        "start": 0,
+        "end": 35,
+        "axis": "subject",
+        "value": "保险公司业务员与幕墙施工队"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_031",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月2日，保险公司业务员向幕墙施工队续推一年期团体意外险。",
+        "start": 0,
+        "end": 35,
+        "axis": "product",
+        "value": "一年期团体意外险、旧单退保及新单限制"
+      },
+      "after": {
+        "quote": "2026年10月2日，保险公司业务员向幕墙施工队续推一年期团体意外险。",
+        "start": 0,
+        "end": 35,
+        "axis": "product",
+        "value": "一年期团体意外险"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_031",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "2026年10月2日，保险公司业务员向幕墙施工队续推一年期团体意外险。",
+        "start": 0,
+        "end": 35,
+        "axis": "stage",
+        "value": "旧单退保及新单销售"
+      },
+      "after": {
+        "quote": "2026年10月2日，保险公司业务员向幕墙施工队续推一年期团体意外险。",
+        "start": 0,
+        "end": 35,
+        "axis": "stage",
+        "value": "一年期团体意外险续推"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_032",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月2日，幕墙施工队向保险公司业务员咨询一年期团体意外险。",
+        "start": 0,
+        "end": 35,
+        "axis": "subject",
+        "value": "保险公司业务员与施工队团体投保方"
+      },
+      "after": {
+        "quote": "2026年10月2日，幕墙施工队向保险公司业务员咨询一年期团体意外险。",
+        "start": 0,
+        "end": 35,
+        "axis": "subject",
+        "value": "保险公司业务员与幕墙施工队"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_032",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月2日，幕墙施工队向保险公司业务员咨询一年期团体意外险。",
+        "start": 0,
+        "end": 35,
+        "axis": "product",
+        "value": "一年期团体意外险旧单与候选新单"
+      },
+      "after": {
+        "quote": "2026年10月2日，幕墙施工队向保险公司业务员咨询一年期团体意外险。",
+        "start": 0,
+        "end": 35,
+        "axis": "product",
+        "value": "一年期团体意外险"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_032",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "业务员准确转告，建议先按实际工种另选产品。",
+        "start": 154,
+        "end": 175,
+        "axis": "stage",
+        "value": "合同限制与退保金额说明、真实停售公告转告"
+      },
+      "after": {
+        "quote": "业务员准确转告，建议先按实际工种另选产品。",
+        "start": 154,
+        "end": 175,
+        "axis": "stage",
+        "value": "业务员准确转告并建议按实际工种另选产品"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_033",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月2日，幕墙施工队准备换一年期团体意外险，业务员在电话里说“旧单能把原来交的钱都退回来，新单施工出事都能报，这款也快停售了”。",
+        "start": 0,
+        "end": 70,
+        "axis": "subject",
+        "value": "保险业务员与施工队采购员"
+      },
+      "after": {
+        "quote": "2026年10月2日，幕墙施工队准备换一年期团体意外险，业务员在电话里说“旧单能把原来交的钱都退回来，新单施工出事都能报，这款也快停售了”。",
+        "start": 0,
+        "end": 70,
+        "axis": "subject",
+        "value": "幕墙施工队与业务员"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_035",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月6日，保险公司在水产批发协会会场给会员介绍个人寿险。",
+        "start": 0,
+        "end": 34,
+        "axis": "subject",
+        "value": "保险公司员工、只承担场务的协会、会员消费者"
+      },
+      "after": {
+        "quote": "2026年10月6日，保险公司在水产批发协会会场给会员介绍个人寿险。",
+        "start": 0,
+        "end": 34,
+        "axis": "subject",
+        "value": "保险公司、水产批发协会与会员"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_035",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月6日，保险公司在水产批发协会会场给会员介绍个人寿险。",
+        "start": 0,
+        "end": 34,
+        "axis": "product",
+        "value": "推介个人寿险及既有保单理赔服务"
+      },
+      "after": {
+        "quote": "2026年10月6日，保险公司在水产批发协会会场给会员介绍个人寿险。",
+        "start": 0,
+        "end": 34,
+        "axis": "product",
+        "value": "个人寿险"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_035",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "会员已取消营销电话后，又主动要求客服联系补交旧单理赔发票；客服只核材料，没有任何产品推荐。",
+        "start": 84,
+        "end": 129,
+        "axis": "stage",
+        "value": "取消营销后的依请求理赔服务与会场宣传"
+      },
+      "after": {
+        "quote": "会员已取消营销电话后，又主动要求客服联系补交旧单理赔发票；客服只核材料，没有任何产品推荐。",
+        "start": 84,
+        "end": 129,
+        "axis": "stage",
+        "value": "取消营销后会员主动请求既有保单理赔材料联系，客服仅核材料且无推荐"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_036",
+      "field": "scope_facts.subject",
+      "before": {
+        "quote": "2026年10月6日，水产批发协会会后留下一份个人寿险合作纪要，写着“协会介绍会员、后续协助办理”，没有记清谁推荐保额或商谈条款，协会保险代理许可也尚未查询。",
+        "start": 0,
+        "end": 79,
+        "axis": "subject",
+        "value": "水产批发协会、合作保险人员及会员"
+      },
+      "after": {
+        "quote": "2026年10月6日，水产批发协会会后留下一份个人寿险合作纪要，写着“协会介绍会员、后续协助办理”，没有记清谁推荐保额或商谈条款，协会保险代理许可也尚未查询。",
+        "start": 0,
+        "end": 79,
+        "axis": "subject",
+        "value": "水产批发协会及纪要涉及的会员"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_036",
+      "field": "scope_facts.product",
+      "before": {
+        "quote": "2026年10月6日，水产批发协会会后留下一份个人寿险合作纪要，写着“协会介绍会员、后续协助办理”，没有记清谁推荐保额或商谈条款，协会保险代理许可也尚未查询。",
+        "start": 0,
+        "end": 79,
+        "axis": "product",
+        "value": "个人寿险、性质未明的返还及外呼工单"
+      },
+      "after": {
+        "quote": "2026年10月6日，水产批发协会会后留下一份个人寿险合作纪要，写着“协会介绍会员、后续协助办理”，没有记清谁推荐保额或商谈条款，协会保险代理许可也尚未查询。",
+        "start": 0,
+        "end": 79,
+        "axis": "product",
+        "value": "个人寿险"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03"
+      ],
+      "query_id": "RQ20261018_036",
+      "field": "scope_facts.stage",
+      "before": {
+        "quote": "会员此前发过“先不用联系”，接收部门未注明是否取消产品推销；之后工单只写“补资料谈保障”，通话内容未存。",
+        "start": 79,
+        "end": 131,
+        "axis": "stage",
+        "value": "合作会后、角色和联系目的待核"
+      },
+      "after": {
+        "quote": "会员此前发过“先不用联系”，接收部门未注明是否取消产品推销；之后工单只写“补资料谈保障”，通话内容未存。",
+        "start": 79,
+        "end": 131,
+        "axis": "stage",
+        "value": "取消推销范围及工单联系目的待核"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03",
+        "R04"
+      ],
+      "query_id": "RQ20261018_023",
+      "field": "scope_facts.behavior_date",
+      "before": {
+        "quote": "2026年10月8日，保险公司电话营销组收到一位面包房店主的录音请求：“取消你们公司的保险推销电话，以后别再打来推荐产品。",
+        "start": 0,
+        "end": 61,
+        "axis": "behavior_date",
+        "value": "2026年10月8日"
+      },
+      "after": {
+        "quote": "2026年10月8日，保险公司电话营销组收到一位面包房店主的录音请求：“取消你们公司的保险推销电话，以后别再打来推荐产品。",
+        "start": 0,
+        "end": 61,
+        "axis": "behavior_date",
+        "value": "2026-10-08：收到取消营销请求；不是后续拟外呼发生日"
+      }
+    },
+    {
+      "finding_ids": [
+        "R03",
+        "R04"
+      ],
+      "query_id": "RQ20261018_024",
+      "field": "scope_facts.behavior_date",
+      "before": {
+        "quote": "2026年10月8日，面包房店主要求保险公司取消今后的产品推销电话，系统留下了完整取消记录。",
+        "start": 0,
+        "end": 46,
+        "axis": "behavior_date",
+        "value": "2026年10月8日"
+      },
+      "after": {
+        "quote": "2026年10月8日，面包房店主要求保险公司取消今后的产品推销电话，系统留下了完整取消记录。",
+        "start": 0,
+        "end": 46,
+        "axis": "behavior_date",
+        "value": "2026-10-08：要求取消产品推销；不是后续工单或实际通话日期"
+      }
+    },
+    {
+      "finding_ids": [
+        "R04"
+      ],
+      "query_id": "RQ20261018_023",
+      "field": "scope_facts.followup_arrangement_time",
+      "before": null,
+      "after": {
+        "quote": "系统当天已登记取消。三天后，组长仍安排坐席拨打同一号码，说先以客服检查保单为开场，随后向本人介绍新款年金险并劝他追加保费。",
+        "start": 62,
+        "end": 123,
+        "axis": "followup_arrangement_time",
+        "value": "取消登记三天后拟安排新产品营销外呼；原文未证实已拨号"
+      }
+    },
+    {
+      "finding_ids": [
+        "R04"
+      ],
+      "query_id": "RQ20261018_024",
+      "field": "scope_facts.followup_work_order_time",
+      "before": null,
+      "after": {
+        "quote": "三天后服务台出现一张给该店主的外呼工单，标题是“保单跟进”，备注只有“周五下午本人方便”。",
+        "start": 46,
+        "end": 91,
+        "axis": "followup_work_order_time",
+        "value": "取消请求三天后出现外呼工单；周五下午仅为本人方便联系时段"
+      }
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_001",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_002",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_003",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_004",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_007",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_008",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_009",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_010",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_011",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_012",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_013",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_014",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_017",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_018",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_019",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_020",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_021",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_022",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_025",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_026",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_027",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_028",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_029",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    },
+    {
+      "finding_ids": [
+        "R05"
+      ],
+      "query_id": "RQ20261018_030",
+      "field": "adjudication_status",
+      "before": "model_silver_unreviewed",
+      "after": "model_silver_independently_reviewed",
+      "reason": "已有独立模型静态复核；不是人工或专家金标。"
+    }
+  ],
+  "execution_protocol_changes": {
+    "fixed_group_split_source": "independent review R05 split_protocol",
+    "development_count": 18,
+    "holdout_count": 18,
+    "opaque_ids_label_independent": true,
+    "fixed_shuffled_model_inputs": true,
+    "each_model_input_keys": [
+      "opaque_id",
+      "text"
+    ],
+    "actual_model_payload": "Only one text; new isolated context for every query; opaque ID remains outside payload.",
+    "reference_mapping_private": true,
+    "main_excludes_all_boundary_pending_queries": true
+  },
+  "final_recheck_report": "reference/final_recheck.json",
+  "final_recheck_sha256": "275289fc40223bce9c82501959e9517b14423d5f55bd03d699402a99ac5646a2"
+}

@@ -1,0 +1,66 @@
+{
+  "stage": "specification",
+  "status": "passed",
+  "date": "2026-10-18",
+  "blocking_findings": [],
+  "resolved_findings": [
+    {
+      "id": "S01",
+      "original_priority": "P2",
+      "title": "Malformed response envelope/usage details and nonstandard constants bypassed attempt audit",
+      "verified_fix": "dict envelope checks, nullable details, strict JSON, regression tests"
+    },
+    {
+      "id": "S02",
+      "original_priority": "P2",
+      "title": "Accepted invalid rerank quote was not replayable",
+      "verified_fix": "Raw source_quote retained, validated_source_quote separate, idempotent replay regression"
+    }
+  ],
+  "scope": [
+    "effect_common.py",
+    "retrieve_new36.py",
+    "cache_case_reads.py",
+    "protocol.py",
+    "prepare_initial.py",
+    "prepare_judgments.py",
+    "api_runner.py",
+    "tests",
+    "frozen new36 protocol",
+    "contracts/api_request_plan.json",
+    "contracts/experiment_config.json"
+  ],
+  "verification": {
+    "all_light_tests_passed": 37,
+    "protocol_tests": 6,
+    "api_runner_tests": 7,
+    "synthetic_scoring_tests": 24,
+    "synthetic_paired_controls_and_case_budget": "passed",
+    "new_api_calls": 0
+  },
+  "restrictions_observed": [
+    "No real reference answers read",
+    "No actual model results read",
+    "No keys read",
+    "No network",
+    "No implementation edits",
+    "No full reader startup",
+    "No child agents"
+  ],
+  "limitations": [
+    "Final pre-inference freeze artifact content not reviewed",
+    "Scoring implementation source not reviewed; only synthetic tests run",
+    "Actual model effect not measured"
+  ],
+  "nonblocking_note": "Clarify dense tie uses frozen source position; RRF/rerank uses stable unit_id before inference freeze",
+  "paid_authorization": "Parent reports explicit scoped USD 2 authorization; reviewer did not read authorization credential",
+  "source_sha256": {
+    "effect_common.py": "875259CD831568FCA1A92984166062B8F8759C864C1CC8024C9B61DDD501F020",
+    "retrieve_new36.py": "CCBA7419A793030426A5E3F81A4C92ACE22FAB75AFC7F723A0824329651AFC76",
+    "cache_case_reads.py": "A8F8B0BB1024D2C2707982D8E3403866B71033C8D485AFFE9DF8472690660D36",
+    "protocol.py": "DD028FDC410FB6D2A52E50823E1B2DD3C66933BF05F8D5CB23641B666D4B0817",
+    "prepare_initial.py": "6506FB45AD9935E4866CD89DF4E4DBF6C14E84A7C2D00AF45F812580EB7B3DB2",
+    "prepare_judgments.py": "5B023DD009C438294DB96A5B4AA7F863BCDF183D486D4B7AF224E154A7094179",
+    "api_runner.py": "F2DE90D17E2C094C77AC0C7234D672CD8A90CB42676B3A204C1CDAAB86A7628F"
+  }
+}

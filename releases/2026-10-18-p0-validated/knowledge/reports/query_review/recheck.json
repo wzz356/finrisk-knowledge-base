@@ -1,0 +1,119 @@
+{
+  "recheck_id": "finrisk_new36_final_copy_independent_recheck_20261018_v1",
+  "reviewed_date": "2026-10-18",
+  "package": "outputs/FinRisk_知识库P0修复_20261018/evaluation_new36",
+  "conclusion": "pass_freezable_as_model_silver_only",
+  "can_freeze_as_model_silver": true,
+  "human_approved": false,
+  "expert_gold": false,
+  "implementation_or_model_results_read": false,
+  "model_or_business_api_calls": 0,
+  "network_used": false,
+  "source_data_modified": false,
+  "finding_resolution": {
+    "R01": "resolved: 030 M04.covered_recipient 和 transaction_offer 均为 unknown，原引用移为 clue_evidence，缺项理由正确。",
+    "R02": "resolved: 030 M05.promised_certain 为 unknown，明确确定性用语已知但非保证对象未知。",
+    "R03": "resolved: 21题范围事实收窄或重绑；逐项核对43条范围修订最终值，原局部证据支撑问题已解决。",
+    "R04": "resolved: 023/024取消日与三天后安排/工单分开；新增两条时间跨度；未补成已拨电话。",
+    "R05": "resolved_at_material_and_protocol_level: 仅不透明ID及原文两字段，真正payload只发text；固定打乱、独立上下文、私有参考隔离规则明确。未验证运行实现。"
+  },
+  "independent_validation": {
+    "passed": true,
+    "errors": [],
+    "query_count": 36,
+    "original_author_hashes": {
+      "queries.jsonl": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+      "groups.jsonl": "eae4828912c6f8b95d15afee254e7e6d2d82a08fe7e5eb36daaa2d1971084352",
+      "expected.jsonl": "4ed271c6f56c6f3effa1b9d52084e61ec68ab6c2d1f694c7fa81908531a1f420",
+      "author_notes.md": "a384aa4db50c40da8047b1ed18338b0be0f6c2c3e43d20203ae67801a151b44e"
+    },
+    "query_file_sha256": "50cd463cdbc90d2ed2c0b8d5509f58cb06a75edaf22f88bab51c71e5eb868ac3",
+    "final_expected_sha256": "5a93f18b7eec98648725ca741b8c207056a677c00d3b7e992a8154f33c84b41f",
+    "final_model_inputs_sha256": "99e019ca28e5a3ad02786447a47602cd0dae4695a81a1977c671bf0977586a36",
+    "span_counts": {
+      "proof": 104,
+      "predicates": 130,
+      "clue": 3,
+      "scope": 146
+    },
+    "total_literal_spans": 253,
+    "status_changes": [
+      {
+        "query_id": "RQ20261018_030",
+        "predicate_id": "M04.covered_recipient",
+        "before": "met",
+        "after": "unknown"
+      },
+      {
+        "query_id": "RQ20261018_030",
+        "predicate_id": "M04.transaction_offer",
+        "before": "met",
+        "after": "unknown"
+      },
+      {
+        "query_id": "RQ20261018_030",
+        "predicate_id": "M05.promised_certain",
+        "before": "met",
+        "after": "unknown"
+      }
+    ],
+    "scope_changed_query_count": 21,
+    "scope_changed_query_ids": [
+      "RQ20261018_005",
+      "RQ20261018_006",
+      "RQ20261018_009",
+      "RQ20261018_010",
+      "RQ20261018_014",
+      "RQ20261018_017",
+      "RQ20261018_018",
+      "RQ20261018_021",
+      "RQ20261018_023",
+      "RQ20261018_024",
+      "RQ20261018_025",
+      "RQ20261018_026",
+      "RQ20261018_027",
+      "RQ20261018_028",
+      "RQ20261018_029",
+      "RQ20261018_030",
+      "RQ20261018_031",
+      "RQ20261018_032",
+      "RQ20261018_033",
+      "RQ20261018_035",
+      "RQ20261018_036"
+    ],
+    "scope_patch_after_checks": 43,
+    "split_checks": [
+      {
+        "split": "development",
+        "queries": 18,
+        "groups": 8,
+        "main": 12,
+        "pending": 6
+      },
+      {
+        "split": "holdout",
+        "queries": 18,
+        "groups": 8,
+        "main": 12,
+        "pending": 6
+      }
+    ],
+    "main_total": 24,
+    "pending_total": 12,
+    "nonboundary_reviewed": 24,
+    "manifest_file_hashes_checked": 13,
+    "model_input_fields": [
+      "opaque_id",
+      "text"
+    ],
+    "opaque_ids_unique": 36,
+    "file_order_is_original": false,
+    "source_author_unchanged": true,
+    "query_byte_copy": true,
+    "no_overall_or_mechanism_set_change": true
+  },
+  "analysis_policy": "24非pending题作为主分析；12条pending整题只列边界挑战，不抽出非边界机制加入主指标。两侧各12主+6挑战。",
+  "unresolved_data_issues": [],
+  "metadata_followup": "包内manifest/patch_log/verification及protocol仍有复核前pending措辞；本报告提供已完成独立复验结果。可由父任务同步状态及本报告引用，重算受影响文件哈希；本子代理未改包内文件。",
+  "qualification": "这是模型静态独立复核的银标；未增加人工批准、专家法律效力或模型效果实测结论。"
+}

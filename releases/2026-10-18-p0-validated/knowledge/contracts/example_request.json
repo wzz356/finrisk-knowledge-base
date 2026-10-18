@@ -1,0 +1,13 @@
+{
+  "operation": "get_evidence_bundle",
+  "arguments": {
+    "mechanism_ids": [
+      "M02"
+    ],
+    "case_unit_ids": [
+      "structured:F000419:V2:4b3c0bf76d28fd74d616fcfc8f9fd8ce8b8845a4f96e75a45945643e928dff3e"
+    ],
+    "current_text": "这是一段合成培训说明：回访时请客户本人如实回答，不得让销售人员冒充客户。",
+    "budget_chars": 8000
+  }
+}

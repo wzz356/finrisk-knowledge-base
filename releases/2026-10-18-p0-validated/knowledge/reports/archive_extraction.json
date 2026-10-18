@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "archive_sha256": "fad60e3b3ae2482600d7298e00790671ee3cc5348ce56aab3d600ac20400557e",
+  "archive_bytes": 310896920,
+  "files": 196,
+  "extracted_to": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\frp0_portable_check_20261018",
+  "source_workspace_fallback": false,
+  "full_runtime_integration_pending": false,
+  "full_runtime_integration_report": "portable_verification.json",
+  "archive_kind": "provisional_archive_used_for_full_47_test_run"
+}

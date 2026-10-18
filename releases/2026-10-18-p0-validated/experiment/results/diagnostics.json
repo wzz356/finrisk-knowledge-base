@@ -1,0 +1,70 @@
+{
+  "common_case_context_identical_for_all36": true,
+  "assembly": {
+    "old": {
+      "queries": 36,
+      "case_chars": {
+        "min": 3711,
+        "max": 3993,
+        "mean": 3889.75
+      },
+      "legal_chars": {
+        "min": 2450,
+        "max": 3938,
+        "mean": 3602.777777777778
+      },
+      "displayed_articles": 78,
+      "omitted_knowledge_items": 655,
+      "cases_shown": 486,
+      "condition_schema_chars_mean": 1183.0555555555557
+    },
+    "new": {
+      "queries": 36,
+      "case_chars": {
+        "min": 3711,
+        "max": 3993,
+        "mean": 3889.75
+      },
+      "legal_chars": {
+        "min": 1032,
+        "max": 3994,
+        "mean": 3256.8888888888887
+      },
+      "displayed_articles": 483,
+      "omitted_knowledge_items": 464,
+      "cases_shown": 486,
+      "condition_schema_chars_mean": 1183.0555555555557
+    }
+  },
+  "fee": {
+    "hard_cap_usd": 2,
+    "booked_peak_bound_usd": 1.271099376,
+    "actual_invoice_verified": false,
+    "unknown_usage_count": 0,
+    "attempts": 3723,
+    "unique_tasks": 3708,
+    "by_status": {
+      "accepted": 3708,
+      "rejected": 15
+    },
+    "by_kind": {
+      "scope": 36,
+      "rerank": 3610,
+      "judgment": 77
+    },
+    "returned_models": {
+      "deepseek-flash": 3723
+    },
+    "prompt_tokens": 5770596,
+    "completion_tokens": 425908,
+    "first_utc": "2026-10-18T08:55:42.797714+00:00",
+    "last_utc": "2026-10-18T09:05:47.611755+00:00"
+  },
+  "rerank_quote_invalid_pairs": 198,
+  "rerank_total_pairs": 3600,
+  "quote_invalid_scores_retained_without_semantic_retries": true,
+  "primary_confirmation": "holdout/main, 12 queries; model silver, not expert gold",
+  "global_retrieval_recall_measured": false,
+  "all_scope_decisions_semantically_expert_reviewed": false,
+  "mechanical_citations_do_not_measure_semantic_sufficiency": true
+}

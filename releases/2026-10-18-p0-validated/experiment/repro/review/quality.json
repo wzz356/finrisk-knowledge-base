@@ -1,0 +1,31 @@
+{
+  "stage": "code_and_cost_quality",
+  "status": "passed",
+  "specification_stage_status": "passed_before_quality",
+  "blocking_findings": [],
+  "verification": {
+    "all_light_tests_passed": 37,
+    "protocol_tests": 6,
+    "api_runner_tests": 7,
+    "synthetic_scoring_tests": 24,
+    "synthetic_paired_controls_and_case_budget": "passed",
+    "new_api_calls": 0
+  },
+  "source_sha256": {
+    "effect_common.py": "875259CD831568FCA1A92984166062B8F8759C864C1CC8024C9B61DDD501F020",
+    "retrieve_new36.py": "CCBA7419A793030426A5E3F81A4C92ACE22FAB75AFC7F723A0824329651AFC76",
+    "cache_case_reads.py": "A8F8B0BB1024D2C2707982D8E3403866B71033C8D485AFFE9DF8472690660D36",
+    "protocol.py": "DD028FDC410FB6D2A52E50823E1B2DD3C66933BF05F8D5CB23641B666D4B0817",
+    "prepare_initial.py": "6506FB45AD9935E4866CD89DF4E4DBF6C14E84A7C2D00AF45F812580EB7B3DB2",
+    "prepare_judgments.py": "5B023DD009C438294DB96A5B4AA7F863BCDF183D486D4B7AF224E154A7094179",
+    "api_runner.py": "F2DE90D17E2C094C77AC0C7234D672CD8A90CB42676B3A204C1CDAAB86A7628F"
+  },
+  "limits": [
+    "Final pre-inference freeze artifact content not reviewed",
+    "Scoring implementation source not reviewed; only synthetic tests run",
+    "Actual model effect not measured"
+  ],
+  "new_api_calls": 0,
+  "actual_effect_claimed": false,
+  "invoice_verified": false
+}
