@@ -1,0 +1,4 @@
+{"pair_id": "JG_0e30c85b34977a8a75005cc8", "previous_outer_failures": 3, "prior_HTTP_dispatches": 0, "reason": "every prior record proves explicit TLS connect failed before request() was called"}
+{"pair_id": "JG_1ce413c27055c679c2f01add", "previous_outer_failures": 3, "prior_HTTP_dispatches": 0, "reason": "every prior record proves explicit TLS connect failed before request() was called"}
+{"pair_id": "JG_a48f170283fbaa4c30174055", "previous_outer_failures": 3, "prior_HTTP_dispatches": 0, "reason": "every prior record proves explicit TLS connect failed before request() was called"}
+{"pair_id": "JG_bf6fecb9e857dad1cdbe7d68", "previous_outer_failures": 3, "prior_HTTP_dispatches": 0, "reason": "every prior record proves explicit TLS connect failed before request() was called"}

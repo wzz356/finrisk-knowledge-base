@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-17T17:31:09.029101+00:00",
+  "human_authority": "user explicitly authorized autonomous KB improvements and DeepSeek use this turn",
+  "old_unknown_no_replay_was_self_imposed": true,
+  "new_policy": "unknown calls may be retried with possible duplicate billing, every old and new attempt charged/reserved separately",
+  "cumulative_http_attempts_limit": 3,
+  "only_retry_no_valid_observed_result": true,
+  "stop_first_valid_result": true,
+  "no_score_based_retry": true,
+  "old_unknown_reservations_retained": true,
+  "global_hard_cap_usd": 2.0,
+  "concurrency": 4,
+  "valid_reused": 1714,
+  "old_unknown_attempts": 15,
+  "logical_pending": 1697,
+  "never_dispatched": 1682,
+  "bounded_retries_of_unknown": 15,
+  "study": "post-observation parser and transport protocol amendments, exploratory two-arm comparison only",
+  "original_adoption_gate": null
+}

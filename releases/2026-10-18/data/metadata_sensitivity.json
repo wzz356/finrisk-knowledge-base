@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-17T18:22:23.254210+00:00",
+  "additional_API_calls": 0,
+  "changed_pairs": [
+    {
+      "pair_id": "JG_ec24bc6cc6473d37e8b82339",
+      "query_id": "KBNEW_005",
+      "file_id": "F001048",
+      "original_later_accepted_grade": 3,
+      "uniform_earliest_grade": 2
+    },
+    {
+      "pair_id": "JG_e7c8fc329512dfc92b552ba1",
+      "query_id": "KBNEW_006",
+      "file_id": "F001929",
+      "original_later_accepted_grade": 3,
+      "uniform_earliest_grade": 2
+    },
+    {
+      "pair_id": "JG_98fe27f2eb9bf0d39640186d",
+      "query_id": "KBNEW_009",
+      "file_id": "F001177",
+      "original_later_accepted_grade": 2,
+      "uniform_earliest_grade": 1
+    },
+    {
+      "pair_id": "JG_a3f9255226ec39c44f5ca8a0",
+      "query_id": "KBNEW_012",
+      "file_id": "F001949",
+      "original_later_accepted_grade": 1,
+      "uniform_earliest_grade": 0
+    },
+    {
+      "pair_id": "JG_d4a2085b7257203271f88b72",
+      "query_id": "KBNEW_013",
+      "file_id": "F001971",
+      "original_later_accepted_grade": 2,
+      "uniform_earliest_grade": 1
+    }
+  ],
+  "primary12": {
+    "original_accepted_where_available": {
+      "baseline": {
+        "Top1": 0.75,
+        "MRR@20": 0.8194444444444445,
+        "pool_NDCG@20": 0.859450404797172,
+        "P@20": 0.45416666666666666
+      },
+      "expanded": {
+        "Top1": 0.8333333333333334,
+        "MRR@20": 0.8611111111111112,
+        "pool_NDCG@20": 0.931900287310545,
+        "P@20": 0.5208333333333334
+      }
+    },
+    "uniform_earliest_final": {
+      "baseline": {
+        "Top1": 0.75,
+        "MRR@20": 0.8194444444444445,
+        "pool_NDCG@20": 0.8564676028980673,
+        "P@20": 0.45
+      },
+      "expanded": {
+        "Top1": 0.8333333333333334,
+        "MRR@20": 0.8611111111111112,
+        "pool_NDCG@20": 0.9286069053354801,
+        "P@20": 0.5125000000000001
+      }
+    }
+  },
+  "original_missing5_use_final": true,
+  "purpose": "Sensitivity only, no alternate favorable selection or replacement of frozen final labels"
+}

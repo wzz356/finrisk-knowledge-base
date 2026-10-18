@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-17T18:31:35.391042+00:00",
+  "passed": true,
+  "zip_sha256": "52158b88e891101bd617dde15a6b51b6ca4544064f11fe4c81334ba3c01b50d1",
+  "zip_bytes": 18343670,
+  "original_directory": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\outputs\\FinRisk_知识库增量交付_20261018",
+  "extracted_directory": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_kb_delivery_verified_20261018",
+  "original_replay": {
+    "passed": true,
+    "manifest_files": 374,
+    "retrieval_queries": 24,
+    "relevance_pairs": 674,
+    "raw_scores_rebuilt": 3411,
+    "registered_quote_reads": 683,
+    "boundary_judgments": 48,
+    "booked_usd": 0.740397141,
+    "metadata_identity_repairs": 47,
+    "earlier_response_grade_changes": 5,
+    "full_corpus_recall": false,
+    "API_calls_by_this_replay": 0
+  },
+  "extracted_replay": {
+    "passed": true,
+    "manifest_files": 374,
+    "retrieval_queries": 24,
+    "relevance_pairs": 674,
+    "raw_scores_rebuilt": 3411,
+    "registered_quote_reads": 683,
+    "boundary_judgments": 48,
+    "booked_usd": 0.740397141,
+    "metadata_identity_repairs": 47,
+    "earlier_response_grade_changes": 5,
+    "full_corpus_recall": false,
+    "API_calls_by_this_replay": 0
+  },
+  "API_calls": 0
+}

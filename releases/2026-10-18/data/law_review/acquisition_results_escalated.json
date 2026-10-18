@@ -1,0 +1,132 @@
+[
+  {
+    "source_id": "L001",
+    "requested_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_4c715a53f3d4402c89f62ae77809f638.html",
+    "retrieved_at": "2026-10-18T00:20:17.7364258+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L002",
+    "requested_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+    "retrieved_at": "2026-10-18T00:20:18.3320795+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L003",
+    "requested_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=103294",
+    "retrieved_at": "2026-10-18T00:20:18.7765181+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L004",
+    "requested_url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=96387",
+    "retrieved_at": "2026-10-18T00:20:19.2334019+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L005",
+    "requested_url": "https://www.hunan.gov.cn/zqt/zcsd/202302/t20230202_29238455.html",
+    "retrieved_at": "2026-10-18T00:20:19.6914624+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L006",
+    "requested_url": "https://app.www.gov.cn/govdata/gov/202403/19/513111/article.html",
+    "retrieved_at": "2026-10-18T00:20:20.3375337+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L007",
+    "requested_url": "https://jrj.sh.gov.cn/YWTBZCCX166/20250427/be89d33ca66f4c03b55314dc9e93dcb5.html",
+    "retrieved_at": "2026-10-18T00:20:20.7848965+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L008",
+    "requested_url": "https://lyon.china-consulate.gov.cn/lsfw/zfygfljgxx/202311/t20231120_11183858.htm",
+    "retrieved_at": "2026-10-18T00:20:21.2238466+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L009",
+    "requested_url": "https://www.chinatax.gov.cn/n810219/n810744/n3752930/n3752974/c3970366/content.html",
+    "retrieved_at": "2026-10-18T00:20:21.6671614+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L010",
+    "requested_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_5474cf75173c45d6a0379730fb4e8d97.html",
+    "retrieved_at": "2026-10-18T00:20:22.1077901+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L012",
+    "requested_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=333022&generaltype=0&itemId=4098",
+    "retrieved_at": "2026-10-18T00:20:22.5536498+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L011_L012_context",
+    "requested_url": "https://www.nfra.gov.cn/chinese/docfile/2020/eddceb2e3c214f67a499421b152bf789.pdf",
+    "retrieved_at": "2026-10-18T00:20:23.0290366+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  },
+  {
+    "source_id": "L012_license_2025",
+    "requested_url": "https://www.nfra.gov.cn/chinese/docfile/2025/ac1ce085cda2433c9f67f9e4e4d1cd01.pdf",
+    "retrieved_at": "2026-10-18T00:20:23.4733104+08:00",
+    "status": "request_failed",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "representation": "no_original_acquired",
+    "production_active": false,
+    "escalated": true
+  }
+]

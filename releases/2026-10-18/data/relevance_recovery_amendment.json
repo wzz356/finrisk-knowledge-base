@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-17T18:18:57.764587+00:00",
+  "metadata_repairs": 47,
+  "semantic_fields_changed": false,
+  "proven_pre_HTTP_cases": 4,
+  "old_HTTP_dispatches_for_these_cases": 0,
+  "clarify_limit": "at most three actual HTTP dispatches; proven connect-only failures are separately counted and were overly conservatively counted as requests",
+  "old_conservative_charges_retained": true,
+  "new_requests_reserved_separately": true,
+  "global_cap_usd": 2.0,
+  "new_transport_cycles_per_pair_at_most": 3,
+  "new_connect_attempts_per_cycle_at_most": 3,
+  "no_automatic_further_rescoping": true,
+  "all_pairs_scanned_uniformly": 674,
+  "old_accepted_grade_changes": 5,
+  "original_incomplete_snapshot_preserved": true,
+  "no_score_or_grade_based_selection": true
+}

@@ -1,0 +1,59 @@
+{
+  "summary": {
+    "baseline": {
+      "n": 24,
+      "state_correct": 23,
+      "state_accuracy": 0.9583333333333334,
+      "exact_mechanism_sets": 21,
+      "by_state": {
+        "risk": {
+          "n": 12,
+          "correct": 12
+        },
+        "no_clear_risk": {
+          "n": 10,
+          "correct": 10
+        },
+        "insufficient": {
+          "n": 2,
+          "correct": 1
+        }
+      },
+      "risk_false_positives": 1,
+      "risk_missed": 0,
+      "errors": [
+        "LB24_13"
+      ]
+    },
+    "overlay": {
+      "n": 24,
+      "state_correct": 23,
+      "state_accuracy": 0.9583333333333334,
+      "exact_mechanism_sets": 21,
+      "by_state": {
+        "risk": {
+          "n": 12,
+          "correct": 12
+        },
+        "no_clear_risk": {
+          "n": 10,
+          "correct": 10
+        },
+        "insufficient": {
+          "n": 2,
+          "correct": 1
+        }
+      },
+      "risk_false_positives": 1,
+      "risk_missed": 0,
+      "errors": [
+        "LB24_13"
+      ]
+    }
+  },
+  "transitions": [],
+  "identity": "24 synthetic silver references, 12 paired groups, shared-author boundary regression; no expert gold",
+  "causal_scope": "same articles and same fact policy, changed guide metadata is a combined intervention",
+  "missing_material": "support L003-A0046 requires common reading with L003-A0040; A0040 absent from experiment; no LB24 input depends on it",
+  "mechanism_unknown": "API output only lists supported mechanisms; absence cannot distinguish not_met from unknown"
+}

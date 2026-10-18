@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-17T18:29:36.260091+00:00",
+  "passed": true,
+  "total_tests": 66,
+  "suites": [
+    {
+      "directory": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_kb_improvements_20261018",
+      "exit_code": 0,
+      "tests": 52
+    },
+    {
+      "directory": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_kb_improvements_20261018\\handoff_scope",
+      "exit_code": 0,
+      "tests": 14
+    }
+  ],
+  "API_calls": 0
+}

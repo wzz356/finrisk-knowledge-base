@@ -1,0 +1,92 @@
+{
+  "validated_at": "2026-10-18T00:31:36.966748+08:00",
+  "passed": true,
+  "checks": [
+    {
+      "check": "24条输入与参考ID唯一且一一对应",
+      "passed": true,
+      "detail": 24
+    },
+    {
+      "check": "输入严格只有query_id/text/background",
+      "passed": true,
+      "detail": "答案字段无混入"
+    },
+    {
+      "check": "12组各2条",
+      "passed": true,
+      "detail": {
+        "G01": 2,
+        "G02": 2,
+        "G03": 2,
+        "G04": 2,
+        "G05": 2,
+        "G06": 2,
+        "G07": 2,
+        "G08": 2,
+        "G09": 2,
+        "G10": 2,
+        "G11": 2,
+        "G12": 2
+      }
+    },
+    {
+      "check": "整体三态分布",
+      "passed": true,
+      "detail": {
+        "no_risk": 10,
+        "risk": 12,
+        "insufficient": 2
+      }
+    },
+    {
+      "check": "12条来源均未启用",
+      "passed": true,
+      "detail": "production_active=false"
+    },
+    {
+      "check": "12机制补丁只在解释层",
+      "passed": true,
+      "detail": 12
+    },
+    {
+      "check": "12机制谓词ID及必要性结构未增减",
+      "passed": true,
+      "detail": "只改说明与元数据"
+    },
+    {
+      "check": "42条支持原文区间与文本SHA一致",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "补丁引用均可回源",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "付费前最终冻结SHA不变",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "未虚报原件",
+      "passed": true,
+      "detail": {
+        "original_html_pdf_count": 0
+      }
+    },
+    {
+      "check": "L011L012保持全文待核",
+      "passed": true,
+      "detail": "未新增active"
+    },
+    {
+      "check": "既有规则baseline内容完全复用",
+      "passed": true,
+      "detail": "对象逐值相同"
+    }
+  ],
+  "meaning": "结构、引文与指纹检查；不是全面法律语义/效力核定",
+  "paid_api_calls": 0
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "finrisk-boundary-evidence-v1",
+  "purpose": "KB offline handoff contract, no Agent implementation or new semantic model performance claim",
+  "observed_failure": "LB24_13 both arms conflate alert candidate and supported risk mechanism",
+  "alert_candidate": "may retain suspected label for retrieval and subsequent inspection even when mechanism conditions unknown",
+  "mechanism_state": [
+    "supported",
+    "not_supported",
+    "unknown"
+  ],
+  "semantic_inputs": "one assessment for every required predicate of the selected frozen mechanism guide",
+  "fact_identity": [
+    "current_input",
+    "scenario_given_fact"
+  ],
+  "excluded_fact_proofs": [
+    "historical punishment case",
+    "regulatory text",
+    "retrieval similarity",
+    "model assumed contract terms"
+  ],
+  "source_semantics": "speaker statement proves utterance, not truth of the stated external qualification/announcement/amount",
+  "applicability_axes": [
+    "actor",
+    "product",
+    "stage",
+    "date",
+    "version",
+    "exception"
+  ],
+  "requirement": "all required conditions met before mechanism supported; any explicitly not_met => not_supported; otherwise unknown",
+  "no_clear_risk": "only within evaluated mechanisms and given facts, never a full legal compliance certificate",
+  "class_label": "canonical_label is candidate link; its own facts and scene need separate checking",
+  "implementation": "C:\\Users\\11051\\Documents\\Codex\\2026-10-09\\c-users-11051-desktop-agent-ai\\work\\finrisk_kb_improvements_20261018\\evidence_contract_validator.py",
+  "experiment_status": "added after observing fixed boundary trial, only deterministic consistency tests; not independently proven classification gain"
+}

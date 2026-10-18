@@ -1,0 +1,117 @@
+{
+  "utc": "2026-10-17T18:23:42.533566+00:00",
+  "model": "deepseek-flash",
+  "hard_cap_usd": 2.0,
+  "booked_usd": 0.740397141,
+  "not_provider_account_statement": true,
+  "unknown_usage_full_reservation": true,
+  "bounded_unknown_retries": true,
+  "old_unknown_reserves_retained": true,
+  "attempts": 4224,
+  "attempt_count_definition": "transport/request cycles, including proven pre-HTTP connection failures",
+  "proven_no_HTTP_body_sent": 18,
+  "scopes": {
+    "boundary": {
+      "requests": 48,
+      "response_status_counts": {
+        "accepted": 48
+      },
+      "input_tokens": 633048,
+      "output_tokens": 8322,
+      "known_usage_estimate_usd": 0.099273024,
+      "missing_usage_reserved_usd": 0
+    },
+    "relevance": {
+      "requests": 736,
+      "response_status_counts": {
+        "accepted": 669,
+        "rejected": 48,
+        "unknown": 19
+      },
+      "input_tokens": 674512,
+      "output_tokens": 71546,
+      "known_usage_estimate_usd": 0.12495044699999999,
+      "missing_usage_reserved_usd": 0.0407622
+    },
+    "relevance_connect_recovery": {
+      "requests": 5,
+      "response_status_counts": {
+        "accepted": 4,
+        "rejected": 1
+      },
+      "input_tokens": 4223,
+      "output_tokens": 435,
+      "known_usage_estimate_usd": 0.000687474,
+      "missing_usage_reserved_usd": 0
+    },
+    "rerank": {
+      "requests": 309,
+      "response_status_counts": {
+        "accepted": 305,
+        "rejected": 4
+      },
+      "input_tokens": 417355,
+      "output_tokens": 37037,
+      "known_usage_estimate_usd": 0.041717994,
+      "missing_usage_reserved_usd": 0
+    },
+    "rerank_continuation": {
+      "requests": 194,
+      "response_status_counts": {
+        "accepted": 186,
+        "unknown": 8
+      },
+      "input_tokens": 254410,
+      "output_tokens": 20749,
+      "known_usage_estimate_usd": 0.022650324,
+      "missing_usage_reserved_usd": 0.0221769
+    },
+    "rerank_finish": {
+      "requests": 112,
+      "response_status_counts": {
+        "accepted": 109,
+        "unknown": 3
+      },
+      "input_tokens": 143378,
+      "output_tokens": 13539,
+      "known_usage_estimate_usd": 0.013222547999999999,
+      "missing_usage_reserved_usd": 0.0083274
+    },
+    "rerank_persistent": {
+      "requests": 319,
+      "response_status_counts": {
+        "accepted": 315,
+        "unknown": 4
+      },
+      "input_tokens": 425966,
+      "output_tokens": 38747,
+      "known_usage_estimate_usd": 0.039726779999999996,
+      "missing_usage_reserved_usd": 0.0119031
+    },
+    "rerank_reliable": {
+      "requests": 1701,
+      "response_status_counts": {
+        "accepted": 1697,
+        "unknown": 3,
+        "rejected": 1
+      },
+      "input_tokens": 2278827,
+      "output_tokens": 201444,
+      "known_usage_estimate_usd": 0.20735733,
+      "missing_usage_reserved_usd": 0.0087219
+    },
+    "rerank_unaffected": {
+      "requests": 800,
+      "response_status_counts": {
+        "accepted": 797,
+        "rejected": 3
+      },
+      "input_tokens": 1082304,
+      "output_tokens": 94367,
+      "known_usage_estimate_usd": 0.09891972,
+      "missing_usage_reserved_usd": 0
+    }
+  },
+  "price_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "pricing": "offpeak: uncached input $0.15, cached input $0.003, output $0.6 per1M; reservation uses peak upper bound"
+}

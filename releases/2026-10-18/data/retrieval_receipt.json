@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-17T16:27:19.607798+00:00",
+  "seconds": 69.437374000001,
+  "queries": 24,
+  "files": 9639,
+  "units": 65475,
+  "logical_candidate_positions": 4800,
+  "actual_unique_rerank_tasks": 3411,
+  "original_and_auxiliary_query_vectors": 48,
+  "document_vectors_recomputed": 0,
+  "original_index_sha256": "a653fd381c881e1d0659c1154da99c90ab0ac378f65e60f0bda347e2b2c2a2d8",
+  "document_vectors_sha256": "f2c20933c02e93172d3f41fa98aea7a7ca32cdd9c23f6d55724212dad4309959",
+  "auxiliary_table_sha256": "7816a28a1c2ca338a4db9339b7b16f38ac4f73bcee2461639d9b519a5bb07357",
+  "input_answers_read": false,
+  "query_variants_balanced_within_modality": true,
+  "cross_modality_weights": [
+    1,
+    1
+  ],
+  "global_true_recall": false
+}

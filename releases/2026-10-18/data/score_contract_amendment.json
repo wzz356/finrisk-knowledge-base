@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-17T17:09:52.505881+00:00",
+  "reason": "model sometimes stitches a heading and sentence; invalid quotation must not be used as evidence",
+  "post_observation_parser_revision": true,
+  "original_responses_immutable": true,
+  "earliest_nonquotation_schema_valid": true,
+  "rank_score_is_not_evidence_support": true,
+  "invalid_quote_is_null": true,
+  "raw_quote_preserved": true,
+  "core_score_fields_unchanged": true,
+  "inference_bodies_unchanged": true,
+  "concurrency": 4,
+  "global_cap_usd": 2.0,
+  "old_accepted_scores_changed": 1,
+  "invalid_quotes": 1,
+  "reused": 1290,
+  "unknown": 8,
+  "pending": 2113,
+  "excluded_query_ids": [
+    "KBNEW_004"
+  ],
+  "study": "revised exploratory parser; not original strict-quotation preregistered test",
+  "adoption_gate": null
+}

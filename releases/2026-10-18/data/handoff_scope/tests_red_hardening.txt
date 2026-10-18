@@ -1,0 +1,37 @@
+test_arbitrary_range_rejected (__main__.LoaderContractTests.test_arbitrary_range_rejected) ... ok
+test_caller_cannot_mutate_future_read (__main__.LoaderContractTests.test_caller_cannot_mutate_future_read) ... ok
+test_default_returns_only_registered_hit (__main__.LoaderContractTests.test_default_returns_only_registered_hit) ... ok
+test_duplicate_unit_rejected (__main__.LoaderContractTests.test_duplicate_unit_rejected) ... ok
+test_extended_requires_explicit_layer (__main__.LoaderContractTests.test_extended_requires_explicit_layer) ... ok
+test_incompatible_projection_rejected (__main__.LoaderContractTests.test_incompatible_projection_rejected) ... ok
+test_missing_version_rejected (__main__.LoaderContractTests.test_missing_version_rejected) ... ok
+test_registered_but_invalid_span_rejected (__main__.LoaderContractTests.test_registered_but_invalid_span_rejected) ... ok
+test_source_corruption_rejected (__main__.LoaderContractTests.test_source_corruption_rejected) ... ok
+test_span_exact_range_allowed (__main__.LoaderContractTests.test_span_exact_range_allowed) ... ok
+test_span_source_fingerprint_mismatch_rejected (__main__.LoaderContractTests.test_span_source_fingerprint_mismatch_rejected) ... FAIL
+test_unit_span_namespace_collision_rejected (__main__.LoaderContractTests.test_unit_span_namespace_collision_rejected) ... FAIL
+test_unknown_id_rejected (__main__.LoaderContractTests.test_unknown_id_rejected) ... ok
+test_wrong_layer_span_rejected (__main__.LoaderContractTests.test_wrong_layer_span_rejected) ... ok
+
+======================================================================
+FAIL: test_span_source_fingerprint_mismatch_rejected (__main__.LoaderContractTests.test_span_source_fingerprint_mismatch_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 128, in test_span_source_fingerprint_mismatch_rejected
+    with self.assertRaisesRegex(ValueError, 'fingerprint'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_unit_span_namespace_collision_rejected (__main__.LoaderContractTests.test_unit_span_namespace_collision_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 122, in test_unit_span_namespace_collision_rejected
+    with self.assertRaisesRegex(ValueError, 'duplicate'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.320s
+
+FAILED (failures=2)

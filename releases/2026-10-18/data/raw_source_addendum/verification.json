@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-10-18T00:58:35.875794+08:00",
+  "passed": true,
+  "checks": {
+    "request_count_12": true,
+    "request_ids_unique": true,
+    "all_tls_failures_no_http": true,
+    "no_raw_response_claim": true,
+    "prior_frozen_files_unchanged": true,
+    "prior_law_review_manifest_unchanged": true,
+    "all_sources_in_registered_url_allowlist": true
+  },
+  "frozen_mismatches": [],
+  "prior_manifest_mismatches": [],
+  "max_concurrency": 3,
+  "per_request_timeout_seconds": 20,
+  "redirect_following": false,
+  "actual_url_attempts": 12,
+  "paid_api_calls": 0,
+  "secrets_read": false,
+  "tls_verification_disabled": false,
+  "original_bodies_acquired": 0
+}

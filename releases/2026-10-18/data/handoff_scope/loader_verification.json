@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": {
+    "unit_layer_reads": 57,
+    "span_reads": 57,
+    "literal_interval_checks": 57,
+    "refusal_checks": 62
+  },
+  "contract_unit_tests": 14,
+  "scope_documents": 16,
+  "sample_case_documents": 17,
+  "article_samples": 2,
+  "registered_spans": 57,
+  "new_paid_model_API_calls": 0,
+  "expert_or_human_approval": false
+}

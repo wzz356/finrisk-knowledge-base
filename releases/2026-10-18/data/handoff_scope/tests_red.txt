@@ -1,0 +1,148 @@
+test_arbitrary_range_rejected (__main__.LoaderContractTests.test_arbitrary_range_rejected) ... FAIL
+test_default_returns_only_registered_hit (__main__.LoaderContractTests.test_default_returns_only_registered_hit) ... FAIL
+test_duplicate_unit_rejected (__main__.LoaderContractTests.test_duplicate_unit_rejected) ... FAIL
+test_extended_requires_explicit_layer (__main__.LoaderContractTests.test_extended_requires_explicit_layer) ... FAIL
+test_incompatible_projection_rejected (__main__.LoaderContractTests.test_incompatible_projection_rejected) ... FAIL
+test_missing_version_rejected (__main__.LoaderContractTests.test_missing_version_rejected) ... FAIL
+test_registered_but_invalid_span_rejected (__main__.LoaderContractTests.test_registered_but_invalid_span_rejected) ... FAIL
+test_source_corruption_rejected (__main__.LoaderContractTests.test_source_corruption_rejected) ... FAIL
+test_span_exact_range_allowed (__main__.LoaderContractTests.test_span_exact_range_allowed) ... FAIL
+test_unknown_id_rejected (__main__.LoaderContractTests.test_unknown_id_rejected) ... FAIL
+test_wrong_layer_span_rejected (__main__.LoaderContractTests.test_wrong_layer_span_rejected) ... FAIL
+
+======================================================================
+FAIL: test_arbitrary_range_rejected (__main__.LoaderContractTests.test_arbitrary_range_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 92, in test_arbitrary_range_rejected
+    self.loader(VERSIONS).read('P1', start=0, end=17)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+======================================================================
+FAIL: test_default_returns_only_registered_hit (__main__.LoaderContractTests.test_default_returns_only_registered_hit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 75, in test_default_returns_only_registered_hit
+    got = self.loader(VERSIONS).read('U1')
+          ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+======================================================================
+FAIL: test_duplicate_unit_rejected (__main__.LoaderContractTests.test_duplicate_unit_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 116, in test_duplicate_unit_rejected
+    self.loader(VERSIONS)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+======================================================================
+FAIL: test_extended_requires_explicit_layer (__main__.LoaderContractTests.test_extended_requires_explicit_layer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 82, in test_extended_requires_explicit_layer
+    got = self.loader(VERSIONS).read('U1', layer='extended')
+          ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+======================================================================
+FAIL: test_incompatible_projection_rejected (__main__.LoaderContractTests.test_incompatible_projection_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 68, in test_incompatible_projection_rejected
+    self.loader(bad)
+    ~~~~~~~~~~~^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+======================================================================
+FAIL: test_missing_version_rejected (__main__.LoaderContractTests.test_missing_version_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 63, in test_missing_version_rejected
+    self.loader()
+    ~~~~~~~~~~~^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+======================================================================
+FAIL: test_registered_but_invalid_span_rejected (__main__.LoaderContractTests.test_registered_but_invalid_span_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 104, in test_registered_but_invalid_span_rejected
+    self.loader(VERSIONS)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+======================================================================
+FAIL: test_source_corruption_rejected (__main__.LoaderContractTests.test_source_corruption_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 98, in test_source_corruption_rejected
+    self.loader(VERSIONS)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+======================================================================
+FAIL: test_span_exact_range_allowed (__main__.LoaderContractTests.test_span_exact_range_allowed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 107, in test_span_exact_range_allowed
+    got = self.loader(VERSIONS).read('P1', start=4, end=8)
+          ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+======================================================================
+FAIL: test_unknown_id_rejected (__main__.LoaderContractTests.test_unknown_id_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 72, in test_unknown_id_rejected
+    self.loader(VERSIONS).read('NOT_REGISTERED')
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+======================================================================
+FAIL: test_wrong_layer_span_rejected (__main__.LoaderContractTests.test_wrong_layer_span_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 88, in test_wrong_layer_span_rejected
+    self.loader(VERSIONS).read('P3', layer='hit')
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope\test_evidence_loader.py", line 55, in loader
+    self.assertTrue(MODULE.exists(), '缺少只读加载器实现；RED 阶段预期失败')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 缺少只读加载器实现；RED 阶段预期失败
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.163s
+
+FAILED (failures=11)

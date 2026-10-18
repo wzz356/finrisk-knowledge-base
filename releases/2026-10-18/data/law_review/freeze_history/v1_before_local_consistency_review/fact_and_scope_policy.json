@@ -1,0 +1,20 @@
+{
+  "fact_provenance": [
+    "independent_given_fact",
+    "speaker_claim",
+    "reviewer_missing_material",
+    "historical_case_fact"
+  ],
+  "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+  "scope_axes": [
+    "subject",
+    "product",
+    "stage",
+    "behavior_date",
+    "rule_version",
+    "exception"
+  ],
+  "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+  "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+  "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+}

@@ -1,0 +1,415 @@
+[
+  {
+    "mechanism_id": "M01",
+    "trigger_any": [
+      "回访",
+      "知悉",
+      "回答知道",
+      "听懂",
+      "了解"
+    ],
+    "canonical_search_text": "保险回访 指导投保人不如实回答 诱导客户作虚假知悉确认",
+    "alias_expressions": [
+      "回访统一回答知道",
+      "指导本人虚假确认",
+      "不懂也要说理解",
+      "回访答复不实",
+      "诱导投保人不如实回答"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M01-R01",
+      "M01-R02"
+    ],
+    "source_article_ids": [
+      "L002-A0035",
+      "L005-A0011",
+      "L005-A0016",
+      "L005-A0025"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M02",
+    "trigger_any": [
+      "代接",
+      "冒名",
+      "家属",
+      "本人",
+      "身份核验"
+    ],
+    "canonical_search_text": "第三人冒充投保人接受回访 代接回访电话 身份核验",
+    "alias_expressions": [
+      "家属替客户回答",
+      "员工冒充投保人",
+      "代接客户回访",
+      "他人代答身份问题",
+      "仅预约与冒名代答区分"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M02-R01",
+      "M02-R02"
+    ],
+    "source_article_ids": [
+      "L002-A0035",
+      "L005-A0016"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M03",
+    "trigger_any": [
+      "避债",
+      "避税",
+      "债权",
+      "查封",
+      "执行",
+      "免税"
+    ],
+    "canonical_search_text": "保险销售 宣传避债避税 保单资产不受债务追偿 保险赔款免税范围",
+    "alias_expressions": [
+      "买保险躲债",
+      "保单隔离所有债务",
+      "保险财富传承避税",
+      "保险收益全部免税",
+      "保单不会被查封"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M03-R01",
+      "M03-R02"
+    ],
+    "source_article_ids": [
+      "L002-A0017",
+      "L008-A0538",
+      "L008-A0539",
+      "L008-A0540",
+      "L008-A0541",
+      "L008-A0542",
+      "L009-A0004"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M04",
+    "trigger_any": [
+      "赠送",
+      "送礼",
+      "返还",
+      "佣金",
+      "红包",
+      "补贴",
+      "体检",
+      "赠品"
+    ],
+    "canonical_search_text": "保险销售 给予投保人合同外利益 返佣 返还保费 赠送礼品服务",
+    "alias_expressions": [
+      "买保险送购物卡",
+      "私人佣金返给客户",
+      "投保额外补贴",
+      "保单外赠送服务",
+      "承诺合同外利益"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M04-R01",
+      "M04-R02"
+    ],
+    "source_article_ids": [
+      "L001-A0116",
+      "L001-A0131"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M05",
+    "trigger_any": [
+      "分红",
+      "收益",
+      "保证",
+      "利率",
+      "保底",
+      "翻倍"
+    ],
+    "canonical_search_text": "保险非保证利益 承诺分红收益 夸大演示收益 保证与非保证利益区分",
+    "alias_expressions": [
+      "分红一定达到",
+      "预计收益当保证",
+      "演示利率当实际利率",
+      "保险投资收益保底",
+      "非保证利益承诺"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M05-R01",
+      "M05-R02"
+    ],
+    "source_article_ids": [
+      "L002-A0022",
+      "L003-A0013",
+      "L003-A0037",
+      "L005-A0007",
+      "L005-A0008",
+      "L005-A0012",
+      "L007-S01-I01"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M06",
+    "trigger_any": [
+      "存款",
+      "储蓄",
+      "基金",
+      "理财",
+      "信托",
+      "银行账户"
+    ],
+    "canonical_search_text": "保险产品性质混同 银行存款 理财基金信托 淡化保险属性",
+    "alias_expressions": [
+      "保险当存款介绍",
+      "保单说成银行储蓄",
+      "混淆保险与理财产品",
+      "隐瞒保险产品性质",
+      "保险和基金信托混同"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M06-R01",
+      "M06-R02"
+    ],
+    "source_article_ids": [
+      "L002-A0017",
+      "L002-A0025",
+      "L003-A0013",
+      "L005-A0006",
+      "L005-A0029"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M07",
+    "trigger_any": [
+      "退保",
+      "本金",
+      "随取",
+      "取出",
+      "现金价值",
+      "扣费"
+    ],
+    "canonical_search_text": "保险退保损失 隐瞒现金价值 夸大领取灵活性 退保与约定领取区分",
+    "alias_expressions": [
+      "提前退保不损失本金",
+      "随时取钱全额退",
+      "隐瞒退保损失",
+      "现金价值未如实说明",
+      "领取与退保混淆"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M07-R01",
+      "M07-R02"
+    ],
+    "source_article_ids": [
+      "L002-A0025",
+      "L003-A0037",
+      "L005-A0007",
+      "L005-A0012"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M08",
+    "trigger_any": [
+      "理赔",
+      "赔付",
+      "住院",
+      "报销",
+      "确诊",
+      "医疗",
+      "手术"
+    ],
+    "canonical_search_text": "保险责任及免责 夸大保障范围 理赔条件与合同约定 隐瞒等待期",
+    "alias_expressions": [
+      "住院所有费用都赔",
+      "不看条款都能报销",
+      "确诊马上赔付",
+      "隐瞒免责和等待期",
+      "夸大保险保障范围"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M08-R01",
+      "M08-R02"
+    ],
+    "source_article_ids": [
+      "L001-A0017",
+      "L002-A0025",
+      "L002-A0026",
+      "L003-A0037",
+      "L004-A0029"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M09",
+    "trigger_any": [
+      "停售",
+      "下架",
+      "限量",
+      "最后一批",
+      "名额"
+    ],
+    "canonical_search_text": "保险产品停售宣传 未发布停售公告 虚构销售时限 炒作停售",
+    "alias_expressions": [
+      "产品马上停售催单",
+      "没有公告谎称下架",
+      "虚构停售时间",
+      "炒作限量投保",
+      "停售公告产品日期一致性"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M09-R01",
+      "M09-R02"
+    ],
+    "source_article_ids": [
+      "L002-A0017",
+      "L002-A0019",
+      "L010-A0002",
+      "L010-A0004",
+      "L010-A0028"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M10",
+    "trigger_any": [
+      "资质",
+      "许可",
+      "合作机构",
+      "代理",
+      "中介",
+      "渠道"
+    ],
+    "canonical_search_text": "委托无合法资质机构销售保险 保险代理许可与销售范围",
+    "alias_expressions": [
+      "无证机构代卖保单",
+      "未取得保险代理许可",
+      "委托无资质渠道",
+      "合作机构实际参与销售",
+      "仅引流与销售行为区分"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M10-R01",
+      "M10-R02"
+    ],
+    "source_article_ids": [
+      "L001-A0116",
+      "L001-A0119",
+      "L002-A0002",
+      "L002-A0003",
+      "L002-A0005"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M11",
+    "trigger_any": [
+      "签名",
+      "签字",
+      "确认",
+      "验证码",
+      "代点",
+      "代签",
+      "投保书"
+    ],
+    "canonical_search_text": "销售人员代投保人签署确认 电子投保文书 代抄风险提示 虚假客户记录",
+    "alias_expressions": [
+      "代点已阅读并同意",
+      "代客户电子签名",
+      "索取验证码代投保",
+      "销售代签确认书",
+      "销售代确认与透明技术辅助区分"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M11-R01",
+      "M11-R02"
+    ],
+    "source_article_ids": [
+      "L002-A0029",
+      "L002-A0033",
+      "L005-A0004",
+      "L005-A0017"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  },
+  {
+    "mechanism_id": "M12",
+    "trigger_any": [
+      "外呼",
+      "营销电话",
+      "拒绝",
+      "禁呼",
+      "来电",
+      "拨打"
+    ],
+    "canonical_search_text": "保险电话营销 消费者拒绝后继续拨打 撤回同意 禁呼名单",
+    "alias_expressions": [
+      "拒绝推销仍继续打电话",
+      "换号码反复外呼",
+      "撤回同意继续营销",
+      "忽略禁呼名单",
+      "拒绝后停止商业电话"
+    ],
+    "origin": "session_authored_generic_retrieval_aid",
+    "source_rule_ids": [
+      "M12-R01",
+      "M12-R02"
+    ],
+    "source_article_ids": [
+      "L002-A0005",
+      "L006-A0024"
+    ],
+    "not_regulatory_quote": true,
+    "not_case_fact": true,
+    "not_official_taxonomy": true,
+    "current_input_state_not_inferred": true
+  }
+]

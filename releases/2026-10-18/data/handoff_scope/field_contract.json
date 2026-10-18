@@ -1,0 +1,65 @@
+{
+  "schema": "finrisk-evidence-handoff-v1",
+  "version_groups": [
+    "content",
+    "projection",
+    "articles",
+    "rules",
+    "scope"
+  ],
+  "identity": "reuse existing unit/case/behavior/evidence/source/article IDs; new FRSCOPE-SPAN IDs identify only this overlay interval",
+  "span_offset": "unicode_codepoint [start,end), relative to exact source.text before display normalization",
+  "hit": "all exact source occurrences of original unit.source_text, independently delimited",
+  "supplement": "reviewed same behavior paragraph/responsibility or single-behavior table row; no shared actor inference",
+  "extended": "document identity, optional full source, or local context containing other behavior; cannot inherit hit actor",
+  "text_origins": {
+    "segments.text": "literal regulatory exported source",
+    "current_candidate_fields": "whole document model candidate, not all unit facts",
+    "scope_reason": "model explanation"
+  },
+  "candidate_fields": [
+    "conditions",
+    "exceptions",
+    "negations",
+    "unknowns",
+    "uncertainties",
+    "applicable_scenes",
+    "product_type",
+    "actor_role"
+  ],
+  "candidate_fields_export": "preserve original values nested in current_candidate_fields; absent/null is not false",
+  "quality": [
+    "candidate_status",
+    "human_review_status",
+    "human_approved",
+    "full_document_human_approved",
+    "previous_scope_review",
+    "new_review_identity",
+    "effect_status",
+    "attribution_limits",
+    "attribution_ambiguity",
+    "occurrence_ambiguity",
+    "base_evidence_ambiguous",
+    "base_context_ambiguous"
+  ],
+  "runtime_fields": [
+    "query_id",
+    "score",
+    "rank",
+    "relevance_grade",
+    "query_reason",
+    "query_limits"
+  ],
+  "runtime_rule": "runtime_relevance is null in static evidence; caller may append runtime provenance separately, score is not violation probability",
+  "refusals": [
+    "missing/mismatched version",
+    "unregistered ID",
+    "wrong layer",
+    "unregistered requested range",
+    "bad file/source/span SHA",
+    "unit-span source mismatch",
+    "duplicate ID"
+  ],
+  "scope_noninheritance": "existing scope review applies only to exact original reviewed unit and source SHA; all other units of that file remain unreviewed",
+  "article_limit": "reader snapshot, literal source positions checked; current legal status and historical applicability are not independently revalidated"
+}

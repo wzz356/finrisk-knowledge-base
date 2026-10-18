@@ -1,0 +1,93 @@
+[
+  {
+    "source_id": "L001",
+    "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_4c715a53f3d4402c89f62ae77809f638.html",
+    "expected_title": "中华人民共和国保险法",
+    "version": "2015年修正文本",
+    "content_role": "official_text_page"
+  },
+  {
+    "source_id": "L002",
+    "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+    "expected_title": "保险销售行为管理办法",
+    "version": "国家金融监督管理总局令2023年第2号",
+    "content_role": "official_text_page"
+  },
+  {
+    "source_id": "L003",
+    "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=103294",
+    "expected_title": "金融机构产品适当性管理办法",
+    "version": "国家金融监督管理总局令2025年第7号",
+    "content_role": "official_text_page"
+  },
+  {
+    "source_id": "L004",
+    "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=96387",
+    "expected_title": "人身保险产品信息披露管理办法",
+    "version": "中国银保监会令2022年第8号",
+    "content_role": "official_text_page"
+  },
+  {
+    "source_id": "L005",
+    "url": "https://www.hunan.gov.cn/zqt/zcsd/202302/t20230202_29238455.html",
+    "expected_title": "一年期以上人身保险产品信息披露规则",
+    "version": "银保监规〔2022〕24号",
+    "content_role": "official_text_page"
+  },
+  {
+    "source_id": "L006",
+    "url": "https://app.www.gov.cn/govdata/gov/202403/19/513111/article.html",
+    "expected_title": "中华人民共和国消费者权益保护法实施条例",
+    "version": "国务院令第778号",
+    "content_role": "official_text_page"
+  },
+  {
+    "source_id": "L007",
+    "url": "https://jrj.sh.gov.cn/YWTBZCCX166/20250427/be89d33ca66f4c03b55314dc9e93dcb5.html",
+    "expected_title": "关于加强万能型人身保险监管有关事项的通知",
+    "version": "金规〔2025〕14号",
+    "content_role": "official_text_page"
+  },
+  {
+    "source_id": "L008",
+    "url": "https://lyon.china-consulate.gov.cn/lsfw/zfygfljgxx/202311/t20231120_11183858.htm",
+    "expected_title": "中华人民共和国民法典",
+    "version": "2020年通过文本",
+    "content_role": "official_text_page"
+  },
+  {
+    "source_id": "L009",
+    "url": "https://www.chinatax.gov.cn/n810219/n810744/n3752930/n3752974/c3970366/content.html",
+    "expected_title": "中华人民共和国个人所得税法",
+    "version": "2018年修正文本",
+    "content_role": "official_text_page"
+  },
+  {
+    "source_id": "L010",
+    "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_5474cf75173c45d6a0379730fb4e8d97.html",
+    "expected_title": "中华人民共和国广告法",
+    "version": "2021年修正文本",
+    "content_role": "official_text_page"
+  },
+  {
+    "source_id": "L012",
+    "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=333022&generaltype=0&itemId=4098",
+    "expected_title": "人身保险电话销售业务管理办法",
+    "version": "保监发〔2013〕40号",
+    "content_role": "issuer_text_page"
+  },
+  {
+    "source_id": "L011_L012_context",
+    "url": "https://www.nfra.gov.cn/chinese/docfile/2020/eddceb2e3c214f67a499421b152bf789.pdf",
+    "expected_title": "监管文件引用背景_不是效力目录",
+    "version": "2020年文件",
+    "content_role": "context_not_fulltext_or_validity"
+  },
+  {
+    "source_id": "L012_license_2025",
+    "url": "https://www.nfra.gov.cn/chinese/docfile/2025/ac1ce085cda2433c9f67f9e4e4d1cd01.pdf",
+    "expected_title": "2025年行政许可指南",
+    "version": "2025年载体",
+    "content_role": "recent_specific_article_usage"
+  }
+]

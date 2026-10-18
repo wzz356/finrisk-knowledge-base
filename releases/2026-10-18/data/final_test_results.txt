@@ -1,0 +1,80 @@
+C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018
+test_duplicate_rank_is_refused (test_auxiliary.AuxiliaryTests.test_duplicate_rank_is_refused) ... ok
+test_fusion_deduplicates_and_stable_ties (test_auxiliary.AuxiliaryTests.test_fusion_deduplicates_and_stable_ties) ... ok
+test_lexicon_does_not_mutate_original_or_infer_state (test_auxiliary.AuxiliaryTests.test_lexicon_does_not_mutate_original_or_infer_state) ... ok
+test_no_auxiliary_is_exact_identity (test_auxiliary.AuxiliaryTests.test_no_auxiliary_is_exact_identity) ... ok
+test_unknown_topic_keeps_original (test_auxiliary.AuxiliaryTests.test_unknown_topic_keeps_original) ... ok
+test_project_schema_is_not_a_credential (test_delivery_scan.DeliveryScanTests.test_project_schema_is_not_a_credential) ... ok
+test_standalone_credential_shapes_are_refused (test_delivery_scan.DeliveryScanTests.test_standalone_credential_shapes_are_refused) ... ok
+test_case_cannot_prove_current_fact (test_evidence_contract.ContractTests.test_case_cannot_prove_current_fact) ... ok
+test_incorrect_quote_refused (test_evidence_contract.ContractTests.test_incorrect_quote_refused) ... ok
+test_missing_predicate_refused (test_evidence_contract.ContractTests.test_missing_predicate_refused) ... ok
+test_negative_needs_evidence (test_evidence_contract.ContractTests.test_negative_needs_evidence) ... ok
+test_unknown_can_still_alert (test_evidence_contract.ContractTests.test_unknown_can_still_alert) ... ok
+test_unknown_cannot_claim_supported (test_evidence_contract.ContractTests.test_unknown_cannot_claim_supported) ... ok
+test_absent_identity_preserves_semantics_and_raw (test_metadata_recovery.MetadataRecoveryTest.test_absent_identity_preserves_semantics_and_raw) ... ok
+test_explicit_identity_is_never_overwritten (test_metadata_recovery.MetadataRecoveryTest.test_explicit_identity_is_never_overwritten) ... ok
+test_invalid_grade_and_unregistered_evidence_still_rejected (test_metadata_recovery.MetadataRecoveryTest.test_invalid_grade_and_unregistered_evidence_still_rejected) ... ok
+test_empty_positive_and_zero_gain (test_metrics_night.MetricsTests.test_empty_positive_and_zero_gain) ... ok
+test_order_and_nonbinary_gain (test_metrics_night.MetricsTests.test_order_and_nonbinary_gain) ... ok
+test_unjudged_refused (test_metrics_night.MetricsTests.test_unjudged_refused) ... ok
+test_empty_quote_does_not_support_boundary_risk (test_night_api.NightAPITests.test_empty_quote_does_not_support_boundary_risk) ... ok
+test_foreign_quote_rejected (test_night_api.NightAPITests.test_foreign_quote_rejected) ... ok
+test_global_cap_spans_scopes_and_unknown_usage (test_night_api.NightAPITests.test_global_cap_spans_scopes_and_unknown_usage) ... ok
+test_invalid_shapes_are_preservable_errors (test_night_api.NightAPITests.test_invalid_shapes_are_preservable_errors) ... ok
+test_nonjson_response_keeps_original_body (test_night_api.NightAPITests.test_nonjson_response_keeps_original_body) ... ok
+test_reference_field_in_payload_is_refused (test_night_api.NightAPITests.test_reference_field_in_payload_is_refused) ... ok
+test_registered_spans_are_read_from_source (test_night_api.NightAPITests.test_registered_spans_are_read_from_source) ... ok
+test_reservation_includes_full_output (test_night_api.NightAPITests.test_reservation_includes_full_output) ... ok
+test_unknown_dispatch_prevents_automatic_repeat (test_night_api.NightAPITests.test_unknown_dispatch_prevents_automatic_repeat) ... ok
+test_unknown_model_is_terminal_and_not_flash_priced (test_night_api.NightAPITests.test_unknown_model_is_terminal_and_not_flash_priced) ... ok
+test_wrong_identity_rejected (test_night_api.NightAPITests.test_wrong_identity_rejected) ... ok
+test_wrong_model_and_oversized_output_refused (test_night_api.NightAPITests.test_wrong_model_and_oversized_output_refused) ... ok
+test_http200_read_failure_is_unknown (test_persistent_transport.TransportTests.test_http200_read_failure_is_unknown) ... ok
+test_no_replay_after_dispatch_failure (test_persistent_transport.TransportTests.test_no_replay_after_dispatch_failure) ... ok
+test_preconnect_retry_before_dispatch (test_persistent_transport.TransportTests.test_preconnect_retry_before_dispatch) ... ok
+test_reuses_connection (test_persistent_transport.TransportTests.test_reuses_connection) ... ok
+test_ambiguous_typography_refused (test_quote_recovery.QuoteTests.test_ambiguous_typography_refused) ... ok
+test_semantic_difference_refused (test_quote_recovery.QuoteTests.test_semantic_difference_refused) ... ok
+test_source_readback (test_quote_recovery.QuoteTests.test_source_readback) ... ok
+test_attempts_include_old_scope (test_reliable_api.RetryTests.test_attempts_include_old_scope) ... ok
+test_attempts_never_reset_over_three (test_reliable_api.RetryTests.test_attempts_never_reset_over_three) ... ok
+test_observed_401_never_retried_after_read_failure (test_reliable_api.RetryTests.test_observed_401_never_retried_after_read_failure) ... ok
+test_unknown_recovery_keeps_full_cost_and_counts_attempt (test_reliable_api.RetryTests.test_unknown_recovery_keeps_full_cost_and_counts_attempt) ... ok
+test_connection_request_limit (test_reliable_transport.TransportTests.test_connection_request_limit) ... ok
+test_http200_read_failure_is_unknown (test_reliable_transport.TransportTests.test_http200_read_failure_is_unknown) ... ok
+test_no_replay_after_dispatch_failure (test_reliable_transport.TransportTests.test_no_replay_after_dispatch_failure) ... ok
+test_preconnect_retry_before_dispatch (test_reliable_transport.TransportTests.test_preconnect_retry_before_dispatch) ... ok
+test_reuses_connection (test_reliable_transport.TransportTests.test_reuses_connection) ... ok
+test_bad_quote_never_becomes_evidence (test_score_parser.ScoreTests.test_bad_quote_never_becomes_evidence) ... ok
+test_exact_quote_retained (test_score_parser.ScoreTests.test_exact_quote_retained) ... ok
+test_revalidation_stable (test_score_parser.ScoreTests.test_revalidation_stable) ... ok
+test_wrong_level_still_rejected (test_score_parser.ScoreTests.test_wrong_level_still_rejected) ... ok
+test_wrong_model_still_rejected (test_score_parser.ScoreTests.test_wrong_model_still_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 0.520s
+
+OK
+
+
+C:\Users\11051\Documents\Codex\2026-10-09\c-users-11051-desktop-agent-ai\work\finrisk_kb_improvements_20261018\handoff_scope
+test_arbitrary_range_rejected (test_evidence_loader.LoaderContractTests.test_arbitrary_range_rejected) ... ok
+test_caller_cannot_mutate_future_read (test_evidence_loader.LoaderContractTests.test_caller_cannot_mutate_future_read) ... ok
+test_default_returns_only_registered_hit (test_evidence_loader.LoaderContractTests.test_default_returns_only_registered_hit) ... ok
+test_duplicate_unit_rejected (test_evidence_loader.LoaderContractTests.test_duplicate_unit_rejected) ... ok
+test_extended_requires_explicit_layer (test_evidence_loader.LoaderContractTests.test_extended_requires_explicit_layer) ... ok
+test_incompatible_projection_rejected (test_evidence_loader.LoaderContractTests.test_incompatible_projection_rejected) ... ok
+test_missing_version_rejected (test_evidence_loader.LoaderContractTests.test_missing_version_rejected) ... ok
+test_registered_but_invalid_span_rejected (test_evidence_loader.LoaderContractTests.test_registered_but_invalid_span_rejected) ... ok
+test_source_corruption_rejected (test_evidence_loader.LoaderContractTests.test_source_corruption_rejected) ... ok
+test_span_exact_range_allowed (test_evidence_loader.LoaderContractTests.test_span_exact_range_allowed) ... ok
+test_span_source_fingerprint_mismatch_rejected (test_evidence_loader.LoaderContractTests.test_span_source_fingerprint_mismatch_rejected) ... ok
+test_unit_span_namespace_collision_rejected (test_evidence_loader.LoaderContractTests.test_unit_span_namespace_collision_rejected) ... ok
+test_unknown_id_rejected (test_evidence_loader.LoaderContractTests.test_unknown_id_rejected) ... ok
+test_wrong_layer_span_rejected (test_evidence_loader.LoaderContractTests.test_wrong_layer_span_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.347s
+
+OK

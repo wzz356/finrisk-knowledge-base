@@ -1,0 +1,53 @@
+{
+  "frozen_at": "2026-10-18T00:27:33.548140+08:00",
+  "paid_calls_before_freeze": 0,
+  "frozen_files": [
+    {
+      "path": "boundary_inputs.jsonl",
+      "sha256": "ea5f377eefc246f6d01f67aeea230c0833288c8799a026878546b5cdab420189",
+      "bytes": 8366
+    },
+    {
+      "path": "boundary_reference.jsonl",
+      "sha256": "40e6b845b94889e32dbcb5fcbd3f8b81ad16e9f999862aea8a38566d11746e05",
+      "bytes": 13770
+    },
+    {
+      "path": "baseline_operational_rules.json",
+      "sha256": "9796cc85bf49652cafb17f4d74bb1cf27cf2f3169cfcf3adcff73ae6835d49f1",
+      "bytes": 16997
+    },
+    {
+      "path": "operational_rules_overlay.json",
+      "sha256": "c53eead9c5c557bb0d7330e80fc74b77a4ab2813047db70bab5443f3440e59ff",
+      "bytes": 36749
+    },
+    {
+      "path": "fact_and_scope_policy.json",
+      "sha256": "1e882e52e4b3c57ba3028d8cd6479346666c600be7cb2c30b0ab4bb5b8b8c6a4",
+      "bytes": 890
+    },
+    {
+      "path": "rule_patch.jsonl",
+      "sha256": "e869b196e7cf609aae0783cea5b6b0a81f6dcfe6953466ef27155bb6aa5bfe9f",
+      "bytes": 12602
+    },
+    {
+      "path": "support_articles.jsonl",
+      "sha256": "1681bf5d4b36167f596f6db2ff57edd33d69c55e77c990d7a794e395fccd431f",
+      "bytes": 48756
+    },
+    {
+      "path": "source_verification.jsonl",
+      "sha256": "68e0e6282c3f03bb79ac1df8191dca0c1645c6e1fd33ff574fc99f87bc428fbe",
+      "bytes": 25428
+    },
+    {
+      "path": "boundary_experiment_design.json",
+      "sha256": "657624a89a5a2e348a2e9b123d95041499c8192d8fa69e1820a42975d476e3dc",
+      "bytes": 2635
+    }
+  ],
+  "reference_separation": "请求只读input文件；reference离线评分",
+  "freeze_scope": "内容冻结，未改原库，后续新增报告/核验日志不改变已冻结文件"
+}

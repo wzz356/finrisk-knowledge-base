@@ -1,0 +1,1371 @@
+{
+  "original_deliverable_zip_sha256": "52158b88e891101bd617dde15a6b51b6ca4544064f11fe4c81334ba3c01b50d1",
+  "original_manifest_sha256": "c3b1427e94d97e889da2fe996bcff3412d273a06f6d392267fbfbda6fb9e3e3d",
+  "original_fresh_replay": {
+    "passed": true,
+    "manifest_files": 374,
+    "retrieval_queries": 24,
+    "relevance_pairs": 674,
+    "raw_scores_rebuilt": 3411,
+    "registered_quote_reads": 683,
+    "boundary_judgments": 48,
+    "booked_usd": 0.740397141,
+    "metadata_identity_repairs": 47,
+    "earlier_response_grade_changes": 5,
+    "full_corpus_recall": false,
+    "API_calls_by_this_replay": 0
+  },
+  "files": [
+    {
+      "published": "data/rerank_jobs.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\rerank_jobs.jsonl",
+      "source_sha256": "47973d4cf9e72a9b5c2e69771dfe80d078198d76ee81f3a19757a1a5ec2dc67f",
+      "published_sha256": "f91bab4b09c5da648f2f2e4a0366deb7d53d147c4ec8cf6a0cc835fd8976c74c",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "data/candidate_map.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\candidate_map.jsonl",
+      "source_sha256": "45cd7b2cfa2e09b03f994ac7895308e2afc8fb484657687ff1c30b0fa14c474b",
+      "published_sha256": "32947b5d5c9289d6dc3e33a7a42f139b50a6edfd3c4160dfba32546d95a57cd5",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "data/rankings.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\rankings.jsonl",
+      "source_sha256": "eae123c38b60a29a255c4c96b50ac6d5a270712bf4295c6c0b52f18d4f300af4",
+      "published_sha256": "37b6beb16db8131fdd9944c4416c6dfb9f7e6895854597866f150e698d7adee6",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "data/judging_sources.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\judging_sources.jsonl",
+      "source_sha256": "8d853e698b0c4331ec28bafa2a041a8ee8f51aa5dbc03b928080d4ea15609050",
+      "published_sha256": "6a57816db07b387d0fbb654aa951fbdab9d7c83a98ec167123935430b27b2691",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "data/relevance_jobs.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\relevance_jobs.jsonl",
+      "source_sha256": "01182302d7a3056e6fb2c0db267e7cbeb498886f7c83fc11104059042f880a08",
+      "published_sha256": "ae6d544a64fc8db2723842b8d9569f493ef5f09847150963e58aa9017bb5c954",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "data/relevance_metadata_recovery.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\relevance_metadata_recovery.jsonl",
+      "source_sha256": "db804e0138d943934c7e5378ef0ce7268ca5bb56ae08a3fbae4310454bdc8c31",
+      "published_sha256": "e2a2a62fa046d1ab00c03fd90ed15877d4a3423414f6cfc906d19a10875bb191",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "data/relevance_recovery_selection_audit.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\relevance_recovery_selection_audit.jsonl",
+      "source_sha256": "581ffd4d5e931aa29c11cbf02b1949fb7e9833740aebaf90ec7788b6a62e64b6",
+      "published_sha256": "581ffd4d5e931aa29c11cbf02b1949fb7e9833740aebaf90ec7788b6a62e64b6",
+      "compression": null
+    },
+    {
+      "published": "data/relevance_recovery_amendment.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\relevance_recovery_amendment.json",
+      "source_sha256": "6009620cced953608aacd76fb8d98b40973660fcaac27e1d494802fa504a77d7",
+      "published_sha256": "6009620cced953608aacd76fb8d98b40973660fcaac27e1d494802fa504a77d7",
+      "compression": null
+    },
+    {
+      "published": "data/relevance_preHTTP_proof.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\relevance_preHTTP_proof.jsonl",
+      "source_sha256": "2ea80ff1005b8f1ea21c849964c31c00bf44036d7de143cecf64e2782fd6e5c1",
+      "published_sha256": "2ea80ff1005b8f1ea21c849964c31c00bf44036d7de143cecf64e2782fd6e5c1",
+      "compression": null
+    },
+    {
+      "published": "data/qrels_silver.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\qrels_silver.jsonl",
+      "source_sha256": "2e0308640e24ddb83354ac3e44f401c436a40471e89d5b64925075394b993cb1",
+      "published_sha256": "fef1bee9743d4cbdb0f2604abbfc5c612992f19b97fe620e3bdd7fa5f84e4745",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "data/retrieval_per_query.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\retrieval_per_query.jsonl",
+      "source_sha256": "9d2fb5ccde56a29c9f510df050c927f3d3ccf52214161276efee41857032766e",
+      "published_sha256": "9d2fb5ccde56a29c9f510df050c927f3d3ccf52214161276efee41857032766e",
+      "compression": null
+    },
+    {
+      "published": "data/retrieval_metrics.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\retrieval_metrics.json",
+      "source_sha256": "8ab247470c940d2982f8a4953dd57d2dfd7f54daf4ce32a35eff6594c6ada4ed",
+      "published_sha256": "8ab247470c940d2982f8a4953dd57d2dfd7f54daf4ce32a35eff6594c6ada4ed",
+      "compression": null
+    },
+    {
+      "published": "data/boundary_jobs.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\boundary_jobs.jsonl",
+      "source_sha256": "c1cf48720d328c7d2e226ad35f491f9822d973a79ab095fbe29ca6a4cffc1213",
+      "published_sha256": "d932cccb21b99efd46caed649ccdc0aa7c37ad49a96477870ed90559984deaa0",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "data/boundary_metrics.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\boundary_metrics.json",
+      "source_sha256": "75e1399d5ac4f1ae9a9e1752c44f69b48d7b5b33849d254c054c43a0b0d10592",
+      "published_sha256": "75e1399d5ac4f1ae9a9e1752c44f69b48d7b5b33849d254c054c43a0b0d10592",
+      "compression": null
+    },
+    {
+      "published": "data/fees.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\fees.json",
+      "source_sha256": "09c5ad7c008870be5591ff8879c30d0107080fa46c8fbcc2965cc023ae6f9055",
+      "published_sha256": "09c5ad7c008870be5591ff8879c30d0107080fa46c8fbcc2965cc023ae6f9055",
+      "compression": null
+    },
+    {
+      "published": "data/legal_source_snapshots.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\legal_source_snapshots.jsonl",
+      "source_sha256": "b93b01ef3416d72ff6b35bed237d129254422ab3858d48ab97699e082f09e5d0",
+      "published_sha256": "49f1a0c383e89a2f5072570cb1c3aa923369d571def88acfcd5b96f7aeaf1c52",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "data/delivery_articles43.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\delivery_articles43.jsonl",
+      "source_sha256": "ac2c3b53d3b189f5ec6f3c841ddb1700de9488c97e8b084768ad58841360fcc2",
+      "published_sha256": "ac2c3b53d3b189f5ec6f3c841ddb1700de9488c97e8b084768ad58841360fcc2",
+      "compression": null
+    },
+    {
+      "published": "data/验收报告.md",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\验收报告.md",
+      "source_sha256": "757d8520100ca25993452a311f5fd4e697b4dd5d8bc9ebf4def55a923eed07f6",
+      "published_sha256": "757d8520100ca25993452a311f5fd4e697b4dd5d8bc9ebf4def55a923eed07f6",
+      "compression": null
+    },
+    {
+      "published": "data/接入说明.md",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\接入说明.md",
+      "source_sha256": "d001255b73bc8aae29c3f7c409e5c4f4873a7a21cfdfc857c13abd37e6b75989",
+      "published_sha256": "d001255b73bc8aae29c3f7c409e5c4f4873a7a21cfdfc857c13abd37e6b75989",
+      "compression": null
+    },
+    {
+      "published": "data/明早验收清单.md",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\明早验收清单.md",
+      "source_sha256": "b6a45570a51572107b0e30b4bf64301d00b4fc84145efa411ed1df60178d89c3",
+      "published_sha256": "b6a45570a51572107b0e30b4bf64301d00b4fc84145efa411ed1df60178d89c3",
+      "compression": null
+    },
+    {
+      "published": "data/三例验收样张.md",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\三例验收样张.md",
+      "source_sha256": "0cdba0b9640126987199ef56ba95bd41d1ff79417a39ec9b3abc972b06567594",
+      "published_sha256": "0cdba0b9640126987199ef56ba95bd41d1ff79417a39ec9b3abc972b06567594",
+      "compression": null
+    },
+    {
+      "published": "data/auxiliary_lexicon.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\auxiliary_lexicon.json",
+      "source_sha256": "7816a28a1c2ca338a4db9339b7b16f38ac4f73bcee2461639d9b519a5bb07357",
+      "published_sha256": "7816a28a1c2ca338a4db9339b7b16f38ac4f73bcee2461639d9b519a5bb07357",
+      "compression": null
+    },
+    {
+      "published": "data/queries_final.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\queries_final.jsonl",
+      "source_sha256": "d9d32f52ec823cab6eb4528f3bba6af814b73cdaf13f68ae556dbfb027fde0df",
+      "published_sha256": "d9d32f52ec823cab6eb4528f3bba6af814b73cdaf13f68ae556dbfb027fde0df",
+      "compression": null
+    },
+    {
+      "published": "data/query_references.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\query_references.jsonl",
+      "source_sha256": "ca787b69bbd1ddbebe57bc1a8985321dcbfad704dfb5d716bfa6363a9d9e8af7",
+      "published_sha256": "ca787b69bbd1ddbebe57bc1a8985321dcbfad704dfb5d716bfa6363a9d9e8af7",
+      "compression": null
+    },
+    {
+      "published": "data/grading_protocol.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\grading_protocol.json",
+      "source_sha256": "e880a5d34275c4ef6cfba748b2bfaceb470d288a5a4f60585a4041e89d0edc07",
+      "published_sha256": "e880a5d34275c4ef6cfba748b2bfaceb470d288a5a4f60585a4041e89d0edc07",
+      "compression": null
+    },
+    {
+      "published": "data/protocol.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\protocol.json",
+      "source_sha256": "2ca0dd153282db50b21e7e4fd4759bc974dcf98fff6b537c5b25ddb759fb2377",
+      "published_sha256": "2ca0dd153282db50b21e7e4fd4759bc974dcf98fff6b537c5b25ddb759fb2377",
+      "compression": null
+    },
+    {
+      "published": "data/recommended_release.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\recommended_release.json",
+      "source_sha256": "241fd6eaf3410649cd43eac90def823f518abc15dfa85341a98f4484c20ce051",
+      "published_sha256": "241fd6eaf3410649cd43eac90def823f518abc15dfa85341a98f4484c20ce051",
+      "compression": null
+    },
+    {
+      "published": "data/boundary_evidence_contract.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\boundary_evidence_contract.json",
+      "source_sha256": "a2869d0acdef40da4bdc1424f6fd247738c840f414cbd4eccfbb79cd82f49a93",
+      "published_sha256": "a2869d0acdef40da4bdc1424f6fd247738c840f414cbd4eccfbb79cd82f49a93",
+      "compression": null
+    },
+    {
+      "published": "data/legal_dependencies_addendum.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\legal_dependencies_addendum.jsonl",
+      "source_sha256": "be960e8d73c4a5458f693d8d0dbf96b45f9383e3765d621aaf33cfdada848c1a",
+      "published_sha256": "be960e8d73c4a5458f693d8d0dbf96b45f9383e3765d621aaf33cfdada848c1a",
+      "compression": null
+    },
+    {
+      "published": "data/metadata_sensitivity.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\metadata_sensitivity.json",
+      "source_sha256": "4320416984cd5fc5be22d00f8559087f5bb33315d350ddae7bc7253717cc2cd4",
+      "published_sha256": "4320416984cd5fc5be22d00f8559087f5bb33315d350ddae7bc7253717cc2cd4",
+      "compression": null
+    },
+    {
+      "published": "data/candidate_diagnosis.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\candidate_diagnosis.json",
+      "source_sha256": "4d77a94c2359a1eda38e917154d6d645a27359c5690a26658502e0138a8e9add",
+      "published_sha256": "4d77a94c2359a1eda38e917154d6d645a27359c5690a26658502e0138a8e9add",
+      "compression": null
+    },
+    {
+      "published": "data/candidate_diagnosis_per_query.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\candidate_diagnosis_per_query.jsonl",
+      "source_sha256": "48a88578ce8da917d02be9e892ecd91fbf86f567fa97d3d08388aeda1561875a",
+      "published_sha256": "48a88578ce8da917d02be9e892ecd91fbf86f567fa97d3d08388aeda1561875a",
+      "compression": null
+    },
+    {
+      "published": "data/candidate_coverage.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\candidate_coverage.jsonl",
+      "source_sha256": "61dd14d9b477beabed09b211fe7ea68b26c16ba2a2f5ca2c6b3265d199fa1e32",
+      "published_sha256": "61dd14d9b477beabed09b211fe7ea68b26c16ba2a2f5ca2c6b3265d199fa1e32",
+      "compression": null
+    },
+    {
+      "published": "data/retrieval_environment.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\retrieval_environment.json",
+      "source_sha256": "f70140981a6585b19298a581ffcd33ad438cd1a47ba5731cabd6c3da90d79016",
+      "published_sha256": "f70140981a6585b19298a581ffcd33ad438cd1a47ba5731cabd6c3da90d79016",
+      "compression": null
+    },
+    {
+      "published": "data/retrieval_receipt.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\retrieval_receipt.json",
+      "source_sha256": "50d3b1eac2cbf1c2201b62b8f49d833bbcda2a7da724394b20af866cb2bb8b68",
+      "published_sha256": "50d3b1eac2cbf1c2201b62b8f49d833bbcda2a7da724394b20af866cb2bb8b68",
+      "compression": null
+    },
+    {
+      "published": "data/score_contract_amendment.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\score_contract_amendment.json",
+      "source_sha256": "b3f8cde3d15b0cc7d02e8f06ce68882d07da48ef13aa24f6c671eefdff26af3f",
+      "published_sha256": "b3f8cde3d15b0cc7d02e8f06ce68882d07da48ef13aa24f6c671eefdff26af3f",
+      "compression": null
+    },
+    {
+      "published": "data/bounded_retry_policy_amendment.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\bounded_retry_policy_amendment.json",
+      "source_sha256": "e8fa2e58166241fa3d00e5a79bcfe91bd9c0415616d6cbe8536cdf8cb4d4bc8d",
+      "published_sha256": "e8fa2e58166241fa3d00e5a79bcfe91bd9c0415616d6cbe8536cdf8cb4d4bc8d",
+      "compression": null
+    },
+    {
+      "published": "data/score_reparse_audit_reliable.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\score_reparse_audit_reliable.jsonl",
+      "source_sha256": "a4324b96fddb8715dc33937c9a9782bdc48b3b0fdf57d16de0782ffb9a7b851d",
+      "published_sha256": "dea0602ca94779ce2d3b5d3fcbd81b17fc0797e9b54ca2c6f7877e3faddf9370",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "data/final_test_summary.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\final_test_summary.json",
+      "source_sha256": "708937811904aaceb2d1fede4995a8c13ece5583a3c413711f0e801a40d53a09",
+      "published_sha256": "708937811904aaceb2d1fede4995a8c13ece5583a3c413711f0e801a40d53a09",
+      "compression": null
+    },
+    {
+      "published": "data/final_test_results.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\final_test_results.txt",
+      "source_sha256": "6d1f6b3ee2454ef3d4d4acde8f1701714eb1144109b558e8b0aea44a1e593c56",
+      "published_sha256": "6d1f6b3ee2454ef3d4d4acde8f1701714eb1144109b558e8b0aea44a1e593c56",
+      "compression": null
+    },
+    {
+      "published": "data/verification.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\verification.json",
+      "source_sha256": "53556b4fb058511d133900c57f38f887998275896452a148104f763c8b50f5f3",
+      "published_sha256": "53556b4fb058511d133900c57f38f887998275896452a148104f763c8b50f5f3",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/audit_run.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\audit_run.txt",
+      "source_sha256": "8b5dcee68f6ea51dbdcf4fbae29e3b59c3326f5b338e4639ddaeee4bdb5bf3aa",
+      "published_sha256": "8b5dcee68f6ea51dbdcf4fbae29e3b59c3326f5b338e4639ddaeee4bdb5bf3aa",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/cohort_freeze.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\cohort_freeze.json",
+      "source_sha256": "8390a8f1116b01f70bee3c83ca89369ce9fe06d725d0406530e6c72ac4b50ead",
+      "published_sha256": "8390a8f1116b01f70bee3c83ca89369ce9fe06d725d0406530e6c72ac4b50ead",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/comparison.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\comparison.jsonl",
+      "source_sha256": "989738baa442410158b1f4205f26c97a92893619e11a7f7f0d21f396daec664d",
+      "published_sha256": "989738baa442410158b1f4205f26c97a92893619e11a7f7f0d21f396daec664d",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/compatibility_audit.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\compatibility_audit.json",
+      "source_sha256": "c74ac0af07493cd8f5d271d186683a2db46d23205d8c90f241bf6052fbcc3114",
+      "published_sha256": "c74ac0af07493cd8f5d271d186683a2db46d23205d8c90f241bf6052fbcc3114",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/evidence_loader.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\evidence_loader.py",
+      "source_sha256": "ab944186e6028ebc0d014795dcdff5a436f786d3c3572fd02dea41ca91bfe1e5",
+      "published_sha256": "ab944186e6028ebc0d014795dcdff5a436f786d3c3572fd02dea41ca91bfe1e5",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/evidence_samples.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\evidence_samples.jsonl",
+      "source_sha256": "ead04680a714375315595d7098b8fc8d20a23b9643969f70b964b6207c0eef1e",
+      "published_sha256": "ead04680a714375315595d7098b8fc8d20a23b9643969f70b964b6207c0eef1e",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/field_contract.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\field_contract.json",
+      "source_sha256": "b32f7c71b72c0eb6d9be207dfd8630e8da1aac15d499d9274f85136b28fef1f0",
+      "published_sha256": "b32f7c71b72c0eb6d9be207dfd8630e8da1aac15d499d9274f85136b28fef1f0",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/handoff_manifest.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\handoff_manifest.json",
+      "source_sha256": "6d9a4ea9c456cb2c8f1647d943571a6c59c97ad3ded079c18607fa798b8038c3",
+      "published_sha256": "6d9a4ea9c456cb2c8f1647d943571a6c59c97ad3ded079c18607fa798b8038c3",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/historical_return_observations.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\historical_return_observations.jsonl",
+      "source_sha256": "94a0471e36f0f4e29e566f4eaac82ea17354f2bb1f79bb7cdc1230d7a80affcd",
+      "published_sha256": "94a0471e36f0f4e29e566f4eaac82ea17354f2bb1f79bb7cdc1230d7a80affcd",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/loader_verification.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\loader_verification.json",
+      "source_sha256": "a4e41fd12e7443c785bf6e4fd23bd982078486bbff3b384e0c241cbb5e8d0491",
+      "published_sha256": "a4e41fd12e7443c785bf6e4fd23bd982078486bbff3b384e0c241cbb5e8d0491",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/projection_candidate_rebinds.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\projection_candidate_rebinds.jsonl",
+      "source_sha256": "cd7f27003f3ea6e4e07ab8edd488a830bcd56029aaaad0db851a0eaa0606ec47",
+      "published_sha256": "cd7f27003f3ea6e4e07ab8edd488a830bcd56029aaaad0db851a0eaa0606ec47",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/projection_patch_compatibility.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\projection_patch_compatibility.jsonl",
+      "source_sha256": "586d3e852cd6fdd3ff67f38c8aa37ae430ccfae5de5a0022e61d173683a2e066",
+      "published_sha256": "586d3e852cd6fdd3ff67f38c8aa37ae430ccfae5de5a0022e61d173683a2e066",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/scope_overlays.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\scope_overlays.jsonl",
+      "source_sha256": "aca15a1e3afafe7713866d46a8ae5d71ea7b4bf2e8012e2b0b7b9746140fa1c0",
+      "published_sha256": "aca15a1e3afafe7713866d46a8ae5d71ea7b4bf2e8012e2b0b7b9746140fa1c0",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/source_snapshot_receipts.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\source_snapshot_receipts.jsonl",
+      "source_sha256": "d554c23cd71e8630a0691e0c6fc241c8b53e61e7a73ee83eee5d12643ed629c6",
+      "published_sha256": "d554c23cd71e8630a0691e0c6fc241c8b53e61e7a73ee83eee5d12643ed629c6",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/sources.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\sources.jsonl",
+      "source_sha256": "da1aa47cf881b31634f3150a10ea17bce845eec008fd8cf6df57c7281c944e3c",
+      "published_sha256": "da1aa47cf881b31634f3150a10ea17bce845eec008fd8cf6df57c7281c944e3c",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/spans.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\spans.jsonl",
+      "source_sha256": "306165a5afad5151eef55c8eb974da34b3b70a77e7d3d7b5814fd8f79496a83d",
+      "published_sha256": "306165a5afad5151eef55c8eb974da34b3b70a77e7d3d7b5814fd8f79496a83d",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/test_evidence_loader.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\test_evidence_loader.py",
+      "source_sha256": "ae35a4f1d5324868f77bb4fb0dd29588b3c5da2f15f419a9547e54439f64fa8e",
+      "published_sha256": "ae35a4f1d5324868f77bb4fb0dd29588b3c5da2f15f419a9547e54439f64fa8e",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/tests_green.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\tests_green.txt",
+      "source_sha256": "bf9ae43ba61fe902ab65239a9edbe0bebcf1315cc646897123b187eb2dc98e5e",
+      "published_sha256": "bf9ae43ba61fe902ab65239a9edbe0bebcf1315cc646897123b187eb2dc98e5e",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/tests_red.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\tests_red.txt",
+      "source_sha256": "780a50f428a2c16ec59ab116638da65b6d5abd4e4da13076b6e500bf46d531ab",
+      "published_sha256": "780a50f428a2c16ec59ab116638da65b6d5abd4e4da13076b6e500bf46d531ab",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/tests_red_hardening.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\tests_red_hardening.txt",
+      "source_sha256": "cad8e1dc0c944a0c7d5325c447906b20aa1bf413bdfd9d8e419c2293d015058d",
+      "published_sha256": "cad8e1dc0c944a0c7d5325c447906b20aa1bf413bdfd9d8e419c2293d015058d",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/version_lock.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\version_lock.json",
+      "source_sha256": "289941d9657d4b1c9195f1717eaf6b88bf0df0dd1347828bca50264db972d432",
+      "published_sha256": "289941d9657d4b1c9195f1717eaf6b88bf0df0dd1347828bca50264db972d432",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/交接说明.md",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\交接说明.md",
+      "source_sha256": "990d8be88881258f98f2e0d46cab4790c8859002337fa996c036431f22f9c8e4",
+      "published_sha256": "990d8be88881258f98f2e0d46cab4790c8859002337fa996c036431f22f9c8e4",
+      "compression": null
+    },
+    {
+      "published": "data/handoff_scope/定向复核与验证报告.md",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\handoff_scope\\定向复核与验证报告.md",
+      "source_sha256": "17b3dde3a04dfff5a03e6e6d84fe2b094ab4db77d38f8ad12f9b1ae5199a03fa",
+      "published_sha256": "17b3dde3a04dfff5a03e6e6d84fe2b094ab4db77d38f8ad12f9b1ae5199a03fa",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/acquisition_plan.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\acquisition_plan.json",
+      "source_sha256": "46741b023fd78e58966d7ff55daec90ca6b361309747244b8c29da20e9582e70",
+      "published_sha256": "46741b023fd78e58966d7ff55daec90ca6b361309747244b8c29da20e9582e70",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/acquisition_results.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\acquisition_results.json",
+      "source_sha256": "b905536e5531d7eb4b7312a5f89b7ad6d7ac928a69113714800a4eefb2732dbf",
+      "published_sha256": "b905536e5531d7eb4b7312a5f89b7ad6d7ac928a69113714800a4eefb2732dbf",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/acquisition_results_escalated.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\acquisition_results_escalated.json",
+      "source_sha256": "7d2b06dcf3e8bfd2368ad1dba8419138fd09b75e462016850b2ee382f0605ec5",
+      "published_sha256": "7d2b06dcf3e8bfd2368ad1dba8419138fd09b75e462016850b2ee382f0605ec5",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/baseline_operational_rules.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\baseline_operational_rules.json",
+      "source_sha256": "9796cc85bf49652cafb17f4d74bb1cf27cf2f3169cfcf3adcff73ae6835d49f1",
+      "published_sha256": "9796cc85bf49652cafb17f4d74bb1cf27cf2f3169cfcf3adcff73ae6835d49f1",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/boundary_experiment_design.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\boundary_experiment_design.json",
+      "source_sha256": "ac1df622882703cc8e72f1021b3ac17410ef43a8c5b3410b7711c2035c72e692",
+      "published_sha256": "ac1df622882703cc8e72f1021b3ac17410ef43a8c5b3410b7711c2035c72e692",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/boundary_freeze.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\boundary_freeze.json",
+      "source_sha256": "65e2747b77b39b45042680cd1892db2af21a4e4ecf608e6a1594a59f1ce6e6d8",
+      "published_sha256": "65e2747b77b39b45042680cd1892db2af21a4e4ecf608e6a1594a59f1ce6e6d8",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/boundary_inputs.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\boundary_inputs.jsonl",
+      "source_sha256": "7f8a02003dd623b8378fd0a15f6e5b30d650d2a7380714bb5f4a566966ad3ad2",
+      "published_sha256": "7f8a02003dd623b8378fd0a15f6e5b30d650d2a7380714bb5f4a566966ad3ad2",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/boundary_reference.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\boundary_reference.jsonl",
+      "source_sha256": "9dc1f0cb263eabc8deb00e5a10c6185e528d6f7cb1c87c5db0d170d7ae50552a",
+      "published_sha256": "9dc1f0cb263eabc8deb00e5a10c6185e528d6f7cb1c87c5db0d170d7ae50552a",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/fact_and_scope_policy.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\fact_and_scope_policy.json",
+      "source_sha256": "1e882e52e4b3c57ba3028d8cd6479346666c600be7cb2c30b0ab4bb5b8b8c6a4",
+      "published_sha256": "1e882e52e4b3c57ba3028d8cd6479346666c600be7cb2c30b0ab4bb5b8b8c6a4",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/freeze_history/v1_before_local_consistency_review/baseline_operational_rules.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\freeze_history\\v1_before_local_consistency_review\\baseline_operational_rules.json",
+      "source_sha256": "9796cc85bf49652cafb17f4d74bb1cf27cf2f3169cfcf3adcff73ae6835d49f1",
+      "published_sha256": "9796cc85bf49652cafb17f4d74bb1cf27cf2f3169cfcf3adcff73ae6835d49f1",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/freeze_history/v1_before_local_consistency_review/boundary_experiment_design.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\freeze_history\\v1_before_local_consistency_review\\boundary_experiment_design.json",
+      "source_sha256": "657624a89a5a2e348a2e9b123d95041499c8192d8fa69e1820a42975d476e3dc",
+      "published_sha256": "657624a89a5a2e348a2e9b123d95041499c8192d8fa69e1820a42975d476e3dc",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/freeze_history/v1_before_local_consistency_review/boundary_freeze.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\freeze_history\\v1_before_local_consistency_review\\boundary_freeze.json",
+      "source_sha256": "3bf303b7cb9cd7fffe868b647f30fee9c1e9bb6f8de5e7a4c4727be571ee63fd",
+      "published_sha256": "3bf303b7cb9cd7fffe868b647f30fee9c1e9bb6f8de5e7a4c4727be571ee63fd",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/freeze_history/v1_before_local_consistency_review/boundary_inputs.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\freeze_history\\v1_before_local_consistency_review\\boundary_inputs.jsonl",
+      "source_sha256": "ea5f377eefc246f6d01f67aeea230c0833288c8799a026878546b5cdab420189",
+      "published_sha256": "ea5f377eefc246f6d01f67aeea230c0833288c8799a026878546b5cdab420189",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/freeze_history/v1_before_local_consistency_review/boundary_reference.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\freeze_history\\v1_before_local_consistency_review\\boundary_reference.jsonl",
+      "source_sha256": "40e6b845b94889e32dbcb5fcbd3f8b81ad16e9f999862aea8a38566d11746e05",
+      "published_sha256": "40e6b845b94889e32dbcb5fcbd3f8b81ad16e9f999862aea8a38566d11746e05",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/freeze_history/v1_before_local_consistency_review/fact_and_scope_policy.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\freeze_history\\v1_before_local_consistency_review\\fact_and_scope_policy.json",
+      "source_sha256": "1e882e52e4b3c57ba3028d8cd6479346666c600be7cb2c30b0ab4bb5b8b8c6a4",
+      "published_sha256": "1e882e52e4b3c57ba3028d8cd6479346666c600be7cb2c30b0ab4bb5b8b8c6a4",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/freeze_history/v1_before_local_consistency_review/operational_rules_overlay.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\freeze_history\\v1_before_local_consistency_review\\operational_rules_overlay.json",
+      "source_sha256": "c53eead9c5c557bb0d7330e80fc74b77a4ab2813047db70bab5443f3440e59ff",
+      "published_sha256": "c53eead9c5c557bb0d7330e80fc74b77a4ab2813047db70bab5443f3440e59ff",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/freeze_history/v1_before_local_consistency_review/rule_patch.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\freeze_history\\v1_before_local_consistency_review\\rule_patch.jsonl",
+      "source_sha256": "e869b196e7cf609aae0783cea5b6b0a81f6dcfe6953466ef27155bb6aa5bfe9f",
+      "published_sha256": "e869b196e7cf609aae0783cea5b6b0a81f6dcfe6953466ef27155bb6aa5bfe9f",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/freeze_history/v1_before_local_consistency_review/source_verification.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\freeze_history\\v1_before_local_consistency_review\\source_verification.jsonl",
+      "source_sha256": "68e0e6282c3f03bb79ac1df8191dca0c1645c6e1fd33ff574fc99f87bc428fbe",
+      "published_sha256": "68e0e6282c3f03bb79ac1df8191dca0c1645c6e1fd33ff574fc99f87bc428fbe",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/freeze_history/v1_before_local_consistency_review/support_articles.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\freeze_history\\v1_before_local_consistency_review\\support_articles.jsonl",
+      "source_sha256": "1681bf5d4b36167f596f6db2ff57edd33d69c55e77c990d7a794e395fccd431f",
+      "published_sha256": "1681bf5d4b36167f596f6db2ff57edd33d69c55e77c990d7a794e395fccd431f",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/operational_rules_overlay.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\operational_rules_overlay.json",
+      "source_sha256": "c53eead9c5c557bb0d7330e80fc74b77a4ab2813047db70bab5443f3440e59ff",
+      "published_sha256": "c53eead9c5c557bb0d7330e80fc74b77a4ab2813047db70bab5443f3440e59ff",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/README.md",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\README.md",
+      "source_sha256": "467e21a7e76fab0cf58e2bb166c84e08ff5d7058265cf34dbb2e27db1926011b",
+      "published_sha256": "467e21a7e76fab0cf58e2bb166c84e08ff5d7058265cf34dbb2e27db1926011b",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/rule_patch.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\rule_patch.jsonl",
+      "source_sha256": "e869b196e7cf609aae0783cea5b6b0a81f6dcfe6953466ef27155bb6aa5bfe9f",
+      "published_sha256": "e869b196e7cf609aae0783cea5b6b0a81f6dcfe6953466ef27155bb6aa5bfe9f",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/SHA256SUMS",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\SHA256SUMS",
+      "source_sha256": "eb6f2f0e89716461d2c0c242c6570c6075b31f711682b535c505dc490450c542",
+      "published_sha256": "eb6f2f0e89716461d2c0c242c6570c6075b31f711682b535c505dc490450c542",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifact_manifest.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifact_manifest.jsonl",
+      "source_sha256": "2e36fb3d4b703a1bf787ebbe3edc908239e3d0e1ce9faeb83557940efe249015",
+      "published_sha256": "2e36fb3d4b703a1bf787ebbe3edc908239e3d0e1ce9faeb83557940efe249015",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/core_open_1.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\core_open_1.txt",
+      "source_sha256": "44a708d7a6c47b24b5088a0008a2348322aa07ea153281060f25759d8a80e157",
+      "published_sha256": "44a708d7a6c47b24b5088a0008a2348322aa07ea153281060f25759d8a80e157",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/core_open_2.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\core_open_2.txt",
+      "source_sha256": "23b0a884f312a0cee7c45de1bcc7311d55f54fbc74c351aa0f9a53a32c9fd07f",
+      "published_sha256": "23b0a884f312a0cee7c45de1bcc7311d55f54fbc74c351aa0f9a53a32c9fd07f",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/core_open_3.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\core_open_3.txt",
+      "source_sha256": "8f3e486e66d1ab4b3effdef1662502def76eb0623a5a47c803810e225550c5ff",
+      "published_sha256": "8f3e486e66d1ab4b3effdef1662502def76eb0623a5a47c803810e225550c5ff",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/core_scope_validity.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\core_scope_validity.txt",
+      "source_sha256": "63c80069d81e8dd609d7ee48b75975ff729efd6f04b3fee7b534f3b25c200fca",
+      "published_sha256": "63c80069d81e8dd609d7ee48b75975ff729efd6f04b3fee7b534f3b25c200fca",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/exact_evidence_1.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\exact_evidence_1.txt",
+      "source_sha256": "c484152e0d17d1916698539b87b57702cf7430821bd1f6ecef32eba1876eac6c",
+      "published_sha256": "c484152e0d17d1916698539b87b57702cf7430821bd1f6ecef32eba1876eac6c",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/exact_evidence_2.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\exact_evidence_2.txt",
+      "source_sha256": "29a17b38d5670e1d31abb581ec33136cefa6ed5b8274917583784b5d63e5ec6e",
+      "published_sha256": "29a17b38d5670e1d31abb581ec33136cefa6ed5b8274917583784b5d63e5ec6e",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/exact_evidence_3.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\exact_evidence_3.txt",
+      "source_sha256": "07a12853df4ef8cff8e084cad4955ca3d61ebb36e08ffa6fc8e07e37ff72785c",
+      "published_sha256": "07a12853df4ef8cff8e084cad4955ca3d61ebb36e08ffa6fc8e07e37ff72785c",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/research_1.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\research_1.txt",
+      "source_sha256": "585a2959feb0dc1980b4e1ab9d5b41eeb610e5ad5e68005ca05d92ff7652c560",
+      "published_sha256": "585a2959feb0dc1980b4e1ab9d5b41eeb610e5ad5e68005ca05d92ff7652c560",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/search_l011_012.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\search_l011_012.txt",
+      "source_sha256": "02049a5c59385da5b8604ca54a986007881d7b321ab85bb3344610f4ccd6233f",
+      "published_sha256": "02049a5c59385da5b8604ca54a986007881d7b321ab85bb3344610f4ccd6233f",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/search_l011_full.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\search_l011_full.txt",
+      "source_sha256": "55a2e2f9761983ab7fcc396128c7d797a4b164ad4737520e78eb5ff3f660d4ab",
+      "published_sha256": "55a2e2f9761983ab7fcc396128c7d797a4b164ad4737520e78eb5ff3f660d4ab",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/specialized_final_search.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\specialized_final_search.txt",
+      "source_sha256": "09bd87e9f328871b228159ef28fafb57ce8439fd46dc94b450df982a1a05f51d",
+      "published_sha256": "09bd87e9f328871b228159ef28fafb57ce8439fd46dc94b450df982a1a05f51d",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/validity_final_search.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\validity_final_search.txt",
+      "source_sha256": "bdf7b8bf244f019240096c143262d8ef984a13955eb210df99e99d28f5edf974",
+      "published_sha256": "bdf7b8bf244f019240096c143262d8ef984a13955eb210df99e99d28f5edf974",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/version_search_1.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\version_search_1.txt",
+      "source_sha256": "5c052b092639936d735c684134fbd36d3bf46c43a7393db99dd1902a897be43e",
+      "published_sha256": "5c052b092639936d735c684134fbd36d3bf46c43a7393db99dd1902a897be43e",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_artifacts/reader_snapshots/version_search_2.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_artifacts\\reader_snapshots\\version_search_2.txt",
+      "source_sha256": "721d02efb788e2b5f6bf61b579f9773b2b2ba4aca8320cdaa3b08689efa48fc3",
+      "published_sha256": "721d02efb788e2b5f6bf61b579f9773b2b2ba4aca8320cdaa3b08689efa48fc3",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/source_verification.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\source_verification.jsonl",
+      "source_sha256": "89c9ec0384e172e76bb448f60d8c651551dcf217d9bdfa034423f3aa2db3db76",
+      "published_sha256": "89c9ec0384e172e76bb448f60d8c651551dcf217d9bdfa034423f3aa2db3db76",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/support_articles.jsonl",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\support_articles.jsonl",
+      "source_sha256": "72adfe474eed2c4ccabf277537ea2091aefcb7f6da0f2a3b4480dd45bfe98961",
+      "published_sha256": "72adfe474eed2c4ccabf277537ea2091aefcb7f6da0f2a3b4480dd45bfe98961",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/upstream_readonly_fingerprints.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\upstream_readonly_fingerprints.json",
+      "source_sha256": "49998708ea6e2f6311847b39b85c52a00ecfdb133906f991a5c46415a3f8ef1c",
+      "published_sha256": "49998708ea6e2f6311847b39b85c52a00ecfdb133906f991a5c46415a3f8ef1c",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/verification.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\verification.json",
+      "source_sha256": "e1768cf120e513d17fb918c2a971ce454adcd2909f2bd02d809499fc0a5fdc40",
+      "published_sha256": "e1768cf120e513d17fb918c2a971ce454adcd2909f2bd02d809499fc0a5fdc40",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/机制解释覆盖层.md",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\机制解释覆盖层.md",
+      "source_sha256": "32d0a80209c993da5cdf499f2ea883c77137c6cf40bc952ca4b5b3e08fa4534d",
+      "published_sha256": "32d0a80209c993da5cdf499f2ea883c77137c6cf40bc952ca4b5b3e08fa4534d",
+      "compression": null
+    },
+    {
+      "published": "data/law_review/来源核验报告.md",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\law_review\\来源核验报告.md",
+      "source_sha256": "b51693e2eaaef5a7105ea4e7c341694f3f32161103938d43abe6eb6641bb0052",
+      "published_sha256": "b51693e2eaaef5a7105ea4e7c341694f3f32161103938d43abe6eb6641bb0052",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/download_results.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\download_results.json",
+      "source_sha256": "36134d5b187a78ca5f279ff78273c18ac69117f3509971ac42ae105043340909",
+      "published_sha256": "36134d5b187a78ca5f279ff78273c18ac69117f3509971ac42ae105043340909",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R01/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R01\\curl_metadata.json",
+      "source_sha256": "f3b43951d8a37d1aa0edcbe7aa780133c179ab149e8217682b3877f3e659d984",
+      "published_sha256": "f3b43951d8a37d1aa0edcbe7aa780133c179ab149e8217682b3877f3e659d984",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R01/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R01\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R01/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R01\\record.json",
+      "source_sha256": "de697358e6399450275ee4ed3a9e2a6110c9344df3809e35a5491132d685d2c7",
+      "published_sha256": "de697358e6399450275ee4ed3a9e2a6110c9344df3809e35a5491132d685d2c7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R01/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R01\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R02/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R02\\curl_metadata.json",
+      "source_sha256": "441b47025396786060884812dd3f2d49fddabc47cfaf18ec0136460d599ec0dd",
+      "published_sha256": "441b47025396786060884812dd3f2d49fddabc47cfaf18ec0136460d599ec0dd",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R02/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R02\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R02/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R02\\record.json",
+      "source_sha256": "e7f014c93ca045286340483f6b74321925ea852f5d12dec90a8a9359bfbec7cc",
+      "published_sha256": "e7f014c93ca045286340483f6b74321925ea852f5d12dec90a8a9359bfbec7cc",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R02/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R02\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R03/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R03\\curl_metadata.json",
+      "source_sha256": "39f284b4c1a31f8033ece22610c8ddf591b59b1911811d2ad07349c9c3299ab5",
+      "published_sha256": "39f284b4c1a31f8033ece22610c8ddf591b59b1911811d2ad07349c9c3299ab5",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R03/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R03\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R03/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R03\\record.json",
+      "source_sha256": "d9e2739084b0d85e93460dbb0d3c32799dbaf9336ea5f1dbb796b1f417aec4d0",
+      "published_sha256": "d9e2739084b0d85e93460dbb0d3c32799dbaf9336ea5f1dbb796b1f417aec4d0",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R03/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R03\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R04/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R04\\curl_metadata.json",
+      "source_sha256": "138c462558e691345cf5c7deaa85721913e300e9bf4c33529dca30ac63d0e33c",
+      "published_sha256": "138c462558e691345cf5c7deaa85721913e300e9bf4c33529dca30ac63d0e33c",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R04/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R04\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R04/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R04\\record.json",
+      "source_sha256": "1179c2a2784685f246899d9baf35b939d0090e6b6f5e86882e8f79e11ed1f217",
+      "published_sha256": "1179c2a2784685f246899d9baf35b939d0090e6b6f5e86882e8f79e11ed1f217",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R04/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R04\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R05/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R05\\curl_metadata.json",
+      "source_sha256": "0e6b72d3c04bf1a74e83770e8ea9e07f56fc92dc89ca86efcde02a00db481cae",
+      "published_sha256": "0e6b72d3c04bf1a74e83770e8ea9e07f56fc92dc89ca86efcde02a00db481cae",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R05/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R05\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R05/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R05\\record.json",
+      "source_sha256": "89264b33bd17b8301ace33a3b98bd35884724604062cb5089dd3e8b23a529d70",
+      "published_sha256": "89264b33bd17b8301ace33a3b98bd35884724604062cb5089dd3e8b23a529d70",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R05/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R05\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R06/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R06\\curl_metadata.json",
+      "source_sha256": "598d028dc98bdb48a641ea99195de46388a2b7cfb20009e7920979a950b365a4",
+      "published_sha256": "598d028dc98bdb48a641ea99195de46388a2b7cfb20009e7920979a950b365a4",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R06/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R06\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R06/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R06\\record.json",
+      "source_sha256": "9d180af5a20d606f9537cd85e95e0ff4272e23f71a79a38566fbd940daa7484e",
+      "published_sha256": "9d180af5a20d606f9537cd85e95e0ff4272e23f71a79a38566fbd940daa7484e",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R06/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R06\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R07/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R07\\curl_metadata.json",
+      "source_sha256": "5f2ba5926b702f55b2afde148fd27af4acb948e35c8f80fd31312c2136d2f1e4",
+      "published_sha256": "5f2ba5926b702f55b2afde148fd27af4acb948e35c8f80fd31312c2136d2f1e4",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R07/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R07\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R07/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R07\\record.json",
+      "source_sha256": "daf8c7feb2aaad1ef44113b9de35407334edf0959f7a3758bc57e7956f1acc72",
+      "published_sha256": "daf8c7feb2aaad1ef44113b9de35407334edf0959f7a3758bc57e7956f1acc72",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R07/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R07\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R08/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R08\\curl_metadata.json",
+      "source_sha256": "34ed98f198e57dcc641d28450876ed9e18245161a551cbae270d1b358ecc96aa",
+      "published_sha256": "34ed98f198e57dcc641d28450876ed9e18245161a551cbae270d1b358ecc96aa",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R08/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R08\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R08/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R08\\record.json",
+      "source_sha256": "6b859b9fa4ab6ff75d1a5f0a33cc845bd95c6445090408c453aba13e14ce39fc",
+      "published_sha256": "6b859b9fa4ab6ff75d1a5f0a33cc845bd95c6445090408c453aba13e14ce39fc",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R08/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R08\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R09/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R09\\curl_metadata.json",
+      "source_sha256": "5a477b6b41627a3616ffaa564c6d8eff9fa57f2a06a567a7d75a1d95df871bb8",
+      "published_sha256": "5a477b6b41627a3616ffaa564c6d8eff9fa57f2a06a567a7d75a1d95df871bb8",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R09/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R09\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R09/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R09\\record.json",
+      "source_sha256": "923551320e3ebe115227cb2b0dab346a3a0d775bbb7b9ce1b2a52dfa77ad6ab1",
+      "published_sha256": "923551320e3ebe115227cb2b0dab346a3a0d775bbb7b9ce1b2a52dfa77ad6ab1",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R09/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R09\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R10/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R10\\curl_metadata.json",
+      "source_sha256": "7cd68bc6cc7fbaa532ef4ef8074c6c46d88e007b656b5df0a1119d65545e12b5",
+      "published_sha256": "7cd68bc6cc7fbaa532ef4ef8074c6c46d88e007b656b5df0a1119d65545e12b5",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R10/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R10\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R10/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R10\\record.json",
+      "source_sha256": "734715d477c409410fd0f68f478ec509a5f45cb11765816c5f339519bb530fbc",
+      "published_sha256": "734715d477c409410fd0f68f478ec509a5f45cb11765816c5f339519bb530fbc",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R10/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R10\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R11/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R11\\curl_metadata.json",
+      "source_sha256": "7ae36fd123d620fe9a976e0f54982db8b4bbd173146e928e352ed0d2f3e697a0",
+      "published_sha256": "7ae36fd123d620fe9a976e0f54982db8b4bbd173146e928e352ed0d2f3e697a0",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R11/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R11\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R11/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R11\\record.json",
+      "source_sha256": "1206fb6abb9c4e8006fe5a094e1ce9408e53f1d8e9809dac1a580a2893710388",
+      "published_sha256": "1206fb6abb9c4e8006fe5a094e1ce9408e53f1d8e9809dac1a580a2893710388",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R11/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R11\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R12/curl_metadata.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R12\\curl_metadata.json",
+      "source_sha256": "2078767123dd8856022f6bcf6ae2d54ba04d70fb80e35d7456b9c2d095864f77",
+      "published_sha256": "2078767123dd8856022f6bcf6ae2d54ba04d70fb80e35d7456b9c2d095864f77",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R12/curl_stderr.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R12\\curl_stderr.txt",
+      "source_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "published_sha256": "02cc3f79b4819380d4d9ad84ccebec3ae81d452614e8cfdeccc7a80e05fedfb7",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R12/record.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R12\\record.json",
+      "source_sha256": "82aa7c97f533c6202a872170cb7f9e62336feadcf82f48c117003af38a76d3ad",
+      "published_sha256": "82aa7c97f533c6202a872170cb7f9e62336feadcf82f48c117003af38a76d3ad",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/R12/response_headers.txt",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\R12\\response_headers.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/request_plan.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\request_plan.json",
+      "source_sha256": "ad863054db09915056138d54f4c000605955ca05962b18e091fbcb719061df43",
+      "published_sha256": "ad863054db09915056138d54f4c000605955ca05962b18e091fbcb719061df43",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/SHA256SUMS",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\SHA256SUMS",
+      "source_sha256": "ccba0e0ab3951216a96ea26d53ca6325e1e6a388781ae6c481fc0a33a390d7d2",
+      "published_sha256": "ccba0e0ab3951216a96ea26d53ca6325e1e6a388781ae6c481fc0a33a390d7d2",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/verification.json",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\verification.json",
+      "source_sha256": "eafcb5371d9ee4eb7872e9753f0b7538d253c530bf1c8add5d7bf9330965277a",
+      "published_sha256": "eafcb5371d9ee4eb7872e9753f0b7538d253c530bf1c8add5d7bf9330965277a",
+      "compression": null
+    },
+    {
+      "published": "data/raw_source_addendum/补充报告.md",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\data\\raw_source_addendum\\补充报告.md",
+      "source_sha256": "cb411c498e601538e7d703b921007ae356a1df1205f20e9b33f987a858b26f09",
+      "published_sha256": "cb411c498e601538e7d703b921007ae356a1df1205f20e9b33f987a858b26f09",
+      "compression": null
+    },
+    {
+      "published": "audit/boundary_records.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\audit\\boundary_records.jsonl",
+      "source_sha256": "68f8a0bb05cf39615b9e273cb80e0bdcb15cdbcb8f7fdbc00766233b68fbbe04",
+      "published_sha256": "b9565d0f5510b65fe8cb0d05728f3ce8a0737094cfe1aa7eb2a2ba105c2a897c",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "audit/ledger.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\audit\\ledger.jsonl",
+      "source_sha256": "ce12aac2ebc8a19135b107b0848d4e5dd53c49ecf7aad320af911c9fa5ddee33",
+      "published_sha256": "79d46bbaaf7a40d8d959d3375f0c6b65c84c09a6a0be9e8ce7cb03bba77689bf",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "audit/relevance_connect_recovery_records.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\audit\\relevance_connect_recovery_records.jsonl",
+      "source_sha256": "766b6316377ce77448e422c6498ef8e6695a08c980f6aa53bfb8324e8808e537",
+      "published_sha256": "dc75cf7a502e5a0a52c7d79f3d39c5b6437031b4d94db181f2691d3e2abfd8cb",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "audit/relevance_records.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\audit\\relevance_records.jsonl",
+      "source_sha256": "be65a7ccaa0b145d3108e48aaeba684b50695f6be90faa52045c5b19366ab85e",
+      "published_sha256": "88825bfb3bbca6d2d9596dc74ea2ac189119d1441a4be9886be2727202f6d73e",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "audit/rerank_continuation_records.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\audit\\rerank_continuation_records.jsonl",
+      "source_sha256": "9cf877d1cdb8fe41b4a99ece9a0ea49c6e41ee13112f0d2e15f45831832a1d9e",
+      "published_sha256": "2f9757a2838725e6c1b24a9a86740a641502e56d5af81d4302bde50f59241171",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "audit/rerank_finish_records.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\audit\\rerank_finish_records.jsonl",
+      "source_sha256": "71fcd38af8e1e2aedb91e635c3fcca223a66fc023b2d99422f12145bec253005",
+      "published_sha256": "fe7b5f3092008f18feaa541308d82693df4a7f5d86302cd7924d63561c76b50b",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "audit/rerank_persistent_records.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\audit\\rerank_persistent_records.jsonl",
+      "source_sha256": "636d00df0c1e6e3711504f708bcb6b18c87bdd318cc7a8b07779319a0f703443",
+      "published_sha256": "ab68040d2c2e3fb690277aab2f69e4d0ed19a6c963fb17a217bf7a544d5353a0",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "audit/rerank_records.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\audit\\rerank_records.jsonl",
+      "source_sha256": "25549bfdfeedfb67b247561958812d866af925fc66aa1ab2d2c5a0977b5ca916",
+      "published_sha256": "064510fc9e13aab13349c12d07c3227feea5ec07d43e0b9711f19ff3925ac1a2",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "audit/rerank_reliable_records.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\audit\\rerank_reliable_records.jsonl",
+      "source_sha256": "91fa105074e8e34662aecbc6d23d54289f69ca74e72aae3881167a98378c2198",
+      "published_sha256": "fc9ed2c9956766d102acc4f2286417569a3dc310a70e8e5e19bc1210ad78b7f5",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "audit/rerank_unaffected_records.jsonl.gz",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\audit\\rerank_unaffected_records.jsonl",
+      "source_sha256": "469d2d6666b9ca7a86791c022e77b430dd5e18e8a0063a1e5667a69ce532d14e",
+      "published_sha256": "6d27d60ae311f951919464780d2d7fd90d2b2ea4065d7c143db9b9430c063477",
+      "compression": "lossless gzip"
+    },
+    {
+      "published": "local_verification/package_replay_verification.json",
+      "source": "outputs\\FinRisk_知识库增量改进_20261018\\package_replay_verification.json",
+      "source_sha256": "957b9b19cee2a9cc2b376d7e527c5ded261e7c675f9db9fe5057934b9c050fef",
+      "published_sha256": "957b9b19cee2a9cc2b376d7e527c5ded261e7c675f9db9fe5057934b9c050fef",
+      "compression": null
+    },
+    {
+      "published": "local_verification/delivery_receipt.json",
+      "source": "outputs\\FinRisk_知识库增量改进_20261018\\delivery_receipt.json",
+      "source_sha256": "43a92c648a736b4f1d0d59405472fe6e03ad6fc9fecac58d05596dcb3600e810",
+      "published_sha256": "43a92c648a736b4f1d0d59405472fe6e03ad6fc9fecac58d05596dcb3600e810",
+      "compression": null
+    },
+    {
+      "published": "docs/FinRisk_AgenticRAG讨论结论_20261018.md",
+      "source": "outputs\\FinRisk_AgenticRAG讨论结论_20261018.md",
+      "source_sha256": "5851163e7fd8f19cf8ce3087993944f6e4163a34d98145d38558432ac626cfa4",
+      "published_sha256": "a5790f1aae675c6e04a70590a8d8a24ffd5947a9564ff9ad17c203efa4fa75c5",
+      "compression": null,
+      "publication_edits": [
+        "resolve existing relative Markdown links for repository layout"
+      ]
+    },
+    {
+      "published": "docs/FinRisk_知识库下一阶段改进建议_20261018.md",
+      "source": "outputs\\FinRisk_知识库下一阶段改进建议_20261018.md",
+      "source_sha256": "160e3fe786665bb2d226356e965031f5ae96bb24c475108d3baba06d219cbc86",
+      "published_sha256": "9e1a05a59d24781979106d0a797bb095737738de56efa2a28adf5e46ee83ac96",
+      "compression": null,
+      "publication_edits": [
+        "resolve existing relative Markdown links for repository layout"
+      ]
+    },
+    {
+      "published": "metrics_night.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\metrics_night.py",
+      "source_sha256": "d9658f67edb750d4f857fa644bfc3effa76a59b5a012ff386b483b16fff64ed6",
+      "published_sha256": "d9658f67edb750d4f857fa644bfc3effa76a59b5a012ff386b483b16fff64ed6",
+      "compression": null
+    },
+    {
+      "published": "reference_code/retrieve_experiment.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\retrieve_experiment.py",
+      "source_sha256": "e89b3865a19129c2adcbf7a52b66e1f8e9367d1c40055dc40dcad235f3c68719",
+      "published_sha256": "e89b3865a19129c2adcbf7a52b66e1f8e9367d1c40055dc40dcad235f3c68719",
+      "compression": null
+    },
+    {
+      "published": "reference_code/auxiliary.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\auxiliary.py",
+      "source_sha256": "3c0de811c9fb3a250ca3034b94586e6e741e31be9b0a30cd86876f94a788a640",
+      "published_sha256": "3c0de811c9fb3a250ca3034b94586e6e741e31be9b0a30cd86876f94a788a640",
+      "compression": null
+    },
+    {
+      "published": "reference_code/score_parser.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\score_parser.py",
+      "source_sha256": "3fb0691baa54c41e28622267e02d220c8c354e1021181998074c202db674be4c",
+      "published_sha256": "3fb0691baa54c41e28622267e02d220c8c354e1021181998074c202db674be4c",
+      "compression": null
+    },
+    {
+      "published": "reference_code/evidence_contract_validator.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\evidence_contract_validator.py",
+      "source_sha256": "4b7e566050c1e8b379eb4db2ba044eaa95127354c7ae5f6e222a4cae31a4dd38",
+      "published_sha256": "4b7e566050c1e8b379eb4db2ba044eaa95127354c7ae5f6e222a4cae31a4dd38",
+      "compression": null
+    },
+    {
+      "published": "reference_code/common_night.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\common_night.py",
+      "source_sha256": "bcde74450ce281b61f292c753a096877d02a33053598a81d325b8438e96734da",
+      "published_sha256": "bcde74450ce281b61f292c753a096877d02a33053598a81d325b8438e96734da",
+      "compression": null
+    },
+    {
+      "published": "reference_code/retrieval_reference/law_index.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\retrieval_reference\\law_index.py",
+      "source_sha256": "aa86c43858ee371565f8a54f7bf7627f20fa298b278658526d05b96a4346d8ce",
+      "published_sha256": "aa86c43858ee371565f8a54f7bf7627f20fa298b278658526d05b96a4346d8ce",
+      "compression": null
+    },
+    {
+      "published": "reference_code/retrieval_reference/regulation_tools.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\retrieval_reference\\regulation_tools.py",
+      "source_sha256": "00bac953ad0abb8cd84409ddbaf14f7c1141e5e2e7d633977e86d43c7f7c986e",
+      "published_sha256": "00bac953ad0abb8cd84409ddbaf14f7c1141e5e2e7d633977e86d43c7f7c986e",
+      "compression": null
+    },
+    {
+      "published": "reference_code/retrieval_reference/rule_cards.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\retrieval_reference\\rule_cards.py",
+      "source_sha256": "9d7fa7a787f25dbf9ec5bc10969be0d8cd3d9dd9303fb4724eb129620c81b365",
+      "published_sha256": "9d7fa7a787f25dbf9ec5bc10969be0d8cd3d9dd9303fb4724eb129620c81b365",
+      "compression": null
+    },
+    {
+      "published": "reference_code/retrieval_reference/runner.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\retrieval_reference\\runner.py",
+      "source_sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+      "published_sha256": "7a05001beb6e611e47743ec420f70763f61fd106932b02d54f73e24d772da4cb",
+      "compression": null
+    },
+    {
+      "published": "reference_code/retrieval_reference/source_registry.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\retrieval_reference\\source_registry.py",
+      "source_sha256": "4fa3efee009a86b9dd0791911f58fa2b186f66fb97b1a4eaf6c7ef4ab59e410a",
+      "published_sha256": "4fa3efee009a86b9dd0791911f58fa2b186f66fb97b1a4eaf6c7ef4ab59e410a",
+      "compression": null
+    },
+    {
+      "published": "reference_code/retrieval_reference/sparse.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\retrieval_reference\\sparse.py",
+      "source_sha256": "9a2b7f33342818fc5d00a5aba93a4fbb6378e9f7fe5c88a1501b17b0d3fe45bb",
+      "published_sha256": "9a2b7f33342818fc5d00a5aba93a4fbb6378e9f7fe5c88a1501b17b0d3fe45bb",
+      "compression": null
+    },
+    {
+      "published": "reference_code/retrieval_reference/tokenization.py",
+      "source": "outputs\\FinRisk_知识库增量交付_20261018\\execution\\retrieval_reference\\tokenization.py",
+      "source_sha256": "5c53e4fe5ebb47657bb6e191b56074889b571b6a85941da516a314d657518465",
+      "published_sha256": "5c53e4fe5ebb47657bb6e191b56074889b571b6a85941da516a314d657518465",
+      "compression": null
+    },
+    {
+      "published": "docs/history/FinRisk_智能体化RAG检索工具设计方案_20261015.md",
+      "source": "outputs\\FinRisk_智能体化RAG检索工具设计方案_20261015.md",
+      "source_sha256": "d130a97af5ab4819086c8fce7871d635a60c86e9a8da404191dad540ca9f2b68",
+      "published_sha256": "d130a97af5ab4819086c8fce7871d635a60c86e9a8da404191dad540ca9f2b68",
+      "compression": null
+    },
+    {
+      "published": "docs/history/FinRisk_机制与片段消融_20261016/消融实验与新话术验证报告.md",
+      "source": "outputs\\FinRisk_机制与片段消融_20261016\\消融实验与新话术验证报告.md",
+      "source_sha256": "1f9921a587bf81241c4d69456b0c38b58923bacd9d5acdd880d8ee172b91f708",
+      "published_sha256": "1f9921a587bf81241c4d69456b0c38b58923bacd9d5acdd880d8ee172b91f708",
+      "compression": null
+    }
+  ],
+  "reproduction_source_sha256": "c51a7f1830392c66ac637b639d96896ebe045520e2a17a6d02cf9377f3d9b90e",
+  "reproduction_changes": [
+    "entry renamed reproduce.py",
+    "stdlib gzip reader for losslessly compressed JSONL"
+  ],
+  "scores_labels_rankings_unchanged": true,
+  "excluded": [
+    "temporary folders",
+    "repeated job snapshots",
+    "query vector arrays",
+    "full local execution history",
+    "duplicate ZIP",
+    "credentials",
+    "model weights"
+  ]
+}

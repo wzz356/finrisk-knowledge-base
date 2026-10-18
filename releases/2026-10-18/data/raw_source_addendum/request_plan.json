@@ -1,0 +1,74 @@
+[
+  {
+    "request_id": "R01",
+    "source_id": "L001",
+    "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_4c715a53f3d4402c89f62ae77809f638.html",
+    "origin": "catalog.official_url"
+  },
+  {
+    "request_id": "R02",
+    "source_id": "L003",
+    "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=103294",
+    "origin": "catalog.retrieval_url"
+  },
+  {
+    "request_id": "R03",
+    "source_id": "L006",
+    "url": "https://app.www.gov.cn/govdata/gov/202403/19/513111/article.html",
+    "origin": "catalog.official_url"
+  },
+  {
+    "request_id": "R04",
+    "source_id": "L007",
+    "url": "https://jrj.sh.gov.cn/YWTBZCCX166/20250427/be89d33ca66f4c03b55314dc9e93dcb5.html",
+    "origin": "catalog.retrieval_url"
+  },
+  {
+    "request_id": "R05",
+    "source_id": "L002",
+    "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=98055",
+    "origin": "catalog.retrieval_url"
+  },
+  {
+    "request_id": "R06",
+    "source_id": "L004",
+    "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=96387",
+    "origin": "catalog.retrieval_url"
+  },
+  {
+    "request_id": "R07",
+    "source_id": "L005",
+    "url": "https://www.hunan.gov.cn/zqt/zcsd/202302/t20230202_29238455.html",
+    "origin": "catalog.official_url"
+  },
+  {
+    "request_id": "R08",
+    "source_id": "L008",
+    "url": "https://www.sh.jcy.gov.cn/thirdparty/ueditor/jsp/upload/file/20201116/1605492693550086659.pdf",
+    "origin": "catalog.official_url"
+  },
+  {
+    "request_id": "R09",
+    "source_id": "L009",
+    "url": "https://www.chinatax.gov.cn/n810219/n810744/n3752930/n3752974/c3970366/content.html",
+    "origin": "catalog.official_url"
+  },
+  {
+    "request_id": "R10",
+    "source_id": "L010",
+    "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_5474cf75173c45d6a0379730fb4e8d97.html",
+    "origin": "catalog.official_url"
+  },
+  {
+    "request_id": "R11",
+    "source_id": "L012",
+    "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=333022&generaltype=0&itemId=4098",
+    "origin": "law_review.acquisition_plan"
+  },
+  {
+    "request_id": "R12",
+    "source_id": "L003",
+    "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1217183&generaltype=0&itemId=928",
+    "origin": "catalog.official_url"
+  }
+]

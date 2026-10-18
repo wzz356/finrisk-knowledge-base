@@ -1,0 +1,18 @@
+{
+  "outputs/FinRisk_法规库V1_20261017/catalog.jsonl": {
+    "sha256_at_validation": "3ccfd814cd080df157f580ea64208ee5a7dff9131421b75ba1ecd99b8d3d4293",
+    "access": "read_only_in_this_subtask"
+  },
+  "outputs/FinRisk_法规库V1_20261017/rules.jsonl": {
+    "sha256_at_validation": "7d2f69f3b378c7bec32eefaad04e7eff409c64c595e95d85db75f11a61e116ee",
+    "access": "read_only_in_this_subtask"
+  },
+  "outputs/FinRisk_法规库V1_20261017/sources/texts.jsonl": {
+    "sha256_at_validation": "b93b01ef3416d72ff6b35bed237d129254422ab3858d48ab97699e082f09e5d0",
+    "access": "read_only_in_this_subtask"
+  },
+  "outputs/FinRisk_法规库快速修复回归_20261017/operational_rules.json": {
+    "sha256_at_validation": "f3023550e4f0df428f520ed3e80519c0da4aa2191e97f1d85f4243a01717e074",
+    "access": "read_only_in_this_subtask"
+  }
+}

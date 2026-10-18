@@ -1,0 +1,23 @@
+{
+  "request_id": "R07",
+  "source_id": "L005",
+  "requested_url": "https://www.hunan.gov.cn/zqt/zcsd/202302/t20230202_29238455.html",
+  "url_origin": "catalog.official_url",
+  "final_url": "https://www.hunan.gov.cn/zqt/zcsd/202302/t20230202_29238455.html",
+  "retrieved_at": "2026-10-18T00:57:43.0116823+08:00",
+  "curl_exit": 35,
+  "http_status": 0,
+  "content_type": null,
+  "bytes": 0,
+  "sha256": null,
+  "actual_response_body_saved": false,
+  "raw_http_response_obtained": false,
+  "legal_fulltext_verified": false,
+  "production_active": false,
+  "redirects_followed": 0,
+  "limitation": "TLS握手失败，HTTP状态0、头0字节、正文0字节；无响应体可作法规全文核对，不虚构原件SHA。",
+  "outcome": "tls_handshake_failed_no_http_response",
+  "error": "schannel: failed to receive handshake, SSL/TLS connection failed",
+  "final_url_semantics": "curl报告的有效请求目标；未收到HTTP响应，无重定向，不能当作已验证页面URL",
+  "body_sha256": null
+}

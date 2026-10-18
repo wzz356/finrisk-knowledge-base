@@ -1,0 +1,245 @@
+{
+  "schema": "finrisk-evidence-handoff-v1",
+  "artifact_version": "finrisk-handoff-scope-20261018-v1",
+  "versions": {
+    "content": "finrisk-basic-closeout-v2.1-20261013:fa2fb293b5cb483ed6f7e300758cbf5ae67b868d5fb5033bd3db053bb7d9ebb6",
+    "projection": "V2-all9639_final:52a987679efaee2a3e849598e2946422d01410c9c98ef6029ec2b7be30e88546",
+    "articles": "articles-v1-20261017:6733e9fa9e4f05ac55caf4222ff821ae6ce08bfbd67c2ac4fba6aab5680cb2f1",
+    "rules": "rules-v1-20261017:7d2f69f3b378c7bec32eefaad04e7eff409c64c595e95d85db75f11a61e116ee",
+    "scope": "finrisk-scope-overlay-20261018-v1"
+  },
+  "files": {
+    "sources.jsonl": {
+      "sha256": "da1aa47cf881b31634f3150a10ea17bce845eec008fd8cf6df57c7281c944e3c",
+      "bytes": 155344
+    },
+    "spans.jsonl": {
+      "sha256": "306165a5afad5151eef55c8eb974da34b3b70a77e7d3d7b5814fd8f79496a83d",
+      "bytes": 140166
+    },
+    "scope_overlays.jsonl": {
+      "sha256": "aca15a1e3afafe7713866d46a8ae5d71ea7b4bf2e8012e2b0b7b9746140fa1c0",
+      "bytes": 736651
+    },
+    "comparison.jsonl": {
+      "sha256": "989738baa442410158b1f4205f26c97a92893619e11a7f7f0d21f396daec664d",
+      "bytes": 47218
+    },
+    "cohort_freeze.json": {
+      "sha256": "8390a8f1116b01f70bee3c83ca89369ce9fe06d725d0406530e6c72ac4b50ead",
+      "bytes": 487
+    },
+    "compatibility_audit.json": {
+      "sha256": "c74ac0af07493cd8f5d271d186683a2db46d23205d8c90f241bf6052fbcc3114",
+      "bytes": 1704
+    },
+    "projection_patch_compatibility.jsonl": {
+      "sha256": "586d3e852cd6fdd3ff67f38c8aa37ae430ccfae5de5a0022e61d173683a2e066",
+      "bytes": 14561
+    },
+    "projection_candidate_rebinds.jsonl": {
+      "sha256": "cd7f27003f3ea6e4e07ab8edd488a830bcd56029aaaad0db851a0eaa0606ec47",
+      "bytes": 36101
+    },
+    "source_snapshot_receipts.jsonl": {
+      "sha256": "d554c23cd71e8630a0691e0c6fc241c8b53e61e7a73ee83eee5d12643ed629c6",
+      "bytes": 11543
+    },
+    "historical_return_observations.jsonl": {
+      "sha256": "94a0471e36f0f4e29e566f4eaac82ea17354f2bb1f79bb7cdc1230d7a80affcd",
+      "bytes": 68325
+    },
+    "evidence_samples.jsonl": {
+      "sha256": "ead04680a714375315595d7098b8fc8d20a23b9643969f70b964b6207c0eef1e",
+      "bytes": 314723
+    },
+    "version_lock.json": {
+      "sha256": "289941d9657d4b1c9195f1717eaf6b88bf0df0dd1347828bca50264db972d432",
+      "bytes": 470
+    },
+    "field_contract.json": {
+      "sha256": "b32f7c71b72c0eb6d9be207dfd8630e8da1aac15d499d9274f85136b28fef1f0",
+      "bytes": 2411
+    },
+    "loader_verification.json": {
+      "sha256": "a4e41fd12e7443c785bf6e4fd23bd982078486bbff3b384e0c241cbb5e8d0491",
+      "bytes": 359
+    },
+    "evidence_loader.py": {
+      "sha256": "ab944186e6028ebc0d014795dcdff5a436f786d3c3572fd02dea41ca91bfe1e5",
+      "bytes": 5983
+    },
+    "test_evidence_loader.py": {
+      "sha256": "ae35a4f1d5324868f77bb4fb0dd29588b3c5da2f15f419a9547e54439f64fa8e",
+      "bytes": 6603
+    },
+    "tests_red.txt": {
+      "sha256": "780a50f428a2c16ec59ab116638da65b6d5abd4e4da13076b6e500bf46d531ab",
+      "bytes": 12315
+    },
+    "tests_red_hardening.txt": {
+      "sha256": "cad8e1dc0c944a0c7d5325c447906b20aa1bf413bdfd9d8e419c2293d015058d",
+      "bytes": 3036
+    },
+    "tests_green.txt": {
+      "sha256": "bf9ae43ba61fe902ab65239a9edbe0bebcf1315cc646897123b187eb2dc98e5e",
+      "bytes": 1640
+    },
+    "audit_run.txt": {
+      "sha256": "8b5dcee68f6ea51dbdcf4fbae29e3b59c3326f5b338e4639ddaeee4bdb5bf3aa",
+      "bytes": 1946
+    },
+    "交接说明.md": {
+      "sha256": "990d8be88881258f98f2e0d46cab4790c8859002337fa996c036431f22f9c8e4",
+      "bytes": 4696
+    },
+    "定向复核与验证报告.md": {
+      "sha256": "17b3dde3a04dfff5a03e6e6d84fe2b094ab4db77d38f8ad12f9b1ae5199a03fa",
+      "bytes": 5519
+    }
+  },
+  "external_dependencies": [
+    {
+      "kind": "content",
+      "path": "outputs/FinRisk_知识库V2.1轻量收尾_20261015/effective_candidates.jsonl.gz",
+      "bytes": 17420425,
+      "sha256": "e46887270a10a5c54c437e34c45f575c32b9a5d6e15a5e8afdedc5a9a2e5953e"
+    },
+    {
+      "kind": "content_index",
+      "path": "outputs/FinRisk_知识库V2.1轻量收尾_20261015/file_index.jsonl",
+      "bytes": 3121924,
+      "sha256": "e09d192e9230e5bdc9712d4bbb932c03a1b06ce1c94b2bd767b4e06809cf7660"
+    },
+    {
+      "kind": "content_version",
+      "path": "outputs/FinRisk_知识库V2.1轻量收尾_20261015/version.json",
+      "bytes": 1539,
+      "sha256": "6fc5b1c442e305c320ddd053a2ad218fa006dfac2709b1a12a6d5a9987d6ab8f"
+    },
+    {
+      "kind": "sources",
+      "path": "outputs/FinRisk_知识库V2_20261012/normalized_final/data/documents.jsonl",
+      "bytes": 36715303,
+      "sha256": "1bd86772e4dfe479a87e9bc6ba7ef8d283da74b4a558ee5d4696146c728a584b"
+    },
+    {
+      "kind": "source_inventory",
+      "path": "outputs/FinRisk_知识库V2_20261012/normalized_final/data/source_inventory.jsonl",
+      "bytes": 18301513,
+      "sha256": "728d47c273bd279e6bb4af64b52cfada3b9a90c2a6bbc0571e92eab9ea274c3a"
+    },
+    {
+      "kind": "projection_manifest",
+      "path": "outputs/FinRisk_知识库V2_20261012/indexes/all9639_final/manifest.json",
+      "bytes": 7678483,
+      "sha256": "9f7f2d8cdbc621cfa577d8c5ffac439be3aeeeccc2f0e487cd1210bd78487a8d"
+    },
+    {
+      "kind": "structured_projection",
+      "path": "outputs/FinRisk_知识库V2_20261012/indexes/all9639_final/structured.jsonl",
+      "bytes": 343342550,
+      "sha256": "a653fd381c881e1d0659c1154da99c90ab0ac378f65e60f0bda347e2b2c2a2d8"
+    },
+    {
+      "kind": "raw_projection",
+      "path": "outputs/FinRisk_知识库V2_20261012/indexes/all9639_final/raw.jsonl",
+      "bytes": 152534305,
+      "sha256": "44af78fe05afa272425a48a3666af0d50ebcfba97061137dbea9a2f51173c7a8"
+    },
+    {
+      "kind": "projection_current_bindings",
+      "path": "outputs/FinRisk_知识库V2.1轻量收尾_20261015/corrected_projection_units.jsonl",
+      "bytes": 164011,
+      "sha256": "a1ba2591f3b2a47b2a5a12713a7c2f509dabb7ad65fc37ee61eb520833e755b8"
+    },
+    {
+      "kind": "articles",
+      "path": "outputs/FinRisk_法规库V1_20261017/articles.jsonl",
+      "bytes": 53889,
+      "sha256": "6733e9fa9e4f05ac55caf4222ff821ae6ce08bfbd67c2ac4fba6aab5680cb2f1"
+    },
+    {
+      "kind": "article_sources",
+      "path": "outputs/FinRisk_法规库V1_20261017/sources/texts.jsonl",
+      "bytes": 261594,
+      "sha256": "b93b01ef3416d72ff6b35bed237d129254422ab3858d48ab97699e082f09e5d0"
+    },
+    {
+      "kind": "article_source_registry",
+      "path": "outputs/FinRisk_法规库V1_20261017/source_registry.jsonl",
+      "bytes": 182143,
+      "sha256": "3973272f41019da20f6828104e04104c9d3709dc9c504bc87f85a430f6dcc7e7"
+    },
+    {
+      "kind": "rules",
+      "path": "outputs/FinRisk_法规库V1_20261017/rules.jsonl",
+      "bytes": 109072,
+      "sha256": "7d2f69f3b378c7bec32eefaad04e7eff409c64c595e95d85db75f11a61e116ee"
+    },
+    {
+      "kind": "previous_scope",
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/scope_units.jsonl",
+      "bytes": 170338,
+      "sha256": "66891b3af1c86b0bb584871561d90b3e6f7cb4abca635e3f1ea17b61c5f420b8"
+    },
+    {
+      "kind": "previous_scope_review",
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/scope_review.jsonl",
+      "bytes": 15424,
+      "sha256": "fd72f3637e5556559f5167680e66927ce92b4038b8fff604ecf99f2e036b4c53"
+    },
+    {
+      "kind": "known_return_scope_issues",
+      "path": "outputs/FinRisk_E02小批量实验_20261013/return_scope_review.jsonl",
+      "bytes": 1918,
+      "sha256": "d1b7180bd0d87b4171c155727cbb54d3a4d5445408baf34da6463a27eaba173f"
+    },
+    {
+      "kind": "historical_actual_return_observation",
+      "path": "outputs/FinRisk_E02小批量实验_20261013/results.jsonl",
+      "bytes": 28909375,
+      "sha256": "193dd9371213d1cad645f58810d4c5097cec84c02304fa1941664f72619c13f9"
+    },
+    {
+      "kind": "historical_actual_return_observation",
+      "path": "outputs/FinRisk_E01-E04五小时实验_20261013/display_results.jsonl",
+      "bytes": 57272585,
+      "sha256": "2f5ba119ea5d11cdffa4faa7a6390b313651dc268add19614c8dad7f4da6dead"
+    }
+  ],
+  "counts": {
+    "scope_case_documents": 16,
+    "corrected_reading_example_documents": 1,
+    "case_units": 17,
+    "article_units": 2,
+    "registered_spans": 57
+  },
+  "source_identity": "exported_text_sha256_and_registered_unicode_intervals",
+  "candidate_status": "candidate",
+  "human_approved": false,
+  "integration_status": "offline_examples_only_application_not_modified",
+  "new_paid_model_API_calls": 0,
+  "loading": {
+    "default_layer": "hit",
+    "optional_layers": [
+      "supplement",
+      "extended"
+    ],
+    "unknown_id_or_version_or_range": "reject",
+    "arbitrary_source_ranges": "reject",
+    "ranking_input_change": false,
+    "future_projection_change_requires_reencode_review": true
+  },
+  "limitations": [
+    "仅16份定向范围覆盖及1份修正文书读取示例，非全库范围审核。",
+    "既有模型审核只对原unit范围有效，不能推广到该文件其他单元。",
+    "法规仅登记旧快照，不判断当前效力或历史行为时点适用。"
+  ],
+  "verification": {
+    "unit_layer_reads": 57,
+    "span_reads": 57,
+    "literal_interval_checks": 57,
+    "refusal_checks": 62
+  }
+}

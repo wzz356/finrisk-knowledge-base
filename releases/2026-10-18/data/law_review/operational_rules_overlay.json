@@ -1,0 +1,765 @@
+[
+  {
+    "mechanism_id": "M01",
+    "title": "指导本人作不实回访答复",
+    "predicates": [
+      {
+        "predicate_id": "M01.review_context",
+        "description": "当前涉及保险产品的身份/知悉回访准备或答问",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M01.false_answer_instruction",
+        "description": "必须找到真实状态与要求答复不一致的原句；回答知道且前文已核对理解，不可从缺失录音补出不实。",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "客户已理解后要求按实际理解回答，或不懂则如实反馈，不满足false_answer_instruction。只有明确把未理解/未告知/其他不实内容说成已理解等，才有该条件的正向支持；“回答知道”四字不能单独证明实际不懂。 销售人员辅导回访与保险公司工作人员实际回访问答分开。第35条直接规定公司回访职责；将销售前不实辅导视为风险是解释层筛查，L011全文仍待核，不把它写成已取得专项处罚依据。",
+    "canonical_label": "回访违规",
+    "candidate_label_links": [
+      "回访违规"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M01-R01",
+      "M01-R02"
+    ],
+    "article_refs": [
+      "L002-A0035",
+      "L005-A0011",
+      "L005-A0016",
+      "L005-A0025"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "review_after_contract",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  },
+  {
+    "mechanism_id": "M02",
+    "title": "非本人冒名完成回访",
+    "predicates": [
+      {
+        "predicate_id": "M02.identity_review",
+        "description": "当前涉及应由投保人确认身份或知悉情况的保险回访",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M02.impersonation",
+        "description": "明确安排或出现非本人冒称本人完成身份或知悉确认；公开身份仅预约转接不满足",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "公开身份预约、转接、解释术语且本人自主作出知悉答复，不等于冒名；非本人冒称投保人完成身份/知悉确认才满足impersonation。透明辅助是否获具体制度允许另记，不能据此认定一切代理回访合法。 第35条身份和投保信息真实性是直接支持；L005第16条仅规定万能险知悉项目，不是所有回访的通用身份条款。",
+    "canonical_label": "回访违规",
+    "candidate_label_links": [
+      "回访违规"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M02-R01",
+      "M02-R02"
+    ],
+    "article_refs": [
+      "L002-A0035",
+      "L005-A0016"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "review_after_contract",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  },
+  {
+    "mechanism_id": "M03",
+    "title": "无条件扩大保险避债免税效果",
+    "predicates": [
+      {
+        "predicate_id": "M03.insurance_legal_promotion",
+        "description": "当前向客户说明保险的债务隔离、执行或税务效果",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M03.unconditional_overclaim",
+        "description": "法律效果说明已知超出相关规则对象或条件；绝对覆盖一切债务或所有税种可成立，特定给付是否满足免税对象未知则unknown；准确有条件说明不成立",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "准确说明保险赔款个人所得税条文与具体给付待核，不等于承诺全部收益免一切税。撤销权需处分行为、影响债权实现、相对人认识及期限等相应条件；不能反推所有保单必被执行/撤销。 避债与免税分别分析；已知法律范围被绝对扩大可筛查，特定给付性质不明保留unknown。民法典538—542条不解决全部执行、继承、婚姻财产及税务问题。",
+    "canonical_label": "避债避税",
+    "candidate_label_links": [
+      "避债避税"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M03-R01",
+      "M03-R02"
+    ],
+    "article_refs": [
+      "L002-A0017",
+      "L008-A0538",
+      "L008-A0539",
+      "L009-A0004",
+      "L008-A0540",
+      "L008-A0541",
+      "L008-A0542"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "sales_legal_effect_explanation",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  },
+  {
+    "mechanism_id": "M04",
+    "title": "合同外成交利益",
+    "predicates": [
+      {
+        "predicate_id": "M04.covered_recipient",
+        "description": "利益对象为投保人、被保险人或受益人",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M04.transaction_offer",
+        "description": "存在与投保成交绑定的经济利益承诺或给付",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M04.outside_contract",
+        "description": "当前已明确利益在真实保险合同约定以外，而非仅缺合同或活动规则材料",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "公司及其工作人员按116条，代理经纪主体按131条。确认承诺对象、与投保成交关系及真实合同内外；合同约定年金/给付不因“送、领”措辞自动变合同外利益。 明确承诺可预警，无需等实际付出；未展示合同不能代替“合同外”证据。活动合法性仍可能需其他依据，不因本机制不成立宣告全面合规。",
+    "canonical_label": "合同外利益",
+    "candidate_label_links": [
+      "合同外利益",
+      "赠送利益",
+      "回扣返佣"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M04-R01",
+      "M04-R02"
+    ],
+    "article_refs": [
+      "L001-A0116",
+      "L001-A0131"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "insurance_business",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  },
+  {
+    "mechanism_id": "M05",
+    "title": "未来非保证利益被保证化",
+    "predicates": [
+      {
+        "predicate_id": "M05.uncertain_future_benefit",
+        "description": "被承诺对象已明确为未来分红、超过最低保证的万能收益等非保证利益",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M05.promised_certain",
+        "description": "把该非保证部分明确保证为固定必得、不受经营结果影响等",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "最低保证只按合同约定的对象与保证期间说明；未来红利、超过最低保证利率部分与已归属利益分开。没有明确保证对象时unknown，不以“保证”词本身判风险。 L007为万能险，L005按一年期以上与设计类型适用；L003生效前行为不能直接引用。最低保证账户价值不等于累计保费随时全退。",
+    "canonical_label": "保证收益",
+    "candidate_label_links": [
+      "保证收益",
+      "承诺收益",
+      "夸大收益",
+      "虚构收益率"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M05-R01",
+      "M05-R02"
+    ],
+    "article_refs": [
+      "L002-A0022",
+      "L003-A0013",
+      "L003-A0037",
+      "L005-A0008",
+      "L005-A0012",
+      "L007-S01-I01",
+      "L005-A0007"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "sales_benefit_explanation",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  },
+  {
+    "mechanism_id": "M06",
+    "title": "保险与其他金融产品性质混同",
+    "predicates": [
+      {
+        "predicate_id": "M06.insurance_known",
+        "description": "当前实际推介对象明确为保险产品",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M06.equated_deposit",
+        "description": "当前表述把保险当作存款、基金、理财、信托等另一种金融产品，而非准确区分、反面示例或单纯银行代销",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "银行代销、准确解释差异、反面纠错不等于产品混同。必须先有本次真实产品为保险，再核是否将其说成存款等。 收益简单比较与产品性质混同不是同一个条件；L005第6条另有一年期以上范围。2026-02-01前行为不直接适用L003，其他当时有效依据另核。",
+    "canonical_label": "销售误导",
+    "candidate_label_links": [
+      "销售误导",
+      "欺骗投保人"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M06-R01",
+      "M06-R02"
+    ],
+    "article_refs": [
+      "L002-A0017",
+      "L002-A0025",
+      "L003-A0013",
+      "L005-A0006",
+      "L005-A0029"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "sales_pre_or_during",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  },
+  {
+    "mechanism_id": "M07",
+    "title": "退保金额或损失误导",
+    "predicates": [
+      {
+        "predicate_id": "M07.refund_assurance",
+        "description": "当前存在关于无损、原额、随时退回等退款保证或明确隐去退保损失的安排",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M07.known_refund_terms",
+        "description": "当前已有保单时点、现金价值、扣费或特殊退款条件，可以判断该保证是否成立",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M07.refund_conflict",
+        "description": "退款保证与这些已知事实明确矛盾，或明确要求隐瞒已知退保损失",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "核保单时点、现金价值、费用、犹豫期和已证实特殊退款。已知非全退仍明确承诺全退可预警；明确暂停、先核合同的记忆性说明不能自动当成已知不实承诺。 缺材料不等于知道有损失；法规提示义务不能替代具体合同损失数额。犹豫期退费也核险种及费用例外。",
+    "canonical_label": "销售误导",
+    "candidate_label_links": [
+      "销售误导",
+      "隐瞒重要信息"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M07-R01",
+      "M07-R02"
+    ],
+    "article_refs": [
+      "L002-A0025",
+      "L003-A0037",
+      "L005-A0007",
+      "L005-A0012"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "sales_refund_explanation",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  },
+  {
+    "mechanism_id": "M08",
+    "title": "保障或免责条件误导",
+    "predicates": [
+      {
+        "predicate_id": "M08.contract_limit_known",
+        "description": "当前材料或说话人明确承认了本合同的责任、等待期、免赔额等重要限制",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M08.contradiction_or_concealment",
+        "description": "当前明确对外说相反内容，或明确拟议故意隐去已知限制",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "既知的等待期/免责/免赔等被明确否认或拟隐瞒才支持矛盾条件。团体人身保险不适用L004，但仍分别核保险法与L002等。 L004第29条是来源范围限制，不能当成免除一切销售说明责任的例外。说话人猜测、截短录音及未展示合同不自动证明责任必不赔或此前未说明。",
+    "canonical_label": "销售误导",
+    "candidate_label_links": [
+      "销售误导",
+      "隐瞒重要信息"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M08-R01",
+      "M08-R02"
+    ],
+    "article_refs": [
+      "L001-A0017",
+      "L002-A0025",
+      "L002-A0026",
+      "L003-A0037",
+      "L004-A0029"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "contract_explanation",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  },
+  {
+    "mechanism_id": "M09",
+    "title": "虚假停售或稀缺宣传",
+    "predicates": [
+      {
+        "predicate_id": "M09.scarcity_statement",
+        "description": "当前存在即将停售/调价或名额稀缺等商业宣传",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M09.known_notice_violation_or_falsity",
+        "description": "有独立给定真实合规公告并准确转告时not_met；仅说话人自称公告而无真实性背景时unknown；明确未公告且不属相应例外或已知虚构时met。",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "题目独立背景明确真实公告、对应产品、日期、规定载体及准确转告时，以该给定事实核条件；另列external_verification=not_performed不能据此改unknown。若仅销售人员自称已公告，公告真实性仍unknown；没有附公告也不等于未公告。 主体、产品、公告日期、起始日期、载体及费率区间调整例外逐项核；真实公告不豁免虚构配额/收益等其他误导。评测事实采纳协议不是法律新设条件。",
+    "canonical_label": "虚假宣传",
+    "candidate_label_links": [
+      "虚假宣传"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M09-R01",
+      "M09-R02"
+    ],
+    "article_refs": [
+      "L002-A0019",
+      "L002-A0017",
+      "L010-A0002",
+      "L010-A0004",
+      "L010-A0028"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "sales_scarcity",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  },
+  {
+    "mechanism_id": "M10",
+    "title": "委托无资格机构实质销售",
+    "predicates": [
+      {
+        "predicate_id": "M10.substantive_sales",
+        "description": "机构受托承担具体产品推荐、条款商谈或促成投保等实质销售",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M10.institution_unlicensed",
+        "description": "当前明确该机构未取得实际销售行为所需的合法资格",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "无资格与实质销售两个事实分别支持。签到、场务、转接不自动等于销售；推荐具体产品、解释条款促成投保依行为判断，不能只看“介绍”职位名。 机构许可与个人执业登记分开；未提供证件不能证明无证，客户同意不替代法定资格。",
+    "canonical_label": "委托无资质机构销售",
+    "candidate_label_links": [
+      "委托无资质机构销售"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M10-R01",
+      "M10-R02"
+    ],
+    "article_refs": [
+      "L001-A0116",
+      "L001-A0119",
+      "L002-A0002",
+      "L002-A0003",
+      "L002-A0005"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "sales_pre_or_during",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  },
+  {
+    "mechanism_id": "M11",
+    "title": "销售代替当事人确认订立合同文书",
+    "predicates": [
+      {
+        "predicate_id": "M11.contract_confirmation",
+        "description": "只有订立保险合同有关文书/对应确认操作为met；仅合同后回访身份或知悉答问为not_met；具体环节不明unknown。",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M11.salesperson_substitution",
+        "description": "销售人员取代当事人作确认为met；仅解释、展示且当事人自主确认为not_met；非销售人员书面受托另核。",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M11.personal_record_falsified",
+        "description": "明确拟将代操作记录作为客户本人的真实阅读/知悉/确认提交",
+        "required_status": "met",
+        "required_for_risk": false
+      }
+    ],
+    "boundary": "第29条针对订立保险合同有关文书确认，保险销售人员不得代确认；不得额外要求已伪造本人记录才认定该代确认筛查线索。合同订立后的回访身份答问应走M01/M02，不能只因“确认”二字触发M11。 解释页面、放大字体等辅助与替客户作确认分开；非销售人员书面受托须核法律认可方式，不能拿笼统授权绕过销售人员禁止。万能险风险告知代操作另核L005第17条，即使透明也不能当成允许。M11不当然支持“客户信息不真实”标签，需独立虚假记录事实。",
+    "canonical_label": "客户信息不真实",
+    "candidate_label_links": [
+      "客户信息不真实"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M11-R01",
+      "M11-R02"
+    ],
+    "article_refs": [
+      "L002-A0029",
+      "L002-A0033",
+      "L005-A0004",
+      "L005-A0017"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "contract_formation_document_confirmation",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    },
+    "label_policy_overlay": "代确认机制与客户信息不真实标签分别判断；只有另有虚假记录/客户信息不真实事实才支持该标签；不得因canonical_label自动确定。"
+  },
+  {
+    "mechanism_id": "M12",
+    "title": "取消后继续商业电话营销",
+    "predicates": [
+      {
+        "predicate_id": "M12.marketing_cancelled",
+        "description": "消费者已明确取消或拒绝相应商业营销",
+        "required_status": "met",
+        "required_for_risk": true
+      },
+      {
+        "predicate_id": "M12.later_marketing",
+        "description": "后续仍明确拟议或实际向其商业推销，不是按其请求处理已有保单必要服务",
+        "required_status": "met",
+        "required_for_risk": true
+      }
+    ],
+    "boundary": "消费者取消后仍拟商业推销可预警；按消费者请求补充已有理赔材料且不夹带推荐，不因取消营销而当然满足later_marketing。 目的按实际内容核，服务名义不洗白推销；L012未完成准入，不把6个月禁拨期限添加为本机制必要条件，更不推满6个月可无同意恢复营销。",
+    "canonical_label": "电销违规",
+    "candidate_label_links": [
+      "电销违规"
+    ],
+    "canonical_policy": "以既有候选映射首项作为机制主标签；仅在必要事实均成立时规范化输出，不把全部关联自动提升",
+    "source_rule_ids": [
+      "M12-R01",
+      "M12-R02"
+    ],
+    "article_refs": [
+      "L006-A0024",
+      "L002-A0005"
+    ],
+    "rule_identity": "model_authored_operational_screening_not_expert_legal_determination",
+    "interpretation_overlay": {
+      "version": "law-boundary-overlay-20261018-v1",
+      "business_stage": "commercial_call_after_cancel",
+      "fact_and_scope_policy": {
+        "fact_provenance": [
+          "independent_given_fact",
+          "speaker_claim",
+          "reviewer_missing_material",
+          "historical_case_fact"
+        ],
+        "assessment": "对当前题面独立给定事实作逻辑判断；外部真实性核验单独输出。说话人的口头保证可作为“作出该表述”事实，但不自动证明其声称的公告/合同/资格为真。",
+        "scope_axes": [
+          "subject",
+          "product",
+          "stage",
+          "behavior_date",
+          "rule_version",
+          "exception"
+        ],
+        "unknown_policy": "unknown不等于not_met；排除某一依据不等于排除所有依据；某机制not_met不等于整段话术全面合规。",
+        "authority": "模型解释覆盖层；不是官方原文、司法裁判、专家结论或独立违法条件。",
+        "source_policy": "来源production_active一律false；不把L011/L012未准入内容用于确定结论。"
+      },
+      "article_support_kind": "原文支持与模型推导分开，详见rule_patch.jsonl及source_verification.jsonl",
+      "production_active": false
+    }
+  }
+]

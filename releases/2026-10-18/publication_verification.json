@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-18T01:00:23.693265+00:00",
+  "replay_before_receipt": {
+    "passed": true,
+    "manifest_files": 193,
+    "retrieval_queries": 24,
+    "relevance_pairs": 674,
+    "raw_scores_rebuilt": 3411,
+    "registered_quote_reads": 683,
+    "boundary_judgments": 48,
+    "booked_usd": 0.740397141,
+    "metadata_identity_repairs": 47,
+    "earlier_response_grade_changes": 5,
+    "full_corpus_recall": false,
+    "API_calls_by_this_replay": 0
+  },
+  "credential_scan_files": 194,
+  "credential_matches": 0,
+  "relative_entry_links_checked": 71,
+  "old_manifest_entries_preserved": 1979,
+  "old_payloads_changed": 0,
+  "new_model_calls": 0,
+  "note": "Publication source documents preserve historical statuses; only public links adjusted"
+}

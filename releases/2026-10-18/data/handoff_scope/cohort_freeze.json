@@ -1,0 +1,25 @@
+{
+  "file_ids": [
+    "F004090",
+    "F004155",
+    "F006493",
+    "F006220",
+    "F000269",
+    "F003464",
+    "F008940",
+    "F008944",
+    "F009491",
+    "F009587",
+    "F001987",
+    "F001345",
+    "F001988",
+    "F000742",
+    "F002890",
+    "F001128"
+  ],
+  "files": 16,
+  "selection": "known_E02_tables_3_attribution_unknowns_role_condition_and_unchanged_controls",
+  "not_random": true,
+  "formal_test_set_read_or_changed": false,
+  "new_query_retrieval_effect_claimed": false
+}

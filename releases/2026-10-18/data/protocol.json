@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-17T16:22:15.648455+00:00",
+  "new_inputs": 24,
+  "states": {
+    "risk": 12,
+    "no_clear_risk": 8,
+    "insufficient": 4
+  },
+  "primary_retrieval_subset": "all12 preregistered risk queries; other12 descriptive boundary group",
+  "corpus_files": 9639,
+  "corpus_units": 65475,
+  "aliases": 12,
+  "rerank_candidates_each_arm": 100,
+  "baseline": "original query BM25/BGE top100 then equal RRF60 top100",
+  "experimental": "original+static lexical auxiliary query; equal within-modality RRF60 top100 then equal cross-modality RRF60 top100",
+  "no_auxiliary_identity": true,
+  "rerank_query": "always original business text",
+  "model": "deepseek-flash",
+  "rerank_rules": "same existing ME rules, same adjacent source context, deduplicate exact query+unit text tasks across arms",
+  "K": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "direct_grade": 3,
+  "qrels": "blind full-document reading on shared Top20 source-file pool",
+  "qrels_no_scores_or_arm": true,
+  "qrels_quality": "same-family model silver, not expert gold",
+  "global_true_recall": false,
+  "out_of_pool_sampling": false,
+  "subset_defined_before_ranking": true,
+  "reference_answers_never_in_inference": true,
+  "original_query_and_auxiliary_same_designer": true,
+  "comparative_model_and_source_independence_not_claimed": true,
+  "budget_usd": 2.0,
+  "max_attempts_per_task": 3,
+  "rerank_concurrency": 12,
+  "no_production_default_change": true,
+  "adoption": "primary Top1 and MRR must not decrease; at least one must improve; examine candidate loss and wrong mechanism before recommending broader deployment"
+}

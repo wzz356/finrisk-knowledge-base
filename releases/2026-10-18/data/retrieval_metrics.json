@@ -1,0 +1,205 @@
+{
+  "groups": {
+    "primary_risk": {
+      "baseline": {
+        "n": 12,
+        "metrics": {
+          "Top1": 0.75,
+          "MRR@20": 0.8194444444444445,
+          "P@1": 0.75,
+          "Success@1": 0.75,
+          "pool_NDCG@1": 0.9047619047619048,
+          "P@5": 0.6333333333333333,
+          "Success@5": 0.9166666666666666,
+          "pool_NDCG@5": 0.8810072902489069,
+          "P@10": 0.5666666666666667,
+          "Success@10": 0.9166666666666666,
+          "pool_NDCG@10": 0.8816294285946227,
+          "P@20": 0.45,
+          "Success@20": 0.9166666666666666,
+          "pool_NDCG@20": 0.8564676028980673
+        },
+        "valid_denominators": {
+          "Top1": 12,
+          "MRR@20": 12,
+          "P@1": 12,
+          "Success@1": 12,
+          "pool_NDCG@1": 12,
+          "P@5": 12,
+          "Success@5": 12,
+          "pool_NDCG@5": 12,
+          "P@10": 12,
+          "Success@10": 12,
+          "pool_NDCG@10": 12,
+          "P@20": 12,
+          "Success@20": 12,
+          "pool_NDCG@20": 12
+        }
+      },
+      "expanded": {
+        "n": 12,
+        "metrics": {
+          "Top1": 0.8333333333333334,
+          "MRR@20": 0.8611111111111112,
+          "P@1": 0.8333333333333334,
+          "Success@1": 0.8333333333333334,
+          "pool_NDCG@1": 0.9523809523809524,
+          "P@5": 0.6666666666666666,
+          "Success@5": 0.9166666666666666,
+          "pool_NDCG@5": 0.9322360591407256,
+          "P@10": 0.5916666666666667,
+          "Success@10": 0.9166666666666666,
+          "pool_NDCG@10": 0.9417695199642103,
+          "P@20": 0.5125000000000001,
+          "Success@20": 0.9166666666666666,
+          "pool_NDCG@20": 0.9286069053354801
+        },
+        "valid_denominators": {
+          "Top1": 12,
+          "MRR@20": 12,
+          "P@1": 12,
+          "Success@1": 12,
+          "pool_NDCG@1": 12,
+          "P@5": 12,
+          "Success@5": 12,
+          "pool_NDCG@5": 12,
+          "P@10": 12,
+          "Success@10": 12,
+          "pool_NDCG@10": 12,
+          "P@20": 12,
+          "Success@20": 12,
+          "pool_NDCG@20": 12
+        }
+      }
+    },
+    "descriptive_nonrisk": {
+      "baseline": {
+        "n": 12,
+        "metrics": {
+          "Top1": 0.25,
+          "MRR@20": 0.31666666666666665,
+          "P@1": 0.25,
+          "Success@1": 0.25,
+          "pool_NDCG@1": 0.8571428571428572,
+          "P@5": 0.19999999999999998,
+          "Success@5": 0.4166666666666667,
+          "pool_NDCG@5": 0.8884989686538335,
+          "P@10": 0.10833333333333334,
+          "Success@10": 0.4166666666666667,
+          "pool_NDCG@10": 0.8747731480594575,
+          "P@20": 0.0625,
+          "Success@20": 0.5,
+          "pool_NDCG@20": 0.8802779180715158
+        },
+        "valid_denominators": {
+          "Top1": 12,
+          "MRR@20": 12,
+          "P@1": 12,
+          "Success@1": 12,
+          "pool_NDCG@1": 12,
+          "P@5": 12,
+          "Success@5": 12,
+          "pool_NDCG@5": 12,
+          "P@10": 12,
+          "Success@10": 12,
+          "pool_NDCG@10": 12,
+          "P@20": 12,
+          "Success@20": 12,
+          "pool_NDCG@20": 12
+        }
+      },
+      "expanded": {
+        "n": 12,
+        "metrics": {
+          "Top1": 0.16666666666666666,
+          "MRR@20": 0.25277777777777777,
+          "P@1": 0.16666666666666666,
+          "Success@1": 0.16666666666666666,
+          "pool_NDCG@1": 0.7857142857142857,
+          "P@5": 0.16666666666666666,
+          "Success@5": 0.4166666666666667,
+          "pool_NDCG@5": 0.8486831799334823,
+          "P@10": 0.13333333333333333,
+          "Success@10": 0.4166666666666667,
+          "pool_NDCG@10": 0.8810637784173639,
+          "P@20": 0.07083333333333333,
+          "Success@20": 0.4166666666666667,
+          "pool_NDCG@20": 0.8987691868846652
+        },
+        "valid_denominators": {
+          "Top1": 12,
+          "MRR@20": 12,
+          "P@1": 12,
+          "Success@1": 12,
+          "pool_NDCG@1": 12,
+          "P@5": 12,
+          "Success@5": 12,
+          "pool_NDCG@5": 12,
+          "P@10": 12,
+          "Success@10": 12,
+          "pool_NDCG@10": 12,
+          "P@20": 12,
+          "Success@20": 12,
+          "pool_NDCG@20": 12
+        }
+      }
+    }
+  },
+  "exploratory_complete_query_differences": {
+    "Top1": {
+      "mean_difference": 0.08333333333333333,
+      "wins": 1,
+      "losses": 0,
+      "ties": 11,
+      "paired_query_bootstrap_95": [
+        0.0,
+        0.25
+      ],
+      "n": 12
+    },
+    "MRR@20": {
+      "mean_difference": 0.041666666666666664,
+      "wins": 1,
+      "losses": 0,
+      "ties": 11,
+      "paired_query_bootstrap_95": [
+        0.0,
+        0.125
+      ],
+      "n": 12
+    },
+    "pool_NDCG@20": {
+      "mean_difference": 0.07213930243741261,
+      "wins": 10,
+      "losses": 1,
+      "ties": 1,
+      "paired_query_bootstrap_95": [
+        0.029149164275221674,
+        0.12506986187788396
+      ],
+      "n": 12
+    }
+  },
+  "pre_registered_numeric_gate": null,
+  "original_primary_n": 12,
+  "complete_primary_n": 12,
+  "excluded_query_ids": [],
+  "original_adoption_gate_status": "exploratory under post-observation parser and retry amendments; not the original strict protocol",
+  "exploratory_numeric_comparison_improved": true,
+  "recommendation": "retain_original_default",
+  "recall_reported": false,
+  "pool_pairs": 674,
+  "unique_documents": 369,
+  "pooled_grade_counts": {
+    "2": 287,
+    "3": 176,
+    "1": 192,
+    "0": 19
+  },
+  "limitations": [
+    "same model family reranks and judges",
+    "synthetic queries and lexicon share author",
+    "12 primary queries, descriptive small-sample result",
+    "Top20 pool excludes unobserved documents"
+  ]
+}

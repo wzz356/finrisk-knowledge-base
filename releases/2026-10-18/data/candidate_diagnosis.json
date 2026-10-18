@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "baseline": {
+      "queries": 12,
+      "known_pool_direct_denominator": 157,
+      "counts": {
+        "initial_known_pool_covered": 123,
+        "fused_known_pool_covered": 113,
+        "top20_known_pool_covered": 108
+      },
+      "conditional_coverage": {
+        "initial_known_pool_covered": 0.7834394904458599,
+        "fused_known_pool_covered": 0.7197452229299363,
+        "top20_known_pool_covered": 0.6878980891719745
+      }
+    },
+    "expanded": {
+      "queries": 12,
+      "known_pool_direct_denominator": 157,
+      "counts": {
+        "initial_known_pool_covered": 157,
+        "fused_known_pool_covered": 136,
+        "top20_known_pool_covered": 123
+      },
+      "conditional_coverage": {
+        "initial_known_pool_covered": 1.0,
+        "fused_known_pool_covered": 0.8662420382165605,
+        "top20_known_pool_covered": 0.7834394904458599
+      }
+    }
+  },
+  "scope": "post hoc diagnosis of grade3 documents discovered in the shared Top20 blind pool; only queries with fully scored candidates included",
+  "selection_bias": "pool defined by evaluated rankers, no independent outside-pool sampling; expanded initial pool includes more routes",
+  "true_recall": false,
+  "claim": "conditional known-pool coverage only; cannot establish full-corpus completeness"
+}

@@ -1,0 +1,112 @@
+{
+  "utc": "2026-10-17T18:21:38.121891+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "prior KB and formal references unchanged",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "name": "all current study freezes intact",
+      "passed": true,
+      "detail": 12
+    },
+    {
+      "name": "requested scores partitioned into accepted and unknown",
+      "passed": true,
+      "detail": {
+        "accepted": 3411,
+        "unknown": 0
+      }
+    },
+    {
+      "name": "all score fields and unavailable quotations revalidated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cumulative old/new attempts never exceed three",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "name": "all former budget events retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "48 arm/query rows and transport exclusions explicit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "complete comparisons contain no missing scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blind full pool completed once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "registered judge spans/source and answer-free bodies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "uniform missing identity recovery explicitly audited",
+      "passed": true,
+      "detail": {
+        "utc": "2026-10-17T18:18:57.764587+00:00",
+        "metadata_repairs": 47,
+        "semantic_fields_changed": false,
+        "proven_pre_HTTP_cases": 4,
+        "old_HTTP_dispatches_for_these_cases": 0,
+        "clarify_limit": "at most three actual HTTP dispatches; proven connect-only failures are separately counted and were overly conservatively counted as requests",
+        "old_conservative_charges_retained": true,
+        "new_requests_reserved_separately": true,
+        "global_cap_usd": 2.0,
+        "new_transport_cycles_per_pair_at_most": 3,
+        "new_connect_attempts_per_cycle_at_most": 3,
+        "no_automatic_further_rescoping": true,
+        "all_pairs_scanned_uniformly": 674,
+        "old_accepted_grade_changes": 5,
+        "original_incomplete_snapshot_preserved": true,
+        "no_score_or_grade_based_selection": true
+      }
+    },
+    {
+      "name": "bounded zero-HTTP recovery only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "silver is never promoted to human",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "child delivery checksums unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "delivery adds only article40 after unchanged fixed42 trial",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no unsettled reservation and within cap",
+      "passed": true,
+      "detail": 0.7403971410000003
+    },
+    {
+      "name": "original primary gate not claimed",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "API_calls_by_this_verification": 0
+}

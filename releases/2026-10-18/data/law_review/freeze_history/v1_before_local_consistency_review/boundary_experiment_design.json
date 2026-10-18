@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-18T00:27:33.548140+08:00",
+  "status": "frozen_before_paid_evaluation",
+  "scope": "12组24条合成边界输入；不是检索测试题，不读取主代理新检索题",
+  "inputs": "boundary_inputs.jsonl",
+  "offline_only_reference": "boundary_reference.jsonl",
+  "sample_count": 24,
+  "pair_groups": 12,
+  "arms": [
+    {
+      "arm_id": "baseline",
+      "rules": "baseline_operational_rules.json"
+    },
+    {
+      "arm_id": "overlay",
+      "rules": "operational_rules_overlay.json",
+      "extra_context": [
+        "fact_and_scope_policy.json",
+        "source_verification.jsonl",
+        "support_articles.jsonl"
+      ]
+    }
+  ],
+  "max_logical_judgments": 48,
+  "charged_api_calls_by_this_agent": 0,
+  "common_fact_protocol": "background中独立给定的业务事实按题内事实采纳；只有说话人口述的外部事项不自动为真；外部未核验另记。此协议两臂一致，不只用于新臂。",
+  "common_evidence_protocol": "两臂应提供相同原文证据support_articles；新臂额外提供覆盖层及适用元数据。若旧/新臂材料量或提示同时变化，只能称组合补丁对照，不作单因素因果归因。",
+  "output_contract": {
+    "query_id": "输入ID",
+    "overall_state": "risk/no_risk/insufficient（范围限本次12机制）",
+    "supported_mechanisms": "明确成立的机制ID数组",
+    "target_predicates": "逐条件met/not_met/unknown及当前输入原句",
+    "applicable_sources": "适用来源及日期/产品/主体理由",
+    "excluded_sources": "明确不适用的来源及理由",
+    "external_verification": "not_performed或实际核验状态，不能覆盖题内事实口径",
+    "limitations": "依据不足/效力待核等"
+  },
+  "scoring": "分开评价整体三态、目标机制谓词、环节/日期/产品排除、无关额外机制和额外确定标签；G11第二条目标M11不成立但整体M02风险；目标unknown不等于整体insufficient（其他必要条件明确不满足可no_risk）。",
+  "reference_limit": "模型银标，组内配对不独立；G07第一条目标M07预先保留unknown，但因没有明确退款保证可接受整体no_risk，评分应按谓词和参考容许项，不把整体判待核当唯一金标。",
+  "contamination": "已知旧故障类型M01/M09/M11及同机制来源，不能声称机制独立或纯盲泛化；本次文字新写且未读取旧题文本和主代理检索题。",
+  "recommendation": "先调用前冻结SHA，再由主代理统一DeepSeek盲测；新旧臂请求均不得含boundary_reference。"
+}
