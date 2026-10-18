@@ -539,12 +539,12 @@
       "sha256": "b5c98027e4ffba35bb06c4dc3264c55b991311bd747207e0defdd2bfcce3fc28"
     },
     "README.md": {
-      "bytes": 4570,
-      "sha256": "28b16d55ae2f71e465194165ce38c6fcf2a33fc7d365805f707b0c47dad5103a"
+      "bytes": 4454,
+      "sha256": "575fff042bb0fad874f974f76122fa0fad680caabfa70115bcd8fac07a71bfe0"
     },
     "release_assets.json": {
-      "bytes": 988,
-      "sha256": "ceaca06911556d46cc7a3bb332531572c180c7e435d8855684f4a6d0e00ec13c"
+      "bytes": 999,
+      "sha256": "5af8ab67b75109837e5afdf35e7e48339dc6a92f606bb76f67287acb9acc605b"
     },
     "selection_provenance.json": {
       "bytes": 45882,

@@ -6,8 +6,8 @@
 
 ## 下载与使用
 
-- **知识库完整便携包**（约311MB）：[下载知识库ZIP](https://github.com/wzz356/finrisk-knowledge-base/releases/download/kb-p0-validated-20261018/FinRisk_%E7%9F%A5%E8%AF%86%E5%BA%93P0%E4%BF%AE%E5%A4%8D_%E4%BE%BF%E6%90%BA%E5%8C%85.zip)。包含9639文书、110878读取单元的消费索引、法规、指南、全部依赖代码与验收材料。SQLite库约600MB，解压后按接入说明运行持久实例。
-- **实验完整结果包**：[下载实验ZIP](https://github.com/wzz356/finrisk-knowledge-base/releases/download/kb-p0-validated-20261018/FinRisk_P0%E6%95%88%E6%9E%9C%E9%AA%8C%E8%AF%81_20261018_%E5%AE%8C%E6%95%B4%E7%BB%93%E6%9E%9C.zip)。包括36题、参考身份、3600重排分数、36范围提取、72配对判断的原始请求、全部响应/结构重试、共用费用账本、程序与审核记录。
+- **知识库完整便携包**（约311MB）：[下载知识库ZIP](https://github.com/wzz356/finrisk-knowledge-base/releases/download/kb-p0-validated-20261018/finrisk-kb-p0-20261018.zip)。包含9639文书、110878读取单元的消费索引、法规、指南、全部依赖代码与验收材料。SQLite库约600MB，解压后按接入说明运行持久实例。
+- **实验完整结果包**：[下载实验ZIP](https://github.com/wzz356/finrisk-knowledge-base/releases/download/kb-p0-validated-20261018/finrisk-p0-effect-validation-20261018.zip)。包括36题、参考身份、3600重排分数、36范围提取、72配对判断的原始请求、全部响应/结构重试、共用费用账本、程序与审核记录。
 - 本目录松散文件是精选浏览与复算入口；`knowledge/`缺少大型数据库等载荷，不能仅下载该子目录就声称获得完整可运行知识库。完整运行请下载便携包。无需下载完整包即可复算下面的保存指标。
 
 ## 工程验证与实测结果

@@ -9562,15 +9562,15 @@
     },
     "releases/2026-10-18-p0-validated/manifest.json": {
       "bytes": 22678,
-      "sha256": "30b3f3b1a43fe27c7477aeaac326b545385279d05e5a18e2a4a86ce3071496a9"
+      "sha256": "65ffe635f0132b636df8f70ddd6cc56dc9c3b5164a97caa4f6e01bf08b377c76"
     },
     "releases/2026-10-18-p0-validated/README.md": {
-      "bytes": 4570,
-      "sha256": "28b16d55ae2f71e465194165ce38c6fcf2a33fc7d365805f707b0c47dad5103a"
+      "bytes": 4454,
+      "sha256": "575fff042bb0fad874f974f76122fa0fad680caabfa70115bcd8fac07a71bfe0"
     },
     "releases/2026-10-18-p0-validated/release_assets.json": {
-      "bytes": 988,
-      "sha256": "ceaca06911556d46cc7a3bb332531572c180c7e435d8855684f4a6d0e00ec13c"
+      "bytes": 999,
+      "sha256": "5af8ab67b75109837e5afdf35e7e48339dc6a92f606bb76f67287acb9acc605b"
     },
     "releases/2026-10-18-p0-validated/selection_provenance.json": {
       "bytes": 45882,
